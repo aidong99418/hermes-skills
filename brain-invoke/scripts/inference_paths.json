@@ -1,0 +1,86 @@
+{
+  "version": "3.0",
+  "updated": "2026-05-23",
+  "inference_paths": [
+    {
+      "trigger": "Ollama模型调用失败",
+      "tier": 2,
+      "path": ["debugging", "llm_notes", "devops_notes"],
+      "action": "1.检查服务是否运行 2.检查端口11434 3.检查模型是否pull 4.查日志ERROR"
+    },
+    {
+      "trigger": "脚本KeyError崩溃",
+      "tier": 1,
+      "path": ["debugging", "coding"],
+      "action": "1.用.get()安全访问 2.加try/except 3.写进problem_types"
+    },
+    {
+      "trigger": "需要写新脚本",
+      "tier": 1,
+      "path": ["coding", "tool_templates", "scenarios"],
+      "action": "1.查tool_templates有无类似 2.查scenarios历史案例 3.写完存进brain"
+    },
+    {
+      "trigger": "架构选型问题",
+      "tier": 3,
+      "path": ["decision", "architecture", "research"],
+      "action": "1.列约束条件 2.查scenarios有无类似 3.给建议并说明原因 4.存进brain"
+    },
+    {
+      "trigger": "定期报告需求",
+      "tier": 1,
+      "path": ["data_analysis", "coding"],
+      "action": "1.确定数据源 2.写分析脚本 3.配置cron 4.存进brain/scenarios"
+    },
+    {
+      "trigger": "学习新知识",
+      "tier": 2,
+      "path": ["research", "scenarios"],
+      "action": "1.抓取来源 2.Ollama分析 3.写进brain/reasoning_patterns 4.更新connections"
+    },
+    {
+      "trigger": "我不知道的问题",
+      "tier": 3,
+      "path": ["research", "scenarios", "decision"],
+      "action": "1.外部知识获取 2.分析验证 3.整理成结论 4.写进brain"
+    },
+    {
+      "trigger": "安全/漏洞相关",
+      "tier": 3,
+      "path": ["research", "security_notes", "decision"],
+      "action": "1.查CVE/HN最新资讯 2.分析影响 3.给出建议 4.写进brain"
+    },
+    {
+      "trigger": "多模型协作任务",
+      "tier": 3,
+      "path": ["decision", "coding", "research"],
+      "action": "1.拆解子问题 2.派发各模型 3.汇总结果 4.整合输出"
+    }
+  ],
+  "team_model_roles": {
+    "hermes_main": {
+      "role": "团队Leader",
+      "responsibility": "最终决策、复杂推理、知识整合"
+    },
+    "deepseek_r1_7b": {
+      "role": "推理专家",
+      "responsibility": "复杂多步推理、逻辑分析、方案评估",
+      "best_for": ["分析问题", "权衡方案", "逻辑推理"]
+    },
+    "qwen_7b": {
+      "role": "工具专家",
+      "responsibility": "复杂任务执行、代码生成、脚本编写",
+      "best_for": ["写代码", "执行复杂命令", "多步骤任务"]
+    },
+    "qwen_3b": {
+      "role": "打工仔",
+      "responsibility": "后台学习任务、数据分析、报告生成",
+      "best_for": ["定时任务", "数据分析", "文档整理"]
+    },
+    "smollm_1b": {
+      "role": "快手",
+      "responsibility": "简单批量任务、快速检索、状态检查",
+      "best_for": ["批量查询", "简单统计", "状态汇报"]
+    }
+  }
+}

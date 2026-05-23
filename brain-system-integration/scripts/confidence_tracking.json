@@ -1,0 +1,412 @@
+{
+  "2503b1ec3005": {
+    "base_conf": 0.85,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "external_learn_20260523.md",
+    "size": 2215,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/external_learn_20260523.md"
+  },
+  "d47f1d5b9953": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "external_insights_20260523.md",
+    "size": 492,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "reasoning_patterns/content/external_insights_20260523.md"
+  },
+  "557ca26879bb": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "brain_architecture_v2.md",
+    "size": 2269,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "brain_architecture_v2.md"
+  },
+  "ff48148d9cfa": {
+    "base_conf": 0.85,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "ai_learn_20260523.md",
+    "size": 1615,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/ai_learn_20260523.md"
+  },
+  "9f99d7f5696a": {
+    "base_conf": 0.85,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "security_learn_20260523.md",
+    "size": 1618,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/security_learn_20260523.md"
+  },
+  "0a63e4a9779b": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "trigger_config.md",
+    "size": 1425,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "trigger_config.md"
+  },
+  "8ce151b55220": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "debugging.json",
+    "size": 568,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/debugging.json"
+  },
+  "4faed19a8d17": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "coding.json",
+    "size": 502,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/coding.json"
+  },
+  "a8fe30e7b0bf": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "data_analysis.md",
+    "size": 1023,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/data_analysis.md"
+  },
+  "105b7c29309a": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "debugging.md",
+    "size": 1124,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/debugging.md"
+  },
+  "c2fa2861f8db": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "decision.md",
+    "size": 912,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/decision.md"
+  },
+  "bc1b69bbc894": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "research.md",
+    "size": 688,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/research.md"
+  },
+  "dd4c08a34ba6": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-23",
+    "source": "coding.md",
+    "size": 1199,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/coding.md"
+  },
+  "e6d341191af2": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "code_editing.md",
+    "size": 1211,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "tool_templates/code_editing.md"
+  },
+  "80eb95007003": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "delegate_task.md",
+    "size": 1022,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "tool_templates/delegate_task.md"
+  },
+  "44522d42dbc8": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "vision_analyze.md",
+    "size": 1254,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "tool_templates/vision_analyze.md"
+  },
+  "426d398b5b28": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "execute_code.md",
+    "size": 846,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "tool_templates/execute_code.md"
+  },
+  "f4474d3de099": {
+    "base_conf": 0.8,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "terminal.md",
+    "size": 1416,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "tool_templates/terminal.md"
+  },
+  "ca12af94e6f7": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "index.json",
+    "size": 749,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "index.json"
+  },
+  "dd918b7c70a1": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "data_analysis.json",
+    "size": 235,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/data_analysis.json"
+  },
+  "9e0b8b3a4b45": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "architecture.json",
+    "size": 241,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/architecture.json"
+  },
+  "3e964e78501e": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "decision.json",
+    "size": 241,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/decision.json"
+  },
+  "b2d7666a67bf": {
+    "base_conf": 0.72,
+    "age_days": 0,
+    "created": "2026-05-22",
+    "source": "research.json",
+    "size": 238,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "problem_types/research.json"
+  },
+  "420b014e6109": {
+    "base_conf": 0.77,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "daily_insights_20260522.md",
+    "size": 51,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/daily_insights_20260522.md"
+  },
+  "64d619dced62": {
+    "base_conf": 0.85,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "ai_insights.md",
+    "size": 2033,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/ai_insights.md"
+  },
+  "fb44bcd922d0": {
+    "base_conf": 0.8,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "security_notes.md",
+    "size": 2218,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "reasoning_patterns/content/security_notes.md"
+  },
+  "fb9282140906": {
+    "base_conf": 0.77,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "daily_insights_20260517.md",
+    "size": 466,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/daily_insights_20260517.md"
+  },
+  "2fc2a2c7837a": {
+    "base_conf": 0.77,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "daily_insights_20260518.md",
+    "size": 574,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/daily_insights_20260518.md"
+  },
+  "1eaadbd4980f": {
+    "base_conf": 0.77,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "daily_insights_20260519.md",
+    "size": 561,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/daily_insights_20260519.md"
+  },
+  "41ad7c6ddd78": {
+    "base_conf": 0.77,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "daily_insights_20260520.md",
+    "size": 611,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/daily_insights_20260520.md"
+  },
+  "a7d6dcdbdde8": {
+    "base_conf": 0.77,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "daily_insights_20260521.md",
+    "size": 660,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/daily_insights_20260521.md"
+  },
+  "744fc3836867": {
+    "base_conf": 0.77,
+    "age_days": 1,
+    "created": "2026-05-22",
+    "source": "daily_insights_20260516.md",
+    "size": 51,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/daily_insights_20260516.md"
+  },
+  "b8711b0710c6": {
+    "base_conf": 0.87,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "coding_patterns.md",
+    "size": 44217,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "reasoning_patterns/content/coding_patterns.md"
+  },
+  "c869184a6d11": {
+    "base_conf": 0.87,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "llm_notes.md",
+    "size": 14275,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "reasoning_patterns/content/llm_notes.md"
+  },
+  "5e9aa2ebbb95": {
+    "base_conf": 0.87,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "devops_notes.md",
+    "size": 6224,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "reasoning_patterns/content/devops_notes.md"
+  },
+  "c501ab14bc54": {
+    "base_conf": 0.92,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "networking_basics.md",
+    "size": 9890,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/networking_basics.md"
+  },
+  "1f6bdbe356a3": {
+    "base_conf": 0.92,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "git_workflow.md",
+    "size": 7129,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/git_workflow.md"
+  },
+  "a37a5fefc16c": {
+    "base_conf": 0.85,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "system_prompt_machinedora.md",
+    "size": 1805,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/cases/system_prompt_machinedora.md"
+  },
+  "529385af7375": {
+    "base_conf": 0.87,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "python_mastery.md",
+    "size": 10356,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "reasoning_patterns/content/python_mastery.md"
+  },
+  "84862ee69873": {
+    "base_conf": 0.92,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "shell_scripting.md",
+    "size": 9100,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/shell_scripting.md"
+  },
+  "9bccd3ca82d9": {
+    "base_conf": 0.92,
+    "age_days": 1,
+    "created": "2026-05-21",
+    "source": "docker_devops.md",
+    "size": 7509,
+    "times_used": 0,
+    "times_failed": 0,
+    "path": "scenarios/docker_devops.md"
+  }
+}

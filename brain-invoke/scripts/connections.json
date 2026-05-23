@@ -1,0 +1,264 @@
+{
+  "version": "3.0",
+  "updated": "2026-05-23",
+  "thinking_tiers": {
+    "tier1_fast": {
+      "description": "快速通道，不激活大脑",
+      "trigger": "简单确定问题，有明确答案",
+      "action": "直接回答，不检索brain"
+    },
+    "tier2_think": {
+      "description": "思考通道，激活大脑",
+      "trigger": "复杂/不确定/需分析的问题",
+      "action": "brain检索 → RAG检索 → 外部知识 → 团队协作"
+    },
+    "tier3_team": {
+      "description": "团队协作，高不确定/高风险",
+      "trigger": "重大决策/多领域/我没见过",
+      "action": "派发子问题给本地模型 → 汇总分析 → 整合判断"
+    }
+  },
+  "connections": [
+    {
+      "from": "debugging",
+      "to": "coding",
+      "weight": 0.8,
+      "reason": "调试中发现的问题常源于编码模式，需要反馈到编码知识"
+    },
+    {
+      "from": "debugging",
+      "to": "terminal",
+      "weight": 0.9,
+      "reason": "调试主要依赖terminal工具链"
+    },
+    {
+      "from": "research",
+      "to": "decision",
+      "weight": 0.7,
+      "reason": "研究结论支撑架构决策"
+    },
+    {
+      "from": "research",
+      "to": "scenarios",
+      "weight": 0.8,
+      "reason": "研究完要写进场景案例库"
+    },
+    {
+      "from": "decision",
+      "to": "architecture",
+      "weight": 0.9,
+      "reason": "决策产出就是架构设计"
+    },
+    {
+      "from": "decision",
+      "to": "data_analysis",
+      "weight": 0.6,
+      "reason": "决策常需要数据分析支撑"
+    },
+    {
+      "from": "coding",
+      "to": "tool_templates",
+      "weight": 0.7,
+      "reason": "好代码模式要固化到工具模板"
+    },
+    {
+      "from": "data_analysis",
+      "to": "research",
+      "weight": 0.5,
+      "reason": "数据分析中发现的问题需要深入研究"
+    },
+    {
+      "from": "ai_learn_20260523",
+      "to": "research",
+      "weight": 0.8,
+      "reason": "每日AI学习 → 触发research问题类型"
+    },
+    {
+      "from": "security_learn_20260523",
+      "to": "research",
+      "weight": 0.8,
+      "reason": "每日安全学习 → 触发research问题类型"
+    }
+  ],
+  "problem_to_brain": {
+    "terminal工具使用": [
+      "debugging",
+      "coding"
+    ],
+    "模型调用/Ollama": [
+      "debugging",
+      "research",
+      "llm_notes"
+    ],
+    "数据抓取/爬虫": [
+      "coding",
+      "data_analysis"
+    ],
+    "自动化脚本/cron": [
+      "coding",
+      "decision",
+      "architecture"
+    ],
+    "容错/异常处理": [
+      "debugging",
+      "coding"
+    ],
+    "系统监控/健康守护": [
+      "data_analysis",
+      "decision"
+    ],
+    "知识管理/记忆系统": [
+      "research",
+      "decision"
+    ]
+  },
+  "cross_domain_links": [
+    {
+      "keywords": [
+        "docker",
+        "容器",
+        "container"
+      ],
+      "trigger": [
+        "debugging",
+        "coding",
+        "devops_notes"
+      ],
+      "tier": "tier2"
+    },
+    {
+      "keywords": [
+        "nas",
+        "存储",
+        "磁盘",
+        "disk",
+        "空间"
+      ],
+      "trigger": [
+        "debugging",
+        "decision"
+      ],
+      "tier": "tier1"
+    },
+    {
+      "keywords": [
+        "llm",
+        "大模型",
+        "ollama",
+        "模型",
+        "prompt"
+      ],
+      "trigger": [
+        "research",
+        "llm_notes"
+      ],
+      "tier": "tier2"
+    },
+    {
+      "keywords": [
+        "shell",
+        "脚本",
+        "bash",
+        "命令行"
+      ],
+      "trigger": [
+        "coding",
+        "shell_scripting"
+      ],
+      "tier": "tier1"
+    },
+    {
+      "keywords": [
+        "python",
+        "脚本"
+      ],
+      "trigger": [
+        "coding",
+        "python_mastery"
+      ],
+      "tier": "tier1"
+    },
+    {
+      "keywords": [
+        "错误",
+        "报错",
+        "失败",
+        "error",
+        "failed",
+        "crash"
+      ],
+      "trigger": [
+        "debugging"
+      ],
+      "tier": "tier2"
+    },
+    {
+      "keywords": [
+        "设计",
+        "架构",
+        "方案",
+        "怎么选",
+        "哪个好",
+        "权衡"
+      ],
+      "trigger": [
+        "decision",
+        "architecture"
+      ],
+      "tier": "tier3"
+    },
+    {
+      "keywords": [
+        "分析",
+        "报告",
+        "统计",
+        "数据"
+      ],
+      "trigger": [
+        "data_analysis",
+        "research"
+      ],
+      "tier": "tier1"
+    },
+    {
+      "keywords": [
+        "思考",
+        "想一想",
+        "分析一下",
+        "区别",
+        "原理"
+      ],
+      "trigger": [
+        "research"
+      ],
+      "tier": "tier2"
+    },
+    {
+      "keywords": [
+        "安全",
+        "攻击",
+        "漏洞",
+        "权限",
+        "hack"
+      ],
+      "trigger": [
+        "research",
+        "security_notes"
+      ],
+      "tier": "tier3"
+    },
+    {
+      "keywords": [
+        "学习",
+        "arxiv",
+        "论文",
+        "cve",
+        "hn"
+      ],
+      "trigger": [
+        "research"
+      ],
+      "tier": "tier2"
+    }
+  ]
+}

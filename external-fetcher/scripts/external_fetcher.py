@@ -168,8 +168,11 @@ def analyze_with_ollama(question: str, external_data: dict, model: str = "qwen2.
             json={"model": model, "prompt": prompt, "stream": False},
             timeout=90
         )
-        result = json.loads(resp.text)
-        return result.get("response", "分析失败")
+        # Ollama返回NDJSON，需逐行拼接response片段
+        lines = resp.text.strip().split('\n')
+        return ''.join(
+            json.loads(l).get('response', '') for l in lines if l.strip()
+        ) or "分析失败"
         
     except Exception as e:
         print(f"  ⚠️ Ollama分析失败: {e}")
