@@ -1,0 +1,130 @@
+# Agent Skills 生命周期框架（addyosmani/agent-skills）
+
+## 核心定位
+
+**Agent Skills** = 23个生产级工程技能，封装了资深工程师的开发流程、质量门禁和最佳实践。
+
+7条斜杠命令覆盖完整开发周期，每个技能包含步骤+验证门禁+反自我辩护表。
+
+---
+
+## 七大开发命令
+
+| 阶段 | 命令 | 核心原则 |
+|------|------|---------|
+| 定义做什么 | `/spec` | 先规格后代码 |
+| 计划怎么做 | `/plan` | 小而原子 |
+| 增量构建 | `/build` | 每次一片 |
+| 证明可用 | `/test` | 测试即证明 |
+| 合并前审查 | `/review` | 提升代码健康度 |
+| 简化代码 | `/code-simplify` | 清晰优先于聪明 |
+| 上线生产 | `/ship` | 更快更安全 |
+
+---
+
+## 23技能分类总览
+
+### Define — 澄清需求（3个）
+
+| 技能 | 何时使用 |
+|------|---------|
+| `interview-me` | 需求不明确，或用户说"grill me" |
+| `idea-refine` | 有模糊概念需要结构化探索 |
+| `spec-driven-development` | 新项目/功能/重大变更前写PRD |
+
+### Plan — 拆分任务（1个）
+
+| 技能 | 何时使用 |
+|------|---------|
+| `planning-and-task-breakdown` | 有规格后分解为可验证任务 |
+
+### Build — 编写代码（7个）
+
+| 技能 | 何时使用 |
+|------|---------|
+| `incremental-implementation` | 变更涉及多个文件 |
+| `test-driven-development` | 实现逻辑、修复bug、改变行为 |
+| `context-engineering` | 启动会话、切换任务、输出质量下降 |
+| `source-driven-development` | 需要权威的框架/库官方代码 |
+| `doubt-driven-development` | 高风险生产/安全/不可逆决策 |
+| `frontend-ui-engineering` | 构建/修改用户界面 |
+| `api-and-interface-design` | 设计API、模块边界、公共接口 |
+
+### Verify — 证明可用（2个）
+
+| 技能 | 何时使用 |
+|------|---------|
+| `browser-testing-with-devtools` | Chrome DevTools MCP取运行时数据 |
+| `debugging-and-error-recovery` | 测试失败/构建中断/行为异常 |
+
+### Review — 质量门禁（4个）
+
+| 技能 | 何时使用 |
+|------|---------|
+| `code-review-and-quality` | 合并前代码审查 |
+| `code-simplification` | 代码可读/可维护性差 |
+| `security-and-hardening` | 处理用户输入/认证/数据存储 |
+| `performance-optimization` | 性能需求存在或怀疑退化 |
+
+### Ship — 部署上线（4个）
+
+| 技能 | 何时使用 |
+|------|---------|
+| `git-workflow-and-versioning` | 任何代码变更（始终使用） |
+| `ci-cd-and-automation` | 设置/修改构建和部署流水线 |
+| `deprecation-and-migration` | 移除旧系统、迁移用户、淘汰功能 |
+| `documentation-and-adrs` | 做架构决策、变更API、发布功能 |
+
+### Shipping — 最终交付（1个）
+
+| 技能 | 何时使用 |
+|------|---------|
+| `shipping-and-launch` | 准备发布到生产环境 |
+
+---
+
+## 技能解剖标准格式
+
+```
+SKILL.md
+├── Frontmatter
+│   ├── name: lowercase-hyphen-name
+│   ├── description: 触发条件描述（Use when...）
+│   └── disable-model-invocation: true  (可选)
+├── Overview/Philosophy     → 技能做什么，为什么重要
+├── When to Use             → 触发条件和触发词
+├── Process                 → 编号步骤，含决策树
+├── Rationalizations        → agent常用借口+反驳
+├── Red Flags               → 警示信号
+└── Verification            → 验证标准（建议）
+```
+
+**关键设计原则**：
+- **过程，而非散文** — 技能是agent遵循的工作流，而非参考资料
+- **反理性化** — 每个技能包含常见借口表（如"以后再加测试"）并明确驳斥
+- **验证不可协商** — 每个技能以证据要求结尾（测试通过、构建输出、运行时数据）
+- **渐进披露** — `SKILL.md`是入口，引用资料按需加载
+
+---
+
+## 技能 vs 反模式
+
+| 常见借口（agent） | 正确应对 |
+|-----------------|---------|
+| "这只是原型，以后再加测试" | 测试是功能的一部分，原型代码也必须能跑通测试 |
+| "这个PR太大了，下次再review" | 大PR必须拆分，review是门禁不是可选步骤 |
+| "显而易见的实现，不用写文档" | 代码记录why而非what，ADR记录架构决策 |
+| "这个变更太小，不需要提PR" | Trunk-based开发：每条提交都是一个save point |
+
+---
+
+## 对Hermes的启发
+
+| Agent Skills原则 | Hermes适配 |
+|-----------------|-----------|
+| 7命令=开发周期 | 3-tier思考引擎（直接/检索/派发）|
+| 技能+anti-rationalization | auto-learning的反馈闭环 |
+| 渐进披露token优化 | 分层brain文档（principles/patterns/references）|
+| 验证非可选 | skill质量必须有eval证据 |
+
+> 来源：[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — MIT License

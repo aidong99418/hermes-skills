@@ -1,539 +1,3102 @@
 {
-  "version": "1.0",
-  "updated": "2026-05-23",
-  "description": "所有skill的神经激活元数据汇总",
-  "total_skills": 14,
-  "skills": [
+  "_meta": {
+    "version": "1.0",
+    "created": "2026-05-23",
+    "description": "机器猫神经网络 - skills和brain文档的语义连接图",
+    "total_nodes": 68,
+    "total_connections": 171
+  },
+  "nodes": [
     {
-      "name": "zoom-out",
-      "file": "imported/mattpocock/zoom-out.md",
-      "meta_file": "imported/mattpocock/zoom-out.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "zoom-out",
-      "source": "mattpocock/zoom-out.md",
-      "repo": "mattpocock",
-      "triggers": [
-        "地图",
-        "全貌",
-        "不熟悉",
-        "整体结构",
-        "模块关系",
-        "上下文",
-        "上层",
-        "鸟瞰",
-        "全局"
+      "id": "tdd_engineering",
+      "type": "brain_doc",
+      "name": "tdd_engineering",
+      "file": "principles/tdd-engineering.md",
+      "keywords": [
+        "mock",
+        "增量循环",
+        "https",
+        "这是你的",
+        "完整内容",
+        "实现重构了就",
+        "水平切片",
+        "东西",
+        "所有代码",
+        "没有加入投机",
+        "形状测试",
+        "识别深模块机",
+        "列出要测试的",
+        "test3",
+        "端可行"
       ],
-      "activates_nodes": [
-        "research",
-        "architecture"
-      ],
-      "strengthens": [
-        {
-          "from": "research",
-          "to": "architecture",
-          "delta": 0.4
-        }
-      ],
-      "min_tier": 1,
-      "description": "全局视角，跳出细节看整体",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "# TDD工程实践（mattpocock）\n\n## 核心原则\n\n**测试通过公共API验证行为，不测试实现细节。**\n代码可以完全重构，测试不应该坏。\n\n好测试",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "grill-with-docs",
-      "file": "imported/mattpocock/grill-with-docs.md",
-      "meta_file": "imported/mattpocock/grill-with-docs.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "grill-with-docs",
-      "source": "mattpocock/grill-with-docs.md",
-      "repo": "mattpocock",
-      "triggers": [
-        "压力测试",
-        "挑战计划",
-        "审视",
-        "质疑",
-        "风险点",
-        "决策",
-        "方案缺陷",
-        "评审"
+      "id": "cron_silent_mode",
+      "type": "brain_doc",
+      "name": "cron_silent_mode",
+      "file": "principles/cron_silent_mode.md",
+      "keywords": [
+        "status",
+        "抓取",
+        "归档",
+        "任务静默模式",
+        "每日学习",
+        "静默",
+        "local",
+        "自动学习",
+        "日志分析",
+        "备份",
+        "模式",
+        "行为",
+        "设计",
+        "changed",
+        "适合静默的"
       ],
-      "activates_nodes": [
-        "decision",
-        "research"
-      ],
-      "strengthens": [
-        {
-          "from": "decision",
-          "to": "research",
-          "delta": 0.3
-        }
-      ],
-      "min_tier": 3,
-      "description": "追问式压力测试，暴露方案漏洞",
-      "deployment_candidates": [
-        "conditional"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "# Cron任务静默模式设计\n\n> 来源：hermes-addons best-practices | 存入：2026-05-26\n\n## 核心原则\n\n用户不需",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "tdd",
-      "file": "imported/mattpocock/tdd.md",
-      "meta_file": "imported/mattpocock/tdd.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "tdd",
-      "source": "mattpocock/tdd.md",
-      "repo": "mattpocock",
-      "triggers": [
-        "测试",
-        "TDD",
-        "红绿重构",
-        "test",
-        "测试驱动",
-        "单元测试",
-        "集成测试",
-        "先写测试"
+      "id": "moss_self_evolution",
+      "type": "brain_doc",
+      "name": "moss_self_evolution",
+      "file": "principles/moss-self-evolution.md",
+      "keywords": [
+        "hook",
+        "现有自进化只",
+        "对机器猫系统",
+        "memory",
+        "turing",
+        "永远触不到根",
+        "方案",
+        "routing",
+        "如修改",
+        "不到",
+        "学习路由自己",
+        "工具本身的行",
+        "现有方案",
+        "顺序",
+        "不到的"
       ],
-      "activates_nodes": [
+      "description": "# MOSS: 源码级自进化Agent\n\n> 核心来源: arXiv 2605.22794 | 2026-05-21 | Qianshu Cai et al.\n",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "prototype_branching",
+      "type": "brain_doc",
+      "name": "prototype_branching",
+      "file": "principles/prototype-branching.md",
+      "keywords": [
+        "记为",
+        "组件",
+        "https",
+        "后暴露完整状",
+        "两分支通用规",
+        "跳过所有打磨",
+        "不同的",
+        "不做抽象",
+        "做法",
+        "精确的问题",
+        "旁边",
+        "块旁边",
+        "代码",
+        "一条命令就能",
+        "放在实际模块"
+      ],
+      "description": "# 快速原型分支决策（mattpocock）\n\n## 核心问题：原型要回答什么问题？\n\n问题决定了原型的形状，选错分支=白做。\n\n## 两个分支\n\n### 分支",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "lcguard_multiagent_security",
+      "type": "brain_doc",
+      "name": "lcguard_multiagent_security",
+      "file": "principles/lcguard-multiagent-security.md",
+      "keywords": [
+        "cache",
+        "显式可审计",
+        "信息共享必须",
+        "对机器猫系统",
+        "guard",
+        "privacy",
+        "的推理",
+        "方案",
+        "显式通信可审",
+        "直接进上下文",
+        "这些不会显式",
+        "不是所有工具",
+        "中的信息需要",
+        "agent",
+        "安全门"
+      ],
+      "description": "# LCGuard: 多Agent KV通信安全防护\n\n> 核心来源: arXiv 2605.22786 | 2026-05-21 | Asif et al.\n",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "mcp_integration",
+      "type": "brain_doc",
+      "name": "mcp_integration",
+      "file": "principles/mcp-integration.md",
+      "keywords": [
+        "环境变量需显",
+        "https",
+        "env",
+        "环境变量默认",
+        "文件读写",
+        "一前缀",
+        "protocol",
+        "credentials",
+        "传输",
+        "server-filesystem",
+        "modelcontextprotocol",
+        "ghp",
+        "无需配置",
+        "两种方式",
+        "time"
+      ],
+      "description": "# MCP (Model Context Protocol) 集成\n\n## 概览\nMCP是连接Hermes Agent和外部工具的桥梁协议。通过配置，可以把任意",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "agent_behavior_guardrails",
+      "type": "brain_doc",
+      "name": "agent_behavior_guardrails",
+      "file": "principles/agent-behavior-guardrails.md",
+      "keywords": [
+        "https",
+        "after",
+        "提交",
+        "有重复就停下",
+        "hansen",
+        "都要填真实答",
+        "里展示",
+        "确认变更属于",
+        "不是散文",
+        "diff",
+        "护人类伙伴不",
+        "必须描述具体",
+        "closed",
+        "在提出",
+        "不开"
+      ],
+      "description": "# AI Agent行为准则（superpowers教训）\n\n## 核心原则：保护人类伙伴免受尴尬\n\n**94%的PR会被拒绝**，大多数来自没读规则的AI a",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "taste_design_principles",
+      "type": "brain_doc",
+      "name": "taste_design_principles",
+      "file": "principles/taste-design-principles.md",
+      "keywords": [
+        "鸡蛋头像",
+        "loading",
+        "https",
+        "会跳动",
+        "前端审美设计",
+        "leading-relaxed",
+        "strokewidth",
+        "动效强度",
+        "要用",
+        "只用",
+        "ios",
+        "影模拟物理折",
+        "design",
+        "leading-none",
+        "不用"
+      ],
+      "description": "# AI前端审美设计原则（taste-skill）\n\n## 核心三旋钮\n\nAI生成UI时的可调参数，基线值：(8, 6, 4)\n\n| 旋钮 | 范围 | 含义 ",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "git_learning_workflow",
+      "type": "brain_doc",
+      "name": "git_learning_workflow",
+      "file": "principles/git_learning_workflow.md",
+      "keywords": [
+        "https",
+        "推理模式",
+        "digest",
+        "而非删除重装",
+        "目的和核心能",
+        "feat",
+        "中文检索失败",
+        "验证检索",
+        "knowledge",
+        "加速",
+        "assert",
+        "自进化",
+        "原则",
+        "无效",
+        "命令"
+      ],
+      "description": "# GitHub技能学习 → 本地模型同步工作流\n\n## 触发条件\n\n- 用户说\\\"把Git里的好东西都学习掌握\\\"\n- 仓库有重大更新需要同步\n\n## 执行步",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "vector_policy_optimization",
+      "type": "brain_doc",
+      "name": "vector_policy_optimization",
+      "file": "principles/vector-policy-optimization.md",
+      "keywords": [
+        "vpo",
+        "后训练通常优",
+        "对边界情况的",
+        "种奖励信号下",
+        "对机器猫系统",
+        "不追求单峰最",
+        "对多样化奖励",
+        "样性救场",
+        "压制了多样性",
+        "sample",
+        "命中率",
+        "metric",
+        "训练多样性",
+        "而是优化策略",
+        "模型除了准"
+      ],
+      "description": "# VPO: 多样性驱动的策略优化\n\n> 核心来源: arXiv 2605.22817 | 2026-05-21 | Bahlous-Boldi et al.\n",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "model_tier_system",
+      "type": "brain_doc",
+      "name": "model_tier_system",
+      "file": "knowledge/model_tier_system.md",
+      "keywords": [
+        "后台分析",
+        "剩多少",
+        "思考后答",
+        "generate",
+        "体系",
+        "脚本生成",
+        "降级",
+        "服务不中断",
+        "避免",
+        "冷启动",
+        "角色",
+        "层级",
+        "tool",
+        "触发场景",
+        "模型深推理"
+      ],
+      "description": "# Ollama 模型分层调度体系\n\n## 核心原则\n\n> 按问题复杂度分配模型资源——简单问题用小模型快响应，复杂问题用大模型深推理。\n\n## 四层架构\n\n|",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "ollama_python_sdk",
+      "type": "brain_doc",
+      "name": "ollama_python_sdk",
+      "file": "knowledge/ollama-python-sdk.md",
+      "keywords": [
+        "zyzj",
+        "ejf",
+        "ejfh"
+      ],
+      "description": ":YZ\u001a'H2,%ejfh㥕:YZ\u001a'?+a}ejf<DD\u0000)h蚉ejf+ZyZj\u001dz",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "brain_core_principles",
+      "type": "brain_doc",
+      "name": "brain_core_principles",
+      "file": "knowledge/brain-core-principles.md",
+      "keywords": [
+        "并持续改进",
+        "只在连续",
+        "模型浪费",
+        "后台分析",
+        "推理模式",
+        "便于检索",
+        "存约",
+        "tmp",
+        "同类问题反复",
+        "容器状态",
+        "local",
+        "宕机",
+        "复杂问题用小",
+        "场景",
+        "的方案"
+      ],
+      "description": "---\nname: brain-core-principles\ndescription: 从best-practices和skills中提取的核心知识体系\nve",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "open_interpreter_execution",
+      "type": "brain_doc",
+      "name": "open_interpreter_execution",
+      "file": "knowledge/open-interpreter-execution.md",
+      "keywords": [
+        "system",
+        "https",
+        "stream",
+        "回复",
+        "端点",
+        "长对话",
+        "local",
+        "本地模式默认",
+        "恢复",
+        "tokens",
+        "pip",
+        "install",
+        "在本地运行代",
+        "mikebirdtech",
+        "llamafile"
+      ],
+      "description": "# Open Interpreter 执行环境\n\n## 核心定位\n\n**Open Interpreter** 让LLM在本地运行代码（Python / Java",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "ollama_platform_ecosystem",
+      "type": "brain_doc",
+      "name": "ollama_platform_ecosystem",
+      "file": "knowledge/ollama-platform-ecosystem.md",
+      "keywords": [
+        "sky",
+        "ai-tooklit",
+        "system",
+        "https",
+        "cpp",
+        "stream",
+        "net",
+        "dart",
+        "julia",
+        "任意",
+        "irm",
+        "local",
+        "infiniflow",
+        "tokens",
+        "aka"
+      ],
+      "description": "# Ollama 平台生态体系\n\n## 核心定位\n\n**Ollama** = 本地大模型运行平台 + OpenAI兼容REST API + llama.cpp后",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "ollama_model_tiers",
+      "type": "brain_doc",
+      "name": "ollama_model_tiers",
+      "file": "knowledge/ollama_model_tiers.md",
+      "keywords": [
+        "后台分析",
+        "工具调用约定",
+        "剩多少",
+        "模型按能力分",
+        "记录",
+        "思考后答",
+        "generate",
+        "体系",
+        "脚本生成",
+        "降级",
+        "服务不中断",
+        "避免",
+        "冷启动",
+        "角色",
+        "层级"
+      ],
+      "description": "# Ollama 模型分层调度体系\n\n> 来源：hermes-addons best-practices（顶级skill仓库提炼）| 存入：2026-05-26",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "vercel_ai_sdk_patterns",
+      "type": "brain_doc",
+      "name": "vercel_ai_sdk_patterns",
+      "file": "reasoning_pattern/vercel-ai-sdk-patterns.md",
+      "keywords": [
+        "fhj",
+        "myv",
+        "ujx",
+        "wfqmy",
+        "oez",
+        "vzg",
+        "r8r8z",
+        "hlij",
+        "kjx",
+        "gzf",
+        "zfyb",
+        "xzmzm",
+        "zgku",
+        "mjv",
+        "gfwi"
+      ],
+      "description": "UzP\bH2z_ډWq@! ʚhO*^I\bUzP\bH2ʗrZ*mH2 \u0002\u000fu̢z+z),\u001e+z\fz+z)i\u001a?j$*zfj*ZrFz鮋uϮuڊd'^\u001ekz[\u000f",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "superpowers_workflow",
+      "type": "brain_doc",
+      "name": "superpowers_workflow",
+      "file": "reasoning_pattern/superpowers-workflow.md",
+      "keywords": [
+        "验证步骤",
+        "每个任务派发",
+        "自动触发串联",
+        "丢弃",
+        "https",
+        "步开发流水线",
+        "写计划",
+        "验证测试",
+        "代码质量审查",
+        "写测试前删掉",
+        "流程优于猜测",
+        "验证干净测试",
+        "reduction",
+        "请求审查",
+        "设计批准后激"
+      ],
+      "description": "# Superpowers 7步开发流水线\n\n## 概述\n\nSuperpowers（203K★）是AI Coding Agent的全栈开发方法论，7个skill",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "collaborative_protocol",
+      "type": "brain_doc",
+      "name": "collaborative_protocol",
+      "file": "reasoning_pattern/collaborative-protocol.md",
+      "keywords": [
+        "先展示草稿而",
+        "协作",
+        "批量重命名",
+        "escalation",
+        "业知识",
+        "不修改其职责",
+        "简洁",
+        "不要列太多选",
+        "日志分析",
+        "核心理念",
+        "格式转换",
+        "code",
+        "用户永远在控",
+        "数据库迁移",
+        "删除代码"
+      ],
+      "description": "# 协作协议五步法\n\n> 来源: Claude Code Game Studios — 核心原则\n\n## 核心理念\n\n**协作，而非自主。** Agent提供结",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "hook_automation",
+      "type": "brain_doc",
+      "name": "hook_automation",
+      "file": "reasoning_pattern/hook-automation.md",
+      "keywords": [
+        "压缩前保存进",
+        "自动拦截",
+        "命令类型过滤",
+        "hook",
+        "post-compact",
+        "归档",
+        "建议",
+        "计记录",
+        "记录",
+        "detect-gaps",
+        "gaps",
+        "个自动化钩子",
+        "detect",
+        "精准触发",
+        "windows"
+      ],
+      "description": "# Hook自动化系统\n\n> 来源: Claude Code Game Studios — 12个自动化钩子\n\n## 核心理念\n\n自动化安全检查 + 会话生命周",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "self_evolution_pattern",
+      "type": "brain_doc",
+      "name": "self_evolution_pattern",
+      "file": "reasoning_pattern/self_evolution_pattern.md",
+      "keywords": [
+        "并持续改进",
+        "feedback",
+        "用户否定答案",
+        "confidence",
+        "优先静默修复",
+        "同类问题反复",
+        "记录",
+        "容器状态",
+        "每日汇总",
+        "命中率",
+        "jsonl",
+        "vision",
+        "主动自检规范",
+        "知用户",
+        "好奇心动引擎"
+      ],
+      "description": "# 自进化系统设计模式\n\n## 核心原则\n\n> 好的系统能\"观察自己\"并持续改进，无需人工干预。\n\n## 五层自进化架构\n\n```\n好奇心动引擎 → 盲区检测 ",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "deer_flow_harness",
+      "type": "brain_doc",
+      "name": "deer_flow_harness",
+      "file": "reasoning_pattern/deer-flow-harness.md",
+      "keywords": [
+        "gszw",
+        "zpz",
+        "wzk",
+        "u1z",
+        "r-ojt",
+        "zzj",
+        "jgz",
+        "xyj",
+        "zzx",
+        "jirjif",
+        "u1i",
+        "azi",
+        "m6n",
+        "hbz",
+        "lhc"
+      ],
+      "description": "\n\u0016Z0J^\b\u001eڮwy֧qyߖ\u0001׃jw\u001em6n\u001a+Gzwb\nCyŖ\u0003yDƙhbvtG߉Ȟ^r\u0011e\u0000 z{Gj޲.m\u001e&zj+Ƨu1z$Ylm\u000bjx\u0006a(Zpz^",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "multi_agent_patterns",
+      "type": "brain_doc",
+      "name": "multi_agent_patterns",
+      "file": "reasoning_pattern/multi_agent_patterns.md",
+      "keywords": [
+        "背景",
+        "启动独立进程",
+        "stage3",
+        "工具规划者",
+        "send-keys",
+        "启动独立会话",
+        "输入",
+        "模式",
+        "raw",
+        "读取输出",
+        "backend",
+        "agent",
+        "质量高",
+        "据源",
+        "进程"
+      ],
+      "description": "# 多Agent协作模式\n\n> 来源：hermes-addons best-practices | 存入：2026-05-26\n\n## 何时用delegate_",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
+    },
+    {
+      "id": "trigger_config",
+      "type": "brain_doc",
+      "name": "trigger_config",
+      "file": "workflow/trigger_config.md",
+      "keywords": [
+        "每个文件",
+        "磁盘",
+        "成功模式",
+        "触发关键词映",
+        "工具使用技巧",
+        "方案",
+        "关键词",
+        "区别",
+        "自检清单",
         "coding",
-        "data_analysis"
+        "论文",
+        "debugging",
+        "命令",
+        "自动写",
+        "tool"
       ],
-      "strengthens": [
-        {
-          "from": "coding",
-          "to": "data_analysis",
-          "delta": 0.25
-        },
-        {
-          "from": "coding",
-          "to": "tool_templates",
-          "delta": 0.15
-        }
-      ],
-      "min_tier": 1,
-      "description": "测试先行，红绿重构循环",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "# 机器猫大脑 - 自适应触发机制 v2.0\n# 核心目标：让brain真正成为\"活\"的思考伙伴，而非静态知识库\n\n## 触发时机（按优先级）\n\n### 🔴 P",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "prototype",
-      "file": "imported/mattpocock/prototype.md",
-      "meta_file": "imported/mattpocock/prototype.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "prototype",
-      "source": "mattpocock/prototype.md",
-      "repo": "mattpocock",
-      "triggers": [
-        "原型",
-        "先试试",
-        "概念验证",
-        "快速验证",
-        "实验",
-        "mockup",
-        "概念验证",
-        "试几种方案"
+      "id": "opencode_skill_model",
+      "type": "brain_doc",
+      "name": "opencode_skill_model",
+      "file": "workflow/opencode-skill-model.md",
+      "keywords": [
+        "verify",
+        "并行扇出",
+        "https",
+        "不调用其他",
+        "脚本不占",
+        "ign",
+        "拆解",
+        "security-auditor",
+        "编排规则",
+        "debugging-and-error-r",
+        "ship",
+        "持一层深度",
+        "模式",
+        "bug",
+        "命令"
       ],
-      "activates_nodes": [
-        "decision",
-        "coding"
-      ],
-      "strengthens": [
-        {
-          "from": "decision",
-          "to": "coding",
-          "delta": 0.3
-        }
-      ],
-      "min_tier": 2,
-      "description": "快速原型验证设计思路",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "# OpenCode Skill驱动执行模型（addyosmani）\n\n## 核心规则\n\n**技能优先原则**：如果任务匹配某个skill，必须调用它，绝不直接",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "to-issues",
-      "file": "imported/mattpocock/to-issues.md",
-      "meta_file": "imported/mattpocock/to-issues.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "to-issues",
-      "source": "mattpocock/to-issues.md",
-      "repo": "mattpocock",
-      "triggers": [
-        "拆分任务",
-        "生成issue",
-        "任务分解",
-        "ticket",
-        "工作分解",
-        "拆成",
-        "需求拆分"
+      "id": "playwright_development_workflow",
+      "type": "brain_doc",
+      "name": "playwright_development_workflow",
+      "file": "workflow/playwright-development-workflow.md",
+      "keywords": [
+        "xjto",
+        "rxk",
+        "zfv",
+        "hri",
+        "p-yek",
+        "khz",
+        "mrii",
+        "nvzfj",
+        "nhv",
+        "mrrx",
+        "zf-",
+        "mzk7khy1bn",
+        "izb",
+        "y1v",
+        "prz"
       ],
-      "activates_nodes": [
-        "decision",
-        "data_analysis"
-      ],
-      "strengthens": [
-        {
-          "from": "decision",
-          "to": "data_analysis",
-          "delta": 0.2
-        }
-      ],
-      "min_tier": 1,
-      "description": "需求/方案拆成独立可领任务",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": ">V¸Хj^\n^'+\u001fek,+\bm'+\u001f'zfV¸(ek,+\bmrrX\u001ev+)j!z)hri(!Z\n\u001b~V¸^ek,+\bm׬Z\n\u001b\\'Z\n\u001brXk\u001cXjTO\n",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "code-reviewer",
-      "file": "imported/addyosmani/code-reviewer.md",
-      "meta_file": "imported/addyosmani/code-reviewer.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "code-reviewer",
-      "source": "addyosmani/code-reviewer.md",
-      "repo": "addyosmani",
-      "triggers": [
-        "review",
-        "代码审查",
-        "看看代码",
-        "检查代码",
-        "merge前",
-        "提交前",
-        "codereview",
-        "review一下"
+      "id": "claude_code_plugin_creation",
+      "type": "brain_doc",
+      "name": "claude_code_plugin_creation",
+      "file": "workflow/claude-code-plugin-creation.md",
+      "keywords": [
+        "znhzy",
+        "mzghw",
+        "wuf",
+        "eajz",
+        "zcjm",
+        "tm4",
+        "vuu",
+        "yhk8",
+        "rvue",
+        "fvj",
+        "bvj",
+        "tyl",
+        "zjkjmv",
+        "ykz",
+        "hdd"
       ],
-      "activates_nodes": [
-        "coding",
-        "security_notes"
-      ],
-      "strengthens": [
-        {
-          "from": "coding",
-          "to": "security_notes",
-          "delta": 0.2
-        },
-        {
-          "from": "coding",
-          "to": "architecture",
-          "delta": 0.15
-        }
-      ],
-      "min_tier": 1,
-      "description": "五维度代码审查：正确/可读/架构/安全/性能",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "\nVuu\bZלש\"ׯ)Zׂ׬)e:\u001dj䤊Yl)e[{--\u001dz z{Zr\"֭$Ykzυ\u001e8rޯ \u001c*'^6Z킢jh>V)[{--)e\u0001b{5[{--)e)\"[!,",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "security-auditor",
-      "file": "imported/addyosmani/security-auditor.md",
-      "meta_file": "imported/addyosmani/security-auditor.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "security-auditor",
-      "source": "addyosmani/security-auditor.md",
-      "repo": "addyosmani",
-      "triggers": [
-        "安全",
-        "漏洞",
-        "威胁",
-        "加固",
-        "审计",
-        "入侵",
-        "XSS",
-        "SQL注入",
-        "渗透",
-        "安全漏洞",
-        "风险评估"
+      "id": "skill_anatomy",
+      "type": "brain_doc",
+      "name": "skill_anatomy",
+      "file": "tool_templates/skill-anatomy.md",
+      "keywords": [
+        "验证步骤",
+        "testing",
+        "直接返回指令",
+        "建议",
+        "this",
+        "多种场景都能",
+        "个组成部分",
+        "不要这样",
+        "每个变更需要",
+        "常见自我辩护",
+        "何时调用",
+        "test-first",
+        "out",
+        "obra",
+        "rationalizations"
       ],
-      "activates_nodes": [
-        "security_notes",
-        "research"
-      ],
-      "strengthens": [
-        {
-          "from": "security_notes",
-          "to": "research",
-          "delta": 0.35
-        },
-        {
-          "from": "research",
-          "to": "decision",
-          "delta": 0.2
-        }
-      ],
-      "min_tier": 2,
-      "description": "安全审计，漏洞检测与威胁建模",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "# Skill Anatomy 最佳实践（四大仓库标准格式）\n\n## 标准SKILL.md格式\n\n```yaml\n---\nname: skill-name\nde",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "test-engineer",
-      "file": "imported/addyosmani/test-engineer.md",
-      "meta_file": "imported/addyosmani/test-engineer.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "test-engineer",
-      "source": "addyosmani/test-engineer.md",
-      "repo": "addyosmani",
-      "triggers": [
-        "测试策略",
-        "测试覆盖",
-        "测试质量",
-        "单元测试",
-        "集成测试",
-        "测试设计",
-        "测试用例"
+      "id": "multi_agent_studio",
+      "type": "brain_doc",
+      "name": "multi_agent_studio",
+      "file": "tool_templates/multi-agent-studio.md",
+      "keywords": [
+        "宽松标准",
+        "hook",
+        "post-compact",
+        "效率优先",
+        "detect-gaps",
+        "覆盖率要求",
+        "design",
+        "级别",
+        "time",
+        "opus",
+        "hud",
+        "会话开启",
+        "通知事件",
+        "smoke-check",
+        "强制规则"
       ],
-      "activates_nodes": [
-        "coding",
-        "data_analysis"
-      ],
-      "strengthens": [
-        {
-          "from": "coding",
-          "to": "data_analysis",
-          "delta": 0.2
-        }
-      ],
-      "min_tier": 1,
-      "description": "QA工程师视角，设计测试套件",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "# 游戏工作室多Agent架构（Claude Code Game Studios）\n\n## 核心定位\n\n**单Agent会话 = 无结构**。Claude Co",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "mcp-builder",
-      "file": "imported/anthropics/mcp-builder.md",
-      "meta_file": "imported/anthropics/mcp-builder.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "mcp-builder",
-      "source": "anthropics/mcp-builder.md",
-      "repo": "anthropics",
-      "triggers": [
-        "MCP",
-        "MCP服务器",
-        "工具链",
-        "扩展工具",
-        "集成外部API",
-        "Model Context Protocol"
+      "id": "agent_skills_lifecycle",
+      "type": "brain_doc",
+      "name": "agent_skills_lifecycle",
+      "file": "tool_templates/agent-skills-lifecycle.md",
+      "keywords": [
+        "不需要提",
+        "阶段",
+        "显而易见的实",
+        "数据存储",
+        "verify",
+        "chrome",
+        "https",
+        "反理性化",
+        "每条提交都是",
+        "建议",
+        "性能需求存在",
+        "documentation-and-adr",
+        "ign",
+        "验证门禁",
+        "一部分"
       ],
-      "activates_nodes": [
-        "architecture",
-        "coding"
-      ],
-      "strengthens": [
-        {
-          "from": "architecture",
-          "to": "coding",
-          "delta": 0.3
-        },
-        {
-          "from": "research",
-          "to": "architecture",
-          "delta": 0.2
-        }
-      ],
-      "min_tier": 2,
-      "description": "构建MCP服务器，LLM工具链扩展",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "# Agent Skills 生命周期框架（addyosmani/agent-skills）\n\n## 核心定位\n\n**Agent Skills** = 23个生",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "docx",
-      "file": "imported/anthropics/docx.md",
-      "meta_file": "imported/anthropics/docx.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "docx",
-      "source": "anthropics/docx.md",
-      "repo": "anthropics",
-      "triggers": [
-        "Word文档",
-        "word文档",
-        ".docx",
-        "Word报告",
-        "Word模板",
-        "Word格式",
-        "Word排版",
-        "word doc"
+      "id": "brain_architecture_v2",
+      "type": "brain_doc",
+      "name": "brain_architecture_v2",
+      "file": "architecture/brain_architecture_v2.md",
+      "keywords": [
+        "汇总多个角度",
+        "本地模型通过",
+        "教团队",
+        "激活大脑",
+        "我能直接回答",
+        "每解决一个难",
+        "让本地模型学",
+        "最终决策",
+        "应该选哪个",
+        "可能",
+        "能做复杂多步",
+        "这个能实现吗",
+        "每日学习",
+        "简单",
+        "模式固化"
       ],
-      "activates_nodes": [
-        "coding",
-        "tool_templates"
-      ],
-      "strengthens": [
-        {
-          "from": "tool_templates",
-          "to": "coding",
-          "delta": 0.2
-        }
-      ],
-      "min_tier": 1,
-      "description": "Word文档创建/编辑/格式化",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "# 机器猫团队协作架构 v1.0\n\n## 核心理念\n\n**董哥的团队：**\n- Hermes（主模型）= 团队Leader，最聪明，最终决策\n- 本地模型（Ol",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "brain"
     },
     {
-      "name": "pdf",
-      "file": "imported/anthropics/pdf.md",
-      "meta_file": "imported/anthropics/pdf.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "pdf",
-      "source": "anthropics/pdf.md",
-      "repo": "anthropics",
-      "triggers": [
-        "PDF",
-        "pdf",
-        "PDF报告",
-        "PDF转换",
-        "PDF编辑",
-        "生成PDF",
-        "导出PDF"
+      "id": "skill-creator",
+      "type": "skill",
+      "name": "skill-creator",
+      "file": "skills/skill-creator/SKILL.md",
+      "keywords": [
+        "aggregation",
+        "stats",
+        "competes",
+        "land",
+        "off",
+        "situation",
+        "packaging",
+        "share",
+        "entries",
+        "writeable",
+        "folder",
+        "tradeoffs",
+        "design",
+        "tokens",
+        "scale"
       ],
-      "activates_nodes": [
-        "coding",
-        "tool_templates"
-      ],
-      "strengthens": [
-        {
-          "from": "tool_templates",
-          "to": "coding",
-          "delta": 0.2
-        }
-      ],
-      "min_tier": 1,
-      "description": "PDF处理，生成和编辑",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "---\nname: skill-creator\ndescription: Create new skills, modify and improve exist",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
     },
     {
+      "id": "ollama-auto-learning-debug",
+      "type": "skill",
+      "name": "ollama-auto-learning-debug",
+      "file": "skills/ollama-auto-learning-debug/SKILL.md",
+      "keywords": [
+        "rss",
+        "max-time",
+        "死脚本检测",
+        "模型状态检测",
+        "健康守护发现",
+        "或移除该源",
+        "的经验总结",
+        "彻底解决空转",
+        "已失效源",
+        "请求失败",
+        "time",
+        "的具体落地",
+        "状态清空后有",
+        "量统计永远为",
+        "nvd"
+      ],
+      "description": "---\nname: ollama-auto-learning-debug\ndescription: 调试 Ollama 自动学习系统（unified_learn",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "xlsx",
+      "type": "skill",
       "name": "xlsx",
-      "file": "imported/anthropics/xlsx.md",
-      "meta_file": "imported/anthropics/xlsx.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "xlsx",
-      "source": "anthropics/xlsx.md",
-      "repo": "anthropics",
-      "triggers": [
-        "Excel",
-        "xlsx",
-        "Excel表格",
-        "电子表格",
-        "数据表格",
-        "Excel公式",
-        "Excel报告"
+      "file": "skills/xlsx/SKILL.md",
+      "keywords": [
+        "world",
+        "ranges",
+        "invalid",
+        "time",
+        "far-right",
+        "growth",
+        "screen",
+        "statements",
+        "place",
+        "workflows",
+        "sets",
+        "terms",
+        "tool",
+        "handle",
+        "locations"
       ],
-      "activates_nodes": [
-        "coding",
-        "data_analysis"
-      ],
-      "strengthens": [
-        {
-          "from": "data_analysis",
-          "to": "coding",
-          "delta": 0.25
-        }
-      ],
-      "min_tier": 1,
-      "description": "Excel电子表格，公式与数据处理",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "---\nname: xlsx\ndescription: \"Use this skill any time a spreadsheet file is the p",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
     },
     {
+      "id": "frontend-design",
+      "type": "skill",
+      "name": "frontend-design",
+      "file": "skills/frontend-design/SKILL.md",
+      "keywords": [
+        "timid",
+        "design",
+        "implement",
+        "intensity",
+        "audience",
+        "terms",
+        "there",
+        "brutally",
+        "may",
+        "framework",
+        "beautiful",
+        "particularly",
+        "playful",
+        "sharp",
+        "don"
+      ],
+      "description": "---\nname: frontend-design\ndescription: Create distinctive, production-grade fron",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "continue",
+      "type": "skill",
+      "name": "continue",
+      "file": "skills/continue/SKILL.md",
+      "keywords": [
+        "status",
+        "iaymc40mte3tdi1ljq3ot",
+        "tuumzk1miawljmxmdazoe",
+        "https",
+        "style",
+        "join",
+        "check",
+        "ysdezljq4ndfmmtquodyx",
+        "hardcoded",
+        "this",
+        "base64",
+        "extension",
+        "mteuodm3nemymi42nzm1i",
+        "standard",
+        "yljc2ndk0tdqumtqymzig"
+      ],
+      "description": "<div align=\"center\"></div>\n\n<h1 align=\"center\">Continue</h1>\n\n<div align=\"center",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "dogfood",
+      "type": "skill",
+      "name": "dogfood",
+      "file": "skills/dogfood/SKILL.md",
+      "keywords": [
+        "testing",
+        "reporting",
+        "element",
+        "https",
+        "login",
+        "check",
+        "interactions",
+        "same",
+        "after",
+        "this",
+        "will",
+        "about",
+        "maps",
+        "long",
+        "describe"
+      ],
+      "description": "---\nname: dogfood\ndescription: Systematic exploratory QA testing of web applicat",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "vercel-agent-skills",
+      "type": "skill",
+      "name": "vercel-agent-skills",
+      "file": "skills/vercel-agent-skills/SKILL.md",
+      "keywords": [
+        "service",
+        "focus-visible",
+        "share",
+        "design",
+        "scale",
+        "vercel-deploy-claimab",
+        "billing",
+        "build-minute",
+        "implement",
+        "gestures",
+        "engineering",
+        "locale",
+        "audits",
+        "skill-deploy-abc123",
+        "only"
+      ],
+      "description": "# Agent Skills\n\nA collection of skills for AI coding agents. Skills are packaged",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "algorithmic-art",
+      "type": "skill",
+      "name": "algorithmic-art",
+      "file": "skills/algorithmic-art/SKILL.md",
+      "keywords": [
+        "repel",
+        "demands",
+        "design",
+        "scale",
+        "crystallization",
+        "nodes",
+        "time",
+        "algorithmically",
+        "being",
+        "until",
+        "seeds",
+        "objects",
+        "implement",
+        "menu",
+        "interprets"
+      ],
+      "description": "---\nname: algorithmic-art\ndescription: Creating algorithmic art using p5.js with",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "webapp-testing",
+      "type": "skill",
+      "name": "webapp-testing",
+      "file": "skills/webapp-testing/SKILL.md",
+      "keywords": [
+        "testing",
+        "functionality",
+        "close",
+        "element",
+        "selectors",
+        "execute",
+        "tmp",
+        "chromium",
+        "automation",
+        "reconnaissance-then-a",
+        "logging",
+        "local",
+        "lifecycle",
+        "complex",
+        "logs"
+      ],
+      "description": "---\nname: webapp-testing\ndescription: Toolkit for interacting with and testing l",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "claude-code-plugins",
+      "type": "skill",
+      "name": "claude-code-plugins",
+      "file": "skills/claude-code-plugins/SKILL.md",
+      "keywords": [
+        "hook",
+        "design",
+        "opus",
+        "automated",
+        "until",
+        "workflows",
+        "syntax",
+        "repository",
+        "unwanted",
+        "tool",
+        "pull",
+        "directory",
+        "ralph-wiggum",
+        "kit",
+        "editing"
+      ],
+      "description": "# Claude Code Plugins\n\nThis directory contains some official Claude Code plugins",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "theme-factory",
+      "type": "skill",
+      "name": "theme-factory",
+      "file": "skills/theme-factory/SKILL.md",
+      "keywords": [
+        "make",
+        "describing",
+        "creating",
+        "sunset",
+        "after",
+        "custom",
+        "this",
+        "deck",
+        "palettes",
+        "slides",
+        "display",
+        "about",
+        "canopy",
+        "carefully",
+        "slide"
+      ],
+      "description": "---\nname: theme-factory\ndescription: Toolkit for styling artifacts with a theme.",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "pptx",
+      "type": "skill",
       "name": "pptx",
-      "file": "imported/anthropics/pptx.md",
-      "meta_file": "imported/anthropics/pptx.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "pptx",
-      "source": "anthropics/pptx.md",
-      "repo": "anthropics",
-      "triggers": [
-        "PPT",
-        "PowerPoint",
-        "演示文稿",
-        "pptx",
-        "幻灯片",
-        "演讲稿",
-        "汇报PPT"
+      "file": "skills/pptx/SKILL.md",
+      "keywords": [
+        "c5f2d",
+        "stats",
+        "off",
+        "premium",
+        "aligned",
+        "deck",
+        "fixes",
+        "design",
+        "equality",
+        "time",
+        "side",
+        "reflect",
+        "until",
+        "consolas",
+        "low-contrast"
       ],
-      "activates_nodes": [
-        "coding",
-        "tool_templates"
-      ],
-      "strengthens": [
-        {
-          "from": "tool_templates",
-          "to": "coding",
-          "delta": 0.2
-        }
-      ],
-      "min_tier": 1,
-      "description": "PowerPoint演示文稿创建与编辑",
-      "deployment_candidates": [
-        "direct"
-      ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "---\nname: pptx\ndescription: \"Use this skill any time a .pptx file is involved in",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
     },
     {
-      "name": "superpowers-index",
-      "file": "imported/superpowers/README.md",
-      "meta_file": "imported/superpowers/README.md.neural_meta.json",
-      "version": "1.0",
-      "skill_name": "superpowers-index",
-      "source": "superpowers/README.md",
-      "repo": "superpowers",
-      "triggers": [
-        "agent方法论",
-        "coding agent",
-        "代理框架",
-        "agent开发"
+      "id": "mcp-builder",
+      "type": "skill",
+      "name": "mcp-builder",
+      "file": "skills/mcp-builder/SKILL.md",
+      "keywords": [
+        "service",
+        "prefixes",
+        "safety",
+        "streaming",
+        "design",
+        "mcp-builder",
+        "modelcontextprotocol",
+        "scale",
+        "time",
+        "being",
+        "during",
+        "implement",
+        "initialization",
+        "workflows",
+        "syntax"
       ],
-      "activates_nodes": [
-        "research",
-        "architecture"
+      "description": "---\nname: mcp-builder\ndescription: Guide for creating high-quality MCP (Model Co",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "wechat-stt",
+      "type": "skill",
+      "name": "wechat-stt",
+      "file": "skills/wechat-stt/SKILL.md",
+      "keywords": [
+        "转换方法",
+        "不可用",
+        "resort",
+        "returncode",
+        "加到",
+        "venv",
+        "qqbot",
+        "wav",
+        "transcribe",
+        "rename",
+        "extension",
+        "rsplit",
+        "local",
+        "transcript",
+        "制台"
       ],
-      "strengthens": [
-        {
-          "from": "research",
-          "to": "architecture",
-          "delta": 0.2
-        }
+      "description": "---\nname: wechat-stt\ndescription: 微信语音识别（STT）技能 — 让 Hermes 能听懂董哥的微信语音。本地 pilk 解码",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "docx",
+      "type": "skill",
+      "name": "docx",
+      "file": "skills/docx/SKILL.md",
+      "keywords": [
+        "universally",
+        "invalid",
+        "rid5",
+        "being",
+        "entity",
+        "x201d",
+        "inject",
+        "heading",
+        "rejecting",
+        "inches",
+        "terms",
+        "footnotereferencerun",
+        "level",
+        "widths",
+        "supported"
       ],
-      "min_tier": 3,
-      "description": "Superpowers完整方法论（参考，非直接部署）",
-      "deployment_candidates": [
-        "reference"
+      "description": "---\nname: docx\ndescription: \"Use this skill whenever the user wants to create, r",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "pdf",
+      "type": "skill",
+      "name": "pdf",
+      "file": "skills/pdf/SKILL.md",
+      "keywords": [
+        "ownerpassword",
+        "make",
+        "doc3",
+        "markup",
+        "check",
+        "creating",
+        "world",
+        "this",
+        "simpledoctemplate",
+        "canvas-drawn",
+        "pdftotext",
+        "ocr",
+        "reportlab",
+        "pagesize",
+        "txt"
       ],
-      "created": "2026-05-23",
-      "updated": "2026-05-23"
+      "description": "---\nname: pdf\ndescription: Use this skill whenever the user wants to do anything",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "skills"
+    },
+    {
+      "id": "brain-retriever",
+      "type": "skill",
+      "name": "brain-retriever",
+      "file": "external-skills/brain-retriever/SKILL.md",
+      "keywords": [
+        "三层判断",
+        "cache",
+        "剩多少",
+        "tmp",
+        "知识沉淀完整",
+        "知识闭环",
+        "hackernews",
+        "思考引擎",
+        "块缓存",
+        "最高分",
+        "区别",
+        "学到",
+        "三层思考",
+        "整合判断",
+        "行为"
+      ],
+      "description": "---\nname: brain-retriever-usage\ndescription: 机器猫大脑检索系统使用规范 — 三层思考+外部获取+知识沉淀完整闭环\n",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "brain-mcp-integration",
+      "type": "skill",
+      "name": "brain-mcp-integration",
+      "file": "external-skills/brain-mcp-integration/SKILL.md",
+      "keywords": [
+        "https",
+        "env",
+        "理解传输方式",
+        "环境变量默认",
+        "文件读写",
+        "protocol",
+        "credentials",
+        "server-filesystem",
+        "modelcontextprotocol",
+        "ghp",
+        "每次会话独立",
+        "time",
+        "远程服务器",
+        "通过配置",
+        "xxx"
+      ],
+      "description": "---\nname: brain-mcp-integration\ndescription: MCP (Model Context Protocol) 集成知识，连",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "auto-learning",
+      "type": "skill",
+      "name": "auto-learning",
+      "file": "external-skills/auto-learning/SKILL.md",
+      "keywords": [
+        "stats",
+        "rss",
+        "max-time",
+        "脚本是幂等的",
+        "safety",
+        "即使",
+        "nvd",
+        "超时兜底",
+        "但会增加读取",
+        "并行深度分析",
+        "永不中断",
+        "pull",
+        "单个卡住不影",
+        "internal",
+        "显示"
+      ],
+      "description": "---\nname: ollama-auto-learning\ndescription: 本地 Ollama 大模型自动学习系统 — 每日抓取 ArXiv + C",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "code-reviewer",
+      "type": "skill",
+      "name": "code-reviewer",
+      "file": "external-skills/code-reviewer/SKILL.md",
+      "keywords": [
+        "收到代码链接",
+        "性能五个角度",
+        "建议",
+        "代码质量",
+        "先读测试",
+        "what",
+        "模块边界清晰",
+        "空值",
+        "fallback",
+        "现状评估",
+        "建议修复",
+        "前先给一条亮",
+        "每维度找到",
+        "原则",
+        "代码重构前的"
+      ],
+      "description": "---\nname: code-reviewer\ndescription: 五维度代码审查框架 — 从正确性/可读性/架构/安全/性能五个角度进行系统化代码审查，",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "ollama-brain-teacher",
+      "type": "skill",
+      "name": "ollama-brain-teacher",
+      "file": "external-skills/ollama-brain-teacher/SKILL.md",
+      "keywords": [
+        "检验准确性",
+        "验证结果",
+        "配置问题",
+        "更是伙伴",
+        "识库",
+        "ollama-controller",
+        "的坑和解决方",
+        "制终端文字",
+        "主动学习闭环",
+        "哪里查",
+        "元编程",
+        "确性",
+        "更新索引",
+        "教学成果对比",
+        "准确性"
+      ],
+      "description": "---\nname: ollama-brain-teacher\ndescription: 作为本地 Ollama 知识教师 — 把编程/DevOps/Linux ",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "security-auditor",
+      "type": "skill",
+      "name": "security-auditor",
+      "file": "external-skills/security-auditor/SKILL.md",
+      "keywords": [
+        "https",
+        "攻击者能做什",
+        "会话安全管理",
+        "建议",
+        "正面观察",
+        "理论风险或纵",
+        "关掉安全控制",
+        "oauth",
+        "security-auditor",
+        "渗透测试",
+        "段吗",
+        "owasp",
+        "等级",
+        "pii",
+        "检查依赖项的"
+      ],
+      "description": "---\nname: security-auditor\ndescription: 安全工程师视角的漏洞检测、威胁建模和安全编码实践审查。用于安全专项代码审查、威胁",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "test-engineer",
+      "type": "skill",
+      "name": "test-engineer",
+      "file": "external-skills/test-engineer/SKILL.md",
+      "keywords": [
+        "组件",
+        "合法输入产生",
+        "测试名称",
+        "测试用例",
+        "场景",
+        "略和质量保障",
+        "报告测试就绪",
+        "e2e",
+        "最小",
+        "空数组",
+        "你是一个资深",
+        "写复现测试",
+        "个函数",
+        "bug",
+        "快速重复调用"
+      ],
+      "description": "---\nname: test-engineer\ndescription: QA工程师视角的测试设计技能——测试策略/覆盖率分析/测试用例编写。触发词：测试策略、",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "to-issues",
+      "type": "skill",
+      "name": "to-issues",
+      "file": "external-skills/to-issues/SKILL.md",
+      "keywords": [
+        "briefly",
+        "close",
+        "does",
+        "granularity",
+        "correct",
+        "whatever",
+        "slices",
+        "explored",
+        "this",
+        "design",
+        "encodes",
+        "describe",
+        "have",
+        "demo",
+        "convert"
+      ],
+      "description": "---\nname: to-issues\ndescription: Break a plan, spec, or PRD into independently-g",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "machine-cat-guardian",
+      "type": "skill",
+      "name": "machine-cat-guardian",
+      "file": "external-skills/machine-cat-guardian/SKILL.md",
+      "keywords": [
+        "主动说出来",
+        "的吗",
+        "前自检",
+        "ollama-brain-teacher",
+        "主动说",
+        "有想法就说",
+        "用方案时",
+        "每日主动报告",
+        "每次对话自动",
+        "后台打工仔",
+        "频率",
+        "持续不可用",
+        "确认",
+        "主模型挂",
+        "恢复"
+      ],
+      "description": "---\nname: machine-cat-guardian\ndescription: 机器猫守护者 — 固化主动思维规范。每次对话自动检查：系统隐患主动说、学",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "tdd",
+      "type": "skill",
+      "name": "tdd",
+      "file": "external-skills/tdd/SKILL.md",
+      "keywords": [
+        "mock",
+        "verify",
+        "testing",
+        "does",
+        "public",
+        "system",
+        "correct",
+        "confirm",
+        "slices",
+        "after",
+        "this",
+        "shouldn",
+        "rename",
+        "about",
+        "responds"
+      ],
+      "description": "---\nname: tdd\ndescription: Test-driven development with red-green-refactor loop.",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "zoom-out",
+      "type": "skill",
+      "name": "zoom-out",
+      "file": "external-skills/zoom-out/SKILL.md",
+      "keywords": [
+        "use",
+        "higher-level",
+        "don",
+        "ion",
+        "zoom-out",
+        "this",
+        "picture",
+        "project",
+        "you",
+        "area",
+        "with",
+        "using",
+        "how",
+        "vocabulary",
+        "understand"
+      ],
+      "description": "---\nname: zoom-out\ndescription: Tell the agent to zoom out and give broader cont",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "brain-system-maintenance",
+      "type": "skill",
+      "name": "brain-system-maintenance",
+      "file": "external-skills/brain-system-maintenance/SKILL.md",
+      "keywords": [
+        "问题类型决策",
+        "推理模式",
+        "nce",
+        "测试检索",
+        "护手册",
+        "调试判断树",
+        "关键词",
+        "重建",
+        "coding",
+        "学习案例",
+        "例子",
+        "debugging",
+        "每日写",
+        "场景案例",
+        "tool"
+      ],
+      "description": "---\nname: brain-system-maintenance\ndescription: 机器猫大脑系统日常维护 — 让brain真正运转起来的检查清单和",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "external-fetcher",
+      "type": "skill",
+      "name": "external-fetcher",
+      "file": "external-skills/external-fetcher/SKILL.md",
+      "keywords": [
+        "cache",
+        "网上查",
+        "知识时",
+        "hackernews",
+        "限流",
+        "学术论文标题",
+        "typeerror",
+        "fetch",
+        "热门",
+        "区别",
+        "模式",
+        "太慢",
+        "问答",
+        "后台自动",
+        "取并沉淀"
+      ],
+      "description": "---\nname: external-fetcher\ndescription: 外部知识获取模块。brain无相关记录时，从ArXiv/Hacker News/",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "brain-thinker",
+      "type": "skill",
+      "name": "brain-thinker",
+      "file": "external-skills/brain-thinker/SKILL.md",
+      "keywords": [
+        "status",
+        "cache",
+        "score",
+        "时不输出空结",
+        "剩多少",
+        "可能",
+        "内容的回复",
+        "tmp",
+        "执行推理",
+        "步骤日志",
+        "太慢导致超时",
+        "推荐",
+        "返回",
+        "帮我找",
+        "判断层级"
+      ],
+      "description": "---\nname: brain-thinker\ndescription: 机器猫大脑思考引擎 — 三层思考自动路由。输入问题→判断层级→执行推理→输出结构化结论",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "brain-team-architecture",
+      "type": "skill",
+      "name": "brain-team-architecture",
+      "file": "external-skills/brain-team-architecture/SKILL.md",
+      "keywords": [
+        "neural",
+        "团队协作",
+        "复杂问题",
+        "tier3",
+        "派发各本地模",
+        "thinker",
+        "brain-team-architectu",
+        "scripts",
+        "data",
+        "tier2",
+        "剩多少",
+        "打工仔",
+        "脑架构",
+        "机器猫团队大",
+        "安全"
+      ],
+      "description": "---\nname: brain-team-architecture\ndescription: 机器猫团队大脑架构 — 三层思考+神经网络+知识流转闭环\ntags",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "brain-optimization-methodology",
+      "type": "skill",
+      "name": "brain-optimization-methodology",
+      "file": "external-skills/brain-optimization-methodology/SKILL.md",
+      "keywords": [
+        "检索引擎",
+        "层高效混合架",
+        "背景",
+        "监控自己",
+        "可能",
+        "confidence",
+        "知识给用户",
+        "被否定",
+        "对话上下文写",
+        "推理引擎",
+        "实时层",
+        "接近正确",
+        "memory",
+        "思考引擎",
+        "三层最优组合"
+      ],
+      "description": "---\nname: brain-optimization-methodology\ndescription: 机器猫大脑系统优化方法论——多轮迭代架构推演，从散架",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "brain-retriever-usage",
+      "type": "skill",
+      "name": "brain-retriever-usage",
+      "file": "external-skills/brain-retriever-usage/SKILL.md",
+      "keywords": [
+        "三层判断",
+        "cache",
+        "剩多少",
+        "tmp",
+        "知识沉淀完整",
+        "知识闭环",
+        "hackernews",
+        "思考引擎",
+        "块缓存",
+        "最高分",
+        "区别",
+        "学到",
+        "三层思考",
+        "整合判断",
+        "行为"
+      ],
+      "description": "---\nname: brain-retriever-usage\ndescription: 机器猫大脑检索系统使用规范 — 三层思考+外部获取+知识沉淀完整闭环\n",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "grill-with-docs",
+      "type": "skill",
+      "name": "grill-with-docs",
+      "file": "external-skills/grill-with-docs/SKILL.md",
+      "keywords": [
+        "aspect",
+        "postgres-for-write-mo",
+        "check",
+        "feedback",
+        "propose",
+        "conflicts",
+        "this",
+        "answered",
+        "defines",
+        "will",
+        "about",
+        "adr-format",
+        "design",
+        "were",
+        "one-by-one"
+      ],
+      "description": "---\nname: grill-with-docs\ndescription: Grilling session that challenges your pla",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "brain-invoke",
+      "type": "skill",
+      "name": "brain-invoke",
+      "file": "external-skills/brain-invoke/SKILL.md",
+      "keywords": [
+        "skipped",
+        "cache",
+        "只要这一行",
+        "score",
+        "confidence",
+        "tmp",
+        "解决等",
+        "对比项",
+        "detect",
+        "complex",
+        "会中英混合串",
+        "修复前中英混",
+        "memory",
+        "后果",
+        "最终结论"
+      ],
+      "description": "---\nname: brain-invoke\ndescription: brain_thinker轻量包装。agent/子脚本一行调用思考引擎：brain_th",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "brain-system-integration",
+      "type": "skill",
+      "name": "brain-system-integration",
+      "file": "external-skills/brain-system-integration/SKILL.md",
+      "keywords": [
+        "时机的实践经",
+        "判断有没有数",
+        "后自动调用",
+        "时刻用",
+        "check",
+        "秒超时的",
+        "模型冷启动问",
+        "使用时用",
+        "剩多少",
+        "不是字典数组",
+        "快速验证命令",
+        "路径问题",
+        "载才能用",
+        "返回",
+        "因为还有"
+      ],
+      "description": "---\nname: brain-system-integration\ndescription: 机器猫大脑系统集成与维护 — 将brain_thinker/ex",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    },
+    {
+      "id": "ollama-model-manager",
+      "type": "skill",
+      "name": "ollama-model-manager",
+      "file": "external-skills/ollama-model-manager/SKILL.md",
+      "keywords": [
+        "status",
+        "定时",
+        "模型故障",
+        "check",
+        "捕获",
+        "精确输出",
+        "ollama-model-manager",
+        "关键模型",
+        "返回",
+        "logs",
+        "检查所有模型",
+        "快手",
+        "异常",
+        "快手模型",
+        "fallback"
+      ],
+      "description": "---\nname: ollama-model-manager\ndescription: Ollama模型保活+智能降级管理器。定时warmup关键模型（smol",
+      "confidence": 0.5,
+      "usage_count": 0,
+      "last_used": null,
+      "source": "external-skills"
+    }
+  ],
+  "connections": [
+    {
+      "from": "moss_self_evolution",
+      "to": "lcguard_multiagent_security",
+      "weight": 0.7,
+      "reason": "共享关键词: 方案, 对机器猫系统",
+      "bidirectional": true
+    },
+    {
+      "from": "lcguard_multiagent_security",
+      "to": "moss_self_evolution",
+      "weight": 0.7,
+      "reason": "共享关键词: 方案, 对机器猫系统",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp_integration",
+      "to": "mcp-builder",
+      "weight": 0.7,
+      "reason": "共享关键词: modelcontextprotocol, time",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp_integration",
+      "to": "brain-mcp-integration",
+      "weight": 1.0,
+      "reason": "共享关键词: modelcontextprotocol, ghp, https, env, time",
+      "bidirectional": true
+    },
+    {
+      "from": "agent_behavior_guardrails",
+      "to": "dogfood",
+      "weight": 0.7,
+      "reason": "共享关键词: after, https",
+      "bidirectional": true
+    },
+    {
+      "from": "git_learning_workflow",
+      "to": "opencode_skill_model",
+      "weight": 0.7,
+      "reason": "共享关键词: https, 命令",
+      "bidirectional": true
+    },
+    {
+      "from": "model_tier_system",
+      "to": "ollama_model_tiers",
+      "weight": 1.0,
+      "reason": "共享关键词: 降级, 后台分析, 服务不中断, 避免, 思考后答",
+      "bidirectional": true
+    },
+    {
+      "from": "brain_core_principles",
+      "to": "self_evolution_pattern",
+      "weight": 0.9,
+      "reason": "共享关键词: 并持续改进, 容器状态, 同类问题反复",
+      "bidirectional": true
+    },
+    {
+      "from": "brain_core_principles",
+      "to": "webapp-testing",
+      "weight": 0.7,
+      "reason": "共享关键词: tmp, local",
+      "bidirectional": true
+    },
+    {
+      "from": "open_interpreter_execution",
+      "to": "ollama_platform_ecosystem",
+      "weight": 1.0,
+      "reason": "共享关键词: tokens, system, https, stream, local",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama_platform_ecosystem",
+      "to": "open_interpreter_execution",
+      "weight": 1.0,
+      "reason": "共享关键词: tokens, system, https, stream, local",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama_model_tiers",
+      "to": "model_tier_system",
+      "weight": 1.0,
+      "reason": "共享关键词: 降级, 后台分析, 服务不中断, 避免, 思考后答",
+      "bidirectional": true
+    },
+    {
+      "from": "hook_automation",
+      "to": "multi_agent_studio",
+      "weight": 0.9,
+      "reason": "共享关键词: post-compact, detect-gaps, hook",
+      "bidirectional": true
+    },
+    {
+      "from": "self_evolution_pattern",
+      "to": "brain_core_principles",
+      "weight": 0.9,
+      "reason": "共享关键词: 并持续改进, 容器状态, 同类问题反复",
+      "bidirectional": true
+    },
+    {
+      "from": "trigger_config",
+      "to": "brain-system-maintenance",
+      "weight": 1.0,
+      "reason": "共享关键词: coding, debugging, tool, 关键词",
+      "bidirectional": true
+    },
+    {
+      "from": "opencode_skill_model",
+      "to": "git_learning_workflow",
+      "weight": 0.7,
+      "reason": "共享关键词: https, 命令",
+      "bidirectional": true
+    },
+    {
+      "from": "opencode_skill_model",
+      "to": "agent_skills_lifecycle",
+      "weight": 0.9,
+      "reason": "共享关键词: verify, ign, https",
+      "bidirectional": true
+    },
+    {
+      "from": "opencode_skill_model",
+      "to": "security-auditor",
+      "weight": 0.7,
+      "reason": "共享关键词: security-auditor, https",
+      "bidirectional": true
+    },
+    {
+      "from": "skill_anatomy",
+      "to": "dogfood",
+      "weight": 0.7,
+      "reason": "共享关键词: testing, this",
+      "bidirectional": true
+    },
+    {
+      "from": "skill_anatomy",
+      "to": "tdd",
+      "weight": 0.7,
+      "reason": "共享关键词: testing, this",
+      "bidirectional": true
+    },
+    {
+      "from": "multi_agent_studio",
+      "to": "hook_automation",
+      "weight": 0.9,
+      "reason": "共享关键词: post-compact, detect-gaps, hook",
+      "bidirectional": true
+    },
+    {
+      "from": "multi_agent_studio",
+      "to": "algorithmic-art",
+      "weight": 0.7,
+      "reason": "共享关键词: time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "multi_agent_studio",
+      "to": "claude-code-plugins",
+      "weight": 0.9,
+      "reason": "共享关键词: design, opus, hook",
+      "bidirectional": true
+    },
+    {
+      "from": "multi_agent_studio",
+      "to": "pptx",
+      "weight": 0.7,
+      "reason": "共享关键词: time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "multi_agent_studio",
+      "to": "mcp-builder",
+      "weight": 0.7,
+      "reason": "共享关键词: time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "agent_skills_lifecycle",
+      "to": "opencode_skill_model",
+      "weight": 0.9,
+      "reason": "共享关键词: verify, ign, https",
+      "bidirectional": true
+    },
+    {
+      "from": "agent_skills_lifecycle",
+      "to": "security-auditor",
+      "weight": 0.7,
+      "reason": "共享关键词: 建议, https",
+      "bidirectional": true
+    },
+    {
+      "from": "skill-creator",
+      "to": "vercel-agent-skills",
+      "weight": 0.9,
+      "reason": "共享关键词: share, scale, design",
+      "bidirectional": true
+    },
+    {
+      "from": "skill-creator",
+      "to": "algorithmic-art",
+      "weight": 0.7,
+      "reason": "共享关键词: scale, design",
+      "bidirectional": true
+    },
+    {
+      "from": "skill-creator",
+      "to": "pptx",
+      "weight": 0.9,
+      "reason": "共享关键词: off, stats, design",
+      "bidirectional": true
+    },
+    {
+      "from": "skill-creator",
+      "to": "mcp-builder",
+      "weight": 0.7,
+      "reason": "共享关键词: scale, design",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama-auto-learning-debug",
+      "to": "auto-learning",
+      "weight": 0.9,
+      "reason": "共享关键词: nvd, rss, max-time",
+      "bidirectional": true
+    },
+    {
+      "from": "xlsx",
+      "to": "claude-code-plugins",
+      "weight": 0.7,
+      "reason": "共享关键词: workflows, tool",
+      "bidirectional": true
+    },
+    {
+      "from": "xlsx",
+      "to": "mcp-builder",
+      "weight": 0.7,
+      "reason": "共享关键词: workflows, time",
+      "bidirectional": true
+    },
+    {
+      "from": "xlsx",
+      "to": "docx",
+      "weight": 0.7,
+      "reason": "共享关键词: terms, invalid",
+      "bidirectional": true
+    },
+    {
+      "from": "frontend-design",
+      "to": "vercel-agent-skills",
+      "weight": 0.7,
+      "reason": "共享关键词: implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "frontend-design",
+      "to": "algorithmic-art",
+      "weight": 0.7,
+      "reason": "共享关键词: implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "frontend-design",
+      "to": "mcp-builder",
+      "weight": 0.7,
+      "reason": "共享关键词: implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "continue",
+      "to": "dogfood",
+      "weight": 0.9,
+      "reason": "共享关键词: check, this, https",
+      "bidirectional": true
+    },
+    {
+      "from": "continue",
+      "to": "pdf",
+      "weight": 0.7,
+      "reason": "共享关键词: check, this",
+      "bidirectional": true
+    },
+    {
+      "from": "continue",
+      "to": "grill-with-docs",
+      "weight": 0.7,
+      "reason": "共享关键词: check, this",
+      "bidirectional": true
+    },
+    {
+      "from": "continue",
+      "to": "ollama-model-manager",
+      "weight": 0.7,
+      "reason": "共享关键词: check, status",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "agent_behavior_guardrails",
+      "weight": 0.7,
+      "reason": "共享关键词: after, https",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "skill_anatomy",
+      "weight": 0.7,
+      "reason": "共享关键词: testing, this",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "continue",
+      "weight": 0.9,
+      "reason": "共享关键词: check, this, https",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "webapp-testing",
+      "weight": 0.7,
+      "reason": "共享关键词: testing, element",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "theme-factory",
+      "weight": 0.9,
+      "reason": "共享关键词: this, about, after",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "pdf",
+      "weight": 0.7,
+      "reason": "共享关键词: check, this",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "to-issues",
+      "weight": 0.7,
+      "reason": "共享关键词: this, describe",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "tdd",
+      "weight": 1.0,
+      "reason": "共享关键词: about, testing, this, after",
+      "bidirectional": true
+    },
+    {
+      "from": "dogfood",
+      "to": "grill-with-docs",
+      "weight": 1.0,
+      "reason": "共享关键词: about, check, this, will",
+      "bidirectional": true
+    },
+    {
+      "from": "vercel-agent-skills",
+      "to": "skill-creator",
+      "weight": 0.9,
+      "reason": "共享关键词: share, scale, design",
+      "bidirectional": true
+    },
+    {
+      "from": "vercel-agent-skills",
+      "to": "frontend-design",
+      "weight": 0.7,
+      "reason": "共享关键词: implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "vercel-agent-skills",
+      "to": "algorithmic-art",
+      "weight": 0.9,
+      "reason": "共享关键词: scale, implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "vercel-agent-skills",
+      "to": "mcp-builder",
+      "weight": 1.0,
+      "reason": "共享关键词: implement, scale, service, design",
+      "bidirectional": true
+    },
+    {
+      "from": "algorithmic-art",
+      "to": "multi_agent_studio",
+      "weight": 0.7,
+      "reason": "共享关键词: time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "algorithmic-art",
+      "to": "skill-creator",
+      "weight": 0.7,
+      "reason": "共享关键词: scale, design",
+      "bidirectional": true
+    },
+    {
+      "from": "algorithmic-art",
+      "to": "frontend-design",
+      "weight": 0.7,
+      "reason": "共享关键词: implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "algorithmic-art",
+      "to": "vercel-agent-skills",
+      "weight": 0.9,
+      "reason": "共享关键词: scale, implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "algorithmic-art",
+      "to": "claude-code-plugins",
+      "weight": 0.7,
+      "reason": "共享关键词: until, design",
+      "bidirectional": true
+    },
+    {
+      "from": "algorithmic-art",
+      "to": "pptx",
+      "weight": 0.9,
+      "reason": "共享关键词: until, time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "algorithmic-art",
+      "to": "mcp-builder",
+      "weight": 1.0,
+      "reason": "共享关键词: scale, time, being, implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "webapp-testing",
+      "to": "brain_core_principles",
+      "weight": 0.7,
+      "reason": "共享关键词: tmp, local",
+      "bidirectional": true
+    },
+    {
+      "from": "webapp-testing",
+      "to": "dogfood",
+      "weight": 0.7,
+      "reason": "共享关键词: testing, element",
+      "bidirectional": true
+    },
+    {
+      "from": "webapp-testing",
+      "to": "brain-invoke",
+      "weight": 0.7,
+      "reason": "共享关键词: complex, tmp",
+      "bidirectional": true
+    },
+    {
+      "from": "claude-code-plugins",
+      "to": "multi_agent_studio",
+      "weight": 0.9,
+      "reason": "共享关键词: design, opus, hook",
+      "bidirectional": true
+    },
+    {
+      "from": "claude-code-plugins",
+      "to": "xlsx",
+      "weight": 0.7,
+      "reason": "共享关键词: workflows, tool",
+      "bidirectional": true
+    },
+    {
+      "from": "claude-code-plugins",
+      "to": "algorithmic-art",
+      "weight": 0.7,
+      "reason": "共享关键词: until, design",
+      "bidirectional": true
+    },
+    {
+      "from": "claude-code-plugins",
+      "to": "pptx",
+      "weight": 0.7,
+      "reason": "共享关键词: until, design",
+      "bidirectional": true
+    },
+    {
+      "from": "claude-code-plugins",
+      "to": "mcp-builder",
+      "weight": 0.9,
+      "reason": "共享关键词: workflows, syntax, design",
+      "bidirectional": true
+    },
+    {
+      "from": "theme-factory",
+      "to": "dogfood",
+      "weight": 0.9,
+      "reason": "共享关键词: this, about, after",
+      "bidirectional": true
+    },
+    {
+      "from": "theme-factory",
+      "to": "pdf",
+      "weight": 0.9,
+      "reason": "共享关键词: make, creating, this",
+      "bidirectional": true
+    },
+    {
+      "from": "theme-factory",
+      "to": "tdd",
+      "weight": 0.9,
+      "reason": "共享关键词: this, about, after",
+      "bidirectional": true
+    },
+    {
+      "from": "theme-factory",
+      "to": "grill-with-docs",
+      "weight": 0.7,
+      "reason": "共享关键词: this, about",
+      "bidirectional": true
+    },
+    {
+      "from": "pptx",
+      "to": "multi_agent_studio",
+      "weight": 0.7,
+      "reason": "共享关键词: time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "pptx",
+      "to": "skill-creator",
+      "weight": 0.9,
+      "reason": "共享关键词: off, stats, design",
+      "bidirectional": true
+    },
+    {
+      "from": "pptx",
+      "to": "algorithmic-art",
+      "weight": 0.9,
+      "reason": "共享关键词: until, time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "pptx",
+      "to": "claude-code-plugins",
+      "weight": 0.7,
+      "reason": "共享关键词: until, design",
+      "bidirectional": true
+    },
+    {
+      "from": "pptx",
+      "to": "mcp-builder",
+      "weight": 0.7,
+      "reason": "共享关键词: time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "mcp_integration",
+      "weight": 0.7,
+      "reason": "共享关键词: modelcontextprotocol, time",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "multi_agent_studio",
+      "weight": 0.7,
+      "reason": "共享关键词: time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "skill-creator",
+      "weight": 0.7,
+      "reason": "共享关键词: scale, design",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "xlsx",
+      "weight": 0.7,
+      "reason": "共享关键词: workflows, time",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "frontend-design",
+      "weight": 0.7,
+      "reason": "共享关键词: implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "vercel-agent-skills",
+      "weight": 1.0,
+      "reason": "共享关键词: implement, scale, service, design",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "algorithmic-art",
+      "weight": 1.0,
+      "reason": "共享关键词: scale, time, being, implement, design",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "claude-code-plugins",
+      "weight": 0.9,
+      "reason": "共享关键词: workflows, syntax, design",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "pptx",
+      "weight": 0.7,
+      "reason": "共享关键词: time, design",
+      "bidirectional": true
+    },
+    {
+      "from": "mcp-builder",
+      "to": "brain-mcp-integration",
+      "weight": 0.7,
+      "reason": "共享关键词: modelcontextprotocol, time",
+      "bidirectional": true
+    },
+    {
+      "from": "docx",
+      "to": "xlsx",
+      "weight": 0.7,
+      "reason": "共享关键词: terms, invalid",
+      "bidirectional": true
+    },
+    {
+      "from": "pdf",
+      "to": "continue",
+      "weight": 0.7,
+      "reason": "共享关键词: check, this",
+      "bidirectional": true
+    },
+    {
+      "from": "pdf",
+      "to": "dogfood",
+      "weight": 0.7,
+      "reason": "共享关键词: check, this",
+      "bidirectional": true
+    },
+    {
+      "from": "pdf",
+      "to": "theme-factory",
+      "weight": 0.9,
+      "reason": "共享关键词: make, creating, this",
+      "bidirectional": true
+    },
+    {
+      "from": "pdf",
+      "to": "grill-with-docs",
+      "weight": 0.7,
+      "reason": "共享关键词: check, this",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever",
+      "to": "external-fetcher",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, 区别, hackernews",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever",
+      "to": "brain-thinker",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, tmp, 剩多少",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever",
+      "to": "brain-retriever-usage",
+      "weight": 1.0,
+      "reason": "共享关键词: 学到, 三层思考, 三层判断, cache, 思考引擎",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever",
+      "to": "brain-invoke",
+      "weight": 0.7,
+      "reason": "共享关键词: cache, tmp",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-mcp-integration",
+      "to": "mcp_integration",
+      "weight": 1.0,
+      "reason": "共享关键词: modelcontextprotocol, ghp, https, env, time",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-mcp-integration",
+      "to": "mcp-builder",
+      "weight": 0.7,
+      "reason": "共享关键词: modelcontextprotocol, time",
+      "bidirectional": true
+    },
+    {
+      "from": "auto-learning",
+      "to": "ollama-auto-learning-debug",
+      "weight": 0.9,
+      "reason": "共享关键词: nvd, rss, max-time",
+      "bidirectional": true
+    },
+    {
+      "from": "security-auditor",
+      "to": "opencode_skill_model",
+      "weight": 0.7,
+      "reason": "共享关键词: security-auditor, https",
+      "bidirectional": true
+    },
+    {
+      "from": "security-auditor",
+      "to": "agent_skills_lifecycle",
+      "weight": 0.7,
+      "reason": "共享关键词: 建议, https",
+      "bidirectional": true
+    },
+    {
+      "from": "to-issues",
+      "to": "dogfood",
+      "weight": 0.7,
+      "reason": "共享关键词: this, describe",
+      "bidirectional": true
+    },
+    {
+      "from": "to-issues",
+      "to": "tdd",
+      "weight": 1.0,
+      "reason": "共享关键词: correct, this, does, slices",
+      "bidirectional": true
+    },
+    {
+      "from": "to-issues",
+      "to": "grill-with-docs",
+      "weight": 0.7,
+      "reason": "共享关键词: this, design",
+      "bidirectional": true
+    },
+    {
+      "from": "tdd",
+      "to": "skill_anatomy",
+      "weight": 0.7,
+      "reason": "共享关键词: testing, this",
+      "bidirectional": true
+    },
+    {
+      "from": "tdd",
+      "to": "dogfood",
+      "weight": 1.0,
+      "reason": "共享关键词: about, testing, this, after",
+      "bidirectional": true
+    },
+    {
+      "from": "tdd",
+      "to": "theme-factory",
+      "weight": 0.9,
+      "reason": "共享关键词: this, about, after",
+      "bidirectional": true
+    },
+    {
+      "from": "tdd",
+      "to": "to-issues",
+      "weight": 1.0,
+      "reason": "共享关键词: correct, this, does, slices",
+      "bidirectional": true
+    },
+    {
+      "from": "tdd",
+      "to": "grill-with-docs",
+      "weight": 0.7,
+      "reason": "共享关键词: this, about",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-system-maintenance",
+      "to": "trigger_config",
+      "weight": 1.0,
+      "reason": "共享关键词: coding, debugging, tool, 关键词",
+      "bidirectional": true
+    },
+    {
+      "from": "external-fetcher",
+      "to": "brain-retriever",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, 区别, hackernews",
+      "bidirectional": true
+    },
+    {
+      "from": "external-fetcher",
+      "to": "brain-retriever-usage",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, 区别, hackernews",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-thinker",
+      "to": "brain-retriever",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, tmp, 剩多少",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-thinker",
+      "to": "brain-retriever-usage",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, tmp, 剩多少",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-thinker",
+      "to": "brain-invoke",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, tmp, score",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-thinker",
+      "to": "brain-system-integration",
+      "weight": 0.7,
+      "reason": "共享关键词: 返回, 剩多少",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-thinker",
+      "to": "ollama-model-manager",
+      "weight": 0.7,
+      "reason": "共享关键词: status, 返回",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-optimization-methodology",
+      "to": "brain-invoke",
+      "weight": 0.7,
+      "reason": "共享关键词: memory, confidence",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever-usage",
+      "to": "brain-retriever",
+      "weight": 1.0,
+      "reason": "共享关键词: 学到, 三层思考, 三层判断, cache, 思考引擎",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever-usage",
+      "to": "external-fetcher",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, 区别, hackernews",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever-usage",
+      "to": "brain-thinker",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, tmp, 剩多少",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever-usage",
+      "to": "brain-invoke",
+      "weight": 0.7,
+      "reason": "共享关键词: cache, tmp",
+      "bidirectional": true
+    },
+    {
+      "from": "grill-with-docs",
+      "to": "continue",
+      "weight": 0.7,
+      "reason": "共享关键词: check, this",
+      "bidirectional": true
+    },
+    {
+      "from": "grill-with-docs",
+      "to": "dogfood",
+      "weight": 1.0,
+      "reason": "共享关键词: about, check, this, will",
+      "bidirectional": true
+    },
+    {
+      "from": "grill-with-docs",
+      "to": "theme-factory",
+      "weight": 0.7,
+      "reason": "共享关键词: this, about",
+      "bidirectional": true
+    },
+    {
+      "from": "grill-with-docs",
+      "to": "pdf",
+      "weight": 0.7,
+      "reason": "共享关键词: check, this",
+      "bidirectional": true
+    },
+    {
+      "from": "grill-with-docs",
+      "to": "to-issues",
+      "weight": 0.7,
+      "reason": "共享关键词: this, design",
+      "bidirectional": true
+    },
+    {
+      "from": "grill-with-docs",
+      "to": "tdd",
+      "weight": 0.7,
+      "reason": "共享关键词: this, about",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-invoke",
+      "to": "webapp-testing",
+      "weight": 0.7,
+      "reason": "共享关键词: complex, tmp",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-invoke",
+      "to": "brain-retriever",
+      "weight": 0.7,
+      "reason": "共享关键词: cache, tmp",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-invoke",
+      "to": "brain-thinker",
+      "weight": 0.9,
+      "reason": "共享关键词: cache, tmp, score",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-invoke",
+      "to": "brain-optimization-methodology",
+      "weight": 0.7,
+      "reason": "共享关键词: memory, confidence",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-invoke",
+      "to": "brain-retriever-usage",
+      "weight": 0.7,
+      "reason": "共享关键词: cache, tmp",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-system-integration",
+      "to": "brain-thinker",
+      "weight": 0.7,
+      "reason": "共享关键词: 返回, 剩多少",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-system-integration",
+      "to": "ollama-model-manager",
+      "weight": 0.7,
+      "reason": "共享关键词: check, 返回",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama-model-manager",
+      "to": "continue",
+      "weight": 0.7,
+      "reason": "共享关键词: check, status",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama-model-manager",
+      "to": "brain-thinker",
+      "weight": 0.7,
+      "reason": "共享关键词: status, 返回",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama-model-manager",
+      "to": "brain-system-integration",
+      "weight": 0.7,
+      "reason": "共享关键词: check, 返回",
+      "bidirectional": true
+    },
+    {
+      "from": "brain_architecture_v2",
+      "to": "multi_agent_patterns",
+      "weight": 0.95,
+      "reason": "架构定义了多Agent协作模式",
+      "bidirectional": true
+    },
+    {
+      "from": "brain_architecture_v2",
+      "to": "self_evolution_pattern",
+      "weight": 0.95,
+      "reason": "架构包含自进化引擎",
+      "bidirectional": true
+    },
+    {
+      "from": "self_evolution_pattern",
+      "to": "moss_self_evolution",
+      "weight": 0.9,
+      "reason": "MOSS是自进化的具体实现",
+      "bidirectional": true
+    },
+    {
+      "from": "self_evolution_pattern",
+      "to": "vector_policy_optimization",
+      "weight": 0.7,
+      "reason": "多样性策略是自进化的一部分",
+      "bidirectional": true
+    },
+    {
+      "from": "multi_agent_patterns",
+      "to": "lcguard_multiagent_security",
+      "weight": 0.85,
+      "reason": "多Agent必须考虑KV安全",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama_model_tiers",
+      "to": "ollama_platform_ecosystem",
+      "weight": 0.85,
+      "reason": "Ollama生态包含模型分层",
+      "bidirectional": true
+    },
+    {
+      "from": "cron_silent_mode",
+      "to": "brain_architecture_v2",
+      "weight": 0.7,
+      "reason": "架构支持静默运行原则",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-invoke",
+      "to": "brain_architecture_v2",
+      "weight": 0.9,
+      "reason": "brain-invoke是三层思考的入口",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-invoke",
+      "to": "self_evolution_pattern",
+      "weight": 0.8,
+      "reason": "自进化需要通过brain-thinker执行",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-thinker",
+      "to": "brain_architecture_v2",
+      "weight": 0.95,
+      "reason": "brain-thinker实现三层思考架构",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever",
+      "to": "brain_architecture_v2",
+      "weight": 0.85,
+      "reason": "检索是二层思考的核心组件",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama-brain-teacher",
+      "to": "ollama_model_tiers",
+      "weight": 0.9,
+      "reason": "本地教师需要理解模型分层",
+      "bidirectional": true
+    },
+    {
+      "from": "machine-cat-guardian",
+      "to": "brain_architecture_v2",
+      "weight": 0.8,
+      "reason": "守护者嵌入三层思考",
+      "bidirectional": true
+    },
+    {
+      "from": "tdd",
+      "to": "tdd_engineering",
+      "weight": 0.95,
+      "reason": "TDD skill对应tdd-engineering原则",
+      "bidirectional": true
+    },
+    {
+      "from": "security-auditor",
+      "to": "agent_behavior_guardrails",
+      "weight": 0.85,
+      "reason": "安全审计与行为护栏相关",
+      "bidirectional": true
+    },
+    {
+      "from": "code-reviewer",
+      "to": "tdd_engineering",
+      "weight": 0.7,
+      "reason": "代码审查支持TDD流程",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama-auto-learning",
+      "to": "self_evolution_pattern",
+      "weight": 0.9,
+      "reason": "自动学习是自进化的核心机制",
+      "bidirectional": true
+    },
+    {
+      "from": "ollama-auto-learning-debug",
+      "to": "ollama_model_tiers",
+      "weight": 0.7,
+      "reason": "学习调试依赖模型分层",
+      "bidirectional": true
+    },
+    {
+      "from": "autonomous-ai-agents",
+      "to": "multi_agent_patterns",
+      "weight": 0.9,
+      "reason": "自主Agent对应多Agent协作模式",
+      "bidirectional": true
+    },
+    {
+      "from": "claude-code",
+      "to": "claude_code_plugin_creation",
+      "weight": 0.95,
+      "reason": "Claude Code plugin创建流程",
+      "bidirectional": true
+    },
+    {
+      "from": "continue",
+      "to": "multi_agent_patterns",
+      "weight": 0.65,
+      "reason": "长上下文与多Agent协作",
+      "bidirectional": false
+    },
+    {
+      "from": "grill-with-docs",
+      "to": "brain_architecture_v2",
+      "weight": 0.7,
+      "reason": "文档审查嵌入思考架构",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-retriever-usage",
+      "to": "brain_architecture_v2",
+      "weight": 0.85,
+      "reason": "检索使用规范来自架构设计",
+      "bidirectional": true
+    },
+    {
+      "from": "external-fetcher",
+      "to": "brain_architecture_v2",
+      "weight": 0.8,
+      "reason": "外部获取是二层思考的一部分",
+      "bidirectional": true
+    },
+    {
+      "from": "hermes-skills-digest",
+      "to": "brain_architecture_v2",
+      "weight": 0.7,
+      "reason": "skills摘要是架构知识的应用",
+      "bidirectional": true
+    },
+    {
+      "from": "claude-code-plugins",
+      "to": "agent_skills_lifecycle",
+      "weight": 0.75,
+      "reason": "插件开发是技能生命周期的一部分",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-team-architecture",
+      "to": "brain_architecture_v2",
+      "weight": 0.9,
+      "reason": "团队架构是大脑架构的具体化",
+      "bidirectional": true
+    },
+    {
+      "from": "brain-optimization-methodology",
+      "to": "brain_architecture_v2",
+      "weight": 0.85,
+      "reason": "优化方法论基于架构设计",
+      "bidirectional": true
+    },
+    {
+      "from": "agent-skills-lifecycle",
+      "to": "multi_agent_studio",
+      "weight": 0.7,
+      "reason": "Agent技能与多Agent工作室相关",
+      "bidirectional": true
+    },
+    {
+      "from": "planner",
+      "to": "brain_architecture_v2",
+      "weight": 0.75,
+      "reason": "规划能力嵌入思考架构",
+      "bidirectional": true
+    },
+    {
+      "from": "code-reviewer",
+      "to": "agent_behavior_guardrails",
+      "weight": 0.7,
+      "reason": "代码审查执行行为护栏",
+      "bidirectional": true
     }
   ]
 }

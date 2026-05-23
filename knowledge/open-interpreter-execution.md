@@ -1,0 +1,181 @@
+# Open Interpreter 执行环境
+
+## 核心定位
+
+**Open Interpreter** 让LLM在本地运行代码（Python / JavaScript / Shell等），通过类ChatGPT终端界面交互。
+
+优势 vs OpenAI Code Interpreter：
+- ✅ 完整互联网访问
+- ✅ 无时间/文件大小限制
+- ✅ 任意包/库可用
+- ✅ 状态持久化（文件生成不丢失）
+
+---
+
+## 安装与启动
+
+```bash
+pip install git+https://github.com/OpenInterpreter/open-interpreter.git
+interpreter                    # 交互式终端
+```
+
+默认使用 GPT-4o，需输入 API Key。
+
+### Python方式
+
+```python
+from interpreter import interpreter
+
+interpreter.chat("Plot AAPL and META's normalized stock prices")  # 单次执行
+interpreter.chat()                                                  # 交互会话
+```
+
+---
+
+## 与 Ollama 本地集成
+
+### 方式1：命令行本地模式
+
+```bash
+interpreter --local   # 自动配置，支持Llamafile
+```
+
+### 方式2：指定API端点
+
+```bash
+interpreter --api_base "http://localhost:1234/v1" --api_key "fake_key"
+```
+
+> 本地模式默认 context_window=3000, max_tokens=1000，按需手动调整。
+
+### 方式3：Python精确控制
+
+```python
+from interpreter import interpreter
+
+interpreter.offline = True
+interpreter.llm.model = "openai/x"
+interpreter.llm.api_key = "fake_key"
+interpreter.llm.api_base = "http://localhost:1234/v1"
+
+interpreter.chat()
+```
+
+---
+
+## 核心概念
+
+### 工作原理
+
+```
+LLM（function-calling模型）
+    ↓ 携带 exec(language, code) 函数
+Stream → 代码块 → 本地 exec() 执行 → 输出Markdown格式返回
+```
+
+### 安全模型
+
+| 机制 | 说明 |
+|------|------|
+| **用户确认** | ⚠️ 代码执行前需用户批准（默认） |
+| **auto_run** | `interpreter.auto_run = True` 跳过确认（危险） |
+| **safe mode** | 实验性沙箱限制（见SAFE_MODE.md） |
+| **容器环境** | 建议在Colab/Replit等隔离环境中运行 |
+
+### 消息与会话管理
+
+```python
+# 继续对话（保留历史）
+interpreter.chat("Follow-up question")
+
+# 重置会话
+interpreter.messages = []
+
+# 保存/恢复对话
+messages = interpreter.chat("My name is Killian")
+interpreter.messages = []                  # 重置
+interpreter.messages = messages            # 恢复
+```
+
+---
+
+## 交互命令
+
+| 命令 | 说明 |
+|------|------|
+| `%verbose true/false` | 切换调试详情模式 |
+| `%reset` | 重置当前会话 |
+| `%undo` | 撤销上一条用户消息+AI回复 |
+| `%tokens [prompt]` | 估算token数和费用 |
+| `%help` | 显示帮助 |
+
+---
+
+## 配置/Profiles
+
+支持 YAML 配置文件批量设置行为：
+
+```bash
+interpreter --profiles              # 打开profiles目录
+interpreter --profile my_profile.yaml  # 使用指定profile
+```
+
+常用profile设置：
+```yaml
+llm.model: gpt-4o
+llm.api_base: https://api.openai.com/v1
+system_message: "你是一个Python数据分析师..."
+auto_run: false
+offline: false
+```
+
+---
+
+## FastAPI 服务模式
+
+```python
+from fastapi import FastAPI
+from fastapi.responses import StreamingResponse
+from interpreter import interpreter
+
+app = FastAPI()
+
+@app.get("/chat")
+def chat_endpoint(message: str):
+    def event_stream():
+        for result in interpreter.chat(message, stream=True):
+            yield f"data: {result}\n\n"
+    return StreamingResponse(event_stream(), media_type="text/event-stream")
+
+@app.get("/history")
+def history_endpoint():
+    return interpreter.messages
+```
+
+```bash
+pip install fastapi uvicorn
+uvicorn server:app --reload
+# 或直接: interpreter.server()
+```
+
+---
+
+## Verbose调试
+
+```bash
+interpreter --verbose              # 命令行启动
+# 或会话中:
+%verbose true
+```
+
+---
+
+## 关键注意事项
+
+1. **auto_run=True 时**: 像看自动驾驶一样监控，随时准备关闭终端
+2. **本地模式**: 适合LM Studio / Ollama / Llamafile等本地推理服务
+3. **安全模式**: 实验性，非生产环境依赖
+4. **长对话**: 建议定期`%reset`，避免上下文膨胀
+5. **Android**: 可通过Termux安装（见 [open-interpreter-termux](https://github.com/MikeBirdTech/open-interpreter-termux)）
+
+> 来源：[OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) GitHub README
