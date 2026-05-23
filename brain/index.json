@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "version": "2.0",
+    "updated": "2026-05-22",
+    "description": "机器猫超级大脑 — 双层架构索引"
+  },
+  "structure": {
+    "静态层": {
+      "problem_types/": "6类问题分类(JSON→Markdown已转换)",
+      "reasoning_patterns/content/": "5个核心知识笔记(1,692行)",
+      "tool_templates/": "空(待填充)"
+    },
+    "动态层": {
+      "neural/connections.json": "思路关联图",
+      "neural/inference_paths.json": "推理路径(coding/devops/debugging/architecture/research/decision)"
+    }
+  },
+  "integrated": {
+    "rag": true,
+    "rag_index_path": "/opt/data/rag_index/brain/",
+    "access_method": "python3 /opt/data/scripts/rag_query.py '关键词' [域]",
+    "files_indexed": 10,
+    "entries": [
+      {
+        "path": "principles/taste-design-principles.md",
+        "category": "frontend-design",
+        "keywords": "前端 UI 设计审美 taste-skill anti-slop 布局 动效 字体 旋钮",
+        "summary": "taste-skill AI前端审美设计原则——3旋钮系统、7条防AI偏见铁律、性能红线"
+      },
+      {
+        "path": "principles/agent-behavior-guardrails.md",
+        "category": "agent-philosophy",
+        "keywords": "AI agent 行为准则 superpowers PR规范 保护人类",
+        "summary": "superpowers AGENTS.md——94% PR拒绝率教训，agent行为保护原则"
+      },
+      {
+        "path": "principles/opencode-skill-model.md",
+        "category": "skill-architecture",
+        "keywords": "OpenCode skill驱动执行 intent映射 生命周期编排 三层架构",
+        "summary": "addyosmani OpenCode模型——skill/persona/command三层编排，intent→skill路由"
+      },
+      {
+        "path": "principles/tdd-engineering.md",
+        "category": "engineering",
+        "keywords": "TDD 测试驱动 垂直切片 tracer bullet 红绿重构 RED GREEN REFACTOR",
+        "summary": "mattpocock TDD工程实践——垂直切片优先于水平切片，RED-GREEN-REFACTOR循环，测试行为不测实现"
+      },
+      {
+        "path": "principles/superpowers-workflow.md",
+        "category": "engineering",
+        "keywords": "Superpowers 7步流水线 brainstorming subagent TDD code-review 自动触发",
+        "summary": "superpowers 203K★——7步AI开发流水线，每步skill自动触发，从构思到合并"
+      },
+      {
+        "path": "principles/prototype-branching.md",
+        "category": "engineering",
+        "keywords": "原型 prototype 垂直切片 LOGIC UI分支 rapid-validation",
+        "summary": "mattpocock prototype skill——LOGIC(终端) vs UI(多变体)两分支决策，快速验证后删除"
+      },
+      {
+        "path": "principles/skill-anatomy.md",
+        "category": "skill-architecture",
+        "keywords": "Skill格式 YAML frontmatter 触发条件 red flags anatomy 标准结构",
+        "summary": "四大仓库共同标准——SKILL.md的6个必要组成部分，精准触发条件写法，质量门槛94%拒绝"
+      },
+      {
+        "path": "principles/multi-agent-studio.md",
+        "category": "architecture",
+        "keywords": "多Agent协作 团队工作室 层级架构 自动化Hook 路径规则 Claude Code Game Studios",
+        "summary": "Claude Code Game Studios 700★——49 Agent三层架构(总监/主管/专家)、Hook自动化、路径作用域规则"
+      },
+      {
+        "path": "principles/collaborative-protocol.md",
+        "category": "agent-philosophy",
+        "keywords": "协作协议 ASK PRESENT DECIDE DRAFT APPROVE 人机协同 五步流程 决策权",
+        "summary": "Claude Code Game Studios协作协议——Agent永远问-展示-等待决定-草稿-确认，不擅自行动"
+      },
+      {
+        "path": "principles/hook-automation.md",
+        "category": "automation",
+        "keywords": "Hook钩子 自动化检查 生命周期 会话压缩 pre-commit 审计日志 失效安全",
+        "summary": "Game Studios 12个自动化Hook——预执行拦截、会话生命周期管理、Agent审计日志，可迁移到Hermes"
+      }
+    ]
+  },
+  "待完成": {
+    "tool_templates": "填充实际工具模板",
+    "learning_script": "旧auto_learning.py尚未连接brain架构"
+  },
+  "entries": [
+    {
+      "path": "principles/ollama_model_tiers.md",
+      "type": "principle",
+      "tags": [
+        "模型",
+        "调度",
+        "Ollama",
+        "架构"
+      ]
+    },
+    {
+      "path": "principles/multi_agent_patterns.md",
+      "type": "principle",
+      "tags": [
+        "多Agent",
+        "delegate_task",
+        "协作"
+      ]
+    },
+    {
+      "path": "principles/cron_silent_mode.md",
+      "type": "principle",
+      "tags": [
+        "Cron",
+        "静默",
+        "通知"
+      ]
+    },
+    {
+      "path": "reasoning_patterns/self_evolution.md",
+      "type": "pattern",
+      "tags": [
+        "自进化",
+        "自我观测",
+        "反馈闭环"
+      ]
+    }
+  ],
+  "last_updated": "2026-05-26"
+}
