@@ -31,12 +31,12 @@ triggers:
 pandoc --track-changes=all document.docx -o output.md
 
 # 原始XML访问
-python3 scripts/office/unpack.py document.docx unpacked/
+python3 /opt/data/scripts/docx/office/unpack.py document.docx unpacked/
 ```
 
 ### 接受追踪修订
 ```bash
-python3 scripts/accept_changes.py input.docx output.docx
+python3 /opt/data/scripts/docx/accept_changes.py input.docx output.docx
 ```
 
 ---
@@ -178,7 +178,7 @@ new TableOfContents("Table of Contents", { hyperlink: true, headingStyleRange: "
 
 ### Step 1: 解包
 ```bash
-python3 scripts/office/unpack.py document.docx unpacked/
+python3 /opt/data/scripts/docx/office/unpack.py document.docx unpacked/
 ```
 
 ### Step 2: 编辑XML
@@ -205,5 +205,5 @@ python3 scripts/office/unpack.py document.docx unpacked/
 
 ### Step 3: 打包
 ```bash
-python3 scripts/office/pack.py unpacked/ output.docx --original document.docx
+python3 /opt/data/scripts/docx/office/pack.py unpacked/ output.docx --original document.docx
 ```

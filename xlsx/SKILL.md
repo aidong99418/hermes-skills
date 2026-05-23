@@ -113,7 +113,7 @@ wb.save('modified.xlsx')
 openpyxl创建的文件公式以字符串保存，但无计算值。**必须**用脚本重算：
 
 ```bash
-python3 scripts/recalc.py output.xlsx
+python3 /opt/data/scripts/xlsx/recalc.py output.xlsx
 ```
 
 脚本返回JSON：
