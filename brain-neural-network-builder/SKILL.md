@@ -1,181 +1,182 @@
 ---
 name: brain-neural-network-builder
-description: 构建机器猫大脑神经网络 — 把brain文档和skills接成语义图，实现自动推理路由。从目录重组→节点生成→连接构建→GitHub同步完整链路。
-trigger: 同步brain文档到git / 构建神经网络 / brain+skill关联失效
+description: 机器猫Brain神经网络构建与自检技能 — 扫描brain文档+skills目录，一键重建neural网络三个JSON文件（skill_neural.json / connections.json / inference_paths.json），确保SkillMatcher触发词匹配和神经网络推理路径正常工作。
 triggers:
-  - "brain神经网络"
-  - "构建neural"
-  - "brain连接"
-  - "brain文档同步"
+  - 神经网络重建
+  - neural网络重建
+  - 重建neural
+  - build neural
+  - 神经网络修复
+  - neural数据损坏
+  - brain文档更新
+  - skills目录变化
+  - 检查neural网络
+  - neural自检
+  - neural健康检查
+  - 验证neural连接
 ---
 
-# Brain 神经网络构建器
+# Brain神经网络构建器 v3.0
 
-## 核心价值
-brain文档和skills再多，如果没连成网络就等于废铁。本skill把**孤立知识变成推理网络**。
+## 功能概述
 
-## 完整流程
+当brain文档或skills目录发生增删改时，运行本脚本一键重建neural网络三个核心数据文件：
 
-### Phase 1: 目录重组（一次性，之后增量）
+| 文件 | 作用 | SkillMatcher读取字段 |
+|------|------|---------------------|
+| `skill_neural.json` | 节点库(brain_docs) + 技能触发词(skills) | `skills[].triggers` |
+| `connections.json` | 突触权重（节点间关联强度） | — |
+| `inference_paths.json` | 推理路径（tier→action路由） | — |
 
+**当前状态**：74节点（32 brain_docs + 42 skills）/ 634条连接 / 9条推理路径
+
+---
+
+## 快速使用
+
+### 全量重建（默认）
+```bash
+python3 /opt/data/brain/neural/build_neural_network.py
 ```
-git工作目录 (/root/hermes-skills)
-├── principles/        # 核心原则（tdd/cron静默/安全等）
-├── knowledge/         # 知识总结（模型分层/Ollama生态等）
-├── reasoning_pattern/ # 推理模式（自进化/多Agent/VPO等）
-├── workflow/          # 工作流（Git学习/原型分支等）
-├── tool_templates/    # 工具模板（MCP集成/Agent Skills等）
-└── architecture/      # 架构设计（大脑架构/团队协作等）
+
+### 预览模式（不写入磁盘）
+```bash
+python3 /opt/data/brain/neural/build_neural_network.py --dry
 ```
 
-**原则：每个文档只放一个分类。如果内容跨越多类，选最主要的那个。**
+---
 
-### Phase 2: 生成 skill_neural.json
+## 构建逻辑
 
-用keyword overlap + 手工核心连接：
+### Phase 1 — Brain文档扫描
+- 扫描6个brain子目录（principles/knowledge/reasoning_pattern/workflow/tool_templates/architecture）
+- 每个.md文件生成一个`brain_doc`类型节点
+- **去重策略**：同名但不同目录的文件（如`git_learning_workflow.md`在principles和workflow同时存在），加category前缀区分
+- ID统一用 hyphen 格式（`brain_thinker` → `brain-thinker`）
 
+### Phase 2 — Skills扫描
+- 扫描 `/opt/data/skills/` 和 `/opt/data/external-skills/` 下所有SKILL.md
+- 每个skill生成一个`skill`类型节点，包含：
+  - `triggers`：从frontmatter提取 + 名称分词
+  - `activates_nodes`：根据skill名称关键词映射到目标brain节点
+  - `keywords`：自动清洗（中英文噪音词过滤）
+
+### Phase 3 — Connections自动推导
+1. **同category全连接**（brain_doc间）：weight=0.6
+2. **skill → activates_nodes**：weight=0.7
+3. **同source全连接**（skills间）：weight=0.4
+4. **核心手工连接**（高权重固定链路）：weight=0.7-0.9
+5. **去重**：相同from-to对保留最高weight
+
+### Phase 4 — 推理路径
+- 9条预定义推理路径，引用实际存在的节点ID
+- `valid()`过滤：路径节点不存在时自动跳过该节点
+- 空路径（节点全缺失）会被过滤掉
+
+---
+
+## 数据文件格式
+
+### skill_neural.json
+```json
+{
+  "_meta": { "version": "3.0", "total_nodes": 74, "total_connections": 634 },
+  "skills": [{            // ← SkillMatcher读取此字段！
+    "id": "tdd",
+    "name": "tdd",
+    "triggers": ["tdd", "test"],    // 触发词
+    "activates_nodes": ["tdd-engineering"],  // 激活节点
+    "strengthens": [],
+    "type": "skill"
+  }],
+  "nodes": [{             // Brain文档节点
+    "id": "brain-thinker",
+    "type": "brain_doc",
+    "category": "knowledge",
+    "keywords": ["brain", "thinker"],
+    "source": "brain"
+  }]
+}
+```
+
+### connections.json
+```json
+{
+  "_meta": { "version": "1.0", "description": "突触权重" },
+  "connections": [
+    {"from": "brain-thinker", "to": "brain-retriever", "weight": 0.9, "reason": "核心思考链路"}
+  ]
+}
+```
+
+---
+
+## 常见问题
+
+### Q: 推理路径显示"缺失节点"警告
+**原因**：路径中引用了不存在的节点ID（可能skill被删除了）
+**解决**：手动检查 `build_neural_network.py` 中的 `core` 列表或 `build_inference_paths()` 函数，更新为实际存在的ID
+
+### Q: SkillMatcher仍然不工作
+**原因**：schema不匹配。检查 `skill_neural.json` 顶层是否有 `skills` 字段（不是 `nodes`）
+**验证**：
+```bash
+python3 -c "import json; d=json.load(open('/opt/data/brain/neural/skill_neural.json')); print('skills:', len(d.get('skills',[])), 'nodes:', len(d.get('nodes',[])))"
+```
+
+### Q: 增删一个skill后要重建吗？
+**不需要全量重建**。skill触发词由frontmatter的`triggers`字段 + 名称分词自动生成，skill有增删改时运行一次build脚本即可。
+
+### Q: 添加核心手工连接
+编辑 `build_neural_network.py` 中 `core = [...]` 列表，格式：
 ```python
-import os, json, re
-
-neural = {"_meta": {"version": "1.0", "total_nodes": 0, "total_connections": 0}, "nodes": [], "connections": []}
-
-def extract_keywords(text):
-    cn = re.findall(r'[\u4e00-\u9fff]{2,6}', text)
-    en = re.findall(r'[a-z][a-z0-9-]{2,20}', text)
-    return list(set(cn + en))
-
-# 添加brain_doc节点
-for cat in ["principles","knowledge","reasoning_pattern","workflow","tool_templates","architecture"]:
-    for fn in os.listdir(f"/root/hermes-skills/{cat}"):
-        if not fn.endswith('.md'): continue
-        with open(f"/root/hermes-skills/{cat}/{fn}") as f:
-            content = f.read()
-        neural["nodes"].append({
-            "id": fn.replace('.md','').replace('-','_'),
-            "type": "brain_doc",
-            "keywords": extract_keywords(content)[:15],
-            "description": content[:80],
-            "confidence": 0.5, "usage_count": 0,
-            "source": "brain"
-        })
-
-# 添加skill节点
-for name in os.listdir("/opt/data/skills"):
-    md = f"/opt/data/skills/{name}/SKILL.md"
-    if os.path.exists(md):
-        with open(md) as f: content = f.read()
-        neural["nodes"].append({
-            "id": name, "type": "skill",
-            "keywords": extract_keywords(content)[:15],
-            "description": content[:80],
-            "confidence": 0.5, "usage_count": 0,
-            "source": "skills"
-        })
-
-# 自动连接：共享关键词≥2个
-for n1 in neural["nodes"]:
-    for n2 in neural["nodes"]:
-        if n1["id"] == n2["id"]: continue
-        shared = set(n1["keywords"]) & set(n2["keywords"])
-        if len(shared) >= 2:
-            weight = min(1.0, len(shared)*0.2 + 0.3)
-            neural["connections"].append({"from": n1["id"], "to": n2["id"], "weight": round(weight,2), "reason": f"共享: {list(shared)[:5]}"})
-
-# 手工核心连接（高权重，核心推理链）
-core = [
-    ("brain_architecture_v2", "multi_agent_patterns", 0.95, "架构定义多Agent协作"),
-    ("brain_architecture_v2", "self_evolution_pattern", 0.95, "架构包含自进化引擎"),
-    ("brain-thinker", "brain_architecture_v2", 0.95, "brain-thinker实现三层思考"),
-    ("brain-invoke", "brain_architecture_v2", 0.9, "brain-invoke是三层思考入口"),
-    ("ollama-brain-teacher", "ollama_model_tiers", 0.9, "本地教师需理解模型分层"),
-    ("ollama-auto-learning", "self_evolution_pattern", 0.9, "自动学习是自进化核心"),
-    ("autonomous-ai-agents", "multi_agent_patterns", 0.9, "自主Agent对应多Agent模式"),
-    ("mcp-builder", "mcp_integration", 0.9, "MCP builder实现MCP集成"),
-    ("tdd", "tdd_engineering", 0.95, "TDD skill对应tdd-engineering原则"),
-    ("security-auditor", "agent_behavior_guardrails", 0.85, "安全审计与行为护栏相关"),
-]
-for f,t,w,r in core:
-    neural["connections"].append({"from": f, "to": t, "weight": w, "reason": r, "bidirectional": w>=0.7})
-
-neural["_meta"]["total_nodes"] = len(neural["nodes"])
-neural["_meta"]["total_connections"] = len(neural["connections"])
+('from_node_id', 'to_node_id', 权重, '原因')
 ```
 
-### Phase 3: 部署
+---
+
+## 验证命令
 
 ```bash
-# 1. 放到正确位置（brain_retriever读这个路径）
-mkdir -p /opt/data/brain/neural
-cp skill_neural.json /opt/data/brain/neural/skill_neural.json
+# 1. 运行构建
+python3 /opt/data/brain/neural/build_neural_network.py
 
-# 2. 初始化突触权重文件
-python3 -c "import json; json.dump({'_meta':{'version':'1.0'},'connections':[]}, open('/opt/data/brain/neural/connections.json','w'), ensure_ascii=False, indent=2)"
+# 2. 验证schema正确性（skills字段存在）
+python3 -c "import json; d=json.load(open('/opt/data/brain/neural/skill_neural.json')); print('✅ skills:', len(d.get('skills',[])), '/ nodes:', len(d.get('nodes',[])))"
 
-# 3. 同步到runtime brain（按子目录结构）
-for cat in principles knowledge reasoning_pattern workflow tool_templates architecture; do
-    mkdir -p /opt/data/brain/$cat
-    cp /root/hermes-skills/$cat/*.md /opt/data/brain/$cat/
-done
-
-# 4. 重建index.json
+# 3. 模拟SkillMatcher查询测试
 python3 -c "
-import json, os
-entries = []
-for cat in ['principles','knowledge','reasoning_pattern','workflow','tool_templates','architecture']:
-    for fn in sorted(os.listdir(f'/opt/data/brain/{cat}')):
-        if fn.endswith('.md'):
-            entries.append({'path': f'{cat}/{fn}', 'file': fn, 'category': cat, 'id': fn.replace('.md','')})
-with open('/opt/data/brain/index.json','w') as f:
-    json.dump({'_meta':{'version':'2.0','updated':'2026-05-23','total':len(entries)},'entries':entries}, f, ensure_ascii=False, indent=2)
+import json
+data = json.load(open('/opt/data/brain/neural/skill_neural.json'))
+skills = data.get('skills', [])
+q = 'tdd怎么做'
+for s in skills:
+    matched = [t for t in s.get('triggers',[]) if t.lower() in q.lower()]
+    if matched:
+        print(f'{s[\"name\"]}: {matched} → activates {s.get(\"activates_nodes\",[])}')
 "
 ```
 
-### Phase 4: 验证检索
+---
 
-```python
-# 测试neural检索
-with open('/opt/data/brain/neural/skill_neural.json') as f:
-    neural = json.load(f)
+## 核心坑记录
 
-for query in ['模型', 'agent', 'brain', '学习']:
-    results = [(n['id'], n['type'], sum(1 for k in n['keywords'] if query in str(k)))
-               for n in neural['nodes']]
-    results = [r for r in results if r[2] > 0]
-    results.sort(key=lambda x: -x[2])
-    print(f'"{query}" → {results[:3]}')
-```
+- **ID命名不统一**：brain用`_`，skills用`-`，inference_paths用`_`，导致一个都匹配不上。修复：统一用hyphen格式
+- **重复brain文档**：同一文件名在多个目录下出现（如`git_learning_workflow.md`在principles和workflow），加category前缀区分
+- **Schema合同**：brain_retriever.py的SkillMatcher读取`skill_neural.json["skills"]`，不是`["nodes"]`，这是之前匹配全部失效的根因
+- **关键词噪音**：从描述文本提取keywords时，短英文词（如`api`, `url`, `run`, `test`）占40%+，必须过滤
+- **Slug规范化陷阱**：brain doc的ID是`brain_thinker`（原文件名），skill的ID是`brain-thinker`（目录名转hyphen），两者看似同一实体但字符串不相等。脚本早期用`if skill_id in seen_ids`判断时，`brain_thinker` ≠ `brain-thinker`，导致同一实体被当作两个独立节点或其中一个被静默丢弃。修复：`to_id()`统一转换
+- **ID去重时机**：不能边扫描边去重（同一文件循环中无法预知后面是否还有同名），而应该先完整扫描生成列表，再做去重判断
 
-### Phase 5: GitHub同步
+## 调试自检清单
 
-```bash
-cd /root/hermes-skills
-git add -A
-git commit -m "feat: brain neural network vX - {N}nodes/{M}connections"
-# 如果push被reject，先pull --rebase再push
-git pull --rebase https://ghp_...@github.com/... HEAD
-git push https://ghp_...@github.com/... HEAD
-```
+构建后发现异常，按以下顺序排查：
 
-## 常见问题处理
-
-### 发现重复文件（flat + 子目录都有）
-不要手动删！从git工作目录重建runtime brain：
-```bash
-# git工作目录是clean source，重新同步即可
-cp /root/hermes-skills/$cat/*.md /opt/data/brain/$cat/
-```
-
-### 文档太小（<500B）
-用对应源文件（/tmp/gems/repos3/ 或仓库原文）重新生成结构化brain文档，不要留placeholder。
-
-### GitHub push rejected
-```bash
-git pull --rebase <token>@github.com/<user>/<repo>.git HEAD
-git push <token>@github.com/<user>/<repo>.git HEAD
-```
-
-## 关键原则
-1. **git工作目录是clean source**：永远从git目录重建runtime，不从runtime反向同步
-2. **每个文档一个分类**：避免跨类重复，训练检索的准确性
-3. **手工核心连接 > 自动关键词**：核心推理链（架构→模式→实现）必须手工指定高权重
-4. **先分析再执行**：被问"把没处理完的做好"时，先brain-retrieve判断优先级，不一定按用户说的顺序
+1. **验证文件能读**：skills字段数>0，否则schema错了
+   ```bash
+   python3 -c "import json; d=json.load(open('/opt/data/brain/neural/skill_neural.json')); print('skills:', len(d.get('skills',[])), 'nodes:', len(d.get('nodes',[])))"
+   ```
+2. **查重复ID**：`[x for x in ids if ids.count(x) > 1]`
+3. **查路径缺失节点**：paths中有节点不在node_ids中
+4. **模拟SkillMatcher**：用查询词匹配triggers，确认有输出
+5. **验证写盘后内容**：读取刚生成的文件，检查实际内容是否与内存一致
