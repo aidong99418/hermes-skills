@@ -1,155 +1,167 @@
 ---
 name: herrmes-skills-push
-description: 往GitHub herrmes-skills仓库推送skill的标准流程。包含：目录结构规范、git身份配置、PAT凭证、批量推送步骤。董哥自己的skill仓库，每6小时自动同步回NAS external-skills目录。
-triggers:
-  - "推skill到github"
-  - "herrmes-skills"
-  - "skill推送"
+description: herrmes-skills GitHub仓库日常维护工作流 — 单仓库结构、直接clone、智能恢复、GitHub API认证。触发：推skill到GitHub、恢复误删skill、GitHub API限流处理。
+version: 2.0.0
+tags: [github, skills, git, backup]
+triggers: ["推skill", "hermes-skills", "恢复skill", "GitHub API限流", "GitHub认证"]
 category: github
-version: 1.0
 author: 打工仔
 date: 2026-05-23
 ---
 
-# herrmes-skills 推送规范
+# herrmes-skills 仓库维护规范
 
 ## 仓库信息
-- **GitHub**: https://github.com/aidong99418/herrmes-skills
-- **本地同步目录**: `/opt/data/external-skills/`
-- **分支名**: `master`（不是 `main`，之前踩过坑）
-- **自动同步**: 每6小时cron自动git pull（job_id: 402c591a41d9）
-- **本地路径配置**: `/opt/data/config.yaml` 第251行 `external_dirs: [/opt/data/external-skills]`
+- **GitHub**: https://github.com/aidong99418/hermes-skills
+- **本地路径**: `/opt/data/skills/`（直接就是Git仓库，不再是external-skills）
+- **分支名**: `master`（不是 `main`）
+- **远程**: `origin` = `https://github.com/aidong99418/hermes-skills.git`
 
-## skill目录结构规范
+## 当前目录结构（2026-05-23 重构）
 
-每个skill必须包含：
 ```
-skill-name/
-├── SKILL.md              # 必须：skill元数据+使用说明
-└── scripts/              # 可选：配套脚本
-    └── *.py
-```
-
-**SKILL.md 必须包含YAML frontmatter：**
-```yaml
----
-name: skill-name           # 必须，唯一标识
-description: 简短描述      # 必须，<100字
-triggers:                  # 可选，触发条件关键词
-  - "关键词1"
-  - "关键词2"
-category: xxx              # 分类：brain/devops/productivity等
-version: 1.0               # 版本号
-author: 打工仔
-date: 2026-05-23
----
+/opt/data/skills/          ← 就是Git仓库本体，git clone到这里
+├── .git/                  ← Git元数据
+├── SKILL.md/              ← skill目录（54个）
+├── brain/                 ← 文档目录
+├── architecture/
+├── knowledge/
+├── principles/
+├── reasoning_pattern/
+├── tool_templates/
+└── workflow/
 ```
 
-## 目录结构（2026-05-23纠正）
+**旧结构（已废弃）**：
+- `/opt/data/external-skills/` — 已不再使用
+- 双目录 cp 流程 — 已废弃
 
-| 目录 | 作用 | 是否Git仓库 |
-|------|------|------------|
-| `/opt/data/skills/` | 实时层（37个skill），Agent实际加载这里 | ❌ 不是 |
-| `/opt/data/external-skills/` | git仓库（16个skill），GitHub同步目录 | ✅ 是 |
+## 标准工作流（当前）
 
-**关键认知**：`/opt/data/skills/` 就是你看到的技能列表，但直接在这里 `git` 无效。
-
-### 写入流程（标准步骤）
+### 首次设置（新机器）
 ```bash
-# Step 1: 写技能到实时层
+cd /opt/data
+mv skills skills_backup
+git clone https://github.com/aidong99418/hermes-skills.git skills
+# skills/ 现在就是仓库，备份旧目录
+# 如果旧目录有未同步的skill，对比后补充
+```
+
+### 每次写新skill
+```bash
+# Step 1: 直接写入本地仓库
 vim /opt/data/skills/my-new-skill/SKILL.md
 
-# Step 2: 同步到git仓库
-cp -r /opt/data/skills/my-new-skill /opt/data/external-skills/
-
-# Step 3: 提交并推送（远程有新提交要先pull）
-cd /opt/data/external-skills
+# Step 2: git add + commit + push（三步，不是三地）
+cd /opt/data/skills
 git add my-new-skill/
 git commit -m "feat: add my-new-skill"
-git pull origin master --rebase    # ← 必做，否则push被rejected
+git pull origin master --rebase    # 远程有新提交要先拉
 git push
 ```
 
-### push被rejected的解决方法
+### 推新skill到GitHub后
 ```bash
-git pull origin master --rebase
-# 如果有冲突，解决后：
-git add .
-git rebase --continue
-git push
+# 不要忘了同步neural注册
+# 编辑 /opt/data/brain/neural/build_neural_network.py
+# 添加新skill的关联映射
+# 然后git add/commit/push neural变更
 ```
 
-## 推送流程（简洁版）
+## 从GitHub恢复误删的skill
 
-### 1. 首次配置（只做一次）
-```bash
-# 配置git身份
-git config --global user.email "aidong99418@users.noreply.github.com"
-git config --global user.name "打工仔"
+### 场景
+误删了skill目录，但之前已push到GitHub。
 
-# 配置remote（含PAT）
-git remote set-url origin https://ghp_<TOKEN>@github.com/aidong99418/hermes-skills.git
+### 方法：从历史commit找
+```python
+import urllib.request, json, base64
+
+def get_commits_with_file(owner, repo, filename, token=None):
+    """查哪个commit包含该文件"""
+    headers = {}
+    if token:
+        headers['Authorization'] = f'Bearer {token}'
+    url = f"https://api.github.com/repos/{owner}/{repo}/commits?per_page=20"
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req) as r:
+        commits = json.loads(r.read())
+    
+    for c in commits:
+        sha = c['sha']
+        detail_url = f"https://api.github.com/repos/{owner}/{repo}/commits/{sha}"
+        req2 = urllib.request.Request(detail_url, headers=headers)
+        with urllib.request.urlopen(req2) as r2:
+            detail = json.loads(r2.read())
+        files = [f['filename'] for f in detail.get('files', [])]
+        if any(filename in f for f in files):
+            print(f"Found in {sha[:7]}: {[f for f in files if filename in f]}")
+
+get_commits_with_file('aidong99418', 'hermes-skills', 'librechat')
 ```
 
-### 2. 每次推送
-```bash
-# 假设新写了 /opt/data/skills/some-skill/
-cp -r /opt/data/skills/some-skill /opt/data/external-skills/
-cd /opt/data/external-skills
-git add some-skill/
-git commit -m "feat: add some-skill"
-git pull origin master --rebase   # ← 每次都要
-git push
+### 方法：直接下载历史文件
+```python
+def download_from_commit(owner, repo, path, ref, token=None):
+    """从指定commit下载文件"""
+    headers = {}
+    if token:
+        headers['Authorization'] = f'Bearer {token}'
+    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}?ref={ref}"
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req) as r:
+        data = json.loads(r.read())
+    return base64.b64decode(data['content']).decode()
+
+# 用commit SHA
+content = download_from_commit('aidong99418', 'hermes-skills',
+                                'ai-frameworks/librechat/SKILL.md', '6fd6431')
+with open('/opt/data/skills/librechat/SKILL.md', 'w') as f:
+    f.write(content)
+```
+
+## GitHub API 认证配置
+
+### 未认证 vs Token认证
+| 方式 | 次数/小时 | 建议 |
+|------|---------|------|
+| 未认证 | 60次 | 测试用 |
+| Token认证 | 5,000次 | 挖宝/批量操作必配 |
+
+### Token创建步骤
+1. GitHub → 头像 → **Settings** → **Developer settings** → **Personal access tokens** → **Generate new token (Classic)**
+2. 名字随便填，如 `hermes-agent`
+3. 只勾 **`repo`** 一个scope（Full control of private repositories）
+4. Generate，把token发给我配置
+
+### Token使用方式
+```python
+import urllib.request
+
+token = "ghp_xxxx"  # 董哥提供
+headers = {'Authorization': f'Bearer {token}'}
+
+url = "https://api.github.com/repos/aidong99418/hermes-skills/contents"
+req = urllib.request.Request(url, headers=headers)
+with urllib.request.urlopen(req) as r:
+    print(json.loads(r.read()))
 ```
 
 ## 踩坑记录
 
-### ⚠️ 关键：分支名是 `master` 不是 `main`
-**现象**：`git push origin main` 失败，报 `error: src refspec main does not match any`
-**原因**：仓库创建时用 `master` 分支，而非 GitHub 默认的 `main`
-**解决**：所有涉及分支名的地方都要用 `master`
-```bash
-# 错误的（踩坑写法）
-git push origin main
-git pull origin main
+### ⚠️ 分支名是 master 不是 main
+所有 `git` 和 `API` 操作中涉及分支名都用 `master`
 
-# 正确的
-git push origin master
-git pull origin master
-```
-涉及的文件：`brain_backup_trigger.py`、`brain_backup.py`、`sync_hermes_skills.sh`
+### ⚠️ 不要在 skills/ 内再创建嵌套 skills/ 目录
+之前误建了 `/opt/data/skills/skills/` 子目录，导致 skill 被重复嵌套。
+检查：`ls /opt/data/skills/` 确保没有 nested `skills/` 子目录。
 
-## brain系统双保险备份策略（2026-05-23建立）
+### ⚠️ GitHub API 限流
+- 未认证：60次/小时
+- 并行请求会瞬间打满 → 改串行或配Token
+- 限流后等待1小时自动恢复，或配Token
 
-### 触发式备份（文件变更即备份）
-脚本：`/opt/data/scripts/brain_backup_trigger.py`
-- 监控14个brain核心文件（脚本+数据+配置）
-- 检测到变更 → 立即备份到 `/volume2/数据备份/brain_backup/YYYYMMDD/triggered/`
-- 同时复制到hermes-skills仓库对应目录 → 自动git commit + push
-- 无变更时跳过，零浪费
-
-### 定时完整备份（每小时整点）
-cron job_id: `6b64ab11c8c3`，`0 * * * *`
-- 整点检测14个文件，任一有变更则完整快照
-- 保留7天，自动清理旧版本
-
-### GitHub自动同步（每6小时）
-- 任何本地变更的文件，自动推送到 `master` 分支
-- GitHub就是云端容灾+版本历史
-
-### 备份文件清单
-核心脚本：`brain_invoke.py / brain_retriever.py / brain_thinker.py / dialog_watchdog.py / external_fetcher.py / web_scraper.py`
-数据配置：`connections.json / inference_paths.json / working_memory.json / confidence_tracking.json / feedback_tracking.json / behavior_log.jsonl`
-架构文档：`brain_architecture_v2.md / keyword_index.json`
-
-## 同步验证
-```bash
-# 确认GitHub有内容
-curl -s "https://api.github.com/repos/aidong99418/herrmes-skills/contents"
-
-# 确认本地已同步
-curl -s "https://github.com/aidong99418/herrmes-skills"
-
-# 手动触发同步
-cd /opt/data/external-skills && git pull origin master
-```
+### ⚠️ 删除占位符skill
+- `ai-frameworks/` 和 `nas-monitoring-suite/` 只是占位符（README指向子目录）
+- 子skill（cowagent/portainer/dozzle/glances/uptime-kuma/librechat）直接放根目录
+- 不要再创建二级嵌套skill目录
