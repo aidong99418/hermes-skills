@@ -1,0 +1,172 @@
+# Ollama 平台生态体系
+
+## 核心定位
+
+**Ollama** = 本地大模型运行平台 + OpenAI兼容REST API + llama.cpp后端。
+
+支持 macOS / Windows / Linux / Docker，模型库托管于 ollama.com/library。
+
+---
+
+## 安装与快速入门
+
+### 安装
+
+```bash
+# macOS / Linux
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Windows
+irm https://ollama.com/install.ps1 | iex
+
+# Docker
+docker run -d -v ollama:/root/.ollama -p 11434:11434 ollama/ollama
+```
+
+### 启动与运行模型
+
+```bash
+ollama run gemma3        # 交互式对话
+ollama launch claude     # 启动Claude Code集成
+ollama launch openclaw   # 启动AI助手（WhatsApp/Telegram等）
+```
+
+---
+
+## API 使用模式
+
+### 模式1：REST API（最通用）
+
+```bash
+curl http://localhost:11434/api/chat -d '{
+  "model": "gemma3",
+  "messages": [{"role": "user", "content": "Why is the sky blue?"}],
+  "stream": false
+}'
+```
+
+### 模式2：Python SDK
+
+```bash
+pip install ollama
+```
+
+```python
+from ollama import chat
+response = chat(model='gemma3', messages=[
+  {'role': 'user', 'content': 'Why is the sky blue?'},
+])
+print(response.message.content)
+```
+
+### 模式3：JavaScript SDK
+
+```bash
+npm i ollama
+```
+
+```javascript
+import ollama from "ollama";
+const response = await ollama.chat({ model: "gemma3", messages: [{ role: "user", content: "Why is the sky blue?" }] });
+console.log(response.message.content);
+```
+
+---
+
+## 与 Open Interpreter 集成
+
+Open Interpreter 通过 OpenAI 兼容接口连接 Ollama：
+
+```bash
+# 方式1：命令行
+interpreter --api_base "http://localhost:1234/v1" --api_key "fake_key"
+
+# 方式2：本地模式（自动配置）
+interpreter --local
+
+# 方式3：Python
+interpreter.offline = True
+interpreter.llm.model = "openai/x"
+interpreter.llm.api_key = "fake_key"
+interpreter.llm.api_base = "http://localhost:1234/v1"
+```
+
+> 本地模式设置 context_window=3000, max_tokens=1000，按需调整。
+
+---
+
+## 模型导入与 Modelfile
+
+Ollama 支持通过 Modelfile 自定义模型行为：
+
+```
+FROM qwen2.5:7b
+PARAMETER temperature 0.7
+SYSTEM "你是一位专业的Python后端工程师..."
+```
+
+```bash
+ollama create my-model -f Modelfile
+ollama run my-model
+```
+
+参考：[Modelfile 文档](https://docs.ollama.com/modelfile)
+
+---
+
+## 生态地图（集成一览）
+
+### 代码编辑器与开发
+
+| 工具 | 说明 |
+|------|------|
+| [Cline](https://github.com/cline/cline) | VS Code多文件/全仓库编码 |
+| [Continue](https://github.com/continuedev/continue) | 任意IDE的AI代码助手 |
+| [Open Interpreter](https://docs.openinterpreter.com/language-model-setup/local-models/ollama) | 自然语言执行代码 |
+| [AI Toolkit for VS Code](https://aka.ms/ai-tooklit/ollama-docs) | Microsoft官方扩展 |
+
+### 框架与Agent
+
+| 框架 | 说明 |
+|------|------|
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 自主Agent平台 |
+| [crewAI](https://github.com/crewAIInc/crewAI) | 多Agent编排 |
+| [Strands Agents](https://github.com/strands-agents/sdk-python) | AWS模型驱动Agent |
+| [Cheshire Cat](https://github.com/cheshire-cat-ai/core) | AI助手框架 |
+
+### RAG与知识库
+
+| 工具 | 说明 |
+|------|------|
+| [RAGFlow](https://github.com/infiniflow/ragflow) | 深度文档理解的RAG引擎 |
+| [MaxKB](https://github.com/1Panel-dev/MaxKB/) | 开箱即用的RAG聊天机器人 |
+| [Casibase](https://casibase.org) | 带RAG和SSO的AI知识库 |
+
+### SDK覆盖（30+语言）
+
+Python / JavaScript / Ruby / Go / Java / C# / Rust / Dart / Swift / PHP / Elixir / Julia / .NET
+
+---
+
+## 四层模型选择策略
+
+| 层级 | 用途 | 示例模型 |
+|------|------|---------|
+| **fast** | 简单查询 <1s | smollm2:1.7b |
+| **worker** | 工具调用/后台任务 | qwen2.5:3b |
+| **expert** | 复杂推理/架构分析 | deepseek-r1:7b |
+| **tool** | 工具调用链 | qwen2.5:7b-instruct-q4 |
+
+降级链：expert → worker → fast，自动降级保可用。
+
+---
+
+## 关键参考
+
+- [CLI参考](https://docs.ollama.com/cli)
+- [REST API](https://docs.ollama.com/api)
+- [导入模型](https://docs.ollama.com/import)
+- [从源码构建](https://github.com/ollama/ollama/blob/main/docs/development.md)
+- [官方Discord](https://discord.gg/ollama)
+
+> 来源：[ollama/ollama](https://github.com/ollama/ollama) GitHub README
