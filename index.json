@@ -293,8 +293,4 @@
     }
   ],
   "last_updated": "2026-05-26"
-},
-  {"name": "moss-self-evolution", "file": "moss-self-evolution.md"},
-  {"name": "vector-policy-optimization", "file": "vector-policy-optimization.md"},
-  {"name": "lcguard-multiagent-security", "file": "lcguard-multiagent-security.md"}
-]
+}
