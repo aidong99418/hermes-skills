@@ -152,9 +152,19 @@ with urllib.request.urlopen(req) as r:
 ### ⚠️ 分支名是 master 不是 main
 所有 `git` 和 `API` 操作中涉及分支名都用 `master`
 
-### ⚠️ 不要在 skills/ 内再创建嵌套 skills/ 目录
-之前误建了 `/opt/data/skills/skills/` 子目录，导致 skill 被重复嵌套。
-检查：`ls /opt/data/skills/` 确保没有 nested `skills/` 子目录。
+### ⚠️ 嵌套skills/目录要及时合并
+之前误建了`/opt/data/skills/skills/`导致skill重复嵌套。处理方式：
+- 确认嵌套目录中的skill在根目录无重叠 → `shutil.copytree`合并
+- 确认重叠（比如`skills/brain/`和`brain/`都有）→ 以根目录为准，删嵌套
+- 合并后必须`shutil.rmtree`删掉嵌套skills/，否则git会产生歧义
+
+### ⚠️ 删除父目录不会自动删子skill，但会丢失内容
+`rmtree(ai-frameworks/)`后，`ai-frameworks/librechat/SKILL.md`等子skill目录消失。
+git ls-files仍显示它们是因为被staged但未commit。解决：重建文件，不要试图`git checkout`恢复（文件已不在任何commit的树里）。
+
+### ⚠️ tools/是脚本目录不是skill分类
+`tools/`目录包含brain_backup_trigger.py/brain_invoke.py等实用脚本，
+给tools/写SKILL.md的作用是让neural网络能关联它，而非当成skill分类。
 
 ### ⚠️ GitHub API 限流
 - 未认证：60次/小时
