@@ -1,8 +1,10 @@
 # 多Agent协作模式
 
-> 来源：hermes-addons best-practices | 存入：2026-05-26
+## 核心原则
 
-## 何时用delegate_task vs 启动独立进程
+> 根据任务隔离性、时长、交互需求选择合适的协作方案。
+
+## 方案对比
 
 | 对比 | delegate_task | 独立hermes进程 |
 |------|--------------|----------------|
@@ -12,7 +14,7 @@
 | 交互 | 不可交互 | PTY模式可交互 |
 | 开销 | 轻量 | 重 |
 
-## delegate_task最佳实践
+## delegate_task 最佳实践
 
 ```python
 # 并行3个独立任务
@@ -53,10 +55,12 @@ tmux send-keys -t agent1 '/exit' Enter && tmux kill-session -t agent1
 
 ## 多Agent协调场景
 
-1. **前后端分离开发**：backend agent + frontend agent并行
-2. **代码审查**： reviewer agent独立review
-3. **深度研究**：3个researcher并行抓不同数据源
-4. **流水线任务**：stage1→stage2→stage3顺序传递
+| 场景 | 方案 |
+|------|------|
+| 前后端分离开发 | backend + frontend agent并行 |
+| 代码审查 | reviewer agent独立review |
+| 深度研究 | 3个researcher并行抓不同数据源 |
+| 流水线任务 | stage1→stage2→stage3顺序传递 |
 
 ## 踩坑记录
 
