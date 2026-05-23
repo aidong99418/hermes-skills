@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
-机器猫大脑思考引擎 v1.0
+机器猫大脑思考引擎 v2.0
 =======================
-输入问题 → 判断思考层级 → 执行推理路径 → 输出结构化思考结果
+输入问题 → 判断思考层级 → 三路检索(知识+Skill+神经推荐) → 输出结构化思考结果
+
+v2.0 新增：
+  - Skill触发词匹配（brain_retriever.search_all）
+  - 神经连接权重更新（skill执行后自动强化）
+  - Tier判断优化（参考neural connections）
 
 用法：
   python3 /opt/data/scripts/brain_thinker.py "你的问题"
@@ -11,12 +16,14 @@ import sys
 import os
 import json
 import re
+import time
 from pathlib import Path
+from datetime import datetime
 
 # 添加scripts路径
 sys.path.insert(0, '/opt/data/scripts')
 
-# ── 思考层级判断 ─────────────────────────────────────────────
+# ── 思考层级判断（v2.0 优化版）───────────────────────────────
 TIER1_KEYWORDS = [
     "几点了", "现在", "时间", "日期", "在哪", "文件", "目录",
     "查看", "看一下", "帮我看", "ls", "cat", "ps", "df",
@@ -30,14 +37,23 @@ TIER3_KEYWORDS = [
 TIER2_KEYWORDS = [
     "思考", "想一想", "分析一下", "区别", "原理", "为什么",
     "应该", "推荐", "优化", "还有什么", "不确定", "拿不准",
-    "帮我", "怎么", "如何", "是什么", "有什么区别"
+    "帮我", "怎么", "如何", "是什么", "有什么区别",
+    "报错", "Error", "error", "bug", "崩溃", "闪退",
+    "代码", "脚本", "Python", "写代码", "函数",
 ]
 
+# Skill触发词 → Tier提升映射
+SKILL_TIER_BOOST = {
+    "安全": 2, "漏洞": 2, "架构": 3, "方案选型": 3,
+    "TDD": 1, "测试": 1, "原型": 2, "review": 1,
+    "MCP": 2, "安全审计": 2, "压力测试": 3,
+}
+
 def detect_tier(question: str) -> int:
-    """判断问题属于哪个思考层级"""
+    """判断问题属于哪个思考层级（v2.0 + Skill boost）"""
     q = question.lower()
-    
-    # ── tier1优先：明确的动作指令 ─────────────────────────────
+
+    # tier1优先：明确的动作指令
     tier1_patterns = [
         r"^(帮我)?(看|查|找|显示|列出|打开|执行)[\一下]",
         r"^(帮我)?(看一下|查一下|找一下)",
@@ -46,95 +62,120 @@ def detect_tier(question: str) -> int:
     ]
     for p in tier1_patterns:
         if re.search(p, q):
-            # 确认不是复杂问题（复杂词不在句首）
             if not any(kw in q[:10] for kw in ["设计", "架构", "分析", "思考"]):
                 return 1
-    
+
+    base_tier = 1
+
     # tier3优先判断（高风险/复杂）
     for kw in TIER3_KEYWORDS:
         if kw in q:
             return 3
-    
+
+    # Skill boost：某些skill触发词自动提升tier
+    for kw, boost_tier in SKILL_TIER_BOOST.items():
+        if kw in q:
+            base_tier = max(base_tier, boost_tier)
+            if boost_tier >= 3:
+                return 3
+
     # tier1次优先：命令行类查询
     tier1_count = sum(1 for kw in TIER1_KEYWORDS if kw in q)
     tier2_count = sum(1 for kw in TIER2_KEYWORDS if kw in q)
-    
+
     if tier1_count >= 2 and tier2_count == 0:
         return 1
-    
+
     # tier2判断（需要思考）
     if tier2_count > 0 or any(kw in q for kw in ["为什么", "怎么", "分析", "思考"]):
-        return 2
-    
-    # 包含问号但没有明显复杂特征的 → tier2
+        return max(base_tier, 2)
+
     if "?" in question or "？" in question:
-        return 2
-    
+        return max(base_tier, 2)
+
     return 1
 
-# ── 思考引擎 ─────────────────────────────────────────────────
+# ── 思考引擎 v2.0 ─────────────────────────────────────────────
 def think(question: str, tier: int, disable_external: bool = False) -> dict:
-    """执行思考流程"""
+    """执行思考流程 v2.0（知识+Skill双路检索）"""
     result = {
         "question": question,
         "tier": tier,
         "tier_name": ["", "快速通道", "思考通道", "团队协作"][tier],
         "thinking_steps": [],
         "brain_hits": [],
-        "rag_hits": [],
+        "skill_matches": [],        # v2.0 新增
+        "neural_suggestions": [],   # v2.0 新增
+        "recommended_skill": None,  # v2.0 新增：推荐执行的skill
         "conclusion": "",
         "knowledge_to_save": None
     }
-    
+
     if tier == 1:
         result["thinking_steps"].append("【快速通道】问题简单直接，无需深度思考")
         result["conclusion"] = "直接执行工具或回答"
         return result
-    
-    # ── Tier 2 & 3：检索brain ─────────────────────────────────
+
+    # ── Tier 2 & 3：三路检索（brain知识 + Skill触发 + 神经推荐）──
     try:
         from brain_retriever import BrainRetriever
         retriever = BrainRetriever(rebuild=False)
-        
-        # 多角度检索
-        queries = [question, question]
-        
-        all_hits = []
-        seen_texts = set()
-        for q in queries:
-            hits = retriever.search(q, top_k=8)
-            for h in hits:
-                if h["text"][:80] not in seen_texts:
-                    seen_texts.add(h["text"][:80])
-                    all_hits.append(h)
-        
-        # 排序去重
-        all_hits.sort(key=lambda x: -x["score"])
-        result["brain_hits"] = all_hits[:5]
-        
-        if all_hits:
-            result["thinking_steps"].append(
-                f"【brain检索】找到 {len(result['brain_hits'])} 条相关知识"
-            )
-            for h in result["brain_hits"][:3]:
-                result["thinking_steps"].append(
-                    f"  → {h['source']} (匹配度:{h['score']:.1f})"
-                )
-        else:
-            result["thinking_steps"].append("【brain检索】无相关记录")
-            
-    except Exception as e:
-        result["thinking_steps"].append(f"【brain检索】失败: {e}")
 
-    # ── Tier 2 & 3：外部知识获取（brain不足时）────────────────
+        # 使用 v2.0 search_all 三路并行
+        search_result = retriever.search_all(question, user_tier=tier, top_k=8)
+
+        result["brain_hits"] = search_result["brain_hits"][:5]
+        result["skill_matches"] = search_result["skill_matches"]
+        result["neural_suggestions"] = search_result["neural_suggestions"]
+
+        # 思考过程记录
+        if result["brain_hits"]:
+            top = result["brain_hits"][0]
+            result["thinking_steps"].append(
+                f"【brain检索】找到 {len(result['brain_hits'])} 条相关知识 (总{search_result['total_brain_chunks']}块)"
+            )
+            result["thinking_steps"].append(
+                f"  → 最高匹配: {top['source']} ({top['score']:.1f})"
+            )
+        else:
+            result["thinking_steps"].append(f"【brain检索】无相关记录 (总{search_result['total_brain_chunks']}块)")
+
+        if result["skill_matches"]:
+            best = result["skill_matches"][0]
+            result["thinking_steps"].append(
+                f"【Skill命中】{best['name']} (score={best['score']:.1f}) "
+                f"触发词:{best['triggers_matched']} → 激活节点:{best['activates_nodes']}"
+            )
+            # 推荐执行的skill
+            result["recommended_skill"] = {
+                "name": best["name"],
+                "file": best.get("file", ""),
+                "score": best["score"],
+                "triggers_matched": best["triggers_matched"],
+                "activates_nodes": best["activates_nodes"],
+                "strengthens": best.get("strengthens", []),
+                "source": best.get("source", ""),
+                "description": best.get("description", ""),
+            }
+
+            # 神经节点推断
+            if result["neural_suggestions"]:
+                names = [s["name"] for s in result["neural_suggestions"][:3]]
+                result["thinking_steps"].append(f"【神经推荐】相关Skill: {', '.join(names)}")
+        else:
+            result["thinking_steps"].append(f"【Skill匹配】无skill命中 (总{search_result['total_skills']}个)")
+
+    except Exception as e:
+        result["thinking_steps"].append(f"【三路检索】失败: {e}")
+
+    # ── Tier 2 & 3：外部知识获取（brain+skill都不足时）────────
     if tier >= 2 and not disable_external:
-        has_enough_brain = (
-            len(result["brain_hits"]) >= 1 and
-            result["brain_hits"][0]["score"] > 5.0
-        )
-        
-        if not has_enough_brain:
-            result["thinking_steps"].append("🌐 brain知识不足，触发外部获取...")
+        has_enough = (
+            len(result["brain_hits"]) >= 1 and result["brain_hits"][0]["score"] > 5.0
+        ) or len(result["skill_matches"]) >= 1
+
+        if not has_enough:
+            result["thinking_steps"].append("🌐 brain+skill均不足，触发外部获取...")
             try:
                 from external_fetcher import fetch_and_learn
                 ext_result = fetch_and_learn(question)
@@ -152,33 +193,21 @@ def think(question: str, tier: int, disable_external: bool = False) -> dict:
     # ── Tier 3：团队协作思考 ───────────────────────────────────
     if tier == 3 and not disable_external:
         result["thinking_steps"].append("【团队协作】启动多角度分析...")
-        
-        # 派发子问题给各模型（并行）
+
         team_tasks = [
-            {
-                "name": "推理专家",
-                "model": "deepseek-r1:7b",
-                "prompt": f"请深入分析这个问题，给出逻辑推理：{question}\n请从多个角度分析利弊。"
-            },
-            {
-                "name": "工具专家",
-                "model": "qwen2.5:7b-instruct-q4_K_M", 
-                "prompt": f"请从实际执行角度分析：{question}\n考虑技术可行性和实现路径。"
-            },
-            {
-                "name": "打工仔",
-                "model": "qwen2.5:3b-instruct-q4_K_M",
-                "prompt": f"请从数据/事实角度分析：{question}\n有哪些已知案例和数据支撑？"
-            }
+            {"name": "推理专家", "model": "deepseek-r1:7b",
+             "prompt": f"请深入分析这个问题，给出逻辑推理：{question}\n请从多个角度分析利弊。"},
+            {"name": "工具专家", "model": "qwen2.5:7b",
+             "prompt": f"请从实际执行角度分析：{question}\n考虑技术可行性和实现路径。"},
+            {"name": "打工仔", "model": "qwen2.5:3b",
+             "prompt": f"请从数据/事实角度分析：{question}\n有哪些已知案例和数据支撑？"}
         ]
-        
+
         try:
             import requests
-            import json
             from concurrent.futures import ThreadPoolExecutor, as_completed
-            
+
             def call_model(task):
-                """并行调用单个模型"""
                 try:
                     start = time.time()
                     resp = requests.post(
@@ -190,54 +219,44 @@ def think(question: str, tier: int, disable_external: bool = False) -> dict:
                     elapsed = int((time.time() - start) * 1000)
                     if resp.status_code == 200:
                         data = json.loads(resp.text)
-                        return {
-                            "name": task["name"],
-                            "model": task["model"],
-                            "result": data.get("response", "")[:200],
-                            "elapsed_ms": elapsed,
-                            "success": True
-                        }
+                        return {"name": task["name"], "model": task["model"],
+                                "result": data.get("response", "")[:200],
+                                "elapsed_ms": elapsed, "success": True}
                     else:
-                        return {
-                            "name": task["name"],
-                            "model": task["model"],
-                            "result": f"HTTP {resp.status_code}",
-                            "elapsed_ms": elapsed,
-                            "success": False
-                        }
+                        return {"name": task["name"], "model": task["model"],
+                                "result": f"HTTP {resp.status_code}",
+                                "elapsed_ms": elapsed, "success": False}
                 except Exception as e:
-                    return {
-                        "name": task["name"],
-                        "model": task["model"],
-                        "result": str(e),
-                        "elapsed_ms": 0,
-                        "success": False
-                    }
+                    return {"name": task["name"], "model": task["model"],
+                            "result": str(e), "elapsed_ms": 0, "success": False}
 
-            # 真实并行执行（3个模型同时调用）
             team_results = []
             with ThreadPoolExecutor(max_workers=3) as executor:
                 futures = {executor.submit(call_model, task): task for task in team_tasks}
                 for future in as_completed(futures):
                     r = future.result()
                     team_results.append(r)
-                    if r["success"]:
-                        result["thinking_steps"].append(
-                            f"  ✅ {r['name']}({r['model']}): {r['elapsed_ms']}ms"
-                        )
-                    else:
-                        result["thinking_steps"].append(
-                            f"  ❌ {r['name']}: {r['result']}"
-                        )
+                    status = "✅" if r["success"] else "❌"
+                    result["thinking_steps"].append(
+                        f"  {status} {r['name']}({r['model']}): {r['elapsed_ms']}ms"
+                    )
 
             result["team_results"] = team_results
-            result["thinking_steps"].append(f"  → 并行汇总 {len(team_results)} 个视角（总耗时=max(各模型)）")
-            
+
         except Exception as e:
             result["thinking_steps"].append(f"⚠️ 团队协作失败: {e}")
 
-    # ── 结论生成 ─────────────────────────────────────────────
-    if result.get("external_answer"):
+    # ── 结论生成（v2.0 优先推荐skill）─────────────────────────
+    if result["recommended_skill"]:
+        skill = result["recommended_skill"]
+        result["conclusion"] = (
+            f"🎯 推荐执行Skill: **{skill['name']}**\n"
+            f"   触发词: {', '.join(skill['triggers_matched'])}\n"
+            f"   描述: {skill['description']}\n"
+            f"   激活神经节点: {' → '.join(skill['activates_nodes'])}\n"
+            f"   神经权重将在skill执行后自动强化"
+        )
+    elif result.get("external_answer"):
         result["conclusion"] = f"【来自外部知识】\n{result['external_answer'][:500]}"
         if result.get("knowledge_saved"):
             result["conclusion"] += "\n\n💾 已存入brain，下次可直接检索"
@@ -245,25 +264,48 @@ def think(question: str, tier: int, disable_external: bool = False) -> dict:
         top = result["brain_hits"][0]
         result["conclusion"] = (
             f"检索到相关知识：{top['source']}（匹配度{top['score']:.1f}），"
-            f"可作为参考。\n"
-            f"建议：引用brain知识，结合当前问题具体分析。"
+            f"可作为参考。\n建议：引用brain知识，结合当前问题具体分析。"
         )
     else:
-        result["conclusion"] = "brain无相关记录，已尝试外部获取，请查看上方结果"
+        result["conclusion"] = "brain+skill均无相关记录，已尝试外部获取，请查看上方结果"
 
     return result
+
+# ── Skill执行后回调 ──────────────────────────────────────────
+def on_skill_used(skill_name: str, neural_data: dict = None):
+    """
+    当某个skill被实际执行时调用此函数
+    效果：更新 connections.json 突触权重，让神经通路变强
+    """
+    if not neural_data:
+        # 尝试从skill_neural.json获取
+        try:
+            neural = json.load(open("/opt/data/brain/neural/skill_neural.json"))
+            for s in neural.get("skills", []):
+                if s["name"] == skill_name:
+                    neural_data = s
+                    break
+        except:
+            pass
+
+    if neural_data:
+        try:
+            from brain_retriever import BrainRetriever
+            r = BrainRetriever(rebuild=False)
+            r.update_neural_on_skill_use(skill_name, neural_data)
+            print(f"✅ 神经权重已更新: {skill_name}")
+        except Exception as e:
+            print(f"⚠️ 神经更新失败: {e}")
 
 # ── 知识沉淀建议 ─────────────────────────────────────────────
 def suggest_save(question: str, answer: str, tier: int) -> dict:
     """判断答案是否值得沉淀到brain"""
     suggestion = {"should_save": False, "target": "", "content": ""}
-    
+
     if tier == 1:
         return suggestion
-    
-    # tier2/3 且答案较长 → 值得保存
+
     if len(answer) > 200 and tier >= 2:
-        # 判断类型
         if any(kw in question.lower() for kw in ["错误", "报错", "bug", "error"]):
             suggestion["should_save"] = True
             suggestion["target"] = "problem_types/debugging.md"
@@ -272,74 +314,78 @@ def suggest_save(question: str, answer: str, tier: int) -> dict:
             suggestion["should_save"] = True
             suggestion["target"] = "scenarios/solution_未分类_20260523.md"
             suggestion["content"] = f"## 问题：{question}\n\n**解决方案：**\n{answer[:400]}\n"
-    
+
     return suggestion
 
-# ── CLI主程序 ───────────────────────────────────────────────
+# ── CLI主程序 ────────────────────────────────────────────────
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="机器猫大脑思考引擎")
+    parser = argparse.ArgumentParser(description="机器猫大脑思考引擎 v2.0")
     parser.add_argument("question", nargs="*", help="要思考的问题")
     parser.add_argument("--tier", type=int, help="强制指定层级(1/2/3)")
     parser.add_argument("--no-external", action="store_true", help="禁用外部获取")
+    parser.add_argument("--skill-test", action="store_true", help="测试skill匹配")
     args = parser.parse_args()
-    
+
     question = " ".join(args.question) if args.question else ""
     if not question:
-        print("用法: python3 brain_thinker.py \"你的问题\"")
+        print("用法: python3 brain_thinker.py \"你的问题\" [--tier 2] [--no-external]")
         sys.exit(1)
-    
-    # 1. 判断层级
+
+    # Skill测试模式
+    if args.skill_test:
+        from brain_retriever import BrainRetriever
+        r = BrainRetriever(rebuild=False)
+        result = r.search_all(question, user_tier=2, top_k=5)
+        print(f"\n🔍 Skill测试: {question}")
+        print(f"   brain知识: {len(result['brain_hits'])} 条")
+        print(f"   Skill命中: {len(result['skill_matches'])} 个")
+        for s in result['skill_matches']:
+            print(f"   → {s['name']} (score={s['score']}) 触发:{s['triggers_matched']} 激活:{s['activates_nodes']}")
+        sys.exit(0)
+
     tier = args.tier or detect_tier(question)
     tier_names = ["", "⚡快速通道", "🧠思考通道", "🔴团队协作"]
+
     print(f"\n{'='*60}")
-    print(f"🧠 机器猫思考引擎")
+    print(f"🧠 机器猫思考引擎 v2.0")
     print(f"{'='*60}")
     print(f"问题：{question}")
     print(f"层级：{tier_names[tier]}")
     print()
-    
-    # 2. 执行思考
+
     result = think(question, tier, disable_external=args.no_external)
-    
-    # 3. 输出思考过程
+
     print("📝 思考过程：")
     for step in result["thinking_steps"]:
         print(f"  {step}")
     print()
-    
-    # 4. 输出brain命中
+
     if result["brain_hits"]:
         print("📚 brain命中：")
         for i, h in enumerate(result["brain_hits"][:3], 1):
-            print(f"  【{i}】{h['type']} | {h['source']}")
-            print(f"      匹配度：{h['score']:.1f}")
-            print(f"      {h['text'][:150]}...")
+            print(f"  【{i}】{h['type']} | {h['source']} | 匹配度:{h['score']:.1f}")
+            print(f"      {h['text'][:120]}...")
         print()
-    
-    # 5. 外部获取结论
+
+    if result["skill_matches"]:
+        print("🎯 Skill命中：")
+        for s in result["skill_matches"][:3]:
+            print(f"  【{s['name']}】score={s['score']:.1f} | 触发:{s['triggers_matched']} | 激活:{s['activates_nodes']}")
+            print(f"     {s.get('description', '')}")
+        print()
+
     if result.get("external_answer"):
         print("📡 外部知识结论:")
         print(f"  {result['external_answer'][:300]}")
         print()
-    
-    # 6. 团队协作结论（tier3）
+
     if result.get("team_results"):
         print("🔴 团队分析结果:")
         for tr in result["team_results"]:
             print(f"  【{tr['name']}】{tr['result'][:150]}...")
         print()
-    
-    # 7. 输出结论
+
     print("💡 结论：")
     print(f"  {result['conclusion']}")
-    print()
-    
-    # 8. 知识沉淀建议
-    suggestion = result.get("brain_write_suggestion")
-    if not suggestion:
-        suggestion = suggest_save(question, result["conclusion"], tier)
-    if suggestion.get("should_save"):
-        print("💾 建议沉淀到：", suggestion["target"])
-    
     print()

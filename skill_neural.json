@@ -1,0 +1,539 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-23",
+  "description": "所有skill的神经激活元数据汇总",
+  "total_skills": 14,
+  "skills": [
+    {
+      "name": "zoom-out",
+      "file": "imported/mattpocock/zoom-out.md",
+      "meta_file": "imported/mattpocock/zoom-out.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "zoom-out",
+      "source": "mattpocock/zoom-out.md",
+      "repo": "mattpocock",
+      "triggers": [
+        "地图",
+        "全貌",
+        "不熟悉",
+        "整体结构",
+        "模块关系",
+        "上下文",
+        "上层",
+        "鸟瞰",
+        "全局"
+      ],
+      "activates_nodes": [
+        "research",
+        "architecture"
+      ],
+      "strengthens": [
+        {
+          "from": "research",
+          "to": "architecture",
+          "delta": 0.4
+        }
+      ],
+      "min_tier": 1,
+      "description": "全局视角，跳出细节看整体",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "grill-with-docs",
+      "file": "imported/mattpocock/grill-with-docs.md",
+      "meta_file": "imported/mattpocock/grill-with-docs.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "grill-with-docs",
+      "source": "mattpocock/grill-with-docs.md",
+      "repo": "mattpocock",
+      "triggers": [
+        "压力测试",
+        "挑战计划",
+        "审视",
+        "质疑",
+        "风险点",
+        "决策",
+        "方案缺陷",
+        "评审"
+      ],
+      "activates_nodes": [
+        "decision",
+        "research"
+      ],
+      "strengthens": [
+        {
+          "from": "decision",
+          "to": "research",
+          "delta": 0.3
+        }
+      ],
+      "min_tier": 3,
+      "description": "追问式压力测试，暴露方案漏洞",
+      "deployment_candidates": [
+        "conditional"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "tdd",
+      "file": "imported/mattpocock/tdd.md",
+      "meta_file": "imported/mattpocock/tdd.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "tdd",
+      "source": "mattpocock/tdd.md",
+      "repo": "mattpocock",
+      "triggers": [
+        "测试",
+        "TDD",
+        "红绿重构",
+        "test",
+        "测试驱动",
+        "单元测试",
+        "集成测试",
+        "先写测试"
+      ],
+      "activates_nodes": [
+        "coding",
+        "data_analysis"
+      ],
+      "strengthens": [
+        {
+          "from": "coding",
+          "to": "data_analysis",
+          "delta": 0.25
+        },
+        {
+          "from": "coding",
+          "to": "tool_templates",
+          "delta": 0.15
+        }
+      ],
+      "min_tier": 1,
+      "description": "测试先行，红绿重构循环",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "prototype",
+      "file": "imported/mattpocock/prototype.md",
+      "meta_file": "imported/mattpocock/prototype.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "prototype",
+      "source": "mattpocock/prototype.md",
+      "repo": "mattpocock",
+      "triggers": [
+        "原型",
+        "先试试",
+        "概念验证",
+        "快速验证",
+        "实验",
+        "mockup",
+        "概念验证",
+        "试几种方案"
+      ],
+      "activates_nodes": [
+        "decision",
+        "coding"
+      ],
+      "strengthens": [
+        {
+          "from": "decision",
+          "to": "coding",
+          "delta": 0.3
+        }
+      ],
+      "min_tier": 2,
+      "description": "快速原型验证设计思路",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "to-issues",
+      "file": "imported/mattpocock/to-issues.md",
+      "meta_file": "imported/mattpocock/to-issues.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "to-issues",
+      "source": "mattpocock/to-issues.md",
+      "repo": "mattpocock",
+      "triggers": [
+        "拆分任务",
+        "生成issue",
+        "任务分解",
+        "ticket",
+        "工作分解",
+        "拆成",
+        "需求拆分"
+      ],
+      "activates_nodes": [
+        "decision",
+        "data_analysis"
+      ],
+      "strengthens": [
+        {
+          "from": "decision",
+          "to": "data_analysis",
+          "delta": 0.2
+        }
+      ],
+      "min_tier": 1,
+      "description": "需求/方案拆成独立可领任务",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "code-reviewer",
+      "file": "imported/addyosmani/code-reviewer.md",
+      "meta_file": "imported/addyosmani/code-reviewer.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "code-reviewer",
+      "source": "addyosmani/code-reviewer.md",
+      "repo": "addyosmani",
+      "triggers": [
+        "review",
+        "代码审查",
+        "看看代码",
+        "检查代码",
+        "merge前",
+        "提交前",
+        "codereview",
+        "review一下"
+      ],
+      "activates_nodes": [
+        "coding",
+        "security_notes"
+      ],
+      "strengthens": [
+        {
+          "from": "coding",
+          "to": "security_notes",
+          "delta": 0.2
+        },
+        {
+          "from": "coding",
+          "to": "architecture",
+          "delta": 0.15
+        }
+      ],
+      "min_tier": 1,
+      "description": "五维度代码审查：正确/可读/架构/安全/性能",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "security-auditor",
+      "file": "imported/addyosmani/security-auditor.md",
+      "meta_file": "imported/addyosmani/security-auditor.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "security-auditor",
+      "source": "addyosmani/security-auditor.md",
+      "repo": "addyosmani",
+      "triggers": [
+        "安全",
+        "漏洞",
+        "威胁",
+        "加固",
+        "审计",
+        "入侵",
+        "XSS",
+        "SQL注入",
+        "渗透",
+        "安全漏洞",
+        "风险评估"
+      ],
+      "activates_nodes": [
+        "security_notes",
+        "research"
+      ],
+      "strengthens": [
+        {
+          "from": "security_notes",
+          "to": "research",
+          "delta": 0.35
+        },
+        {
+          "from": "research",
+          "to": "decision",
+          "delta": 0.2
+        }
+      ],
+      "min_tier": 2,
+      "description": "安全审计，漏洞检测与威胁建模",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "test-engineer",
+      "file": "imported/addyosmani/test-engineer.md",
+      "meta_file": "imported/addyosmani/test-engineer.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "test-engineer",
+      "source": "addyosmani/test-engineer.md",
+      "repo": "addyosmani",
+      "triggers": [
+        "测试策略",
+        "测试覆盖",
+        "测试质量",
+        "单元测试",
+        "集成测试",
+        "测试设计",
+        "测试用例"
+      ],
+      "activates_nodes": [
+        "coding",
+        "data_analysis"
+      ],
+      "strengthens": [
+        {
+          "from": "coding",
+          "to": "data_analysis",
+          "delta": 0.2
+        }
+      ],
+      "min_tier": 1,
+      "description": "QA工程师视角，设计测试套件",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "mcp-builder",
+      "file": "imported/anthropics/mcp-builder.md",
+      "meta_file": "imported/anthropics/mcp-builder.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "mcp-builder",
+      "source": "anthropics/mcp-builder.md",
+      "repo": "anthropics",
+      "triggers": [
+        "MCP",
+        "MCP服务器",
+        "工具链",
+        "扩展工具",
+        "集成外部API",
+        "Model Context Protocol"
+      ],
+      "activates_nodes": [
+        "architecture",
+        "coding"
+      ],
+      "strengthens": [
+        {
+          "from": "architecture",
+          "to": "coding",
+          "delta": 0.3
+        },
+        {
+          "from": "research",
+          "to": "architecture",
+          "delta": 0.2
+        }
+      ],
+      "min_tier": 2,
+      "description": "构建MCP服务器，LLM工具链扩展",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "docx",
+      "file": "imported/anthropics/docx.md",
+      "meta_file": "imported/anthropics/docx.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "docx",
+      "source": "anthropics/docx.md",
+      "repo": "anthropics",
+      "triggers": [
+        "Word文档",
+        "word文档",
+        ".docx",
+        "Word报告",
+        "Word模板",
+        "Word格式",
+        "Word排版",
+        "word doc"
+      ],
+      "activates_nodes": [
+        "coding",
+        "tool_templates"
+      ],
+      "strengthens": [
+        {
+          "from": "tool_templates",
+          "to": "coding",
+          "delta": 0.2
+        }
+      ],
+      "min_tier": 1,
+      "description": "Word文档创建/编辑/格式化",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "pdf",
+      "file": "imported/anthropics/pdf.md",
+      "meta_file": "imported/anthropics/pdf.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "pdf",
+      "source": "anthropics/pdf.md",
+      "repo": "anthropics",
+      "triggers": [
+        "PDF",
+        "pdf",
+        "PDF报告",
+        "PDF转换",
+        "PDF编辑",
+        "生成PDF",
+        "导出PDF"
+      ],
+      "activates_nodes": [
+        "coding",
+        "tool_templates"
+      ],
+      "strengthens": [
+        {
+          "from": "tool_templates",
+          "to": "coding",
+          "delta": 0.2
+        }
+      ],
+      "min_tier": 1,
+      "description": "PDF处理，生成和编辑",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "xlsx",
+      "file": "imported/anthropics/xlsx.md",
+      "meta_file": "imported/anthropics/xlsx.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "xlsx",
+      "source": "anthropics/xlsx.md",
+      "repo": "anthropics",
+      "triggers": [
+        "Excel",
+        "xlsx",
+        "Excel表格",
+        "电子表格",
+        "数据表格",
+        "Excel公式",
+        "Excel报告"
+      ],
+      "activates_nodes": [
+        "coding",
+        "data_analysis"
+      ],
+      "strengthens": [
+        {
+          "from": "data_analysis",
+          "to": "coding",
+          "delta": 0.25
+        }
+      ],
+      "min_tier": 1,
+      "description": "Excel电子表格，公式与数据处理",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "pptx",
+      "file": "imported/anthropics/pptx.md",
+      "meta_file": "imported/anthropics/pptx.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "pptx",
+      "source": "anthropics/pptx.md",
+      "repo": "anthropics",
+      "triggers": [
+        "PPT",
+        "PowerPoint",
+        "演示文稿",
+        "pptx",
+        "幻灯片",
+        "演讲稿",
+        "汇报PPT"
+      ],
+      "activates_nodes": [
+        "coding",
+        "tool_templates"
+      ],
+      "strengthens": [
+        {
+          "from": "tool_templates",
+          "to": "coding",
+          "delta": 0.2
+        }
+      ],
+      "min_tier": 1,
+      "description": "PowerPoint演示文稿创建与编辑",
+      "deployment_candidates": [
+        "direct"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    },
+    {
+      "name": "superpowers-index",
+      "file": "imported/superpowers/README.md",
+      "meta_file": "imported/superpowers/README.md.neural_meta.json",
+      "version": "1.0",
+      "skill_name": "superpowers-index",
+      "source": "superpowers/README.md",
+      "repo": "superpowers",
+      "triggers": [
+        "agent方法论",
+        "coding agent",
+        "代理框架",
+        "agent开发"
+      ],
+      "activates_nodes": [
+        "research",
+        "architecture"
+      ],
+      "strengthens": [
+        {
+          "from": "research",
+          "to": "architecture",
+          "delta": 0.2
+        }
+      ],
+      "min_tier": 3,
+      "description": "Superpowers完整方法论（参考，非直接部署）",
+      "deployment_candidates": [
+        "reference"
+      ],
+      "created": "2026-05-23",
+      "updated": "2026-05-23"
+    }
+  ]
+}
