@@ -30,7 +30,7 @@ triggers:
   # ✅ 正确
   chunks = data.get("chunks", [])  # list[str]
   text = chunk if isinstance(chunk, str) else chunk.get("text", "")
-  
+
   # ❌ 错误 - chunk没有.get()方法
   text = chunk.get("text", "")
   ```
