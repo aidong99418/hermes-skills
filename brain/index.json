@@ -19,7 +19,7 @@
     "rag": true,
     "rag_index_path": "/opt/data/rag_index/brain/",
     "access_method": "python3 /opt/data/scripts/rag_query.py '关键词' [域]",
-    "files_indexed": 10,
+    "files_indexed": 17,
     "entries": [
       {
         "path": "principles/taste-design-principles.md",
@@ -80,6 +80,42 @@
         "category": "automation",
         "keywords": "Hook钩子 自动化检查 生命周期 会话压缩 pre-commit 审计日志 失效安全",
         "summary": "Game Studios 12个自动化Hook——预执行拦截、会话生命周期管理、Agent审计日志，可迁移到Hermes"
+      },
+      {
+        "path": "principles/mcp-integration.md",
+        "category": "tool-integration",
+        "keywords": "MCP Model Context Protocol stdio HTTP 工具集成 GitHub filesystem sqlite",
+        "summary": "MCP协议——stdio/HTTP两种传输方式，mcp_{server}_{tool}命名规则，安全配置要点"
+      },
+      {
+        "path": "principles/plugin-create-workflow.md",
+        "category": "plugin-dev",
+        "keywords": "Claude Code plugin插件创建 7步流程 Discovery Component Planning Design Implementation Validation",
+        "summary": "claude-code 55K★——Plugin创建7阶段工作流：发现→组件规划→详细设计→实现→验证→测试→完成"
+      },
+      {
+        "path": "principles/plugin-simple-commands.md",
+        "category": "plugin-dev",
+        "keywords": "Claude Code plugin命令 simple-commands 模板 examples",
+        "summary": "claude-code plugin开发——简单命令模板和示例，命令开发最佳实践"
+      },
+      {
+        "path": "principles/playwright-testing.md",
+        "category": "testing",
+        "keywords": "Playwright 自动化测试 E2E browser chromium firefox webkit cross-browser",
+        "summary": "microsoft Playwright 63K★——跨浏览器E2E测试，支持chromium/firefox/webkit，codegen生成测试"
+      },
+      {
+        "path": "principles/vercel-ai-agents.md",
+        "category": "ai-sdk",
+        "keywords": "Vercel AI SDK stream generate agent react hook streaming",
+        "summary": "vercel/ai 23K★——AI应用开发SDK，stream生成、React Hook、Agent抽象、streaming支持"
+      },
+      {
+        "path": "principles/anthropic-cookbook.md",
+        "category": "ai-patterns",
+        "keywords": "Anthropic cookbook AI patterns prompts techniques recipes cookbook",
+        "summary": "anthropic/anthropic-cookbook——AI应用模式菜谱，prompt工程、工具使用、多模态示例"
       }
     ]
   },
