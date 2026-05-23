@@ -73,6 +73,11 @@ def detect_tier(question: str, context: dict = None) -> int:
         # 不含result_word → tier1（直接操作指令）
         return 1
 
+    # tier2：诊断类短问句（优先于tier1短句规则，这些需要分析而非简单查询）
+    diagnostic_patterns = ["哪里出了问题", "哪里不对", "哪里有", "和之前有什么不同", "有什么不同", "哪个更好", "区别在哪", "什么情况", "哪里不对", "有什么问题"]
+    if any(pat in q for pat in diagnostic_patterns):
+        return 2
+
     # tier1：极短问句(≤12字)且是查看类
     if len(q) <= 12 and any(kw in q for kw in ["查", "看", "问", "找"]):
         return 1
@@ -84,6 +89,11 @@ def detect_tier(question: str, context: dict = None) -> int:
 
     # tier2：包含思考类关键词
     if any(kw in q for kw in COMPLEX_KEYWORDS + UNCERTAIN_KEYWORDS):
+        return 2
+
+    # tier2：诊断类简短问句（误杀修复：这些是分析问题，不是简单查询）
+    diagnostic_patterns = ["哪里出了问题", "哪里不对", "哪里有", "和之前有什么不同", "有什么不同", "哪个更好", "区别在哪", "什么情况"]
+    if any(pat in q for pat in diagnostic_patterns):
         return 2
 
     # tier2：问题长度较长

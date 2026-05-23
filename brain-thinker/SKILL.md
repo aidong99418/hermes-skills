@@ -126,3 +126,55 @@ Ollama分析（qwen2.5:3b，150字结论，超时60秒）
 2. ArXiv atom XML entry标签带xmlns → 用正则匹配或SOAP解析
 3. tier3派发结果为0时不输出空结论 → 只合并非空结果
 4. 写brain后必须rebuild缓存 → external_fetcher自带后台rebuild
+
+## ⚠️ 规则顺序陷阱（已踩坑，勿调换顺序）
+
+**tier判断规则执行顺序必须严格遵守，乱序会导致误判：**
+
+```
+tier3优先判断 → action开头+result_word → 诊断类短句 → tier1短句 → tier2关键词 → 长度/问号/上下文
+                                                                                              ↑
+                                                           诊断类短句如果放在tier1短句规则之后，
+                                                           会被"问"字匹配误杀为tier1！
+```
+
+**当前 `detect_tier()` 中 `diagnostic_patterns` 必须在 tier1短句规则之前：**
+
+```python
+# ✅ 正确顺序
+if any(pat in q for pat in diagnostic_patterns):
+    return 2  # 先拦住诊断类
+
+if len(q) <= 12 and any(kw in q for kw in ["查", "看", "问", "找"]):
+    return 1  # 再匹配tier1短句
+
+# ❌ 错误：诊断类会被"问"字误杀
+```
+
+**受影响的短语模式**（会误判为tier1）：
+- "哪里出了问题" → 包含"问"字 → ❌ 被tier1短句规则误杀为tier1
+- "和之前有什么不同" → 包含"问"字 → ❌ 同上
+- "有什么问题" → 包含"问"字 → ❌ 同上
+
+**如果修改 `brain_invoke.py` 的 `detect_tier()` 函数，务必确保：**
+1. `diagnostic_patterns` 检查在 tier1短句规则之前
+2. 修改后用测试题验证：`detect_tier("哪里出了问题")` 必须返回2
+
+## 自进化监控（2026-05-24 已部署）
+
+自进化五层架构已落地运行：
+
+| 组件 | 文件 | cron | 状态 |
+|------|------|------|------|
+| dialog_watchdog | `/opt/data/scripts/dialog_watchdog.py` | 每分钟 | ✅ |
+| self_observer | `/opt/data/brain/performance/self_observer.py` | 23:00每日报告 | ✅ |
+| brain_backup | `/opt/data/skills/tools/brain_backup_trigger.py` | 每小时 | ✅ |
+| feedback_tracking | `brain_invoke.py` 内置 `record_feedback()` | 被动记录 | ✅ |
+
+**指标文件：**
+- `/opt/data/brain/performance/behavior_log.jsonl` — 行为日志
+- `/opt/data/brain/performance/brain_retriever_metrics.json` — 检索指标
+- `/opt/data/brain/performance/confidence_tracking.json` — 置信度追踪
+- `/opt/data/brain/performance/feedback_tracking.json` — 用户反馈
+
+**自进化目标：** tier准确率>90% / brain命中率>80% / 好奇机制触发
