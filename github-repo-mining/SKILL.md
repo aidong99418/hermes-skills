@@ -1,106 +1,88 @@
 ---
 name: github-repo-mining
-description: GitHub高星仓库挖掘与同步工作流 — 挖宝→分析→同步到本地hermes-skills完整链路。触发：挖宝/GitHub/学习新项目。
+description: GitHub高星仓库挖掘与静默同步工作流 — 从发现到推送到hermes-skills完整链路。触发：挖宝、GitHub学习、同步新项目。
 version: 1.0.0
-tags: [github, mining, sync, skills, arxiv]
-triggers: ["GitHub挖宝", "学习新项目", "高星仓库", "同步skill"]
+tags: [github, mining, sync, learning, workflow]
+triggers: ["GitHub挖宝", "同步仓库", "发现新项目", "hermes-skills"]
 ---
 
-# GitHub 仓库挖掘工作流
+# GitHub Repo Mining 工作流
 
 ## 核心定位
-从 GitHub 大规模挖宝高价值项目 → 分析内容 → 筛选 → 同步到 hermes-skills 仓库。
+从GitHub高星仓库发现 → 分析 → 同步到本地hermes-skills的完整链路，用于持续扩展Agent技能库。
 
-## 完整链路
+## 工作流
 
 ```
-发现高星项目 → 读README分析价值 → 判断是否值得写skill
-                                              ↓
-                                    ✅值得 → 写SKILL.md → commit/push
-                                    ❌放弃 → 跳过
+发现高星仓库
+    ├── 星标筛选（>1k⭐）
+    ├── 语言过滤（Python/JS/Go）
+    └── 主题匹配（AI/Agent/DevOps）
+
+内容分析（GitHub API）
+    ├── 读README.md
+    ├── 查源码结构
+    └── 评估价值
+
+筛选写入
+    ├── 写SKILL.md
+    └── 注册neural网络
+
+推送GitHub
+    ├── git add/commit/push
+    └── neural重建
 ```
 
-## 工具选择
+## 核心脚本逻辑
 
-| 方式 | 优点 | 缺点 |
-|------|------|------|
-| GitHub API | 精确过滤，可编程 | 未认证60次/小时，需Token |
-| `gh` 命令 | 官方CLI，用Token无限制 | sandbox网络隔离时不可用 |
-| 第三方API | 可能有缓存 | 不稳定 |
-
-**当前环境**：GitHub API 可用（API直连），`gh` 不可用（sandbox隔离）
-
-## GitHub API 查询示例
-
-### 按星标+语言筛选
+### 发现仓库（API查询）
 ```python
-import urllib.request, json
-
-def search_repos(query, token=None, per_page=30):
-    """搜索GitHub仓库"""
-    headers = {'Accept': 'application/vnd.github.v3+json'}
-    if token:
-        headers['Authorization'] = f'Bearer {token}'
-    
-    q = urllib.request.quote(query)  # 如 "stars:>10000 language:Python"
-    url = f"https://api.github.com/search/repositories?q={q}&sort=stars&per_page={per_page}"
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req) as r:
-        return json.loads(r.read())
+# 按星标+语言搜索
+url = "https://api.github.com/search/repositories"
+params = {
+    "q": "stars:>5000 language:python",  # Python >5k星
+    "sort": "stars",
+    "per_page": 30,
+}
 ```
 
-### 获取README内容
+### 读README（认证API防限流）
 ```python
-def get_readme(owner, repo, token=None):
-    """获取仓库README"""
-    headers = {'Accept': 'application/vnd.github.v3+json'}
-    if token:
-        headers['Authorization'] = f'Bearer {token}'
-    url = f"https://api.github.com/repos/{owner}/{repo}/readme"
-    req = urllib.request.Request(url, headers=headers)
+import base64, os
+
+token = os.environ.get("GITHUB_TOKEN")
+
+def read_file(owner, repo, path):
+    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}"
+    req = urllib.request.Request(url)
+    req.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(req) as r:
         data = json.loads(r.read())
-        import base64
-        return base64.b64decode(data['content']).decode()
+    return base64.b64decode(data['content']).decode()
+```
+
+### 限流处理
+```python
+# 未认证: 60次/小时
+# 认证后: 5000次/小时
+# 超过限额sleep等待
+X-RateLimit-Remaining: 0 → time.sleep(3600)
 ```
 
 ## 筛选标准
 
 | 维度 | 标准 |
 |------|------|
-| 星标 | >10k⭐（主流框架门槛）|
-| 语言 | Python/TypeScript/Go 优先 |
-| 更新 | 近半年有活跃提交 |
-| License | 非GPL限制型 |
-| 实用性 | 有SDK/API/CLI等可集成点 |
+| 星标 | >1k（热门）/ >5k（顶级）|
+| 主题 | AI/Agent/DevOps/云原生 |
+| 活跃度 | 6个月内有更新 |
+| 文档 | 有README.md |
+| 复用性 | 可转化为skill |
 
-## 批量查询脚本示例
+## 坑/注意事项
 
-```python
-# 查询AI/Agent框架高星仓库
-repos = search_repos("stars:>30000 language:Python topic:artificial-intelligence", token=TOKEN)
-for item in repos['items'][:10]:
-    print(f"⭐{item['stargazers_count']:,} | {item['full_name']}")
-    print(f"   {item['description']}")
-    print(f"   {item['html_url']}")
-    print()
-```
-
-## 挖宝优先级排序
-
-1. **T0**：Agent框架（AutoGen/CrewAI/OpenManus/CowAgent）
-2. **T1**：RAG/向量库（Qdrant/Chroma）| 平台（LangGraph/Airflow/Dify/n8n）
-3. **T2**：工具类（Portainer/Dozzle/Glances/UptimeKuma）
-4. **T3**：SDK类（OpenAI Python SDK / Vercel AI SDK）
-
-## push流程（当前目录结构）
-
-```bash
-cd /opt/data/skills
-# 假设已写好 new-skill/SKILL.md
-git add new-skill/
-git commit -m "feat: add new-skill"
-git pull origin master --rebase
-git push
-# 同时更新brain/neural网络注册
-```
+1. **API限流是最大瓶颈**：未认证60次/小时，批量查询要控速
+2. **README可能为空**：检查`size > 100`再下载
+3. **base64编码**：GitHub API文件内容是base64，需要decode
+4. **分支确认**：查`default_branch`字段，不一定是master/main
+5. **嵌套目录**：skill写到子目录（如`ai-frameworks/cowagent/`）需同步父目录状态
