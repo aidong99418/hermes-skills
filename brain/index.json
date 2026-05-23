@@ -19,7 +19,7 @@
     "rag": true,
     "rag_index_path": "/opt/data/rag_index/brain/",
     "access_method": "python3 /opt/data/scripts/rag_query.py '关键词' [域]",
-    "files_indexed": 22,
+    "files_indexed": 24,
     "entries": [
       {
         "path": "principles/taste-design-principles.md",
@@ -94,12 +94,6 @@
         "summary": "claude-code 55K★——Plugin创建7阶段工作流：发现→组件规划→详细设计→实现→验证→测试→完成"
       },
       {
-        "path": "principles/plugin-simple-commands.md",
-        "category": "plugin-dev",
-        "keywords": "Claude Code plugin命令 simple-commands 模板 examples",
-        "summary": "claude-code plugin开发——简单命令模板和示例，命令开发最佳实践"
-      },
-      {
         "path": "principles/playwright-testing.md",
         "category": "testing",
         "keywords": "Playwright 自动化测试 E2E browser chromium firefox webkit cross-browser",
@@ -152,6 +146,24 @@
         "category": "local-llm",
         "keywords": "Ollama Python SDK async streaming cloud API Client ResponseError embeddings",
         "summary": "ollama/ollama-python——轻量Python SDK，本地+云模型，同步异步支持，流式输出，httpx底层"
+      },
+      {
+        "path": "skills/continue/SKILL.md",
+        "category": "tool",
+        "keywords": "Continue VSCode AI助手 代码补全 代码理解",
+        "summary": "Continue——VSCode/JetBrains AI编程助手，支持代码补全、理解、调试，基于Continue SDK构建"
+      },
+      {
+        "path": "skills/vercel-agent-skills/SKILL.md",
+        "category": "tool",
+        "keywords": "Vercel Agent Skills AI编程 agent技能集合",
+        "summary": "Vercel Agent Skills——Vercel Labs AI Agent技能合集，扩展AI编程能力"
+      },
+      {
+        "path": "skills/claude-code-plugins/SKILL.md",
+        "category": "engineering",
+        "keywords": "Claude Code Plugins 插件 扩展 自定义命令 agent Hook MCP",
+        "summary": "Claude Code Plugins——官方插件示例集，含自定义命令/Agent/Hook/MCP扩展模式"
       }
     ]
   },
