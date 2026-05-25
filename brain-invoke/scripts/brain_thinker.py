@@ -19,6 +19,17 @@ import re
 import time
 from pathlib import Path
 from datetime import datetime
+import sys
+sys.path.insert(0, '/opt/data/scripts')
+from model_config import DEEP_MODEL, TEACHER_MODEL, CODER_MODEL
+del FAST_MODEL  # 避免向后兼容别名冲突（若存在）
+from model_config import FAST_MODEL, CODEGEN_MODEL  # 重新导入别名
+
+# ── 模型变量解析 ──────────────────────────────────────────
+_VAR_MAP = {"$DEEP_MODEL": DEEP_MODEL, "$TEACHER_MODEL": TEACHER_MODEL,
+            "$CODER_MODEL": CODER_MODEL, "$FAST_MODEL": FAST_MODEL, "$CODEGEN_MODEL": CODEGEN_MODEL}
+def resolve_model(var: str) -> str:
+    return _VAR_MAP.get(var, var)
 
 # 添加scripts路径
 sys.path.insert(0, '/opt/data/scripts')
@@ -96,7 +107,8 @@ def detect_tier(question: str) -> int:
     return 1
 
 # ── 思考引擎 v2.0 ─────────────────────────────────────────────
-def think(question: str, tier: int, disable_external: bool = False) -> dict:
+def think(question: str, tier: int, disable_external: bool = False,
+          async_mode: bool = True) -> dict:
     """执行思考流程 v2.0（知识+Skill双路检索）"""
     result = {
         "question": question,
@@ -125,17 +137,21 @@ def think(question: str, tier: int, disable_external: bool = False) -> dict:
         search_result = retriever.search_all(question, user_tier=tier, top_k=8)
 
         result["brain_hits"] = search_result["brain_hits"][:5]
+        result["semantic_hits"] = search_result.get("semantic_hits", [])  # E阶段：语义向量
         result["skill_matches"] = search_result["skill_matches"]
         result["neural_suggestions"] = search_result["neural_suggestions"]
 
         # 思考过程记录
         if result["brain_hits"]:
             top = result["brain_hits"][0]
+            method = top.get("method", "bm25")
+            method_emoji = {"bm25": "📝", "vector": "🔢", "fused": "⚡"}
             result["thinking_steps"].append(
-                f"【brain检索】找到 {len(result['brain_hits'])} 条相关知识 (总{search_result['total_brain_chunks']}块)"
+                f"【brain检索】找到 {len(result['brain_hits'])} 条 (总{search_result['total_brain_chunks']}块)"
+                f" {method_emoji.get(method,'📝')}{method}优先"
             )
             result["thinking_steps"].append(
-                f"  → 最高匹配: {top['source']} ({top['score']:.1f})"
+                f"  → 最高匹配: {top['source']} ({top['score']:.3f})"
             )
         else:
             result["thinking_steps"].append(f"【brain检索】无相关记录 (总{search_result['total_brain_chunks']}块)")
@@ -190,63 +206,140 @@ def think(question: str, tier: int, disable_external: bool = False) -> dict:
             except Exception as e:
                 result["thinking_steps"].append(f"⚠️ 外部获取失败: {e}")
 
-    # ── Tier 3：团队协作思考 ───────────────────────────────────
+    # ── Tier 3：团队协作思考（v3.0 异步派工）────────────────────
     if tier == 3 and not disable_external:
-        result["thinking_steps"].append("【团队协作】启动多角度分析...")
+        result["thinking_steps"].append("【团队协作】派3个Worker后台分析...")
 
-        team_tasks = [
-            {"name": "推理专家", "model": "deepseek-r1:7b",
-             "prompt": f"请深入分析这个问题，给出逻辑推理：{question}\n请从多个角度分析利弊。"},
-            {"name": "工具专家", "model": "qwen2.5:7b",
-             "prompt": f"请从实际执行角度分析：{question}\n考虑技术可行性和实现路径。"},
-            {"name": "打工仔", "model": "qwen2.5:3b",
-             "prompt": f"请从数据/事实角度分析：{question}\n有哪些已知案例和数据支撑？"}
-        ]
+        if async_mode:
+            # v3.0 新增：异步派工，不等待
+            try:
+                sys.path.insert(0, '/opt/data/scripts')
+                from async_dispatcher import classify_question, dispatch, TaskType
+                
+                task_type, reason = classify_question(question)
+                disp = dispatch(question, TaskType.DEEP, session_id="brain_thinker")
 
-        try:
-            import requests
-            from concurrent.futures import ThreadPoolExecutor, as_completed
+                from async_dispatcher import WORKER_CONFIG, TaskType as ADTaskType
 
-            def call_model(task):
+                result["thinking_steps"].append(f"  → {reason}")
+                # 生成用户可见的派工卡
+                worker_lines = []
+                for name in disp.get("workers", []):
+                    cfg = WORKER_CONFIG.get(name, {})
+                    emoji = cfg.get("emoji", "🔧")
+                    role = cfg.get("role", "")
+                    model_raw = cfg.get("model", "")
+                    model = resolve_model(model_raw)
+                    worker_lines.append(f"{emoji} {name} · {role} → `{model}`")
+
+                card = (
+                    f"\n"
+                    f"━━━━━━━━━━━━━━━━━━━━━━\n"
+                    f"🛠 **已派工**（任务ID: `{disp['task_id'][:8]}`）\n"
+                    + "\n".join(f"   {line}" for line in worker_lines)
+                    + f"\n   └ ⏱ 完成后微信推送给你\n"
+                    f"━━━━━━━━━━━━━━━━━━━━━━"
+                )
+                # 写入共享文件，gateway会在回复末尾注入这张卡
                 try:
-                    start = time.time()
-                    resp = requests.post(
-                        "http://localhost:11434/api/generate",
-                        json={"model": task["model"], "prompt": task["prompt"],
-                              "stream": False, "options": {"num_predict": 150}},
-                        timeout=60
-                    )
-                    elapsed = int((time.time() - start) * 1000)
-                    if resp.status_code == 200:
-                        data = json.loads(resp.text)
-                        return {"name": task["name"], "model": task["model"],
-                                "result": data.get("response", "")[:200],
-                                "elapsed_ms": elapsed, "success": True}
-                    else:
-                        return {"name": task["name"], "model": task["model"],
-                                "result": f"HTTP {resp.status_code}",
-                                "elapsed_ms": elapsed, "success": False}
+                    Path("/tmp/hermes_dispatch_card.txt").write_text(card)
+                except Exception:
+                    pass
+                result["thinking_steps"].append(card)
+                result["team_results"] = [{"task_id": disp["task_id"], "status": "async_dispatched",
+                                           "workers": disp["workers"], "card": card}]
+            except Exception as e:
+                result["thinking_steps"].append(f"⚠️ 派工失败，回退同步模式: {e}")
+                async_mode = False  # 回退
+
+            # 同步等待模式（async_mode=False 时执行，供CLI测试）
+            if not async_mode:
+                team_tasks = [
+                    {"name": "推理专家", "model": "$DEEP_MODEL",
+                     "temperature": 0.7, "num_ctx": 8192,
+                     "prompt": f"请深入分析这个问题，给出逻辑推理：{question}\n请从多个角度分析利弊。"},
+                    {"name": "工具专家", "model": "$CODEGEN_MODEL",
+                     "prompt": f"请从实际执行角度分析：{question}\n考虑技术可行性和实现路径。"},
+                    {"name": "打工仔", "model": "$FAST_MODEL",
+                     "prompt": f"请从数据/事实角度分析：{question}\n有哪些已知案例和数据支撑？"}
+                ]
+
+                try:
+                    import requests
+                    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+                    def call_model(task):
+                        try:
+                            start = time.time()
+                            resp = requests.post(
+                                "http://localhost:11434/api/generate",
+                                json={"model": task["model"], "prompt": task["prompt"],
+                                      "stream": False, "options": {"num_predict": 150}},
+                                timeout=60
+                            )
+                            elapsed = int((time.time() - start) * 1000)
+                            if resp.status_code == 200:
+                                data = json.loads(resp.text)
+                                return {"name": task["name"], "model": task["model"],
+                                        "result": data.get("response", "")[:200],
+                                        "elapsed_ms": elapsed, "success": True}
+                            else:
+                                return {"name": task["name"], "model": task["model"],
+                                        "result": f"HTTP {resp.status_code}",
+                                        "elapsed_ms": elapsed, "success": False}
+                        except Exception as e:
+                            return {"name": task["name"], "model": task["model"],
+                                    "result": str(e), "elapsed_ms": 0, "success": False}
+
+                    team_results = []
+                    with ThreadPoolExecutor(max_workers=3) as executor:
+                        futures = {executor.submit(call_model, task): task for task in team_tasks}
+                        for future in as_completed(futures):
+                            r = future.result()
+                            team_results.append(r)
+                            status = "✅" if r["success"] else "❌"
+                            result["thinking_steps"].append(
+                                f"  {status} {r['name']}({r['model']}): {r['elapsed_ms']}ms"
+                            )
+
+                    result["team_results"] = team_results
+
                 except Exception as e:
-                    return {"name": task["name"], "model": task["model"],
-                            "result": str(e), "elapsed_ms": 0, "success": False}
+                    result["thinking_steps"].append(f"⚠️ 团队协作失败: {e}")
 
-            team_results = []
-            with ThreadPoolExecutor(max_workers=3) as executor:
-                futures = {executor.submit(call_model, task): task for task in team_tasks}
-                for future in as_completed(futures):
-                    r = future.result()
-                    team_results.append(r)
-                    status = "✅" if r["success"] else "❌"
-                    result["thinking_steps"].append(
-                        f"  {status} {r['name']}({r['model']}): {r['elapsed_ms']}ms"
-                    )
+    # ── 结论生成（v2.0 优先推荐skill + 激活扩散建议）────────
+    # 激活扩散建议（新增C阶段）
+    spread_text = ""
+    try:
+        if tier >= 2:
+            from brain_activation_engine import activate as neural_activate
+            spread = neural_activate(question, max_hops=3, top_k=5)
+            if spread:
+                lines = ["", "🔗 相关知识域推荐："]
+                for sa in spread:
+                    bar = "█" * max(1, int(sa['activation'] * 12))
+                    lines.append(f"   {sa['name']:<28} {sa['activation']:.2f} {bar}")
+                spread_text = "\n".join(lines)
+    except Exception:
+        pass
 
-            result["team_results"] = team_results
+    # 激活扩散思考步骤记录
+    if tier >= 2 and spread_text:
+        result["thinking_steps"].append(f"【激活扩散】发现{len(spread) if 'spread' in dir() else '相关'}个关联知识域")
 
-        except Exception as e:
-            result["thinking_steps"].append(f"⚠️ 团队协作失败: {e}")
+    # ── 结论生成（无skill时也展示扩散结果）──────────────────
+    # E阶段增强结论：当BM25无结果但语义强时，展示语义结果
+    semantic_conclusion = ""
+    if not result["brain_hits"] and result.get("semantic_hits"):
+        top_sem = result["semantic_hits"][0]
+        if top_sem["score"] >= 0.6:
+            semantic_conclusion = (
+                f"\n\n【语义向量补充】\n"
+                f"  语义检索在 brain 中找到相关文档：\n"
+                f"  📄 {top_sem['source']} (相似度 {top_sem['score']:.2f})\n"
+                f"  {top_sem['text'][:200]}..."
+            )
 
-    # ── 结论生成（v2.0 优先推荐skill）─────────────────────────
     if result["recommended_skill"]:
         skill = result["recommended_skill"]
         result["conclusion"] = (
@@ -254,20 +347,27 @@ def think(question: str, tier: int, disable_external: bool = False) -> dict:
             f"   触发词: {', '.join(skill['triggers_matched'])}\n"
             f"   描述: {skill['description']}\n"
             f"   激活神经节点: {' → '.join(skill['activates_nodes'])}\n"
-            f"   神经权重将在skill执行后自动强化"
+            f"   神经权重将在skill执行后自动强化{spread_text}"
         )
     elif result.get("external_answer"):
-        result["conclusion"] = f"【来自外部知识】\n{result['external_answer'][:500]}"
+        result["conclusion"] = f"【来自外部知识】\n{result['external_answer'][:500]}{spread_text}{semantic_conclusion}"
         if result.get("knowledge_saved"):
             result["conclusion"] += "\n\n💾 已存入brain，下次可直接检索"
     elif result["brain_hits"]:
         top = result["brain_hits"][0]
         result["conclusion"] = (
             f"检索到相关知识：{top['source']}（匹配度{top['score']:.1f}），"
-            f"可作为参考。\n建议：引用brain知识，结合当前问题具体分析。"
+            f"可作为参考。\n建议：引用brain知识，结合当前问题具体分析。{spread_text}"
         )
     else:
-        result["conclusion"] = "brain+skill均无相关记录，已尝试外部获取，请查看上方结果"
+        # BM25无结果 → 尝试用语义向量结论兜底
+        if semantic_conclusion:
+            result["conclusion"] = (
+                f"BM25未命中，语义向量找到相关文档：\n"
+                f"（相似度{result['semantic_hits'][0]['score']:.2f}）{semantic_conclusion}"
+            )
+        else:
+            result["conclusion"] = "brain+skill均无相关记录，已尝试外部获取，请查看上方结果" + spread_text
 
     return result
 
@@ -325,6 +425,8 @@ if __name__ == "__main__":
     parser.add_argument("--tier", type=int, help="强制指定层级(1/2/3)")
     parser.add_argument("--no-external", action="store_true", help="禁用外部获取")
     parser.add_argument("--skill-test", action="store_true", help="测试skill匹配")
+    parser.add_argument("--async", dest="async_mode", action="store_true", help="异步派工模式（默认关闭，CLI测试用同步）")
+    parser.add_argument("--sync", dest="sync_mode", action="store_true", help="同步等待模式（CLI默认，等3个模型跑完）")
     args = parser.parse_args()
 
     question = " ".join(args.question) if args.question else ""
@@ -354,7 +456,11 @@ if __name__ == "__main__":
     print(f"层级：{tier_names[tier]}")
     print()
 
-    result = think(question, tier, disable_external=args.no_external)
+    # CLI默认: 同步等待(sync)，--async 切换为异步派工
+    async_mode = args.async_mode and not args.sync_mode
+
+    result = think(question, tier, disable_external=args.no_external,
+                   async_mode=async_mode)
 
     print("📝 思考过程：")
     for step in result["thinking_steps"]:
@@ -364,8 +470,19 @@ if __name__ == "__main__":
     if result["brain_hits"]:
         print("📚 brain命中：")
         for i, h in enumerate(result["brain_hits"][:3], 1):
-            print(f"  【{i}】{h['type']} | {h['source']} | 匹配度:{h['score']:.1f}")
+            method_tag = f"[{h.get('method','bm25')}]" if h.get('method') else ""
+            print(f"  【{i}】{h['type']} | {h['source']} | 匹配度:{h['score']:.1f} {method_tag}")
             print(f"      {h['text'][:120]}...")
+        print()
+
+    # E阶段：展示语义向量检索结果
+    if result.get("semantic_hits"):
+        print("🔍 语义向量检索：")
+        for i, h in enumerate(result["semantic_hits"][:3], 1):
+            bar = "█" * max(1, int(h['score'] * 15))
+            print(f"  【{i}】{h['score']:.3f} {bar} ({h['type']})")
+            print(f"      📄 {h['source']}")
+            print(f"      {h['text'][:100]}...")
         print()
 
     if result["skill_matches"]:

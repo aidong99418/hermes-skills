@@ -2773,5 +2773,123 @@
       "reason": "外部获取=二层思考",
       "bidirectional": true
     }
-  ]
+  ],
+  "tdd": {
+    "nodes": [
+      "testing",
+      "quality",
+      "tdd",
+      "development",
+      "python"
+    ],
+    "trigger_keywords": [
+      "tdd",
+      "测试驱动",
+      "红绿重构",
+      "单元测试",
+      "先写测试"
+    ]
+  },
+  "security-auditor": {
+    "nodes": [
+      "security",
+      "audit",
+      "vulnerability",
+      "owasp",
+      "code-review"
+    ],
+    "trigger_keywords": [
+      "安全",
+      "漏洞",
+      "审计",
+      "渗透",
+      "owasp",
+      "xss",
+      "sql注入"
+    ]
+  },
+  "grill-with-docs": {
+    "nodes": [
+      "requirements",
+      "testing",
+      "quality",
+      "design",
+      "questioning"
+    ],
+    "trigger_keywords": [
+      "压力测试",
+      "需求验证",
+      "追问",
+      "假设检验",
+      " grill"
+    ]
+  },
+  "openai-python-sdk": {
+    "nodes": [
+      "openai",
+      "sdk",
+      "api",
+      "python",
+      "llm",
+      "integration"
+    ],
+    "trigger_keywords": [
+      "openai",
+      "sdk",
+      "python",
+      "api调用",
+      "chatgpt",
+      "completion"
+    ]
+  },
+  "mcp-builder": {
+    "nodes": [
+      "mcp",
+      "tool",
+      "server",
+      "integration",
+      "protocol",
+      "llm"
+    ],
+    "trigger_keywords": [
+      "mcp",
+      "工具服务器",
+      "协议",
+      "集成",
+      "context protocol"
+    ]
+  },
+  "docx": {
+    "nodes": [
+      "document",
+      "word",
+      "office",
+      "formatting",
+      "python"
+    ],
+    "trigger_keywords": [
+      "word",
+      "docx",
+      "文档",
+      "Office",
+      "WPS"
+    ]
+  },
+  "xlsx": {
+    "nodes": [
+      "excel",
+      "spreadsheet",
+      "data",
+      "formula",
+      "python"
+    ],
+    "trigger_keywords": [
+      "excel",
+      "xlsx",
+      "表格",
+      "公式",
+      "数据处理",
+      "csv"
+    ]
+  }
 }
