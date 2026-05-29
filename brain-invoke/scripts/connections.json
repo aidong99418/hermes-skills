@@ -46597,6 +46597,12 @@
       },
       "办公技能学习 - 2026-05-25": {
         "strength": 1.0
+      },
+      "Linux 系统管理核心知识体系": {
+        "strength": 1.0
+      },
+      "网络基础核心知识体系": {
+        "strength": 1.0
       }
     },
     "Shell 脚本核心知识体系": {
@@ -46608,6 +46614,12 @@
       },
       "办公技能学习 - 2026-05-25": {
         "strength": 1.0
+      },
+      "SQLite 实战指南": {
+        "strength": 1.0
+      },
+      "Docker & DevOps 核心知识体系": {
+        "strength": 1.0
       }
     },
     "SQLite 实战指南": {
@@ -46618,6 +46630,12 @@
         "strength": 1.0
       },
       "Docker & DevOps 核心知识体系": {
+        "strength": 1.0
+      },
+      "办公技能学习 - 2026-05-25": {
+        "strength": 1.0
+      },
+      "Shell 脚本核心知识体系": {
         "strength": 1.0
       }
     },
@@ -46638,6 +46656,9 @@
       },
       "SQLite 实战指南": {
         "strength": 1.0
+      },
+      "Shell 脚本核心知识体系": {
+        "strength": 1.0
       }
     },
     "网络基础核心知识体系": {
@@ -46648,6 +46669,12 @@
         "strength": 1.0
       },
       "办公技能学习 - 2026-05-25": {
+        "strength": 1.0
+      },
+      "GitHub Issues、项目管理与安全": {
+        "strength": 1.0
+      },
+      "Python 标准库 & 常用三方库实战知识体系": {
         "strength": 1.0
       }
     },
@@ -46677,6 +46704,9 @@
       },
       "GitHub Actions CI/CD 完全指南": {
         "strength": 1.0
+      },
+      "网络基础核心知识体系": {
+        "strength": 1.0
       }
     },
     "GitHub Pull Request 工作流与代码审查": {
@@ -46702,10 +46732,22 @@
       },
       "网络基础核心知识体系": {
         "strength": 1.0
+      },
+      "SQLite 实战指南": {
+        "strength": 1.0
+      },
+      "Git 工作流核心知识体系": {
+        "strength": 1.0
       }
     },
     "Git 工作流核心知识体系": {
       "Shell 脚本核心知识体系": {
+        "strength": 1.0
+      },
+      "GitHub 入门核心知识": {
+        "strength": 1.0
+      },
+      "办公技能学习 - 2026-05-25": {
         "strength": 1.0
       }
     },
@@ -46721,6 +46763,12 @@
       },
       "Docker & DevOps 核心知识体系": {
         "strength": 1.0
+      },
+      "FastAPI 实战核心知识": {
+        "strength": 1.0
+      },
+      "Git 工作流核心知识体系": {
+        "strength": 1.0
       }
     },
     "FastAPI 实战核心知识": {
@@ -46729,6 +46777,9 @@
       },
       "Linux 系统管理核心知识体系": {
         "strength": 1.0
+      },
+      "GitHub 入门核心知识": {
+        "strength": 1.0
       }
     },
     "Linux 系统管理核心知识体系": {
@@ -46736,6 +46787,9 @@
         "strength": 1.0
       },
       "GitHub Issues、项目管理与安全": {
+        "strength": 1.0
+      },
+      "Python 标准库 & 常用三方库实战知识体系": {
         "strength": 1.0
       }
     },
@@ -46781,5 +46835,5 @@
     "daydream_integrate_count": 13,
     "last_daydream_integrate": "2026-05-29T07:22:00.818107"
   },
-  "updated": "2026-05-29T07:22:00.818102"
+  "updated": "2026-05-29T09:04:32.576204"
 }
