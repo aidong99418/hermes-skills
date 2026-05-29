@@ -1,7 +1,7 @@
 {
   "version": "4.0",
-  "updated": "2026-05-29T07:22:00.817572",
-  "total_paths": 73,
+  "updated": "2026-05-29T15:42:54.907998",
+  "total_paths": 74,
   "inference_paths": [
     {
       "trigger": "Ollama模型调用失败",
@@ -1206,6 +1206,30 @@
         "实现跨域通",
         "信与操作",
         "Shell脚本中使用docker"
+      ]
+    },
+    {
+      "trigger": "办公技能学习 - 2026-05-25 × GitHub Actions CI/CD 完全指南",
+      "tier": 2,
+      "path": [
+        "办公技能学习 - 2026-05-25",
+        "GitHub Actions CI/CD 完全指南"
+      ],
+      "action": "在GitLab CI/CD工作流中，使用Docker容器化办公文档处理过程，实现持续集成和部署自动化。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在GitLab CI/CD工作流中，使用Docker容器化办公文档处理过程，实现持续集成和部署自动化。",
+      "domains": [
+        "办公技能学习 - 2026-05-25",
+        "GitHub Actions CI/CD 完全指南"
+      ],
+      "created_at": "2026-05-29T15:42:54.889872",
+      "trigger_keywords": [
+        "工作流中",
+        "使用",
+        "容器化办公",
+        "文档处理过"
       ]
     }
   ],
