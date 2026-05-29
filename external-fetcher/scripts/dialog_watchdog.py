@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/opt/hermes/.venv/bin/python3
 """
 对话流自动触发brain_think - 文件监控方案
 原理：cron每分钟检查sessions目录，文件mtime变化→读最新用户消息→brain_think→存档
