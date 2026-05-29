@@ -30,16 +30,33 @@ import os
 import re
 import time
 import json
-import requests
 from pathlib import Path
 from datetime import datetime
-import sys
-sys.path.insert(0, '/opt/data/scripts')
-from model_config import DEEP_MODEL, FAST_MODEL, TEACHER_MODEL, CODER_MODEL
 
-sys_path = "/opt/data/scripts"
-if sys_path not in sys.path:
-    sys.path.insert(0, sys_path)
+# 关键：在修改sys.path前，先确保stdlib路径优先，避免shadow文件干扰
+_stdlib_path = "/usr/lib/python3.13"
+if _stdlib_path not in sys.path:
+    sys.path.insert(0, _stdlib_path)
+if _stdlib_path + "/idlelib" not in sys.path:
+    sys.path.insert(0, _stdlib_path + "/idlelib")
+
+scripts_path = "/opt/data/scripts"
+# 把scripts从任何位置移除，放到sys.path最末尾
+# 这样 stdlib 和 dist-packages 都排在它前面，shadow文件无法劫持
+if scripts_path in sys.path:
+    sys.path.remove(scripts_path)
+sys.path.append(scripts_path)
+
+# 防御性清理：移除可能已在sys.modules中的旧shadow文件名
+# （cron环境/子解释器中可能已被缓存）
+for _shadow in ("requests", "email", "logging", "socket", "letta"):
+    sys.modules.pop(_shadow, None)
+    # 清理子模块缓存（防止 letta.constants 这种跨级导入被旧缓存阻塞）
+    sys.modules.pop(f"{_shadow}.constants", None)
+    sys.modules.pop(f"{_shadow}.schemas", None)
+
+# 导入前确保 dist-packages（pip的requests）排在新末尾的scripts之前
+import requests  # noqa: E402
 
 BRAIN_DIR = Path("/opt/data/brain")
 CACHE_FILE = Path("/tmp/brain_bm25_cache.json")
@@ -76,11 +93,6 @@ def detect_tier(question: str, context: dict = None) -> int:
         # 不含result_word → tier1（直接操作指令）
         return 1
 
-    # tier2：诊断类短问句（优先于tier1短句规则，这些需要分析而非简单查询）
-    diagnostic_patterns = ["哪里出了问题", "哪里不对", "哪里有", "和之前有什么不同", "有什么不同", "哪个更好", "区别在哪", "什么情况", "哪里不对", "有什么问题"]
-    if any(pat in q for pat in diagnostic_patterns):
-        return 2
-
     # tier1：极短问句(≤12字)且是查看类
     if len(q) <= 12 and any(kw in q for kw in ["查", "看", "问", "找"]):
         return 1
@@ -92,11 +104,6 @@ def detect_tier(question: str, context: dict = None) -> int:
 
     # tier2：包含思考类关键词
     if any(kw in q for kw in COMPLEX_KEYWORDS + UNCERTAIN_KEYWORDS):
-        return 2
-
-    # tier2：诊断类简短问句（误杀修复：这些是分析问题，不是简单查询）
-    diagnostic_patterns = ["哪里出了问题", "哪里不对", "哪里有", "和之前有什么不同", "有什么不同", "哪个更好", "区别在哪", "什么情况"]
-    if any(pat in q for pat in diagnostic_patterns):
         return 2
 
     # tier2：问题长度较长
@@ -209,7 +216,7 @@ def fetch_external(question: str) -> str:
         return f"[外部获取失败: {e}]"
 
 
-def call_ollama(prompt: str, model: str = "$FAST_MODEL",
+def call_ollama(prompt: str, model: str = "qwen3:4b",
                 num_predict: int = 200, timeout: int = 60) -> str:
     """调用Ollama（带超时保护）"""
     try:
@@ -230,31 +237,14 @@ def call_ollama(prompt: str, model: str = "$FAST_MODEL",
     return ""
 
 
-def team_delegate(question: str, async_mode: bool = True) -> list:
-    """
-    tier3团队派发
-    - async_mode=True（gateway默认）: 异步派工，立即返回
-    - async_mode=False（CLI同步测试）: 真实并行等待
-    """
-    if async_mode:
-        # v3.0 异步派工：不等待，立即返回任务ID
-        try:
-            sys.path.insert(0, '/opt/data/scripts')
-            from async_dispatcher import dispatch, TaskType
-            disp = dispatch(question, TaskType.DEEP, session_id="brain_invoke")
-            return [{"task_id": disp["task_id"], "status": "async_dispatched",
-                     "workers": disp["workers"], "message": disp["message"]}]
-        except Exception as e:
-            print(f"⚠️ 异步派工失败，回退同步: {e}")
-            # 回退到同步
-
-    # ── 同步等待模式（CLI测试用）──────────────────────────────
+def team_delegate(question: str) -> list:
+    """tier3团队派发（3个模型真实并行）"""
     import concurrent.futures
 
     tasks = [
-        ("推理专家", "$DEEP_MODEL", f"简答：{question}"),
-        ("工具专家", "$CODEGEN_MODEL", f"简答：{question}"),
-        ("打工仔", "$FAST_MODEL", f"简答：{question}"),
+        ("推理专家", "granite4.1:3b", f"简答：{question}"),  # 主力模型
+        ("工具专家", "qwen2.5-coder:7b", f"简答：{question}"),
+        ("打工仔", "granite4.1:3b", f"简答：{question}"),  # 主力模型
     ]
 
     results = []
@@ -289,10 +279,11 @@ def team_delegate(question: str, async_mode: bool = True) -> list:
                         done = True
                         break
             except concurrent.futures.TimeoutError:
-                done = True
+                done = True  # 超时的直接放弃，继续返回已有结果
                 break
 
     elapsed = time.time() - start
+    # 记录自我观测
     log_observation({
         "time": datetime.now().isoformat(),
         "type": "tier3_delegate",
@@ -460,7 +451,7 @@ def recommend_skills(question: str, brain_hits: list = None) -> list:
 
 
 def brain_think(question: str, tier: int = None, timeout: int = 90,
-                save_to_brain: bool = True, async_mode: bool = True) -> dict:
+                save_to_brain: bool = True) -> dict:
     """
     核心入口：思考引擎 v2.0
     自动判断层级 → 检索brain → 按需外部获取/团队派发 → 自我观测 → 返回结论
@@ -563,7 +554,7 @@ def brain_think(question: str, tier: int = None, timeout: int = 90,
     # ── Tier 3: 团队派发（真实并行）──────────────────────────
     if tier == 3:
         result["thinking_steps"].append("【tier3】启动团队协作...")
-        team = team_delegate(question, async_mode=async_mode)
+        team = team_delegate(question)
         result["team_results"] = team
         result["thinking_steps"].append(f"  → 收到{len(team)}个视角的分析")
         # 汇总团队结论

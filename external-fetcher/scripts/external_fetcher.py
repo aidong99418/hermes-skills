@@ -144,7 +144,7 @@ class ExternalSources:
 
 
 # ── Ollama分析模块 ──────────────────────────────────────────
-def analyze_with_ollama(question: str, external_data: dict, model: str = "qwen2.5:3b-instruct-q4_K_M") -> str:
+def analyze_with_ollama(question: str, external_data: dict, model: str = "granite4.1:3b") -> str:
     """用Ollama分析外部知识，生成结构化结论"""
     try:
         import requests

@@ -7,7 +7,11 @@
 import sys, json, time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+# 关键修复：scripts 目录 append 到末尾（不抢在 stdlib/dist-packages 之前）
+# 这样避免 scripts/requests.py、scripts/email.py 等 shadow 文件劫持导入
+scripts_dir = str(Path(__file__).parent)
+if scripts_dir not in sys.path:
+    sys.path.append(scripts_dir)
 from brain_invoke import brain_think, record_feedback, recommend_skills
 
 SESSIONS_DIR = Path("/opt/data/sessions")
