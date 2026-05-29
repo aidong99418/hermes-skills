@@ -1,86 +1,1443 @@
 {
-  "version": "3.0",
-  "updated": "2026-05-23",
+  "version": "4.0",
+  "updated": "2026-05-29T07:22:00.817572",
+  "total_paths": 73,
   "inference_paths": [
     {
       "trigger": "Ollama模型调用失败",
       "tier": 2,
-      "path": ["debugging", "llm_notes", "devops_notes"],
-      "action": "1.检查服务是否运行 2.检查端口11434 3.检查模型是否pull 4.查日志ERROR"
+      "path": [
+        "ollama-model-tiers",
+        "ollama-python-sdk"
+      ],
+      "action": "1.检查服务 2.端口11434 3.pull模型 4.ERROR日志"
     },
     {
       "trigger": "脚本KeyError崩溃",
       "tier": 1,
-      "path": ["debugging", "coding"],
-      "action": "1.用.get()安全访问 2.加try/except 3.写进problem_types"
+      "path": [
+        "tdd",
+        "tdd-engineering",
+        "prototype-branching"
+      ],
+      "action": "1..get()安全访问 2.try/except 3.写进brain"
     },
     {
       "trigger": "需要写新脚本",
       "tier": 1,
-      "path": ["coding", "tool_templates", "scenarios"],
-      "action": "1.查tool_templates有无类似 2.查scenarios历史案例 3.写完存进brain"
+      "path": [
+        "skill-creator",
+        "tdd",
+        "tdd-engineering"
+      ],
+      "action": "1.skill-creator模板 2.tdd流程 3.存进brain"
     },
     {
       "trigger": "架构选型问题",
       "tier": 3,
-      "path": ["decision", "architecture", "research"],
-      "action": "1.列约束条件 2.查scenarios有无类似 3.给建议并说明原因 4.存进brain"
-    },
-    {
-      "trigger": "定期报告需求",
-      "tier": 1,
-      "path": ["data_analysis", "coding"],
-      "action": "1.确定数据源 2.写分析脚本 3.配置cron 4.存进brain/scenarios"
+      "path": [
+        "brain-team-architecture",
+        "brain-system-integration",
+        "deer-flow-harness"
+      ],
+      "action": "1.列约束 2.查brain架构 3.建议+原因 4.存brain"
     },
     {
       "trigger": "学习新知识",
       "tier": 2,
-      "path": ["research", "scenarios"],
-      "action": "1.抓取来源 2.Ollama分析 3.写进brain/reasoning_patterns 4.更新connections"
-    },
-    {
-      "trigger": "我不知道的问题",
-      "tier": 3,
-      "path": ["research", "scenarios", "decision"],
-      "action": "1.外部知识获取 2.分析验证 3.整理成结论 4.写进brain"
+      "path": [
+        "external-fetcher",
+        "auto-learning",
+        "brain-thinker"
+      ],
+      "action": "1.外部获取 2.Ollama分析 3.写进brain 4.更新neural"
     },
     {
       "trigger": "安全/漏洞相关",
       "tier": 3,
-      "path": ["research", "security_notes", "decision"],
-      "action": "1.查CVE/HN最新资讯 2.分析影响 3.给出建议 4.写进brain"
+      "path": [
+        "lcguard-multiagent-security",
+        "security-auditor",
+        "brain-thinker"
+      ],
+      "action": "1.查CVE/HN 2.分析影响 3.给建议 4.写进brain"
     },
     {
       "trigger": "多模型协作任务",
       "tier": 3,
-      "path": ["decision", "coding", "research"],
-      "action": "1.拆解子问题 2.派发各模型 3.汇总结果 4.整合输出"
+      "path": [
+        "collaborative-protocol",
+        "hook-automation",
+        "brain-thinker"
+      ],
+      "action": "1.拆解子问题 2.派发 3.汇总 4.整合"
+    },
+    {
+      "trigger": "主题/设计需求",
+      "tier": 1,
+      "path": [
+        "theme-factory",
+        "taste-design-principles",
+        "frontend-design"
+      ],
+      "action": "1.theme-factory 2.审美原则参考 3.前端实现"
+    },
+    {
+      "trigger": "Ollama服务部署",
+      "tier": 2,
+      "path": [
+        "ollama-deploy",
+        "docker-ollama",
+        "service-configuration"
+      ],
+      "action": "1.docker pull ollama 2.端口映射 3.GPU支持 4.持久化模型"
+    },
+    {
+      "trigger": "前端界面设计",
+      "tier": 1,
+      "path": [
+        "theme-factory",
+        "taste-design-principles",
+        "frontend-design"
+      ],
+      "action": "1.需求分析 2.组件拆分 3.theme匹配 4.响应式适配"
+    },
+    {
+      "trigger": "NAS存储架构设计",
+      "tier": 3,
+      "path": [
+        "nas-architecture",
+        "storage-tier",
+        "brain-architecture-v2"
+      ],
+      "action": "1.评估容量需求 2.RAID配置 3.共享方案NFS/SMB 4.备份策略"
+    },
+    {
+      "trigger": "NAS磁盘空间不足",
+      "tier": 1,
+      "path": [
+        "disk-cleanup",
+        "storage-management",
+        "nas-monitoring"
+      ],
+      "action": "1.df -h查看空间 2.du大文件 3.docker system prune 4.清理日志"
+    },
+    {
+      "trigger": "NAS文件共享配置",
+      "tier": 2,
+      "path": [
+        "nfs-config",
+        "smb-setup",
+        "permission-management"
+      ],
+      "action": "1.创建共享目录 2.NFS/SMB配置 3.权限设置 4.挂载测试"
+    },
+    {
+      "trigger": "Ollama模型选择",
+      "tier": 3,
+      "path": [
+        "ollama-model-tiers",
+        "model-tier-system",
+        "ollama-python-sdk"
+      ],
+      "action": "1.评估场景需求 2.参数量vs效果 3.GPU内存考虑 4.测试延迟"
+    },
+    {
+      "trigger": "Ollama性能优化",
+      "tier": 3,
+      "path": [
+        "ollama-performance",
+        "gpu-optimization",
+        "batch-processing"
+      ],
+      "action": "1.batch size调整 2.GPU利用率监控 3.并发优化 4.缓存策略"
+    },
+    {
+      "trigger": "Docker容器报错",
+      "tier": 2,
+      "path": [
+        "dozzle",
+        "workflow",
+        "docker-monitoring"
+      ],
+      "action": "1.查看dozzle日志 2.docker ps检查状态 3.docker logs定位错误"
+    },
+    {
+      "trigger": "Docker镜像构建失败",
+      "tier": 2,
+      "path": [
+        "dockerfile-best-practices",
+        "workflow",
+        "build-optimization"
+      ],
+      "action": "1.检查Dockerfile 2.docker build日志 3.layer缓存 4.多阶段构建"
+    },
+    {
+      "trigger": "Docker网络配置问题",
+      "tier": 2,
+      "path": [
+        "network-config",
+        "docker-networking",
+        "port-mapping"
+      ],
+      "action": "1.docker network ls 2.检查端口映射 3.容器互联配置"
+    },
+    {
+      "trigger": "Git仓库配置",
+      "tier": 1,
+      "path": [
+        "git-config",
+        "workflow-git-learning",
+        "repository-setup"
+      ],
+      "action": "1.git init/config 2.远程仓库 3..gitignore 4.分支策略"
+    },
+    {
+      "trigger": "Git分支管理",
+      "tier": 1,
+      "path": [
+        "git-branching",
+        "prototype-branching",
+        "workflow-git-learning"
+      ],
+      "action": "1.git branch规划 2.特性分支 3.merge/rebase 4.冲突解决"
+    },
+    {
+      "trigger": "Git协作流程",
+      "tier": 2,
+      "path": [
+        "collaborative-protocol",
+        "github-actions",
+        "code-reviewer"
+      ],
+      "action": "1.fork/pull request 2.code review 3.自动化测试 4.合并策略"
+    },
+    {
+      "trigger": "多智能体协作",
+      "tier": 3,
+      "path": [
+        "collaborative-protocol",
+        "multi-agent-studio",
+        "agent-skills-lifecycle"
+      ],
+      "action": "1.角色定义 2.通信协议 3.任务分解 4.结果聚合"
+    },
+    {
+      "trigger": "CrewAI框架使用",
+      "tier": 2,
+      "path": [
+        "crewai-multi-agent-framework",
+        "collaborative-protocol",
+        "agent-design"
+      ],
+      "action": "1.定义Agent 2.配置Task 3.流程编排 4.结果整合"
+    },
+    {
+      "trigger": "Python异常处理",
+      "tier": 1,
+      "path": [
+        "python-exception-handling",
+        "tdd",
+        "error-recovery"
+      ],
+      "action": "1.try/except捕获 2.异常类型匹配 3.日志记录 4.优雅降级"
+    },
+    {
+      "trigger": "Python性能问题",
+      "tier": 2,
+      "path": [
+        "python-optimization",
+        "profiling-tools",
+        "async-patterns"
+      ],
+      "action": "1.定位瓶颈 2.cProfile分析 3.算法优化 4.异步改造"
+    },
+    {
+      "trigger": "Python依赖管理",
+      "tier": 1,
+      "path": [
+        "pip-tools",
+        "virtualenv",
+        "requirements-management"
+      ],
+      "action": "1.venv创建 2.pip freeze 3.版本锁定 4.镜像源"
+    },
+    {
+      "trigger": "前端性能优化",
+      "tier": 2,
+      "path": [
+        "frontend-performance",
+        "lazy-loading",
+        "caching-strategy"
+      ],
+      "action": "1.资源压缩 2.代码分割 3.CDN加速 4.缓存策略"
+    },
+    {
+      "trigger": "数据库设计",
+      "tier": 3,
+      "path": [
+        "database-schema",
+        "sql-optimization",
+        "data-modeling"
+      ],
+      "action": "1.需求分析 2.ER图设计 3.索引规划 4.范式化"
+    },
+    {
+      "trigger": "SQL查询优化",
+      "tier": 2,
+      "path": [
+        "sql-optimization",
+        "index-strategy",
+        "query-analysis"
+      ],
+      "action": "1.EXPLAIN分析 2.索引添加 3.查询重写 4.缓存"
+    },
+    {
+      "trigger": "安全漏洞检测",
+      "tier": 3,
+      "path": [
+        "security-auditor",
+        "lcguard-multiagent-security",
+        "red-teaming"
+      ],
+      "action": "1.OWASP检查 2.依赖扫描 3.渗透测试 4.修复建议"
+    },
+    {
+      "trigger": "权限配置问题",
+      "tier": 2,
+      "path": [
+        "permission-config",
+        "security-auditor",
+        "access-control"
+      ],
+      "action": "1.用户角色 2.最小权限 3.审计日志 4.定期检查"
+    },
+    {
+      "trigger": "自动化脚本编写",
+      "tier": 1,
+      "path": [
+        "skill-creator",
+        "workflow",
+        "shell_脚本核心知识体系"
+      ],
+      "action": "1.需求拆解 2.skill模板 3.tdd开发 4.测试覆盖"
+    },
+    {
+      "trigger": "定时任务配置",
+      "tier": 2,
+      "path": [
+        "cron-config",
+        "workflow",
+        "trigger-config"
+      ],
+      "action": "1.crontab配置 2.脚本测试 3.日志监控 4.故障告警"
+    },
+    {
+      "trigger": "服务器监控",
+      "tier": 2,
+      "path": [
+        "monitoring-setup",
+        "alert-config",
+        "metrics-collection"
+      ],
+      "action": "1.指标采集 2.阈值设置 3.告警配置 4.可视化"
+    },
+    {
+      "trigger": "日志分析",
+      "tier": 1,
+      "path": [
+        "log-analysis",
+        "error-tracking",
+        "dozzle"
+      ],
+      "action": "1.日志收集 2.关键词搜索 3.异常提取 4.聚合分析"
+    },
+    {
+      "trigger": "网络配置问题",
+      "tier": 2,
+      "path": [
+        "network-config",
+        "firewall-rules",
+        "proxy-setup"
+      ],
+      "action": "1.连通性测试 2.端口检查 3.防火墙规则 4.代理配置"
+    },
+    {
+      "trigger": "API接口调试",
+      "tier": 1,
+      "path": [
+        "api-testing",
+        "http-analysis",
+        "request-debug"
+      ],
+      "action": "1.curl测试 2.参数构造 3.响应分析 4.认证处理"
+    },
+    {
+      "trigger": "代码审查请求",
+      "tier": 1,
+      "path": [
+        "code-reviewer",
+        "git-delta-integration",
+        "best-practices"
+      ],
+      "action": "1.代码质量 2.安全性 3.性能 4.可维护性"
+    },
+    {
+      "trigger": "重构建议",
+      "tier": 2,
+      "path": [
+        "refactoring-guide",
+        "code-quality",
+        "design-patterns"
+      ],
+      "action": "1.识别坏味道 2.小步重构 3.测试保障 4.文档更新"
+    },
+    {
+      "trigger": "SQLite 实战指南 × 办公技能学习 - 2026-05-24",
+      "tier": 2,
+      "path": [
+        "SQLite 实战指南",
+        "办公技能学习 - 2026-05-24"
+      ],
+      "action": "结合使用SQLite和Excel可以创建一个集成的数据仓库，用于存储关键业务信息。",
+      "source": "daydream_engine",
+      "quality_score": 7.4,
+      "actionable": true,
+      "suggestion": "结合使用SQLite和Excel可以创建一个集成的数据仓库，用于存储关键业务信息。",
+      "domains": [
+        "SQLite 实战指南",
+        "办公技能学习 - 2026-05-24"
+      ],
+      "created_at": "2026-05-26T09:27:05.148579",
+      "trigger_keywords": [
+        "结合使用",
+        "可以创建一",
+        "个集成的数",
+        "据仓库"
+      ]
+    },
+    {
+      "trigger": "GitHub Pull Request 工作流与代码审查 × GitHub Actions CI/CD 完全指南",
+      "tier": 2,
+      "path": [
+        "GitHub Pull Request 工作流与代码审查",
+        "GitHub Actions CI/CD 完全指南"
+      ],
+      "action": "分支管理与依赖缓存的互补：在GitHub Pull Request工作流中，开发者需要操作多个分支（如main和origin/main），而在GitHub Actions CI/CD 完全指南中涉及的很多任务也需要使用不同的环境或版本。这两种情况下都需要有效地管理和利用分支、分支历史以及构建环境。",
+      "source": "daydream_engine",
+      "quality_score": 5,
+      "actionable": true,
+      "suggestion": "分支管理与依赖缓存的互补：在GitHub Pull Request工作流中，开发者需要操作多个分支（如main和origin/main），而在GitHub Actions CI/CD 完全指南中涉及的",
+      "domains": [
+        "GitHub Pull Request 工作流与代码审查",
+        "GitHub Actions CI/CD 完全指南"
+      ],
+      "created_at": "2026-05-25T14:58:28.257869",
+      "trigger_keywords": [
+        "分支管理与",
+        "依赖缓存的",
+        "互补",
+        "工作流中"
+      ]
+    },
+    {
+      "trigger": "Python 标准库 & 常用三方库实战知识体系 × Shell 脚本核心知识体系",
+      "tier": 2,
+      "path": [
+        "Python 标准库 & 常用三方库实战知识体系",
+        "Shell 脚本核心知识体系"
+      ],
+      "action": "[连接点1]：使用 shutil 和 subprocess 库结合Shell命令，可以实现更复杂的文件和目录管理任务。",
+      "source": "daydream_engine",
+      "quality_score": 7,
+      "actionable": true,
+      "suggestion": "[连接点1]：使用 shutil 和 subprocess 库结合Shell命令，可以实现更复杂的文件和目录管理任务。",
+      "domains": [
+        "Python 标准库 & 常用三方库实战知识体系",
+        "Shell 脚本核心知识体系"
+      ],
+      "created_at": "2026-05-25T10:55:51.899452",
+      "trigger_keywords": [
+        "连接点",
+        "使用",
+        "库结合",
+        "命令"
+      ]
+    },
+    {
+      "trigger": "GitHub Pull Request 工作流与代码审查 × SQLite 实战指南",
+      "tier": 2,
+      "path": [
+        "GitHub Pull Request 工作流与代码审查",
+        "SQLite 实战指南"
+      ],
+      "action": "[连接点1]：分支管理。GitHub Pull Request 中的分支管理和合并请求对应到SQLite 实战指南中的分支（或子表）处理。例如在进行多用户并发操作时，通过不同的SQL查询来避免数据冲突。",
+      "source": "daydream_engine",
+      "quality_score": 5,
+      "actionable": true,
+      "suggestion": "[连接点1]：分支管理。GitHub Pull Request 中的分支管理和合并请求对应到SQLite 实战指南中的分支（或子表）处理。例如在进行多用户并发操作时，通过不同的SQL查询来避免数据冲突",
+      "domains": [
+        "GitHub Pull Request 工作流与代码审查",
+        "SQLite 实战指南"
+      ],
+      "created_at": "2026-05-25T08:47:14.618031",
+      "trigger_keywords": [
+        "连接点",
+        "分支管理",
+        "中的分支管",
+        "理和合并请"
+      ]
+    },
+    {
+      "trigger": "Linux 系统管理核心知识体系 × GitHub Actions CI/CD 完全指南",
+      "tier": 2,
+      "path": [
+        "Linux 系统管理核心知识体系",
+        "GitHub Actions CI/CD 完全指南"
+      ],
+      "action": "[连接点1]：两者都涉及到系统的安全性管理。Linux系统需要通过设置适当的用户组、文件权限等进行保护，而GitHub Actions的CI/CD流程也需要考虑如何使用环境变量、配置文件等方式来控制不同的操作。",
+      "source": "daydream_engine",
+      "quality_score": 5,
+      "actionable": true,
+      "suggestion": "[连接点1]：两者都涉及到系统的安全性管理。Linux系统需要通过设置适当的用户组、文件权限等进行保护，而GitHub Actions的CI/CD流程也需要考虑如何使用环境变量、配置文件等方式来控制不",
+      "domains": [
+        "Linux 系统管理核心知识体系",
+        "GitHub Actions CI/CD 完全指南"
+      ],
+      "created_at": "2026-05-25T08:37:47.451672",
+      "trigger_keywords": [
+        "连接点",
+        "两者都涉及",
+        "到系统的安",
+        "全性管理"
+      ]
+    },
+    {
+      "trigger": "Docker & DevOps 核心知识体系 × 网络基础核心知识体系",
+      "tier": 2,
+      "path": [
+        "Docker & DevOps 核心知识体系",
+        "网络基础核心知识体系"
+      ],
+      "action": "「在Docker镜像构建中，使用POST请求将配置文件上传到服务器，并结合“docker copy”操作将其添加至Dockerfile，实现自动化部署流程」 代码示例 python import requests from docker import from_env as docker_from_env def upload_config_file(file_path): headers = {",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "「在Docker镜像构建中，使用POST请求将配置文件上传到服务器，并结合“docker copy”操作将其添加至Dockerfile，实现自动化部署流程」 代码示例 python import re",
+      "domains": [
+        "Docker & DevOps 核心知识体系",
+        "网络基础核心知识体系"
+      ],
+      "created_at": "2026-05-26T18:28:57.462437",
+      "trigger_keywords": [
+        "镜像构建中",
+        "使用",
+        "请求将配置",
+        "文件上传到"
+      ]
+    },
+    {
+      "trigger": "📊 行业动态监控日报 × GitHub Issues、项目管理与安全",
+      "tier": 2,
+      "path": [
+        "📊 行业动态监控日报",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "action": "在GitLab工作流中，使用GitHub的GraphQL API和AQL查询语言结合自定义脚本实现自动生成的安全报告，并自动通知相关人员进行处理。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在GitLab工作流中，使用GitHub的GraphQL API和AQL查询语言结合自定义脚本实现自动生成的安全报告，并自动通知相关人员进行处理。",
+      "domains": [
+        "📊 行业动态监控日报",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "created_at": "2026-05-26T18:30:19.235391",
+      "trigger_keywords": [
+        "工作流中",
+        "使用",
+        "查询语言结",
+        "合自定义脚"
+      ]
+    },
+    {
+      "trigger": "GitHub Pull Request 工作流与代码审查 × 办公技能学习 - 2026-05-25",
+      "tier": 2,
+      "path": [
+        "GitHub Pull Request 工作流与代码审查",
+        "办公技能学习 - 2026-05-25"
+      ],
+      "action": "在Git Pull Request工作流中，使用wps学堂api采集命令来获取最新的代码审查文档。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git Pull Request工作流中，使用wps学堂api采集命令来获取最新的代码审查文档。",
+      "domains": [
+        "GitHub Pull Request 工作流与代码审查",
+        "办公技能学习 - 2026-05-25"
+      ],
+      "created_at": "2026-05-26T19:16:47.361110",
+      "trigger_keywords": [
+        "工作流中",
+        "使用",
+        "学堂",
+        "采集命令来"
+      ]
+    },
+    {
+      "trigger": "Shell 脚本核心知识体系 × Git 工作流核心知识体系",
+      "tier": 2,
+      "path": [
+        "Shell 脚本核心知识体系",
+        "Git 工作流核心知识体系"
+      ],
+      "action": "「在Git工作流中，使用shell命令结合echo world和git stash，实现临时保存工作区环境的状态，避免切换分支时带来的文件差异。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "「在Git工作流中，使用shell命令结合echo world和git stash，实现临时保存工作区环境的状态，避免切换分支时带来的文件差异。",
+      "domains": [
+        "Shell 脚本核心知识体系",
+        "Git 工作流核心知识体系"
+      ],
+      "created_at": "2026-05-26T19:43:29.067947",
+      "trigger_keywords": [
+        "工作流中",
+        "使用",
+        "命令结合",
+        "实现临时保"
+      ]
+    },
+    {
+      "trigger": "GitHub 入门核心知识 × 网络基础核心知识体系",
+      "tier": 2,
+      "path": [
+        "GitHub 入门核心知识",
+        "网络基础核心知识体系"
+      ],
+      "action": "代码示例： bash # 使用 Docker 创建一个轻量级容器以运行 curl 命令获取 GitHub 信息，并进行基本的权限验证。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "代码示例： bash # 使用 Docker 创建一个轻量级容器以运行 curl 命令获取 GitHub 信息，并进行基本的权限验证。",
+      "domains": [
+        "GitHub 入门核心知识",
+        "网络基础核心知识体系"
+      ],
+      "created_at": "2026-05-26T21:45:50.122358",
+      "trigger_keywords": [
+        "代码示例",
+        "使用",
+        "创建一个轻",
+        "量级容器以"
+      ]
+    },
+    {
+      "trigger": "GitHub 入门核心知识 × GitHub Issues、项目管理与安全",
+      "tier": 2,
+      "path": [
+        "GitHub 入门核心知识",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "action": "在Git项目管理场景中，使用GitHub Issues功能来管理和跟踪项目的各种任务、问题以及安全相关的工作项。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git项目管理场景中，使用GitHub Issues功能来管理和跟踪项目的各种任务、问题以及安全相关的工作项。",
+      "domains": [
+        "GitHub 入门核心知识",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "created_at": "2026-05-26T23:49:33.242279",
+      "trigger_keywords": [
+        "项目管理场",
+        "景中",
+        "使用",
+        "功能来管理"
+      ]
+    },
+    {
+      "trigger": "Docker & DevOps 核心知识体系 × 办公技能学习 - 2026-05-25",
+      "tier": 2,
+      "path": [
+        "Docker & DevOps 核心知识体系",
+        "办公技能学习 - 2026-05-25"
+      ],
+      "action": "「在Docker容器中使用WPS学堂api采集功能，以实现文件传输并进行数据处理。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "「在Docker容器中使用WPS学堂api采集功能，以实现文件传输并进行数据处理。",
+      "domains": [
+        "Docker & DevOps 核心知识体系",
+        "办公技能学习 - 2026-05-25"
+      ],
+      "created_at": "2026-05-27T01:50:58.112239",
+      "trigger_keywords": [
+        "容器中使用",
+        "学堂",
+        "采集功能",
+        "以实现文件"
+      ]
+    },
+    {
+      "trigger": "📊 行业动态监控日报 × FastAPI 实战核心知识",
+      "tier": 2,
+      "path": [
+        "📊 行业动态监控日报",
+        "FastAPI 实战核心知识"
+      ],
+      "action": "在 [监控系统开发] 中，使用 [import fastapi.model] 命令，实现 [实时更新监控数据] 的功能。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在 [监控系统开发] 中，使用 [import fastapi.model] 命令，实现 [实时更新监控数据] 的功能。",
+      "domains": [
+        "📊 行业动态监控日报",
+        "FastAPI 实战核心知识"
+      ],
+      "created_at": "2026-05-27T03:52:33.461333",
+      "trigger_keywords": [
+        "监控系统开",
+        "使用",
+        "命令",
+        "实现"
+      ]
+    },
+    {
+      "trigger": "SQLite 实战指南 × GitHub Issues、项目管理与安全",
+      "tier": 2,
+      "path": [
+        "SQLite 实战指南",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "action": "在Git工作流中，使用SQLite记录分支状态，实现可查询的历史追踪 在Git项目管理过程中，可以利用SQLite存储分支的状态信息和历史变更。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git工作流中，使用SQLite记录分支状态，实现可查询的历史追踪 在Git项目管理过程中，可以利用SQLite存储分支的状态信息和历史变更。",
+      "domains": [
+        "SQLite 实战指南",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "created_at": "2026-05-27T05:54:55.814525",
+      "trigger_keywords": [
+        "工作流中",
+        "使用",
+        "记录分支状",
+        "实现可查询"
+      ]
+    },
+    {
+      "trigger": "📊 行业动态监控日报 × Python 标准库 & 常用三方库实战知识体系",
+      "tier": 2,
+      "path": [
+        "📊 行业动态监控日报",
+        "Python 标准库 & 常用三方库实战知识体系"
+      ],
+      "action": "在Python标准库的datetime模块中使用dateutil.parser.parse()函数，解析日志文件中的时间戳信息。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Python标准库的datetime模块中使用dateutil.parser.parse()函数，解析日志文件中的时间戳信息。",
+      "domains": [
+        "📊 行业动态监控日报",
+        "Python 标准库 & 常用三方库实战知识体系"
+      ],
+      "created_at": "2026-05-27T07:57:02.210514",
+      "trigger_keywords": [
+        "标准库的",
+        "模块中使用",
+        "函数",
+        "解析日志文"
+      ]
+    },
+    {
+      "trigger": "办公技能学习 - 2026-05-25 × Python 标准库 & 常用三方库实战知识体系",
+      "tier": 2,
+      "path": [
+        "办公技能学习 - 2026-05-25",
+        "Python 标准库 & 常用三方库实战知识体系"
+      ],
+      "action": "在Python编程环境中，利用json模块和yaml库来解析PPT文件中的复杂数据结构，例如嵌套字典和列表形式的数据，实现更简洁、高效的格式化输出。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Python编程环境中，利用json模块和yaml库来解析PPT文件中的复杂数据结构，例如嵌套字典和列表形式的数据，实现更简洁、高效的格式化输出。",
+      "domains": [
+        "办公技能学习 - 2026-05-25",
+        "Python 标准库 & 常用三方库实战知识体系"
+      ],
+      "created_at": "2026-05-27T12:06:45.616014",
+      "trigger_keywords": [
+        "编程环境中",
+        "利用",
+        "模块和",
+        "库来解析"
+      ]
+    },
+    {
+      "trigger": "GitHub 入门核心知识 × 办公技能学习 - 2026-05-25",
+      "tier": 2,
+      "path": [
+        "GitHub 入门核心知识",
+        "办公技能学习 - 2026-05-25"
+      ],
+      "action": "「在PPT制作核心知识场景中，使用GitHub API（如gh命令行工具），实现持续集成和自动化部署」 例如： gh workflow run my-workflow.yml --event push",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "「在PPT制作核心知识场景中，使用GitHub API（如gh命令行工具），实现持续集成和自动化部署」 例如： gh workflow run my-workflow.yml --event push",
+      "domains": [
+        "GitHub 入门核心知识",
+        "办公技能学习 - 2026-05-25"
+      ],
+      "created_at": "2026-05-27T14:16:44.109699",
+      "trigger_keywords": [
+        "制作核心知",
+        "识场景中",
+        "使用",
+        "命令行工具"
+      ]
+    },
+    {
+      "trigger": "办公技能学习 - 2026-05-25 × Shell 脚本核心知识体系",
+      "tier": 2,
+      "path": [
+        "办公技能学习 - 2026-05-25",
+        "Shell 脚本核心知识体系"
+      ],
+      "action": "在使用PPT制作核心知识学习中遇到公式错误时，在WPS学堂api采集的数据接口基础上编写一个Shell脚本，用于自动分析和修复公式错误。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在使用PPT制作核心知识学习中遇到公式错误时，在WPS学堂api采集的数据接口基础上编写一个Shell脚本，用于自动分析和修复公式错误。",
+      "domains": [
+        "办公技能学习 - 2026-05-25",
+        "Shell 脚本核心知识体系"
+      ],
+      "created_at": "2026-05-27T16:20:21.061486",
+      "trigger_keywords": [
+        "在使用",
+        "制作核心知",
+        "识学习中遇",
+        "到公式错误"
+      ]
+    },
+    {
+      "trigger": "GitHub 入门核心知识 × Docker & DevOps 核心知识体系",
+      "tier": 2,
+      "path": [
+        "GitHub 入门核心知识",
+        "Docker & DevOps 核心知识体系"
+      ],
+      "action": "在Git工作流中，使用docker exec -it <container_name> /bin/bash实现直接在运行的Docker容器内执行命令的功能，这样可以在安全环境下进行实验操作。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git工作流中，使用docker exec -it <container_name> /bin/bash实现直接在运行的Docker容器内执行命令的功能，这样可以在安全环境下进行实验操作。",
+      "domains": [
+        "GitHub 入门核心知识",
+        "Docker & DevOps 核心知识体系"
+      ],
+      "created_at": "2026-05-27T19:03:59.021301",
+      "trigger_keywords": [
+        "工作流中",
+        "使用",
+        "实现直接在",
+        "运行的"
+      ]
+    },
+    {
+      "trigger": "SQLite 实战指南 × Docker & DevOps 核心知识体系",
+      "tier": 2,
+      "path": [
+        "SQLite 实战指南",
+        "Docker & DevOps 核心知识体系"
+      ],
+      "action": "在Git工作流中，用SQLite记录分支状态，实现可查询的历史追踪： sql CREATE TABLE branches ( branch_name TEXT PRIMARY KEY, commit_hash TEXT NOT NULL, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); INSERT INTO branches (branch_n",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git工作流中，用SQLite记录分支状态，实现可查询的历史追踪： sql CREATE TABLE branches ( branch_name TEXT PRIMARY KEY, commit_",
+      "domains": [
+        "SQLite 实战指南",
+        "Docker & DevOps 核心知识体系"
+      ],
+      "created_at": "2026-05-27T21:06:11.828231",
+      "trigger_keywords": [
+        "工作流中",
+        "记录分支状",
+        "实现可查询",
+        "的历史追踪"
+      ]
+    },
+    {
+      "trigger": "Linux 系统管理核心知识体系 × FastAPI 实战核心知识",
+      "tier": 2,
+      "path": [
+        "Linux 系统管理核心知识体系",
+        "FastAPI 实战核心知识"
+      ],
+      "action": "「在Linux系统中，使用systemd启动一个基于FastAPI的应用实例，并通过systemd的服务文件实现定时重启和日志监控。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "「在Linux系统中，使用systemd启动一个基于FastAPI的应用实例，并通过systemd的服务文件实现定时重启和日志监控。",
+      "domains": [
+        "Linux 系统管理核心知识体系",
+        "FastAPI 实战核心知识"
+      ],
+      "created_at": "2026-05-27T23:10:57.733038",
+      "trigger_keywords": [
+        "系统中",
+        "使用",
+        "启动一个基",
+        "的应用实例"
+      ]
+    },
+    {
+      "trigger": "Linux 系统管理核心知识体系 × GitHub Issues、项目管理与安全",
+      "tier": 2,
+      "path": [
+        "Linux 系统管理核心知识体系",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "action": "在GitLab项目管理场景中，使用gitlab-ci.yml配置文件结合Linux中的systemd服务单元（.service）实现持续集成与部署自动化。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在GitLab项目管理场景中，使用gitlab-ci.yml配置文件结合Linux中的systemd服务单元（.service）实现持续集成与部署自动化。",
+      "domains": [
+        "Linux 系统管理核心知识体系",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "created_at": "2026-05-28T03:52:57.417981",
+      "trigger_keywords": [
+        "项目管理场",
+        "景中",
+        "使用",
+        "配置文件结"
+      ]
+    },
+    {
+      "trigger": "GitHub Actions CI/CD 完全指南 × GitHub Issues、项目管理与安全",
+      "tier": 2,
+      "path": [
+        "GitHub Actions CI/CD 完全指南",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "action": "在Git工作流中，使用GitHub Actions结合Docker镜像实现自动化Issues处理流程。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git工作流中，使用GitHub Actions结合Docker镜像实现自动化Issues处理流程。",
+      "domains": [
+        "GitHub Actions CI/CD 完全指南",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "created_at": "2026-05-28T05:55:46.921278",
+      "trigger_keywords": [
+        "工作流中",
+        "使用",
+        "结合",
+        "镜像实现自"
+      ]
+    },
+    {
+      "trigger": "办公技能学习 - 2026-05-25 × 网络基础核心知识体系",
+      "tier": 2,
+      "path": [
+        "办公技能学习 - 2026-05-25",
+        "网络基础核心知识体系"
+      ],
+      "action": "在进行WPS学堂API采集的过程中，利用curl命令并结合Bearer Token机制，可以实现安全且高效的远程数据获取与操作。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在进行WPS学堂API采集的过程中，利用curl命令并结合Bearer Token机制，可以实现安全且高效的远程数据获取与操作。",
+      "domains": [
+        "办公技能学习 - 2026-05-25",
+        "网络基础核心知识体系"
+      ],
+      "created_at": "2026-05-28T07:59:23.567481",
+      "trigger_keywords": [
+        "在进行",
+        "学堂",
+        "采集的过程",
+        "利用"
+      ]
+    },
+    {
+      "trigger": "SQLite 实战指南 × 办公技能学习 - 2026-05-25",
+      "tier": 2,
+      "path": [
+        "SQLite 实战指南",
+        "办公技能学习 - 2026-05-25"
+      ],
+      "action": "在WPS表格处理公式错误时，利用SQLite数据库来记录并追踪关键步骤和结果，实现优雅的错误管理和历史追踪功能。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在WPS表格处理公式错误时，利用SQLite数据库来记录并追踪关键步骤和结果，实现优雅的错误管理和历史追踪功能。",
+      "domains": [
+        "SQLite 实战指南",
+        "办公技能学习 - 2026-05-25"
+      ],
+      "created_at": "2026-05-28T10:01:27.608080",
+      "trigger_keywords": [
+        "表格处理公",
+        "式错误时",
+        "利用",
+        "数据库来记"
+      ]
+    },
+    {
+      "trigger": "网络基础核心知识体系 × GitHub Issues、项目管理与安全",
+      "tier": 2,
+      "path": [
+        "网络基础核心知识体系",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "action": "「在Git项目中，使用curl与HTTP请求发送到GitHub Issues API，实现远程Issue的创建、更新和查询功能。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "「在Git项目中，使用curl与HTTP请求发送到GitHub Issues API，实现远程Issue的创建、更新和查询功能。",
+      "domains": [
+        "网络基础核心知识体系",
+        "GitHub Issues、项目管理与安全"
+      ],
+      "created_at": "2026-05-28T12:43:48.090974",
+      "trigger_keywords": [
+        "项目中",
+        "使用",
+        "请求发送到",
+        "实现远程"
+      ]
+    },
+    {
+      "trigger": "FastAPI 实战核心知识 × GitHub 入门核心知识",
+      "tier": 2,
+      "path": [
+        "FastAPI 实战核心知识",
+        "GitHub 入门核心知识"
+      ],
+      "action": "在Git工作流中，利用FastAPI的async特性创建一个异步HTTP客户端，能够处理GitHub API中的并发请求，提升响应速度和稳定性。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git工作流中，利用FastAPI的async特性创建一个异步HTTP客户端，能够处理GitHub API中的并发请求，提升响应速度和稳定性。",
+      "domains": [
+        "FastAPI 实战核心知识",
+        "GitHub 入门核心知识"
+      ],
+      "created_at": "2026-05-28T14:49:56.402925",
+      "trigger_keywords": [
+        "工作流中",
+        "利用",
+        "特性创建一",
+        "个异步"
+      ]
+    },
+    {
+      "trigger": "SQLite 实战指南 × Shell 脚本核心知识体系",
+      "tier": 2,
+      "path": [
+        "SQLite 实战指南",
+        "Shell 脚本核心知识体系"
+      ],
+      "action": "在Linux系统中，利用SQLite存储用户配置文件，并通过Shell脚本中的grep命令检索特定字段的数据。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Linux系统中，利用SQLite存储用户配置文件，并通过Shell脚本中的grep命令检索特定字段的数据。",
+      "domains": [
+        "SQLite 实战指南",
+        "Shell 脚本核心知识体系"
+      ],
+      "created_at": "2026-05-28T19:00:07.706394",
+      "trigger_keywords": [
+        "系统中",
+        "利用",
+        "存储用户配",
+        "置文件"
+      ]
+    },
+    {
+      "trigger": "GitHub 入门核心知识 × Git 工作流核心知识体系",
+      "tier": 2,
+      "path": [
+        "GitHub 入门核心知识",
+        "Git 工作流核心知识体系"
+      ],
+      "action": "在GitHub中，使用git checkout命令结合origin/main与main分支，实现更清晰地管理和跟踪本地和远程仓库的状态。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在GitHub中，使用git checkout命令结合origin/main与main分支，实现更清晰地管理和跟踪本地和远程仓库的状态。",
+      "domains": [
+        "GitHub 入门核心知识",
+        "Git 工作流核心知识体系"
+      ],
+      "created_at": "2026-05-28T21:03:41.903876",
+      "trigger_keywords": [
+        "使用",
+        "命令结合",
+        "分支",
+        "实现更清晰"
+      ]
+    },
+    {
+      "trigger": "Linux 系统管理核心知识体系 × Python 标准库 & 常用三方库实战知识体系",
+      "tier": 2,
+      "path": [
+        "Linux 系统管理核心知识体系",
+        "Python 标准库 & 常用三方库实战知识体系"
+      ],
+      "action": "「编写一个Python脚本，使用os模块读写Linux中的用户和组权限设置」 示例： python import os def manage_permissions(user, group, permission): user = f\"sudo -u {user}\" cmd = f\"{user} chown -R {group}:{group} . && {user} chmod +{permis",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "「编写一个Python脚本，使用os模块读写Linux中的用户和组权限设置」 示例： python import os def manage_permissions(user, group, perm",
+      "domains": [
+        "Linux 系统管理核心知识体系",
+        "Python 标准库 & 常用三方库实战知识体系"
+      ],
+      "created_at": "2026-05-28T23:06:57.887116",
+      "trigger_keywords": [
+        "编写一个",
+        "脚本",
+        "使用",
+        "模块读写"
+      ]
+    },
+    {
+      "trigger": "网络基础核心知识体系 × GitHub 入门核心知识",
+      "tier": 2,
+      "path": [
+        "网络基础核心知识体系",
+        "GitHub 入门核心知识"
+      ],
+      "action": "在Git工作流中，使用curl发送HTTP POST请求到GitHub API创建一个新的Issue，实现自动同步本地问题到GitHub Issue的功能。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git工作流中，使用curl发送HTTP POST请求到GitHub API创建一个新的Issue，实现自动同步本地问题到GitHub Issue的功能。",
+      "domains": [
+        "网络基础核心知识体系",
+        "GitHub 入门核心知识"
+      ],
+      "created_at": "2026-05-29T01:11:17.205779",
+      "trigger_keywords": [
+        "工作流中",
+        "使用",
+        "发送",
+        "请求到"
+      ]
+    },
+    {
+      "trigger": "办公技能学习 - 2026-05-25 × Git 工作流核心知识体系",
+      "tier": 2,
+      "path": [
+        "办公技能学习 - 2026-05-25",
+        "Git 工作流核心知识体系"
+      ],
+      "action": "在Git工作流中，利用git stash命令来保存当前的工作区状态，并在完成其他任务后恢复之前的修改。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Git工作流中，利用git stash命令来保存当前的工作区状态，并在完成其他任务后恢复之前的修改。",
+      "domains": [
+        "办公技能学习 - 2026-05-25",
+        "Git 工作流核心知识体系"
+      ],
+      "created_at": "2026-05-29T03:14:44.900491",
+      "trigger_keywords": [
+        "工作流中",
+        "利用",
+        "命令来保存",
+        "当前的工作"
+      ]
+    },
+    {
+      "trigger": "网络基础核心知识体系 × Python 标准库 & 常用三方库实战知识体系",
+      "tier": 2,
+      "path": [
+        "网络基础核心知识体系",
+        "Python 标准库 & 常用三方库实战知识体系"
+      ],
+      "action": "在Python开发过程中，利用curl发送HTTP请求并结合datetime库来监测API调用的响应时间。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Python开发过程中，利用curl发送HTTP请求并结合datetime库来监测API调用的响应时间。",
+      "domains": [
+        "网络基础核心知识体系",
+        "Python 标准库 & 常用三方库实战知识体系"
+      ],
+      "created_at": "2026-05-29T05:18:28.671681",
+      "trigger_keywords": [
+        "开发过程中",
+        "利用",
+        "发送",
+        "请求并结合"
+      ]
+    },
+    {
+      "trigger": "Shell 脚本核心知识体系 × Docker & DevOps 核心知识体系",
+      "tier": 2,
+      "path": [
+        "Shell 脚本核心知识体系",
+        "Docker & DevOps 核心知识体系"
+      ],
+      "action": "在Shell脚本中使用docker exec -i my_container echo hello实现跨域通信与操作。",
+      "source": "daydream_engine",
+      "quality_score": 10,
+      "actionable": true,
+      "suggestion": "在Shell脚本中使用docker exec -i my_container echo hello实现跨域通信与操作。",
+      "domains": [
+        "Shell 脚本核心知识体系",
+        "Docker & DevOps 核心知识体系"
+      ],
+      "created_at": "2026-05-29T07:22:00.800078",
+      "trigger_keywords": [
+        "脚本中使用",
+        "实现跨域通",
+        "信与操作",
+        "Shell脚本中使用docker"
+      ]
     }
   ],
-  "team_model_roles": {
-    "hermes_main": {
-      "role": "团队Leader",
-      "responsibility": "最终决策、复杂推理、知识整合"
-    },
-    "deepseek_r1_7b": {
-      "role": "推理专家",
-      "responsibility": "复杂多步推理、逻辑分析、方案评估",
-      "best_for": ["分析问题", "权衡方案", "逻辑推理"]
-    },
-    "qwen_7b": {
-      "role": "工具专家",
-      "responsibility": "复杂任务执行、代码生成、脚本编写",
-      "best_for": ["写代码", "执行复杂命令", "多步骤任务"]
-    },
-    "qwen_3b": {
-      "role": "打工仔",
-      "responsibility": "后台学习任务、数据分析、报告生成",
-      "best_for": ["定时任务", "数据分析", "文档整理"]
-    },
-    "smollm_1b": {
-      "role": "快手",
-      "responsibility": "简单批量任务、快速检索、状态检查",
-      "best_for": ["批量查询", "简单统计", "状态汇报"]
-    }
+  "Python 标准库 & 常用三方库实战知识体系 -> Shell 脚本核心知识体系": {
+    "from": "Python 标准库 & 常用三方库实战知识体系",
+    "to": "Shell 脚本核心知识体系",
+    "weight": 0.7,
+    "quality": "有价值",
+    "score": 7,
+    "summary": "Python 标准库 & 常用三方库实战知识体系 × Shell 脚本核心知识体系 = 有价值（有跨领域连接分析, 给出了具体建议, 有代码/命令示例）",
+    "first_seen": "2026-05-25T10:54:58.463614",
+    "method": "daydream_feedback",
+    "updated": "2026-05-26T09:11:01.189259"
+  },
+  "SQLite 实战指南 -> 办公技能学习 - 2026-05-24": {
+    "from": "SQLite 实战指南",
+    "to": "办公技能学习 - 2026-05-24",
+    "weight": 0.94,
+    "quality": "高质量",
+    "score": 9.4,
+    "summary": "SQLite 实战指南 × 办公技能学习 - 2026-05-24 = 高质量（有跨领域连接分析, 给出了具体建议, 有代码/命令示例）",
+    "first_seen": "2026-05-25T17:00:38.233064",
+    "method": "daydream_feedback",
+    "updated": "2026-05-26T09:11:01.189269"
+  },
+  "Docker & DevOps 核心知识体系 -> 网络基础核心知识体系": {
+    "from": "Docker & DevOps 核心知识体系",
+    "to": "网络基础核心知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "Docker & DevOps 核心知识体系 × 网络基础核心知识体系 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性7/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-26T18:27:17.482024",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.735961"
+  },
+  "📊 行业动态监控日报 -> GitHub Issues、项目管理与安全": {
+    "from": "📊 行业动态监控日报",
+    "to": "GitHub Issues、项目管理与安全",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "📊 行业动态监控日报 × GitHub Issues、项目管理与安全 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-26T18:29:07.082420",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.735979"
+  },
+  "GitHub Pull Request 工作流与代码审查 -> 办公技能学习 - 2026-05-25": {
+    "from": "GitHub Pull Request 工作流与代码审查",
+    "to": "办公技能学习 - 2026-05-25",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "GitHub Pull Request 工作流与代码审查 × 办公技能学习 - 2026-05-25 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-26T19:14:43.549698",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.735985"
+  },
+  "Shell 脚本核心知识体系 -> Git 工作流核心知识体系": {
+    "from": "Shell 脚本核心知识体系",
+    "to": "Git 工作流核心知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "Shell 脚本核心知识体系 × Git 工作流核心知识体系 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性7/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-26T19:42:28.720960",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.735989"
+  },
+  "GitHub 入门核心知识 -> 网络基础核心知识体系": {
+    "from": "GitHub 入门核心知识",
+    "to": "网络基础核心知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "GitHub 入门核心知识 × 网络基础核心知识体系 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-26T21:44:33.288373",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.735993"
+  },
+  "GitHub 入门核心知识 -> GitHub Issues、项目管理与安全": {
+    "from": "GitHub 入门核心知识",
+    "to": "GitHub Issues、项目管理与安全",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "GitHub 入门核心知识 × GitHub Issues、项目管理与安全 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-26T23:48:07.824897",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.735997"
+  },
+  "Docker & DevOps 核心知识体系 -> 办公技能学习 - 2026-05-25": {
+    "from": "Docker & DevOps 核心知识体系",
+    "to": "办公技能学习 - 2026-05-25",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "Docker & DevOps 核心知识体系 × 办公技能学习 - 2026-05-25 = 高质量（10分，有1个代码示例(+3), 有1条具体建议(+3), 有5个连接点(+2), 模型自评实用性7/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-27T01:49:54.550581",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.736003"
+  },
+  "📊 行业动态监控日报 -> FastAPI 实战核心知识": {
+    "from": "📊 行业动态监控日报",
+    "to": "FastAPI 实战核心知识",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "📊 行业动态监控日报 × FastAPI 实战核心知识 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 有深度知识细节(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-27T03:51:23.585881",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.736007"
+  },
+  "SQLite 实战指南 -> GitHub Issues、项目管理与安全": {
+    "from": "SQLite 实战指南",
+    "to": "GitHub Issues、项目管理与安全",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "SQLite 实战指南 × GitHub Issues、项目管理与安全 = 高质量（10分，有3个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 有深度知识细节(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-27T05:53:31.948468",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.736010"
+  },
+  "📊 行业动态监控日报 -> Python 标准库 & 常用三方库实战知识体系": {
+    "from": "📊 行业动态监控日报",
+    "to": "Python 标准库 & 常用三方库实战知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "📊 行业动态监控日报 × Python 标准库 & 常用三方库实战知识体系 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-27T07:55:53.965581",
+    "method": "daydream_feedback",
+    "updated": "2026-05-27T09:07:09.736014"
+  },
+  "办公技能学习 - 2026-05-25 -> Python 标准库 & 常用三方库实战知识体系": {
+    "from": "办公技能学习 - 2026-05-25",
+    "to": "Python 标准库 & 常用三方库实战知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "办公技能学习 - 2026-05-25 × Python 标准库 & 常用三方库实战知识体系 = 高质量（10分，有2个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性10/10, 模型自评创新性9/10）",
+    "first_seen": "2026-05-27T12:05:27.808976",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396474"
+  },
+  "GitHub 入门核心知识 -> 办公技能学习 - 2026-05-25": {
+    "from": "GitHub 入门核心知识",
+    "to": "办公技能学习 - 2026-05-25",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "GitHub 入门核心知识 × 办公技能学习 - 2026-05-25 = 高质量（10分，有2个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性9/10, 模型自评创新性7/10）",
+    "first_seen": "2026-05-27T14:15:31.831846",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396488"
+  },
+  "办公技能学习 - 2026-05-25 -> Shell 脚本核心知识体系": {
+    "from": "办公技能学习 - 2026-05-25",
+    "to": "Shell 脚本核心知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "办公技能学习 - 2026-05-25 × Shell 脚本核心知识体系 = 高质量（10分，有2个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 有深度知识细节(+2), 模型自评实用性7/10, 模型自评创新性7/10）",
+    "first_seen": "2026-05-27T16:18:53.959135",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396493"
+  },
+  "GitHub 入门核心知识 -> Docker & DevOps 核心知识体系": {
+    "from": "GitHub 入门核心知识",
+    "to": "Docker & DevOps 核心知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "GitHub 入门核心知识 × Docker & DevOps 核心知识体系 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性10/10, 模型自评创新性9/10）",
+    "first_seen": "2026-05-27T19:02:51.874915",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396495"
+  },
+  "SQLite 实战指南 -> Docker & DevOps 核心知识体系": {
+    "from": "SQLite 实战指南",
+    "to": "Docker & DevOps 核心知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "SQLite 实战指南 × Docker & DevOps 核心知识体系 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性10/10, 模型自评创新性9/10）",
+    "first_seen": "2026-05-27T21:04:59.223197",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396497"
+  },
+  "Linux 系统管理核心知识体系 -> FastAPI 实战核心知识": {
+    "from": "Linux 系统管理核心知识体系",
+    "to": "FastAPI 实战核心知识",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "Linux 系统管理核心知识体系 × FastAPI 实战核心知识 = 高质量（10分，有3个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性10/10, 模型自评创新性9/10）",
+    "first_seen": "2026-05-27T23:08:49.435080",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396502"
+  },
+  "Linux 系统管理核心知识体系 -> GitHub Issues、项目管理与安全": {
+    "from": "Linux 系统管理核心知识体系",
+    "to": "GitHub Issues、项目管理与安全",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "Linux 系统管理核心知识体系 × GitHub Issues、项目管理与安全 = 高质量（10分，有2个代码示例(+3), 有建议但不够具体(+1), 有5个连接点(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-28T03:51:19.339098",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396505"
+  },
+  "GitHub Actions CI/CD 完全指南 -> GitHub Issues、项目管理与安全": {
+    "from": "GitHub Actions CI/CD 完全指南",
+    "to": "GitHub Issues、项目管理与安全",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "GitHub Actions CI/CD 完全指南 × GitHub Issues、项目管理与安全 = 高质量（10分，有1个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-28T05:54:33.092853",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396507"
+  },
+  "办公技能学习 - 2026-05-25 -> 网络基础核心知识体系": {
+    "from": "办公技能学习 - 2026-05-25",
+    "to": "网络基础核心知识体系",
+    "weight": 1.0,
+    "quality": "高质量",
+    "score": 10,
+    "summary": "办公技能学习 - 2026-05-25 × 网络基础核心知识体系 = 高质量（10分，有2个代码示例(+3), 有建议但不够具体(+1), 有4个连接点(+2), 有深度知识细节(+2), 模型自评实用性5/10, 模型自评创新性6/10）",
+    "first_seen": "2026-05-28T07:58:19.172002",
+    "method": "daydream_feedback",
+    "updated": "2026-05-28T09:20:49.396509"
   }
 }
