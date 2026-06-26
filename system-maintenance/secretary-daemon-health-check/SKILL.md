@@ -1,1 +1,123 @@
-LS0tCm5hbWU6IHNlY3JldGFyeS1kYWVtb24taGVhbHRoLWNoZWNrCmRlc2NyaXB0aW9uOiDnp5jkuablpITlrojmiqTov5vnqIvmt7HluqblgaXlurfor4rmlq0g4oCUIOi/vei4qiByZXN1bHRfYm9hcmQg4oaSIOaOqOmAgeeuoemBkyDihpIg5q275b6q546vIOKGkiDml6Dph43lkK/mnLrliLbjgILop6blj5HvvJpjcm9u5YGl5bq35qOA5p+l44CB5a6I5oqk6L+b56iL55aR5Ly85q275Lqh44CBcGVuZGluZ19wdXNo56ev5Y6L44CCCnRyaWdnZXJzOiBbIuWBpeW6tyIsICLor4rmlq0iLCAi56eY5LmmIiwgIuajgOafpSIsICLljY/osIMiXQp2ZXJzaW9uOiAxLjAKLS0tCgojIOenmOS5puWkhOWuiOaKpOi/m+eoi+a3seW6puWBpeW6t+iviuaWrQoKIyMg5b+r6YCf6K+K5pat5ZG95Luk77yINeenkuWumuS9je+8iQoKYGBgYmFzaAojIDEuIOi/m+eoi+WtmOa0u+ajgOafpQpwcyBhdXggfCBncmVwIC1FICdkZXB1dHl8ZXhlY3V0aXZlJyB8IGdyZXAgLXYgZ3JlcAoKIyAyLiDmnIDlkI7lv4Pot7Pml7bpl7TvvIjnnIvlk6rkuKrmrbvkuoblpJrkuYXvvIkKdGFpbCAtMSAvb3B0L2RhdGEvc2VjcmV0YXJ5L2xvZ3MvZGVwdXR5X3Jlc3VsdC5sb2cKdGFpbCAtMSAvb3B0L2RhdGEvc2VjcmV0YXJ5L2xvZ3MvZGVwdXR5X2Rpc3BhdGNoLmxvZwp0YWlsIC0xIC9vcHQvZGF0YS9zZWNyZXRhcnkvbG9ncy9kZXB1dHlfd29ya2VyLmxvZwoKCiMgMy4gcmVzdWx0X2JvYXJkIHBlbmRpbmdfcHVzaCDmlbDph48KcHl0aG9uMyAtYyAiaW1wb3J0IGpzb247IGQ9anNvbi5sb2FkKG9wZW4oJy9vcHQvZGF0YS9zZWNyZXRhcnkvcmVzdWx0X2JvYXJkLmpzb24nKSk7IHA9W3IgZm9yIHIgaW4gZC5nZXQoJ3Jlc3VsdHMnLFtdKSBpZiByLmdldCgnc3RhdHVzJyk9PSdwZW5kaW5nX3B1c2gnXTsgcHJpbnQoZidwZW5kaW5nX3B1c2g6IHtsZW4ocCl9JykiCgojIDQuIHBlbmRpbmfku7vliqHmlbDph48KcHl0aG9uMyAtYyAiaW1wb3J0IGpzb247IGQ9anNvbi5sb2FkKG9wZW4oJy9vcHQvZGF0YS9zZWNyZXRhcnkvZGlzcGF0Y2hfYm9hcmQuanNvbicpKTsgcD1kLmdldCgncGVuZGluZ190YXNrcycsW10pOyBwcmludChmJ3BlbmRpbmdfdGFza3M6IHtsZW4ocCl9Jyk7IFtwcmludChmJyAge3QuZ2V0KFwiZGlzcGF0Y2hfaWRcIil9IHwge3QuZ2V0KFwidHlwZVwiKX0nKSBmb3IgdCBpbiBwXSIKYGBgCgojIyDlrozmlbTor4rmlq3moJEKCiMjIyDnrKzkuIDlsYLvvJrns7vnu5/ln7rnoYAKYGBgYmFzaAp1cHRpbWUgJiYgZnJlZSAtaCAmJiBkZiAtaCAvb3B0CnBzIGF1eCB8IGdyZXAgaGVybWVzIHwgZ3JlcCAtdiBncmVwICAgICAgIyBnYXRld2F55piv5ZCm5a2Y5rS7CmN1cmwgLXMgLS1tYXgtdGltZSAzIGh0dHA6Ly9sb2NhbGhvc3Q6MTE0MzQvICAjIG9sbGFtYeaYr+WQpuWtmOa0uwpgYGAKCiMjIyDnrKzkuozlsYLvvJrmtL7lt6Xmnb8gKyDmiJDmnpzmnb8KLSDot6/lvoQ6IGAvb3B0L2RhdGEvc2VjcmV0YXJ5L2Rpc3BhdGNoX2JvYXJkLmpzb25gLCBgL29wdC9kYXRhL3NlY3JldGFyeS9yZXN1bHRfYm9hcmQuanNvbmAKLSBwZW5kaW5nX3Rhc2tzOiDku7vliqHljaHlnKhwZW5kaW5n5aSa5LmF5LqG77yfCi0gcGVuZGluZ19wdXNoOiDmiJDmnpzmmK/lkKblnKjnrYnmjqjpgIHvvJ/mnIDml6nnp6/ljovmmK/lk6rkuKrvvJ8KLSBjb21wbGV0ZWRfdGFza3M6IOacgOi/keWujOaIkOeahOaYr+S7gOS5iO+8nwoKIyMjIOesrOS4ieWxgu+8mumUgeaWh+S7tiDihpIg5Yik5pat5a6I5oqk6L+b56iLCmBgYGJhc2gKIyDmiYDmnInplIHmlofku7blj4rliJvlu7rml7bpl7QKZm9yIGYgaW4gL3RtcC8qLmxvY2s7IGRvIGVjaG8gIiQoc3RhdCAtYyAnJVkgJXknICRmKSAkZiI7IGRvbmUgfCBzb3J0CgojIOWFs+mUrumUgeaWh+S7tjoKIyAvdG1wL2RlcHV0eV9kaXNwYXRjaC5sb2NrICAgICDihpIgZGVwdXR5X2Rpc3BhdGNo5piv5ZCm5rS7552ACiMgL3RtcC9kZXB1dHlfd29ya2VyLmxvY2sgICAgICAg4oaSIGRlcHV0eV93b3JrZXLmmK/lkKbmtLvnnYAKIyAvdG1wL2RlcHV0eV9yZXN1bHQubG9jayAgICAgICDihpIgZGVwdXR5X3Jlc3VsdOaYr+WQpua0u+edgAojIC90bXAvZXhlY3V0aXZlX3NlY3JldGFyeS5sb2NrIOKGkiBleGVjdXRpdmVfc2VjcmV0YXJ55piv5ZCm5rS7552ACmBgYAoqKuWOn+WImSoqOiDplIHmlofku7blrZjlnKgg4omgIOi/m+eoi+WtmOa0u++8iOi/m+eoi+W0qea6g+WQjumUgeaWh+S7tuaui+eVme+8ieOAguW/hemhu+e7k+WQiOaXpeW/l+W/g+i3s+aXtumXtOWIpOaWreOAggoKIyMjIOesrOWbm+Wxgu+8mui/vei4quatu+W+queOr++8iDE4NTLku7vliqHpl67popjvvIkKYGBgYmFzaAojIGRlcHV0eV9kaXNwYXRjaCDmr48z56eS6YeN5aSN5oqlIuWPkeeOsDE4NTLkuKrmlrDku7vliqEi77yM5pWw5a2X5LiN5Y+YCnRhaWwgLTIwIC9vcHQvZGF0YS9zZWNyZXRhcnkvbG9ncy9kZXB1dHlfZGlzcGF0Y2guc3Rkb3V0LmxvZwpgYGAKKirmoLnlm6AqKjog5omr5o+PIGAvb3B0L2RhdGEvYXN5bmNfdGFza3MvYCDljoblj7Lku7vliqHmlofku7bvvIgxODUy5Liq77yJ77yM5q+P5qyh6L2u6K+i6YO96YeN5aSN5YWo6YeP5omr5o+PIOKGkiDotYTmupDogJflsL0g4oaSIOW0qea6g+OAggoKIyMjIOesrOS6lOWxgu+8muaOqOmAgeeuoemBk+i/vei4qu+8iOacgOWFs+mUru+8iQoKKirmnrbmnoTnnJ/nm7jvvIjlrp7mtYvnoa7orqTvvIkqKjoKMS4gYGRlcHV0eV9yZXN1bHQucHlgIOKGkiDlhpkgYHJlc3VsdF9ib2FyZC5qc29uYCDihpIgc3RhdHVzPWBwZW5kaW5nX3B1c2hgCjIuIGBkZXB1dHlfcmVzdWx0YCAqKuS4jeaOqOmAgSoq77yM5Y+q5YaZ5paH5Lu2CjMuIOecn+ato+aOqOmAgeWPkeeUn+WcqCBgQXZhdGFyIFdvcmtlcmAg5YaF6YOo77yaCiAgIC0gYGJvYXJkX3V0aWxzLnB5OjEwMGAg55qEIGBfcHVzaF90b19kb25nZ2UoKWAg5piv5YaF5a2Y5Ye95pWwCiAgIC0g5Y+q5pyJIEF2YXRhciBXb3JrZXIg6L+b56iL5YaF5omN5a2Y5Zyo5q2k5Ye95pWwCjQuIEdhdGV3YXkgKirkuI3or7sqKiBgcmVzdWx0X2JvYXJkLmpzb25gCjUuIOe7k+iuuu+8muW9k+aJgOaciSBBdmF0YXIgV29ya2VyIOatu+aOie+8jGBwZW5kaW5nX3B1c2hgIOS8muaXoOmZkOenr+WOiwoKKirpqozor4HmjqjpgIHnrqHpgZMqKjoKYGBgYmFzaApgYGAKCiMjIOW3suefpeagueWboOaooeW8jwoKIyMjIOaooeW8jzE6IERlcHV0eeS4iee7hOS7tiArIEF2YXRhciDlhajpg6jmrbvkuqHvvIjmnIDluLjop4HvvIkKKirnl4fnirYqKjogNTbmnaFwZW5kaW5nX3B1c2jnp6/ljovvvIzmiYDmnInlrojmiqTov5vnqIvml6Xlv5flgZzlnKjlkIzkuIDml7bpl7QKKirmoLnlm6AqKjog5peg6Ieq5Yqo6YeN5ZCv5py65Yi277yM5a6I5oqk6L+b56iL5omL5Yqo5ZCv5Yqo77yM5bSp5rqD5ZCO5LiN5ouJ6LW3Cioq5L+u5aSNKio6CmBgYGJhc2gKIyDph43lkK8gZGVwdXR5X3Jlc3VsdO+8iOacgOe0p+aApe+8jOaBouWkjeaOqOmAge+8iQpybSAtZiAvdG1wL2RlcHV0eV9yZXN1bHQubG9jawpweXRob24zIC9vcHQvZGF0YS9zZWNyZXRhcnkvZGVwdXR5X3Jlc3VsdC5weSAmCgojIOmHjeWQr+WFtuS7luWuiOaKpOi/m+eoiwpybSAtZiAvdG1wL2RlcHV0eV9kaXNwYXRjaC5sb2NrCnB5dGhvbjMgL29wdC9kYXRhL3NlY3JldGFyeS9kZXB1dHlfZGlzcGF0Y2gucHkgJgpweXRob24zIC9vcHQvZGF0YS9zZWNyZXRhcnkvZGVwdXR5X3dvcmtlci5weSAmCmBgYAoKIyMjIOaooeW8jzI6IGRlcHV0eV9kaXNwYXRjaCDmrbvlvqrnjq/vvIgxODUy5Lu75Yqh77yJCioq55eH54q2Kio6IOaXpeW/l+avjzPnp5LmiqUi5Y+R546wMTg1MuS4quaWsOS7u+WKoSLvvIzmlbDlrZfkuI3lj5gKKirmoLnlm6AqKjog5omr5o+P5Y6G5Y+y5Lu75Yqh5paH5Lu25peg6L+H5ruk77yM5q+P5qyh6YeN5aSN5omr5o+P5YWo6YePCioq5L+u5aSNKio6IOa3u+WKoOaJq+aPj+iMg+WbtOmZkOWItu+8iOWPquaJq+W9k+aXpS/mlrDku7vliqHvvIzpgb/lhY3ph43lpI3miavmj4/lt7LlpITnkIbmlofku7bvvIkKCiMjIyDmqKHlvI8zOiBQSUQgMSDlg7XlsLjov5vnqIvntK/np68KKirnl4fnirYqKjogMTIr5LiqIGA8ZGVmdW5jdD5gIOi/m+eoi++8jFBQSUQ9MQoqKuagueWboCoqOiBHYXRld2F5IChQSUQgMSkgZm9ya+WtkOi/m+eoi+WQjuacquato+ehrndhaXQoKeWbnuaUtgoqKuW9k+WJjeW9seWTjSoqOiDml6DljbHlrrPvvIzlrrnlmajph43lkK/oh6rliqjmuIXnkIYKKirplb/mnJ/mlrnmoYgqKjog57uZZ2F0ZXdheeWKoHN1YnByb2Nlc3Plm57mlLbpgLvovpEKCiMjIOWFs+mUruaWh+S7tumAn+afpeihqAoKfCDmlofku7YgfCDkvZznlKggfCDnlJ/mrbvliKTmlq3kvp3mja4gfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tLS18CnwgYC9vcHQvZGF0YS9zZWNyZXRhcnkvZGVwdXR5X2Rpc3BhdGNoLnB5YCB8IOaJq+aPj+S7u+WKoeKGkuWGmea0vuW3peadvyB8IOaXpeW/l+W/g+i3syB8CnwgYC9vcHQvZGF0YS9zZWNyZXRhcnkvZGVwdXR5X3dvcmtlci5weWAgfCDmiafooYzku7vliqHihpLlhpnljp/lp4vnu5PmnpwgfCDml6Xlv5flv4Pot7MgfAp8IGAvb3B0L2RhdGEvc2VjcmV0YXJ5L2RlcHV0eV9yZXN1bHQucHlgIHwg5pS26ZuG57uT5p6c4oaS54m556eY5o6o55CG4oaS5YaZ5oiQ5p6c5p2/IHwg5pel5b+X5b+D6LezIHwKfCBgL29wdC9kYXRhL3NlY3JldGFyeS9leGVjdXRpdmVfc2VjcmV0YXJ5LnB5YCB8IOW8guatpeeJueWKqeaOqOeQhiB8IOaXpeW/l+W/g+i3syB8CnwgYC9vcHQvZGF0YS9zZWNyZXRhcnkvcmVzdWx0X2JvYXJkLmpzb25gIHwg5omA5pyJ5oiQ5p6c77yIcGVuZGluZ19wdXNo56ev5Y6L5Zyo5q2k77yJIHwgcGVuZGluZ19wdXNo5pWw6YePIHwKfCBgL29wdC9kYXRhL3NlY3JldGFyeS9kaXNwYXRjaF9ib2FyZC5qc29uYCB8IOaJgOacieS7u+WKoe+8iHBlbmRpbmcvY29tcGxldGVk77yJIHwgcGVuZGluZ190YXNrc+aVsOmHjyB8CgojIyDmjqjpgIHmgaLlpI3kvJjlhYjnuqcKMS4gKipkZXB1dHlfcmVzdWx0Kiog4oCUIOenr+WOi+aIkOaenOWPquacieWug+iDveWGmeWFpXBlbmRpbmdfcHVzaAoyLiAqKkF2YXRhciBkYWVtb24qKiDigJQg5Y+q5pyJ5a6D5pyJYF9wdXNoX3RvX2RvbmdnZSgpYOaJjeiDveecn+ato+aOqOmAgQozLiAqKmRlcHV0eV9kaXNwYXRjaCoqIOKAlCDmlrDku7vliqHmnaXmupAKNC4gKipkZXB1dHlfd29ya2VyKiog4oCUIOS7u+WKoeaJp+ihjAo1LiAqKmV4ZWN1dGl2ZV9zZWNyZXRhcnkqKiDigJQg5byC5q2l54m55Yqp5o6o55CGCg==
+---
+name: secretary-daemon-health-check
+description: 秘书处守护进程深度健康诊断 — 追踪 result_board → 推送管道 → 死循环 → 无重启机制。触发：cron健康检查、守护进程疑似死亡、pending_push积压。
+triggers: ["健康", "诊断", "秘书", "检查", "协调"]
+version: 1.0
+---
+
+# 秘书处守护进程深度健康诊断
+
+## 快速诊断命令（5秒定位）
+
+```bash
+# 1. 进程存活检查
+ps aux | grep -E 'deputy|executive' | grep -v grep
+
+# 2. 最后心跳时间（看哪个死了多久）
+tail -1 /opt/data/secretary/logs/deputy_result.log
+tail -1 /opt/data/secretary/logs/deputy_dispatch.log
+tail -1 /opt/data/secretary/logs/deputy_worker.log
+
+
+# 3. result_board pending_push 数量
+python3 -c "import json; d=json.load(open('/opt/data/secretary/result_board.json')); p=[r for r in d.get('results',[]) if r.get('status')=='pending_push']; print(f'pending_push: {len(p)}')"
+
+# 4. pending任务数量
+python3 -c "import json; d=json.load(open('/opt/data/secretary/dispatch_board.json')); p=d.get('pending_tasks',[]); print(f'pending_tasks: {len(p)}'); [print(f'  {t.get(\"dispatch_id\")} | {t.get(\"type\")}') for t in p]"
+```
+
+## 完整诊断树
+
+### 第一层：系统基础
+```bash
+uptime && free -h && df -h /opt
+ps aux | grep hermes | grep -v grep      # gateway是否存活
+curl -s --max-time 3 http://localhost:11434/  # ollama是否存活
+```
+
+### 第二层：派工板 + 成果板
+- 路径: `/opt/data/secretary/dispatch_board.json`, `/opt/data/secretary/result_board.json`
+- pending_tasks: 任务卡在pending多久了？
+- pending_push: 成果是否在等推送？最早积压是哪个？
+- completed_tasks: 最近完成的是什么？
+
+### 第三层：锁文件 → 判断守护进程
+```bash
+# 所有锁文件及创建时间
+for f in /tmp/*.lock; do echo "$(stat -c '%Y %y' $f) $f"; done | sort
+
+# 关键锁文件:
+# /tmp/deputy_dispatch.lock     → deputy_dispatch是否活着
+# /tmp/deputy_worker.lock       → deputy_worker是否活着
+# /tmp/deputy_result.lock       → deputy_result是否活着
+# /tmp/executive_secretary.lock → executive_secretary是否活着
+```
+**原则**: 锁文件存在 ≠ 进程存活（进程崩溃后锁文件残留）。必须结合日志心跳时间判断。
+
+### 第四层：追踪死循环（1852任务问题）
+```bash
+# deputy_dispatch 每3秒重复报"发现1852个新任务"，数字不变
+tail -20 /opt/data/secretary/logs/deputy_dispatch.stdout.log
+```
+**根因**: 扫描 `/opt/data/async_tasks/` 历史任务文件（1852个），每次轮询都重复全量扫描 → 资源耗尽 → 崩溃。
+
+### 第五层：推送管道追踪（最关键）
+
+**架构真相（实测确认）**:
+1. `deputy_result.py` → 写 `result_board.json` → status=`pending_push`
+2. `deputy_result` **不推送**，只写文件
+3. 真正推送发生在 `Avatar Worker` 内部：
+   - `board_utils.py:100` 的 `_push_to_dongge()` 是内存函数
+   - 只有 Avatar Worker 进程内才存在此函数
+4. Gateway **不读** `result_board.json`
+5. 结论：当所有 Avatar Worker 死掉，`pending_push` 会无限积压
+
+**验证推送管道**:
+```bash
+```
+
+## 已知根因模式
+
+### 模式1: Deputy三组件 + Avatar 全部死亡（最常见）
+**症状**: 56条pending_push积压，所有守护进程日志停在同一时间
+**根因**: 无自动重启机制，守护进程手动启动，崩溃后不拉起
+**修复**:
+```bash
+# 重启 deputy_result（最紧急，恢复推送）
+rm -f /tmp/deputy_result.lock
+python3 /opt/data/secretary/deputy_result.py &
+
+# 重启其他守护进程
+rm -f /tmp/deputy_dispatch.lock
+python3 /opt/data/secretary/deputy_dispatch.py &
+python3 /opt/data/secretary/deputy_worker.py &
+```
+
+### 模式2: deputy_dispatch 死循环（1852任务）
+**症状**: 日志每3秒报"发现1852个新任务"，数字不变
+**根因**: 扫描历史任务文件无过滤，每次重复扫描全量
+**修复**: 添加扫描范围限制（只扫当日/新任务，避免重复扫描已处理文件）
+
+### 模式3: PID 1 僵尸进程累积
+**症状**: 12+个 `<defunct>` 进程，PPID=1
+**根因**: Gateway (PID 1) fork子进程后未正确wait()回收
+**当前影响**: 无危害，容器重启自动清理
+**长期方案**: 给gateway加subprocess回收逻辑
+
+## 关键文件速查表
+
+| 文件 | 作用 | 生死判断依据 |
+|------|------|------------|
+| `/opt/data/secretary/deputy_dispatch.py` | 扫描任务→写派工板 | 日志心跳 |
+| `/opt/data/secretary/deputy_worker.py` | 执行任务→写原始结果 | 日志心跳 |
+| `/opt/data/secretary/deputy_result.py` | 收集结果→特秘推理→写成果板 | 日志心跳 |
+| `/opt/data/secretary/executive_secretary.py` | 异步特助推理 | 日志心跳 |
+| `/opt/data/secretary/result_board.json` | 所有成果（pending_push积压在此） | pending_push数量 |
+| `/opt/data/secretary/dispatch_board.json` | 所有任务（pending/completed） | pending_tasks数量 |
+
+## 推送恢复优先级
+1. **deputy_result** — 积压成果只有它能写入pending_push
+2. **Avatar daemon** — 只有它有`_push_to_dongge()`才能真正推送
+3. **deputy_dispatch** — 新任务来源
+4. **deputy_worker** — 任务执行
+5. **executive_secretary** — 异步特助推理

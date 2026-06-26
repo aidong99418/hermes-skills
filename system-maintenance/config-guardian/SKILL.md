@@ -1,1 +1,267 @@
-LS0tCm5hbWU6IGNvbmZpZy1ndWFyZGlhbgpkZXNjcmlwdGlvbjogY29uZmlnLnlhbWzphY3nva7lrojmiqTogIXvvIzoh6rliqjmo4DmtYvlubbkv67lpI13aXNlbW9kZWznrYnlhbPplK7phY3nva7kuKLlpLHjgILop6blj5HvvJpVbmtub3duIHByb3ZpZGVy44CBY3JvbuWksei0peOAgWNvbmZpZ+iiq+aEj+WkluS/ruaUueOAggp0cmlnZ2VyczoKICAtIFVua25vd24gcHJvdmlkZXIgd2lzZW1vZGVsCiAgLSBjb25maWcueWFtbOmFjee9ruS4ouWksQogIC0g5LqR56uv5qih5Z6L5bSpCiAgLSBjcm9u5Lu75YqhcHJvdmlkZXLmiqXplJkKdmVyc2lvbjogMS4wCi0tLQoKIyBDb25maWcgR3VhcmRpYW4KCiMjIOiEmuacrOi3r+W+hAovb3B0L2RhdGEvc2NyaXB0cy9jb25maWdfZ3VhcmRpYW4ucHkKCiMjIOWRveS7pAotIGRyeSBydW46IHB5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvY29uZmlnX2d1YXJkaWFuLnB5IC0tZHJ5Ci0g5L+u5aSNOiBweXRob24zIC9vcHQvZGF0YS9zY3JpcHRzL2NvbmZpZ19ndWFyZGlhbi5weQoKIyMg5qOA5p+l6aG5CjEuIHByb3ZpZGVycy53aXNlbW9kZWzvvIjmlrDmoLzlvI9kaWN077yJCjIuIGN1c3RvbV9wcm92aWRlcnNbd2lzZW1vZGVsXe+8iOaXp+agvOW8j2xpc3TvvIkKMy4g5qC5bW9kZWzljLrvvIhwcm92aWRlci9kZWZhdWx0L2NvbnRleHRfbGVuZ3Ro77yJCjQuIGNyb24gam9ic+S4jmNvbmZpZ+S4gOiHtOaApwo1LiBQcm92aWRlciBSZXNvbHV0aW9u5Y+M6YeN6aqM6K+BCgojIyDorr7orqHljp/liJkKLSDpm7bkupHnq6/kvp3otZbvvIznuq9QeXRob24gc3RkbGliCi0g5L+u5aSN5YmN6Ieq5Yqo5aSH5Lu95YiwIC9vcHQvZGF0YS9iYWNrdXBzL2d1YXJkaWFuX1lZWVlNTUREX0hITU1TUy8KCiMjIOWFs+mUruaVmeiure+8muWAvOWtmOWcqCDiiaAg5YC85q2j56GuCjIwMjYtMDYtMDcg5a6e6Lip77ya5YeM5pmo56Gu6K6k5LqGM+S4qumFjee9ru+8jOS9humHjeWQr+WQjuS4gOafpeWPkeeOsO+8mgotIGBnYXRld2F5X3RpbWVvdXRfd2FybmluZzogOTAwYO+8iOW6lOivpeaYryAxNTAw77yJCi0gYGJ1c3lfaW5wdXRfbW9kZTogaW50ZXJydXB0YO+8iOW6lOivpeaYryBxdWV1Ze+8iQotIGBzbWFydF9tb2RlbF9yb3V0aW5nLmVuYWJsZWQ6IGZhbHNlYO+8iOW6lOivpeaYryB0cnVl77yJCgrmlZnorq3vvJoqKuivtCLphY3lpb3kuoYi5ZKMIuecn+eahOmFjeWlveS6hiLmmK/kuKTlm57kuosqKuOAguW/hemhu+eUqCB5YW1sLnNhZmVfbG9hZCDor7vlh7rlrp7pmYXlgLzmr5Tlr7nvvIzkuI3lj6rmmK8gZ3JlcCDmib7lrZfmrrXmmK/lkKblrZjlnKjjgIIKCuaOkuafpeaWueazle+8mgpgYGBweXRob24KaW1wb3J0IHlhbWwKY2ZnID0geWFtbC5zYWZlX2xvYWQob3BlbignL29wdC9kYXRhL2NvbmZpZy55YW1sJykpCiMg5om+55yf5a6e6Lev5b6E77yI5YC85Y+v6IO95Zyo5bWM5aWX5bGC57qn77yJCmRlZiBmaW5kX2tleShkLCBrZXkpOgogICAgZm9yIGssIHYgaW4gZmxhdHRlbi5pdGVtcygpOgogICAgICAgIGlmIGtleSBpbiBrLmxvd2VyKCk6CiAgICAgICAgICAgIHByaW50KGYie2t9ID0ge3Z9IikKCiMg6YeN54K55qOA5p+l5bWM5aWX6Lev5b6ECmNmZy5nZXQoJ2FnZW50Jywge30pLmdldCgnZ2F0ZXdheV90aW1lb3V0X3dhcm5pbmcnKQpjZmcuZ2V0KCdkaXNwbGF5Jywge30pLmdldCgnYnVzeV9pbnB1dF9tb2RlJykKY2ZnLmdldCgnc21hcnRfbW9kZWxfcm91dGluZycsIHt9KS5nZXQoJ2VuYWJsZWQnKQpgYGAKCi0tLQoKIyMg5bey5L+u5aSN55qEIEJ1Z++8iDIwMjYtMDYtMDjvvIkKCiMjIyBCdWcgMTogdmVyaWZ5X2VuZF90b19lbmQg5Y+q5o6l5Y+XIG1pbmltYXgtY24vbWluaW1heO+8iOW3suS/ruWkje+8iQoqKueXh+eKtioq77yaZ3VhcmRpYW4g5L+u5aSN5a6M5oiQ5ZCO77yMdmVyaWZ5IOS7jeaKpSBg4p2MIOaguSBtb2RlbC5wcm92aWRlcmDvvIzkvYYgY29uZmlnLnlhbWwg55qEIHByb3ZpZGVyIOWAvOaYr+WQiOazleWAvCBgY3VzdG9tYAoKKirmoLnlm6AqKu+8mmB2ZXJpZnlfZW5kX3RvX2VuZCgpYCDnrKwgNTQwIOihjOehrOe8lueggeS6hiBwcm92aWRlciDnmb3lkI3ljZXkuLogYCgibWluaW1heC1jbiIsICJtaW5pbWF4Iilg77yM6ICM5a6e6ZmF57O757uf5pSv5oyBIGBjdXN0b20gLyBhdXRvIC8gd2lzZW1vZGVsYCDnrYnlpJrnp40gcHJvdmlkZXLvvIzkuJQgYGNoZWNrX3Jvb3RfbW9kZWwoKWAg5qCh6aqM55qE5Lmf5piv6L+Z5LqU5Liq5YC877yM5Lik6ICF5LiN5LiA6Ie0CgoqKuS/ruWkjSoq77yaYHZlcmlmeV9lbmRfdG9fZW5kYCDnmoQgY2hlY2tzIOWIl+ihqOaJqeWxleS4uiBgKCJtaW5pbWF4LWNuIiwgIm1pbmltYXgiLCAiY3VzdG9tIiwgImF1dG8iLCAid2lzZW1vZGVsIilg77yM5LiOIGBjaGVja19yb290X21vZGVsKClgIOmAu+i+keWvuem9kAoKIyMjIEJ1ZyAyOiBtaXNzaW5nX3Byb3ZpZGVycyDomZrlgYfmiqXlkYoi5oGi5aSN5oiQ5YqfIu+8iOW3suS/ruWkje+8iQoqKueXh+eKtioq77ya5pel5b+X5pi+56S6IGDinIUg5oGi5aSNIHByb3ZpZGVycy54eHhg77yM5L2GIGJhc2VsaW5lIOS4reivpeadoeebruaYr+epuueahO+8iGJhc2VsaW5lIOacrOadpeWwseayoeaciei/meS4quWOhuWPsuaVsOaNru+8ie+8jOe7k+aenOWGmeWFpeS6huepuiBkaWN0CgoqKuagueWboCoq77yaYGFwcGx5X2ZpeGVzYCDkuK3lpITnkIYgYG1pc3NpbmdfcHJvdmlkZXJzYCDml7bvvIzml6DmnaHku7bmiafooYwgYGNmZ1sicHJvdmlkZXJzIl1bbmFtZV0gPSBkaWN0KGl0ZW1bImVudHJ5Il0pYO+8jOayoeacieajgOafpSBlbnRyeSDmmK/lkKbkuLrnqboKCioq5L+u5aSNKirvvJrmt7vliqDnqbrmnaHnm67mo4Dmn6XvvIxiYXNlbGluZSDml6Dljoblj7LmlbDmja7ml7bot7Pov4fogIzpnZ7omZrlgYfmiqXlkYoi5oGi5aSN5oiQ5YqfIu+8mgpgYGBweXRob24KZW50cnkgPSBpdGVtLmdldCgiZW50cnkiKSBvciB7fQppZiBub3QgZW50cnkgb3Igbm90IGFueShlbnRyeS52YWx1ZXMoKSk6CiAgICBsb2dnZXIud2FybmluZygi4pqg77iPIOi3s+i/hyBwcm92aWRlcnMuJXPvvJpiYXNlbGluZSDkuLrnqbrvvIzml6Dljoblj7LmlbDmja7lj6/mgaLlpI0iLCBuYW1lKQogICAgY29udGludWUKYGBgCgojIyMgQnVnIDM6IHJlc3RvcmVfcm9vdF9tb2RlbCDkuI3opobnm5YgZmFsc3kg5YC8Cioq55eH54q2KirvvJpgbW9kZWwuY29udGV4dF9sZW5ndGhgIOS4uiAw77yI6ICM6Z2e57y65aSx77yJ77yM5L+u5aSN5pel5b+X5rKh5Ye6546wIuaBouWkjSBtb2RlbC5jb250ZXh0X2xlbmd0aCIKCioq5qC55ZugKirvvJpgcmVzdG9yZV9yb290X21vZGVsYCDpgLvovpHmmK8gYGlmIHYgYW5kIG5vdCBjZmdbIm1vZGVsIl0uZ2V0KGspYO+8jOWPquacieW9kyBiYXNlbGluZSDmnInlgLzkuJQgY29uZmlnIOW9k+WJjeS4uuepuuaXtuaJjeaBouWkjeOAguWmguaenCBjb25maWcg5b2T5YmN5pivIGBjb250ZXh0X2xlbmd0aDogMGDvvIhmYWxzee+8ie+8jOadoeS7tiBgbm90IGNmZ1sibW9kZWwiXS5nZXQoaylgIOS4uiBGYWxzZe+8jOi3s+i/h+aBouWkjQoKKiror7TmmI4qKu+8mui/meS4quihjOS4uuaYr+iuvuiuoeS4iueahOOAguW9k+eUqOaIt+aJi+WKqOWIoOmZpOS6huafkOS4quWtl+aute+8iOWmgiBjb250ZXh0X2xlbmd0aO+8ie+8jGd1YXJkaWFuIOiDveS7jiBiYXNlbGluZSDmgaLlpI3jgILkvYblpoLmnpznlKjmiLfmmL7lvI/lsIbmn5DlrZfmrrXorr7kuLogYDBg77yI5aaCIGBjb250ZXh0X2xlbmd0aDogMGDvvInvvIxndWFyZGlhbiDorqTkuLrov5nmmK/mnInmhI/ooYzkuLrvvIzkuI3kvJropobnm5YKCiMjIyBCdWcgNDogZ3VhcmRpYW5fc3RhdGXnmoRwcm92aWRlcnPln7rlh4bnur/opobnm5Zjb25maWfvvIgyMDI2LTA2LTA477yJCioq55eH54q2KirvvJrns7vnu5/nlKhjdXN0b21fcHJvdmlkZXJz5LiN6ZyA6KaB6aG257qncHJvdmlkZXJz5a2X5q6177yM5L2GZ3VhcmRpYW5fc3RhdGUuanNvbumHjGJhc2VsaW5lLnByb3ZpZGVyc+WtmOS6huWOhuWPsuaVsOaNru+8jOavj+asoeaJq+aPj+mDvSLmgaLlpI0icHJvdmlkZXJz5a2X5q615Li656m6e33vvIzlr7zoh7Tot6/nlLHmt7fkubHjgIIKCioq6K+K5patKirvvJrmn6VndWFyZGlhbl9zdGF0ZS5qc29u6YeMYmFzZWxpbmXlrZfmrrXvvIzoi6XmnIlwcm92aWRlcnPlrZDlrZflhbjor7TmmI7lrZjkuobplJnor6/nmoTln7rlh4bnur/jgIIKCioq5L+u5aSNKirvvJoKYGBgcHl0aG9uCnN0YXRlID0ganNvbi5sb2FkKG9wZW4oJy9vcHQvZGF0YS9jb25maWcvZ3VhcmRpYW5fc3RhdGUuanNvbicpKQppZiAnYmFzZWxpbmUnIGluIHN0YXRlIGFuZCAncHJvdmlkZXJzJyBpbiBzdGF0ZVsnYmFzZWxpbmUnXToKICAgIGRlbCBzdGF0ZVsnYmFzZWxpbmUnXVsncHJvdmlkZXJzJ10Kd2l0aCBvcGVuKCcvb3B0L2RhdGEvY29uZmlnL2d1YXJkaWFuX3N0YXRlLmpzb24nLCAndycpIGFzIGY6CiAgICBqc29uLmR1bXAoc3RhdGUsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCmBgYAoKKirpqozor4EqKu+8mmBweXRob24zIC9vcHQvZGF0YS9zY3JpcHRzL2NvbmZpZ19ndWFyZGlhbi5weWAg5bqU6L6T5Ye6IuajgOafpemAmui/h++8jOaXoOW8guW4uCLjgIIKCiMjIyBCdWcgNTog5qih5Z6L5bGC6Z2i5aSH55SoIHZzIHByb3ZpZGVy5Y+M6YCa6YGT5YiH5o2i77yIMjAyNi0wNi0wOO+8iQoqKuWPjHByb3ZpZGVy5YiH5o2i6aOO6ZmpKirvvJrpgJrov4dwcm92aWRlcnMvZmFsbGJhY2tfcHJvdmlkZXJz5a2X5q615YiH5o2icHJvdmlkZXLvvIxtaW5pbWF4LWNu5Lya6Kem5Y+R57O757uf5bSp5rqD5q276ZSB44CCCgoqKuato+ehruaWueahiCoq77ya6YCa6L+HY3VzdG9tX3Byb3ZpZGVyc+WkmuWFpeWPo+WBmuaooeWei+Wkh+eUqO+8jOWksei0peaXtui3r+eUseWxguiHquWKqOWIh++8jOS4jeinpuWPkWd1YXJkaWFu6K+v5oql77yaCmBgYHlhbWwKY3VzdG9tX3Byb3ZpZGVyczoKLSBuYW1lOiDlp4vmmbpBaQogIGJhc2VfdXJsOiBodHRwczovL29wZW4ub3NwcmV5YWkuY24vdjEKICBhcGlfa2V5OiB3aXNlbW9kZWwteHh4CiAgbW9kZWw6IG1pbmltYXgtbTIuNS1oaWdoc3BlZWQKICBtb2RlbHM6CiAgICBtaW5pbWF4LW0yLjUtaGlnaHNwZWVkOgogICAgICBjb250ZXh0X2xlbmd0aDogMTkyMDAwCi0gbmFtZTogTWluaU1heC1DTiAgIyDlpIfnlKjmqKHlnovvvIzkuI3otbBwcm92aWRlcuWIh+aNogogIGJhc2VfdXJsOiBodHRwczovL29wZW4ubWluaW1heGkuY29tL3YxCiAgYXBpX2tleTogbWluaW1heC14eHgKICBtb2RlbDogTWluaU1heC1NMi43CiAgbW9kZWxzOgogICAgTWluaU1heC1NMi43OgogICAgICBjb250ZXh0X2xlbmd0aDogMTAwMDAwCmBgYAoKKirpk4HlvosqKu+8muS4jeWKqHByb3ZpZGVycy9mYWxsYmFja19wcm92aWRlcnPlrZfmrrXvvIzlj6rnlKhjdXN0b21fcHJvdmlkZXJz5YGa5aSa5YWl5Y+j44CCCgojIyMgQnVnIDc6IF9pc19jb25maWdfaW50YWN0KCkg56Gs5oCn6KaB5rGC5omA5pyJIHByb3ZpZGVyIOaciSBhcGlfa2V577yI6K+v5oql5qC55Zug77yJCioq5Y+R546w5pe26Ze0KirvvJoyMDI2LTA2LTEwCgoqKueXh+eKtioq77yaZ3VhcmRpYW4g5q+P5qyh6L+Q6KGM6YO96L6T5Ye6IGDwn5SnIOajgOa1i+WIsOmFjee9ruaNn+Wdj++8jOW8gOWni+S/ruWkjWAg4oaSIGDinIUgY29uZmlnLnlhbWwg5qOA5p+l6YCa6L+H77yM5peg5byC5bi4YO+8jOaXpeW/l+avjzE15YiG6ZKf6YeN5aSN5LiA5qyh77yM5b2i5oiQ5oyB57ut6K+v5oql44CCCgoqKuagueWboCoq77yaYF9pc19jb25maWdfaW50YWN0KClgIOesrDIwMeihjO+8mgpgYGBweXRob24KaWYgbm90IGVudHJ5LmdldCgiYXBpX2tleSIpIG9yIGxlbihlbnRyeS5nZXQoImFwaV9rZXkiLCAiIikpIDwgMTA6CiAgICByZXR1cm4gRmFsc2UgICMga2V5IOiiq+a4heepugpgYGAK6L+Z5q616YC76L6R5peg5beu5Yir5qOA5p+l5omA5pyJIGJhc2VsaW5lIHByb3ZpZGVycyDnmoQgYXBpX2tlee+8jOS9hiBgZ3VhcmRpYW5fc3RhdGUuanNvbmAg6YeMIGBvbGxhbWFgIOWSjCBgc2lsaWNvbmZsb3dgIOeahCBhcGlfa2V5IOacrOi6q+WwseaYr+epuuWtl+espuS4siBgIiJg77yI5pys5ZywL+WFjei0ueW5s+WPsOaXoOmcgCBrZXnvvInjgILov5nlr7zoh7QgYGNmZ19wcm92aWRlcnMuZ2V0KCJvbGxhbWEiKWAg55qEIGFwaV9rZXkg5Li656m65pe25p2h5Lu25Li655yf77yM6Kem5Y+RIumFjee9ruaNn+WdjyLor6/miqXjgIIKCioq5L+u5aSNKirvvJoKYGBgcHl0aG9uCiMg5L+u5aSN5YmN77yI5pyJIGJ1Z++8iQppZiBub3QgZW50cnkuZ2V0KCJhcGlfa2V5Iikgb3IgbGVuKGVudHJ5LmdldCgiYXBpX2tleSIsICIiKSkgPCAxMDoKICAgIHJldHVybiBGYWxzZSAgIyDlr7zoh7Qgb2xsYW1hL3NpbGljb25mbG93IOavj+asoemDveivr+aKpQoKIyDkv67lpI3lkI4KaWYgYmxfZW50cnkuZ2V0KCJhcGlfa2V5IikgYW5kIGJsX2VudHJ5WyJhcGlfa2V5Il0gbm90IGluICgiIiwgIi4uLiIsICIqKioiKToKICAgIGlmIG5vdCBlbnRyeS5nZXQoImFwaV9rZXkiKSBvciBsZW4oZW50cnkuZ2V0KCJhcGlfa2V5IiwgIiIpKSA8IDEwOgogICAgICAgIHJldHVybiBGYWxzZSAgIyBrZXkg6KKr5riF56m6CmBgYArku4XlvZPln7rlh4bnur/mnKzouqvmnInmnInmlYggYXBpX2tleSDml7bmiY3mo4Dmn6XvvJvml6Aga2V5IOeahCBwcm92aWRlcu+8iE9sbGFtYS9zaWxpY29uZmxvd++8iei3s+i/h+atpOajgOafpeOAggoKKiror4rmlq3mlrnms5UqKu+8mgpgYGBweXRob24KIyDmn6UgZ3VhcmRpYW5fc3RhdGUuanNvbiDkuK3lkIQgcHJvdmlkZXIg55qEIGFwaV9rZXkKY2F0IC9vcHQvZGF0YS9jb25maWcvZ3VhcmRpYW5fc3RhdGUuanNvbiB8IHB5dGhvbjMgLWMgIgppbXBvcnQganNvbixzeXMKZD1qc29uLmxvYWQoc3lzLnN0ZGluKQpmb3Igayx2IGluIGRbJ2Jhc2VsaW5lJ11bJ3Byb3ZpZGVycyddLml0ZW1zKCk6CiAgICBwcmludChmJ3trfTogYXBpX2tleT17cmVwcih2LmdldChcImFwaV9rZXlcIikuc3RyaXAoKSBpZiB2LmdldChcImFwaV9rZXlcIikgZWxzZSBcIlwiKX0nKSIKYGBgCgotLS0KCiMjIyBCdWcgNjogcHJvdmlkZXJz5a2X5q615qC85byP5LiO5Luj56CB6aKE5pyf5LiN5LiA6Ie077yIbGlzdCB2cyBkaWN05Y+M5pa55ZCR77yJCioq6IOM5pmvKirvvJpwcm92aWRlcnMg5a2X5q615Zyo5LiN5ZCM5pe25pyf5Y+v6IO95pivIGRpY3Qg5oiWIGxpc3TvvIzku6PnoIHlv4Xpobvlj4zlkJHlhbzlrrnvvJoKLSBkaWN05qC85byPOiBge2lkOiB7Li4ufX1g77yI5b2T5YmN55Sf5Lqn546v5aKD5bCx5piv6L+Z5Liq5qC85byP77yJCi0gbGlzdOagvOW8jzogYFt7aWQsIC4uLn0sIC4uLl1gCgoqKkJ1ZyA2Ye+8iOW3suS/ruWkje+8ie+8mmNvbmZpZ+S7jmRpY3Tlj5jkuLpsaXN0IOKGkiDku6PnoIHpnIDpgILphY1saXN0KioKLSDnl4fnirbvvJpgQXR0cmlidXRlRXJyb3I6ICdzdHInIG9iamVjdCBoYXMgbm8gYXR0cmlidXRlICdnZXQnYCDlnKggYF9pc19jb25maWdfaW50YWN0KClgIOihjDE5MiDlkowgYGNoZWNrX2FsbF9wcm92aWRlcnMoKWAg6KGMMjg0Ci0g5L+u5aSN77ya5YqgIGBpc2luc3RhbmNlYCDliKTmlq3lkI7lvZLkuIDljJbkuLogZGljdCDlho3mn6Xor6LvvIjop4HkuIrmlrnljp/lp4vmj4/ov7DvvIkKCioqQnVnIDZi77yIMjAyNi0wNi0wOOaWsOWPkeeOsO+8ie+8mmNoZWNrX2FwaV9rZXlfdmFsaWRpdHkoKSDor6/nlKhsaXN06YGN5Y6GZGljdCoqCi0g55eH54q277yaYEF0dHJpYnV0ZUVycm9yOiAnc3RyJyBvYmplY3QgaGFzIG5vIGF0dHJpYnV0ZSAnZ2V0J2AKLSDlj5HnlJ/kvY3nva7vvJpgY2hlY2tfYXBpX2tleV92YWxpZGl0eSgpYCDooYw0MzLvvIxgZm9yIGVudHJ5IGluIChjZmcuZ2V0KCJwcm92aWRlcnMiKSBvciBbXSlgCi0g5qC55Zug77ya6K+l5Ye95pWw5LuO5pyq5bqU55SoIEJ1ZyA2YSDnmoTkv67lpI3vvIzku43nhLblgYforr4gcHJvdmlkZXJzIOaYryBsaXN044CC5a6e6ZmFIGNvbmZpZy55YW1sIOS4rSBwcm92aWRlcnMg5pivIGRpY3TvvJpgeydtaW5pbWF4LWNuJzogey4uLn0sICdvbGxhbWEnOiB7Li4ufSwgJ3NpbGljb25mbG93Jzogey4uLn19YO+8jOi/reS7oyBkaWN0IOW+l+WIsOeahOaYr+Wtl+espuS4sumUru+8iOWmgiBgJ21pbmltYXgtY24nYO+8ie+8jOS4jeaYryBkaWN077yM6LCD55SoIGAuZ2V0KClgIOWNs+W0qea6gwotIOS/ruWkje+8mgpgYGBweXRob24KIyDkv67lpI3liY3vvIjlgYforr5saXN077yJCmZvciBlbnRyeSBpbiAoY2ZnLmdldCgicHJvdmlkZXJzIikgb3IgW10pOgogICAgbmFtZSA9IGVudHJ5LmdldCgnaWQnKSBvciBlbnRyeS5nZXQoJ25hbWUnLCAndW5rbm93bicpCiAgICBpZiBlbnRyeS5nZXQoImFwaV9rZXkiKToKICAgICAgICBsb2NhdGlvbnMuYXBwZW5kKChmInByb3ZpZGVycy57bmFtZX0iLCBlbnRyeS5nZXQoImFwaV9rZXkiLCAiIikpKQoKIyDkv67lpI3lkI7vvIjlhbzlrrlkaWN077yJCmZvciBuYW1lLCBlbnRyeSBpbiAoY2ZnLmdldCgicHJvdmlkZXJzIikgb3Ige30pLml0ZW1zKCk6CiAgICBpZiBlbnRyeS5nZXQoImFwaV9rZXkiKToKICAgICAgICBsb2NhdGlvbnMuYXBwZW5kKChmInByb3ZpZGVycy57bmFtZX0iLCBlbnRyeS5nZXQoImFwaV9rZXkiLCAiIikpKQpgYGAKCioq5pWZ6K6tKirvvJpjb25maWdfZ3VhcmRpYW4ucHkg5pyJ5aSa5Liq5Ye95pWw5YiG5pWj6K+75Y+WIGBwcm92aWRlcnNg77yMQnVnIDZhIOeahOS/ruWkjeWPquS/ruS6hiBgX2lzX2NvbmZpZ19pbnRhY3QoKWAg5ZKMIGBjaGVja19hbGxfcHJvdmlkZXJzKClg77yM5ryP5o6J5LqGIGBjaGVja19hcGlfa2V5X3ZhbGlkaXR5KClg44CC5YWo6Z2i5o6S5p+l6ZyA6KaB55SoIGBncmVwIC1uICJwcm92aWRlcnMiIGNvbmZpZ19ndWFyZGlhbi5weWAg6YCQ6KGM56Gu6K6k5omA5pyJ6YGN5Y6G54K56YO95bey5YqgIGBpc2luc3RhbmNlYCDkv53miqTjgIIKCioq5YWo6Z2i5o6S5p+l5ZG95LukKirvvJoKYGBgYmFzaApncmVwIC1uICJjZmcuZ2V0LiBwcm92aWRlcnMiIC9vcHQvZGF0YS9zY3JpcHRzL2NvbmZpZ19ndWFyZGlhbi5weQojIOaJgOaciei/lOWbnue7k+aenOmDveW6lOWBmiBpc2luc3RhbmNlIOWIpOaWre+8jOS4jeiDveWBh+iuvuWNleS4gOagvOW8jwpgYGAKKirnl4fnirYqKu+8mmBBdHRyaWJ1dGVFcnJvcjogJ2xpc3QnIG9iamVjdCBoYXMgbm8gYXR0cmlidXRlICdnZXQnYCDlj5HnlJ/lnKjvvJoKLSBgX2lzX2NvbmZpZ19pbnRhY3QoKWAg6KGMIDE5MjogYGNmZy5nZXQoInByb3ZpZGVycyIsIHt9KS5nZXQobmFtZSlgCi0gYGNoZWNrX2FsbF9wcm92aWRlcnMoKWAg6KGMIDI4NDogYHByb3ZpZGVycy5nZXQobmFtZSlgCgoqKuagueWboCoq77yaY29uZmlnLnlhbWwg55qEIGBwcm92aWRlcnNgIOWtl+auteW3suS7jiBkaWN0IOe7k+aehO+8iGB7aWQ6IHsuLi59fWDvvInmlLnkuLogbGlzdCDnu5PmnoTvvIhgW3tpZCwgLi4ufSwgLi4uXWDvvInvvIzkvYYgY29uZmlnX2d1YXJkaWFuLnB5IOS7o+eggeacquWQjOatpeabtOaWsO+8jOWPquiwg+eUqCBgLmdldChuYW1lKWAg5LiN5YW85a65IGxpc3TjgIIKCioq5L+u5aSNKirvvIgy5aSE77yJ77yaCmBgYHB5dGhvbgojIF9pc19jb25maWdfaW50YWN0KCkg5LitCnJhd19wcm92aWRlcnMgPSBjZmcuZ2V0KCJwcm92aWRlcnMiKSBvciB7fQppZiBpc2luc3RhbmNlKHJhd19wcm92aWRlcnMsIGxpc3QpOgogICAgY2ZnX3Byb3ZpZGVycyA9IHtwLmdldCgiaWQiKTogcCBmb3IgcCBpbiByYXdfcHJvdmlkZXJzIGlmIGlzaW5zdGFuY2UocCwgZGljdCl9CmVsc2U6CiAgICBjZmdfcHJvdmlkZXJzID0gcmF3X3Byb3ZpZGVycwpmb3IgbmFtZSwgYmxfZW50cnkgaW4gYmxfcHJvdmlkZXJzLml0ZW1zKCk6CiAgICBlbnRyeSA9IGNmZ19wcm92aWRlcnMuZ2V0KG5hbWUpIG9yIHt9CgojIGNoZWNrX2FsbF9wcm92aWRlcnMoKSDkuK3lkIzmoLflpITnkIYKcmF3X3Byb3ZpZGVycyA9IGNmZy5nZXQoInByb3ZpZGVycyIpIG9yIFtdCmlmIGlzaW5zdGFuY2UocmF3X3Byb3ZpZGVycywgbGlzdCk6CiAgICBwcm92aWRlcnMgPSB7cC5nZXQoImlkIik6IHAgZm9yIHAgaW4gcmF3X3Byb3ZpZGVycyBpZiBpc2luc3RhbmNlKHAsIGRpY3QpfQplbHNlOgogICAgcHJvdmlkZXJzID0gcmF3X3Byb3ZpZGVycyBvciB7fQpgYGAKCioq5pWZ6K6tKirvvJpjb25maWcueWFtbCDnmoQgcHJvdmlkZXJzIOWtl+auteagvOW8j+WcqOS4jeWQjOeJiOacrOmXtOWPr+iDveS7jiBkaWN0IOWPmOS4uiBsaXN077yM5Luj56CB5b+F6aG75ZCM5pe25YW85a655Lik56eN5qC85byP44CC55SoIGBpc2luc3RhbmNlKHJhd19wcm92aWRlcnMsIGxpc3QpYCDliKTmlq3lkI7lvZLkuIDljJbkuLogZGljdCDlho3mn6Xor6LjgIIKCi0tLQoKIyMg5bey55+l55qE5peg5rOV6Ieq5Yqo5L+u5aSN5Zy65pmvCgp8IOWcuuaZryB8IOWOn+WboCB8IOW7uuiuriB8CnwtLS18LS0tfC0tLXwKfCBmYWxsYmFja19wcm92aWRlcnMg5Li656m6IHwgYmFzZWxpbmUg5LitIGZhbGxiYWNrX3Byb3ZpZGVycyDkuZ/kuLrnqbrvvIzml6Dljoblj7LmlbDmja4gfCDmiYvliqjlnKggY29uZmlnLnlhbWwg5Lit6YWN572uIGZhbGxiYWNrIOWIl+ihqCB8CnwgZGVsZWdhdGlvbiDlrZfmrrXlhajkuLrnqbrlrZfnrKbkuLIgfCBiYXNlbGluZSDkuK0gZGVsZWdhdGlvbiDlkITlrZfmrrXmnKzmnaXlsLHmmK/nqbrlrZfnrKbkuLIgfCDml6DpnIDkv67lpI3vvIhkZWxlZ2F0aW9uIOacrOi6q+WPr+S4uuepuu+8iSB8CgojIyDmjpLmn6Xmlrnms5XvvJrov5DooYwgKyDor7vml6Xlv5cgKyDor7sgc3RhdGUKYGBgYmFzaAojIDEuIOi/kOihjO+8iOiHquWKqOS/ruWkje+8iQpweXRob24zIC9vcHQvZGF0YS9zY3JpcHRzL2NvbmZpZ19ndWFyZGlhbi5weQoKIyAyLiDmo4Dmn6Xml6Xlv5fvvIjlhbPms6gg4p2MIOWSjCDimqDvuI/vvIkKdGFpbCAtMjAgL29wdC9kYXRhL2xvZ3MvZ3VhcmRpYW4ubG9nCgojIDMuIOafpeeci+eKtuaAgeaWh+S7tu+8iOWQqyBicm9rZW5fY291bnQgKyBiYXNlbGluZe+8iQpjYXQgL29wdC9kYXRhL2NvbmZpZy9ndWFyZGlhbl9zdGF0ZS5qc29uCgojIDQuIOW/q+mAn+iviuaWre+8mmd1YXJkaWFuX3N0YXRlIOS4reWQhCBwcm92aWRlciBhcGlfa2V5IOaYr+WQpuS4uuepuu+8iEJ1ZyA3IOivr+aKpeagueWboO+8iQpjYXQgL29wdC9kYXRhL2NvbmZpZy9ndWFyZGlhbl9zdGF0ZS5qc29uIHwgcHl0aG9uMyAtYyAiCmltcG9ydCBqc29uLHN5cwpkPWpzb24ubG9hZChzeXMuc3RkaW4pCmZvciBrLHYgaW4gZFsnYmFzZWxpbmUnXVsncHJvdmlkZXJzJ10uaXRlbXMoKToKICAgIGtsZW4gPSBsZW4odi5nZXQoJ2FwaV9rZXknLCcnKSkgaWYgdi5nZXQoJ2FwaV9rZXknKSBlbHNlIDAKICAgIHByaW50KGYne2t9OiBhcGlfa2V56ZW/5bqmPXtrbGVufScpIgoKIyA1LiDpqozor4Hlrp7pmYUgY29uZmlnIOWAvO+8iCLlgLzlrZjlnKgg4omgIOWAvOato+ehriLvvIkKIyDnlKggcHl0aG9uIOiAjOmdniBncmVw77yM56Gu5L+d5YC855yf55qE6KKr5YaZ5YWlCmBgYAoKIyMg5Y6G5Y+y5pWZ6K6tCioq5YC85a2Y5ZyoIOKJoCDlgLzmraPnoa4qKu+8iDIwMjYtMDYtMDfvvInvvJrnoa7orqTkuoYz5Liq6YWN572u77yM5L2G6YeN5ZCv5ZCO5Y+R546wIGdhdGV3YXlfdGltZW91dF93YXJuaW5nL2J1c3lfaW5wdXRfbW9kZS9zbWFydF9tb2RlbF9yb3V0aW5nIOmDveaYr+mUmeeahOOAguivtCLphY3lpb3kuoYi5ZKMIuecn+eahOmFjeWlveS6hiLmmK/kuKTlm57kuovjgILlv4XpobvnlKggeWFtbC5zYWZlX2xvYWQg6K+75Ye65a6e6ZmF5YC85q+U5a+577yM5LiN5Y+q5pivIGdyZXAg5om+5a2X5q615piv5ZCm5a2Y5Zyo44CCCgojIyMgbW9kZWwucHJvdmlkZXIgPSBtaW5pbWF4IOivr+aKpe+8iDIwMjYtMDYtMDfvvIkKKirnl4fnirYqKu+8mmd1YXJkaWFuIOaKpemUmSBgbW9kZWwucHJvdmlkZXIg5bqU5Li6IHdpc2Vtb2RlbCAvIGN1c3RvbSAvIGF1dG/vvIzlvZPliY06IG1pbmltYXhgCgoqKuagueWboCoq77yaY29uZmlnLnlhbWwg5qC5IGBtb2RlbDpgIOauteeahCBgcHJvdmlkZXJgIOS4jiBgYmFzZV91cmxgIOivreS5ieS4jeS4gOiHtOOAguW9kyBgYmFzZV91cmw6IGh0dHBzOi8vb3Blbi5vc3ByZXlhaS5jbi92MWDvvIh3aXNlbW9kZWwv5aeL5pm6QUnlubPlj7DvvInml7bvvIxgcHJvdmlkZXJgIOW6lOS4uiBgd2lzZW1vZGVsYO+8jOS4jeiDveeUqOaooeWei+WQjSBgbWluaW1heGDjgIIKCioq5L+u5aSNKirvvJrmiYvliqggcGF0Y2gg5bCGIGBjb25maWcueWFtbGAg5LitIGBwcm92aWRlcjogbWluaW1heGAg5pS55Li6IGBwcm92aWRlcjogd2lzZW1vZGVsYO+8jOeEtuWQjumHjeaWsOi3kemqjOivgeOAggoKKirkuLrkvZXml6Dms5Xoh6rliqjkv67lpI0qKu+8mmd1YXJkaWFuIGBjaGVja19yb290X21vZGVsKClgIOeUqCBiYXNlbGluZSDlr7nmr5TmgaLlpI3vvIzkvYYgYmFzZWxpbmUg6YeM5Lmf5a2Y5LqG5pen5YC877yM5peg5rOV6Ieq5oiR5L+u5q2j44CCCg==
+---
+name: config-guardian
+description: config.yaml配置守护者，自动检测并修复wisemodel等关键配置丢失。触发：Unknown provider、cron失败、config被意外修改。
+triggers:
+  - Unknown provider wisemodel
+  - config.yaml配置丢失
+  - 云端模型崩
+  - cron任务provider报错
+version: 1.0
+---
+
+# Config Guardian
+
+## 脚本路径
+/opt/data/scripts/config_guardian.py
+
+## 命令
+- dry run: python3 /opt/data/scripts/config_guardian.py --dry
+- 修复: python3 /opt/data/scripts/config_guardian.py
+
+## 检查项
+1. providers.wisemodel（新格式dict）
+2. custom_providers[wisemodel]（旧格式list）
+3. 根model区（provider/default/context_length）
+4. cron jobs与config一致性
+5. Provider Resolution双重验证
+
+## 设计原则
+- 零云端依赖，纯Python stdlib
+- 修复前自动备份到 /opt/data/backups/guardian_YYYYMMDD_HHMMSS/
+
+## 关键教训：值存在 ≠ 值正确
+2026-06-07 实踩：凌晨确认了3个配置，但重启后一查发现：
+- `gateway_timeout_warning: 900`（应该是 1500）
+- `busy_input_mode: interrupt`（应该是 queue）
+- `smart_model_routing.enabled: false`（应该是 true）
+
+教训：**说"配好了"和"真的配好了"是两回事**。必须用 yaml.safe_load 读出实际值比对，不只是 grep 找字段是否存在。
+
+排查方法：
+```python
+import yaml
+cfg = yaml.safe_load(open('/opt/data/config.yaml'))
+# 找真实路径（值可能在嵌套层级）
+def find_key(d, key):
+    for k, v in flatten.items():
+        if key in k.lower():
+            print(f"{k} = {v}")
+
+# 重点检查嵌套路径
+cfg.get('agent', {}).get('gateway_timeout_warning')
+cfg.get('display', {}).get('busy_input_mode')
+cfg.get('smart_model_routing', {}).get('enabled')
+```
+
+---
+
+## 已修复的 Bug（2026-06-08）
+
+### Bug 1: verify_end_to_end 只接受 minimax-cn/minimax（已修复）
+**症状**：guardian 修复完成后，verify 仍报 `❌ 根 model.provider`，但 config.yaml 的 provider 值是合法值 `custom`
+
+**根因**：`verify_end_to_end()` 第 540 行硬编码了 provider 白名单为 `("minimax-cn", "minimax")`，而实际系统支持 `custom / auto / wisemodel` 等多种 provider，且 `check_root_model()` 校验的也是这五个值，两者不一致
+
+**修复**：`verify_end_to_end` 的 checks 列表扩展为 `("minimax-cn", "minimax", "custom", "auto", "wisemodel")`，与 `check_root_model()` 逻辑对齐
+
+### Bug 2: missing_providers 虚假报告"恢复成功"（已修复）
+**症状**：日志显示 `✅ 恢复 providers.xxx`，但 baseline 中该条目是空的（baseline 本来就没有这个历史数据），结果写入了空 dict
+
+**根因**：`apply_fixes` 中处理 `missing_providers` 时，无条件执行 `cfg["providers"][name] = dict(item["entry"])`，没有检查 entry 是否为空
+
+**修复**：添加空条目检查，baseline 无历史数据时跳过而非虚假报告"恢复成功"：
+```python
+entry = item.get("entry") or {}
+if not entry or not any(entry.values()):
+    logger.warning("⚠️ 跳过 providers.%s：baseline 为空，无历史数据可恢复", name)
+    continue
+```
+
+### Bug 3: restore_root_model 不覆盖 falsy 值
+**症状**：`model.context_length` 为 0（而非缺失），修复日志没出现"恢复 model.context_length"
+
+**根因**：`restore_root_model` 逻辑是 `if v and not cfg["model"].get(k)`，只有当 baseline 有值且 config 当前为空时才恢复。如果 config 当前是 `context_length: 0`（falsy），条件 `not cfg["model"].get(k)` 为 False，跳过恢复
+
+**说明**：这个行为是设计上的。当用户手动删除了某个字段（如 context_length），guardian 能从 baseline 恢复。但如果用户显式将某字段设为 `0`（如 `context_length: 0`），guardian 认为这是有意行为，不会覆盖
+
+### Bug 4: guardian_state的providers基准线覆盖config（2026-06-08）
+**症状**：系统用custom_providers不需要顶级providers字段，但guardian_state.json里baseline.providers存了历史数据，每次扫描都"恢复"providers字段为空{}，导致路由混乱。
+
+**诊断**：查guardian_state.json里baseline字段，若有providers子字典说明存了错误的基准线。
+
+**修复**：
+```python
+state = json.load(open('/opt/data/config/guardian_state.json'))
+if 'baseline' in state and 'providers' in state['baseline']:
+    del state['baseline']['providers']
+with open('/opt/data/config/guardian_state.json', 'w') as f:
+    json.dump(state, f, ensure_ascii=False, indent=2)
+```
+
+**验证**：`python3 /opt/data/scripts/config_guardian.py` 应输出"检查通过，无异常"。
+
+### Bug 5: 模型层面备用 vs provider双通道切换（2026-06-08）
+**双provider切换风险**：通过providers/fallback_providers字段切换provider，minimax-cn会触发系统崩溃死锁。
+
+**正确方案**：通过custom_providers多入口做模型备用，失败时路由层自动切，不触发guardian误报：
+```yaml
+custom_providers:
+- name: 始智Ai
+  base_url: https://open.ospreyai.cn/v1
+  api_key: wisemodel-xxx
+  model: minimax-m2.5-highspeed
+  models:
+    minimax-m2.5-highspeed:
+      context_length: 192000
+- name: MiniMax-CN  # 备用模型，不走provider切换
+  base_url: https://open.minimaxi.com/v1
+  api_key: minimax-xxx
+  model: MiniMax-M2.7
+  models:
+    MiniMax-M2.7:
+      context_length: 100000
+```
+
+**铁律**：不动providers/fallback_providers字段，只用custom_providers做多入口。
+
+### Bug 7: _is_config_intact() 硬性要求所有 provider 有 api_key（误报根因）
+**发现时间**：2026-06-10
+
+**症状**：guardian 每次运行都输出 `🔧 检测到配置损坏，开始修复` → `✅ config.yaml 检查通过，无异常`，日志每15分钟重复一次，形成持续误报。
+
+**根因**：`_is_config_intact()` 第201行：
+```python
+if not entry.get("api_key") or len(entry.get("api_key", "")) < 10:
+    return False  # key 被清空
+```
+这段逻辑无差别检查所有 baseline providers 的 api_key，但 `guardian_state.json` 里 `ollama` 和 `siliconflow` 的 api_key 本身就是空字符串 `""`（本地/免费平台无需 key）。这导致 `cfg_providers.get("ollama")` 的 api_key 为空时条件为真，触发"配置损坏"误报。
+
+**修复**：
+```python
+# 修复前（有 bug）
+if not entry.get("api_key") or len(entry.get("api_key", "")) < 10:
+    return False  # 导致 ollama/siliconflow 每次都误报
+
+# 修复后
+if bl_entry.get("api_key") and bl_entry["api_key"] not in ("", "...", "***"):
+    if not entry.get("api_key") or len(entry.get("api_key", "")) < 10:
+        return False  # key 被清空
+```
+仅当基准线本身有有效 api_key 时才检查；无 key 的 provider（Ollama/siliconflow）跳过此检查。
+
+**诊断方法**：
+```python
+# 查 guardian_state.json 中各 provider 的 api_key
+cat /opt/data/config/guardian_state.json | python3 -c "
+import json,sys
+d=json.load(sys.stdin)
+for k,v in d['baseline']['providers'].items():
+    print(f'{k}: api_key={repr(v.get(\"api_key\").strip() if v.get(\"api_key\") else \"\")}')"
+```
+
+---
+
+### Bug 6: providers字段格式与代码预期不一致（list vs dict双方向）
+**背景**：providers 字段在不同时期可能是 dict 或 list，代码必须双向兼容：
+- dict格式: `{id: {...}}`（当前生产环境就是这个格式）
+- list格式: `[{id, ...}, ...]`
+
+**Bug 6a（已修复）：config从dict变为list → 代码需适配list**
+- 症状：`AttributeError: 'str' object has no attribute 'get'` 在 `_is_config_intact()` 行192 和 `check_all_providers()` 行284
+- 修复：加 `isinstance` 判断后归一化为 dict 再查询（见上方原始描述）
+
+**Bug 6b（2026-06-08新发现）：check_api_key_validity() 误用list遍历dict**
+- 症状：`AttributeError: 'str' object has no attribute 'get'`
+- 发生位置：`check_api_key_validity()` 行432，`for entry in (cfg.get("providers") or [])`
+- 根因：该函数从未应用 Bug 6a 的修复，仍然假设 providers 是 list。实际 config.yaml 中 providers 是 dict：`{'minimax-cn': {...}, 'ollama': {...}, 'siliconflow': {...}}`，迭代 dict 得到的是字符串键（如 `'minimax-cn'`），不是 dict，调用 `.get()` 即崩溃
+- 修复：
+```python
+# 修复前（假设list）
+for entry in (cfg.get("providers") or []):
+    name = entry.get('id') or entry.get('name', 'unknown')
+    if entry.get("api_key"):
+        locations.append((f"providers.{name}", entry.get("api_key", "")))
+
+# 修复后（兼容dict）
+for name, entry in (cfg.get("providers") or {}).items():
+    if entry.get("api_key"):
+        locations.append((f"providers.{name}", entry.get("api_key", "")))
+```
+
+**教训**：config_guardian.py 有多个函数分散读取 `providers`，Bug 6a 的修复只修了 `_is_config_intact()` 和 `check_all_providers()`，漏掉了 `check_api_key_validity()`。全面排查需要用 `grep -n "providers" config_guardian.py` 逐行确认所有遍历点都已加 `isinstance` 保护。
+
+**全面排查命令**：
+```bash
+grep -n "cfg.get. providers" /opt/data/scripts/config_guardian.py
+# 所有返回结果都应做 isinstance 判断，不能假设单一格式
+```
+**症状**：`AttributeError: 'list' object has no attribute 'get'` 发生在：
+- `_is_config_intact()` 行 192: `cfg.get("providers", {}).get(name)`
+- `check_all_providers()` 行 284: `providers.get(name)`
+
+**根因**：config.yaml 的 `providers` 字段已从 dict 结构（`{id: {...}}`）改为 list 结构（`[{id, ...}, ...]`），但 config_guardian.py 代码未同步更新，只调用 `.get(name)` 不兼容 list。
+
+**修复**（2处）：
+```python
+# _is_config_intact() 中
+raw_providers = cfg.get("providers") or {}
+if isinstance(raw_providers, list):
+    cfg_providers = {p.get("id"): p for p in raw_providers if isinstance(p, dict)}
+else:
+    cfg_providers = raw_providers
+for name, bl_entry in bl_providers.items():
+    entry = cfg_providers.get(name) or {}
+
+# check_all_providers() 中同样处理
+raw_providers = cfg.get("providers") or []
+if isinstance(raw_providers, list):
+    providers = {p.get("id"): p for p in raw_providers if isinstance(p, dict)}
+else:
+    providers = raw_providers or {}
+```
+
+**教训**：config.yaml 的 providers 字段格式在不同版本间可能从 dict 变为 list，代码必须同时兼容两种格式。用 `isinstance(raw_providers, list)` 判断后归一化为 dict 再查询。
+
+---
+
+## 已知的无法自动修复场景
+
+| 场景 | 原因 | 建议 |
+|---|---|---|
+| fallback_providers 为空 | baseline 中 fallback_providers 也为空，无历史数据 | 手动在 config.yaml 中配置 fallback 列表 |
+| delegation 字段全为空字符串 | baseline 中 delegation 各字段本来就是空字符串 | 无需修复（delegation 本身可为空） |
+
+## 排查方法：运行 + 读日志 + 读 state
+```bash
+# 1. 运行（自动修复）
+python3 /opt/data/scripts/config_guardian.py
+
+# 2. 检查日志（关注 ❌ 和 ⚠️）
+tail -20 /opt/data/logs/guardian.log
+
+# 3. 查看状态文件（含 broken_count + baseline）
+cat /opt/data/config/guardian_state.json
+
+# 4. 快速诊断：guardian_state 中各 provider api_key 是否为空（Bug 7 误报根因）
+cat /opt/data/config/guardian_state.json | python3 -c "
+import json,sys
+d=json.load(sys.stdin)
+for k,v in d['baseline']['providers'].items():
+    klen = len(v.get('api_key','')) if v.get('api_key') else 0
+    print(f'{k}: api_key长度={klen}')"
+
+# 5. 验证实际 config 值（"值存在 ≠ 值正确"）
+# 用 python 而非 grep，确保值真的被写入
+```
+
+## 历史教训
+**值存在 ≠ 值正确**（2026-06-07）：确认了3个配置，但重启后发现 gateway_timeout_warning/busy_input_mode/smart_model_routing 都是错的。说"配好了"和"真的配好了"是两回事。必须用 yaml.safe_load 读出实际值比对，不只是 grep 找字段是否存在。
+
+### model.provider = minimax 误报（2026-06-07）
+**症状**：guardian 报错 `model.provider 应为 wisemodel / custom / auto，当前: minimax`
+
+**根因**：config.yaml 根 `model:` 段的 `provider` 与 `base_url` 语义不一致。当 `base_url: https://open.ospreyai.cn/v1`（wisemodel/始智AI平台）时，`provider` 应为 `wisemodel`，不能用模型名 `minimax`。
+
+**修复**：手动 patch 将 `config.yaml` 中 `provider: minimax` 改为 `provider: wisemodel`，然后重新跑验证。
+
+**为何无法自动修复**：guardian `check_root_model()` 用 baseline 对比恢复，但 baseline 里也存了旧值，无法自我修正。

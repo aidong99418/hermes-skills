@@ -1,1 +1,58 @@
-LS0tCm5hbWU6IHNraWxsLW5ldXJhbC1kZWR1cC13b3JrZmxvdwpkZXNjcmlwdGlvbjogc2tpbGxfbmV1cmFs5Y676YeN6aqM6K+B5LiO5L+u5aSN4oCU4oCU6K+K5pat6YeN5aSNc2tpbGzjgIHlm7rljJbljrvph43pgLvovpHliLBidWlsZOiEmuacrOOAgemYsuatoumHjeW7uuaXtuaBouWkjeaXp+eJiOacrOOAguinpuWPke+8muWPkeeOsOmHjeWkjXNraWxsL+iHquWKqOmHjeW7uuWQjuiKgueCueaVsOW8guW4uC/mg7Pljrvph43pqozor4HjgIIKdHJpZ2dlcnM6IFsi5bel5YW3IiwgInNraWxsIiwgIuaKgOiDvSJdCnZlcnNpb246IDEuMC4wCmNyZWF0ZWQ6IDIwMjYtMDYtMDUKdGFnczogW3NraWxsLW5ldXJhbCwgZGVkdXAsIGJ1Z2ZpeCwgc2FmZXR5XQotLS0KCiMgc2tpbGxfbmV1cmFs5Y676YeN6aqM6K+B5LiO5L+u5aSN5bel5L2c5rWBCgojIyDnl4fnirYK5paw5Lya6K+d5b+Y6K6w5pen54q25oCB77yM6YeN5bu6c2tpbGxfbmV1cmFs5pe25oqK5bey5Yig6Zmk55qE6YeN5aSNc2tpbGzlj4jmgaLlpI3lm57ljrvjgIIKCiMjIOagueWboO+8iDIwMjYtMDYtMDXlrp7mtYvvvIkKYnVpbGRfbmV1cmFsX25ldHdvcmsucHnlj6rmiavmj49za2lsbHMvKumhtuWxgu+8jOa8j+aOieaJgOacieWtkOebruW9lXNraWxs44CC6YeN5bu65ZCOc2tpbGzoioLngrnku44xMjPmmrTot4zliLAzN+OAggoKIyMg5L+u5aSN5Zub5q2l5puyCgojIyMgU3RlcDE6IOaJvumHjeWkjQpgYGBiYXNoCnB5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvc2tpbGxfZGVkdXBfY2hlY2sucHkKYGBgCui+k+WHuu+8muavj+S4qm5hbWXnmoR2ZXJzaW9uL210aW1l5a+55q+U77yM5Yaz5a6a5L+d55WZ5ZOq5Liq44CCCgojIyMgU3RlcDI6IOWIoOmHjeWkjQrkv53nlZnljp/liJnvvJoqKnZlcnNpb27mm7TmlrAgPiBtdGltZeabtOaWsCoqCi0g5YigIGxvc2VyIHBhdGjvvIhTS0lMTC5tZOaJgOWcqOebruW9le+8iQotIOWkh+S7veWIsCBza2lsbF9uZXVyYWwuc25hcC9kZWR1cF9iYWNrdXAve2RhdGV9LyDlho3liKAKCiMjIyBTdGVwMzog5L+uYnVpbGTohJrmnKwKYC9vcHQvZGF0YS9zY3JpcHRzL2J1aWxkX25ldXJhbF9uZXR3b3JrLnB5YCDlv4XpobvpgJLlvZLmiavmj4/vvJoKYGBgcHl0aG9uCnNraWxsX2RpcnMgPSBbXQpmb3IgcCBpbiBQYXRoKCIvb3B0L2RhdGEvc2tpbGxzIikuZ2xvYigiKiIpOgogICAgaWYgcC5pc19kaXIoKSBhbmQgbm90IHAubmFtZS5zdGFydHN3aXRoKCIuIik6CiAgICAgICAgc2tpbGxfZGlycy5hcHBlbmQocCkKIyDpgJLlvZLmib7lrZDnm67lvZUKZm9yIHAgaW4gUGF0aCgiL29wdC9kYXRhL3NraWxscyIpLmdsb2IoIiovIik6CiAgICBpZiBwLmlzX2RpcigpIGFuZCBub3QgcC5uYW1lLnN0YXJ0c3dpdGgoIi4iKToKICAgICAgICBza2lsbF9kaXJzLmFwcGVuZChwKQpgYGAKCiMjIyBTdGVwNDog5YaF572u5b+r54WnCmJ1aWxkX25ldXJhbF9uZXR3b3JrLnB5IOavj+asoemHjeW7uuWJjeiHquWKqOW/q+eFp++8mgpgYGBweXRob24Kc25hcF9kaXIgPSBQYXRoKCIvb3B0L2RhdGEvc2tpbGxfbmV1cmFsLnNuYXAiKQpzbmFwX2Rpci5ta2RpcihleGlzdF9vaz1UcnVlKQp0cyA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlbSVkXyVIJU0lUyIpCnNodXRpbC5jb3B5KHNraWxsX25ldXJhbF9wYXRoLCBzbmFwX2RpciAvIGYic2tpbGxfbmV1cmFsX3t0c30uanNvbiIpCmBgYAoKIyMg5YWz6ZSu5paH5Lu2Ci0gYC9vcHQvZGF0YS9za2lsbHMvYCDigJQg6aG25bGC77yI5ryP5omr5qC55Zug77yJCi0gYC9vcHQvZGF0YS9za2lsbHMva25vd2xlZGdlL2Ag4oCUIOWtkOebruW9le+8iOiiq+a8j++8iQotIGAvb3B0L2RhdGEvc2tpbGxfbmV1cmFsLnNuYXAvYCDigJQg5b+r54Wn55uu5b2VCi0gYC9vcHQvZGF0YS9zY3JpcHRzL2J1aWxkX25ldXJhbF9uZXR3b3JrLnB5YCDigJQg6ZyA5L+u5aSNCi0gYC9vcHQvZGF0YS9zY3JpcHRzL3NraWxsX2RlZHVwX2NoZWNrLnB5YCDigJQg6aqM6K+B6ISa5pysCg==
+---
+name: skill-neural-dedup-workflow
+description: skill_neural去重验证与修复——诊断重复skill、固化去重逻辑到build脚本、防止重建时恢复旧版本。触发：发现重复skill/自动重建后节点数异常/想去重验证。
+triggers: ["工具", "skill", "技能"]
+version: 1.0.0
+created: 2026-06-05
+tags: [skill-neural, dedup, bugfix, safety]
+---
+
+# skill_neural去重验证与修复工作流
+
+## 症状
+新会话忘记旧状态，重建skill_neural时把已删除的重复skill又恢复回去。
+
+## 根因（2026-06-05实测）
+build_neural_network.py只扫描skills/*顶层，漏掉所有子目录skill。重建后skill节点从123暴跌到37。
+
+## 修复四步曲
+
+### Step1: 找重复
+```bash
+python3 /opt/data/scripts/skill_dedup_check.py
+```
+输出：每个name的version/mtime对比，决定保留哪个。
+
+### Step2: 删重复
+保留原则：**version更新 > mtime更新**
+- 删 loser path（SKILL.md所在目录）
+- 备份到 skill_neural.snap/dedup_backup/{date}/ 再删
+
+### Step3: 修build脚本
+`/opt/data/scripts/build_neural_network.py` 必须递归扫描：
+```python
+skill_dirs = []
+for p in Path("/opt/data/skills").glob("*"):
+    if p.is_dir() and not p.name.startswith("."):
+        skill_dirs.append(p)
+# 递归找子目录
+for p in Path("/opt/data/skills").glob("*/"):
+    if p.is_dir() and not p.name.startswith("."):
+        skill_dirs.append(p)
+```
+
+### Step4: 内置快照
+build_neural_network.py 每次重建前自动快照：
+```python
+snap_dir = Path("/opt/data/skill_neural.snap")
+snap_dir.mkdir(exist_ok=True)
+ts = datetime.now().strftime("%m%d_%H%M%S")
+shutil.copy(skill_neural_path, snap_dir / f"skill_neural_{ts}.json")
+```
+
+## 关键文件
+- `/opt/data/skills/` — 顶层（漏扫根因）
+- `/opt/data/skills/knowledge/` — 子目录（被漏）
+- `/opt/data/skill_neural.snap/` — 快照目录
+- `/opt/data/scripts/build_neural_network.py` — 需修复
+- `/opt/data/scripts/skill_dedup_check.py` — 验证脚本

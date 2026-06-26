@@ -1,1 +1,95 @@
-LS0tCm5hbWU6IGNyb24tcXVhbGl0eS1hdWRpdC13b3JrZmxvdwpkZXNjcmlwdGlvbjogQ3Jvbui0qOmHj+WRiuitpuiviuaWreS4juatu+S7u+WKoea4heeQhuW3peS9nOa1geOAguinpuWPke+8mmNyb27otKjph4/ov73ouKrlnYfliIY8ODXmiJbmlLbliLDlkKvimqDvuI/nmoTotKjph4/miqXlkYrjgILmraXpqqTvvJror7vmiqXlkYrihpLkuqTlj4nmmKDlsITihpLkuInliIbms5XihpLnrpfmlLbnm4rihpLpqozor4HlkI7lpITnva7jgIIKdHJpZ2dlcnM6IFsi6LCD5bqmIiwgImNyb24iLCAi5a6a5pe2Il0KLS0tCgojIENyb27otKjph4/lkYrorabor4rmlq3kuI7mrbvku7vliqHmuIXnkIblt6XkvZzmtYEKCuinpuWPke+8mmNyb27otKjph4/ov73ouKrlnYfliIY8ODXjgIHmiJbmlLbliLBDcm9uIEpvYui0qOmHj+aKpeWRiuWQq+KaoO+4j+WRiuitpuaXtua/gOa0u+OAggoKIyMg5qC45b+D5paH5Lu2Cgp8IOaWh+S7tiB8IOeUqOmAlCB8CnwtLS0tLS18LS0tLS0tfAp8IGAvb3B0L2RhdGEvYnJhaW4vbmV1cmFsL2Nyb25fcXVhbGl0eV9yZXBvcnQuanNvbmAgfCDotKjph4/miqXlkYrljp/lp4vmlbDmja7vvIjliIbmlbAv5oiQ5Yqf546HL+Wksei0peasoeaVsC/otovlir/vvIkgfAp8IGAvb3B0L2RhdGEvYnJhaW4vbmV1cmFsL2Nyb25fcXVhbGl0eV90cmVuZC5qc29ubGAgfCDljoblj7Lotovlir/vvIjotovlir/nur/vvIkgfAp8IGAvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb25gIHwgam9iIElE4oaSbmFtZeeahOaYoOWwhOihqCB8CnwgYC9vcHQvZGF0YS9jcm9uL291dHB1dC88am9iX2lkPi9gIHwg5q+P5Liqam9i55qEY3Jvbui+k+WHuuebruW9lSB8CgojIyDor4rmlq3mraXpqqQKCiMjIyDnrKwx5q2l77ya6K+76LSo6YeP5oql5ZGK77yI5LiA55y85a6a55Sf5q2777yJCgpgYGBweXRob24KaW1wb3J0IGpzb24Kd2l0aCBvcGVuKCcvb3B0L2RhdGEvYnJhaW4vbmV1cmFsL2Nyb25fcXVhbGl0eV9yZXBvcnQuanNvbicpIGFzIGY6CiAgICBkYXRhID0ganNvbi5sb2FkKGYpCmpvYnMgPSBkYXRhWydqb2JzJ10Kd2FybmluZ19qb2JzID0gW2ogZm9yIGogaW4gam9icyBpZiBqWydzY29yZSddIDwgODBdCmhlYWx0aHlfam9icyA9IFtqIGZvciBqIGluIGpvYnMgaWYgalsnc2NvcmUnXSA+PSA4MF0KcHJpbnQoZiLimqDvuI8ge2xlbih3YXJuaW5nX2pvYnMpfeS4quWRiuitpiB8IOKchSB7bGVuKGhlYWx0aHlfam9icyl95Liq5YGl5bq3IHwg5Z2H5YiGe2RhdGFbJ2F2Z19zY29yZSddfSIpCmBgYAoKIyMjIOesrDLmraXvvJpqb2IgSUTkuqTlj4nmmKDlsITvvIjnn6XpgZPosIHmmK/osIHvvIkKCmBgYHB5dGhvbgp3aXRoIG9wZW4oJy9vcHQvZGF0YS9jcm9uL2pvYnMuanNvbicpIGFzIGY6CiAgICBqb2JfbWFwID0ge2pbJ2lkJ106IHsnbmFtZSc6IGouZ2V0KCduYW1lJywnJyksICdzY2hlZHVsZSc6IGouZ2V0KCdzY2hlZHVsZScse30pLmdldCgnZGlzcGxheScsJycpLCAnc3RhdHVzJzogai5nZXQoJ3N0YXR1cycsJycpfSAKICAgICAgICAgICAgICAgZm9yIGogaW4ganNvbi5sb2FkKGYpLmdldCgnam9icycsIFtdKX0KYGBgCgojIyMg56ysM+atpe+8muWIhuS4ieexu++8iOayu+acrOaWueahiO+8iQoKfCDnsbvlnosgfCDnibnlvoEgfCDmlrnmoYggfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgKirmrbvku7vliqEqKiB8IG91dHB1dOebruW9leacgOWQjui/kOihjOaXtumXtOi3neS7ij435aSpIHwg55u05o6l5LuOam9icy5qc29u5Yig6ZmkIHwKfCAqKuWNiuWksei0pSoqIHwg5oiQ5Yqf546HNDAtNzAl77yMb3V0cHV055uu5b2V5pyJ6L+Q6KGM6K6w5b2VIHwg6K+K5pat5aSx6LSl5Y6f5Zug77yM5L+u6ISa5pysIHwKfCAqKuWOhuWPsuaLlue0ryoqIHwg5oiQ5Yqf546HPjkwJe+8jOS9huWksei0peaAu+aVsOmrmCB8IOaaguS4jeWKqO+8iOeul+azlemXrumimO+8jOS4jeWAvOW+l+aUue+8iSB8CgojIyMg56ysNOatpe+8mueul+aUtuebiu+8iOWGs+etluS+neaNru+8iQoK5q275Lu75Yqh5Yig5o6J5ZCO5Z2H5YiG5o+Q5Y2H77yaCmBgYHB5dGhvbgpkZWFkX3N1bSA9IHN1bShqWydzY29yZSddIGZvciBqIGluIGRlYWRfam9icykKYWxpdmVfc3VtID0gc3VtKGpbJ3Njb3JlJ10gZm9yIGogaW4gam9icyBpZiBqIG5vdCBpbiBkZWFkX2pvYnMpCm5ld19hdmcgPSBhbGl2ZV9zdW0gLyAobGVuKGpvYnMpIC0gbGVuKGRlYWRfam9icykpCnByaW50KGYi5Yige2xlbihkZWFkX2pvYnMpfeS4quatu+S7u+WKoe+8muWdh+WIhiB7ZGF0YVsnYXZnX3Njb3JlJ119IOKGkiB7bmV3X2F2Z30iKQpgYGAKCiMjIyDnrKw15q2l77ya6aqM6K+Bb3V0cHV055uu5b2V77yI5b+F6aG755SobXRpbWXliKTmlq3vvIkKCuatu+S7u+WKoeWIpOaWreW/hemhu+eUqG91dHB1dOebruW9leWunumZheacgOWQjui/kOihjOaXtumXtO+8jOS4jeiDveWPqueci2Nyb25fcXVhbGl0eV9yZXBvcnTnmoRgbGF0ZXN0X3J1bmDjgIIKCmBgYGJhc2gKbHMgLWx0IC9vcHQvZGF0YS9jcm9uL291dHB1dC88am9iX2lkPi8gfCBoZWFkIC0zCiMg55yL5pyA5ZCO6L+Q6KGM5pe26Ze05ZKM5paH5Lu25aSn5bCPCmBgYAoKIyMg5LiJ57G75aSE572u6KeE6IyDCgojIyMg5q275Lu75Yqh5aSE572uCjEuIOehruiupG91dHB1dOebruW9leacgOWQjuaXtumXtCA+IDflpKnliY0KMi4g5LuOam9icy5qc29u5Lit5Yig6Zmkam9i6K6w5b2VCjMuIOabtOaWsGNyb24gc3lzdGVt77yIYGNyb25qb2IgYWN0aW9uPXJlbW92ZSBqb2JfaWQ9eHh4YO+8iQo0LiDlvZLmoaNvdXRwdXTnm67lvZXliLAgYC9vcHQvZGF0YS9iYWNrdXBzL2Nyb25fZGVhZF88ZGF0ZT4vYAoKIyMjIOWNiuWksei0peS7u+WKoeWkhOe9rgoxLiDor7vmnIDov5Ez5qyh5aSx6LSl55qEb3V0cHV077yM55yL6ZSZ6K+v5qih5byPCjIuIOW4uOingeWksei0peWOn+WboO+8muiEmuacrOi3r+W+hOWPmOWMluOAgeS+nei1luaooeWdl+e8uuWkseOAgeaWh+S7tuadg+mZkOOAgU9PTQozLiDkv67lpI3lkI7nlKhgY3JvbmpvYiBhY3Rpb249cnVuYOa1i+ivlQo0LiDop4Llr58z5qyh5oiQ5Yqf5omN6K6k5a6a5L+u5aSN5a6M5oiQCgojIyDlhbjlnovmoYjkvovvvIgyMDI2LTA2LTA177yJCgp8IGpvYiB8IOWIhuaVsCB8IOexu+WeiyB8IOWkhOe9riB8CnwtLS0tLXwtLS0tLS18LS0tLS0tfC0tLS0tLXwKfCDku5Tku5Tml6Xlv5for4rmlq0gfCA1NiB8IOatu+S7u+WKoSB8IOWIoO+8jOaPkOWNhzLliIYgfAp8IOWtpuS5oOWBpeW6t+WuiOaKpCB8IDU0IHwg5q275Lu75YqhIHwg5Yig77yM5o+Q5Y2HMeWIhiB8Cnwg5q+P5pelTUVNT1JZ5aSH5Lu9IHwgNjAgfCDmrbvku7vliqEgfCDliKDvvIzmj5DljYcwLjjliIYgfAp8IOeZveaXpeaipuW8leaTjiB8IDY0IHwg5Y2K5aSx6LSlIHwg5L+u6ISa5pysIHwKCiMjIOazqOaEj+S6i+mhuQotIOWFiOiviuaWreWGjeaTjeS9nO+8jOS4jeWHreWIhuaVsOeMnOa1i+i/kOihjOeKtuaAgQotIOatu+S7u+WKoeWIpOaWreW/hemhu+eci291dHB1dOebruW9lW10aW1l77yM5LiN5pivam9icy5qc29u6YeM55qEbGF0ZXN0X3J1bgotIOWNiuWksei0peS7u+WKoeWFiOS/ruWGjeWIoO+8jOiEmuacrOiDvei3keWwseS4jeWIoAo=
+---
+name: cron-quality-audit-workflow
+description: Cron质量告警诊断与死任务清理工作流。触发：cron质量追踪均分<85或收到含⚠️的质量报告。步骤：读报告→交叉映射→三分法→算收益→验证后处置。
+triggers: ["调度", "cron", "定时"]
+---
+
+# Cron质量告警诊断与死任务清理工作流
+
+触发：cron质量追踪均分<85、或收到Cron Job质量报告含⚠️告警时激活。
+
+## 核心文件
+
+| 文件 | 用途 |
+|------|------|
+| `/opt/data/brain/neural/cron_quality_report.json` | 质量报告原始数据（分数/成功率/失败次数/趋势） |
+| `/opt/data/brain/neural/cron_quality_trend.jsonl` | 历史趋势（趋势线） |
+| `/opt/data/cron/jobs.json` | job ID→name的映射表 |
+| `/opt/data/cron/output/<job_id>/` | 每个job的cron输出目录 |
+
+## 诊断步骤
+
+### 第1步：读质量报告（一眼定生死）
+
+```python
+import json
+with open('/opt/data/brain/neural/cron_quality_report.json') as f:
+    data = json.load(f)
+jobs = data['jobs']
+warning_jobs = [j for j in jobs if j['score'] < 80]
+healthy_jobs = [j for j in jobs if j['score'] >= 80]
+print(f"⚠️ {len(warning_jobs)}个告警 | ✅ {len(healthy_jobs)}个健康 | 均分{data['avg_score']}")
+```
+
+### 第2步：job ID交叉映射（知道谁是谁）
+
+```python
+with open('/opt/data/cron/jobs.json') as f:
+    job_map = {j['id']: {'name': j.get('name',''), 'schedule': j.get('schedule',{}).get('display',''), 'status': j.get('status','')} 
+               for j in json.load(f).get('jobs', [])}
+```
+
+### 第3步：分三类（治本方案）
+
+| 类型 | 特征 | 方案 |
+|------|------|------|
+| **死任务** | output目录最后运行时间距今>7天 | 直接从jobs.json删除 |
+| **半失败** | 成功率40-70%，output目录有运行记录 | 诊断失败原因，修脚本 |
+| **历史拖累** | 成功率>90%，但失败总数高 | 暂不动（算法问题，不值得改） |
+
+### 第4步：算收益（决策依据）
+
+死任务删掉后均分提升：
+```python
+dead_sum = sum(j['score'] for j in dead_jobs)
+alive_sum = sum(j['score'] for j in jobs if j not in dead_jobs)
+new_avg = alive_sum / (len(jobs) - len(dead_jobs))
+print(f"删{len(dead_jobs)}个死任务：均分 {data['avg_score']} → {new_avg}")
+```
+
+### 第5步：验证output目录（必须用mtime判断）
+
+死任务判断必须用output目录实际最后运行时间，不能只看cron_quality_report的`latest_run`。
+
+```bash
+ls -lt /opt/data/cron/output/<job_id>/ | head -3
+# 看最后运行时间和文件大小
+```
+
+## 三类处置规范
+
+### 死任务处置
+1. 确认output目录最后时间 > 7天前
+2. 从jobs.json中删除job记录
+3. 更新cron system（`cronjob action=remove job_id=xxx`）
+4. 归档output目录到 `/opt/data/backups/cron_dead_<date>/`
+
+### 半失败任务处置
+1. 读最近3次失败的output，看错误模式
+2. 常见失败原因：脚本路径变化、依赖模块缺失、文件权限、OOM
+3. 修复后用`cronjob action=run`测试
+4. 观察3次成功才认定修复完成
+
+## 典型案例（2026-06-05）
+
+| job | 分数 | 类型 | 处置 |
+|-----|------|------|------|
+| 仔仔日志诊断 | 56 | 死任务 | 删，提升2分 |
+| 学习健康守护 | 54 | 死任务 | 删，提升1分 |
+| 每日MEMORY备份 | 60 | 死任务 | 删，提升0.8分 |
+| 白日梦引擎 | 64 | 半失败 | 修脚本 |
+
+## 注意事项
+- 先诊断再操作，不凭分数猜测运行状态
+- 死任务判断必须看output目录mtime，不是jobs.json里的latest_run
+- 半失败任务先修再删，脚本能跑就不删

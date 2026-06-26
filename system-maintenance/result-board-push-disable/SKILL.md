@@ -1,1 +1,96 @@
-LS0tCm5hbWU6IHJlc3VsdC1ib2FyZC1wdXNoLWRpc2FibGUKZGVzY3JpcHRpb246IOawuOS5heemgeeUqOenmOS5puWkhHJlc3VsdF9ib2FyZOmjnuS5puaOqOmAge+8jOS/neeVmeS7u+WKoeWkhOeQhumTvui3rwp0cmlnZ2VyczoKICAtIOWFs+mXreenmOS5puWkhOWIt+Wxj+aOqOmAgQogIC0gcmVzdWx0X2JvYXJk5o6o6YCB5rC45LmF5YGc55SoCiAgLSDmjqjnkIbnp5jkuabnu5PmnpzkuI3mjqjpgIHpo57kuaYKLS0tCgojIFJlc3VsdCBCb2FyZCDmjqjpgIHmsLjkuYXnpoHnlKggU2tpbGwKCiMjIOinpuWPkeWcuuaZrwrmsLjkuYXlhbPpl63np5jkuablpIQgcmVzdWx0X2JvYXJkIOaOqOmAgemjnuS5pumAmuefpe+8jOS9huS/neeVmeS7u+WKoeWkhOeQhumTvui3r+OAggoKIyMg5a6M5pW05pON5L2c5q2l6aqkCgojIyMg56ys5LiA5q2l77ya5riF56m656ev5Y6L55qEIHBlbmRpbmdfcHVzaArnm7TmjqXkv67mlLkgcmVzdWx0X2JvYXJkLmpzb27vvIzmiormiYDmnIkgcGVuZGluZ19wdXNoIOagh+iusOS4uiBza2lwcGVkX25vX3B1c2jvvJoKYGBgcHl0aG9uCmltcG9ydCBqc29uCndpdGggb3BlbignL29wdC9kYXRhL3NlY3JldGFyeS9yZXN1bHRfYm9hcmQuanNvbicpIGFzIGY6CiAgICBib2FyZCA9IGpzb24ubG9hZChmKQoKcmVzdWx0cyA9IGJvYXJkLmdldCgncmVzdWx0cycsIFtdKQpmb3IgciBpbiByZXN1bHRzOgogICAgaWYgci5nZXQoJ3N0YXR1cycpID09ICdwZW5kaW5nX3B1c2gnOgogICAgICAgIHJbJ3N0YXR1cyddID0gJ3NraXBwZWRfbm9fcHVzaCcKICAgICAgICByWydza2lwcGVkX2F0J10gPSBkYXRldGltZS5ub3coKS5pc29mb3JtYXQoKQoKYm9hcmRbJ3Jlc3VsdHMnXSA9IHJlc3VsdHMKYm9hcmRbJ2xhc3RfdXBkYXRlZCddID0gZGF0ZXRpbWUubm93KCkuaXNvZm9ybWF0KCkKd2l0aCBvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uJywgJ3cnKSBhcyBmOgogICAganNvbi5kdW1wKGJvYXJkLCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQpgYGAKCiMjIyDnrKzkuozmraXvvJrloLXmrbsgcXVldWVfd29ya2VyX2Nyb24ucHkg5o6o6YCB5YWl5Y+jCuaWh+S7tu+8mmAvb3B0L2RhdGEvc2NyaXB0cy9xdWV1ZV93b3JrZXJfY3Jvbi5weWAK5om+5YiwIGBpZiBub3QgcGVuZGluZzpgIOS5i+WQjueahOaOqOmAgeW+queOr++8jOabv+aNouS4uu+8mgpgYGBweXRob24KIyDjgJAyMDI2LTA2LTE45L+u5aSN44CRcmVzdWx0X2JvYXJk5o6o6YCB5bey5rC45LmF5YGc55So77yI5Yi35bGP6Zeu6aKY77yJCnB1c2hlZF9pZHMgPSBbci5nZXQoImlkIikgZm9yIHIgaW4gcGVuZGluZyBpZiByLmdldCgiaWQiKV0KZm9yIHIgaW4gcmVzdWx0czoKICAgIGlmIHIuZ2V0KCJpZCIpIGluIHB1c2hlZF9pZHM6CiAgICAgICAgclsic3RhdHVzIl0gPSAicHVzaGVkIgogICAgICAgIHJbInB1c2hlZF9hdCJdID0gZGF0ZXRpbWUubm93KCkuaXNvZm9ybWF0KCkKCmJvYXJkWyJyZXN1bHRzIl0gPSByZXN1bHRzCmJvYXJkWyJsYXN0X3VwZGF0ZWQiXSA9IGRhdGV0aW1lLm5vdygpLmlzb2Zvcm1hdCgpCndyaXRlX2pzb24oUkVTVUxUX0JPQVJELCBib2FyZCkKcHJpbnQoZiJbT0tdIOW3sumdmem7mOWkhOeQhiB7bGVuKHB1c2hlZF9pZHMpfSDmnaHvvIjkuI3mjqjpgIHpo57kuabvvIkiKQpgYGAKCiMjIyDnrKzkuInmraXvvJrloLXmrbsgdGFza19yZWNvdmVyeV9jcm9uLnB5IOS4pOS4quWFpeWPowrmlofku7bvvJpgL29wdC9kYXRhL3NjcmlwdHMvdGFza19yZWNvdmVyeV9jcm9uLnB5YAoKKirlhaXlj6MxKirvvJpgcmVjb3Zlcl9yZXN1bHRfYm9hcmQoKWAg5Lit55qEIGNvbXBsZXRlZOKGknBlbmRpbmdfcHVzaCDov4Hnp7sKYGBgcHl0aG9uCmZvciByIGluIHJlc3VsdHM6CiAgICAjIOOAkDIwMjYtMDYtMTjmsLjkuYXnpoHnlKjjgJHkuI3lho3ov4Hnp7vku7vkvZXnirbmgIHliLBwZW5kaW5nX3B1c2jvvIzmjqjpgIHlt7LlgZznlKgKICAgIHBhc3MKYGBgCgoqKuWFpeWPozIqKu+8mmByZXRyeV9zdHVja19wZW5kaW5nX3B1c2goKWAg5pW05L2T5pS55Li656m65pON5L2cCmBgYHB5dGhvbgpkZWYgcmV0cnlfc3R1Y2tfcGVuZGluZ19wdXNoKCk6CiAgICAiIiLjgJAyMDI2LTA2LTE45rC45LmF56aB55So44CRcmVzdWx0X2JvYXJk5o6o6YCB5bey5YGc55SoIiIiCiAgICByZXR1cm4gW10sIFtdCmBgYAoKIyMjIOesrOWbm+atpe+8muS/ruWkjSBwYXRjaCDlr7zoh7TnmoTph43lpI3lh73mlbDlrprkuYkK5aSa5qyhIHBhdGNoIOWQjOS4gOWHveaVsOWuueaYk+eVmeS4i+S4pOS4qiBgZGVmIGZ1bmNuYW1lYOOAgumqjOivge+8mgpgYGBiYXNoCmdyZXAgLW4gIl5kZWYgcmV0cnlfc3R1Y2tfcGVuZGluZ19wdXNoIiAvb3B0L2RhdGEvc2NyaXB0cy90YXNrX3JlY292ZXJ5X2Nyb24ucHkKYGBgCuWmguaenOS4pOihjO+8jOivu+WPluS4iuS4i+aWh+WQjuWQiOW5tuS4uuWNleS4gOWHveaVsOWumuS5ieOAggoKIyMjIOesrOS6lOatpe+8muivreazlemqjOivgQpgYGBiYXNoCnB5dGhvbjMgLW0gcHlfY29tcGlsZSAvb3B0L2RhdGEvc2NyaXB0cy90YXNrX3JlY292ZXJ5X2Nyb24ucHkKcHl0aG9uMyAtbSBweV9jb21waWxlIC9vcHQvZGF0YS9zY3JpcHRzL3F1ZXVlX3dvcmtlcl9jcm9uLnB5CmBgYAoKIyMjIOesrOWFreatpe+8mumqjOivgee7k+aenOadv+eKtuaAgQpgYGBweXRob24Kd2l0aCBvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uJykgYXMgZjoKICAgIGJvYXJkID0ganNvbi5sb2FkKGYpCnJlc3VsdHMgPSBib2FyZC5nZXQoJ3Jlc3VsdHMnLCBbXSkKcGVuZGluZyA9IFtyIGZvciByIGluIHJlc3VsdHMgaWYgci5nZXQoJ3N0YXR1cycpID09ICdwZW5kaW5nX3B1c2gnXQpwcmludChmInBlbmRpbmdfcHVzaD17bGVuKHBlbmRpbmcpfSIpCmBgYArpooTmnJ/vvJpwZW5kaW5nX3B1c2g9MAoKIyMg5YWz6ZSu5pWZ6K6tCi0gcGF0Y2gg5LiN6IO95rOo6YeK5o6JIGlmL2ZvciDooYzogIzkv53nlZnlvqrnjq/kvZPvvIzkvJrnoLTlnY/nvKnov5vnu5PmnoQKLSDlpJrmrKEgcGF0Y2gg5ZCM5LiA5Yy65Z+f5Y+v6IO955WZ5LiL6YeN5aSN5Ye95pWw5a6a5LmJ77yM5LqL5ZCO6KaBIGdyZXAg6aqM6K+BCi0g5o6o6YCB56aB55So5b+F6aG75ZCM5pe25aSE55CG5LiJ5Liq5YWl5Y+j77yaY29tcGxldGVk4oaScGVuZGluZ19wdXNo6L+B56e744CBcGVuZGluZ19wdXNo4oaScHVzaGVk5o6o6YCB44CB6YeN6K+V5o6o6YCB5Ye95pWwCg==
+---
+name: result-board-push-disable
+description: 永久禁用秘书处result_board飞书推送，保留任务处理链路
+triggers:
+  - 关闭秘书处刷屏推送
+  - result_board推送永久停用
+  - 推理秘书结果不推送飞书
+---
+
+# Result Board 推送永久禁用 Skill
+
+## 触发场景
+永久关闭秘书处 result_board 推送飞书通知，但保留任务处理链路。
+
+## 完整操作步骤
+
+### 第一步：清空积压的 pending_push
+直接修改 result_board.json，把所有 pending_push 标记为 skipped_no_push：
+```python
+import json
+with open('/opt/data/secretary/result_board.json') as f:
+    board = json.load(f)
+
+results = board.get('results', [])
+for r in results:
+    if r.get('status') == 'pending_push':
+        r['status'] = 'skipped_no_push'
+        r['skipped_at'] = datetime.now().isoformat()
+
+board['results'] = results
+board['last_updated'] = datetime.now().isoformat()
+with open('/opt/data/secretary/result_board.json', 'w') as f:
+    json.dump(board, f, ensure_ascii=False, indent=2)
+```
+
+### 第二步：堵死 queue_worker_cron.py 推送入口
+文件：`/opt/data/scripts/queue_worker_cron.py`
+找到 `if not pending:` 之后的推送循环，替换为：
+```python
+# 【2026-06-18修复】result_board推送已永久停用（刷屏问题）
+pushed_ids = [r.get("id") for r in pending if r.get("id")]
+for r in results:
+    if r.get("id") in pushed_ids:
+        r["status"] = "pushed"
+        r["pushed_at"] = datetime.now().isoformat()
+
+board["results"] = results
+board["last_updated"] = datetime.now().isoformat()
+write_json(RESULT_BOARD, board)
+print(f"[OK] 已静默处理 {len(pushed_ids)} 条（不推送飞书）")
+```
+
+### 第三步：堵死 task_recovery_cron.py 两个入口
+文件：`/opt/data/scripts/task_recovery_cron.py`
+
+**入口1**：`recover_result_board()` 中的 completed→pending_push 迁移
+```python
+for r in results:
+    # 【2026-06-18永久禁用】不再迁移任何状态到pending_push，推送已停用
+    pass
+```
+
+**入口2**：`retry_stuck_pending_push()` 整体改为空操作
+```python
+def retry_stuck_pending_push():
+    """【2026-06-18永久禁用】result_board推送已停用"""
+    return [], []
+```
+
+### 第四步：修复 patch 导致的重复函数定义
+多次 patch 同一函数容易留下两个 `def funcname`。验证：
+```bash
+grep -n "^def retry_stuck_pending_push" /opt/data/scripts/task_recovery_cron.py
+```
+如果两行，读取上下文后合并为单一函数定义。
+
+### 第五步：语法验证
+```bash
+python3 -m py_compile /opt/data/scripts/task_recovery_cron.py
+python3 -m py_compile /opt/data/scripts/queue_worker_cron.py
+```
+
+### 第六步：验证结果板状态
+```python
+with open('/opt/data/secretary/result_board.json') as f:
+    board = json.load(f)
+results = board.get('results', [])
+pending = [r for r in results if r.get('status') == 'pending_push']
+print(f"pending_push={len(pending)}")
+```
+预期：pending_push=0
+
+## 关键教训
+- patch 不能注释掉 if/for 行而保留循环体，会破坏缩进结构
+- 多次 patch 同一区域可能留下重复函数定义，事后要 grep 验证
+- 推送禁用必须同时处理三个入口：completed→pending_push迁移、pending_push→pushed推送、重试推送函数

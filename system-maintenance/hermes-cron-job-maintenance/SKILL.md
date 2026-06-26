@@ -1,1 +1,49 @@
-LS0tCm5hbWU6IGhlcm1lcy1jcm9uLWpvYi1tYWludGVuYW5jZQpkZXNjcmlwdGlvbjogSGVybWVzIHNjaGVkdWxlciBjcm9uIGpvYnPnu7TmiqTlt6XkvZzmtYEg4oCUIOeyvueugOOAgeWOu+mHjeOAgemYsmJ1cnN044CC6Kem5Y+R77yaam9i6YeN5aSNL+aSnui9pi/ph43lkK/ljaHpob/ml7bkvb/nlKjjgIIKdHJpZ2dlcnM6CiAgLSDlj5HnjrBqb2Lph43lpI3miJbmkp7ovaYKICAtIOmHjeWQr+WQjuS7u+WKoeeIhuWPkeWNoemhvwogIC0g6ZyA6KaB57K+566A5oiW6YeN5o6Sam9iCnZlcnNpb246IDEuMAotLS0KCiMgSGVybWVzIENyb24gSm9icyDnu7TmiqTlt6XkvZzmtYEKCiMjIOW/q+mAn+iviuaWrQpgYGBiYXNoCnB5dGhvbjMgLWMgIgppbXBvcnQganNvbgpkYXRhID0ganNvbi5sb2FkKG9wZW4oJy9vcHQvZGF0YS9jcm9uL2pvYnMuanNvbicpKQpqb2JzID0gZGF0YVsnam9icyddCmVuYWJsZWQgPSBbaiBmb3IgaiBpbiBqb2JzIGlmIGouZ2V0KCdlbmFibGVkJywgVHJ1ZSldCnByaW50KGYn5oC7OiB7bGVuKGpvYnMpfSDlkK/nlKg6IHtsZW4oZW5hYmxlZCl9JykKZm9yIGcgaW4gWzAsNjAsMzAwLDYwMCwxODAwLDM2MDBdOgogICAgbiA9IGxlbihbaiBmb3IgaiBpbiBlbmFibGVkIGlmIGouZ2V0KCdncmFjZV9zZWNvbmRzJywwKT09Z10pCiAgICBpZiBuOiBwcmludChmJyAgZ3JhY2U9e2d9czoge2595LiqJykKIgpgYGAKCiMjIOW4uOingemXrumimAoKIyMjIGJ1cnN054iG5Y+R77yI6YeN5ZCv5Y2h6aG/5qC55Zug77yJCuezu+e7n2Nyb24gKyBIZXJtZXMgc2NoZWR1bGVy5Y+M5aWX5ZCM5pe26LeRIOKGkiDmiYDmnIltaXNz55qEam9i6YeN5ZCv556s6Ze05LiA6LW35omn6KGMCgrkv67lpI3vvJrliqBncmFjZSArIOWPqueUqEhlcm1lcyBzY2hlZHVsZXLkuIDlpZcKCiMjIyBqb2Lph43lpI3mkp7ovaYKLSBgc2tpbGzlgaXlurflrojmiqRgIHZzIOaKgOiDveWNq+Wjq+WuiOaKpOi/m+eoiyDihpIgKirliKDlrprml7Zqb2IqKgotIOWkmuS4quavjzLlsI/ml7bnmb3ml6XmoqYg4oaSICoq5Y+q55WZMeS4qioqCi0g5aSa5Liq5YeM5pmoM+eCueWkh+S7vSDihpIgKirlkIjlubYqKgoKIyMjIOW9u+W6lea4heezu+e7n2Nyb24K5Y+q5YigY3JvbuacrOi6q+ebuOWFs++8jOS4jeWIoOWFtuS7luWKn+iDvemFjee9ruaWh+S7tu+8mgotIGAvdXNyL3NiaW4vY3JvbmAgYC91c3IvYmluL2Nyb250YWJgIOKGkiDliKDpmaQKLSBgL2V0Yy9jcm9udGFiYCArIGBjcm9uLmQvKmAg4oaSIOWIoOmZpAotIGAvZXRjL3N1cGVyY2F0L3NwY3JjLWNyb250YWJgIOKGkiAqKuS4jeWIoCoq77yI55So5oi35YW25LuW5Yqf6IO977yJCgoqKuazqOaEjyoq77yaImNyb27pop3luqbmlofku7YiPWNyb27nm7jlhbPphY3nva7vvIzkuI3mmK/no4Hnm5hxdW90YQoKIyMg57u05oqk57qq5b6LCi0g5Yigam9i55u05o6l5Yig6Zmk77yM5LiN55WZZW5hYmxlZD1GYWxzZeaui+eVmQotIOiRo+WTpeimgeaxguebtOaOpeW5su+8jOS4jeWBmuWGl+S9meWIhuaekAo=
+---
+name: hermes-cron-job-maintenance
+description: Hermes scheduler cron jobs维护工作流 — 精简、去重、防burst。触发：job重复/撞车/重启卡顿时使用。
+triggers:
+  - 发现job重复或撞车
+  - 重启后任务爆发卡顿
+  - 需要精简或重排job
+version: 1.0
+---
+
+# Hermes Cron Jobs 维护工作流
+
+## 快速诊断
+```bash
+python3 -c "
+import json
+data = json.load(open('/opt/data/cron/jobs.json'))
+jobs = data['jobs']
+enabled = [j for j in jobs if j.get('enabled', True)]
+print(f'总: {len(jobs)} 启用: {len(enabled)}')
+for g in [0,60,300,600,1800,3600]:
+    n = len([j for j in enabled if j.get('grace_seconds',0)==g])
+    if n: print(f'  grace={g}s: {n}个')
+"
+```
+
+## 常见问题
+
+### burst爆发（重启卡顿根因）
+系统cron + Hermes scheduler双套同时跑 → 所有miss的job重启瞬间一起执行
+
+修复：加grace + 只用Hermes scheduler一套
+
+### job重复撞车
+- `skill健康守护` vs 技能卫士守护进程 → **删定时job**
+- 多个每2小时白日梦 → **只留1个**
+- 多个凌晨3点备份 → **合并**
+
+### 彻底清系统cron
+只删cron本身相关，不删其他功能配置文件：
+- `/usr/sbin/cron` `/usr/bin/crontab` → 删除
+- `/etc/crontab` + `cron.d/*` → 删除
+- `/etc/supercat/spcrc-crontab` → **不删**（用户其他功能）
+
+**注意**："cron额度文件"=cron相关配置，不是磁盘quota
+
+## 维护纪律
+- 删job直接删除，不留enabled=False残留
+- 董哥要求直接干，不做冗余分析

@@ -1,1 +1,90 @@
-LS0tCm5hbWU6IHN5c3RlbS11cGdyYWRlLXZlcmlmaWNhdGlvbi1mcmFtZXdvcmsKZGVzY3JpcHRpb246IE5BU+ezu+e7n+WNh+e6p+WGs+etluahhuaetuKAlOKAlOWFiOmqjOivgeWunumZheeKtuaAgeWGjee7meaOqOiNkO+8jOmBv+WFjeagueaNruaWh+S7tuWIl+ihqOaOqOa1i+OAguinpuWPke+8mumcgOimgeivhOS8sOWNh+e6p+aWueahiOOAgeiviuaWreezu+e7n+iWhOW8seeCueOAgeaOqOiNkOaWsOW3peWFt+OAggp0cmlnZ2VyczogWyLns7vnu58iLCAi5p625p6EIl0KdmVyc2lvbjogMS4wCi0tLQoKIyBTeXN0ZW0gVXBncmFkZSBEZWNpc2lvbiBGcmFtZXdvcmsKCiMjIOaguOW/g+WOn+WImQoqKuWFiOmqjOivge+8jOWGjeaOqOiNkCoq44CC5Lil56aB5Z+65LqO5paH5Lu25YiX6KGo5oiW55uu5b2V5aSn5bCP5YGa5o6o5rWL5oCn5Yik5pat44CCCgojIyDor4TkvLDmraXpqqTvvIjpobrluo/kuI3lj6/ot7Pov4fvvIkKCiMjIyDnrKww5q2l77yaR2l0SHVi5LiL6L295rqQ5Y+v55So5oCn5rWL6K+VCuWcqOWwneivleS7u+S9leWuieijheWJje+8jOWFiOa1i+ivleS7o+eQhuaYr+WQpuWPr+eUqO+8mgoKYGBgYmFzaAojIOa1i+ivlUdpdEh1Yuiuv+mXruaWueW8j++8iOmBv+W8gEFQSemZkOa1ge+8iQpnaXQgbHMtcmVtb3RlIGh0dHBzOi8vZ2l0ZWUuY29tL21pcnJvcnMve3JlcG99LmdpdCBIRUFECmN1cmwgLXNJIGh0dHBzOi8vZ2hwcm94eS5uZXQvaHR0cHM6Ly9naXRodWIuY29tL3t1c2VyfS97cmVwb30vcmVsZWFzZXMvZG93bmxvYWQvdnt2ZXJ9L2ZpbGUgMj4vZGV2L251bGwgfCBoZWFkIC0xCiMganNEZWxpdnIgQ0ROCmN1cmwgLXNJIGh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC97dXNlcn0ve3JlcG99LyAyPi9kZXYvbnVsbCB8IGhlYWQgLTEKYGBgCgoqKuW3sumqjOivgeWPr+eUqOeahOWFjei0ueS7o+eQhioq77yaCi0gYGh0dHBzOi8vZ2l0ZWUuY29tL21pcnJvcnMve3JlcG99YCDigJQg5a6Y5pa557u05oqk77yM5peg6ZmQ6YCfCi0gYGh0dHBzOi8vZ2hwcm94eS5uZXQvYCDigJQg5YWs55uK5Luj55CG77yM5qC85byP77yaYGh0dHBzOi8vZ2hwcm94eS5uZXQvaHR0cHM6Ly9naXRodWIuY29tL3t1c2VyfS97cmVwb30vcmVsZWFzZXMvZG93bmxvYWQve3RhZ30ve2ZpbGV9YAotIGBodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvYCDigJQgQ2xvdWRmbGFyZSBDRE7vvIzml6DpmZDpgJ8KCiMjIyDnrKwx5q2l77ya5a6e6ZmF6L+Q6KGM5rWL6K+V77yI5LiN5Y+v6Lez6L+H77yJCmBgYHB5dGhvbgojIOKdjCDplJnor6/lgZrms5XvvJrmoLnmja7mlofku7blpKflsI8v55uu5b2V5YiX6KGo5o6o5rWLCmR1IC1zaCAvb3B0L2RhdGEvYnJhaW4vbWVtb3J5LyAgIyDlj6/og73or6/lr7wKCiMg4pyFIOato+ehruWBmuazle+8muWunumZhei/kOihjOW5tuinguWvn+i+k+WHugpjZCAvb3B0L2RhdGEvc2NyaXB0cyAmJiBweXRob24zIC1jICIKZnJvbSBicmFpbl9yZXRyaWV2ZXIgaW1wb3J0IEJyYWluUmV0cmlldmVyCnIgPSBCcmFpblJldHJpZXZlcigpCnJlcyA9IHIuc2VhcmNoKCfmtYvor5UnLCB0b3Bfaz0zKQpwcmludChmJ1Jlc3VsdHM6IHtsZW4ocmVzKX0nKQojIOinguWvn+WunumZhei+k+WHuuWSjOiAl+aXtgoiCmBgYAoKIyMjIOesrDLmraXvvJrov73ouKrosIPnlKjpk77vvIjkuI3lj6/ot7Pov4fvvIkKYGBgcHl0aG9uCiMg4p2MIOmUmeivr+WBmuazle+8muWPqueci+mdmeaAgeaWh+S7tgpncmVwIC1yICJCTTI1IiAvb3B0L2RhdGEvc2NyaXB0cy8gICMg5Y+q55yL5YiwaW1wb3J06K+t5Y+lCgojIOKchSDmraPnoa7lgZrms5XvvJrov73ouKrlrp7pmYXmlbDmja7mtYEKZ3JlcCAtbiAiZGVmIHNlYXJjaFx8ZGVmIHJldHJpZXZlXHxkZWYgZmV0Y2giIGJyYWluX3JldHJpZXZlci5weQpncmVwIC1uICJicmFpbl9yZXRyaWV2ZXJcfGJtMjVcfHNlbWFudGljXHxzZWFyY2hfYXJ4aXYiIGJyYWluX3RoaW5rZXIucHkKYGBgCgojIyMg56ysM+atpe+8muaAp+iDveWfuuWHhu+8iOS4jeWPr+i3s+i/h++8iQpgYGBiYXNoCiMg5YaF5a2YCmZyZWUgLWggfCBncmVwIE1lbQoKIyDno4Hnm5gKZGYgLWggL29wdC9kYXRhIHwgdGFpbCAtMQoKIyDlrp7pmYXntKLlvJXmlbDmja7ph4/vvIjkuI3mmK/nm67lvZXlpKflsI/vvIkKZmluZCAvb3B0L2RhdGEvYnJhaW4gLW5hbWUgIiouanNvbmwiIC1leGVjIHdjIC1sIHt9IFw7IDI+L2Rldi9udWxsCiMg5YWz6ZSu77yad2MgLWzmmK/ljp/lp4vooYzmlbDvvIzntKLlvJXlkI7lrp7pmYVjaHVua3Plj6/og73lt64xMC0xMDDlgI0KYGBgCgojIyMg56ysNOatpe+8muWRiuitpui3r+W+hOmqjOivge+8iOS4jeWPr+i3s+i/h++8iQpgYGBiYXNoCiMg5om+5omA5pyJ5ZGK6K2m5Luj56CBCmdyZXAgLXJuICJhbGVydFx8d2FybmluZ1x8Y3JpdGljYWxcfHNlbmRcfHB1c2hcfG5vdGlmeSIgc3lzdGVtX2hlYXJ0YmVhdC5weQojIOWFs+mUrumqjOivge+8muWRiuitpuacieayoeacieaOqOmAgei3r+W+hO+8n+WPquaYr3ByaW506L+Y5piv55yf55qE5o6o77yfCmBgYAoKIyMg5bi46KeB6K+v5Yy6Cgp8IOivr+WMuiB8IOecn+ebuCB8CnwtLS0tLS18LS0tLS0tfAp8ICLnm67lvZXlpKflsI895pWw5o2u6YePIiB8IG5ldXJhbOebruW9lTQzTULvvIzkvYblhajmmK9QeXRob27ku6PnoIHmlofku7YgfAp8ICJqc29ubOihjOaVsD3mo4DntKLmlbDmja7ph48iIHwg5Y6f5aeLM+S4qmpzb25s5paH5Lu277yM5L2G57Si5byV5ZCO5pyJMTIySyBjaHVua3MgfAp8ICLmlofku7blrZjlnKg95Yqf6IO95q2j5bi4IiB8IGJyYWluX3JldHJpZXZlcui/kOihjOaXtuWcqOmmluasoeaehOW7uue0ouW8le+8jOaXoOi+k+WHuuKJoOS4jeW3peS9nCB8CnwgIuacieWRiuitpj3kvJrpgJrnn6UiIHwgc3lzdGVtX2hlYXJ0YmVhdOacieWRiuitpu+8jOS9huWPquaYr3ByaW505LiN5o6o6YCBIHwKfCAi5qih5Z2X5aSaPeezu+e7n+W8uiIgfCA2NeS4qmFnZW506ISa5pys5LiN5Luj6KGoNjXkuKrmtLvot4Plip/og73vvIzlpKfph4/mmK/lup/lvIMv5aSH5Lu9IHwKCiMjIOaOqOiNkOWFrOW8jwpgYGAK5Y2H57qn5Lu35YC8ID0gKOeOsOacieezu+e7n+eahOecn+WunuiWhOW8seeCuSkgw5cgKOWNh+e6p+aWueahiOeahOWunumZheWMuemFjeW6pikgLyAo5pS55Yqo6aOO6ZmpKQpgYGAK5LiN5piv6YCJ5pif5pyA5aSa55qE5bel5YW377yM6ICM5piv5om+5a6e6ZmF5b2x5ZON5pyA5aSn55qE6YKj5Liq55+t5p2/44CCCg==
+---
+name: system-upgrade-verification-framework
+description: NAS系统升级决策框架——先验证实际状态再给推荐，避免根据文件列表推测。触发：需要评估升级方案、诊断系统薄弱点、推荐新工具。
+triggers: ["系统", "架构"]
+version: 1.0
+---
+
+# System Upgrade Decision Framework
+
+## 核心原则
+**先验证，再推荐**。严禁基于文件列表或目录大小做推测性判断。
+
+## 评估步骤（顺序不可跳过）
+
+### 第0步：GitHub下载源可用性测试
+在尝试任何安装前，先测试代理是否可用：
+
+```bash
+# 测试GitHub访问方式（避开API限流）
+git ls-remote https://gitee.com/mirrors/{repo}.git HEAD
+curl -sI https://ghproxy.net/https://github.com/{user}/{repo}/releases/download/v{ver}/file 2>/dev/null | head -1
+# jsDelivr CDN
+curl -sI https://cdn.jsdelivr.net/gh/{user}/{repo}/ 2>/dev/null | head -1
+```
+
+**已验证可用的免费代理**：
+- `https://gitee.com/mirrors/{repo}` — 官方维护，无限速
+- `https://ghproxy.net/` — 公益代理，格式：`https://ghproxy.net/https://github.com/{user}/{repo}/releases/download/{tag}/{file}`
+- `https://cdn.jsdelivr.net/gh/` — Cloudflare CDN，无限速
+
+### 第1步：实际运行测试（不可跳过）
+```python
+# ❌ 错误做法：根据文件大小/目录列表推测
+du -sh /opt/data/brain/memory/  # 可能误导
+
+# ✅ 正确做法：实际运行并观察输出
+cd /opt/data/scripts && python3 -c "
+from brain_retriever import BrainRetriever
+r = BrainRetriever()
+res = r.search('测试', top_k=3)
+print(f'Results: {len(res)}')
+# 观察实际输出和耗时
+"
+```
+
+### 第2步：追踪调用链（不可跳过）
+```python
+# ❌ 错误做法：只看静态文件
+grep -r "BM25" /opt/data/scripts/  # 只看到import语句
+
+# ✅ 正确做法：追踪实际数据流
+grep -n "def search\|def retrieve\|def fetch" brain_retriever.py
+grep -n "brain_retriever\|bm25\|semantic\|search_arxiv" brain_thinker.py
+```
+
+### 第3步：性能基准（不可跳过）
+```bash
+# 内存
+free -h | grep Mem
+
+# 磁盘
+df -h /opt/data | tail -1
+
+# 实际索引数据量（不是目录大小）
+find /opt/data/brain -name "*.jsonl" -exec wc -l {} \; 2>/dev/null
+# 关键：wc -l是原始行数，索引后实际chunks可能差10-100倍
+```
+
+### 第4步：告警路径验证（不可跳过）
+```bash
+# 找所有告警代码
+grep -rn "alert\|warning\|critical\|send\|push\|notify" system_heartbeat.py
+# 关键验证：告警有没有推送路径？只是print还是真的推？
+```
+
+## 常见误区
+
+| 误区 | 真相 |
+|------|------|
+| "目录大小=数据量" | neural目录43MB，但全是Python代码文件 |
+| "jsonl行数=检索数据量" | 原始3个jsonl文件，但索引后有122K chunks |
+| "文件存在=功能正常" | brain_retriever运行时在首次构建索引，无输出≠不工作 |
+| "有告警=会通知" | system_heartbeat有告警，但只是print不推送 |
+| "模块多=系统强" | 65个agent脚本不代表65个活跃功能，大量是废弃/备份 |
+
+## 推荐公式
+```
+升级价值 = (现有系统的真实薄弱点) × (升级方案的实际匹配度) / (改动风险)
+```
+不是选星最多的工具，而是找实际影响最大的那个短板。

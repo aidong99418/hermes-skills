@@ -1,1 +1,107 @@
-LS0tCm5hbWU6IGNyb24tc3lzdGVtLXJlY29uc3RydWN0aW9uCmRlc2NyaXB0aW9uOiBDcm9u6LCD5bqm57O757uf6YeN5bu65bel5L2c5rWBIOKAlCDku45jcm9udGFi5Lii5aSx5Yiw5a6M5pW05oGi5aSN55qE5qCH5YeG5YyW5rWB56iL44CC6Kem5Y+R77yaY3JvbuS4jei3kS/ns7vnu5/oh6rmhIjlgZzmraIv5a6a5pe25Lu75Yqh6ZuG5L2T5raI5aSx44CCCnRyaWdnZXJzOgogIC0gY3JvbuS4jei3keS6hgogIC0gYXV0b19oZWFsaW5n5LiN5o6o6YCB5LqGCiAgLSDlrprml7bku7vliqHpm4bkvZPmtojlpLEKICAtIOezu+e7n+iHquaEiOWBnOatogp2ZXJzaW9uOiAxLjAKLS0tCgojIENyb27osIPluqbns7vnu5/ph43lu7rlt6XkvZzmtYEKCiMjIOS9leaXtueUqArlrprml7bku7vliqHpm4bkvZPkuI3ot5Eg4oaSIOWZqOWumOezu+e7n+aWremTviDihpIg6Ieq5oSIL+WtpuS5oC/ov5vljJblgZzmraLlt6XkvZzjgIIKCiMjIOaguOW/g+aVmeiurQoKPiAqKuezu+e7n2Nyb250YWLmmK/ljZXkuIDmlofku7YqKu+8jOS4jeaYr+avj+S4quS7u+WKoeS4gOS4qmNyb250YWLjgIIKPiDmiYDmnIljcm9u5YaZ5Zyo5ZCM5LiA5LiqY3JvbnRhYumHjO+8iGBjcm9udGFiIC1sYO+8ie+8jOS7u+S9leS4gOS4qmNyb27lpLHmlYjpg73mhI/lkbPnnYDmlbTkuKrooajlj6/og73mnInpl67popjjgIIKCiMjIOagh+WHhuatpemqpAoKIyMjIDEuIOehruiupGNyb250YWLnirbmgIEKYGBgYmFzaApjcm9udGFiIC1sICAjIOeci+W9k+WJjeaJgOaciWNyb24KIyDms6jmhI/vvJrov5Tlm57nqbog4omgIOayoeaciWNyb27vvIzlj6/og73nnIvnmoTmmK/plJnor6/nmoTnlKjmiLcKYGBgCgojIyMgMi4g55uY54K55Y+v55So55qEY3JvbuiEmuacrArku44gYC9vcHQvZGF0YS9zY3JpcHRzL2Ag5ZKMIGAvb3B0L2RhdGEvYmFja3Vwcy9gIOS4pOWkhOaJvu+8mgotIGBhdXRvX2hlYWxpbmdfY3Jvbi5weWAg4oCUIOWFjeeWq+Wxgu+8jOavjzEw5YiG6ZKfCi0gYGV2b2x1dGlvbl9jcm9uLnB5YCDigJQg6L+b5YyW5byV5pOO77yM5q+PMzDliIbpkp8KLSBgYXV0b19sZWFybmluZy5weWAg4oCUIOe7vOWQiOWtpuS5oO+8jOavj+aXpTA4OjAwCi0gYGJyYWluX2JhY2t1cC5weWAg4oCUIOWkh+S7ve+8jOavj+Wwj+aXtgotIGBkYXlkcmVhbV9jcm9uLnB5YCDigJQg55m95pel5qKm77yM5q+PMuWwj+aXtgotIGBtZW1vcnlfc3luY19jcm9uX3dyYXBwZXIucHlgIOKAlCBNRU1PUlnlkIzmraXvvIzmr4/lsI/ml7bvvIh3cmFwcGVy54mI77yJCi0gYHNraWxsX2hlYWx0aF9kYWVtb24ucHlgIOKAlCBza2lsbOWuiOaKpO+8jOavjzEw5YiG6ZKfCi0gYGhlcm1lc19hdXRvX2NsZWFuLnB5YCDigJQg6Ieq5YeA5YyW77yM5q+P5pelMDM6MDAKCiMjIyAzLiDpqozor4Hmr4/kuKrohJrmnKzlj6/nlKjvvIjor63ms5Ur5L6d6LWW77yJCmBgYGJhc2gKcHl0aG9uMyAtbSBweV9jb21waWxlIC9vcHQvZGF0YS9zY3JpcHRzL1hYWF9jcm9uLnB5CmBgYAoqKuW/hemhu+i3keS4gOasoSoq6aqM6K+B5peg6K+t5rOV6ZSZ6K+v44CCCgojIyMgNC4g6Kej5YazaW1wb3J057qn5oql6ZSZCuafkOS6m+iEmuacrO+8iOWmgm1lbW9yeV9zeW5jLnB577yJ5Zyo5qih5Z2X6aG25bGCaW1wb3J05L6d6LWW77yMQ0xJ5Y+C5pWw6Kej5p6Q5YmN5bCx5oql6ZSZ44CCCioq6Kej5rOV77ya5YaZd3JhcHBlcumalOemuyoqCmBgYHB5dGhvbgojIG1lbW9yeV9zeW5jX2Nyb25fd3JhcHBlci5weQpkZWYgc3luYygpOgogICAgdHJ5OgogICAgICAgIGZyb20gbWVtb3J5X3N5bmMgaW1wb3J0IHN5bmNfY3JvbgogICAgICAgIHN5bmNfY3JvbigpCiAgICBleGNlcHQgTW9kdWxlTm90Rm91bmRFcnJvcjoKICAgICAgICBwYXNzICAjIENocm9tYeS4jeWPr+eUqOaXtumdmem7mOi3s+i/hwpgYGAKCiMjIyA1LiDlhpnlhaVjcm9udGFi77yI5LiA6KGM6KGM5YaZ5YWl6aqM6K+B77yJCmBgYGJhc2gKIyDlhpnlhaXliY3lhYjor7vlj5YKY3JvbnRhYiAtbCA+IC90bXAvb2xkX2Nyb24udHh0ICAjIOWkh+S7vQoKIyDlhpnlhaXmlrBjcm9u77yI5rOo5oSP77ya5Lya6KaG55uW5pW05LiqY3JvbnRhYu+8iQplY2hvICIqLzEwICogKiAqICogL3Vzci9iaW4vcHl0aG9uMyAvb3B0L2RhdGEvc2NyaXB0cy9hdXRvX2hlYWxpbmdfY3Jvbi5weSA+PiAvb3B0L2RhdGEvbG9ncy9hdXRvX2hlYWxpbmdfY3Jvbi5sb2cgMj4mMSIgfCBjcm9udGFiIC0KIyDmiJbnlKhjYXQgaGVyZWRvY+aJuemHj+WGmeWFpQpgYGAKCiMjIyA2LiDpqozor4Fjcm9udGFi5YaZ5YWlCmBgYGJhc2gKY3JvbnRhYiAtbCB8IGdyZXAgLXYgIl4jIiB8IGdyZXAgLXYgIl4kIiB8IHdjIC1sCiMg5bqU6L+U5Zue5a6e6ZmF55qEY3JvbuaVsOmHjwpgYGAKCiMjIyA3LiDnq4vljbPmiafooYzmnIDlhbPplK7nmoTohJrmnKzpqozor4EK5oyJ5LyY5YWI57qn6aqM6K+B77yaCjEuIGBhdXRvX2hlYWxpbmdfY3Jvbi5weWAg4oCUIOW/hemhu+i3kemAmu+8jOivhOWIhjEwMCUKMi4gYGV2b2x1dGlvbl9jcm9uLnB5YCDigJQg6LeR6YCaCjMuIGBtZW1vcnlfc3luY19jcm9uX3dyYXBwZXIucHlgIOKAlCBDaHJvbWHlkIzmraXmiJDlip8KNC4gYGJyYWluX2JhY2t1cC5weWAg4oCUIOi3r+W+hOWtmOWcqO+8jOWkh+S7veWujOaIkAo1LiDlhbbku5Yg4oaSIOmhuuW7tgoKIyMjIDguIOmHjeWQr+WuiOaKpOi/m+eoiwpza2lsbF9oZWFsdGhfZGFlbW9uIC8gYm9keV9tdXNjbGUg562J6L+b56iL5aaC5p6c5YGc5LqG77yM6ZyA6KaB5omL5Yqo6YeN5ZCv77yaCmBgYGJhc2gKcGtpbGwgLWYgc2tpbGxfaGVhbHRoX2RhZW1vbgpweXRob24zIC9vcHQvZGF0YS9zY3JpcHRzL3NraWxsX2hlYWx0aF9kYWVtb24ucHkgc3RhcnQgJgpgYGAKCiMjIOW4uOingeaVhemanOaOkuafpQoKfCDnl4fnirYgfCDljp/lm6AgfCDop6Pms5UgfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgYGNyb250YWIgLWxgIOi/lOWbnuepuiB8IOiiq+imhuebluS6hiB8IOmHjeW7umNyb27ooaggfAp8IHNjcmlwdOaKpemUmSJObyBtb2R1bGUiIHwg5L6d6LWW5pyq5a6J6KOFIHwg5YaZd3JhcHBlcumalOemuyB8Cnwg5a6I5oqk6L+b56iL5YGc5LqGIHwg5omL5Yqoa2lsbC/ph43lkK/lkI7mnKrmgaLlpI0gfCDph43lkK8gfAp8IOWPquaciTHkuKpjcm9u5a2Y5rS7IHwg5YaZ5YWl5pe26KKr6KaG55uWIHwg5qOA5p+lY3JvbnRhYiB8CnwgbG9n5YGc5Zyo5b6I5pep5pel5pyfIHwgY3JvbuS7juacquinpuWPkSB8IOajgOafpWNyb24gZGFlbW9u6L+Q6KGM54q25oCBIHwKCiMjIOmqjOivgea4heWNlQotIFsgXSBjcm9udGFiIC1sIOaYvuekuuaJgOaciWNyb24KLSBbIF0gYXV0b19oZWFsaW5nIOivhOWIhjEwMCUKLSBbIF0gZXZvbHV0aW9uIOi3kemAmgotIFsgXSBtZW1vcnlfc3luYyB3cmFwcGVyIOWQjOatpeaIkOWKnwotIFsgXSDlrojmiqTov5vnqIvov5DooYzkuK0KLSBbIF0g5pel5b+X5paH5Lu25q2j5Zyo5YaZ5YWlCg==
+---
+name: cron-system-reconstruction
+description: Cron调度系统重建工作流 — 从crontab丢失到完整恢复的标准化流程。触发：cron不跑/系统自愈停止/定时任务集体消失。
+triggers:
+  - cron不跑了
+  - auto_healing不推送了
+  - 定时任务集体消失
+  - 系统自愈停止
+version: 1.0
+---
+
+# Cron调度系统重建工作流
+
+## 何时用
+定时任务集体不跑 → 器官系统断链 → 自愈/学习/进化停止工作。
+
+## 核心教训
+
+> **系统crontab是单一文件**，不是每个任务一个crontab。
+> 所有cron写在同一个crontab里（`crontab -l`），任何一个cron失效都意味着整个表可能有问题。
+
+## 标准步骤
+
+### 1. 确认crontab状态
+```bash
+crontab -l  # 看当前所有cron
+# 注意：返回空 ≠ 没有cron，可能看的是错误的用户
+```
+
+### 2. 盘点可用的cron脚本
+从 `/opt/data/scripts/` 和 `/opt/data/backups/` 两处找：
+- `auto_healing_cron.py` — 免疫层，每10分钟
+- `evolution_cron.py` — 进化引擎，每30分钟
+- `auto_learning.py` — 综合学习，每日08:00
+- `brain_backup.py` — 备份，每小时
+- `daydream_cron.py` — 白日梦，每2小时
+- `memory_sync_cron_wrapper.py` — MEMORY同步，每小时（wrapper版）
+- `skill_health_daemon.py` — skill守护，每10分钟
+- `hermes_auto_clean.py` — 自净化，每日03:00
+
+### 3. 验证每个脚本可用（语法+依赖）
+```bash
+python3 -m py_compile /opt/data/scripts/XXX_cron.py
+```
+**必须跑一次**验证无语法错误。
+
+### 4. 解决import级报错
+某些脚本（如memory_sync.py）在模块顶层import依赖，CLI参数解析前就报错。
+**解法：写wrapper隔离**
+```python
+# memory_sync_cron_wrapper.py
+def sync():
+    try:
+        from memory_sync import sync_cron
+        sync_cron()
+    except ModuleNotFoundError:
+        pass  # Chroma不可用时静默跳过
+```
+
+### 5. 写入crontab（一行行写入验证）
+```bash
+# 写入前先读取
+crontab -l > /tmp/old_cron.txt  # 备份
+
+# 写入新cron（注意：会覆盖整个crontab）
+echo "*/10 * * * * /usr/bin/python3 /opt/data/scripts/auto_healing_cron.py >> /opt/data/logs/auto_healing_cron.log 2>&1" | crontab -
+# 或用cat heredoc批量写入
+```
+
+### 6. 验证crontab写入
+```bash
+crontab -l | grep -v "^#" | grep -v "^$" | wc -l
+# 应返回实际的cron数量
+```
+
+### 7. 立即执行最关键的脚本验证
+按优先级验证：
+1. `auto_healing_cron.py` — 必须跑通，评分100%
+2. `evolution_cron.py` — 跑通
+3. `memory_sync_cron_wrapper.py` — Chroma同步成功
+4. `brain_backup.py` — 路径存在，备份完成
+5. 其他 → 顺延
+
+### 8. 重启守护进程
+skill_health_daemon / body_muscle 等进程如果停了，需要手动重启：
+```bash
+pkill -f skill_health_daemon
+python3 /opt/data/scripts/skill_health_daemon.py start &
+```
+
+## 常见故障排查
+
+| 症状 | 原因 | 解法 |
+|------|------|------|
+| `crontab -l` 返回空 | 被覆盖了 | 重建cron表 |
+| script报错"No module" | 依赖未安装 | 写wrapper隔离 |
+| 守护进程停了 | 手动kill/重启后未恢复 | 重启 |
+| 只有1个cron存活 | 写入时被覆盖 | 检查crontab |
+| log停在很早日期 | cron从未触发 | 检查cron daemon运行状态 |
+
+## 验证清单
+- [ ] crontab -l 显示所有cron
+- [ ] auto_healing 评分100%
+- [ ] evolution 跑通
+- [ ] memory_sync wrapper 同步成功
+- [ ] 守护进程运行中
+- [ ] 日志文件正在写入

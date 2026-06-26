@@ -1,1 +1,53 @@
-LS0tCm5hbWU6IHN5c3RlbS1hcmNoaXRlY3R1cmUtZnVsbC1pbnZlbnRvcnkKZGVzY3JpcHRpb246IOezu+e7n+WFqOmHj+aetuaehOebmOeCueW3peS9nOa1geKAlOKAlOaJq+aPj+aJgOacieWtkOezu+e7n+OAgeaJvuecn+Wunuadv+WtkOaWh+S7tuOAgeaJvuezu+e7n+mXtOaWreeCueOAguinpuWPke+8muezu+e7n+mHjeaehC/or4rmlq0v5pG45riF5a625bqVL+aJk+mAmuezu+e7n+OAggp0cmlnZ2VyczoKICAtIOezu+e7n+mHjeaehAogIC0g5pG45riF5a625bqVCiAgLSDns7vnu5/mnInlpJrlsJHlpZcKICAtIOaJk+mAmuezu+e7nwogIC0g5p625p6E6K+K5patCnZlcnNpb246IDEuMAotLS0KCiMg57O757uf5YWo6YeP5p625p6E55uY54K55bel5L2c5rWBCgojIyDkvZXml7bnlKgK57O757uf5pyJ5aSa5aWX54us56uL57uE5Lu26LeR552A77yM5L2G5LiN55+l6YGT5a6D5Lus5LmL6Ze055qE5YWz57O744CB5ZOq5Lqb6K+l5L+d55WZ44CB5ZOq5Lqb6K+l5omT6YCa44CC5YWI5YGa5YWo6YeP55uY54K55YaN5Yqo5omL77yM5LiN6KaB6L655YGa6L655L+u44CCCgojIyDmoIflh4bmraXpqqQKCiMjIyAxLiDliJfmuIXljZXigJTigJTmiavmj4825aSn57O757ufCi0gYC9vcHQvZGF0YS9icmFpbi9gIOKGkiBCcmFpbuezu+e7nwotIGAvb3B0L2RhdGEvc2NyaXB0cy9gIOKGkiDlrabkuaDns7vnu58gKyDlgaXlurfns7vnu58gKyDorrDlv4bns7vnu58KLSDmjqjpgIHns7vnu5/vvIjljZXni6zmib7vvIkKCiMjIyAyLiDmib7nnJ/lrp7mnb/lrZDmlofku7bvvIjkuI3opoHnm7jkv6Hmlofku7blkI3vvIkKKirlhbPplK7mlZnorq0qKu+8mmBzZWNyZXRhcnkvYCDkuIvnmoTmiY3mmK/nnJ/mraPnmoTmtL7lt6Xmnb/vvIhgZGlzcGF0Y2hfYm9hcmQuanNvbmDvvInjgIIKCuaOkuafpeaWueazle+8mgpgYGBweXRob24KaW1wb3J0IHJlLCBqc29uCiMgYm9hcmRfdXRpbHMucHkg6YeM55yf5q2j6K+75YaZ55qE5paH5Lu2CmJ1ID0gb3BlbigiL29wdC9kYXRhL3NlY3JldGFyeS9kaXNwYXRjaF9ib2FyZC5qc29uIikucmVhZCgpCmZpbGVzID0gcmUuZmluZGFsbChyJ1siXCddKC9bXiJcJ10qXC5qc29uKVsiXCddJywgYnUpCmBgYAoK5qOA5p+lIHNlY3JldGFyeS8g55uu5b2V77yI5a655piT6YGX5ryP77yJ77yaCi0gYC9vcHQvZGF0YS9zZWNyZXRhcnkvZGlzcGF0Y2hfYm9hcmQuanNvbmAg4oaQIOa0vuW3peadvwotIGAvb3B0L2RhdGEvc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uYCDihpAg57uT5p6c5p2/CgoqKuadv+WtkOaWh+S7tuexu+Wei+WIpOaWrSoq77yaCi0g5rS75Yqo5pel5b+X77yaYHsnYXQnLCAnZnJvbScsICdsZXZlbCcsICdtZXNzYWdlJ31gIOKAlCDlj6rorrDlvZXkuovku7YKLSDmtL7lt6Xmnb/vvJpgeydwZW5kaW5nX3Rhc2tzJywgJ2NvbXBsZXRlZF90YXNrcycsICdmYWlsZWRfdGFza3MnfWAg4oCUIOecn+ato+S7u+WKoea1gei9rAotIOe7k+aenOadv++8mmB7J3Jlc3VsdHMnLCAndW5yZWFkJywgJ3Jlc3VsdF9jb3VudGVyJ31gIOKAlCDku7vliqHmiafooYznu5PmnpwKCiMjIyAzLiDmib7mlq3ngrkKYGBgCuajgOa1i+iEmuacrCDihpIg5YaZ5rS+5bel5p2/77yfIOKGkiDkv67lpI3ohJrmnKzlnKjnm5HlkKzvvJ8KSGVhbHRo5qOA5rWLIOKGkiDmnInmsqHmnInkv67nmoTnjq/oioLvvJ8KQnJhaW4g4oaSIOenmOS5puWkhO+8n+acieaXoOaVsOaNrua1ge+8nwpgYGAKCiMjIOaguOW/g+aVmeiurQo+IOaWh+S7tuWQjeS4jeS4gOWumuaYr+WKn+iDveWQjeOAguimgei/veS7o+egge+8jOeci+WunumZhSBgcmVhZC93cml0ZWAg5pON5L2c44CCYHNlY3JldGFyeS9kaXNwYXRjaF9ib2FyZC5qc29uYCDmmK/mtL7lt6Xmnb/vvIxgc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uYCDmmK/miJDmnpzmnb/jgIIK
+---
+name: system-architecture-full-inventory
+description: 系统全量架构盘点工作流——扫描所有子系统、找真实板子文件、找系统间断点。触发：系统重构/诊断/摸清家底/打通系统。
+triggers:
+  - 系统重构
+  - 摸清家底
+  - 系统有多少套
+  - 打通系统
+  - 架构诊断
+version: 1.0
+---
+
+# 系统全量架构盘点工作流
+
+## 何时用
+系统有多套独立组件跑着，但不知道它们之间的关系、哪些该保留、哪些该打通。先做全量盘点再动手，不要边做边修。
+
+## 标准步骤
+
+### 1. 列清单——扫描6大系统
+- `/opt/data/brain/` → Brain系统
+- `/opt/data/scripts/` → 学习系统 + 健康系统 + 记忆系统
+- 推送系统（单独找）
+
+### 2. 找真实板子文件（不要相信文件名）
+**关键教训**：`secretary/` 下的才是真正的派工板（`dispatch_board.json`）。
+
+排查方法：
+```python
+import re, json
+# board_utils.py 里真正读写的文件
+bu = open("/opt/data/secretary/dispatch_board.json").read()
+files = re.findall(r'["\'](/[^"\']*\.json)["\']', bu)
+```
+
+检查 secretary/ 目录（容易遗漏）：
+- `/opt/data/secretary/dispatch_board.json` ← 派工板
+- `/opt/data/secretary/result_board.json` ← 结果板
+
+**板子文件类型判断**：
+- 活动日志：`{'at', 'from', 'level', 'message'}` — 只记录事件
+- 派工板：`{'pending_tasks', 'completed_tasks', 'failed_tasks'}` — 真正任务流转
+- 结果板：`{'results', 'unread', 'result_counter'}` — 任务执行结果
+
+### 3. 找断点
+```
+检测脚本 → 写派工板？ → 修复脚本在监听？
+Health检测 → 有没有修的环节？
+Brain → 秘书处？有无数据流？
+```
+
+## 核心教训
+> 文件名不一定是功能名。要追代码，看实际 `read/write` 操作。`secretary/dispatch_board.json` 是派工板，`secretary/result_board.json` 是成果板。

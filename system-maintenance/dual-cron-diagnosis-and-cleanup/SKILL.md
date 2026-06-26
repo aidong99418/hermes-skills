@@ -1,1 +1,111 @@
-LS0tCm5hbWU6IGR1YWwtY3Jvbi1kaWFnbm9zaXMtYW5kLWNsZWFudXAKZGVzY3JpcHRpb246IOWPjOiwg+W6puWGsueqgeiviuaWreS4jua4heeQhiDigJQg57O757ufY3JvbuWSjEhlcm1lcyBzY2hlZHVsZXLlkIzml7bot5Hlr7zoh7Tph43lkK/niIblj5HvvIwyMDI2LTA2LTAz5a6e5pON5Zu65YyW44CCCnRyaWdnZXJzOgogIC0g6YeN5ZCv5ZCO5Lu75Yqh5Y2h6aG/CiAgLSDkuKTlpZdjcm9u5ZCM5pe26Kem5Y+R5aSn5om56YeP5Lu75YqhCiAgLSDns7vnu59jcm9u5ZKMSGVybWVzIHNjaGVkdWxlcuWFseWtmApub3RlczoKICAtIDIwMjYtMDYtMDPlrp7mk43mlZnorq3vvJrliIbmnpDoirHlpKrlpJrml7bpl7TkuI3liqjmiYvvvIzmuIXnkIbml7bor6/liKDkuoZzdXBlcmNhdOetieWFtuS7luWKn+iDveaWh+S7tgogIC0g5pWZ6K6t77ya5Yig5paH5Lu25YmN5YWI55yL5riF5Y2V77yM5LiN6KaB55SoZmluZOWFqOWIoO+8m+WIhuaekOWujOeri+WNs+WKqOaJiwp2ZXJzaW9uOiAxLjAKLS0tCgojIOWPjOiwg+W6puWGsueqgeiviuaWreS4jua4heeQhgoKIyMg55eH54q2Ci0g6YeN5ZCv5ZCO5Lu75Yqh556s6Ze05aCG56evCi0g6aOe5LmmL+W+ruS/oea2iOaBr+WTjeW6lOWNoemhvwotIGFnZW50LmxvZ+Wkp+mHjyAibWlzc2VkLi4uIGZhc3QtZm9yd2FyZGluZyIKLSDlpJrnu4Rqb2LlkIzml7bmiafooYwKCiMjIOagueWboArns7vnu59jcm9u5ZKMSGVybWVzIHNjaGVkdWxlcuWQjOaXtui/kOihjO+8jOWQjOexu+S7u+WKoemHjeWkjeaJp+ihjO+8jOi1hOa6kOaJk+eIhuOAggoKIyMg6K+K5pat5ZG95LukCmBgYGJhc2gKIyDns7vnu59jcm9u54q25oCBCndoaWNoIGNyb24gJiYgY3JvbnRhYiAtbCAmJiBwcyBhdXggfCBncmVwIGNyb24KCiMgSGVybWVzIGpvYuaVsOWSjOaSnui9puaDheWGtQpweXRob24zIC1jICIKaW1wb3J0IGpzb24KZD1qc29uLmxvYWQob3BlbignL29wdC9kYXRhL2Nyb24vam9icy5qc29uJykpCmpvYnM9ZFsnam9icyddCmVuYWJsZWQ9W2ogZm9yIGogaW4gam9icyBpZiBqLmdldCgnZW5hYmxlZCcsVHJ1ZSldCiMgZ3JhY2U9MOeahOmrmOmikWpvYj3ph43lkK/niIblj5HmoLnlm6AKbm9fZ3JhY2U9W2ogZm9yIGogaW4gZW5hYmxlZCBpZiBqLmdldCgnZ3JhY2Vfc2Vjb25kcycsMCk9PTAgYW5kICcqLycgaW4gc3RyKGouZ2V0KCdzY2hlZHVsZScse30pKV0KcHJpbnQoZifmgLt7bGVuKGVuYWJsZWQpfeS4qmpvYiwg5pegZ3JhY2Xpq5jpopF7bGVuKG5vX2dyYWNlKX3kuKonKQoiCmBgYAoKIyMg5L+u5aSN5pON5L2c5q2l6aqkCgojIyMg5LiA44CB5YWz6Zet57O757ufY3JvbgrmjInpobrluo/miafooYzvvJoKMS4gYGNyb250YWIgLXJgIOa4heepuuWumuaXtuadoeebrgoyLiBgcGtpbGwgY3JvbmAg5YGc5q2i5a6I5oqk6L+b56iLCjMuIOWIoOmZpGNyb27kuozov5vliLbvvJpgL3Vzci9zYmluL2Nyb25gIGAvdXNyL2Jpbi9jcm9udGFiYAo0LiDliKDpmaRjcm9u6YWN572u77yaYC9ldGMvY3JvbnRhYmAgKyBgL2V0Yy9jcm9uLmQvYCBgL2V0Yy9jcm9uLmRhaWx5L2AgYC9ldGMvY3Jvbi5ob3VybHkvYCBgL2V0Yy9jcm9uLm1vbnRobHkvYCBgL2V0Yy9jcm9uLndlZWtseS9gCjUuICoq5LiN6KaB5YigKirvvJpgL2V0Yy9zdXBlcmNhdC8qYO+8iOWFtuS7luWKn+iDve+8ieOAgWxvZ3JvdGF0ZemFjee9ruOAgWFwdOmFjee9rgoKIyMjIOS6jOOAgee7mUhlcm1lcyBqb2LliqBncmFjZe+8iOmYsueIhuWPke+8iQpgYGBweXRob24KaW1wb3J0IGpzb24KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKZGF0YSA9IGpzb24ubG9hZChvcGVuKCcvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb24nKSkKZm9yIGogaW4gZGF0YVsnam9icyddOgogICAgaWYgbm90IGouZ2V0KCdlbmFibGVkJyxUcnVlKTogY29udGludWUKICAgIHMgPSBqLmdldCgnc2NoZWR1bGUnLHt9KQogICAgZXhwciA9IHMuZ2V0KCdleHByJywnJykgaWYgaXNpbnN0YW5jZShzLGRpY3QpIGVsc2UgJycKICAgIG1pbnMgPSBzLmdldCgnbWludXRlcycsMCkgaWYgaXNpbnN0YW5jZShzLGRpY3QpIGVsc2UgMAogICAgaWYgbWlucyA8PTE6IGpbJ2dyYWNlX3NlY29uZHMnXT02MAogICAgZWxpZiBtaW5zIDw9NTogalsnZ3JhY2Vfc2Vjb25kcyddPTMwMAogICAgZWxpZiBtaW5zIDw9MTA6IGpbJ2dyYWNlX3NlY29uZHMnXT02MDAKICAgIGVsaWYgbWlucyA8PTMwOiBqWydncmFjZV9zZWNvbmRzJ109MTgwMAogICAgZWxpZiAnKi8xJyBpbiBleHByOiBqWydncmFjZV9zZWNvbmRzJ109NjAKICAgIGVsaWYgJyovNScgaW4gZXhwcjogalsnZ3JhY2Vfc2Vjb25kcyddPTMwMAogICAgZWxpZiAnKi8xMCcgaW4gZXhwcjogalsnZ3JhY2Vfc2Vjb25kcyddPTYwMApkYXRhWyd1cGRhdGVkX2F0J109ZGF0ZXRpbWUubm93KCkuaXNvZm9ybWF0KCkKd2l0aCBvcGVuKCcvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb24nLCd3JykgYXMgZjoKICAgIGpzb24uZHVtcChkYXRhLGYsZW5zdXJlX2FzY2lpPUZhbHNlLGluZGVudD0yKQpgYGAKCiMjIyDkuInjgIHliKDpmaTph43lpI1qb2IKYGBgcHl0aG9uCmltcG9ydCBqc29uCmRhdGEgPSBqc29uLmxvYWQob3BlbignL29wdC9kYXRhL2Nyb24vam9icy5qc29uJykpClRPX0RFTEVURSA9IFsKICAgICfnmb3ml6XmoqblvJXmk47vvIjmr48y5bCP5pe277yJJywn5LuU5LuU6YWN572u5q+P5pel5b+r54WnJywn5LuU5LuU5q+P5pel5b+r54Wn77yI5YeM5pmoM+eCue+8iScsCiAgICAn56eY5Lmm5aSERGFlbW9u6Ieq5oSI5a6I5oqkJywnR2l0SHVi5oyW5a6d77yI5q+PNuWwj+aXtu+8iScsJ+aDheaKpeenmOS5puavj+Wwj+aXtuaMluWunScsCiAgICAnR2l0SHVi5q+P5pel5oyW5a6dJywn5YWo5bmz5Y+w5p6B6Ie05oyW5a6dK+aPkOeCvCcsJ2lyb25fd2F0Y2hlcuS/nea0uycsCiAgICAnZGlzcGF0Y2hfbGlzdGVuZXLkv53mtLsnLCfpop3lj7bnmq7lsYJf5oC75o6n6L2u6K+iJywn56eY5Lmm6L2u6K+iX+S7u+WKoeajgOafpScsCiAgICAn5py65Zmo54yr6Ieq5Y2H57qn5byV5pOOJywn54mI5pys57O757uf6Ieq5qOAJywn6J6N5YWl5beh5qOAJywn5p625p6E6Ieq5riF5rSB77yI5q+P5ZGo77yJJywKXQpkYXRhWydqb2JzJ10gPSBbaiBmb3IgaiBpbiBkYXRhWydqb2JzJ10gaWYgai5nZXQoJ25hbWUnLCcnKSBub3QgaW4gVE9fREVMRVRFXQp3aXRoIG9wZW4oJy9vcHQvZGF0YS9jcm9uL2pvYnMuanNvbicsJ3cnKSBhcyBmOgogICAganNvbi5kdW1wKGRhdGEsZixlbnN1cmVfYXNjaWk9RmFsc2UsaW5kZW50PTIpCmBgYAoKIyMg6aqM6K+BCmBgYGJhc2gKd2hpY2ggY3JvbiAmJiBjcm9udGFiIC1sICAjIOW6lOaXoOi+k+WHugpweXRob24zIC1jICJpbXBvcnQganNvbjsgZD1qc29uLmxvYWQob3BlbignL29wdC9kYXRhL2Nyb24vam9icy5qc29uJykpOyBwcmludChmJ3tsZW4oZFtcImpvYnNcIl0pfeS4qmpvYicpIgpwcyBhdXggfCBncmVwIGhlcm1lcyB8IGdyZXAgLXYgZ3JlcApgYGAKCiMjIOW4uOingemHjeWkjeexu+WIqwp8IOexu+WIqyB8IOWFuOWei+WGl+S9mSB8IOWkhOeQhiB8CnwtLS0tLS18LS0tLS0tLS0tfC0tLS0tLXwKfCDnmb3ml6XmoqYgfCAy5Liq5q+PMuWwj+aXtiB8IOeVmTHkuKogfAp8IOWkh+S7vS/lv6vnhacgfCDlh4zmmagz54K55aSa5LiqIHwg5ZCI5bm2MeS4qiB8Cnwg5a6I5oqkIHwgNeWIhumSn8OXNuS4qiB8IOeVmeaguOW/gzItM+S4qiB8CnwgR2l0SHVi5oyW5a6dIHwg5aSa5pe26Ze054K5IHwg5ZCI5bm25Li65q+P5pelOeeCuSB8Cnwg6ZOB5b6L5L+d5rS7IHwgaXJvbl93YXRjaGVyw5cyIHwg6YCa6L+HaXJvbl9jcm9uX3RvdWNo57uf5LiAIHwKCiMjIOmHjeimgeaVmeiurQoxLiAqKuWIhuaekOWujOeri+WNs+WKqOaJiyoq77yM5LiN6KaB6K+05LiA5aCG5LiN5Yqo5omLCjIuICoq5Yig5paH5Lu25YmN5YWI55yL5riF5Y2VKirvvIxgZmluZGDlhajliKDkvJror6/kvKTlhbbku5blip/og73vvIjlpoJzdXBlcmNhdO+8iQozLiAqKmNyb27lkoxIZXJtZXPmmK/ni6znq4vkuKTlpZcqKu+8jGdyYWNl5pivSGVybWVz5Y+C5pWw77yM6Lef57O757ufY3JvbuaXoOWFswo0LiAqKndhdGNoZG9n4omgY3Jvbioq77yad2F0Y2hkb2fmmK9QeXRob27mlofku7bnm5HmjqflupMKNS4gKipkaXNrIHF1b3Rh5ZKMY3JvbuaXoOWFsyoq77yacXVvdGHmmK/no4Hnm5jphY3pop3ns7vnu5/vvIzlnKjkuI3lkIznm67lvZUK
+---
+name: dual-cron-diagnosis-and-cleanup
+description: 双调度冲突诊断与清理 — 系统cron和Hermes scheduler同时跑导致重启爆发，2026-06-03实操固化。
+triggers:
+  - 重启后任务卡顿
+  - 两套cron同时触发大批量任务
+  - 系统cron和Hermes scheduler共存
+notes:
+  - 2026-06-03实操教训：分析花太多时间不动手，清理时误删了supercat等其他功能文件
+  - 教训：删文件前先看清单，不要用find全删；分析完立即动手
+version: 1.0
+---
+
+# 双调度冲突诊断与清理
+
+## 症状
+- 重启后任务瞬间堆积
+- 飞书/微信消息响应卡顿
+- agent.log大量 "missed... fast-forwarding"
+- 多组job同时执行
+
+## 根因
+系统cron和Hermes scheduler同时运行，同类任务重复执行，资源打爆。
+
+## 诊断命令
+```bash
+# 系统cron状态
+which cron && crontab -l && ps aux | grep cron
+
+# Hermes job数和撞车情况
+python3 -c "
+import json
+d=json.load(open('/opt/data/cron/jobs.json'))
+jobs=d['jobs']
+enabled=[j for j in jobs if j.get('enabled',True)]
+# grace=0的高频job=重启爆发根因
+no_grace=[j for j in enabled if j.get('grace_seconds',0)==0 and '*/' in str(j.get('schedule',{}))]
+print(f'总{len(enabled)}个job, 无grace高频{len(no_grace)}个')
+"
+```
+
+## 修复操作步骤
+
+### 一、关闭系统cron
+按顺序执行：
+1. `crontab -r` 清空定时条目
+2. `pkill cron` 停止守护进程
+3. 删除cron二进制：`/usr/sbin/cron` `/usr/bin/crontab`
+4. 删除cron配置：`/etc/crontab` + `/etc/cron.d/` `/etc/cron.daily/` `/etc/cron.hourly/` `/etc/cron.monthly/` `/etc/cron.weekly/`
+5. **不要删**：`/etc/supercat/*`（其他功能）、logrotate配置、apt配置
+
+### 二、给Hermes job加grace（防爆发）
+```python
+import json
+from datetime import datetime
+data = json.load(open('/opt/data/cron/jobs.json'))
+for j in data['jobs']:
+    if not j.get('enabled',True): continue
+    s = j.get('schedule',{})
+    expr = s.get('expr','') if isinstance(s,dict) else ''
+    mins = s.get('minutes',0) if isinstance(s,dict) else 0
+    if mins <=1: j['grace_seconds']=60
+    elif mins <=5: j['grace_seconds']=300
+    elif mins <=10: j['grace_seconds']=600
+    elif mins <=30: j['grace_seconds']=1800
+    elif '*/1' in expr: j['grace_seconds']=60
+    elif '*/5' in expr: j['grace_seconds']=300
+    elif '*/10' in expr: j['grace_seconds']=600
+data['updated_at']=datetime.now().isoformat()
+with open('/opt/data/cron/jobs.json','w') as f:
+    json.dump(data,f,ensure_ascii=False,indent=2)
+```
+
+### 三、删除重复job
+```python
+import json
+data = json.load(open('/opt/data/cron/jobs.json'))
+TO_DELETE = [
+    '白日梦引擎（每2小时）','仔仔配置每日快照','仔仔每日快照（凌晨3点）',
+    '秘书处Daemon自愈守护','GitHub挖宝（每6小时）','情报秘书每小时挖宝',
+    'GitHub每日挖宝','全平台极致挖宝+提炼','iron_watcher保活',
+    'dispatch_listener保活','额叶皮层_总控轮询','秘书轮询_任务检查',
+    '机器猫自升级引擎','版本系统自检','融入巡检','架构自清洁（每周）',
+]
+data['jobs'] = [j for j in data['jobs'] if j.get('name','') not in TO_DELETE]
+with open('/opt/data/cron/jobs.json','w') as f:
+    json.dump(data,f,ensure_ascii=False,indent=2)
+```
+
+## 验证
+```bash
+which cron && crontab -l  # 应无输出
+python3 -c "import json; d=json.load(open('/opt/data/cron/jobs.json')); print(f'{len(d[\"jobs\"])}个job')"
+ps aux | grep hermes | grep -v grep
+```
+
+## 常见重复类别
+| 类别 | 典型冗余 | 处理 |
+|------|---------|------|
+| 白日梦 | 2个每2小时 | 留1个 |
+| 备份/快照 | 凌晨3点多个 | 合并1个 |
+| 守护 | 5分钟×6个 | 留核心2-3个 |
+| GitHub挖宝 | 多时间点 | 合并为每日9点 |
+| 铁律保活 | iron_watcher×2 | 通过iron_cron_touch统一 |
+
+## 重要教训
+1. **分析完立即动手**，不要说一堆不动手
+2. **删文件前先看清单**，`find`全删会误伤其他功能（如supercat）
+3. **cron和Hermes是独立两套**，grace是Hermes参数，跟系统cron无关
+4. **watchdog≠cron**：watchdog是Python文件监控库
+5. **disk quota和cron无关**：quota是磁盘配额系统，在不同目录

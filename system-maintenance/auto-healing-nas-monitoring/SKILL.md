@@ -1,1 +1,186 @@
-LS0tCm5hbWU6IGF1dG8taGVhbGluZy1uYXMtbW9uaXRvcmluZwpkZXNjcmlwdGlvbjog55So546w5pyJ5Zmo5a6Y57O757uf5pCt5bu6TkFT5YWo5aSp5YCZ55uR5o6nIOKAlCDku47lj5HnjrDlhY3nlqvlsYLliLBjcm9u6Kem5Y+R55qE5a6M5pW06ZO+6Lev44CC6Kem5Y+R77ya6ZyA6KaB57uZTkFT5bu656uL5YGl5bq355uR5o6nL+WumuaXtuajgOa1iy/nrKzkuIDml7bpl7Tlj5HnjrDov5vnqIvmjILkuobjgIIKdHJpZ2dlcnM6CiAgLSDnu5lOQVPlu7rnq4vlhajlpKnlgJnnm5HmjqcKICAtIOWPkeeOsOWFjeeWq+Wxgi9hdXRvX2hlYWxpbmflrZjlnKgKICAtIOWumuaXtuajgOa1i+i/m+eoi+WtmOa0uwogIC0gY3JvbuinpuWPkeWZqOWumOWxguWBpeW6t+ajgOafpQpub3RlczoKICAtIOaguOW/g+aVmeiure+8muWFiOeUqOeOsOacieezu+e7n++8jOWGjemAoOi9ruWtkAogIC0gYXV0b19oZWFsaW5nIGZ1bGwg5ZG95Luk6LWw5qC85byP5YyW5paH5pys77yM5LiN55SoQ0xJ6Kej5p6Q77yb55u05o6lIGltcG9ydCBmdWxsX2hlYWx0aF9jaGVjaygpIOabtOWPr+mdoAogIC0gSGVybWVzIOeUqOiHquW3seeahOiwg+W6puW8leaTju+8jOS4jeS+nei1luezu+e7nyBjcm9uZAp2ZXJzaW9uOiAxLjAKLS0tCgojIEF1dG8tSGVhbGluZyDlhajlpKnlgJnnm5HmjqfokL3lnLDlt6XkvZzmtYEKCiMjIOaetuaehOeOsOeKtu+8iDIwMjYtMDYtMDPvvIkKCmBgYArlhY3nlqvlsYLlmajlrpjvvIgvb3B0L2RhdGEvb3JnYW5zL2F1dG9faGVhbGluZy5wee+8iQrilJzilIAgREVURUNUSU9OX1JVTEVTIOWfuuehgOiuvuaWveajgOa1i++8iEhlcm5lcy9PbGxhbWEv56OB55uY562J77yJCuKUnOKUgCBjaGVja19vcmdhbl9oZWFydGJlYXQoKSDlmajlrpjlsYLliqjmgIHlv4Pot7MK4pSU4pSAIGZ1bGxfaGVhbHRoX2NoZWNrKCkg5Y+M5bGC5rGH5oC76K+E5YiGCgrkuovku7bmgLvnur/vvIgvb3B0L2RhdGEvb3JnYW5zL29yZ2FuX2J1cy5wee+8iQrilJTilIAgaGVhbGluZy5zdGFydGVkIC8gaGVhbGluZy5maXhlZCDkuovku7YKCue7n+S4gOaOqOmAge+8iC9vcHQvZGF0YS9vcmdhbnMvdW5pZmllZF9wdXNoLnB577yJCuKUlOKUgCBwdXNoX3dhcm5pbmcoKSDihpIg6aOe5Lmm5ZGK6K2mCgrlmajlrpjnvZHlhbPvvIgvb3B0L2RhdGEvbmV1cmFsX25ldHdvcmsvb3JnYW5fZ2F0ZXdheS5wee+8iQrilJTilIAgcmVnaXN0ZXJfb3JnYW4vc2VuZF90by9icm9hZGNhc3QgQVBJCmBgYAoKIyMg6JC95Zyw5q2l6aqkCgojIyMgMS4g6K+K5pat546w54q2CgrlhYjot5HkuIDmrKEgZnVsbCDpqozor4Hns7vnu5/og73ot5HpgJrvvJoKYGBgYmFzaApjZCAvb3B0L2RhdGEvb3JnYW5zICYmIHB5dGhvbjMgYXV0b19oZWFsaW5nLnB5IGZ1bGwKYGBgCioq5bi46KeB6ZSZ6K+vKirvvJror63ms5XplJnor6/vvIhoZWFsdGh5X3BhdHRlcm4g6YeN5aSN44CB57y6IHvjgIHnvLogc2V2ZXJpdHnvvInihpIg55u05o6l5L+uIERFVEVDVElPTl9SVUxFUwoKIyMjIDIuIOajgOafpSBhdXRvX2hlYWxpbmcg6K+t5rOVCgphdXRvX2hlYWxpbmcucHkg5piv55yf5a6e55Sf5Lqn5Luj56CB77yM5b+F6aG76K+t5rOV5q2j56Gu5omN6IO955So77yaCmBgYGJhc2gKcHl0aG9uMyAtbSBweV9jb21waWxlIC9vcHQvZGF0YS9vcmdhbnMvYXV0b19oZWFsaW5nLnB5ICYmIGVjaG8gT0sKYGBgCgrluLjop4EgYnVn77yaCi0g5ZCM5LiA5LiqIHJ1bGUg5pyJ5aSa5LiqIGBoZWFsdGh5X3BhdHRlcm5gIGtlee+8iEpTT04g5Y+q5Y+W5pyA5ZCO5LiA5Liq77yJCi0gcnVsZSDnvLogc2V2ZXJpdHnvvIhLZXlFcnJvcjogJ3NldmVyaXR5J++8iQotIOW1jOWllyBkaWN0IOe8uiBge2Ag5oiW5aSaIGB9YAoKIyMjIDMuIOihpeWFheezu+e7n+ecn+WunuWuiOaKpOi/m+eoi+ajgOa1iwoKYXV0b19oZWFsaW5nIOm7mOiupOajgOa1i+mhueS4jeS4gOWumuimhuebluaJgOacieWcqOi3kei/m+eoi+OAguajgOafpe+8mgpgYGBiYXNoCnBzIGF1eCB8IGdyZXAgLXYgZ3JlcCB8IGdyZXAgcHl0aG9uCmBgYAoK6ZyA6KaB5Yqg5YWlIERFVEVDVElPTl9SVUxFUyDnmoTlhbjlnovpobnvvIjlhpnlnKggb2xsYW1hX21vZGVsIOinhOWImeWQju+8ie+8mgoKYGBgcHl0aG9uCiJob3Rfc3luYyI6IHsKICAgICJuYW1lIjogIkhvdFN5bmPng63lkIzmraXov5vnqIsiLAogICAgImNoZWNrX2NtZCI6ICJwZ3JlcCAtZiAnaG90X3N5bmMucHknID4gL2Rldi9udWxsIDI+JjEgJiYgZWNobyBSVU5OSU5HIHx8IGVjaG8gU1RPUFBFRCIsCiAgICAiYXV0b19maXgiOiBUcnVlLAogICAgImZpeF9jbWQiOiAiY2QgL29wdCAmJiBub2h1cCBweXRob24zIC9vcHQvZGF0YS9zY3JpcHRzL2hvdF9zeW5jLnB5ID4gL2Rldi9udWxsIDI+JjEgJiIsCiAgICAic2V2ZXJpdHkiOiAiaGlnaCIsCiAgICAiaGVhbHRoeV9wYXR0ZXJuIjogIl5SVU5OSU5HJCIsCn0sCiJjcm9uX2FjdGl2ZSI6IHsKICAgICJuYW1lIjogIkhlcm1lcyBDcm9u6LCD5bqmIiwKICAgICJjaGVja19jbWQiOiAicGdyZXAgLWYgJ2hlcm1lcycgPiAvZGV2L251bGwgMj4mMSAmJiBlY2hvIFJVTk5JTkcgfHwgZWNobyBTVE9QUEVEIiwKICAgICJzZXZlcml0eSI6ICJjcml0aWNhbCIsCiAgICAiaGVhbHRoeV9wYXR0ZXJuIjogIl5SVU5OSU5HJCIsCn0sCiJpbW11bmVfY3JvbiI6IHsKICAgICJuYW1lIjogIuWFjeeWq+WxguWumuaXtuajgOa1iyIsCiAgICAiY2hlY2tfY21kIjogInB5dGhvbjMgLWMgXCJpbXBvcnQgb3MsIHRpbWU7IGxvZz0nL29wdC9kYXRhL3NlY3JldGFyeS9pbW11bmVfaGVhbHRoLmxvZyc7IGFnZT1pbnQoKHRpbWUudGltZSgpLW9zLnBhdGguZ2V0bXRpbWUobG9nKSkvNjApIGlmIG9zLnBhdGguZXhpc3RzKGxvZykgZWxzZSA5OTk7IHByaW50KGFnZSlcIiAyPi9kZXYvbnVsbCB8fCBlY2hvIDk5OSIsCiAgICAic2V2ZXJpdHkiOiAiaGlnaCIsCiAgICAiaGVhbHRoeV9wYXR0ZXJuIjogIl5bMC05XSQiLAp9LApgYGAKCiMjIyA0LiDlhpkgY3JvbiDljIXoo4XlmagKCuKdjCDplJnor6/lgZrms5XvvJrop6PmnpAgQ0xJIOaWh+acrOi+k+WHuu+8iGVtb2ppIOWIhuWJsuS4jeWPr+mdoO+8iQoK4pyFIOato+ehruWBmuazle+8muebtOaOpSBpbXBvcnQg5Ye95pWwCgpgYGBweXRob24KIyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiLlhY3nlqvlsYLlrprml7bmo4DmtYsg4oCUIOavjzEw5YiG6ZKf6Kem5Y+RYXV0b19oZWFsaW5n77yM5byC5bi45pe25o6o6YCB6aOe5LmmIiIiCmltcG9ydCBzeXMKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpPUkdBTlNfRElSID0gUGF0aCgiL29wdC9kYXRhL29yZ2FucyIpCnN5cy5wYXRoLmluc2VydCgwLCBzdHIoT1JHQU5TX0RJUikpCmZyb20gYXV0b19oZWFsaW5nIGltcG9ydCBmdWxsX2hlYWx0aF9jaGVjawpmcm9tIHVuaWZpZWRfcHVzaCBpbXBvcnQgcHVzaF93YXJuaW5nCgpkZWYgcnVuKCk6CiAgICByZXBvcnQgPSBmdWxsX2hlYWx0aF9jaGVjaygpCiAgICBzY29yZSA9IHJlcG9ydC5nZXQoInNjb3JlIiwgMCkKICAgIGZhaWx1cmVzID0gW3IgZm9yIHIgaW4gcmVwb3J0LmdldCgiaW5mcmFzdHJ1Y3R1cmUiLCB7fSkuZ2V0KCJyZXN1bHRzIiwgW10pCiAgICAgICAgICAgICAgICBpZiBub3Qgci5nZXQoImhlYWx0aHkiKV0KICAgIG9yZ2FuX2ZhaWx1cmVzID0gW3IgZm9yIHIgaW4gcmVwb3J0LmdldCgib3JnYW5zIiwge30pLmdldCgicmVzdWx0cyIsIFtdKQogICAgICAgICAgICAgICAgICAgICAgaWYgbm90IHIuZ2V0KCJoZWFsdGh5IildCgogICAgIyDlhpnml6Xlv5cKICAgIGZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCiAgICBsb2dfZmlsZSA9IFBhdGgoIi9vcHQvZGF0YS9zZWNyZXRhcnkvaW1tdW5lX2hlYWx0aC5sb2ciKQogICAgbG9nX2ZpbGUud3JpdGVfdGV4dCgKICAgICAgICBmIlt7ZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoJyVZLSVtLSVkICVIOiVNJyl9XSAiCiAgICAgICAgZiJ7J/CflLQnIGlmIGZhaWx1cmVzIGVsc2UgJ/Cfn6InfSB7c2NvcmV9JVxuIgogICAgKQoKICAgICMg5byC5bi45omN5o6o6YCB77yI6K+E5YiGPDgwIOS4lOacieWksei0pemhue+8iQogICAgaWYgZmFpbHVyZXMgYW5kIHNjb3JlIDwgODA6CiAgICAgICAgcHVzaF93YXJuaW5nKAogICAgICAgICAgICBmIuKaoO+4jyDns7vnu5/lgaXlurfpooToraYge3Njb3JlfSUiLAogICAgICAgICAgICBmIuWfuuehgOiuvuaWveWxgjoge3JlcG9ydFsnaW5mcmFzdHJ1Y3R1cmUnXVsnc2NvcmUnXX0lXG4iCiAgICAgICAgICAgIGYi5Zmo5a6Y5bGCOiB7cmVwb3J0WydvcmdhbnMnXVsnc2NvcmUnXX0lXG4iCiAgICAgICAgICAgICsgIlxuIi5qb2luKGYi4p2MIHtyWyduYW1lJ119OiB7clsnb3V0cHV0J119IiBmb3IgciBpbiBmYWlsdXJlc1s6NV0pLAogICAgICAgICAgICBzb3VyY2U9ImF1dG9faGVhbGluZ19jcm9uIgogICAgICAgICkKICAgIGVsc2U6CiAgICAgICAgcHJpbnQoZiLwn5+iIOWBpeW6t+ivhOWIhiB7c2NvcmV9Je+8iOaXoOmcgOaOqOmAge+8iSIpCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcnVuKCkKYGBgCgrkv53lrZjliLAgYC9vcHQvZGF0YS9zY3JpcHRzL2F1dG9faGVhbGluZ19jcm9uLnB5YAoKIyMjIDUuIOWuieijhSBjcm9uCgpgYGBiYXNoCmNyb250YWIgLWUKIyDmt7vliqDvvJoKKi8xMCAqICogKiAqIC91c3IvYmluL3B5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvYXV0b19oZWFsaW5nX2Nyb24ucHkKYGBgCgojIyMgNi4g6aqM6K+BCgpgYGBiYXNoCiMg5rWL6K+V5YyF6KOF5ZmoCnB5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvYXV0b19oZWFsaW5nX2Nyb24ucHkKCiMg6aqM6K+BIGNyb24g5a6J6KOFCmNyb250YWIgLWwKCiMg6aqM6K+B5pel5b+XCmNhdCAvb3B0L2RhdGEvc2VjcmV0YXJ5L2ltbXVuZV9oZWFsdGgubG9nCmBgYAoKIyMg5YWz6ZSu5pWZ6K6tCgoxLiAqKuWFiOeUqOeOsOacieezu+e7nyoq77yaYXV0b19oZWFsaW5nICsgb3JnYW5fYnVzICsgdW5pZmllZF9wdXNoIOW3sue7j+aYr+WujOaVtOeahOebkeaOpy3lkYrorabpl63njq/vvIzlj6rnvLogY3JvbiDop6blj5EKMi4gKirkuI3op6PmnpAgQ0xJIOaWh+acrCoq77ya6LCD55SoIGBmdWxsX2hlYWx0aF9jaGVjaygpYCDlh73mlbDvvIzogIzkuI3mmK/nlKggZW1vamkg5YiG5YmyIHN0ZG91dAozLiAqKkhlcm1lcyDkuI3kvp3otZbns7vnu58gY3JvbmQqKu+8muWBpeW6t+ajgOafpea1iyBIZXJtZXMg6L+b56iL5Y2z5Y+v77yM5LiN55So5om+IGNyb25kCjQuICoqYXV0b19oZWFsaW5nIOivreazleW/hemhu+mqjOivgSoq77ya5rqQ5paH5Lu25Y+v6IO95piv5pen55qEL+aciWJ1Z+eahO+8jOmmluasoeS9v+eUqOWJjeWFiCBweV9jb21waWxlCgojIyDpqozor4Hlkb3ku6TmsYfmgLsKCmBgYGJhc2gKIyAxLiDor63ms5Xmo4Dmn6UKcHl0aG9uMyAtbSBweV9jb21waWxlIC9vcHQvZGF0YS9vcmdhbnMvYXV0b19oZWFsaW5nLnB5ICYmIGVjaG8gT0sKCiMgMi4g5omL5Yqo6LeR5qOA5rWLCmNkIC9vcHQvZGF0YS9vcmdhbnMgJiYgcHl0aG9uMyBhdXRvX2hlYWxpbmcucHkgZnVsbAoKIyAzLiDpqozor4EgY3JvbiDljIXoo4XlmagKcHl0aG9uMyAvb3B0L2RhdGEvc2NyaXB0cy9hdXRvX2hlYWxpbmdfY3Jvbi5weQoKIyA0LiDnoa7orqQgY3JvbiDlronoo4UKY3JvbnRhYiAtbCB8IGdyZXAgaW1tdW5lCgojIDUuIOajgOafpeaXpeW/lwpjYXQgL29wdC9kYXRhL3NlY3JldGFyeS9pbW11bmVfaGVhbHRoLmxvZwpgYGAK
+---
+name: auto-healing-nas-monitoring
+description: 用现有器官系统搭建NAS全天候监控 — 从发现免疫层到cron触发的完整链路。触发：需要给NAS建立健康监控/定时检测/第一时间发现进程挂了。
+triggers:
+  - 给NAS建立全天候监控
+  - 发现免疫层/auto_healing存在
+  - 定时检测进程存活
+  - cron触发器官层健康检查
+notes:
+  - 核心教训：先用现有系统，再造轮子
+  - auto_healing full 命令走格式化文本，不用CLI解析；直接 import full_health_check() 更可靠
+  - Hermes 用自己的调度引擎，不依赖系统 crond
+version: 1.0
+---
+
+# Auto-Healing 全天候监控落地工作流
+
+## 架构现状（2026-06-03）
+
+```
+免疫层器官（/opt/data/organs/auto_healing.py）
+├─ DETECTION_RULES 基础设施检测（Hernes/Ollama/磁盘等）
+├─ check_organ_heartbeat() 器官层动态心跳
+└─ full_health_check() 双层汇总评分
+
+事件总线（/opt/data/organs/organ_bus.py）
+└─ healing.started / healing.fixed 事件
+
+统一推送（/opt/data/organs/unified_push.py）
+└─ push_warning() → 飞书告警
+
+器官网关（/opt/data/neural_network/organ_gateway.py）
+└─ register_organ/send_to/broadcast API
+```
+
+## 落地步骤
+
+### 1. 诊断现状
+
+先跑一次 full 验证系统能跑通：
+```bash
+cd /opt/data/organs && python3 auto_healing.py full
+```
+**常见错误**：语法错误（healthy_pattern 重复、缺 {、缺 severity）→ 直接修 DETECTION_RULES
+
+### 2. 检查 auto_healing 语法
+
+auto_healing.py 是真实生产代码，必须语法正确才能用：
+```bash
+python3 -m py_compile /opt/data/organs/auto_healing.py && echo OK
+```
+
+常见 bug：
+- 同一个 rule 有多个 `healthy_pattern` key（JSON 只取最后一个）
+- rule 缺 severity（KeyError: 'severity'）
+- 嵌套 dict 缺 `{` 或多 `}`
+
+### 3. 补充系统真实守护进程检测
+
+auto_healing 默认检测项不一定覆盖所有在跑进程。检查：
+```bash
+ps aux | grep -v grep | grep python
+```
+
+需要加入 DETECTION_RULES 的典型项（写在 ollama_model 规则后）：
+
+```python
+"hot_sync": {
+    "name": "HotSync热同步进程",
+    "check_cmd": "pgrep -f 'hot_sync.py' > /dev/null 2>&1 && echo RUNNING || echo STOPPED",
+    "auto_fix": True,
+    "fix_cmd": "cd /opt && nohup python3 /opt/data/scripts/hot_sync.py > /dev/null 2>&1 &",
+    "severity": "high",
+    "healthy_pattern": "^RUNNING$",
+},
+"cron_active": {
+    "name": "Hermes Cron调度",
+    "check_cmd": "pgrep -f 'hermes' > /dev/null 2>&1 && echo RUNNING || echo STOPPED",
+    "severity": "critical",
+    "healthy_pattern": "^RUNNING$",
+},
+"immune_cron": {
+    "name": "免疫层定时检测",
+    "check_cmd": "python3 -c \"import os, time; log='/opt/data/secretary/immune_health.log'; age=int((time.time()-os.path.getmtime(log))/60) if os.path.exists(log) else 999; print(age)\" 2>/dev/null || echo 999",
+    "severity": "high",
+    "healthy_pattern": "^[0-9]$",
+},
+```
+
+### 4. 写 cron 包装器
+
+❌ 错误做法：解析 CLI 文本输出（emoji 分割不可靠）
+
+✅ 正确做法：直接 import 函数
+
+```python
+#!/usr/bin/env python3
+"""免疫层定时检测 — 每10分钟触发auto_healing，异常时推送飞书"""
+import sys
+from pathlib import Path
+
+ORGANS_DIR = Path("/opt/data/organs")
+sys.path.insert(0, str(ORGANS_DIR))
+from auto_healing import full_health_check
+from unified_push import push_warning
+
+def run():
+    report = full_health_check()
+    score = report.get("score", 0)
+    failures = [r for r in report.get("infrastructure", {}).get("results", [])
+                if not r.get("healthy")]
+    organ_failures = [r for r in report.get("organs", {}).get("results", [])
+                      if not r.get("healthy")]
+
+    # 写日志
+    from datetime import datetime
+    log_file = Path("/opt/data/secretary/immune_health.log")
+    log_file.write_text(
+        f"[{datetime.now().strftime('%Y-%m-%d %H:%M')}] "
+        f"{'🔴' if failures else '🟢'} {score}%\n"
+    )
+
+    # 异常才推送（评分<80 且有失败项）
+    if failures and score < 80:
+        push_warning(
+            f"⚠️ 系统健康预警 {score}%",
+            f"基础设施层: {report['infrastructure']['score']}%\n"
+            f"器官层: {report['organs']['score']}%\n"
+            + "\n".join(f"❌ {r['name']}: {r['output']}" for r in failures[:5]),
+            source="auto_healing_cron"
+        )
+    else:
+        print(f"🟢 健康评分 {score}%（无需推送）")
+
+if __name__ == "__main__":
+    run()
+```
+
+保存到 `/opt/data/scripts/auto_healing_cron.py`
+
+### 5. 安装 cron
+
+```bash
+crontab -e
+# 添加：
+*/10 * * * * /usr/bin/python3 /opt/data/scripts/auto_healing_cron.py
+```
+
+### 6. 验证
+
+```bash
+# 测试包装器
+python3 /opt/data/scripts/auto_healing_cron.py
+
+# 验证 cron 安装
+crontab -l
+
+# 验证日志
+cat /opt/data/secretary/immune_health.log
+```
+
+## 关键教训
+
+1. **先用现有系统**：auto_healing + organ_bus + unified_push 已经是完整的监控-告警闭环，只缺 cron 触发
+2. **不解析 CLI 文本**：调用 `full_health_check()` 函数，而不是用 emoji 分割 stdout
+3. **Hermes 不依赖系统 crond**：健康检查测 Hermes 进程即可，不用找 crond
+4. **auto_healing 语法必须验证**：源文件可能是旧的/有bug的，首次使用前先 py_compile
+
+## 验证命令汇总
+
+```bash
+# 1. 语法检查
+python3 -m py_compile /opt/data/organs/auto_healing.py && echo OK
+
+# 2. 手动跑检测
+cd /opt/data/organs && python3 auto_healing.py full
+
+# 3. 验证 cron 包装器
+python3 /opt/data/scripts/auto_healing_cron.py
+
+# 4. 确认 cron 安装
+crontab -l | grep immune
+
+# 5. 检查日志
+cat /opt/data/secretary/immune_health.log
+```

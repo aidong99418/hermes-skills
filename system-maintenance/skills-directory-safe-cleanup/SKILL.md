@@ -1,1 +1,128 @@
-LS0tCm5hbWU6IHNraWxscy1kaXJlY3Rvcnktc2FmZS1jbGVhbnVwCmRlc2NyaXB0aW9uOiDlronlhajmuIXnkIbkuI7nm5jngrkgL29wdC9kYXRhL3NraWxscy8g5bWM5aWX55uu5b2V55qE5qCH5YeG5bel5L2c5rWB44CC5qC45b+D77yac2tpbGzol4/lnKjlrZDnm67lvZXvvIznlKhyZ2xvYuS4jeeUqGl0ZXJkaXLjgIIKdHJpZ2dlcnM6IFsi5bel5YW3IiwgInNraWxsIiwgIuaKgOiDvSJdCi0tLQoKIyBTa2lsbOebruW9leWuieWFqOa4heeQhuW3peS9nOa1gQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoqKuinpuWPkeWcuuaZryoq77ya6ZyA6KaB55uY54K5L+a4heeQhi/lvZLmoaMgYC9vcHQvZGF0YS9za2lsbHMvYCDkuIvnmoTlhoXlrrkKCiMjIOaguOW/g+WOn+WImQoqKnNraWxs5YWo6YOo6JeP5Zyo5bWM5aWX55uu5b2V6YeMKirjgIJgc2tpbGxzX2Rpci5pdGVyZGlyKClgIOWPqueci+mhtuWxgu+8jOaXoOazleWPkeeOsOWtkOebruW9leS4reeahOecn+WunnNraWxs44CCCi0gNTg45Liq55yf5a6ec2tpbGzlhajpg6jlnKjlrZDnm67lvZXvvIjlsYLnuqcyLTEw77yJCi0g55SoIGByZ2xvYignU0tJTEwubWQnKWAg5omN5piv5q2j56Gu55qE5omr5o+P5pa55rOVCgojIyDmoIflh4bmtYHnqIsKCiMjIyAxLiDlhYjmkbjlupXvvIjmraPnoa7mlrnms5XvvIkKYGBgcHl0aG9uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKc2tpbGxzX2RpciA9IFBhdGgoJy9vcHQvZGF0YS9za2lsbHMnKQoKIyDmib7miYDmnInlkKtTS0lMTC5tZOeahOebruW9leKAlOKAlOeUqHJnbG9i77yM6YCS5b2S5omr5o+PCnNraWxsX21kX2ZpbGVzID0gbGlzdChza2lsbHNfZGlyLnJnbG9iKCdTS0lMTC5tZCcpKQpwcmludChmJ+WQq1NLSUxMLm1k55qE55uu5b2VOiB7bGVuKHNraWxsX21kX2ZpbGVzKX3kuKonKQoKIyDmjInkuIDnuqfliIbnsbvnu5/orqEKdG9wX2RpcnMgPSB7fQpmb3IgZiBpbiBza2lsbF9tZF9maWxlczoKICAgIHBhcnRzID0gZi5wYXJlbnQucmVsYXRpdmVfdG8oc2tpbGxzX2RpcikucGFydHMKICAgIHRvcF9kaXJzLnNldGRlZmF1bHQocGFydHNbMF0sIFtdKS5hcHBlbmQoc3RyKGYucGFyZW50LnJlbGF0aXZlX3RvKHNraWxsc19kaXIpKSkKCmZvciB0b3AsIHBhdGhzIGluIHNvcnRlZCh0b3BfZGlycy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC1sZW4oeFsxXSkpOgogICAgcHJpbnQoZicgIHt0b3B9OiB7bGVuKHBhdGhzKX3kuKpza2lsbCcpCmBgYAoKIyMjIDIuIOivhuWIq+e6r+aWh+aho+ebruW9lQpgYGBweXRob24KIyDmiYDmnInlkKttZOaWh+S7tueahOWtkOebruW9lQphbGxfbWRfZGlycyA9IHt9CmZvciBtZCBpbiBza2lsbHNfZGlyLnJnbG9iKCcqLm1kJyk6CiAgICBwID0gbWQucGFyZW50CiAgICBpZiBwID09IHNraWxsc19kaXI6CiAgICAgICAgY29udGludWUKICAgIGFsbF9tZF9kaXJzLnNldGRlZmF1bHQocCwgW10pLmFwcGVuZChtZC5uYW1lKQoKIyDliIbnprsKaGFzX3NraWxsID0ge2QgZm9yIGQsIGZpbGVzIGluIGFsbF9tZF9kaXJzLml0ZW1zKCkgaWYgJ1NLSUxMLm1kJyBpbiBmaWxlc30KZG9jX29ubHkgID0ge2Q6IGZpbGVzIGZvciBkLCBmaWxlcyBpbiBhbGxfbWRfZGlycy5pdGVtcygpIGlmICdTS0lMTC5tZCcgbm90IGluIGZpbGVzfQpwcmludChmJ+ecn+WunnNraWxsOiB7bGVuKGhhc19za2lsbCl95Liq77yM57qv5paH5qGjOiB7bGVuKGRvY19vbmx5KX3kuKonKQpgYGAKCiMjIyAzLiDlronlhajlvZLmoaPvvIjnp7vliqjnrZbnlaXvvIkKYGBgcHl0aG9uCmltcG9ydCBzaHV0aWwKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgphcmNoaXZlX2RpciA9IFBhdGgoJy9vcHQvZGF0YS9za2lsbHMtYXJjaGl2ZScpCmFyY2hpdmVfZGlyLm1rZGlyKGV4aXN0X29rPVRydWUpCgptb3ZlZCA9IHNraXBwZWQgPSAwCmZvciBzcmNfZGlyIGluIHNvcnRlZChkb2Nfb25seS5rZXlzKCkpOgogICAgcmVsID0gc3JjX2Rpci5yZWxhdGl2ZV90byhza2lsbHNfZGlyKQogICAgZHN0ID0gYXJjaGl2ZV9kaXIgLyByZWwKICAgIAogICAgIyDlpITnkIbph43lkI3lhrLnqoEKICAgIGNvdW50ZXIgPSAxCiAgICB3aGlsZSBkc3QuZXhpc3RzKCk6CiAgICAgICAgZHN0ID0gZHN0LnBhcmVudCAvIChkc3QubmFtZSArIGYnX3Z7Y291bnRlcn0nKQogICAgICAgIGNvdW50ZXIgKz0gMQogICAgCiAgICBpZiBzcmNfZGlyLmV4aXN0cygpOgogICAgICAgIHNodXRpbC5tb3ZlKHN0cihzcmNfZGlyKSwgc3RyKGRzdCkpCiAgICAgICAgbW92ZWQgKz0gMQogICAgZWxzZToKICAgICAgICBza2lwcGVkICs9IDEgICMg5bey57uP6KKr5YW25LuW5pON5L2c56e76LWw5LqGCgpwcmludChmJ+enu+WKqDoge21vdmVkfeS4qiwg6Lez6L+HOiB7c2tpcHBlZH3kuKonKQpgYGAKCiMjIyA0LiDpqozor4Hnu5PmnpwKYGBgcHl0aG9uCiMg5pyA57uI6aqM6K+BCnJlbWFpbmluZ19za2lsbHMgPSBsaXN0KHNraWxsc19kaXIucmdsb2IoJ1NLSUxMLm1kJykpCnByaW50KGYnc2tpbGxzLzoge2xlbihyZW1haW5pbmdfc2tpbGxzKX3kuKrnnJ/lrp5za2lsbCcpCgphcmNoaXZlZF9za2lsbHMgPSBsaXN0KGFyY2hpdmVfZGlyLnJnbG9iKCdTS0lMTC5tZCcpKQpwcmludChmJ2FyY2hpdmUvOiB7bGVuKGFyY2hpdmVkX3NraWxscyl95Liq77yI5ZCrc2tpbGznmoTor6/muIXnkIbvvIknKQoKIyDmo4Dmn6Vza2lsbHMv6YeM6L+Y5pyJ5peg57qv5paH5qGj55uu5b2VCmRvY19pbl9za2lsbHMgPSBbZCBmb3IgZCBpbiBza2lsbHNfZGlyLnJnbG9iKCcqJykgCiAgICAgICAgICAgICAgICAgaWYgZC5pc19kaXIoKSAKICAgICAgICAgICAgICAgICBhbmQgbGlzdChkLmdsb2IoJyoubWQnKSkKICAgICAgICAgICAgICAgICBhbmQgbm90IGxpc3QoZC5yZ2xvYignU0tJTEwubWQnKSldCnByaW50KGYnc2tpbGxzL+WJqeS9mee6r+aWh+ahozoge2xlbihkb2NfaW5fc2tpbGxzKX3kuKonKQpgYGAKCiMjIOmBv+WdkeimgeeCuQoxLiAqKuawuOi/nOS4jeimgeeUqCBgaXRlcmRpcigpYCDliKTmlq1za2lsbOaVsOmHjyoq4oCU4oCU5a6D5Y+q5omr6aG25bGC77yM5Lya5oqK5rex5bGCc2tpbGzor6/liKTkuLrnuq/mlofmoaMKMi4gKirnp7vliqjliY3lhYhjb3B55rWL6K+VKirigJTigJRgc2h1dGlsLm1vdmUoKWAg6YGH6YeN5ZCN55u05o6l5oql6ZSZ77yMYGRpcnNfZXhpc3Rfb2tg5Y+q5ZyoY29weeaXtuacieaViAozLiAqKuWbnua7muetlueVpSoq4oCU4oCU6K+v5riF55CG5LqG5pyJU0tJTEwubWTnmoTnm67lvZXml7bvvIzku45hcmNoaXZl5aSN5Yi25Zuec2tpbGxzLwo0LiAqKuWIq+WIoGV2ZXJvcy/jgIFzeXN0ZW0v44CBc3lzdGVtLW1haW50ZW5hbmNlL+OAgWJyYWluLXN5c3RlbS/jgIFtbG9wcy8qKuKAlOKAlOi/meS6m+WIhuexu+aciea3seWxglNLSUxMLm1k77yM6aG25bGC5omr5o+P5Lya5ryP5o6JCgojIyDlt7Lnn6XnnJ/lrp5za2lsbOaVsOmHj+Wfuue6v++8iDIwMjYtMDYtMDjvvIkKfCDliIbnsbsgfCDmlbDph48gfAp8LS0tLS0tfC0tLS0tLXwKfCBzeXN0ZW0gfCAxMjMgfAp8IGtub3dsZWRnZSB8IDEwMCB8CnwgYnJhaW4tc3lzdGVtIHwgNTQgfAp8IGV2ZXJvcyB8IDU5IHwKfCBtbG9wcyB8IDU3IHwKfCB3b3JrZmxvdyB8IDI1IHwKfCBicmFpbiB8IDIxIHwKfCBkZXZvcHMgfCAxOSB8CnwgcHJvZHVjdGl2aXR5IHwgMTYgfAp8IGNyZWF0aXZlIHwgMTAgfAp8IGRlYnVnIHwgMTAgfAp8IHNvZnR3YXJlLWRldmVsb3BtZW50IHwgMTAgfAp8IGdpdGh1YiB8IDcgfAp8IHJlc2VhcmNoIHwgNyB8CnwgYXBwbGUgfCA1IHwKfCBtZWRpYSB8IDUgfAp8IG1jcCB8IDQgfAp8IGdhbWluZyB8IDMgfAp8IG1ldGhvZG9sb2d5IHwgMyB8Cnwgd3BzLW9mZmljZSB8IDEgfAp8ICoq5oC76K6hKiogfCAqKjU4OCoqIHwK
+---
+name: skills-directory-safe-cleanup
+description: 安全清理与盘点 /opt/data/skills/ 嵌套目录的标准工作流。核心：skill藏在子目录，用rglob不用iterdir。
+triggers: ["工具", "skill", "技能"]
+---
+
+# Skill目录安全清理工作流
+======================================
+**触发场景**：需要盘点/清理/归档 `/opt/data/skills/` 下的内容
+
+## 核心原则
+**skill全部藏在嵌套目录里**。`skills_dir.iterdir()` 只看顶层，无法发现子目录中的真实skill。
+- 588个真实skill全部在子目录（层级2-10）
+- 用 `rglob('SKILL.md')` 才是正确的扫描方法
+
+## 标准流程
+
+### 1. 先摸底（正确方法）
+```python
+from pathlib import Path
+
+skills_dir = Path('/opt/data/skills')
+
+# 找所有含SKILL.md的目录——用rglob，递归扫描
+skill_md_files = list(skills_dir.rglob('SKILL.md'))
+print(f'含SKILL.md的目录: {len(skill_md_files)}个')
+
+# 按一级分类统计
+top_dirs = {}
+for f in skill_md_files:
+    parts = f.parent.relative_to(skills_dir).parts
+    top_dirs.setdefault(parts[0], []).append(str(f.parent.relative_to(skills_dir)))
+
+for top, paths in sorted(top_dirs.items(), key=lambda x: -len(x[1])):
+    print(f'  {top}: {len(paths)}个skill')
+```
+
+### 2. 识别纯文档目录
+```python
+# 所有含md文件的子目录
+all_md_dirs = {}
+for md in skills_dir.rglob('*.md'):
+    p = md.parent
+    if p == skills_dir:
+        continue
+    all_md_dirs.setdefault(p, []).append(md.name)
+
+# 分离
+has_skill = {d for d, files in all_md_dirs.items() if 'SKILL.md' in files}
+doc_only  = {d: files for d, files in all_md_dirs.items() if 'SKILL.md' not in files}
+print(f'真实skill: {len(has_skill)}个，纯文档: {len(doc_only)}个')
+```
+
+### 3. 安全归档（移动策略）
+```python
+import shutil
+from pathlib import Path
+
+archive_dir = Path('/opt/data/skills-archive')
+archive_dir.mkdir(exist_ok=True)
+
+moved = skipped = 0
+for src_dir in sorted(doc_only.keys()):
+    rel = src_dir.relative_to(skills_dir)
+    dst = archive_dir / rel
+    
+    # 处理重名冲突
+    counter = 1
+    while dst.exists():
+        dst = dst.parent / (dst.name + f'_v{counter}')
+        counter += 1
+    
+    if src_dir.exists():
+        shutil.move(str(src_dir), str(dst))
+        moved += 1
+    else:
+        skipped += 1  # 已经被其他操作移走了
+
+print(f'移动: {moved}个, 跳过: {skipped}个')
+```
+
+### 4. 验证结果
+```python
+# 最终验证
+remaining_skills = list(skills_dir.rglob('SKILL.md'))
+print(f'skills/: {len(remaining_skills)}个真实skill')
+
+archived_skills = list(archive_dir.rglob('SKILL.md'))
+print(f'archive/: {len(archived_skills)}个（含skill的误清理）')
+
+# 检查skills/里还有无纯文档目录
+doc_in_skills = [d for d in skills_dir.rglob('*') 
+                 if d.is_dir() 
+                 and list(d.glob('*.md'))
+                 and not list(d.rglob('SKILL.md'))]
+print(f'skills/剩余纯文档: {len(doc_in_skills)}个')
+```
+
+## 避坑要点
+1. **永远不要用 `iterdir()` 判断skill数量**——它只扫顶层，会把深层skill误判为纯文档
+2. **移动前先copy测试**——`shutil.move()` 遇重名直接报错，`dirs_exist_ok`只在copy时有效
+3. **回滚策略**——误清理了有SKILL.md的目录时，从archive复制回skills/
+4. **别删everos/、system/、system-maintenance/、brain-system/、mlops/**——这些分类有深层SKILL.md，顶层扫描会漏掉
+
+## 已知真实skill数量基线（2026-06-08）
+| 分类 | 数量 |
+|------|------|
+| system | 123 |
+| knowledge | 100 |
+| brain-system | 54 |
+| everos | 59 |
+| mlops | 57 |
+| workflow | 25 |
+| brain | 21 |
+| devops | 19 |
+| productivity | 16 |
+| creative | 10 |
+| debug | 10 |
+| software-development | 10 |
+| github | 7 |
+| research | 7 |
+| apple | 5 |
+| media | 5 |
+| mcp | 4 |
+| gaming | 3 |
+| methodology | 3 |
+| wps-office | 1 |
+| **总计** | **588** |

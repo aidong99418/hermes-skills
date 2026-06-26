@@ -1,1 +1,74 @@
-LS0tCm5hbWU6IG9yZ2FuLXN5c3RlbS1lbmNhcHN1bGF0aW9uLXByb2dyZXNzCmRlc2NyaXB0aW9uOiDlmajlrpjns7vnu5/lsIHoo4Xov5vluqbov73ouKog4oCUIDIwMjYtMDYtMDXono3lkIjlrozmiJDvvIjniannkIbov4Hnp7sr6aqM6K+B77yJCnRyaWdnZXJzOiBbIuezu+e7nyIsICLmnrbmnoQiXQp0YWdzOiBbb3JnYW4sIGVuY2Fwc3VsYXRpb24sIGluLXByb2dyZXNzXQpjcmVhdGVkOiAyMDI2LTA2LTA1CnVwZGF0ZWQ6IDIwMjYtMDYtMDUKLS0tCgojIOWZqOWumOezu+e7n+Wwgeijhei/m+W6pui/vei4qgoKIyMg54q25oCB77ya6J6N5ZCI6Zi25q615LiA5a6M5oiQIOKchQoKIyMjIOKchSDlt7LlrozmiJAKMS4g546w54q25pG45bqV77yaMTTkuKrlmajlrpjohJrmnKzvvIzpgJDkuIDmiavmj4/lrozmiJAKMi4gMTTkuKrlmajlrpjmlofku7bov4Hnp7vliLAgYC9vcHQvZGF0YS9icmFpbi9vcmdhbnMvYO+8iOeJqeeQhue7n+S4gO+8iQozLiA35Liq5paH5Lu25YaF6YOo5a+85YWl6Lev5b6E5L+u5aSN77yIYGZyb20gb3JnYW5zLmAg4oaSIGBmcm9tIC5gIOebuOWvueWvvOWFpe+8iQo0LiBvcmdhbl9idXMg6Ieq5Yqo5rOo5YaM6Lev5b6E5pu05paw5Li65paw5L2N572uCjUuIG9yZ2FuX3JlZ2lzdHJ5Lmpzb24gMTDmnaHot6/lvoTlhajpg6jmm7TmlrAKNi4gMTQvMTQg5Zmo5a6Y5YGl5bq36aqM6K+B6YCa6L+HCgojIyMg8J+UkSDlhbPplK7mnrbmnoTlj5HnjrAKKioi5Lik5bGC55qu5p625p6EIioq77ya5Zmo5a6Y57O757uf77yIb3JnYW5fYnVzKzE05Zmo5a6Y77yJ5ZKM56We57uP6ISJ57uc77yIQUU06L+b5YyW5Zu+6LCx77yJ5piv6YCa6L+HIGFlNF9icmlkZ2Ug5Y2V5ZCR6L+e5o6l77yMCm9yZ2FuX2J1c+WPquiDvSLpgI/op4Yi6ISJ57uc77yM6ISJ57uc5a6M5YWo5LiN55+l6YGT5Zmo5a6Y5a2Y5Zyo44CCCuiejeWQiOaguOW/g+S4jeaYr+aQrOaWh+S7tu+8jOiAjOaYr+iuqeiEiee7nOa/gOa0u+WQjuS4u+WKqOmAmui/hyBvcmdhbl9idXMg6YCa55+l5Zmo5a6Y77yI5Y+M5ZCR6Zet546v77yJ44CCCgojIyMg4pyFIOiejeWQiOmYtuauteS6jOWujOaIkO+8iDIwMjYtMDYtMDbvvIkKKirlj4zlkJHkuovku7bpl63njq/lt7LmiZPpgJrvvJoqKgoxLiDmlrDlu7ogYC9vcHQvZGF0YS9icmFpbi9vcmdhbnMvb3JnYW5fZ2F0ZXdheV9icmlkZ2UucHlg77yIMjQ36KGM77yJ4oCUIE9yZ2FuR2F0ZXdheUJyaWRnZSDljZXkvosKICAgLSBHYXRld2F5IEhvb2tSZWdpc3RyeSDihpIgT3JnYW4gQnVz77yIZ2F0ZXdheeS6i+S7tuWQjOatpeWIsOWZqOWumO+8iQogICAtIE9yZ2FuIEJ1cyDihpIgR2F0ZXdheSBIb29r77yI5Zmo5a6Y5LqL5Lu25ZCM5q2l5Yiw572R5YWz77yJCiAgIC0g6Ieq5Yqo5Yqg6L29MTTkuKrlmajlrpggaGVhbHRoX2NoZWNrCjIuIGdhdGV3YXkvcnVuLnB5IHN0YXJ0KCkgTDE4MTUg5o6l5YWl5qGl5o6lIGluaXQoKQozLiBnYXRld2F5L3J1bi5weSBzdG9wKCkgTDI0OTkg5o6l5YWl5qGl5o6lIHNodXRkb3duKCkKNC4g5paw5bu6IGAvb3B0L2RhdGEvc2NyaXB0cy9vcmdhbl9oZWFsdGhfZGFlbW9uLnB5YO+8iDQ0OTLlrZfoioLvvInigJQg5q2j56Gu6Lev5b6E57uf5LiA5a6I5oqk6ISa5pysCjUuIGNyb24g6Ieq5oSI5Zmo5YWo6ZO+6Lev5qOA5p+l5pS555SoIG9yZ2FuX2hlYWx0aF9kYWVtb24ucHkKNi4g5paw5rOo5YaM5Zmo5a6Y57O757uf5YWo6ZO+6Lev55uR5o6nIGNyb27vvIjmr4815YiG6ZKf77yJCjcuIOmqjOivge+8mjEzLzE0IOWZqOWumOWBpeW6t++8iG5ldXJhbF9zYWZlIOe8uiBwc3V0aWzvvIkKCioq6LCD55So6ZO+546w54q277yIMjAyNi0wNi0wNu+8ie+8mioqCmBgYApnYXRld2F5LnN0YXJ0KCkg4oaSIG9yZ2FuX2dhdGV3YXlfYnJpZGdlLmluaXQoaG9va3MpCiAg4oaSIOazqOWGjCBnYXRld2F5IGhvb2sg5LqL5Lu255uR5ZCs5ZmoCiAg4oaSIOWKoOi9vTE05Liq5Zmo5a6YIGhlYWx0aF9jaGVjawogIOKGkiBvcmdhbl9idXMg5Y+M5ZCR6K6i6ZiFCgpjcm9uLzVtaW4g4oaSIG9yZ2FuX2hlYWx0aF9kYWVtb24ucHkKICDihpIg6K+7IG9yZ2FuX3JlZ2lzdHJ5Lmpzb24KICDihpIg6YCQ5Liq5Zmo5a6YIGhlYWx0aF9jaGVjawogIOKGkiDlhpkgb3JnYW5fYWxlcnQuanNvbu+8iOWmgumcgO+8iQpgYGAKCiMjIyDimqDvuI8g6L+B56e76Lip5Z2R6K6w5b2VCi0gYWxlcnRfc2VuZGVyLnB5IC8gdGFza19ib2FyZC5wee+8mmhlYWx0aF9jaGVjaygp5Ye95pWw5YaF55SoIGB0aW1lLnRpbWUoKWAg5L2G5pyqIGltcG9ydCB0aW1l77yI5Y6f5pyJYnVn77yM6L+B56e75ZCO6aqM6K+B5omN5Y+R546w77yJCi0gc3lzdGVtX2hlYWx0aC5wee+8muaXoCBoZWFsdGhfY2hlY2sg5Ye95pWw77yI6ZyA6KGl5YWo77yJCi0gZXZvbHV0aW9uX2VuZ2luZS5wee+8muWOn+acrOS4jeWtmOWcqO+8jOmcgOWIm+W7uuWtmOaguQoKIyMjIOi/geenu+agh+WHhua1geeoi++8iOWPr+WkjeeUqO+8iQpgYGAKMS4gbWtkaXIgLXAgL29wdC9kYXRhL2JyYWluL29yZ2FucwoyLiBjcCAvb3B0L2RhdGEvb3JnYW5zLyoucHkgL29wdC9kYXRhL2JyYWluL29yZ2Fucy8KMy4gc2VkICJzL2Zyb20gb3JnYW5zXC4vZnJvbSAuL2ciICoucHnvvIjmibnph4/nm7jlr7nlr7zlhaXvvIkKNC4g5L+uIG9yZ2FuX2J1cy5fYXV0b19yZWdpc3RlciDot6/lvoQKNS4g5pu05pawIG9yZ2FuX3JlZ2lzdHJ5Lmpzb24g5omA5pyJIGZpbGUg6Lev5b6ECjYuIOmAkOS4qumqjOivgSBoZWFsdGhfY2hlY2soKQpgYGAKCiMjIyDij7Mg5b6F5YGaCjEuIH5+Kirlj4zlkJHkuovku7bpl63njq8qKu+8muiEiee7nOa/gOa0u+WQjiBlbWl0KCJuZXVyYWwuYWN0aXZhdGVkIikg4oaSIG9yZ2FuX2J1cyDorqLpmIXop6blj5Hlmajlrpjlj43lupR+fiDinIUgKDIwMjYtMDYtMDYgT3JnYW5HYXRld2F5QnJpZGdlKQoyLiAqKue7n+S4gCBoZWFsdGhfY2hlY2sg5qC85byPKirvvJrliankvZnlmajlrpjooaUgb3JnYW5fdHlwZS92ZXJzaW9uIOWtl+autQozLiAqKuS4ieWllyBhY3RpdmF0aW9uX2VuZ2luZSDlkIjkuIAqKu+8mi9vcHQvZGF0YS9icmFpbi9jb3JlL2FjdGl2YXRpb25fZW5naW5lLnB577yIMTIyNOihjOacgOaWsO+8ieS/neeVme+8jOWFtuS7luW6n+W8gwo0LiAqKmV2b2x1dGlvbl9lbmdpbmUg5a6M5pW05a6e546wKirvvJrlspvlsb/pgZfkvKDnrpfms5XvvIjlvZPliY3mmK/lrZjmoLnvvIkKNS4gKiphZTRfYnJpZGdlIOaCrOepuui3r+W+hCoq77yaVjM1X0JBU0Ug5oyH5ZCR5LiN5a2Y5Zyo55qE55uu5b2V77yM6ZyA5L+u5aSNCjYuICoqbmV1cmFsX3NhZmUgcHN1dGlsIOS+nei1lioq77ya57uZIGhlcm1lcyB2ZW52IOijhSBwc3V0aWzvvIzorqkgMTQvMTQg5Zmo5a6Y5YWo6YOo5YGl5bq3Cg==
+---
+name: organ-system-encapsulation-progress
+description: 器官系统封装进度追踪 — 2026-06-05融合完成（物理迁移+验证）
+triggers: ["系统", "架构"]
+tags: [organ, encapsulation, in-progress]
+created: 2026-06-05
+updated: 2026-06-05
+---
+
+# 器官系统封装进度追踪
+
+## 状态：融合阶段一完成 ✅
+
+### ✅ 已完成
+1. 现状摸底：14个器官脚本，逐一扫描完成
+2. 14个器官文件迁移到 `/opt/data/brain/organs/`（物理统一）
+3. 7个文件内部导入路径修复（`from organs.` → `from .` 相对导入）
+4. organ_bus 自动注册路径更新为新位置
+5. organ_registry.json 10条路径全部更新
+6. 14/14 器官健康验证通过
+
+### 🔑 关键架构发现
+**"两层皮架构"**：器官系统（organ_bus+14器官）和神经脉络（AE4进化图谱）是通过 ae4_bridge 单向连接，
+organ_bus只能"透视"脉络，脉络完全不知道器官存在。
+融合核心不是搬文件，而是让脉络激活后主动通过 organ_bus 通知器官（双向闭环）。
+
+### ✅ 融合阶段二完成（2026-06-06）
+**双向事件闭环已打通：**
+1. 新建 `/opt/data/brain/organs/organ_gateway_bridge.py`（247行）— OrganGatewayBridge 单例
+   - Gateway HookRegistry → Organ Bus（gateway事件同步到器官）
+   - Organ Bus → Gateway Hook（器官事件同步到网关）
+   - 自动加载14个器官 health_check
+2. gateway/run.py start() L1815 接入桥接 init()
+3. gateway/run.py stop() L2499 接入桥接 shutdown()
+4. 新建 `/opt/data/scripts/organ_health_daemon.py`（4492字节）— 正确路径统一守护脚本
+5. cron 自愈器全链路检查改用 organ_health_daemon.py
+6. 新注册器官系统全链路监控 cron（每5分钟）
+7. 验证：13/14 器官健康（neural_safe 缺 psutil）
+
+**调用链现状（2026-06-06）：**
+```
+gateway.start() → organ_gateway_bridge.init(hooks)
+  → 注册 gateway hook 事件监听器
+  → 加载14个器官 health_check
+  → organ_bus 双向订阅
+
+cron/5min → organ_health_daemon.py
+  → 读 organ_registry.json
+  → 逐个器官 health_check
+  → 写 organ_alert.json（如需）
+```
+
+### ⚠️ 迁移踩坑记录
+- alert_sender.py / task_board.py：health_check()函数内用 `time.time()` 但未 import time（原有bug，迁移后验证才发现）
+- system_health.py：无 health_check 函数（需补全）
+- evolution_engine.py：原本不存在，需创建存根
+
+### 迁移标准流程（可复用）
+```
+1. mkdir -p /opt/data/brain/organs
+2. cp /opt/data/organs/*.py /opt/data/brain/organs/
+3. sed "s/from organs\./from ./g" *.py（批量相对导入）
+4. 修 organ_bus._auto_register 路径
+5. 更新 organ_registry.json 所有 file 路径
+6. 逐个验证 health_check()
+```
+
+### ⏳ 待做
+1. ~~**双向事件闭环**：脉络激活后 emit("neural.activated") → organ_bus 订阅触发器官反应~~ ✅ (2026-06-06 OrganGatewayBridge)
+2. **统一 health_check 格式**：剩余器官补 organ_type/version 字段
+3. **三套 activation_engine 合一**：/opt/data/brain/core/activation_engine.py（1224行最新）保留，其他废弃
+4. **evolution_engine 完整实现**：岛屿遗传算法（当前是存根）
+5. **ae4_bridge 悬空路径**：V35_BASE 指向不存在的目录，需修复
+6. **neural_safe psutil 依赖**：给 hermes venv 装 psutil，让 14/14 器官全部健康

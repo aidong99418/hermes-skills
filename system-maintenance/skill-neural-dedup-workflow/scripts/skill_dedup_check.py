@@ -1,1 +1,220 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKc2tpbGxfbmV1cmFs5Y676YeN6aqM6K+B6ISa5pysCuinpuWPke+8mnNraWxsc+ebruW9leWuiOaKpGNyb24gLyDmiYvliqjor4rmlq0gLyDoh6rliqjkv67lpI0KCumAu+i+ke+8mgoxLiDmiavmj4/miYDmnIlza2lsbHMv5LiL55qEU0tJTEwubWTvvIzmj5Dlj5ZuYW1lK3ZlcnNpb24rbXRpbWUKMi4g5ZCM5ZCNc2tpbGzlj6rkv53nlZnvvJp2ZXJzaW9u5pyA5pawID4gbXRpbWXmnIDmlrAg55qE5LyY5YWI54mI5pysCjMuIOi+k+WHuuWOu+mHjeWGs+etluaKpeWRigo0LiDlr7lza2lsbF9uZXVyYWwuanNvbuWBmuWQjOagt+ajgOafpQoiIiIKCmltcG9ydCBvcwppbXBvcnQganNvbgppbXBvcnQgcmUKaW1wb3J0IHNodXRpbApmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKClNLSUxMU19ST09UID0gUGF0aCgiL29wdC9kYXRhL3NraWxscyIpClNLSUxMX05FVVJBTCA9IFBhdGgoIi9vcHQvZGF0YS9za2lsbF9uZXVyYWwuanNvbiIpClNOQVBfRElSID0gUGF0aCgiL29wdC9kYXRhL3NraWxsX25ldXJhbC5zbmFwIikKCgpkZWYgZXh0cmFjdF9za2lsbF9pbmZvKHNraWxsX2RpcjogUGF0aCkgLT4gZGljdDoKICAgICIiIuS7jnNraWxs55uu5b2V5o+Q5Y+WbmFtZeWSjHZlcnNpb24iIiIKICAgIG1ldGEgPSB7CiAgICAgICAgIm5hbWUiOiBOb25lLAogICAgICAgICJ2ZXJzaW9uIjogTm9uZSwKICAgICAgICAicGF0aCI6IHN0cihza2lsbF9kaXIpLAogICAgICAgICJtdGltZSI6IDAsCiAgICB9CiAgICBza2lsbF9tZCA9IHNraWxsX2RpciAvICJTS0lMTC5tZCIKICAgIGlmIHNraWxsX21kLmV4aXN0cygpOgogICAgICAgIG1ldGFbIm10aW1lIl0gPSBza2lsbF9tZC5zdGF0KCkuc3RfbXRpbWUKICAgICAgICB0cnk6CiAgICAgICAgICAgIGNvbnRlbnQgPSBza2lsbF9tZC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBjb250ZW50ID0gIiIKICAgICAgICAjIOaPkOWPlm5hbWUKICAgICAgICBuID0gcmUuc2VhcmNoKHIiXm5hbWU6XHMqKC4rKSQiLCBjb250ZW50LCByZS5NVUxUSUxJTkUpCiAgICAgICAgaWYgbjoKICAgICAgICAgICAgbWV0YVsibmFtZSJdID0gbi5ncm91cCgxKS5zdHJpcCgpCiAgICAgICAgIyDmj5Dlj5Z2ZXJzaW9uCiAgICAgICAgdiA9IHJlLnNlYXJjaChyIl52ZXJzaW9uOlxzKiguKykkIiwgY29udGVudCwgcmUuTVVMVElMSU5FKQogICAgICAgIGlmIHY6CiAgICAgICAgICAgIG1ldGFbInZlcnNpb24iXSA9IHYuZ3JvdXAoMSkuc3RyaXAoKQogICAgcmV0dXJuIG1ldGEKCgpkZWYgc2Nhbl9hbGxfc2tpbGxzKCk6CiAgICAiIiLpgJLlvZLmiavmj4/miYDmnIlza2lsbOebruW9le+8iOmhtuWxgivlrZDnm67lvZXvvIkiIiIKICAgIHNraWxscyA9IHt9CiAgICAjIOmhtuWxggogICAgZm9yIHNraWxsX2RpciBpbiBTS0lMTFNfUk9PVC5nbG9iKCIqIik6CiAgICAgICAgaWYgc2tpbGxfZGlyLmlzX2RpcigpIGFuZCBub3Qgc2tpbGxfZGlyLm5hbWUuc3RhcnRzd2l0aCgiLiIpOgogICAgICAgICAgICBpbmZvID0gZXh0cmFjdF9za2lsbF9pbmZvKHNraWxsX2RpcikKICAgICAgICAgICAgaWYgaW5mb1sibmFtZSJdOgogICAgICAgICAgICAgICAgc2tpbGxzLnNldGRlZmF1bHQoaW5mb1sibmFtZSJdLCBbXSkuYXBwZW5kKGluZm8pCiAgICAjIOWtkOebruW9le+8iOefpeivhuWtkOebruW9le+8iQogICAgZm9yIHNraWxsX2RpciBpbiBTS0lMTFNfUk9PVC5nbG9iKCIqLyovIik6CiAgICAgICAgaWYgc2tpbGxfZGlyLmlzX2RpcigpIGFuZCBub3Qgc2tpbGxfZGlyLm5hbWUuc3RhcnRzd2l0aCgiLiIpOgogICAgICAgICAgICBpbmZvID0gZXh0cmFjdF9za2lsbF9pbmZvKHNraWxsX2RpcikKICAgICAgICAgICAgaWYgaW5mb1sibmFtZSJdOgogICAgICAgICAgICAgICAgc2tpbGxzLnNldGRlZmF1bHQoaW5mb1sibmFtZSJdLCBbXSkuYXBwZW5kKGluZm8pCiAgICByZXR1cm4gc2tpbGxzCgoKZGVmIGdldF92ZXJzaW9uX3Njb3JlKHY6IHN0cikgLT4gaW50OgogICAgIiIidmVyc2lvbuWIhuaVsO+8mk5vbmU9MCwg5pWw5a2X6LaK5aSn6LaK6auYIiIiCiAgICBpZiBub3QgdjoKICAgICAgICByZXR1cm4gMAogICAgdHJ5OgogICAgICAgIHBhcnRzID0gW2ludCh4KSBmb3IgeCBpbiB2LmxzdHJpcCgidiIpLnNwbGl0KCIuIildCiAgICAgICAgcmV0dXJuIHN1bShwICogKDEwICoqICgyIC0gaSkpIGZvciBpLCBwIGluIGVudW1lcmF0ZShwYXJ0cykpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiAwCgoKZGVmIGZpbmRfZHVwbGljYXRlcygpOgogICAgIiIi5om+5Ye65omA5pyJ6YeN5aSNc2tpbGzvvIzov5Tlm57ljrvph43lhrPnrZYiIiIKICAgIGFsbF9za2lsbHMgPSBzY2FuX2FsbF9za2lsbHMoKQogICAgZGVjaXNpb25zID0ge30KICAgIGZvciBuYW1lLCBpbnN0YW5jZXMgaW4gYWxsX3NraWxscy5pdGVtcygpOgogICAgICAgIGlmIGxlbihpbnN0YW5jZXMpID09IDE6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgIyDmjpLluo/vvJp2ZXJzaW9u6ZmN5bqPID4gbXRpbWXpmY3luo8KICAgICAgICBpbnN0YW5jZXMuc29ydCgKICAgICAgICAgICAga2V5PWxhbWJkYSB4OiAoZ2V0X3ZlcnNpb25fc2NvcmUoeFsidmVyc2lvbiJdKSwgeFsibXRpbWUiXSksCiAgICAgICAgICAgIHJldmVyc2U9VHJ1ZSwKICAgICAgICApCiAgICAgICAgd2lubmVyID0gaW5zdGFuY2VzWzBdCiAgICAgICAgbG9zZXJzID0gaW5zdGFuY2VzWzE6XQogICAgICAgIGRlY2lzaW9uc1tuYW1lXSA9IHsKICAgICAgICAgICAgIndpbm5lciI6IHdpbm5lciwKICAgICAgICAgICAgImxvc2VycyI6IGxvc2VycywKICAgICAgICAgICAgImNvdW50IjogbGVuKGluc3RhbmNlcyksCiAgICAgICAgfQogICAgcmV0dXJuIGRlY2lzaW9ucwoKCmRlZiB2ZXJpZnlfc2tpbGxfbmV1cmFsX2RlZHVwKCk6CiAgICAiIiLmo4Dmn6Vza2lsbF9uZXVyYWwuanNvbuaYr+WQpuaciemHjeWkjeeahHNraWxs6IqC54K5IiIiCiAgICBpZiBub3QgU0tJTExfTkVVUkFMLmV4aXN0cygpOgogICAgICAgIHJldHVybiB7ImVycm9yIjogInNraWxsX25ldXJhbC5qc29u5LiN5a2Y5ZyoIn0KICAgIHRyeToKICAgICAgICBkYXRhID0ganNvbi5sb2FkcyhTS0lMTF9ORVVSQUwucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiB7ImVycm9yIjogZiLor7vlj5blpLHotKU6IHtlfSJ9CiAgICBub2RlcyA9IGRhdGEuZ2V0KCJub2RlcyIsIFtdKQogICAgc2tpbGxfbm9kZXMgPSBbbiBmb3IgbiBpbiBub2RlcyBpZiBuLmdldCgidHlwZSIpID09ICJza2lsbCJdCgogICAgIyDlkIzlkI1za2lsbOiKgueCueiuoeaVsAogICAgbmFtZV9jb3VudCA9IHt9CiAgICBmb3IgbiBpbiBza2lsbF9ub2RlczoKICAgICAgICBuYW1lID0gbi5nZXQoIm5hbWUiKQogICAgICAgIGlmIG5hbWU6CiAgICAgICAgICAgIG5hbWVfY291bnQuc2V0ZGVmYXVsdChuYW1lLCBbXSkuYXBwZW5kKG4pCgogICAgZHVwbGljYXRlcyA9IHtuYW1lOiBucyBmb3IgbmFtZSwgbnMgaW4gbmFtZV9jb3VudC5pdGVtcygpIGlmIGxlbihucykgPiAxfQogICAgcmV0dXJuIHsKICAgICAgICAidG90YWxfc2tpbGxfbm9kZXMiOiBsZW4oc2tpbGxfbm9kZXMpLAogICAgICAgICJ0b3RhbF9ub2RlcyI6IGxlbihub2RlcyksCiAgICAgICAgImR1cGxpY2F0ZXMiOiBkdXBsaWNhdGVzLAogICAgfQoKCmRlZiBhdXRvX2JhY2t1cF9hbmRfcmVtb3ZlKGxvc2VyX3BhdGhzOiBsaXN0LCBkcnlfcnVuOiBib29sID0gRmFsc2UpIC0+IGRpY3Q6CiAgICAiIiIKICAgIOWkh+S7veW5tuWIoOmZpGxvc2VyIHNraWxs55uu5b2VCiAgICDov5Tlm57vvJp7ImJhY2t1cF9kaXIiOiBzdHIsICJyZW1vdmVkIjogbGlzdCwgImZhaWxlZCI6IGxpc3R9CiAgICAiIiIKICAgIGRhdGVfc3RyID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZJW0lZCIpCiAgICBiYWNrdXBfZGlyID0gU05BUF9ESVIgLyAiZGVkdXBfYmFja3VwIiAvIGRhdGVfc3RyCiAgICBiYWNrdXBfZGlyLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICByZW1vdmVkID0gW10KICAgIGZhaWxlZCA9IFtdCiAgICBmb3IgcGF0aF9zdHIgaW4gbG9zZXJfcGF0aHM6CiAgICAgICAgcCA9IFBhdGgocGF0aF9zdHIpCiAgICAgICAgaWYgbm90IHAuZXhpc3RzKCk6CiAgICAgICAgICAgIGZhaWxlZC5hcHBlbmQoeyJwYXRoIjogcGF0aF9zdHIsICJyZWFzb24iOiAi55uu5b2V5LiN5a2Y5ZyoIn0pCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgc2tpbGxfbmFtZSA9IHAubmFtZQogICAgICAgIGRlc3QgPSBiYWNrdXBfZGlyIC8gc2tpbGxfbmFtZQogICAgICAgIHRyeToKICAgICAgICAgICAgaWYgbm90IGRyeV9ydW46CiAgICAgICAgICAgICAgICBzaHV0aWwubW92ZShzdHIocCksIHN0cihkZXN0KSkKICAgICAgICAgICAgcmVtb3ZlZC5hcHBlbmQocGF0aF9zdHIpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBmYWlsZWQuYXBwZW5kKHsicGF0aCI6IHBhdGhfc3RyLCAicmVhc29uIjogc3RyKGUpfSkKICAgIHJldHVybiB7ImJhY2t1cF9kaXIiOiBzdHIoYmFja3VwX2RpciksICJyZW1vdmVkIjogcmVtb3ZlZCwgImZhaWxlZCI6IGZhaWxlZH0KCgpkZWYgbWFpbigpOgogICAgcHJpbnQoIj0iICogNjApCiAgICBwcmludCgi8J+UjSBza2lsbF9uZXVyYWwg5Y676YeN6aqM6K+B5oql5ZGKIikKICAgIHByaW50KCI9IiAqIDYwKQoKICAgICMg5qOA5p+l6YeN5aSNc2tpbGwKICAgIGRlY2lzaW9ucyA9IGZpbmRfZHVwbGljYXRlcygpCiAgICBpZiBub3QgZGVjaXNpb25zOgogICAgICAgIHByaW50KCJcbuKchSBza2lsbHPnm67lvZXvvJrml6Dph43lpI0iKQogICAgZWxzZToKICAgICAgICBwcmludChmIlxu4pqg77iPICDlj5HnjrAge2xlbihkZWNpc2lvbnMpfSDlr7nph43lpI1za2lsbO+8mlxuIikKICAgICAgICBmb3IgbmFtZSwgZCBpbiBkZWNpc2lvbnMuaXRlbXMoKToKICAgICAgICAgICAgcHJpbnQoZiIgIOOAkHtuYW1lfeOAkeWFsSB7ZFsnY291bnQnXX0g5Liq54mI5pysOiIpCiAgICAgICAgICAgIHByaW50KGYiICDinIUg5L+d55WZOiB7ZFsnd2lubmVyJ11bJ3BhdGgnXX0iKQogICAgICAgICAgICBwcmludCgKICAgICAgICAgICAgICAgIGYiICAgICB2ZXJzaW9uPXtkWyd3aW5uZXInXVsndmVyc2lvbiddIG9yICfml6AnfSwgIgogICAgICAgICAgICAgICAgZiJtdGltZT17ZGF0ZXRpbWUuZnJvbXRpbWVzdGFtcChkWyd3aW5uZXInXVsnbXRpbWUnXSkuc3RyZnRpbWUoJyVtLSVkICVIOiVNJyl9IgogICAgICAgICAgICApCiAgICAgICAgICAgIGZvciBsb3NlciBpbiBkWyJsb3NlcnMiXToKICAgICAgICAgICAgICAgIHByaW50KGYiICDinYwg5Yig6ZmkOiB7bG9zZXJbJ3BhdGgnXX0iKQogICAgICAgICAgICAgICAgcHJpbnQoCiAgICAgICAgICAgICAgICAgICAgZiIgICAgIHZlcnNpb249e2xvc2VyWyd2ZXJzaW9uJ10gb3IgJ+aXoCd9LCAiCiAgICAgICAgICAgICAgICAgICAgZiJtdGltZT17ZGF0ZXRpbWUuZnJvbXRpbWVzdGFtcChsb3NlclsnbXRpbWUnXSkuc3RyZnRpbWUoJyVtLSVkICVIOiVNJyl9IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBwcmludCgpCgogICAgICAgICMg6Ieq5Yqo5L+u5aSN6YCJ6aG5CiAgICAgICAgYWxsX2xvc2VycyA9IFtdCiAgICAgICAgZm9yIGQgaW4gZGVjaXNpb25zLnZhbHVlcygpOgogICAgICAgICAgICBhbGxfbG9zZXJzLmV4dGVuZChbbFsicGF0aCJdIGZvciBsIGluIGRbImxvc2VycyJdXSkKCiAgICAgICAgcmVzdWx0ID0gYXV0b19iYWNrdXBfYW5kX3JlbW92ZShhbGxfbG9zZXJzKQogICAgICAgIHByaW50KGYiICDwn5OmIOWkh+S7veebruW9lToge3Jlc3VsdFsnYmFja3VwX2RpciddfSIpCiAgICAgICAgcHJpbnQoZiIgIOKchSDlt7Lnp7vpmaQ6IHtsZW4ocmVzdWx0WydyZW1vdmVkJ10pfSDkuKoiKQogICAgICAgIGlmIHJlc3VsdFsiZmFpbGVkIl06CiAgICAgICAgICAgIHByaW50KGYiICDinYwg5aSx6LSlOiB7bGVuKHJlc3VsdFsnZmFpbGVkJ10pfSDkuKoiKQogICAgICAgICAgICBmb3IgZiBpbiByZXN1bHRbImZhaWxlZCJdOgogICAgICAgICAgICAgICAgcHJpbnQoZiIgICAgIHtmWydwYXRoJ119OiB7ZlsncmVhc29uJ119IikKCiAgICAjIOajgOafpXNraWxsX25ldXJhbC5qc29uCiAgICBuZXVyYWwgPSB2ZXJpZnlfc2tpbGxfbmV1cmFsX2RlZHVwKCkKICAgIGlmICJlcnJvciIgaW4gbmV1cmFsOgogICAgICAgIHByaW50KGYiXG7imqDvuI8gIHNraWxsX25ldXJhbDoge25ldXJhbFsnZXJyb3InXX0iKQogICAgZWxpZiBub3QgbmV1cmFsWyJkdXBsaWNhdGVzIl06CiAgICAgICAgcHJpbnQoCiAgICAgICAgICAgIGYiXG7inIUgc2tpbGxfbmV1cmFsLmpzb27vvJp7bmV1cmFsWyd0b3RhbF9za2lsbF9ub2RlcyddfSDkuKpza2lsbOiKgueCuSAvICIKICAgICAgICAgICAgZiJ7bmV1cmFsWyd0b3RhbF9ub2RlcyddfSDmgLvoioLngrnvvIzml6Dph43lpI0iCiAgICAgICAgKQogICAgZWxzZToKICAgICAgICBwcmludCgKICAgICAgICAgICAgZiJcbuKaoO+4jyAgc2tpbGxfbmV1cmFsLmpzb27vvJp7bmV1cmFsWyd0b3RhbF9za2lsbF9ub2RlcyddfSBza2lsbOiKgueCue+8jCIKICAgICAgICAgICAgZiLlj5HnjrAge2xlbihuZXVyYWxbJ2R1cGxpY2F0ZXMnXSl9IOS4qumHjeWkje+8mlxuIgogICAgICAgICkKICAgICAgICBmb3IgbmFtZSwgbm9kZXMgaW4gbmV1cmFsWyJkdXBsaWNhdGVzIl0uaXRlbXMoKToKICAgICAgICAgICAgcHJpbnQoZiIgIOOAkHtuYW1lfeOAkeWHuueOsCB7bGVuKG5vZGVzKX0g5qyhOiIpCiAgICAgICAgICAgIGZvciBuIGluIG5vZGVzOgogICAgICAgICAgICAgICAgbmlkID0gbi5nZXQoImlkIiwgInVua25vd24iKQogICAgICAgICAgICAgICAgbnBhdGggPSBuLmdldCgicGF0aCIsICIiKQogICAgICAgICAgICAgICAgcHJpbnQoZiIgICAgLSBpZD17bmlkfSBwYXRoPXtucGF0aH0iKQoKICAgIHByaW50KCJcbiIgKyAiPSIgKiA2MCkKICAgIHByaW50KCLinIUg5qOA5p+l5a6M5oiQIikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""
+skill_neural去重验证脚本
+触发：skills目录守护cron / 手动诊断 / 自动修复
+
+逻辑：
+1. 扫描所有skills/下的SKILL.md，提取name+version+mtime
+2. 同名skill只保留：version最新 > mtime最新 的优先版本
+3. 输出去重决策报告
+4. 对skill_neural.json做同样检查
+"""
+
+import os
+import json
+import re
+import shutil
+from pathlib import Path
+from datetime import datetime
+
+SKILLS_ROOT = Path("/opt/data/skills")
+SKILL_NEURAL = Path("/opt/data/skill_neural.json")
+SNAP_DIR = Path("/opt/data/skill_neural.snap")
+
+
+def extract_skill_info(skill_dir: Path) -> dict:
+    """从skill目录提取name和version"""
+    meta = {
+        "name": None,
+        "version": None,
+        "path": str(skill_dir),
+        "mtime": 0,
+    }
+    skill_md = skill_dir / "SKILL.md"
+    if skill_md.exists():
+        meta["mtime"] = skill_md.stat().st_mtime
+        try:
+            content = skill_md.read_text(encoding="utf-8")
+        except Exception:
+            content = ""
+        # 提取name
+        n = re.search(r"^name:\s*(.+)$", content, re.MULTILINE)
+        if n:
+            meta["name"] = n.group(1).strip()
+        # 提取version
+        v = re.search(r"^version:\s*(.+)$", content, re.MULTILINE)
+        if v:
+            meta["version"] = v.group(1).strip()
+    return meta
+
+
+def scan_all_skills():
+    """递归扫描所有skill目录（顶层+子目录）"""
+    skills = {}
+    # 顶层
+    for skill_dir in SKILLS_ROOT.glob("*"):
+        if skill_dir.is_dir() and not skill_dir.name.startswith("."):
+            info = extract_skill_info(skill_dir)
+            if info["name"]:
+                skills.setdefault(info["name"], []).append(info)
+    # 子目录（知识子目录）
+    for skill_dir in SKILLS_ROOT.glob("*/*/"):
+        if skill_dir.is_dir() and not skill_dir.name.startswith("."):
+            info = extract_skill_info(skill_dir)
+            if info["name"]:
+                skills.setdefault(info["name"], []).append(info)
+    return skills
+
+
+def get_version_score(v: str) -> int:
+    """version分数：None=0, 数字越大越高"""
+    if not v:
+        return 0
+    try:
+        parts = [int(x) for x in v.lstrip("v").split(".")]
+        return sum(p * (10 ** (2 - i)) for i, p in enumerate(parts))
+    except Exception:
+        return 0
+
+
+def find_duplicates():
+    """找出所有重复skill，返回去重决策"""
+    all_skills = scan_all_skills()
+    decisions = {}
+    for name, instances in all_skills.items():
+        if len(instances) == 1:
+            continue
+        # 排序：version降序 > mtime降序
+        instances.sort(
+            key=lambda x: (get_version_score(x["version"]), x["mtime"]),
+            reverse=True,
+        )
+        winner = instances[0]
+        losers = instances[1:]
+        decisions[name] = {
+            "winner": winner,
+            "losers": losers,
+            "count": len(instances),
+        }
+    return decisions
+
+
+def verify_skill_neural_dedup():
+    """检查skill_neural.json是否有重复的skill节点"""
+    if not SKILL_NEURAL.exists():
+        return {"error": "skill_neural.json不存在"}
+    try:
+        data = json.loads(SKILL_NEURAL.read_text(encoding="utf-8"))
+    except Exception as e:
+        return {"error": f"读取失败: {e}"}
+    nodes = data.get("nodes", [])
+    skill_nodes = [n for n in nodes if n.get("type") == "skill"]
+
+    # 同名skill节点计数
+    name_count = {}
+    for n in skill_nodes:
+        name = n.get("name")
+        if name:
+            name_count.setdefault(name, []).append(n)
+
+    duplicates = {name: ns for name, ns in name_count.items() if len(ns) > 1}
+    return {
+        "total_skill_nodes": len(skill_nodes),
+        "total_nodes": len(nodes),
+        "duplicates": duplicates,
+    }
+
+
+def auto_backup_and_remove(loser_paths: list, dry_run: bool = False) -> dict:
+    """
+    备份并删除loser skill目录
+    返回：{"backup_dir": str, "removed": list, "failed": list}
+    """
+    date_str = datetime.now().strftime("%Y%m%d")
+    backup_dir = SNAP_DIR / "dedup_backup" / date_str
+    backup_dir.mkdir(parents=True, exist_ok=True)
+
+    removed = []
+    failed = []
+    for path_str in loser_paths:
+        p = Path(path_str)
+        if not p.exists():
+            failed.append({"path": path_str, "reason": "目录不存在"})
+            continue
+        skill_name = p.name
+        dest = backup_dir / skill_name
+        try:
+            if not dry_run:
+                shutil.move(str(p), str(dest))
+            removed.append(path_str)
+        except Exception as e:
+            failed.append({"path": path_str, "reason": str(e)})
+    return {"backup_dir": str(backup_dir), "removed": removed, "failed": failed}
+
+
+def main():
+    print("=" * 60)
+    print("🔍 skill_neural 去重验证报告")
+    print("=" * 60)
+
+    # 检查重复skill
+    decisions = find_duplicates()
+    if not decisions:
+        print("\n✅ skills目录：无重复")
+    else:
+        print(f"\n⚠️  发现 {len(decisions)} 对重复skill：\n")
+        for name, d in decisions.items():
+            print(f"  【{name}】共 {d['count']} 个版本:")
+            print(f"  ✅ 保留: {d['winner']['path']}")
+            print(
+                f"     version={d['winner']['version'] or '无'}, "
+                f"mtime={datetime.fromtimestamp(d['winner']['mtime']).strftime('%m-%d %H:%M')}"
+            )
+            for loser in d["losers"]:
+                print(f"  ❌ 删除: {loser['path']}")
+                print(
+                    f"     version={loser['version'] or '无'}, "
+                    f"mtime={datetime.fromtimestamp(loser['mtime']).strftime('%m-%d %H:%M')}"
+                )
+            print()
+
+        # 自动修复选项
+        all_losers = []
+        for d in decisions.values():
+            all_losers.extend([l["path"] for l in d["losers"]])
+
+        result = auto_backup_and_remove(all_losers)
+        print(f"  📦 备份目录: {result['backup_dir']}")
+        print(f"  ✅ 已移除: {len(result['removed'])} 个")
+        if result["failed"]:
+            print(f"  ❌ 失败: {len(result['failed'])} 个")
+            for f in result["failed"]:
+                print(f"     {f['path']}: {f['reason']}")
+
+    # 检查skill_neural.json
+    neural = verify_skill_neural_dedup()
+    if "error" in neural:
+        print(f"\n⚠️  skill_neural: {neural['error']}")
+    elif not neural["duplicates"]:
+        print(
+            f"\n✅ skill_neural.json：{neural['total_skill_nodes']} 个skill节点 / "
+            f"{neural['total_nodes']} 总节点，无重复"
+        )
+    else:
+        print(
+            f"\n⚠️  skill_neural.json：{neural['total_skill_nodes']} skill节点，"
+            f"发现 {len(neural['duplicates'])} 个重复：\n"
+        )
+        for name, nodes in neural["duplicates"].items():
+            print(f"  【{name}】出现 {len(nodes)} 次:")
+            for n in nodes:
+                nid = n.get("id", "unknown")
+                npath = n.get("path", "")
+                print(f"    - id={nid} path={npath}")
+
+    print("\n" + "=" * 60)
+    print("✅ 检查完成")
+
+
+if __name__ == "__main__":
+    main()

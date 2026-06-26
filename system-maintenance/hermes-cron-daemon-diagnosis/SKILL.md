@@ -1,1 +1,176 @@
-LS0tCm5hbWU6IGhlcm1lcy1jcm9uLWRhZW1vbi1kaWFnbm9zaXMKZGVzY3JpcHRpb246IOiviuaWrU5BU+S4iuiEmuacrOaYr0RhZW1vbui/mOaYr0Nyb27op6blj5Hlnosg4oCUIOW/q+mAn+WIpOaWrei/m+eoiy9jcm9uIElEL+acgOWQjui/kOihjOeKtuaAgeOAguinpuWPke+8muajgOafpVhYWOiEmuacrOaYr+WQpuWcqOi/kOihjC9jcm9u5Lu75Yqh54q25oCBL2RhZW1vbuWSjGNyb27mt7fmt4bjgIIKdHJpZ2dlcnM6IFsi6LCD5bqmIiwgImNyb24iLCAi5a6a5pe2Il0KdHJpZ2dlcjog5qOA5p+lWFhY6ISa5pys5piv5ZCm5Zyo6L+Q6KGMIC8gY3JvbuS7u+WKoeeKtuaAgSAvIGRhZW1vbui/mOaYr2Nyb27op6blj5EKdmVyc2lvbjogMS4wCi0tLQoKIyBIZXJtZXMgQ3JvbiAvIERhZW1vbiDor4rmlq3pgJ/mn6UKCiMjIOaguOW/g+WIpOaWre+8mkRhZW1vbiB2cyBDcm9u6Kem5Y+RCgp8IOeJueW+gSB8IERhZW1vbu+8iOWuiOaKpOi/m+eoi++8iSB8IENyb27op6blj5HvvIjkuIDmrKHmgKfohJrmnKzvvIkgfAp8LS0tfC0tLXwtLS18CnwgYHBncmVwYOe7k+aenCB8IOaciemVv+acn+i/kOihjOeahOi/m+eoiyB8ICoq5pegKirov5vnqIvvvIjmr4/mrKHov5DooYzlkI7pgIDlh7rvvIkgfAp8IOaXpeW/l+inhOW+iyB8IOaMgee7rei/veWKoOOAgeW/g+i3syB8IOavj+asoWNyb27op6blj5HkuIDooYzvvIzmnIDlkI7kuIDooYzml7bpl7TiiYjkuIrmrKFjcm9uIHwKfCDml6Xlv5flhoXlrrkgfCAi5peg5paw5raI5oGvIuW+queOryB8IOWNleasoeaJp+ihjOWQjuato+W4uOmAgOWHuiB8Cnwg566h55CG5pa55byPIHwg5omL5Yqoc3RhcnQvc3RvcCB8IEhlcm1lcyBjcm9uIHNjaGVkdWxlciB8CgoqKuWkp+WkmuaVsCBgL29wdC9kYXRhL3NjcmlwdHMvKi5weWAg6YO95pivIENyb27op6blj5HlnosqKu+8jOS4jeaYr2RhZW1vbuOAggoKIyMg6K+K5pat5ZG95Luk6YCf5p+lCgpgYGBiYXNoCiMgMS4g5qOA5p+lIEhlcm1lcyBjcm9uIOS7u+WKoeWIl+ihqO+8iOacgOWFs+mUru+8iQovb3B0L2hlcm1lcy8udmVudi9iaW4vaGVybWVzIGNyb24gbGlzdAoKIyAyLiDmkJzntKLnibnlrprohJrmnKznmoQgY3JvbiDmnaHnm64KL29wdC9oZXJtZXMvLnZlbnYvYmluL2hlcm1lcyBjcm9uIGxpc3QgfCBncmVwIC1pICdzY3JpcHRfbmFtZScKCiMgMy4g5qOA5p+l6L+b56iL77yIZGFlbW9u5qih5byP5omN5pyJ55So77yJCnBncmVwIC1mYSBzY3JpcHRfbmFtZQoKIyA0LiDmn6XnnIvml6Xlv5fmnIDlkI7kv67mlLnml7bpl7TlkozlhoXlrrkKdGFpbCAtNSAvcGF0aC90by9sb2cubG9nCnN0YXQgL3BhdGgvdG8vbG9nLmxvZyB8IGdyZXAgTW9kaWZ5CmBgYAoKIyMg5bi46KeB6Zm36ZixCgoxLiAqKuivr+S7peS4uuiEmuacrCLmjILkuoYiKiog4oCUIGNyb27op6blj5HlnovohJrmnKzmnKzouqvlsLHkuI3lupTor6XmnInmjIHkuYXov5vnqIvvvIxgcHMgYXV4IHwgZ3JlcGAg6L+U5Zue56m65piv5q2j5bi455qECjIuICoq55yLIGNyb250YWIg5om+5LiN5YiwKiog4oCUIEhlcm1lcyDkvb/nlKjlhoXnva4gc2NoZWR1bGVy77yM5LiN5L6d6LWW57O757ufIGNyb250YWLvvIxgY3JvbnRhYiAtbGAg5piv56m655qECjMuICoq5pel5b+X5YGc5Zyo5b6I5LmF5Lul5YmNKiog4oCUIOWmguaenCBjcm9uIGBMYXN0IHJ1bmAg5pi+56S6IG9rIOS9huaXpeW/l+ayoeabtOaWsO+8jOajgOafpSBjcm9uIHNjaGVkdWxlciDmmK/lkKbmraPluLgKCiMjIOaXpeW/l+WIhuaekOazlQoK5pel5b+X5pyA5ZCO5LiA6KGM5Yik5pat77yaCi0gYCLml6DmlrDmtojmga8gKOaWh+S7tuacquabtOaWsCkiYCDihpIg6ISa5pys5q2j5bi46L+Q6KGM77yM56m66Zey5LitCi0gYCLmo4DmtYvliLDmlrDlr7nor506IFhYWCJgIOKGkiDmo4DmtYvliLDmlrDnlKjmiLfmtojmga/lubblpITnkIYKLSBgVHJhY2ViYWNrIC4uLiBNb2R1bGVOb3RGb3VuZEVycm9yYCDihpIg5L6d6LWW57y65aSx77yM6ZyA5L+u5aSNCi0g5pyA5ZCO6KGM5pe26Ze0ID4gMuWIhumSn+WJjSDihpIg5Y+v6IO9IGNyb24gc2NoZWR1bGVyIOaMguS6hgoKIyMgQ3JvbuS7u+WKoeeKtuaAgeWQq+S5iQoKLSBgb2tgIOKAlCDmnKzmrKHov5DooYzmiJDlip8KLSDnqbrmiJbml6AgbGFzdCBydW4g4oaSIOS7juacqui/kOihjOaIluiiq+emgeeUqAotIGBmYWlsZWRgIOKAlCDohJrmnKzmiqXplJnvvIzpnIDmn6XnnIvml6Xlv5cKLSBgW3BhdXNlZF1gIOKAlCDooqvmiYvliqjmmoLlgZwKCiMjIOKaoO+4jyAiUGF1c2Vk5L2G5LuN5Zyo5Lqn5Ye6IiDigJQg57O757ufY3JvbumpseWKqOeahEpvYnMKCioq546w6LGh77yaKiogSGVybWVzIFNjaGVkdWxlciDkuK0gMTEg5LiqIGpvYnMg5pi+56S6IGBzdGF0ZT1wYXVzZWRg77yM5L2G5YW2IGAvb3B0L2RhdGEvY3Jvbi9vdXRwdXQve2pvYl9pZH0vYCDnm67lvZXku43mnInmnIDov5HnmoTmlofku7bkuqflh7rjgIIKCioq5qC55Zug77yaKiog6L+Z5LqbIEpvYiDlnKggam9icy5qc29uIOS4rSoq5rKh5pyJIGBjb21tYW5kYCDlkowgYHNjcmlwdGAg5a2X5q61KirvvIxIZXJtZXMgU2NoZWR1bGVyIOaXoOazleiwg+W6puWug+S7rOOAguWug+S7rOeUsSoq57O757uf5bGCIGNyb24qKu+8iOWPr+iDveaYryBkb2NrZXIg5a655Zmo5aSW55qE5a6/5Li75py6Y3Jvbu+8jOaIluWuueWZqOWGheeLrOeri+i/m+eoi++8ieebtOaOpempseWKqOOAggoKKiror4rmlq3mlrnms5XvvJoqKgoKYGBgcHl0aG9uCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAppbXBvcnQgdGltZQoKd2l0aCBvcGVuKCIvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb24iKSBhcyBmOgogICAgZGF0YSA9IGpzb24ubG9hZChmKQoKcGF1c2VkX3dpdGhfb3V0cHV0ID0gW10KZm9yIGpvYiBpbiBkYXRhWydqb2JzJ106CiAgICBpZiBqb2IuZ2V0KCdzdGF0ZScpICE9ICdwYXVzZWQnOgogICAgICAgIGNvbnRpbnVlCiAgICBqb2JfaWQgPSBqb2JbJ2lkJ10KICAgIG91dF9kaXIgPSBQYXRoKGYiL29wdC9kYXRhL2Nyb24vb3V0cHV0L3tqb2JfaWR9IikKICAgIGlmIG5vdCBvdXRfZGlyLmV4aXN0cygpOgogICAgICAgIGNvbnRpbnVlCiAgICBmaWxlcyA9IGxpc3Qob3V0X2Rpci5nbG9iKCIqLm1kIikpCiAgICBpZiBub3QgZmlsZXM6CiAgICAgICAgY29udGludWUKICAgIGxhdGVzdCA9IG1heChmaWxlcywga2V5PWxhbWJkYSBmOiBmLnN0YXQoKS5zdF9tdGltZSkKICAgIGFnZV9taW5zID0gKHRpbWUudGltZSgpIC0gbGF0ZXN0LnN0YXQoKS5zdF9tdGltZSkgLyA2MAogICAgaGFzX2NtZCA9IGJvb2woam9iLmdldCgnY29tbWFuZCcpKQogICAgaGFzX3NjcmlwdCA9IGJvb2woam9iLmdldCgnc2NyaXB0JykpCiAgICBpZiBhZ2VfbWlucyA8IDMwOgogICAgICAgIHBhdXNlZF93aXRoX291dHB1dC5hcHBlbmQoewogICAgICAgICAgICAnbmFtZSc6IGpvYlsnbmFtZSddLAogICAgICAgICAgICAnam9iX2lkJzogam9iX2lkLAogICAgICAgICAgICAnYWdlX21pbnMnOiBhZ2VfbWlucywKICAgICAgICAgICAgJ2hhc19jb21tYW5kJzogaGFzX2NtZCwKICAgICAgICAgICAgJ2hhc19zY3JpcHQnOiBoYXNfc2NyaXB0LAogICAgICAgIH0pCiAgICAgICAgcHJpbnQoZiLimqDvuI8ge2pvYlsnbmFtZSddWzo0MF19IikKICAgICAgICBwcmludChmIiAgIGNvbW1hbmQ9eydZZXMnIGlmIGhhc19jbWQgZWxzZSAnTm8nfSB8IHNjcmlwdD17J1llcycgaWYgaGFzX3NjcmlwdCBlbHNlICdObyd9IikKICAgICAgICBwcmludChmIiAgIOacgOWQjuaWh+S7tjoge2FnZV9taW5zOi4wZn3liIbpkp/liY0iKQpgYGAKCioq57uT6K665Yik5pat77yaKioKLSBgY29tbWFuZD1Ob25lYCDkuJQgYHNjcmlwdD1Ob25lYCDihpIg57O757ufY3JvbumpseWKqO+8jOS4jeaYr2J1Z++8jOato+W4uOihjOS4uiDinIUKLSBgY29tbWFuZGAg5oiWIGBzY3JpcHRgIOacieWAvOS9huS7jXBhdXNlZCDihpIg5Y+v6IO96ZyA6KaB5oGi5aSNCgojIyDimqDvuI8g5bi46KeB5oql6ZSZ6K+K5patCgojIyMgIk5vIGluZmVyZW5jZSBwcm92aWRlciBjb25maWd1cmVkIgoKKirmoLnlm6DvvJoqKiBqb2Ig5ZCM5pe26YWN572u5LqGIGBzY3JpcHRgIOWSjCBgcHJvbXB0YCDlrZfmrrXjgIJzY2hlZHVsZXIg6KGM5Li677yaCjEuIOWFiOi/kOihjCBgc2NyaXB0YO+8iFB5dGhvbuiEmuacrO+8iQoyLiDlsIbohJrmnKzovpPlh7rms6jlhaUgYHByb21wdGAKMy4gKirlho3nlKggQUkg5qih5Z6L5omn6KGMIHByb21wdCoq77yI6ZyA6KaBIGluZmVyZW5jZSBwcm92aWRlci9BUEkga2V577yJCjQuIOWmguaenOayoeaciemFjee9riBBUEkga2V5IOKGkiDmiqXplJkgYE5vIGluZmVyZW5jZSBwcm92aWRlcmAKCioq5Y+X5b2x5ZON55qEIGpvYiDnsbvlnovvvJoqKgotIOaVsOaNrumHh+mbhuWei++8mumFjee9ruS6hiBgc2NyaXB0YCDkvYbkuZ/lhpnkuoYgYHByb21wdGDvvIzot5HlrozohJrmnKzlkI7ov5jmg7PorqlBSeaAu+e7kwotIOinpuWPkeadoeS7tu+8mmBqb2JzLmpzb25gIOS4rSBqb2Ig5ZCM5pe25pyJIGAic2NyaXB0ImAg5ZKM6Z2e56m6IGAicHJvbXB0ImAg5a2X5q61CgoqKuiviuaWreWRveS7pO+8mioqCmBgYGJhc2gKIyDmn6XnnIvmiqXplJnku7vliqHnmoTphY3nva7vvIjml6AgZ2V0IOWRveS7pO+8jOWPquiDveivu+aWh+S7tu+8iQpweXRob24zIC1jICIKaW1wb3J0IGpzb24Kd2l0aCBvcGVuKCcvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb24nKSBhcyBmOgogICAgZGF0YSA9IGpzb24ubG9hZChmKQpmb3Igam9iIGluIGRhdGFbJ2pvYnMnXToKICAgIHNpZCA9IGpvYi5nZXQoJ2lkJywnJykKICAgIGhhc19zY3JpcHQgPSBib29sKGpvYi5nZXQoJ3NjcmlwdCcpKQogICAgaGFzX3Byb21wdCA9IGJvb2woam9iLmdldCgncHJvbXB0JykpCiAgICBpZiBoYXNfc2NyaXB0IGFuZCBoYXNfcHJvbXB0OgogICAgICAgIHByaW50KGYn4pqg77iPICBbe3NpZH1dIHtqb2JbXCJuYW1lXCJdfScpCiAgICAgICAgcHJpbnQoZicgICBzY3JpcHQ9e2pvYltcInNjcmlwdFwiXX0nKQogICAgICAgIHByaW50KGYnICAgcHJvbXB06ZW/5bqmPXtsZW4oam9iW1wicHJvbXB0XCJdKX0nKQogICAgICAgIHByaW50KCkKIgpgYGAKCioq5L+u5aSN5pa55qGI77yaKiog5riF56m6IGBwcm9tcHRgIOWtl+aute+8jOaUueS4uue6ryBgc2NyaXB0YCDmqKHlvI/vvIjmlbDmja7ph4fpm4bohJrmnKzkuI3pnIDopoFBSeaAu+e7k++8iQpgYGBweXRob24KaW1wb3J0IGpzb24Kd2l0aCBvcGVuKCcvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb24nKSBhcyBmOgogICAgZGF0YSA9IGpzb24ubG9hZChmKQojIOebruagh2pvYl9pZAp0YXJnZXQgPSAn55uu5qCHam9iX2lkJwpmb3Igam9iIGluIGRhdGFbJ2pvYnMnXToKICAgIGlmIGpvYi5nZXQoJ2lkJykgPT0gdGFyZ2V0OgogICAgICAgIGpvYlsncHJvbXB0J10gPSAnJyAgICAgICAgIyDmuIXpmaRBSeaOqOeQhgogICAgICAgIGpvYlsnc2tpbGxzJ10gPSBbXSAgICAgICAgICMg5riF6Zmk6Kem5Y+Rc2tpbGzvvIjlpoLmnpzljp/mnKzmsqHmnInnnJ/lrp5za2lsbO+8iQogICAgICAgICMg5aaC5p6cc2NyaXB05Li6Tm9uZeS9hnByb21wdOWtmOWcqO+8jOWImeaUueS4uue6r3Byb21wdOaooeW8jwogICAgICAgIGlmIG5vdCBqb2IuZ2V0KCdzY3JpcHQnKToKICAgICAgICAgICAgam9iWydzY3JpcHQnXSA9ICflrp7pmYXohJrmnKwucHknCndpdGggb3BlbignL29wdC9kYXRhL2Nyb24vam9icy5qc29uJywgJ3cnKSBhcyBmOgogICAganNvbi5kdW1wKGRhdGEsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCmBgYAoKKirpqozor4HvvJoqKiDov5DooYzohJrmnKzmnKzouqvlupTor6XmiJDlip/vvIjkuI3pnIDopoFBUEkga2V577yJCmBgYGJhc2gKIyDnm7TmjqXov5DooYzohJrmnKzpqozor4EKL29wdC9oZXJtZXMvLnZlbnYvYmluL3B5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMv6ISa5pysLnB5CmBgYAoKIyMjICJNb2R1bGVOb3RGb3VuZEVycm9yIiBpbiBjcm9uCgrlj4Lop4Egc2tpbGw6IGBoZXJtZXMtY3Jvbi1zY3JpcHQtZml4YO+8iGJhc2johJrmnKzooqtQeXRob27miafooYzvvIkKCiMjIENyb24gam9icy5qc29uIOmAn+afpQoKLSDot6/lvoTvvJpgL29wdC9kYXRhL2Nyb24vam9icy5qc29uYAotIOe7k+aehO+8mmB7ImpvYnMiOiBbLi4uXSwgInVwZGF0ZWRfYXQiOiAiLi4uIn1gIOKAlCAqKmpvYnMg5pivIGxpc3TvvIzkuI3mmK8gZGljdCoq77yM6YGN5Y6G5pe2IGBmb3Igam9iIGluIGRhdGFbJ2pvYnMnXWAKLSBqb2Ig5a2X5q6177yaaWQgLyBuYW1lIC8gc2NyaXB0IC8gcHJvbXB0IC8gc2tpbGxzIC8gbW9kZWwgLyBzdGF0ZSAvIHNjaGVkdWxlIC8gZGVsaXZlciAvIGNvbW1hbmQKLSAqKuaYk+mUme+8mioqIOWmguaenOebtOaOpSBgZm9yIGogaW4gZGF0YWDvvIjmnKrliqAgYFsnam9icyddYO+8ie+8jOS8mumBjeWOhuWIsCBgWydqb2JzJywgJ3VwZGF0ZWRfYXQnXWAg5Lik5LiqIGtlee+8jOeUqCBgai5nZXQoKWAg5oqlIGBBdHRyaWJ1dGVFcnJvcjogJ3N0cicgb2JqZWN0IGhhcyBubyBhdHRyaWJ1dGUgJ2dldCdgCgoqKuazqOaEj++8mioqIGBoZXJtZXMgY3JvbiBnZXQgPGlkPmAg5LiN5a2Y5Zyo77yM5Y+q6IO955SoIGBoZXJtZXMgY3JvbiBsaXN0YCDmiJbnm7TmjqXor7sgYGpvYnMuanNvbmAg5paH5Lu244CCCg==
+---
+name: hermes-cron-daemon-diagnosis
+description: 诊断NAS上脚本是Daemon还是Cron触发型 — 快速判断进程/cron ID/最后运行状态。触发：检查XXX脚本是否在运行/cron任务状态/daemon和cron混淆。
+triggers: ["调度", "cron", "定时"]
+trigger: 检查XXX脚本是否在运行 / cron任务状态 / daemon还是cron触发
+version: 1.0
+---
+
+# Hermes Cron / Daemon 诊断速查
+
+## 核心判断：Daemon vs Cron触发
+
+| 特征 | Daemon（守护进程） | Cron触发（一次性脚本） |
+|---|---|---|
+| `pgrep`结果 | 有长期运行的进程 | **无**进程（每次运行后退出） |
+| 日志规律 | 持续追加、心跳 | 每次cron触发一行，最后一行时间≈上次cron |
+| 日志内容 | "无新消息"循环 | 单次执行后正常退出 |
+| 管理方式 | 手动start/stop | Hermes cron scheduler |
+
+**大多数 `/opt/data/scripts/*.py` 都是 Cron触发型**，不是daemon。
+
+## 诊断命令速查
+
+```bash
+# 1. 检查 Hermes cron 任务列表（最关键）
+/opt/hermes/.venv/bin/hermes cron list
+
+# 2. 搜索特定脚本的 cron 条目
+/opt/hermes/.venv/bin/hermes cron list | grep -i 'script_name'
+
+# 3. 检查进程（daemon模式才有用）
+pgrep -fa script_name
+
+# 4. 查看日志最后修改时间和内容
+tail -5 /path/to/log.log
+stat /path/to/log.log | grep Modify
+```
+
+## 常见陷阱
+
+1. **误以为脚本"挂了"** — cron触发型脚本本身就不应该有持久进程，`ps aux | grep` 返回空是正常的
+2. **看 crontab 找不到** — Hermes 使用内置 scheduler，不依赖系统 crontab，`crontab -l` 是空的
+3. **日志停在很久以前** — 如果 cron `Last run` 显示 ok 但日志没更新，检查 cron scheduler 是否正常
+
+## 日志分析法
+
+日志最后一行判断：
+- `"无新消息 (文件未更新)"` → 脚本正常运行，空闲中
+- `"检测到新对话: XXX"` → 检测到新用户消息并处理
+- `Traceback ... ModuleNotFoundError` → 依赖缺失，需修复
+- 最后行时间 > 2分钟前 → 可能 cron scheduler 挂了
+
+## Cron任务状态含义
+
+- `ok` — 本次运行成功
+- 空或无 last run → 从未运行或被禁用
+- `failed` — 脚本报错，需查看日志
+- `[paused]` — 被手动暂停
+
+## ⚠️ "Paused但仍在产出" — 系统cron驱动的Jobs
+
+**现象：** Hermes Scheduler 中 11 个 jobs 显示 `state=paused`，但其 `/opt/data/cron/output/{job_id}/` 目录仍有最近的文件产出。
+
+**根因：** 这些 Job 在 jobs.json 中**没有 `command` 和 `script` 字段**，Hermes Scheduler 无法调度它们。它们由**系统层 cron**（可能是 docker 容器外的宿主机cron，或容器内独立进程）直接驱动。
+
+**诊断方法：**
+
+```python
+import json
+from pathlib import Path
+import time
+
+with open("/opt/data/cron/jobs.json") as f:
+    data = json.load(f)
+
+paused_with_output = []
+for job in data['jobs']:
+    if job.get('state') != 'paused':
+        continue
+    job_id = job['id']
+    out_dir = Path(f"/opt/data/cron/output/{job_id}")
+    if not out_dir.exists():
+        continue
+    files = list(out_dir.glob("*.md"))
+    if not files:
+        continue
+    latest = max(files, key=lambda f: f.stat().st_mtime)
+    age_mins = (time.time() - latest.stat().st_mtime) / 60
+    has_cmd = bool(job.get('command'))
+    has_script = bool(job.get('script'))
+    if age_mins < 30:
+        paused_with_output.append({
+            'name': job['name'],
+            'job_id': job_id,
+            'age_mins': age_mins,
+            'has_command': has_cmd,
+            'has_script': has_script,
+        })
+        print(f"⚠️ {job['name'][:40]}")
+        print(f"   command={'Yes' if has_cmd else 'No'} | script={'Yes' if has_script else 'No'}")
+        print(f"   最后文件: {age_mins:.0f}分钟前")
+```
+
+**结论判断：**
+- `command=None` 且 `script=None` → 系统cron驱动，不是bug，正常行为 ✅
+- `command` 或 `script` 有值但仍paused → 可能需要恢复
+
+## ⚠️ 常见报错诊断
+
+### "No inference provider configured"
+
+**根因：** job 同时配置了 `script` 和 `prompt` 字段。scheduler 行为：
+1. 先运行 `script`（Python脚本）
+2. 将脚本输出注入 `prompt`
+3. **再用 AI 模型执行 prompt**（需要 inference provider/API key）
+4. 如果没有配置 API key → 报错 `No inference provider`
+
+**受影响的 job 类型：**
+- 数据采集型：配置了 `script` 但也写了 `prompt`，跑完脚本后还想让AI总结
+- 触发条件：`jobs.json` 中 job 同时有 `"script"` 和非空 `"prompt"` 字段
+
+**诊断命令：**
+```bash
+# 查看报错任务的配置（无 get 命令，只能读文件）
+python3 -c "
+import json
+with open('/opt/data/cron/jobs.json') as f:
+    data = json.load(f)
+for job in data['jobs']:
+    sid = job.get('id','')
+    has_script = bool(job.get('script'))
+    has_prompt = bool(job.get('prompt'))
+    if has_script and has_prompt:
+        print(f'⚠️  [{sid}] {job[\"name\"]}')
+        print(f'   script={job[\"script\"]}')
+        print(f'   prompt长度={len(job[\"prompt\"])}')
+        print()
+"
+```
+
+**修复方案：** 清空 `prompt` 字段，改为纯 `script` 模式（数据采集脚本不需要AI总结）
+```python
+import json
+with open('/opt/data/cron/jobs.json') as f:
+    data = json.load(f)
+# 目标job_id
+target = '目标job_id'
+for job in data['jobs']:
+    if job.get('id') == target:
+        job['prompt'] = ''        # 清除AI推理
+        job['skills'] = []         # 清除触发skill（如果原本没有真实skill）
+        # 如果script为None但prompt存在，则改为纯prompt模式
+        if not job.get('script'):
+            job['script'] = '实际脚本.py'
+with open('/opt/data/cron/jobs.json', 'w') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+```
+
+**验证：** 运行脚本本身应该成功（不需要API key）
+```bash
+# 直接运行脚本验证
+/opt/hermes/.venv/bin/python3 /opt/data/scripts/脚本.py
+```
+
+### "ModuleNotFoundError" in cron
+
+参见 skill: `hermes-cron-script-fix`（bash脚本被Python执行）
+
+## Cron jobs.json 速查
+
+- 路径：`/opt/data/cron/jobs.json`
+- 结构：`{"jobs": [...], "updated_at": "..."}` — **jobs 是 list，不是 dict**，遍历时 `for job in data['jobs']`
+- job 字段：id / name / script / prompt / skills / model / state / schedule / deliver / command
+- **易错：** 如果直接 `for j in data`（未加 `['jobs']`），会遍历到 `['jobs', 'updated_at']` 两个 key，用 `j.get()` 报 `AttributeError: 'str' object has no attribute 'get'`
+
+**注意：** `hermes cron get <id>` 不存在，只能用 `hermes cron list` 或直接读 `jobs.json` 文件。

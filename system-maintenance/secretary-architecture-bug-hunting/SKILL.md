@@ -1,1 +1,99 @@
-LS0tCm5hbWU6IHNlY3JldGFyeS1hcmNoaXRlY3R1cmUtYnVnLWh1bnRpbmcKdmVyc2lvbjogMjAyNi0wNi0wMwpkZXNjcmlwdGlvbjog56eY5Lmm5aSE5p625p6E5rex5bqmQnVn5o6S5p+l5LiO5L+u5aSN5pa55rOV6K664oCU4oCU57O757uf6K+K5pat4oaS5qC55Zug6L+96Liq4oaS5om56YeP5L+u5aSN4oaS6aqM6K+B6Zet546v44CC6Kem5Y+R77yacmVzdWx0X2JvYXJk56ev5Y6LL+aOqOmAgeW8guW4uC/lpJrmlofku7bogZTliqhidWcv5p625p6E5a6h6K6h44CCCnRyaWdnZXJzOiBbIuenmOS5piIsICLljY/osIMiXQp0YWdzOiBbc2VjcmV0YXJ5LCBkZWJ1ZywgYXJjaGl0ZWN0dXJlLCBidWctZml4XQotLS0KCiMg56eY5Lmm5aSE5p625p6E5rex5bqmQnVn5o6S5p+l5LiO5L+u5aSN5pa55rOV6K66CgojIyDpgILnlKjlnLrmma8KLSByZXN1bHRfYm9hcmQg5byC5bi456ev5Y6L77yI5aSn6YePIHBlbmRpbmdfcHVzaO+8iQotIOaOqOmAgemTvui3r+S4jemAmiAvIOagvOW8j+a3t+S5sQotIOWkmuaWh+S7tuWNj+WQjOmAu+i+keS4jeS4gOiHtO+8iGRlcHV0eV93b3JrZXIgLyBkZXB1dHlfcmVzdWx0IC8gcXVldWVfd29ya2VyX2Nyb27vvIkKLSDmnrbmnoTlrqHorqHvvIjoo4XlpIcv5bel5YW3L+mFjemlsOajgOafpe+8iQoKIyMg5qC45b+D5Y6f5YiZCioq5YWI6aqM6K+B6Zeu6aKY5a2Y5Zyo77yM5YaN6K+K5pat5qC55Zug77yM5pyA5ZCO5L+u5aSN44CCKiog5LiN6IO95YGH6K6+5paH5Lu25YaF5a654oCU4oCU55u05o6l6K+75paH5Lu26aqM6K+B5pyA5paw54q25oCB44CCCgojIyDmjpLmn6XmraXpqqQKCiMjIyDnrKwx5q2l77ya546v5aKD5qOA5p+lIOKAlCDmkbjmuIXmlbDmja7mtYHlhajosowKLSDor7vmtL7lt6Xmnb8gZGlzcGF0Y2hfYm9hcmQuanNvbu+8mnRhc2vnu5PmnoTjgIFzdGF0dXPliIbluIPjgIHllK/kuIBpZOaVsAotIOivu+aIkOaenOadvyByZXN1bHRfYm9hcmQuanNvbu+8mue7k+aenOaVsOOAgeeKtuaAgeWIhuW4g+OAgeagvOW8j+S4gOiHtOaApwotIOafpWNyb24gam9i77ya6LCB5Zyo5rS+5Lu75Yqh77yf5LuA5LmI6aKR546H77yf5LuA5LmI6Kem5Y+R5p2h5Lu277yfCi0g5om+5omA5pyJ5YaZcmVzdWx0X2JvYXJk55qE6ISa5pysCgoqKuWFs+mUruiviuaWreaMh+agh++8mioqCi0gYGluc3RydWN0aW9uYOWtl+auteaYr+WQpuS4uuepuu+8iOaguOW/g2J1Z+aMh+agh++8iQotIGBhY3Rpb25g5a2X5q615piv5ZCm5Li656m677yI5peg5a6e6LSo6KGM5YqoPeS4jeivpeaOqOmAge+8iQotIOaXtumXtOaIs+aYr+WQpumbhuS4re+8iOWQjOS4gOaJueS7u+WKoT3mnrbmnoTpl67popjvvIkKLSBgZnJvbV9kaXNwYXRjaF9pZGDmmK/lkKblhajkuLrnqbrvvIjov73kuI3liLDmtL7lt6Xmnb/ljp/lp4vku7vliqHvvIkKCiMjIyDnrKwy5q2l77ya5YiG5p6QIOKAlCDliKTmlq3mmK/lkKbpnIDopoHkv67lpI0KLSAyMDDmnaHnp6/ljovkvYblhajml6BhY3Rpb24g4oaSIOS4jeivpeWFqOaOqO+8jOaPkOeCvOaIluW9kuahowotIGluc3RydWN0aW9u5YWo56m6IOKGkiDlu7rku7vliqHmlrnmsqHloavvvIzmiafooYzmlrnkuZ/msqFub3JtYWxpemUKLSDlkIzkuIB0YXNrX2lk5Lqn55SfMjAw5p2h57uT5p6cIOKGkiDmiafooYzlmajlhpnnu5Pmnpzml7bmnKrlgZrlhoXlrrnov4fmu6QKCiMjIyDnrKwz5q2l77ya5p+l5ryPIOKAlCDmib7miYDmnInnm7jlhbPmlofku7YKYGBgYmFzaApmaW5kIC9vcHQvZGF0YS9zZWNyZXRhcnkgLW5hbWUgIioucHkiCmdyZXAgLWwgInJlc3VsdF9ib2FyZFx8ZGlzcGF0Y2hfYm9hcmRcfGZyb21fc2VjcmV0YXJ5XHxjb2xsZWN0ZWQiCmBgYAoKIyMjIOesrDTmraXvvJrmt7HmjJYg4oCUIOi/vei4quWboOaenOmTvgrku7vliqHmmK/lpoLkvZXkuqfnlJ/nmoTvvIjosIHlhplkaXNwYXRjaF9ib2FyZO+8ie+8n+KGkyDku4DkuYjop6blj5FkZXB1dHlfd29ya2Vy5omn6KGM77yf4oaTIOaJp+ihjOWQjue7k+aenOWGmeWTqu+8n+KGkyBkZXB1dHlfcmVzdWx05aaC5L2V5Y+R546wZG9uZeS7u+WKoe+8iGNvbGxlY3RlZOagh+iusO+8ie+8n+KGkyDnibnnp5jmjqjnkIblkI7lhplyZXN1bHRfYm9hcmTku4DkuYjlrZfmrrXvvJ/ihpMgcXVldWVfd29ya2VyX2Nyb27or7vlk6rkupvlrZfmrrXmjqjpgIHvvJ8KCiMjIyDnrKw15q2l77ya5L+u5q2j5pa55qGIIOKAlCDliJflh7rmiYDmnIlidWcK5YW45Z6LYnVn5qih5byP77yaCjEuIOmHjeWkjW5vcm1hbGl6Ze+8iOS4pOWkhOWQhG5vcm1hbGl6ZeS4gOmBje+8jOWvvOiHtOS4jeS4gOiHtO+8iQoyLiDph43lpI3lhpnlhaXvvIh3b3JrZXLlkoxyZXN1bHTpg73lhplyZXN1bHRfYm9hcmTvvIzmoLzlvI/lhrLnqoHvvIkKMy4g6L+H5ruk6YC76L6R5LiN5a6M5pW077yIaGFzX3N1YnN0YW5jZeWPqueci+WOn+Wni+Wtl+aute+8jOW/veeVpemihOWtmOWtl+aute+8iQo0LiDov4fmu6TpgLvovpHkvZznlKjln5/plJnor6/vvIjlnKjlh73mlbDlhoXmlLnlpJblsYLlj5jph4/vvIzmsqHlhpnlm57mtL7lt6Xmnb/vvIkKNS4gY291bnRlcuWtl+auteS4jee7n+S4gO+8iHJlc3VsdF9jb3VudGVyIHZzIGNvdW50ZXLvvIkKNi4gY29sbGVjdGVk5qCH6K6w5pyq5oyB5LmF5YyWCgojIyMg56ysNuatpe+8mumqjOivgSDigJQg5qih5ouf5omA5pyJ5Zy65pmvCjTkuKrlhbPplK7lnLrmma/lv4Xpobvopobnm5bvvJoKLSBzcGFt5Lu75YqhKOaXoHB1cnBvc2Xml6BpbnN0cnVjdGlvbuaXoG5vcm1hbGl6ZWQpIOKGkiDot7Pov4cKLSDmnIlwdXJwb3Nl55qEYXV0b190cmlnZ2VyZWTku7vliqEg4oaSIOmAmui/h++8iHB1cnBvc2XnrpflhoXlrrnvvIkKLSDmnIlpbnN0cnVjdGlvbl9ub3JtYWxpemVk55qE5Lu75YqhIOKGkiDpgJrov4cKLSDmraPluLjmnIlpbnN0cnVjdGlvbueahOS7u+WKoSDihpIg6YCa6L+HCgojIyMg56ysN+atpe+8muaJp+ihjOS/ruWkjQrkv67lpI3pobrluo/vvIjmjInkvp3otZblhbPns7vvvInvvJoKMS4g5YWI5L+u5aSN6KKr6LCD55So5pa577yIZGVwdXR5X3dvcmtlcueahG5vcm1hbGl6ZemihOWtmO+8iQoyLiDlho3kv67lpI3osIPnlKjmlrnvvIhkZXB1dHlfcmVzdWx055qEbm9ybWFsaXpl6K+75Y+W77yJCjMuIOacgOWQjuWIoOmHjeWkjemAu+i+ke+8iHdvcmtlcuWGmXJlc3VsdF9ib2FyZO+8iQrmr4/mlLnkuIDkuKrmlofku7bnq4vljbMgcHlfY29tcGlsZSDpqozor4Hor63ms5UKCiMjIyDnrKw45q2l77ya6aqM6K+B5L+u5aSN5ZCO6YC76L6R5a6M5pW05q2j56GuCi0gcHlfY29tcGlsZSDmiYDmnInkv67mlLnmlofku7YKLSDmqKHmi5805Liq5Zy65pmv56Gu6K6k6KGM5Li65q2j56GuCi0g6aqM6K+B5peg6YeN5aSN6LCD55So77yIbm9ybWFsaXplX3Rhc2vlj6rosIPnlKjkuIDmrKHvvIkKLSDpqozor4Hml6Dph43lpI3lhpnlhaXvvIhyZXN1bHRfYm9hcmTlj6rmnInkuIDlpITlhpnvvIkKLSDpqozor4Fjb2xsZWN0ZWTmoIforrDmraPnoa7mjIHkuYXljJYKCiMjIyDnrKw55q2l77ya5b2S5qGjCuiusOW9leS/ruWkjeWGheWuue+8mmZpeF9pZCwg5pe26Ze0LCDmoLnlm6AsIOaWh+S7tuWIl+ihqCwg5L+u5aSN5YaF5a65LCDpqozor4Hnu5PmnpwK6Lev5b6E77yaL29wdC9kYXRhL3NlY3JldGFyeS9sb2dzL2ZpeF9ZWVlZTU1ERF/mj4/ov7AuanNvbgoKIyMg5bey55+lQnVn5qih5byP6YCf5p+lCgp8IEJ1ZyB8IOeXh+eKtiB8IOagueWboCB8IOS/ruWkjSB8CnwtLS0tLXwtLS0tLS18LS0tLS0tfC0tLS0tLXwKfCByZXN1bHRfYm9hcmQgMjAw5p2h56ev5Y6L5YWo5pegYWN0aW9uIHwg5o6o6YCB5Yi35bGPIHwgd29ya2Vy5YaZ56m6aW5zdHJ1Y3Rpb27vvIxyZXN1bHTkuI3ov4fmu6QgfCBoYXNfc3Vic3RhbmNl6L+H5rukK25vcm1hbGl6ZV9pbnN0cnVjdGlvbiB8CnwgaW5zdHJ1Y3Rpb27lrZfmrrXlhajnqbogfCDmiJDmnpzml6Dms5Xov73muq/ljp/lp4vpl67popggfCDlu7rku7vliqHml7bmsqHloavvvIzmiafooYzlmajmsqFub3JtYWxpemUgfCBub3JtYWxpemVfaW5zdHJ1Y3Rpb27ooaXlhaggfAp8IOS4pOenjeagvOW8j+a3t+WcqHJlc3VsdF9ib2FyZCB8IOaOqOmAgeivu+S4jeWIsHN1bW1hcnkvZGV0YWlsIHwgd29ya2Vy5YaZe2NvbnRlbnR977yMcmVzdWx05YaZe3N1bW1hcnkvZGV0YWlsfSB8IOWIoHdvcmtlcuWGmXJlc3VsdF9ib2FyZO+8jOWPqueVmXJlc3VsdCB8CnwgYXV0b190cmlnZ2VyZWTku7vliqHooqvplJnor6/ot7Pov4cgfCDlpb3ku7vliqHmsqHmjqjpgIEgfCBoYXNfc3Vic3RhbmNl5LiN55yLaW5zdHJ1Y3Rpb25fbm9ybWFsaXplZCB8IOa3u+WKoG5vcm1hbGl6ZWTmo4Dmn6UgfAp8IOWQjOS4gOaJueS7u+WKoemHjeWkjeWkhOeQhiB8IOmHjeWkjeWGmeaIkOaenOadvyB8IGNvbGxlY3RlZOagh+iusOacquWGmeWbniB8IHNraXBwZWTku7vliqHnq4vljbN3cml0ZV9qc29uIHwKfCBub3JtYWxpemVfdGFza+mHjeWkjeiwg+eUqCB8IENQVea1qui0uSB8IOS4pOWkhOmDveiwg25vcm1hbGl6ZV90YXNrIHwg5aSN55So56ys5LiA5qyh57uT5p6cIHwKCiMjIOWFs+mUruaWh+S7tui3r+W+hAotIOa0vuW3peadvzogYC9vcHQvZGF0YS9zZWNyZXRhcnkvZGlzcGF0Y2hfYm9hcmQuanNvbmAKLSDmiJDmnpzmnb86IGAvb3B0L2RhdGEvc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uYAotIOaJp+ihjOWZqDogYC9vcHQvZGF0YS9zZWNyZXRhcnkvZGVwdXR5X3dvcmtlci5weWAKLSDmiJDmnpzmlLbpm4Y6IGAvb3B0L2RhdGEvc2VjcmV0YXJ5L2RlcHV0eV9yZXN1bHQucHlgCi0g5o6o6YCBY3JvbjogYC9vcHQvZGF0YS9zY3JpcHRzL3F1ZXVlX3dvcmtlcl9jcm9uLnB5YAotIOenmOS5puWfuuexuzogYC9vcHQvZGF0YS9zZWNyZXRhcnkvc2VjcmV0YXJ5X2Jhc2UucHlgCg==
+---
+name: secretary-architecture-bug-hunting
+version: 2026-06-03
+description: 秘书处架构深度Bug排查与修复方法论——系统诊断→根因追踪→批量修复→验证闭环。触发：result_board积压/推送异常/多文件联动bug/架构审计。
+triggers: ["秘书", "协调"]
+tags: [secretary, debug, architecture, bug-fix]
+---
+
+# 秘书处架构深度Bug排查与修复方法论
+
+## 适用场景
+- result_board 异常积压（大量 pending_push）
+- 推送链路不通 / 格式混乱
+- 多文件协同逻辑不一致（deputy_worker / deputy_result / queue_worker_cron）
+- 架构审计（装备/工具/配饰检查）
+
+## 核心原则
+**先验证问题存在，再诊断根因，最后修复。** 不能假设文件内容——直接读文件验证最新状态。
+
+## 排查步骤
+
+### 第1步：环境检查 — 摸清数据流全貌
+- 读派工板 dispatch_board.json：task结构、status分布、唯一id数
+- 读成果板 result_board.json：结果数、状态分布、格式一致性
+- 查cron job：谁在派任务？什么频率？什么触发条件？
+- 找所有写result_board的脚本
+
+**关键诊断指标：**
+- `instruction`字段是否为空（核心bug指标）
+- `action`字段是否为空（无实质行动=不该推送）
+- 时间戳是否集中（同一批任务=架构问题）
+- `from_dispatch_id`是否全为空（追不到派工板原始任务）
+
+### 第2步：分析 — 判断是否需要修复
+- 200条积压但全无action → 不该全推，提炼或归档
+- instruction全空 → 建任务方没填，执行方也没normalize
+- 同一task_id产生200条结果 → 执行器写结果时未做内容过滤
+
+### 第3步：查漏 — 找所有相关文件
+```bash
+find /opt/data/secretary -name "*.py"
+grep -l "result_board\|dispatch_board\|from_secretary\|collected"
+```
+
+### 第4步：深挖 — 追踪因果链
+任务是如何产生的（谁写dispatch_board）？↓ 什么触发deputy_worker执行？↓ 执行后结果写哪？↓ deputy_result如何发现done任务（collected标记）？↓ 特秘推理后写result_board什么字段？↓ queue_worker_cron读哪些字段推送？
+
+### 第5步：修正方案 — 列出所有bug
+典型bug模式：
+1. 重复normalize（两处各normalize一遍，导致不一致）
+2. 重复写入（worker和result都写result_board，格式冲突）
+3. 过滤逻辑不完整（has_substance只看原始字段，忽略预存字段）
+4. 过滤逻辑作用域错误（在函数内改外层变量，没写回派工板）
+5. counter字段不统一（result_counter vs counter）
+6. collected标记未持久化
+
+### 第6步：验证 — 模拟所有场景
+4个关键场景必须覆盖：
+- spam任务(无purpose无instruction无normalized) → 跳过
+- 有purpose的auto_triggered任务 → 通过（purpose算内容）
+- 有instruction_normalized的任务 → 通过
+- 正常有instruction的任务 → 通过
+
+### 第7步：执行修复
+修复顺序（按依赖关系）：
+1. 先修复被调用方（deputy_worker的normalize预存）
+2. 再修复调用方（deputy_result的normalize读取）
+3. 最后删重复逻辑（worker写result_board）
+每改一个文件立即 py_compile 验证语法
+
+### 第8步：验证修复后逻辑完整正确
+- py_compile 所有修改文件
+- 模拟4个场景确认行为正确
+- 验证无重复调用（normalize_task只调用一次）
+- 验证无重复写入（result_board只有一处写）
+- 验证collected标记正确持久化
+
+### 第9步：归档
+记录修复内容：fix_id, 时间, 根因, 文件列表, 修复内容, 验证结果
+路径：/opt/data/secretary/logs/fix_YYYYMMDD_描述.json
+
+## 已知Bug模式速查
+
+| Bug | 症状 | 根因 | 修复 |
+|-----|------|------|------|
+| result_board 200条积压全无action | 推送刷屏 | worker写空instruction，result不过滤 | has_substance过滤+normalize_instruction |
+| instruction字段全空 | 成果无法追溯原始问题 | 建任务时没填，执行器没normalize | normalize_instruction补全 |
+| 两种格式混在result_board | 推送读不到summary/detail | worker写{content}，result写{summary/detail} | 删worker写result_board，只留result |
+| auto_triggered任务被错误跳过 | 好任务没推送 | has_substance不看instruction_normalized | 添加normalized检查 |
+| 同一批任务重复处理 | 重复写成果板 | collected标记未写回 | skipped任务立即write_json |
+| normalize_task重复调用 | CPU浪费 | 两处都调normalize_task | 复用第一次结果 |
+
+## 关键文件路径
+- 派工板: `/opt/data/secretary/dispatch_board.json`
+- 成果板: `/opt/data/secretary/result_board.json`
+- 执行器: `/opt/data/secretary/deputy_worker.py`
+- 成果收集: `/opt/data/secretary/deputy_result.py`
+- 推送cron: `/opt/data/scripts/queue_worker_cron.py`
+- 秘书基类: `/opt/data/secretary/secretary_base.py`

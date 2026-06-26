@@ -1,1 +1,104 @@
-LS0tCm5hbWU6IHN5c3RlbS1iZWZvcmUtYnVpbGQtc2NhbgpkZXNjcmlwdGlvbjog57O757uf5pS56YCg5YmN5omr5o+PIOKAlCDlhYjmkbjmuIXlt7LmnInns7vnu5/vvIzlho3lhrPlrprmmK/lpI3nlKjov5jmmK/mlrDlu7rjgILop6blj5HvvJrku7vkvZXmtonlj4rmlLnpgKAv5L+u5aSNL+aWsOWinuezu+e7n+WKn+iDveeahOWcuuaZr+OAggp0cmlnZ2VyczoKICAtIOimgeS/ruWkjeafkOS4quWKn+iDve+8jOWNtOWPkeeOsOWGmeWlveeahOS7o+eggeS4jei3kQogIC0g6KaB5paw5aKe55uR5o6n57O757uf77yM5Y205LiN55+l6YGT5bey5pyJ5LuA5LmICiAgLSDopoHmlLnov5vmn5DlnZflip/og73vvIzkuI3nn6XpgZPmnInmsqHmnInnjrDmiJDnmoQKICAtIOS7u+S9lSLmiJHku6XkuLrns7vnu5/mmK/ov5nmoLfnmoQi55qE5Zy65pmvCnZlcnNpb246IDEuMAotLS0KCiMg57O757uf5pS56YCg5YmN5omr5o+P6KeE6IyDCgojIyDmoLjlv4PnkIblv7UKCioq5YWI5pG45riF5pyJ5LuA5LmI77yM5YaN5Yaz5a6a5YGa5LuA5LmI44CCKiog5py65Zmo54yr57O757uf57uP6L+H5aSn6YeP6L+t5Luj77yM5Yiw5aSE5pivIuS9oOS7peS4uuWPr+S7peaWsOW7uuS9huWFtuWunuW3suaciSLnmoTkuJzopb/jgILliqjmiYvliY3oirE15YiG6ZKf5omr5o+P77yM6IqC55yBMuWwj+aXtui/lOW3peOAggoKIyMg5omr5o+P5riF5Y2V77yI5oyJ5LyY5YWI57qn77yJCgojIyMg8J+UtCDkvJjlhYjnuqcw77ya57O757uf5p625p6E5qC45b+DCmBgYAovb3B0L2RhdGEvb3JnYW5zLyAgICAgICAgICAjIOWZqOWumOezu+e7n++8iDjkuKrlmajlrpjvvIkKICBhdXRvX2hlYWxpbmcucHkgICAgICAgICAgIyDlhY3nlqvlsYLvvIjlhajph4/lgaXlurfmo4DmtYvvvIkKICBvcmdhbl9idXMucHkgICAgICAgICAgICAgIyDkuovku7bmgLvnur8KICB1bmlmaWVkX3B1c2gucHkgICAgICAgICAgIyDmjqjpgIHpgJrpgZMKCi9vcHQvZGF0YS9uZXVyYWxfbmV0d29yay8gICMg56We57uP572R57ucCiAgbmV1cmFsX2JyZWF0aC5weSAgICAgICAgICMg5ZG85ZC45byV5pOO77yI5p2D5YC86L+b5YyW77yJCiAgb3JnYW5fZ2F0ZXdheS5weSAgICAgICAgICMg5Zmo5a6Y572R5YWzQVBJCiAgb3JnYW5fcmVnaXN0cnkuanNvbiAgICAgICMg5Zmo5a6Y5rOo5YaM6KGoCgovb3B0L2RhdGEvYnJhaW4vICAgICAgICAgICAjIOWkp+iEkeefpeivhue9kee7nAogIG5ldXJhbC8gICAgICAgICAgICAgICAgICAjIOelnue7j+e9kee7nOiEiee7nAogIHBsdWdpbnMvICAgICAgICAgICAgICAgICAjIOebsuWMuuaPkuS7tu+8iOaDhee7qi/mhI/lm74v6LWE5rqQ562J77yJCgovb3B0L2RhdGEvc2NyaXB0cy9pcm9uXyoucHkgIyDpk4HlvovohInnu5zvvIjlrojmiqRjcm9u562J77yJCmBgYAoKIyMjIPCfn6Eg5LyY5YWI57qnMe+8muaQnOe0ouW3suacieWunueOsArpgYfliLDpl67popjml7bvvIzlhYjmkJzntKLvvJoKYGBgCiMg55yL5piv5ZCm5pyJ546w5oiQ5Zmo5a6Y6IO95YGa6L+Z5Lu25LqLCmdyZXAgLXJuICLlip/og73lhbPplK7lrZciIC9vcHQvZGF0YS9vcmdhbnMvKi5weQoKIyDnnItvcmdhbl9yZWdpc3RyeemHjOacieayoeacieexu+S8vOWZqOWumApweXRob24zIC1jICJpbXBvcnQganNvbjsgZGF0YT1qc29uLmxvYWQob3BlbignL29wdC9kYXRhL25ldXJhbF9uZXR3b3JrL29yZ2FuX3JlZ2lzdHJ5Lmpzb24nKSk7IHByaW50KFtrIGZvciBrIGluIGRhdGEgaWYgJ+WFs+mUruWtlycgaW4ga10pIgoKIyDnnItza2lsbOmHjOacieayoeacieeOsOaIkOaWueahiApncmVwIC1ybiAi5YWz6ZSu5a2XIiAvb3B0L2RhdGEvc2tpbGxzLyovU0tJTEwubWQKCiMg55yLY3JvbumHjOacieayoeacieebuOWFs+iwg+W6pgpjcm9udGFiIC1sIHwgZ3JlcCAtaSAi5YWz6ZSu5a2XIgpgYGAKCiMjIyDwn5+hIOS8mOWFiOe6pzLvvJrpqozor4HlhbPplK7kvp3otZYKYGBgCiMg6aqM6K+B55uu5qCH6ISa5pys6IO96LeR6YCaCnB5dGhvbjMgL29wdC9kYXRhL29yZ2Fucy9hdXRvX2hlYWxpbmcucHkgZnVsbAoKIyDpqozor4Hlh73mlbDlj6/ku6VpbXBvcnTvvIjmnIDlj6/pnaDnmoTmlrnlvI/vvIkKcHl0aG9uMyAtYyAiaW1wb3J0IHN5czsgc3lzLnBhdGguaW5zZXJ0KDAsJy9vcHQvZGF0YS9vcmdhbnMnKTsgZnJvbSBhdXRvX2hlYWxpbmcgaW1wb3J0IGZ1bGxfaGVhbHRoX2NoZWNrOyBwcmludChmdWxsX2hlYWx0aF9jaGVjaygpWydzY29yZSddKSIKCiMg6aqM6K+BY3JvbuW3suWcqOi3kQpjcm9udGFiIC1sCmBgYAoKIyMg5YW45Z6L5Y+N5qih5byP77yI6Lip6L+H55qE5Z2R77yJCgp8IOWPjeaooeW8jyB8IOWQjuaenCB8IOato+ehruWBmuazlSB8CnwtLS0tLS0tLXwtLS0tLS18LS0tLS0tLS0tLXwKfCDkuI3miavmj4/lsLHmlrDlu7ogfCDmlrDmlofku7blkozml6flip/og73ph43lpI3vvIzlhrLnqoEgfCDlhYggZ3JlcCDlho3lhrPlrprmlrDlu7rov5jmmK/lpI3nlKggfAp8IOeUqENMSeaWh+acrOino+aekOWHveaVsOi+k+WHuiB8IOagvOW8j+iEhuW8se+8jOWuueaYk+WdjyB8IOebtOaOpSBpbXBvcnQg6LCD55So5Ye95pWw77yM5pyA5Y+v6Z2gIHwKfCDliKDml6dkYWVtb27liY3kuI3lpIfku73mm7/ku6MgfCDlrojmiqTpk77mlq3oo4LvvIzns7vnu5/oo7jlpZQgfCDliKDliY3lhYjlhpnlpb3mm7/ku6PmlrnmoYggfAp8IOS4jeWKoOi9veW3suaciXNraWxsIHwg5qGG5p625a2Y5Zyo5Y205LiN55So77yM6Z2g6Ieq5bex5o6o55CGIHwg6YGH5Yiw5aSN5p2C5Lu75Yqh5YWIIGxvYWQgc2tpbGwgfAp8IOeUqCBpbiDlgZrlrZfnrKbkuLLljLnphY0gfCAiT0siIGluICJET1dOIiDihpIg6K+v5YikIHwg55So5q2j5YiZ57K+56Gu5Yy56YWNIGBeT0skYCB8CgojIyDlhbPplK7ot6/lvoTmmKDlsIQKCnwg6ZyA5rGCIHwg5bey5pyJ5Zmo5a6YL+ezu+e7nyB8IOiwg+eUqOaWueW8jyB8CnwtLS0tLS18LS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tfAp8IOWFqOWkqeWAmeWBpeW6t+ajgOa1iyB8IGF1dG9faGVhbGluZy5weSB8IGBmcm9tIGF1dG9faGVhbGluZyBpbXBvcnQgZnVsbF9oZWFsdGhfY2hlY2tgIHwKfCDlmajlrpjlv4Pot7Pmo4DmtYsgfCBhdXRvX2hlYWxpbmcuY2hlY2tfb3JnYW5faGVhcnRiZWF0KCkgfCBgZnJvbSBhdXRvX2hlYWxpbmcgaW1wb3J0IGNoZWNrX29yZ2FuX2hlYXJ0YmVhdGAgfAp8IOaOqOmAgemjnuS5piB8IHVuaWZpZWRfcHVzaC5weSB8IGBmcm9tIHVuaWZpZWRfcHVzaCBpbXBvcnQgcHVzaF93YXJuaW5nL3B1c2hfZXJyb3JgIHwKfCDkuovku7bmgLvnur8gfCBvcmdhbl9idXMucHkgfCBgZnJvbSBvcmdhbl9idXMgaW1wb3J0IGVtaXQsIHN1YnNjcmliZWAgfAp8IOWZqOWumOazqOWGjCB8IG9yZ2FuX3JlZ2lzdHJ5Lmpzb24gfCBganNvbi5sb2FkKG9wZW4ocGF0aCkpYCB8Cnwg56We57uP572R57uc5p2D5YC8IHwgbmV1cmFsX2JyZWF0aC5weSB8IGBOZXVyYWxCcmVhdGgoKS5sZWFybihmcm9tLCB0bywgc3VjY2VzcylgIHwKfCDlmajlrpjnvZHlhbMgfCBvcmdhbl9nYXRld2F5LnB5IHwgYGZyb20gb3JnYW5fZ2F0ZXdheSBpbXBvcnQgcmVnaXN0ZXJfb3JnYW4sIHNlbmRfdG8sIGJyb2FkY2FzdGAgfAoKIyMg6JC95Zyw5rWB56iLCgrpgYfliLDmlLnpgKAv5L+u5aSN5Lu75Yqh5pe277yaCjEuICoq5omr5o+PKiog4oaSIOeUqGdyZXAv5paH5Lu25pCc57Si5om+5bey5pyJ5a6e546w77yIMuWIhumSn++8iQoyLiAqKumqjOivgSoqIOKGkiDot5HpgJrlhbPplK7kvp3otZbvvIgx5YiG6ZKf77yJCjMuICoq5Yaz562WKiog4oaSIOacieeOsOaIkOKGkuWkjeeUqO+8jOaXoOKGkuaWsOW7uu+8jOaooeeziuKGkue7p+e7reaMlgo0LiAqKuaJp+ihjCoqIOKGkiDlpI3nlKjnjrDmiJDmjqXlj6PvvIzkuI3ph43pgKDova7lrZAKNS4gKirmlLblsL4qKiDihpIg5YaZ6L+b5Lqk5o6l6K6w5b2V77yM5rOo5piO55So5LqG5ZOq5Liq5bey5pyJ57O757ufCgojIyDorrDlv4bplJrngrkKCi0gKioyMDI2LTA2LTAz5a6e5pON5pWZ6K6tKirvvJrmjqXliLAi5YWo5aSp5YCZ55uR5o6nIuS7u+WKoe+8jOesrOS4gOWPjeW6lOaYr+aDs+aWsOW7uuWuiOaKpOiEmuacrOOAggogIOaJq+aPj+WQjuWPkeeOsCBhdXRvX2hlYWxpbmcucHkg5bey5pyJ5a6M5pW05YWN55ar5bGC77yIOemhueWfuuehgOiuvuaWvSs45Liq5Zmo5a6Y5b+D6Lez77yJ44CCCiAg5Y+q6ZyA6KaB5YaZ5LiA5LiqIGNyb24g5YyF6KOF5Zmo6LCD55SoIGBmdWxsX2hlYWx0aF9jaGVjaygpYCDihpIgdW5pZmllZF9wdXNoIOmjnuS5puaOqOmAgeOAggogIGF1dG9faGVhbGluZy5weSDmnInkuKTlpITor63ms5VidWfvvJpERVRFQ1RJT05fUlVMRVMg6YeN5aSNIGhlYWx0aHlfcGF0dGVybiDplK4gKyDnvLogc2V2ZXJpdHkg5a2X5q6144CCCiAg5q2j56Gu6Lev5b6E77ya55So5Ye95pWw5LiN55SoQ0xJ5paH5pys6Kej5p6Q44CCCg==
+---
+name: system-before-build-scan
+description: 系统改造前扫描 — 先摸清已有系统，再决定是复用还是新建。触发：任何涉及改造/修复/新增系统功能的场景。
+triggers:
+  - 要修复某个功能，却发现写好的代码不跑
+  - 要新增监控系统，却不知道已有什么
+  - 要改进某块功能，不知道有没有现成的
+  - 任何"我以为系统是这样的"的场景
+version: 1.0
+---
+
+# 系统改造前扫描规范
+
+## 核心理念
+
+**先摸清有什么，再决定做什么。** 机器猫系统经过大量迭代，到处是"你以为可以新建但其实已有"的东西。动手前花5分钟扫描，节省2小时返工。
+
+## 扫描清单（按优先级）
+
+### 🔴 优先级0：系统架构核心
+```
+/opt/data/organs/          # 器官系统（8个器官）
+  auto_healing.py          # 免疫层（全量健康检测）
+  organ_bus.py             # 事件总线
+  unified_push.py          # 推送通道
+
+/opt/data/neural_network/  # 神经网络
+  neural_breath.py         # 呼吸引擎（权值进化）
+  organ_gateway.py         # 器官网关API
+  organ_registry.json      # 器官注册表
+
+/opt/data/brain/           # 大脑知识网络
+  neural/                  # 神经网络脉络
+  plugins/                 # 盲区插件（情绪/意图/资源等）
+
+/opt/data/scripts/iron_*.py # 铁律脉络（守护cron等）
+```
+
+### 🟡 优先级1：搜索已有实现
+遇到问题时，先搜索：
+```
+# 看是否有现成器官能做这件事
+grep -rn "功能关键字" /opt/data/organs/*.py
+
+# 看organ_registry里有没有类似器官
+python3 -c "import json; data=json.load(open('/opt/data/neural_network/organ_registry.json')); print([k for k in data if '关键字' in k])"
+
+# 看skill里有没有现成方案
+grep -rn "关键字" /opt/data/skills/*/SKILL.md
+
+# 看cron里有没有相关调度
+crontab -l | grep -i "关键字"
+```
+
+### 🟡 优先级2：验证关键依赖
+```
+# 验证目标脚本能跑通
+python3 /opt/data/organs/auto_healing.py full
+
+# 验证函数可以import（最可靠的方式）
+python3 -c "import sys; sys.path.insert(0,'/opt/data/organs'); from auto_healing import full_health_check; print(full_health_check()['score'])"
+
+# 验证cron已在跑
+crontab -l
+```
+
+## 典型反模式（踩过的坑）
+
+| 反模式 | 后果 | 正确做法 |
+|--------|------|----------|
+| 不扫描就新建 | 新文件和旧功能重复，冲突 | 先 grep 再决定新建还是复用 |
+| 用CLI文本解析函数输出 | 格式脆弱，容易坏 | 直接 import 调用函数，最可靠 |
+| 删旧daemon前不备份替代 | 守护链断裂，系统裸奔 | 删前先写好替代方案 |
+| 不加载已有skill | 框架存在却不用，靠自己推理 | 遇到复杂任务先 load skill |
+| 用 in 做字符串匹配 | "OK" in "DOWN" → 误判 | 用正则精确匹配 `^OK$` |
+
+## 关键路径映射
+
+| 需求 | 已有器官/系统 | 调用方式 |
+|------|-------------|----------|
+| 全天候健康检测 | auto_healing.py | `from auto_healing import full_health_check` |
+| 器官心跳检测 | auto_healing.check_organ_heartbeat() | `from auto_healing import check_organ_heartbeat` |
+| 推送飞书 | unified_push.py | `from unified_push import push_warning/push_error` |
+| 事件总线 | organ_bus.py | `from organ_bus import emit, subscribe` |
+| 器官注册 | organ_registry.json | `json.load(open(path))` |
+| 神经网络权值 | neural_breath.py | `NeuralBreath().learn(from, to, success)` |
+| 器官网关 | organ_gateway.py | `from organ_gateway import register_organ, send_to, broadcast` |
+
+## 落地流程
+
+遇到改造/修复任务时：
+1. **扫描** → 用grep/文件搜索找已有实现（2分钟）
+2. **验证** → 跑通关键依赖（1分钟）
+3. **决策** → 有现成→复用，无→新建，模糊→继续挖
+4. **执行** → 复用现成接口，不重造轮子
+5. **收尾** → 写进交接记录，注明用了哪个已有系统
+
+## 记忆锚点
+
+- **2026-06-03实操教训**：接到"全天候监控"任务，第一反应是想新建守护脚本。
+  扫描后发现 auto_healing.py 已有完整免疫层（9项基础设施+8个器官心跳）。
+  只需要写一个 cron 包装器调用 `full_health_check()` → unified_push 飞书推送。
+  auto_healing.py 有两处语法bug：DETECTION_RULES 重复 healthy_pattern 键 + 缺 severity 字段。
+  正确路径：用函数不用CLI文本解析。

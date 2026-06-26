@@ -1,1 +1,36 @@
-LS0tCm5hbWU6IG5hcy1wZXJzaXN0ZW50LWluc3RhbGwtbG9jYXRpb24KZGVzY3JpcHRpb246IE5BUyBEb2NrZXLnjq/looPkuIvlronoo4Xot6/lvoTpgInmi6nljp/liJnigJTigJTlv4XpobvnlKgvb3B0L2RhdGEv6ICM6Z2eL29wdC8KdGFnczogW25hcywgZG9ja2VyLCBwZXJzaXN0ZW50LXN0b3JhZ2VdCi0tLQoKIyBOQVMgRG9ja2VyIOeOr+Wig+Wuieijhei3r+W+hOWOn+WImQoKIyMg5qC45b+D5pWZ6K6t77yIMjAyNi0wNi0xNSDlrp7mtYvvvIkKCioqYC9vcHQvYCDlnKggRG9ja2VyIG92ZXJsYXkg5bGC77yM5a655Zmo6YeN6KOF5ZCO6KKr5riF56m677yBKioKCmhlcm1lcyB2MC4xNi4wIOijheWcqCBgL29wdC9oZXJtZXMwMTYvYO+8jOmHjeijhSBEb2NrZXIg5ZCO5a6M5YWo5Lii5aSx44CCCuato+ehruWBmuazle+8muijheWIsCBgL29wdC9kYXRhL2hlcm1lczAxNi9g77yM6YeN6KOF5LiN5Lii44CCCgojIyDot6/lvoTmgKfotKgKCnwg6Lev5b6EIHwg57G75Z6LIHwg6K+05piOIHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tfAp8IGAvb3B0L2AgfCBvdmVybGF577yI5a655Zmo5bGC77yJIHwg4p2MIOWuueWZqOmHjeijhea4heepuiB8CnwgYC9vcHQvaGVybWVzL2AgfCBvdmVybGF5IHwgdjEuMS4wIOWumuWItueJiO+8iOWLv+WKqO+8iSB8CnwgYC9vcHQvaGVybWVzMDE2L2AgfCBvdmVybGF5IHwg4p2MIOS8muS4ouWksSB8CnwgYC9vcHQvZGF0YS9gIHwg5oyB5LmF5YyW5a2Y5YKoIHwg4pyFIOato+ehriB8CnwgYC9vcHQvZGF0YS9oZXJtZXMwMTYvYCB8IOaMgeS5heWMliB8IOKchSB2MC4xNi4wIOW6lOijhei/memHjCB8CgojIyDlronoo4Xlkb3ku6TnpLrkvosKCmBgYGJhc2gKIyDmraPnoa7vvJroo4XliLDmjIHkuYXljJbot6/lvoQKcHl0aG9uMyAtbSB2ZW52IC9vcHQvZGF0YS9oZXJtZXMwMTYKL29wdC9kYXRhL2hlcm1lczAxNi9iaW4vcGlwIGluc3RhbGwgaGVybWVzLWFnZW50PT0wLjE2LjAKYGBgCgojIyDop6blj5HmnaHku7YKCuWcqCBOQVMg5LiK5a6J6KOF5Lu75L2V6ZyA6KaB5oyB5LmF5YyW55qE5pyN5YqhL+W3peWFty/ohJrmnKzml7bmv4DmtLvjgII=
+---
+name: nas-persistent-install-location
+description: NAS Docker环境下安装路径选择原则——必须用/opt/data/而非/opt/
+tags: [nas, docker, persistent-storage]
+---
+
+# NAS Docker 环境安装路径原则
+
+## 核心教训（2026-06-15 实测）
+
+**`/opt/` 在 Docker overlay 层，容器重装后被清空！**
+
+hermes v0.16.0 装在 `/opt/hermes016/`，重装 Docker 后完全丢失。
+正确做法：装到 `/opt/data/hermes016/`，重装不丢。
+
+## 路径性质
+
+| 路径 | 类型 | 说明 |
+|------|------|------|
+| `/opt/` | overlay（容器层） | ❌ 容器重装清空 |
+| `/opt/hermes/` | overlay | v1.1.0 定制版（勿动） |
+| `/opt/hermes016/` | overlay | ❌ 会丢失 |
+| `/opt/data/` | 持久化存储 | ✅ 正确 |
+| `/opt/data/hermes016/` | 持久化 | ✅ v0.16.0 应装这里 |
+
+## 安装命令示例
+
+```bash
+# 正确：装到持久化路径
+python3 -m venv /opt/data/hermes016
+/opt/data/hermes016/bin/pip install hermes-agent==0.16.0
+```
+
+## 触发条件
+
+在 NAS 上安装任何需要持久化的服务/工具/脚本时激活。

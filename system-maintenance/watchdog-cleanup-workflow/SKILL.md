@@ -1,1 +1,97 @@
-LS0tCm5hbWU6IHdhdGNoZG9nLWNsZWFudXAtd29ya2Zsb3cKZGVzY3JpcHRpb246IHwKICB3YXRjaGRvZ+exu+iEmuacrOiejeWQiCArIOWDteWwuOi/m+eoi+a4heeQhuagh+WHhua1geeoi+OAggogIOinpuWPke+8muWPkeeOsOWkmuS4qndhdGNoZG9n6L+b56iL44CB5YO15bC46L+b56iL44CB5qC55Zug6K+K5pat44CCCnRyaWdnZXJzOgogIC0gd2F0Y2hkb2cg6J6N5ZCICiAgLSDlg7XlsLjov5vnqIsg5riF55CGCiAgLSBQb3BlbiBzdWJwcm9jZXNzIOazhOa8jwogIC0g5a6I5oqk6L+b56iLIOWGsueqgQp2ZXJzaW9uOiAxLjAKLS0tCgojIHdhdGNoZG9nLWNsZWFudXAgV29ya2Zsb3cKCiMjIOaguOW/g+WOn+WImQoKKirono3lkIjliY3lhYjpqozor4HnjrDnirbjgIIqKiDono3lkIjliY3lv4XpobvnlKjlt6XlhbfmkJzlrp7pmYXmlofku7blhoXlrrnvvIzkuI3kurrogonnjJzjgIIKCiMjIOagh+WHhua1geeoi++8iDnmraXms5XniYjvvIkKCiMjIyAxLiDnjq/looPmo4Dmn6UKYGBgYmFzaAojIOafpeaJvuaJgOaciSB3YXRjaGRvZyDnm7jlhbPov5vnqIsKcHMgYXV4IHwgZ3JlcCAtRSAnd2F0Y2hkb2d8aW5vdGlmeXxndWFyZCcgfCBncmVwIC12IGdyZXAKCiMg5om+5omA5pyJ55u45YWz6ISa5pysCmZpbmQgL29wdC9kYXRhL3NjcmlwdHMgLW5hbWUgJyp3YXRjaGRvZyonIC1vIC1uYW1lICcqd2F0Y2hlcionIDI+L2Rldi9udWxsCgojIOafpWNyb27ph4znmoTpmpDol4/ku7vliqEKY3JvbnRhYiAtbDsgY2F0IC9ldGMvY3JvbnRhYiB8IGdyZXAgLXYgJ14jJwpgYGAKCiMjIyAyLiDliIbmnpAg4oaSIOehruiupOWBmuS4jeWBmgotIOWDteWwuOi/m+eoi+aXoOWus++8jOetiemHjeWQr+iHquWKqOa4hemZpAotIOaJvuagueWboO+8muWTquS4quiEmuacrOiwg+eUqOS6huWklumDqOWRveS7pO+8iFBvcGVuIHN1YnByb2Nlc3PvvIkKLSBgZ3JlcCAtcm4gJ1BvcGVuXHxzdWJwcm9jZXNzJyAvb3B0L2RhdGEvc2NyaXB0cy9gIOaJvuecn+ato+eahOWtkOi/m+eoi+iwg+eUqAoKIyMjIDMuIOafpea8jwpgYGBiYXNoCiMg5om+6LCD55SoaW5vdGlmeXdhaXTnmoTohJrmnKwKZ3JlcCAtcmxuICdpbm90aWZ5d2FpdCcgL29wdC9kYXRhL3NjcmlwdHMvCgojIOaJvlBJROaWh+S7tu+8iOaui+eVmSDihpIg6L+b56iL5bey5LiN5Zyo77yJCmxzIC1sYSAvdG1wLyoucGlkCgojIOaJvmd1YXJk6ISa5pysCmxzIC1sYSAvb3B0L2RhdGEvc2NyaXB0cy8qX2d1YXJkLnNoCmBgYAoKIyMjIDQuIOa3seaMlgotIOivu+WQhOiEmuacrOeahGBkZWYgaXNfcnVubmluZygpYOWSjGBkZWYgcmVzdGFydCgpYOmAu+i+kQotIOehruiupOaYr+WQpuacieeLrOeri2Nyb24vZ3VhcmTop6blj5EKLSDkuqTlj4npqozor4HvvJppcm9uX3dhdGNoZXIucHnph4zmmK/lkKblt7LmnInlhbbku5ZkYWVtb27nmoTpgLvovpEKCiMjIyA1LiDlho3liIbmnpAKKirlhbPplK7lj5HnjrDmqKHlvI/vvJoqKgotIGlyb25fd2F0Y2hlci5weeW3suWQq+WBpeW6t+ebkeaOpyvng63lkIzmraXlrojmiqQg4oaSIOiejeWQiOWunumZheaYr+a4heeQhuWGl+S9mQotIHNraWxsX2hlYWx0aC5weeW3suaUuXdhdGNoZG9nIOKGkiDlg7XlsLjmmK/ljoblj7LmrovnlZnvvIzkuI3mmK/lvZPliY1idWcKLSBoZXJtZXNfZ3VhcmQucHnkuI3lrZjlnKgg4oaSIOW3sue7j+iiq+WIoOmZpOaIluWQiOW5tgoKIyMjIDYuIOmqjOivgeWlkeWQiOW6pgrono3lkIjlkI7mmK/lkKbph43lpI3vvJoKLSBpcm9uX3dhdGNoZXLoh6rkv50g4pyFIGd1YXJkLnNo5YaX5L2ZIOKGkiDliKDpmaQKLSBpcm9uX3dhdGNoZXLlt7LmnIlob3Rfc3luY+WuiOaKpCDinIUgaG90X3N5bmNfd2F0Y2hkb2cucHnlhpfkvZkg4oaSIOWIoOmZpAoKIyMjIDcuIOa4heeQhuaJp+ihjApgYGBiYXNoClRTPSQoZGF0ZSArJVklbSVkXyVIJU0lUykKCiMg5aSH5Lu95pen5paH5Lu277yI5pe26Ze05oiz5ZG95ZCN77yM5LiN6KaG55uW77yJCm12IC9vcHQvZGF0YS9zY3JpcHRzL2lyb25fd2F0Y2hlcl9ndWFyZC5zaCAvb3B0L2RhdGEvc2NyaXB0cy9pcm9uX3dhdGNoZXJfZ3VhcmQuc2guYmFrXyRUUwptdiAvb3B0L2RhdGEvc2NyaXB0cy9ob3Rfc3luY193YXRjaGRvZy5weSAvb3B0L2RhdGEvc2NyaXB0cy9ob3Rfc3luY193YXRjaGRvZy5weS5iYWtfJFRTCgojIOa4heeQhuaui+eVmVBJROaWh+S7tgpybSAtZiAvdG1wL2lyb25fd2F0Y2hlci5waWQgL3RtcC9ob3Rfc3luY193YXRjaGRvZy5waWQgL3RtcC9sb2dfd2F0Y2hlci5waWQKYGBgCgojIyMgOC4g6aqM6K+BCmBgYGJhc2gKIyDmo4Dmn6Xml6DmrovnlZkKbHMgL29wdC9kYXRhL3NjcmlwdHMvaXJvbl93YXRjaGVyX2d1YXJkLnNoIDI+L2Rldi9udWxsICYmIGVjaG8gJ+aui+eVmScgfHwgZWNobyAn4pyFIOW3sua4hScKbHMgL29wdC9kYXRhL3NjcmlwdHMvaG90X3N5bmNfd2F0Y2hkb2cucHkgMj4vZGV2L251bGwgJiYgZWNobyAn5q6L55WZJyB8fCBlY2hvICfinIUg5bey5riFJwpscyAvdG1wL2lyb25fd2F0Y2hlci5waWQgMj4vZGV2L251bGwgJiYgZWNobyAn5q6L55WZUElEJyB8fCBlY2hvICfinIUgUElE5bey5riFJwpgYGAKCiMjIyA5LiDmuIXpmaTml6fniYjlvZLmoaMKLSAuYmFr5paH5Lu256e75YWlIGAvb3B0L2RhdGEvc2NyaXB0cy9g77yI5bey5bim5pe26Ze05oiz77yJCi0g5YO15bC46L+b56iL562J5LiL5qyh57O757uf6YeN5ZCv6Ieq5Yqo5riF6Zmk77yI5peg5a6z77yM5peg6ZyA5bmy6aKE77yJCgojIyDlhbPplK7mlZnorq0KCjEuICoqZ3JlcOaQnOe0ouWunumZheS7o+eggeavlOivu+azqOmHiuWPr+mdoCoqIOKAlCDms6jph4ror7Qi5bey5pS5d2F0Y2hkb2ci77yM5a6e6ZmF5Luj56CB5Y+v6IO96L+Y5pyJ5pen6LCD55SoCjIuICoq6J6N5ZCI5YmN5b+F6aG76aqM6K+B546w54q2Kiog4oCUIOWBh+iuvuaXp+S7o+eggei/mOWcqOWPr+iDveWvvOiHtOWBmuaXoOeUqOWKn++8iGhlcm1lc19ndWFyZC5weeW3suWIoO+8iQozLiAqKuWDteWwuOaXoOWus++8jOetiemHjeWQryoqIOKAlCBraWxsIC055a+55YO15bC45peg5pWI77yMaW5pdOS8muiHquWKqOWbnuaUtgo0LiAqKuS/ruagueWboOiAjOmdnua4heWwuOS9kyoqIOKAlCDlg7XlsLjmmK/nl4fnirbvvIzkv67lpI1Qb3BlbiBpbm90aWZ5d2FpdOaJjeaYr+agueayuwo1LiAqKlBJROaWh+S7tuWtmOi/m+eoi+WPt++8jOi/m+eoi+S4jeWcqOaXtuaui+eVmSoqIOKAlCDmuIXnkIZQSUTmlofku7bkuI3nrYnkuo7muIXov5vnqIsK
+---
+name: watchdog-cleanup-workflow
+description: |
+  watchdog类脚本融合 + 僵尸进程清理标准流程。
+  触发：发现多个watchdog进程、僵尸进程、根因诊断。
+triggers:
+  - watchdog 融合
+  - 僵尸进程 清理
+  - Popen subprocess 泄漏
+  - 守护进程 冲突
+version: 1.0
+---
+
+# watchdog-cleanup Workflow
+
+## 核心原则
+
+**融合前先验证现状。** 融合前必须用工具搜实际文件内容，不人肉猜。
+
+## 标准流程（9步法版）
+
+### 1. 环境检查
+```bash
+# 查找所有 watchdog 相关进程
+ps aux | grep -E 'watchdog|inotify|guard' | grep -v grep
+
+# 找所有相关脚本
+find /opt/data/scripts -name '*watchdog*' -o -name '*watcher*' 2>/dev/null
+
+# 查cron里的隐藏任务
+crontab -l; cat /etc/crontab | grep -v '^#'
+```
+
+### 2. 分析 → 确认做不做
+- 僵尸进程无害，等重启自动清除
+- 找根因：哪个脚本调用了外部命令（Popen subprocess）
+- `grep -rn 'Popen\|subprocess' /opt/data/scripts/` 找真正的子进程调用
+
+### 3. 查漏
+```bash
+# 找调用inotifywait的脚本
+grep -rln 'inotifywait' /opt/data/scripts/
+
+# 找PID文件（残留 → 进程已不在）
+ls -la /tmp/*.pid
+
+# 找guard脚本
+ls -la /opt/data/scripts/*_guard.sh
+```
+
+### 4. 深挖
+- 读各脚本的`def is_running()`和`def restart()`逻辑
+- 确认是否有独立cron/guard触发
+- 交叉验证：iron_watcher.py里是否已有其他daemon的逻辑
+
+### 5. 再分析
+**关键发现模式：**
+- iron_watcher.py已含健康监控+热同步守护 → 融合实际是清理冗余
+- skill_health.py已改watchdog → 僵尸是历史残留，不是当前bug
+- hermes_guard.py不存在 → 已经被删除或合并
+
+### 6. 验证契合度
+融合后是否重复：
+- iron_watcher自保 ✅ guard.sh冗余 → 删除
+- iron_watcher已有hot_sync守护 ✅ hot_sync_watchdog.py冗余 → 删除
+
+### 7. 清理执行
+```bash
+TS=$(date +%Y%m%d_%H%M%S)
+
+# 备份旧文件（时间戳命名，不覆盖）
+mv /opt/data/scripts/iron_watcher_guard.sh /opt/data/scripts/iron_watcher_guard.sh.bak_$TS
+mv /opt/data/scripts/hot_sync_watchdog.py /opt/data/scripts/hot_sync_watchdog.py.bak_$TS
+
+# 清理残留PID文件
+rm -f /tmp/iron_watcher.pid /tmp/hot_sync_watchdog.pid /tmp/log_watcher.pid
+```
+
+### 8. 验证
+```bash
+# 检查无残留
+ls /opt/data/scripts/iron_watcher_guard.sh 2>/dev/null && echo '残留' || echo '✅ 已清'
+ls /opt/data/scripts/hot_sync_watchdog.py 2>/dev/null && echo '残留' || echo '✅ 已清'
+ls /tmp/iron_watcher.pid 2>/dev/null && echo '残留PID' || echo '✅ PID已清'
+```
+
+### 9. 清除旧版归档
+- .bak文件移入 `/opt/data/scripts/`（已带时间戳）
+- 僵尸进程等下次系统重启自动清除（无害，无需干预）
+
+## 关键教训
+
+1. **grep搜索实际代码比读注释可靠** — 注释说"已改watchdog"，实际代码可能还有旧调用
+2. **融合前必须验证现状** — 假设旧代码还在可能导致做无用功（hermes_guard.py已删）
+3. **僵尸无害，等重启** — kill -9对僵尸无效，init会自动回收
+4. **修根因而非清尸体** — 僵尸是症状，修复Popen inotifywait才是根治
+5. **PID文件存进程号，进程不在时残留** — 清理PID文件不等于清进程

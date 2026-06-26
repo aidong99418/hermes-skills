@@ -1,1 +1,92 @@
-LS0tCm5hbWU6IG1lbW9yeS10b29sLWRpc2NpcGxpbmUKZGVzY3JpcHRpb246IE1FTU9SWeW3peWFt+S9v+eUqOe6quW+i+KAlOKAlOWPjOWxguaetuaehO+8jE1FTU9SWeWPquWtmOmTgeW+i++8jOWkp+aVsOaNrui1sOWklumDqOOAguinpuWPke+8mk1FTU9SWea7oeS6hi/lv5jkuovkuoYv5oOz5b6ATUVNT1JZ6YeM5YaZ5Lic6KW/5pe25r+A5rS744CCCnZlcnNpb246IDEuMAotLS0KCiMgTUVNT1JZIOW3peWFt+S9v+eUqOe6quW+iwoKIyMg5qC45b+D5Y6f5YiZCgpNRU1PUlkg5bel5YW35pivICoqMiwyMDAg5a2X56ym56Gs5LiK6ZmQKirvvIzkuI3mmK/pgJrnlKjorrDlv4blupPjgILloavmu6HmmK/lv4XnhLbvvIzkuI3mmK/mlYXpmpzjgIIKCiMjIOWPjOWxguaetuaehAoKfCDlsYLnuqcgfCDlt6XlhbcgfCDlrrnph48gfCDnlKjpgJQgfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18LS0tLS0tfAp8IOaguOW/g+iusOW/hiB8IGBtZW1vcnlgIOW3peWFtyB8IDIsMjAwIOWtl+espu+8jOS4iumZkOWbuuWumiB8IOe7neWvueS4jeiDveW/mOeahOmTgeW+iy/lhbPplK7lhrPnrZbop4TliJkgfAp8IOaJqeWxleiusOW/hiB8IE1FTU9SWS5tZCArIENocm9tYSArIG1lbTBhaSB8IOaXoOmZkCB8IOivreS5ieefpeivhi/kvJror53orrDlvZUv5oqA5pyv57uG6IqCIHwKCiMjIOWGmeWFpeinhOWImQoKIyMjIE1FTU9SWSDlt6XlhbfvvIjlj6rmnInkuKTnp43mg4XlhrXmiY3lhpnvvIkKCjEuICoq5paw6KeE5YiZ6aaW5qyh6Lip5Z2RKirvvJrmn5DkuKrpl67popjkv67lpb3lkI7vvIzopoHmiormoLnlm6Ar6Kej5rOV5Zu65YyW6L+b5Y67CjIuICoq55So5oi35piO56Gu5by66LCD55qE5YGP5aW9L+mTgeW+iyoq77ya55So5oi36K+0IuiusOS9j+i/meS4qiLjgIEi5Lul5ZCO5LiN6KaB6L+Z5qC3IgoKIyMjIE1FTU9SWSDlt6XlhbflhpnlhaXml7YKCi0gKirlhYjpl67opoHkuI3opoHliKDml6forrDlvZXlho3lhpkqKu+8jOmBv+WFjeWghuenrwotIOWQiOW5tuWQjOS4u+mimOiusOW9le+8jOeUqOS4gOadoemVv+iusOW9leS7o+abv+WkmuadoeefreiusOW9lQotIOagvOW8j++8mmDkuLvkvZPlhoXlrrkgKyDml6XmnJ/moIfnrb5g77yI5aaCIGAoMjAyNi0wNS0zMClg77yJ77yM5pa55L6/6K+G5Yir5pe25pWICgojIyMg56aB5q2i5YaZ5YWlIE1FTU9SWSDlt6XlhbfnmoTlhoXlrrkKCi0g5Lya6K+d57uT5p2f6Ieq5Yqo5ZCM5q2l6K6w5b2V77yI5YaZIE1FTU9SWS5tZO+8iQotIOaOkumbt+aVmeiurS/mioDmnK/nu4boioLvvIjlhpkgTUVNT1JZLm1k77yJCi0g6YeN5aSN6K6w5b2V5ZCM5LiA57G76Zeu6aKY77yI5ZCI5bm277yM5LiN5piv5Y+g5Yqg77yJCi0g5Lu75L2V5Y+v5Lul55So5paH5Lu25a2Y5YKo55qE5YaF5a65CgojIyDljovnvKkgTUVNT1JZIOeahOagh+WHhua1geeoiwoK5b2TIE1FTU9SWSDmu6HkuobpnIDopoHljovnvKnml7bvvJoKCjEuIOWIl+WHuuaJgOacieiusOW9le+8jOivhuWIq+mHjeWkjeS4u+mimAoyLiDlkIzkuLvpopjlkIjlubbkuLrkuIDmnaEgY29uc29saWRhdGVkIOiusOW9lQozLiDliKDpmaTmiYDmnIki5Lya6K+d57uT5p2f5ZCM5q2lIuexu+Weg+WcvuiusOW9lQo0LiDnoa7orqTmnIDnu4gg4omkNCDmnaHmoLjlv4PorrDlvZUKNS4g5YaZ5paw6KeE5YiZ5YmN5YWI56Gu6K6k6IO95pu/5o2iL+WQiOW5tuWTquadoeaXp+iusOW9lQoKIyMg5aSW6YOo6K6w5b+G5L2/55SoCgotICoqTUVNT1JZLm1kKirvvJovb3B0L2RhdGEvTUVNT1JZLm1k77yM5paH5pys5qC85byP77yM5Y+v5peg6ZmQ6L+95YqgCi0gKipDaHJvbWEgKyBtZW0wYWkqKu+8muivreS5ieajgOe0ou+8jOmAguWQiOi3qOS8muivneiusOW/huaQnOe0ogotICoqYnJhaW5fYm0yNV9jYWNoZS5qc29uKirvvJrnu5PmnoTljJbnvJPlrZjmlbDmja4KLSAqKlNraWxscyDmlofku7YqKu+8muWPr+aJp+ihjOaKgOiDvS/mk43kvZzmtYHnqIvvvIzlrZjlnKggL29wdC9kYXRhL3NraWxscy8KCiMjIOW5s+WPsCBNRU1PUlkg55qEIHJlcGxhY2UvcmVtb3ZlIOihjOS4uumZt+mYsQoKKirlhbPplK7lj5HnjrDvvIgyMDI2LTA1LTMw77yJKirvvJpgbWVtb3J5IHJlcGxhY2VgIOWSjCBgbWVtb3J5IHJlbW92ZWAg5Zyo5Yy56YWN5Yiw5YaF5a655pe25LuN5Y+v6IO96L+U5ZueIGBObyBlbnRyeSBtYXRjaGVkYOOAggrljp/lm6DvvJrlubPlj7DlhoXpg6jlr7kgb2xkX3RleHQg55qE6KeE6IyD5YyW5aSE55CG5LiO5pi+56S65paH5pys5a2Y5Zyo5beu5byC44CCCgoqKuato+ehruWBmuazlSoq77ya55SoIGBtZW1vcnkgYWRkYCDmt7vliqDmlrDmnaHnm67vvIjoh6rliqjnva7pobbmiJbov73liqDliLDmnKvlsL7vvInvvIzlho3nm7TmjqXlhpnlpJbpg6jmlofku7bjgILkuI3opoHkvp3otZYgYHJlcGxhY2UvcmVtb3ZlYOOAggoKKirkvovlpJYqKu+8mummluasoeWIneWni+WMluepuueahCBNRU1PUlkg5pe277yMYHJlcGxhY2VgIOWPr+S7peeUqOS6juWujOWFqOimhuWGmeOAggoKIyMg5YaZ5a6M5ZCO55qE6aqM6K+BCgpgYGBiYXNoCiMg6aqM6K+B5aSW6YOo5paH5Lu2CndjIC1jIC9vcHQvZGF0YS9tZW1vcmllcy9NRU1PUlkubWQKaGVhZCAtMyAvb3B0L2RhdGEvbWVtb3JpZXMvTUVNT1JZLm1kCgojIOmqjOivgeW5s+WPsE1FTU9SWQojIOiwg+eUqOiusOW/huWQjuinguWvn+i/lOWbnueahCB1c2FnZSDlkowgZW50cnlfY291bnQKYGBgCgrlhpnlrozlkI7opoEgKirkuKTlsYLlkIzmraXpqozor4EqKu+8muW5s+WPsCBNRU1PUlkg5ZKMIE1FTU9SWS5tZCDpg73opoHmm7TmlrDvvIzkuJTlhoXlrrnpobrluo8v57uT5p6E5a+55bqU44CCCgojIyDluLjop4HplJnor68KCnwg6ZSZ6K+vIHwg5ZCO5p6cIHwg5q2j56Gu5YGa5rOVIHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tLS0tLXwKfCDkvJror53nu5PmnZ/lhpnlpKfph4/lkIzmraXorrDlvZUgfCBNRU1PUlkg5b+r6YCf5aGr5ruhIHwg5YaZIE1FTU9SWS5tZCB8Cnwg5q+P5Liq6Zeu6aKY5L+u5a6M6YO95YaZ5LiA5p2hIHwg6YeN5aSN6K6w5b2V5aCG56evIHwg5ZCI5bm277yM5LiN5piv5Y+g5YqgIHwKfCDmioDmnK/nu4boioLlhpkgTUVNT1JZIHwgMiwyMDAg5a2X56ym6KKr5Z6D5Zy+5Y2g5ruhIHwgTUVNT1JZIOWPquWtmOmTgeW+iyB8CnwgTUVNT1JZIOa7oeS6hue7p+e7rei/veWKoCB8IOaKpemUme+8muWPjeWkjeWOi+e8qS3lv5jkuovlvqrnjq8gfCDlhYjliKAv5ZCI5bm25YaN5re75YqgIHwKfCDnlKggcmVwbGFjZS9yZW1vdmUg5pS5IE1FTU9SWSB8IOmdmem7mOWksei0pe+8jOaXp+WGheWuueS7jeWcqCB8IOeUqCBhZGQgKyDlpJbpg6jmlofku7blkIzmraUgfAp8IOWPquabtOaWsOS4gOS4quWxgiB8IOS4pOWxguS4jeS4gOiHtO+8jOS4i+asoeivu+mUmSB8IOaUuemTgeW+i+aXtuS4pOWxguWQjOatpeabtOaWsCB8CgojIyDpqozor4EKCuWGmeWujCBNRU1PUlkg5ZCO6LCD55SoIGBtZW1vcnkoYWN0aW9uPSdsaXN0JylgIOehruiupOiusOW9leaVsCDiiaQ077yM5oC75a2X56ymIOKJpDEsODAw44CCCg==
+---
+name: memory-tool-discipline
+description: MEMORY工具使用纪律——双层架构，MEMORY只存铁律，大数据走外部。触发：MEMORY满了/忘事了/想往MEMORY里写东西时激活。
+version: 1.0
+---
+
+# MEMORY 工具使用纪律
+
+## 核心原则
+
+MEMORY 工具是 **2,200 字符硬上限**，不是通用记忆库。填满是必然，不是故障。
+
+## 双层架构
+
+| 层级 | 工具 | 容量 | 用途 |
+|------|------|------|------|
+| 核心记忆 | `memory` 工具 | 2,200 字符，上限固定 | 绝对不能忘的铁律/关键决策规则 |
+| 扩展记忆 | MEMORY.md + Chroma + mem0ai | 无限 | 语义知识/会话记录/技术细节 |
+
+## 写入规则
+
+### MEMORY 工具（只有两种情况才写）
+
+1. **新规则首次踩坑**：某个问题修好后，要把根因+解法固化进去
+2. **用户明确强调的偏好/铁律**：用户说"记住这个"、"以后不要这样"
+
+### MEMORY 工具写入时
+
+- **先问要不要删旧记录再写**，避免堆积
+- 合并同主题记录，用一条长记录代替多条短记录
+- 格式：`主体内容 + 日期标签`（如 `(2026-05-30)`），方便识别时效
+
+### 禁止写入 MEMORY 工具的内容
+
+- 会话结束自动同步记录（写 MEMORY.md）
+- 排雷教训/技术细节（写 MEMORY.md）
+- 重复记录同一类问题（合并，不是叠加）
+- 任何可以用文件存储的内容
+
+## 压缩 MEMORY 的标准流程
+
+当 MEMORY 满了需要压缩时：
+
+1. 列出所有记录，识别重复主题
+2. 同主题合并为一条 consolidated 记录
+3. 删除所有"会话结束同步"类垃圾记录
+4. 确认最终 ≤4 条核心记录
+5. 写新规则前先确认能替换/合并哪条旧记录
+
+## 外部记忆使用
+
+- **MEMORY.md**：/opt/data/MEMORY.md，文本格式，可无限追加
+- **Chroma + mem0ai**：语义检索，适合跨会话记忆搜索
+- **brain_bm25_cache.json**：结构化缓存数据
+- **Skills 文件**：可执行技能/操作流程，存在 /opt/data/skills/
+
+## 平台 MEMORY 的 replace/remove 行为陷阱
+
+**关键发现（2026-05-30）**：`memory replace` 和 `memory remove` 在匹配到内容时仍可能返回 `No entry matched`。
+原因：平台内部对 old_text 的规范化处理与显示文本存在差异。
+
+**正确做法**：用 `memory add` 添加新条目（自动置顶或追加到末尾），再直接写外部文件。不要依赖 `replace/remove`。
+
+**例外**：首次初始化空的 MEMORY 时，`replace` 可以用于完全覆写。
+
+## 写完后的验证
+
+```bash
+# 验证外部文件
+wc -c /opt/data/memories/MEMORY.md
+head -3 /opt/data/memories/MEMORY.md
+
+# 验证平台MEMORY
+# 调用记忆后观察返回的 usage 和 entry_count
+```
+
+写完后要 **两层同步验证**：平台 MEMORY 和 MEMORY.md 都要更新，且内容顺序/结构对应。
+
+## 常见错误
+
+| 错误 | 后果 | 正确做法 |
+|------|------|----------|
+| 会话结束写大量同步记录 | MEMORY 快速填满 | 写 MEMORY.md |
+| 每个问题修完都写一条 | 重复记录堆积 | 合并，不是叠加 |
+| 技术细节写 MEMORY | 2,200 字符被垃圾占满 | MEMORY 只存铁律 |
+| MEMORY 满了继续追加 | 报错：反复压缩-忘事循环 | 先删/合并再添加 |
+| 用 replace/remove 改 MEMORY | 静默失败，旧内容仍在 | 用 add + 外部文件同步 |
+| 只更新一个层 | 两层不一致，下次读错 | 改铁律时两层同步更新 |
+
+## 验证
+
+写完 MEMORY 后调用 `memory(action='list')` 确认记录数 ≤4，总字符 ≤1,800。

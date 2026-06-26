@@ -1,1 +1,56 @@
-LS0tCm5hbWU6IGNyb24tY29uZmlnLWxvYWRpbmctZGVidWcKZGVzY3JpcHRpb246IENyb27osIPluqblmahjb25maWcueWFtbOWKoOi9vei/lOWbnk5vbmXlr7zoh7TmiYDmnInku7vliqHltKnmuoPnmoTor4rmlq3kuI7kv67lpI3vvIgyMDI2LTA2LTA577yJCnRyaWdnZXJzOiBbIuiwg+ivlSIsICLlrprml7YiLCAi6YWN572uIiwgIumUmeivryIsICJidWciLCAiY3JvbiIsICLosIPluqYiLCAiY29uZmlnIl0KLS0tCiMgQ3Jvbuiwg+W6puWZqOmFjee9ruWKoOi9vUJ1Z+iviuaWreS4juS/ruWkjQoKIyMg6Kem5Y+R5p2h5Lu2CmNyb27ku7vliqHlhajpg6jpnZnpu5jvvIjmnIDlkI7mtLvot4MyMDI2LTA2LTAx77yJ77yMc2NoZWR1bGVyX2Nyb24ucHnku7vliqHml6Dms5XmiafooYzjgIIKCiMjIOagueWboO+8iDIwMjYtMDYtMDnlh4zmmajlrp7mtYvvvIkKCioq6ZO+6Lev77yaKioKYGBgCnNjaGVkdWxlcl9jcm9uLnB5IOKGkiBsb2FkX3lhbWwoJy9vcHQvaGVybWVzL2NvbmZpZy55YW1sJykg4oaSIOaWh+S7tuS4jeWtmOWcqC/moLzlvI/plJkg4oaSIOi/lOWbnk5vbmUK4oaTCl9jZmcgPSBOb25l77yI5LiN5pive33vvIkK4oaTCmNyb27ku7vliqHov5DooYwg4oaSIGNyb25fdXRpbC5weSDnrKwzMeihjCBfY2ZnWyJnYXRld2F5Il1bInVybCJdCuKGkwpUeXBlRXJyb3I6ICdOb25lVHlwZScgb2JqZWN0IGlzIG5vdCBzdWJzY3JpcHRhYmxlIOKGkiDku7vliqHnm7TmjqXltKnmuoPpgIDlh7oKYGBgCgotIGdhdGV3YXkucHkg55qEIGxvYWRfY29uZmlnKCkg5a6e6ZmF6LCD55SoIGNvbmZpZ19ndWFyZGlhbi5wee+8jOiDveato+W4uOW3peS9nAotIOS9hiBzY2hlZHVsZXJfY3Jvbi5weSDnm7TmjqXnlKggbG9hZF95YW1sKCkg6K+7IC9vcHQvaGVybWVzL2NvbmZpZy55YW1s77yM57uV6L+H5LqG5YW85a655bGCCi0gL29wdC9oZXJtZXMvIOi3r+W+hOWkp+amgueOh+aYr+mUmeeahO+8jOW6lOivpeaYryAvb3B0L2RhdGEvaGVybWVzLwoKIyMg5L+u5aSN5q2l6aqkCgojIyMgU3RlcCAx77ya56Gu6K6k6YWN572u5paH5Lu25a6e6ZmF5L2N572uCmBgYGJhc2gKbHMgLWxhIC9vcHQvaGVybWVzL2NvbmZpZy55YW1sIDI+L2Rldi9udWxsICYmIGVjaG8gIuWtmOWcqCIgfHwgZWNobyAi5LiN5a2Y5ZyoIgpscyAtbGEgL29wdC9kYXRhL2hlcm1lcy9jb25maWcueWFtbCAyPi9kZXYvbnVsbCAmJiBlY2hvICLlrZjlnKgiIHx8IGVjaG8gIuS4jeWtmOWcqCIKYGBgCgojIyMgU3RlcCAy77ya5L+u5aSNc2NoZWR1bGVyX2Nyb24ucHnot6/lvoQgKyBOb25l5L+d5oqkCuaJvuWIsCBzY2hlZHVsZXJfY3Jvbi5weSDkuK3nmoQgbG9hZF95YW1sIOiwg+eUqO+8jOS/ruaUueS4uu+8mgpgYGBweXRob24KIyDlhbzlrrnot6/lvoQKaW1wb3J0IG9zCl9jb25maWdfcGF0aCA9ICcvb3B0L2hlcm1lcy9jb25maWcueWFtbCcKaWYgbm90IG9zLnBhdGguZXhpc3RzKF9jb25maWdfcGF0aCk6CiAgICBfY29uZmlnX3BhdGggPSAnL29wdC9kYXRhL2hlcm1lcy9jb25maWcueWFtbCcKX2NmZyA9IGxvYWRfeWFtbChfY29uZmlnX3BhdGgpIG9yIHt9CmBgYAoKIyMjIFN0ZXAgM++8mumqjOivgQpgYGBiYXNoCmNkIC9vcHQvZGF0YSAmJiBweXRob24zIC1jICIKZnJvbSBzY2hlZHVsZXJfY3JvbiBpbXBvcnQgX2NmZwpwcmludCgn6YWN572uOicsIHR5cGUoX2NmZyksICdPSycgaWYgX2NmZyBlbHNlICdOT05FLemcgOS/ruWkjScpCiIKYGBgCgojIyDpooTpmLIK5Lu75L2V5pawY3JvbuiEmuacrOivu+mFjee9ru+8jOemgeatouebtOaOpSBgbG9hZF95YW1sKCcvb3B0L2hlcm1lcy94eHgueWFtbCcpYO+8jOe7n+S4gOi1sCBgL29wdC9kYXRhL2hlcm1lcy9gICsgTm9uZeWFnOW6leOAggo=
+---
+name: cron-config-loading-debug
+description: Cron调度器config.yaml加载返回None导致所有任务崩溃的诊断与修复（2026-06-09）
+triggers: ["调试", "定时", "配置", "错误", "bug", "cron", "调度", "config"]
+---
+# Cron调度器配置加载Bug诊断与修复
+
+## 触发条件
+cron任务全部静默（最后活跃2026-06-01），scheduler_cron.py任务无法执行。
+
+## 根因（2026-06-09凌晨实测）
+
+**链路：**
+```
+scheduler_cron.py → load_yaml('/opt/hermes/config.yaml') → 文件不存在/格式错 → 返回None
+↓
+_cfg = None（不是{}）
+↓
+cron任务运行 → cron_util.py 第31行 _cfg["gateway"]["url"]
+↓
+TypeError: 'NoneType' object is not subscriptable → 任务直接崩溃退出
+```
+
+- gateway.py 的 load_config() 实际调用 config_guardian.py，能正常工作
+- 但 scheduler_cron.py 直接用 load_yaml() 读 /opt/hermes/config.yaml，绕过了兼容层
+- /opt/hermes/ 路径大概率是错的，应该是 /opt/data/hermes/
+
+## 修复步骤
+
+### Step 1：确认配置文件实际位置
+```bash
+ls -la /opt/hermes/config.yaml 2>/dev/null && echo "存在" || echo "不存在"
+ls -la /opt/data/hermes/config.yaml 2>/dev/null && echo "存在" || echo "不存在"
+```
+
+### Step 2：修复scheduler_cron.py路径 + None保护
+找到 scheduler_cron.py 中的 load_yaml 调用，修改为：
+```python
+# 兼容路径
+import os
+_config_path = '/opt/hermes/config.yaml'
+if not os.path.exists(_config_path):
+    _config_path = '/opt/data/hermes/config.yaml'
+_cfg = load_yaml(_config_path) or {}
+```
+
+### Step 3：验证
+```bash
+cd /opt/data && python3 -c "
+from scheduler_cron import _cfg
+print('配置:', type(_cfg), 'OK' if _cfg else 'NONE-需修复')
+"
+```
+
+## 预防
+任何新cron脚本读配置，禁止直接 `load_yaml('/opt/hermes/xxx.yaml')`，统一走 `/opt/data/hermes/` + None兜底。

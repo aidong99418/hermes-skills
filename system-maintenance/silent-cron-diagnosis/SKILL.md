@@ -1,1 +1,130 @@
-LS0tCm5hbWU6IHNpbGVudC1jcm9uLWRpYWdub3NpcwpkZXNjcmlwdGlvbjog6Z2Z6buYQ3JvbuS7u+WKoeiviuaWreKAlOKAlG10aW1l5Y676YeN5Z6L6ISa5pys55qE5q2j56Gu6aqM6K+B5pa55rOV44CC6Kem5Y+R77yaY3JvbuS7u+WKoeaXoOi+k+WHui/kuI3muIXmpZrmmK/lkKbov5DooYwv5oOz56Gu6K6k6ISa5pys5piv5ZCm55yf55qE5Zyo6LeR44CCCnRyaWdnZXJzOgogIC0gY3JvbuS7u+WKoei/kOihjOS6huS9huayoeacieS7u+S9lei+k+WHugogIC0g5oOz56Gu6K6kZGlhbG9nX3dhdGNoZG9n562J6L2u6K+i6ISa5pys5piv5ZCm5Zyo6L+Q6KGMCiAgLSDkuI3muIXmpZrohJrmnKzkuLrku4DkuYjpnZnpu5jvvIjmsqHmiqXplJnkuZ/msqHmiJDlip/mtojmga/vvIkKdmVyc2lvbjogMS4wCi0tLQoKIyDpnZnpu5hDcm9u5Lu75Yqh6K+K5patCgojIyDlhbjlnovlnLrmma8KCuafkOS6m2Nyb27ohJrmnKzorr7orqHkuLoi6Z2Z6buY5oiQ5YqfIuKAlOKAlOW9k+WGheWuueaXoOWPmOWMluaXtuWPquabtOaWsOeKtuaAge+8jOS4jeaJk+WNsOaXpeW/l+OAguW4uOingeaooeW8j++8mgotIG10aW1l5Y676YeN77ya5q+U6L6D5paH5Lu25L+u5pS55pe26Ze077yM5YaF5a655pyq5Y+Y5YiZ6Z2Z6buYCi0g5raI5oGv5Y676YeN77ya5a+55q+U5LiK5qyh5raI5oGv77yM5paw5raI5oGv5omN5aSE55CG77yM5ZCm5YiZ6Z2Z6buY5pu05pawbXRpbWUKCioq5YWz6ZSu6K6k55+l77ya6Z2Z6buY5peg6L6T5Ye6IOKJoCDohJrmnKzlpLHotKXjgIIqKiDov5nmmK/mraPnoa7ooYzkuLrjgIIKCiMjIOiviuaWreatpemqpAoKIyMjIFN0ZXAgMTog5qOA5p+l54q25oCB5paH5Lu277yI5pyA5YWz6ZSu77yJCgrnirbmgIHmlofku7borrDlvZXkuobohJrmnKznmoQi6K6w5b+GIuKAlOKAlOS4iuS4gOasoeWkhOeQhuWIsOWTquS6huOAggoKYGBgYmFzaAojIOafpeeci+eKtuaAgeaWh+S7tuWGheWuuQpjYXQgL29wdC9kYXRhL2JyYWluL3BlcmZvcm1hbmNlL2RpYWxvZ193YXRjaGRvZ19zdGF0ZS5qc29uCmBgYAoK6YeN54K55a2X5q6177yaCi0gYGxhc3RfbXRpbWVgOiDohJrmnKzkuIrmrKHlpITnkIbnmoTmlofku7bml7bpl7TmiLPvvIhVbml45pe26Ze05oiz77yJCi0gYGxhc3RfZmlsZWA6IOS4iuasoeWkhOeQhueahOaWh+S7tui3r+W+hAotIGBsYXN0X3VzZXJfbXNnYDog5LiK5qyh5aSE55CG55qE5raI5oGv5YaF5a65CgojIyMgU3RlcCAyOiDlr7nmr5TnirbmgIEgdnMg5a6e6ZmF5paH5Lu2CgpgYGBiYXNoCiMg5p+l55yL5pyA5pawc2Vzc2lvbuaWh+S7tuaXtumXtApscyAtbHQgL29wdC9kYXRhL3Nlc3Npb25zLyouanNvbiB8IGhlYWQgLTMKCiMg5bCGbGFzdF9tdGltZei9rOS4uuWPr+ivu+aXtumXtApweXRob24zIC1jICJpbXBvcnQgZGF0ZXRpbWU7IHByaW50KGRhdGV0aW1lLmRhdGV0aW1lLmZyb210aW1lc3RhbXAoPGxhc3RfbXRpbWU+KSkiCmBgYAoKKirpqozor4HpgLvovpHvvJoqKgotIGDnirbmgIFsYXN0X210aW1lIOKJiCDmnIDmlrBzZXNzaW9u5pe26Ze0YCDihpIg6ISa5pys6L+Q6KGM5q2j5bi477yM5bey6L+95LiK5pyA5paw5paH5Lu2IOKchQotIGDnirbmgIFsYXN0X210aW1lIDw8IOacgOaWsHNlc3Npb27ml7bpl7RgIOKGkiDohJrmnKzlj6/og73ljaHkvY/miJbot7Pov4flpITnkIYg4pqg77iPCi0gYOeKtuaAgWxhc3RfbXRpbWUgPiDmnIDmlrBzZXNzaW9u5pe26Ze0YCDihpIg5pyJ5paw5paH5Lu25L2G6ISa5pys5rKh5oSf55+lIOKGkiDmn6Xml6Xlv5cg8J+UtAoKIyMjIFN0ZXAgMzog55CG6KejIumdmem7mOi3s+i/hyLnmoTljp/lm6AKCuWmguaenOeKtuaAgeW3sui/veS4iu+8jOS9huaXpeW/l+ayoeacieaWsOadoeebru+8jOajgOafpeaYr+WQpuWGheWuuemHjeWkje+8mgoK6ISa5pys5pel5b+X5pyA5ZCO5Yeg6KGM5bqU6K+l5pi+56S677yaCmBgYArmo4DmtYvliLDmlrDlr7nor506IHNlc3Npb25feHh4Lmpzb24gICAgICAg4oaQIOWPkeeOsOS6huaWsOaWh+S7tgrnlKjmiLc6ICd4eHgnICAgICAgICAgICAgICAgICAgICAgICAgICAg4oaQIOacieaWsOa2iOaBr+WGheWuuQp0aWVyOiAyIPCfp6DmgJ3ogIPpgJrpgZMgICAgICAgICAgICAgICAgICAgIOKGkCDmiJDlip/lpITnkIYKYGBgCgrlpoLmnpznnIvliLDnmoTmmK/vvJoKYGBgCuaXoOaWsOeUqOaIt+a2iOaBr+aIluWGheWuueebuOWQjDogJ+W8gOWniycgICAgICAgIOKGkCDpnZnpu5jot7Pov4fvvIzlhoXlrrnmsqHlj5gKYGBgCgror7TmmI7vvJpjcm9u5Lya6K+d55qE55So5oi35raI5oGv5pivIGBbU1lTVEVNOiBZb3UgYXJlIHJ1bm5pbmcgYXMgYSBzY2hlZHVsZWQgY3JvbiBqb2IuLi5dYO+8jOS4juS4iuasoeWujOWFqOebuOWQjO+8jOiEmuacrOato+ehruWOu+mHje+8jOi3s+i/h+WkhOeQhuOAggoKIyMjIFN0ZXAgNDog55u05o6l6L+Q6KGM6ISa5pys6aqM6K+BCgpgYGBiYXNoCmNkIC9vcHQvZGF0YSAmJiAvb3B0L2hlcm1lcy8udmVudi9iaW4vcHl0aG9uMyAtdSAvb3B0L2RhdGEvc2NyaXB0cy9kaWFsb2dfd2F0Y2hkb2cucHkgMj4mMQpgYGAKCui/kOihjOWQjuajgOafpe+8mgotIOeKtuaAgeaWh+S7tiBgbGFzdF9tdGltZWAg5piv5ZCm5pu05pawCi0g5pel5b+X5piv5ZCm5Ye6546w5paw55qEIuajgOa1i+WIsOaWsOWvueivnSLmnaHnm64KCiMjIGRpYWxvZ193YXRjaGRvZyDnibnmroror7TmmI4KCi0gKirkvJror53moLzlvI/lhbzlrrkqKu+8muaUr+aMgeaXp+agvOW8j++8iEpTT05M77yM5q+P6KGM5LiA5LiqSlNPTuWvueixoe+8ieWSjOaWsOagvOW8j++8iOWNlUpTT07lkKttZXNzYWdlc+aVsOe7hO+8iQotICoq5raI5oGv5Y676YeNKirvvJrku6UgYGxhc3RfdXNlcl9tc2dgIOS4uuWHhu+8jOWujOWFqOebuOWQjOWImemdmem7mAotICoq57O757uf5raI5oGv6L+H5rukKirvvJrot7Pov4cgYFtTeXN0ZW0gbm90ZTpdYCDlkowgYFtZb3VyIGFjdGl2ZSB0YXNrLi4uXWAg5YmN57yA55qE5raI5oGvCi0gKirmtJ7lr5/lrZjmoaMqKu+8mmAvb3B0L2RhdGEvYnJhaW4vcGVyZm9ybWFuY2UvZGlhbG9nX2luc2lnaHRzL2Ag55uu5b2VCi0gKirooYzkuLrml6Xlv5cqKu+8mmAvb3B0L2RhdGEvYnJhaW4vcGVyZm9ybWFuY2UvZGlhbG9nX2luc2lnaHRzL2luc2lnaHRzX2xvZy5qc29ubGAKCiMjIOWFs+mUruaWh+S7tui3r+W+hAoKLSDnirbmgIHmlofku7Y6IGAvb3B0L2RhdGEvYnJhaW4vcGVyZm9ybWFuY2UvZGlhbG9nX3dhdGNoZG9nX3N0YXRlLmpzb25gCi0g6KGM5Li65pel5b+XOiBgL29wdC9kYXRhL2JyYWluL3BlcmZvcm1hbmNlL2RpYWxvZ19pbnNpZ2h0cy9pbnNpZ2h0c19sb2cuanNvbmxgCi0g5rSe5a+f5a2Y5qGjOiBgL29wdC9kYXRhL2JyYWluL3BlcmZvcm1hbmNlL2RpYWxvZ19pbnNpZ2h0cy9pbnNpZ2h0XyouanNvbmAKLSDohJrmnKw6IGAvb3B0L2RhdGEvc2NyaXB0cy9kaWFsb2dfd2F0Y2hkb2cucHlgCi0g5Lya6K+d55uu5b2VOiBgL29wdC9kYXRhL3Nlc3Npb25zL2AKCiMjIEhlcm1lcyBDcm9uIEpvYiDms6jlhozooajlrprkvY3vvIjlhbPplK7vvIkKCuS4jeimgeehrOe8lueggSBgfi8uaGVybWVzL2Nyb24vam9icy5qc29uYO+8gUhFUk1FU19IT01FIOWcqOS4jeWQjOeOr+Wig+aMh+WQkeS4jeWQjOi3r+W+hOOAggoKKirmraPnoa7mlrnms5XigJTigJTpgJrov4cgUHl0aG9uIOWKqOaAgeiOt+WPlu+8mioqCgpgYGBiYXNoCmNkIC9vcHQvaGVybWVzICYmIHB5dGhvbjMgLWMgIgppbXBvcnQgc3lzOyBzeXMucGF0aC5pbnNlcnQoMCwgJy9vcHQvaGVybWVzJykKZnJvbSBjcm9uLmpvYnMgaW1wb3J0IEhFUk1FU19ESVIsIENST05fRElSLCBKT0JTX0ZJTEUKcHJpbnQoJ0hFUk1FU19ESVI6JywgSEVSTUVTX0RJUikKcHJpbnQoJ0NST05fRElSOicsIENST05fRElSKQpwcmludCgnSk9CU19GSUxFOicsIEpPQlNfRklMRSkKcHJpbnQoJ0pPQlNfRklMRSBleGlzdHM6JywgSk9CU19GSUxFLmV4aXN0cygpKQoiCmBgYAoKKirlt7Lnn6Xot6/lvoTvvIjkvpvlv6vpgJ/lj4LogIPvvInvvJoqKgp8IOeOr+WigyB8IEhFUk1FU19IT01FIHwgQ3JvbiBqb2JzIOi3r+W+hCB8CnwtLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS18CnwgVUdSRUVOIE5BUyB8IGAvb3B0L2RhdGFgIHwgYC9vcHQvZGF0YS9jcm9uL2pvYnMuanNvbmAgfAp8IOWFtuS7lueOr+WigyB8IGB+Ly5oZXJtZXNgIHwgYH4vLmhlcm1lcy9jcm9uL2pvYnMuanNvbmAgfAoKKirlnKggam9icy5qc29uIOS4reafpeaJviBqb2LvvJoqKgpgYGBiYXNoCmdyZXAgLW4gJ2RpYWxvZ193YXRjaGRvZycgL29wdC9kYXRhL2Nyb24vam9icy5qc29uCmBgYArmib7liLDlkI7or7vlj5blrozmlbQgam9iIOWumuS5ie+8iOWQqyBgZW5hYmxlZGAvYHN0YXRlYC9gbmV4dF9ydW5fYXRgL2BsYXN0X3J1bl9hdGAvYGxhc3Rfc3RhdHVzYO+8ieOAggoKIyMg6Zm36Zix6K2m56S6CgotIOKdjCDnnIvliLDohJrmnKwi5rKh5pyJ6L6T5Ye6IuWwseiupOS4uuWug+Wksei0peS6hiDihpIg6Z2Z6buY5oiQ5Yqf5piv5pyA5LyY6KGM5Li6Ci0g4p2MIOWPqueci+aXpeW/l+aWh+S7tuihjOaVsOWIpOaWreaYr+WQpui/kOihjCDihpIg54q25oCB5paH5Lu2bXRpbWXmiY3mmK/nnJ/nm7gKLSDinIUg5YWI5p+l54q25oCB5paH5Lu2IGBsYXN0X210aW1lYO+8jOWGjeWvueavlOWunumZhXNlc3Npb27mlofku7bml7bpl7QKLSDinIUgY3JvbuS8muivnea2iOaBr+aYr+ezu+e7n+eUn+aIkOeahO+8jGBbU1lTVEVNOiAuLi5jcm9uIGpvYi4uLl1gIOS4juS4iuasoeebuOWQjOS8muiiq+ato+ehruWOu+mHjQo=
+---
+name: silent-cron-diagnosis
+description: 静默Cron任务诊断——mtime去重型脚本的正确验证方法。触发：cron任务无输出/不清楚是否运行/想确认脚本是否真的在跑。
+triggers:
+  - cron任务运行了但没有任何输出
+  - 想确认dialog_watchdog等轮询脚本是否在运行
+  - 不清楚脚本为什么静默（没报错也没成功消息）
+version: 1.0
+---
+
+# 静默Cron任务诊断
+
+## 典型场景
+
+某些cron脚本设计为"静默成功"——当内容无变化时只更新状态，不打印日志。常见模式：
+- mtime去重：比较文件修改时间，内容未变则静默
+- 消息去重：对比上次消息，新消息才处理，否则静默更新mtime
+
+**关键认知：静默无输出 ≠ 脚本失败。** 这是正确行为。
+
+## 诊断步骤
+
+### Step 1: 检查状态文件（最关键）
+
+状态文件记录了脚本的"记忆"——上一次处理到哪了。
+
+```bash
+# 查看状态文件内容
+cat /opt/data/brain/performance/dialog_watchdog_state.json
+```
+
+重点字段：
+- `last_mtime`: 脚本上次处理的文件时间戳（Unix时间戳）
+- `last_file`: 上次处理的文件路径
+- `last_user_msg`: 上次处理的消息内容
+
+### Step 2: 对比状态 vs 实际文件
+
+```bash
+# 查看最新session文件时间
+ls -lt /opt/data/sessions/*.json | head -3
+
+# 将last_mtime转为可读时间
+python3 -c "import datetime; print(datetime.datetime.fromtimestamp(<last_mtime>))"
+```
+
+**验证逻辑：**
+- `状态last_mtime ≈ 最新session时间` → 脚本运行正常，已追上最新文件 ✅
+- `状态last_mtime << 最新session时间` → 脚本可能卡住或跳过处理 ⚠️
+- `状态last_mtime > 最新session时间` → 有新文件但脚本没感知 → 查日志 🔴
+
+### Step 3: 理解"静默跳过"的原因
+
+如果状态已追上，但日志没有新条目，检查是否内容重复：
+
+脚本日志最后几行应该显示：
+```
+检测到新对话: session_xxx.json       ← 发现了新文件
+用户: 'xxx'                           ← 有新消息内容
+tier: 2 🧠思考通道                    ← 成功处理
+```
+
+如果看到的是：
+```
+无新用户消息或内容相同: '开始'        ← 静默跳过，内容没变
+```
+
+说明：cron会话的用户消息是 `[SYSTEM: You are running as a scheduled cron job...]`，与上次完全相同，脚本正确去重，跳过处理。
+
+### Step 4: 直接运行脚本验证
+
+```bash
+cd /opt/data && /opt/hermes/.venv/bin/python3 -u /opt/data/scripts/dialog_watchdog.py 2>&1
+```
+
+运行后检查：
+- 状态文件 `last_mtime` 是否更新
+- 日志是否出现新的"检测到新对话"条目
+
+## dialog_watchdog 特殊说明
+
+- **会话格式兼容**：支持旧格式（JSONL，每行一个JSON对象）和新格式（单JSON含messages数组）
+- **消息去重**：以 `last_user_msg` 为准，完全相同则静默
+- **系统消息过滤**：跳过 `[System note:]` 和 `[Your active task...]` 前缀的消息
+- **洞察存档**：`/opt/data/brain/performance/dialog_insights/` 目录
+- **行为日志**：`/opt/data/brain/performance/dialog_insights/insights_log.jsonl`
+
+## 关键文件路径
+
+- 状态文件: `/opt/data/brain/performance/dialog_watchdog_state.json`
+- 行为日志: `/opt/data/brain/performance/dialog_insights/insights_log.jsonl`
+- 洞察存档: `/opt/data/brain/performance/dialog_insights/insight_*.json`
+- 脚本: `/opt/data/scripts/dialog_watchdog.py`
+- 会话目录: `/opt/data/sessions/`
+
+## Hermes Cron Job 注册表定位（关键）
+
+不要硬编码 `~/.hermes/cron/jobs.json`！HERMES_HOME 在不同环境指向不同路径。
+
+**正确方法——通过 Python 动态获取：**
+
+```bash
+cd /opt/hermes && python3 -c "
+import sys; sys.path.insert(0, '/opt/hermes')
+from cron.jobs import HERMES_DIR, CRON_DIR, JOBS_FILE
+print('HERMES_DIR:', HERMES_DIR)
+print('CRON_DIR:', CRON_DIR)
+print('JOBS_FILE:', JOBS_FILE)
+print('JOBS_FILE exists:', JOBS_FILE.exists())
+"
+```
+
+**已知路径（供快速参考）：**
+| 环境 | HERMES_HOME | Cron jobs 路径 |
+|------|------------|----------------|
+| UGREEN NAS | `/opt/data` | `/opt/data/cron/jobs.json` |
+| 其他环境 | `~/.hermes` | `~/.hermes/cron/jobs.json` |
+
+**在 jobs.json 中查找 job：**
+```bash
+grep -n 'dialog_watchdog' /opt/data/cron/jobs.json
+```
+找到后读取完整 job 定义（含 `enabled`/`state`/`next_run_at`/`last_run_at`/`last_status`）。
+
+## 陷阱警示
+
+- ❌ 看到脚本"没有输出"就认为它失败了 → 静默成功是最优行为
+- ❌ 只看日志文件行数判断是否运行 → 状态文件mtime才是真相
+- ✅ 先查状态文件 `last_mtime`，再对比实际session文件时间
+- ✅ cron会话消息是系统生成的，`[SYSTEM: ...cron job...]` 与上次相同会被正确去重

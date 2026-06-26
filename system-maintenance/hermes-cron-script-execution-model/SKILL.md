@@ -1,1 +1,120 @@
-LS0tCm5hbWU6IGhlcm1lcy1jcm9uLXNjcmlwdC1leGVjdXRpb24tbW9kZWwKZGVzY3JpcHRpb246IEhlcm1lcyBjcm9uIHNjaGVkdWxlciDlvLrliLbnlKggUHl0aG9uIOaJp+ihjCBzY3JpcHQg5a2X5q6177yM5a6M5YWo5b+955WlIHNoZWJhbmfjgILnlKjkuo7or4rmlq0gY3JvbiBqb2Igc2NyaXB0IOexu+Wei+mUmeivr+OAggp0cmlnZ2VyczogWyLosIPluqYiLCAiY3JvbiIsICLlrprml7YiXQp0cmlnZ2VyOiBjcm9uIHNjcmlwdCBTeW50YXhFcnJvciAvIC5zaCB3cmFwcGVyIOWkseaViCAvIHNjcmlwdCDlrZfmrrXphY3nva7pl67popgKdmVyc2lvbjogMS4wCi0tLQoKIyBIZXJtZXMgQ3JvbiBTY3JpcHQg5omn6KGM5qih5Z6LCgojIyDmoLjlv4Plj5HnjrAKCkhlcm1lcyBjcm9uIHNjaGVkdWxlciDnmoQgYF9ydW5fam9iX3NjcmlwdGAg5Ye95pWw77yIYC9vcHQvaGVybWVzL2Nyb24vc2NoZWR1bGVyLnB5YO+8iSoq5by65Yi255SoIGBzeXMuZXhlY3V0YWJsZWAg5omn6KGMIHNjcmlwdCDmlofku7YqKu+8mgoKYGBgcHl0aG9uCnJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKAogICAgW3N5cy5leGVjdXRhYmxlLCBzdHIocGF0aCldLCAgIyDnlKhQeXRob27ov5DooYzku7vkvZXmianlsZXlkI3vvIEKICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsCiAgICB0ZXh0PVRydWUsCiAgICB0aW1lb3V0PXNjcmlwdF90aW1lb3V0LAogICAgY3dkPXN0cihwYXRoLnBhcmVudCksCikKYGBgCgoqKnNoZWJhbmcg5a6M5YWo6KKr5b+955WlKirvvIxgLnNoYCDmlofku7bkvJrooqvlvZPkvZwgUHl0aG9uIOS7o+eggeino+aekO+8jOWvvOiHtCBgU3ludGF4RXJyb3Jg44CCCgojIyDmraPnoa7lgZrms5UKCiMjIyBTY3JpcHQg5a2X5q615Y+q5pSv5oyBIFB5dGhvbiDohJrmnKzvvIhgLnB5YO+8iQoK5aaC5p6c6ZyA6KaB5ZyoIGNyb24gam9iIOS4reaJp+ihjCBzaGVsbCDlkb3ku6TvvIzlv4XpobvnlKggUHl0aG9uIHdyYXBwZXLvvJoKCmBgYHB5dGhvbgojIS91c3IvYmluL2VudiBweXRob24zCiIiIm15X3dyYXBwZXIucHkg4oCUIOWcqCBoZXJtZXMgY3JvbiBqb2Ig5Lit5omn6KGMIHNoZWxsIOWRveS7pCIiIgppbXBvcnQgc3VicHJvY2Vzcywgc3lzLCBwYXRobGliCgojIOaJp+ihjOWunumZheeahCBzaGVsbCDohJrmnKwv5ZG95LukCnJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKAogICAgW3N5cy5leGVjdXRhYmxlLCAiL29wdC9kYXRhL3NjcmlwdHMvcmVhbF9zY3JpcHQucHkiXSwKICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsIHRleHQ9VHJ1ZSwKKQojIOWPr+mAie+8mui/veWKoOaXpeW/lwpMT0cgPSBwYXRobGliLlBhdGgoIi9vcHQvZGF0YS9zb21lL2xvZy5sb2ciKQp3aXRoIExPRy5vcGVuKCJhIikgYXMgZjoKICAgIGlmIHJlc3VsdC5zdGRvdXQ6IGYud3JpdGUocmVzdWx0LnN0ZG91dCkKICAgIGlmIHJlc3VsdC5zdGRlcnI6IGYud3JpdGUocmVzdWx0LnN0ZGVycikKc3lzLmV4aXQocmVzdWx0LnJldHVybmNvZGUpCmBgYAoKIyMjIGpvYnMuanNvbiDphY3nva7opoHngrkKCmBgYGpzb24KewogICJzY3JpcHQiOiAibXlfd3JhcHBlci5weSIsICAgLy8g4oaQIOW/hemhu+aYryAucHnvvIzmlL7lnKggfi8uaGVybWVzL3NjcmlwdHMvCiAgInByb21wdCI6ICLmo4Dmn6XkuIrmlrnovpPlh7rmmK/lkKbljIXlkKvplJnor6/vvIzlpoLmnInplJnor6/or7fmiqXlkYrjgIIiCiAgLy8g5LiN6KaB5YaN5oqK5ZG95Luk5YaZ5ZyoIHByb21wdCDph4wg4oCUIHNjcmlwdCDlt7LmiafooYwKfQpgYGAKCiMjIyDot6/lvoTop4TliJkKCi0gc2NyaXB0cyDlv4XpobvmlL7lnKggYH4vLmhlcm1lcy9zY3JpcHRzL2DvvIjpgJrov4cgYGdldF9oZXJtZXNfaG9tZSgpIC8gInNjcmlwdHMiYCDop6PmnpDvvIkKLSDmlK/mjIHnm7jlr7not6/lvoTvvIhgYnJhaW5fYmFja3VwX3dyYXBwZXIucHlg77yJ5ZKM57ud5a+56Lev5b6E77yIYH4vc2NyaXB0cy94eHgucHlg77yJCi0gKirkuI3mlK/mjIEqKue7neWvuei3r+W+hOWmgiBgL29wdC9kYXRhL3NjcmlwdHMveHh4LnB5YO+8iOS8muiiq+WuieWFqOagoemqjOaLpuaIqu+8iQoKIyMg6K+K5pat5ZG95LukCgpgYGBiYXNoCiMg5p+l55yL5b2T5YmNIGNyb24gc2NoZWR1bGVyIOeahCBzY3JpcHQg5omn6KGM6YC76L6RCmdyZXAgLW4gInN1YnByb2Nlc3NcfHN5cy5leGVjdXRhYmxlXHxydW5fam9iX3NjcmlwdCIgL29wdC9oZXJtZXMvY3Jvbi9zY2hlZHVsZXIucHkKCiMg5p+l55yLIGhlcm1lcyBob21lCnB5dGhvbjMgLWMgImZyb20gaGVybWVzX2NvbnN0YW50cyBpbXBvcnQgZ2V0X2hlcm1lc19ob21lOyBwcmludChnZXRfaGVybWVzX2hvbWUoKSkiCgojIOWIl+WHuuW9k+WJjSBzY3JpcHRzCmxzIC1sYSB+Ly5oZXJtZXMvc2NyaXB0cy8KYGBgCgojIyDluLjop4HplJnor6/mqKHlvI8KCnwg6ZSZ6K+vIHwg5Y6f5ZugIHwg5L+u5aSNIHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tfAp8IGBTeW50YXhFcnJvcjogaW52YWxpZCBzeW50YXhgIG9uIHNoZWJhbmcgbGluZSB8IGAuc2hgIOaWh+S7tuiiqyBQeXRob24g5omn6KGMIHwg5pS555SoIGAucHlgIHdyYXBwZXIgfAp8IGBTY3JpcHQgbm90IGZvdW5kOiAvb3B0L2RhdGEvc2NyaXB0cy94eHguc2hgIHwg6Lev5b6E5LiN5ZyoIGB+Ly5oZXJtZXMvc2NyaXB0cy9gIHwg5aSN5Yi25Yiw5q2j56Gu5L2N572uIHwKfCBgQmxvY2tlZDogc2NyaXB0IHBhdGggcmVzb2x2ZXMgb3V0c2lkZWAgfCDnu53lr7not6/lvoTotoXlh7ogSEVSTUVTX0hPTUUgfCDnlKjnm7jlr7not6/lvoQgfAoKIyMg5om56YeP5omr5o+P6ISa5pys5a2X5q6177yI6Ziy5q2i5ZCM57G76Zeu6aKY77yJCgpgYGBiYXNoCiMg5qOA5p+l5omA5pyJIGNyb24gam9iIOeahCBzY3JpcHQg5a2X5q6177yM5o6S5p+lIGJhc2gg6ISa5pys5ZKM57ud5a+56Lev5b6ECnB5dGhvbjMgLWMgIgppbXBvcnQganNvbgp3aXRoIG9wZW4oJy9vcHQvZGF0YS9jcm9uL2pvYnMuanNvbicpIGFzIGY6CiAgICBkYXRhID0ganNvbi5sb2FkKGYpCmZvciBqb2IgaW4gZGF0YVsnam9icyddOgogICAgc2NyaXB0ID0gam9iLmdldCgnc2NyaXB0JykKICAgIGlmIHNjcmlwdDoKICAgICAgICBpc19iYXNoID0gc2NyaXB0LnN0YXJ0c3dpdGgoJyMhL2JpbicpIG9yIChpc2luc3RhbmNlKHNjcmlwdCwgc3RyKSBhbmQgc2NyaXB0LmVuZHN3aXRoKCcuc2gnKSkKICAgICAgICBwcmludChmXCJ7J+KaoO+4jyBCQVNIJyBpZiBpc19iYXNoIGVsc2UgJ+KchSBQWSd9IFt7am9iWydpZCddfV0ge2pvYlsnbmFtZSddfToge3JlcHIoc2NyaXB0Wzo2MF0pfSIpCiIKYGBgCgoqKuacrOasoeS/ruWkjeeahDPkuKrpl67popjvvJoqKgotIGBicmFpbl9iYWNrdXBfd3JhcHBlci5zaGAg4oaSIGBicmFpbl9iYWNrdXBfdHJpZ2dlci5weWDvvIhCcmFpbuezu+e7n+inpuWPkeW8j+Wkh+S7ve+8iQotIGBzZWxmX29ic2VydmVyX3dyYXBwZXIuc2hgIOKGkiBgL29wdC9kYXRhL2JyYWluL3BlcmZvcm1hbmNlL3NlbGZfb2JzZXJ2ZXIucHlg77yI6Ieq6L+b5YyW5q+P5pel5oql5ZGK77yJCi0gYmFzaOS7o+eggeWGheW1jCDihpIgYGxlYXJuaW5nX2VuZ2luZS5weWDvvIhsZWFybmluZy1lbmdpbmUtdjLvvIkKCiMjIOe7neWvuei3r+W+hOaUr+aMgeaDheWGtQoKc2tpbGwg5pen54mI6K+0IuS4jeaUr+aMgee7neWvuei3r+W+hCLvvIzlrp7mtYvvvJrnu53lr7not6/lvoTvvIhgL29wdC9kYXRhLy4uLmDvvInlj6/ku6XnlJ/mlYjvvIzliY3mj5DmmK/mlofku7blrZjlnKjkuJQgaGVybWVzIOacieadg+mZkOivu+WPluOAguebuOWvuei3r+W+hO+8iGBicmFpbl9iYWNrdXBfdHJpZ2dlci5weWDvvInkvJroh6rliqjlnKggYCRIRVJNRVNfSE9NRS9zY3JpcHRzL2Ag5LiL5p+l5om+44CCCgojIyDlj5HnjrDljobnqIsKCjIwMjYtMDUtMzDvvJrmlbTngrkgY3JvbiDop6blj5EgYnJhaW5fYmFja3VwIOaKpemUmSBTeW50YXhFcnJvciBvbiBsaW5lIDIgb2YgYnJhaW5fYmFja3VwX3dyYXBwZXIuc2jjgIIK5rex5YWlIHNjaGVkdWxlci5weSDmupDnoIHlj5HnjrAgYF9ydW5fam9iX3NjcmlwdGAg55SoIGBzdWJwcm9jZXNzLnJ1bihbc3lzLmV4ZWN1dGFibGUsIHBhdGhdKWAg5omn6KGM77yMCnNoZWJhbmcg5a+5IEhlcm1lcyBjcm9uIOWujOWFqOaXoOaViOOAguS/ruWkje+8mueUqCBQeXRob24gd3JhcHBlciArIOaUuSBqb2JzLmpzb24gc2NyaXB0IOWtl+auteS4uiBgLnB5YOOAggoK5pys5qyh5Lya6K+d6aKd5aSW5Y+R546w77ya5o6S5p+l6L+H56iL5Lit5omr5o+P5YWo6YOoIGpvYnMuanNvbu+8jOWPkeeOsCBzZWxmX29ic2VydmVyX3dyYXBwZXIuc2gg5ZKMIGxlYXJuaW5nLWVuZ2luZS12MgrkuZ/mnInlkIznsbvpl67popjvvIhiYXNoIOS7o+eggeiiq+W9k+S9nCBQeXRob24g5omn6KGM77yJ77yM5LiA5bm25L+u5aSN44CC5bu66K6u5a6a5pyf6L+Q6KGM5om56YeP5omr5o+P5ZG95Luk6Ziy5q2i57G75Ly86Zeu6aKY56ev5Y6L44CCCg==
+---
+name: hermes-cron-script-execution-model
+description: Hermes cron scheduler 强制用 Python 执行 script 字段，完全忽略 shebang。用于诊断 cron job script 类型错误。
+triggers: ["调度", "cron", "定时"]
+trigger: cron script SyntaxError / .sh wrapper 失效 / script 字段配置问题
+version: 1.0
+---
+
+# Hermes Cron Script 执行模型
+
+## 核心发现
+
+Hermes cron scheduler 的 `_run_job_script` 函数（`/opt/hermes/cron/scheduler.py`）**强制用 `sys.executable` 执行 script 文件**：
+
+```python
+result = subprocess.run(
+    [sys.executable, str(path)],  # 用Python运行任何扩展名！
+    capture_output=True,
+    text=True,
+    timeout=script_timeout,
+    cwd=str(path.parent),
+)
+```
+
+**shebang 完全被忽略**，`.sh` 文件会被当作 Python 代码解析，导致 `SyntaxError`。
+
+## 正确做法
+
+### Script 字段只支持 Python 脚本（`.py`）
+
+如果需要在 cron job 中执行 shell 命令，必须用 Python wrapper：
+
+```python
+#!/usr/bin/env python3
+"""my_wrapper.py — 在 hermes cron job 中执行 shell 命令"""
+import subprocess, sys, pathlib
+
+# 执行实际的 shell 脚本/命令
+result = subprocess.run(
+    [sys.executable, "/opt/data/scripts/real_script.py"],
+    capture_output=True, text=True,
+)
+# 可选：追加日志
+LOG = pathlib.Path("/opt/data/some/log.log")
+with LOG.open("a") as f:
+    if result.stdout: f.write(result.stdout)
+    if result.stderr: f.write(result.stderr)
+sys.exit(result.returncode)
+```
+
+### jobs.json 配置要点
+
+```json
+{
+  "script": "my_wrapper.py",   // ← 必须是 .py，放在 ~/.hermes/scripts/
+  "prompt": "检查上方输出是否包含错误，如有错误请报告。"
+  // 不要再把命令写在 prompt 里 — script 已执行
+}
+```
+
+### 路径规则
+
+- scripts 必须放在 `~/.hermes/scripts/`（通过 `get_hermes_home() / "scripts"` 解析）
+- 支持相对路径（`brain_backup_wrapper.py`）和绝对路径（`~/scripts/xxx.py`）
+- **不支持**绝对路径如 `/opt/data/scripts/xxx.py`（会被安全校验拦截）
+
+## 诊断命令
+
+```bash
+# 查看当前 cron scheduler 的 script 执行逻辑
+grep -n "subprocess\|sys.executable\|run_job_script" /opt/hermes/cron/scheduler.py
+
+# 查看 hermes home
+python3 -c "from hermes_constants import get_hermes_home; print(get_hermes_home())"
+
+# 列出当前 scripts
+ls -la ~/.hermes/scripts/
+```
+
+## 常见错误模式
+
+| 错误 | 原因 | 修复 |
+|------|------|------|
+| `SyntaxError: invalid syntax` on shebang line | `.sh` 文件被 Python 执行 | 改用 `.py` wrapper |
+| `Script not found: /opt/data/scripts/xxx.sh` | 路径不在 `~/.hermes/scripts/` | 复制到正确位置 |
+| `Blocked: script path resolves outside` | 绝对路径超出 HERMES_HOME | 用相对路径 |
+
+## 批量扫描脚本字段（防止同类问题）
+
+```bash
+# 检查所有 cron job 的 script 字段，排查 bash 脚本和绝对路径
+python3 -c "
+import json
+with open('/opt/data/cron/jobs.json') as f:
+    data = json.load(f)
+for job in data['jobs']:
+    script = job.get('script')
+    if script:
+        is_bash = script.startswith('#!/bin') or (isinstance(script, str) and script.endswith('.sh'))
+        print(f\"{'⚠️ BASH' if is_bash else '✅ PY'} [{job['id']}] {job['name']}: {repr(script[:60])}")
+"
+```
+
+**本次修复的3个问题：**
+- `brain_backup_wrapper.sh` → `brain_backup_trigger.py`（Brain系统触发式备份）
+- `self_observer_wrapper.sh` → `/opt/data/brain/performance/self_observer.py`（自进化每日报告）
+- bash代码内嵌 → `learning_engine.py`（learning-engine-v2）
+
+## 绝对路径支持情况
+
+skill 旧版说"不支持绝对路径"，实测：绝对路径（`/opt/data/...`）可以生效，前提是文件存在且 hermes 有权限读取。相对路径（`brain_backup_trigger.py`）会自动在 `$HERMES_HOME/scripts/` 下查找。
+
+## 发现历程
+
+2026-05-30：整点 cron 触发 brain_backup 报错 SyntaxError on line 2 of brain_backup_wrapper.sh。
+深入 scheduler.py 源码发现 `_run_job_script` 用 `subprocess.run([sys.executable, path])` 执行，
+shebang 对 Hermes cron 完全无效。修复：用 Python wrapper + 改 jobs.json script 字段为 `.py`。
+
+本次会话额外发现：排查过程中扫描全部 jobs.json，发现 self_observer_wrapper.sh 和 learning-engine-v2
+也有同类问题（bash 代码被当作 Python 执行），一并修复。建议定期运行批量扫描命令防止类似问题积压。

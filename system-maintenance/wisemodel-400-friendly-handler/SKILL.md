@@ -1,1 +1,153 @@
-LS0tCm5hbWU6IHdpc2Vtb2RlbC00MDAtZnJpZW5kbHktaGFuZGxlcgpkZXNjcmlwdGlvbjogd2lzZW1vZGVsIDQwMOWQjmdhdGV3YXnlj4vlpb3lpITnkIbigJTigJTnq4vljbPlgZx0eXBpbmcr55u05o6l5o6o6YCB5Lit5paH6ZSZ6K+v5raI5oGv77yM5a+56K+d5LiN5Y2h5q27CnRyaWdnZXI6IHdpc2Vtb2RlbCA0MDAgLyB1bmV4cGVjdGVkIGVuZCBvZiBkYXRhIC8g5a+56K+d5Y2h5q27Ci0tLQpjcmVhdGVkOiAyMDI2LTA1LTMwCnZlcnNpb246IDIuMQotLS0KIyMg6Kem5Y+R5p2h5Lu2Cndpc2Vtb2RlbCDku6PnkIblk43lupTotoXml7bvvIh+NjDnp5LpmZDliLbvvInlr7zoh7QgSFRUUCA0MDDvvJpgdW5leHBlY3RlZCBlbmQgb2YgZGF0YWAKCiMjIOmXrumimOeOsOixoQotIHR5cGluZyDmjIfnpLrlmajljaHmrbvvvIgi5q2j5Zyo6L6T5YWlLi4uIuS4gOebtOaYvuekuu+8iQotIOmUmeivr+a2iOaBr+ayoeaOqOe7meeUqOaItwotIOWvueivneWujOWFqOWNoeatu++8jOW/hemhu+W8gOaWsOS8muivneaJjeiDveaBouWkjQoKLS0tCgojIyB2Mi4xIOWunumZheiQveWcsO+8mnN0cmVhbei2heaXtuaIquaWre+8iDIwMjYtMDYtMDblrp7mtYvvvIkKCioq6Zeu6aKY5qC55ZugKirvvJp3aXNlbW9kZWzmnI3liqHnq69+NjDnp5LmiKrmlq3mtYHvvIxIZXJtZXPlrqLmiLfnq6/lgrvnrYkxMjDnp5LmiY3otoXml7Yg4oaSIHdpc2Vtb2RlbOW8uuWItmtpbGzov57mjqUg4oaSIDQwMCAidW5leHBlY3RlZCBlbmQgb2YgZGF0YSIKCioq5L+u5aSNMSDigJQgc3RyZWFtX3JlYWRfdGltZW91dOijgeWIsDU156eS77yIcnVuX2FnZW50LnB5OjUzOTDvvIkqKgpgYGBweXRob24KIyBXaXNlbW9kZWwv5aeL5pm6QUkgaGFzIGEgfjYwcyBzZXJ2ZXItc2lkZSBzdHJlYW1pbmcgdGltZW91dC4KIyBDYXAgdGhlIGNsaWVudC1zaWRlIHN0cmVhbSByZWFkIHRpbWVvdXQgc28gaHR0cHggY2xvc2VzIHRoZQojIGNvbm5lY3Rpb24gY2xlYW5seSBiZWZvcmUgd2lzZW1vZGVsIGtpbGxzIGl0LCBhdm9pZGluZyBhCiMgNDAwICJ1bmV4cGVjdGVkIGVuZCBvZiBkYXRhIiBvbiBsb25nIGNvbnRleHRzLgppZiBfc3RyZWFtX3JlYWRfdGltZW91dCA+PSAxMjAuMCBhbmQgc2VsZi5iYXNlX3VybCBhbmQgIndpc2Vtb2RlbCIgaW4gc2VsZi5iYXNlX3VybC5sb3dlcigpOgogICAgX3N0cmVhbV9yZWFkX3RpbWVvdXQgPSA1NS4wCiAgICBsb2dnZXIuZGVidWcoCiAgICAgICAgIldpc2Vtb2RlbCBkZXRlY3RlZCAoJXMpIOKAlCBzdHJlYW0gcmVhZCB0aW1lb3V0IGNhcHBlZCB0byA1NXMgKHNlcnZlciBsaW1pdCkiLAogICAgICAgIHNlbGYuYmFzZV91cmwsCiAgICApCmBgYAoqKuaPkuWFpeS9jee9rioq77yaYHN0cmVhbV9rd2FyZ3MgPSB7Li4ufWAg5LmL5YmN77yM5LiOIkxvY2FsIHByb3ZpZGVyIGRldGVjdGVkIuW5tuWIlwoKKirkv67lpI0yIOKAlCA0MDDlj4vlpb3mj5DnpLrvvIhnYXRld2F5L3J1bi5weTo0MDgz77yJKioKYGBgcHl0aG9uCl9pc19jdHhfZmFpbCA9IGFueShwIGluIGVycm9yX3N0ciBmb3IgcCBpbiAoCiAgICAiY29udGV4dCIsICJ0b2tlbiIsICJ0b28gbGFyZ2UiLCAidG9vIGxvbmciLAogICAgImV4Y2VlZCIsICJwYXlsb2FkIiwKICAgICJ1bmV4cGVjdGVkIGVuZCBvZiBkYXRhIiwgICMgd2lzZW1vZGVsL+Wni+aZukFJIOi2heaXtuaIquaWreWTjeW6lAopKSBvciAoCiAgICAiNDAwIiBpbiBlcnJvcl9zdHIKICAgIGFuZCBsZW4oaGlzdG9yeSkgPiA1MAopCmBgYArihpIg55So5oi355yL5YiwIlNlc3Npb24gdG9vIGxhcmdlLCB1c2UgL2NvbXBhY3Qgb3IgL3Jlc2V0IuiAjOmdnuWOn+WnizQwMAoKKirpmLLlvqHlsYLnuqcqKu+8mgoxLiA1NeenkmNhcCDihpIg6aKE6Ziy77ya5o+Q5YmN5pS2572R77yMd2lzZW1vZGVs5bmy5YeA5YWz6Zet6L+e5o6l77yM5pegNDAwCjIuIOWPi+WlveaPkOekuiDihpIg5YWc5bqV77ya5LiH5LiA6L+YNDAw77yM55So5oi355+l6YGT5oCO5LmI5YqeCgotLS0KCiMjIHYyLjAgY2hlY2twb2ludOe7reS8oOiuvuiuoe+8iOW+heiQveWcsO+8iQoKYGBgCui2heaXtiDihpIgcmV0cnkgeDIg4oaSIOiAl+WwvSDihpIKICDikaAg5L+d5a2Y5pat54K577yIcGFydGlhbCDihpIgY2hlY2twb2ludCBKU09O5paH5Lu277yJCiAg4pGhIOmHjee9rnNlc3Npb27vvIjlubLlh4DkuIrkuIvmlofvvIzlkIxzZXNzaW9uX2tleeaNonNlc3Npb25faWTvvIkKICDikaIg5rOo5YWl57ut5Lyg5o+Q56S65YiwY29udGV4dF9wcm9tcHQKICDikaMg6Ieq5Yqo6YeN6LeRYWdlbnQKICDikaQg5o6oIvCflIQg5q2j5Zyo57ut5LygLi4uIumAmuefpQogIOKRpSDmjqjpgIHmnIDnu4jnu5PmnpwKYGBgCgoqKuWFs+mUruWPmOmHj++8iHJ1bi5wee+8iSoq77yaCmBgYHB5dGhvbgpfYXV0b19yZWNvdmVyX3BlbmRpbmcgPSBGYWxzZSAgICMg5Yid5aeL5YyWCl9zZW5kX2Vycm9yX3RvX3VzZXIgPSBUcnVlICAgICAgIyDliJ3lp4vljJbvvIzpmLLmraLplJnor6/mtojmga/miqLlhYgKX2lzX3dpc2Vtb2RlbF90aW1lb3V0ID0gRmFsc2UgICAjIOWIneWni+WMlgoKIyByZXRyeeiAl+WwveWQjgpfYXV0b19yZWNvdmVyX3BlbmRpbmcgPSBib29sKF9pc193aXNlbW9kZWxfdGltZW91dCkKX3NlbmRfZXJyb3JfdG9fdXNlciA9IG5vdCBfYXV0b19yZWNvdmVyX3BlbmRpbmcgICMg6LaF5pe25pe25LiN5Y+R6ZSZ6K+vCmBgYAoKKirmtYHnqIvlrojljavvvIg0MzA36KGM77yJKirvvJoKYGBgcHl0aG9uCiMg6ZSZ6K+v5raI5oGv5Z2XICsgX3NlbmRfZXJyb3JfdG9fdXNlciDlrojljasKaWYgbm90IHJlc3BvbnNlIGFuZCBhZ2VudF9yZXN1bHQuZ2V0KCJmYWlsZWQiKSBhbmQgX3NlbmRfZXJyb3JfdG9fdXNlcjoKICAgICMg5Y+q5Zyo6Z2e6LaF5pe25pe25omn6KGM77yM6LaF5pe26LWw5LiL6Z2icmVjb3ZlcnkKYGBgCgoqKuaguOW/g+aBouWkjemAu+i+ke+8iDQ0OTnooYwr77yJKirvvJoKYGBgcHl0aG9uCl9kb19hdXRvX3JlY292ZXIgPSAoCiAgICBhZ2VudF9yZXN1bHQuZ2V0KCJjb21wcmVzc2lvbl9leGhhdXN0ZWQiKQogICAgb3IgX2F1dG9fcmVjb3Zlcl9wZW5kaW5nICAjIHdpc2Vtb2RlbOi2heaXtuaXtuS5n+S4ulRydWUKKSBhbmQgc2Vzc2lvbl9lbnRyeSBhbmQgc2Vzc2lvbl9rZXkKaWYgX2RvX2F1dG9fcmVjb3ZlcjoKICAgICMgMS4g5o+Q5Y+W5pyA5ZCO5LiA5p2hYXNzaXN0YW505raI5oGv5L2c5Li6cGFydGlhbAogICAgX3BhcnRpYWxfcmVzdWx0ID0gIiIKICAgIGZvciBfbXNnIGluIHJldmVyc2VkKGFnZW50X3Jlc3VsdC5nZXQoIm1lc3NhZ2VzIiwgW10pKToKICAgICAgICBpZiBfbXNnLmdldCgicm9sZSIpID09ICJhc3Npc3RhbnQiIGFuZCBfbXNnLmdldCgiY29udGVudCIpOgogICAgICAgICAgICBfcGFydGlhbF9yZXN1bHQgPSBfbXNnWyJjb250ZW50Il0KICAgICAgICAgICAgYnJlYWsKCiAgICAjIDIuIOS/neWtmOaWreeCueaWh+S7tgogICAgX2NrcHRfZmlsZS53cml0ZV90ZXh0KGpzb24uZHVtcHMoewogICAgICAgICJwYXJ0aWFsIjogX3BhcnRpYWxfcmVzdWx0LAogICAgICAgICJvcmlnaW5hbF9tZXNzYWdlIjogbWVzc2FnZV90ZXh0LAogICAgICAgICJzZXNzaW9uX2lkIjogc2Vzc2lvbl9lbnRyeS5zZXNzaW9uX2lkLAogICAgICAgICJ0aW1lc3RhbXAiOiBkYXRldGltZS5ub3coKS5pc29mb3JtYXQoKSwKICAgIH0sIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpKQoKICAgICMgMy4g6YeN572uc2Vzc2lvbgogICAgc2VsZi5zZXNzaW9uX3N0b3JlLnJlc2V0X3Nlc3Npb24oc2Vzc2lvbl9rZXkpCiAgICBzZWxmLl9ldmljdF9jYWNoZWRfYWdlbnQoc2Vzc2lvbl9rZXkpCiAgICBzZWxmLl9zZXNzaW9uX21vZGVsX292ZXJyaWRlcy5wb3Aoc2Vzc2lvbl9rZXksIE5vbmUpCgogICAgIyA0LiDms6jlhaXnu63kvKDmj5DnpLoKICAgIF9yZWNvdmVyeV9oaW50ID0gKAogICAgICAgIGYiXG5b57O757uf57ut5LygXSDkuIrkuIDmrKHlpITnkIblm6DlpKfkuIrkuIvmlofotoXml7booqvkuK3mlq3jgIIiCiAgICAgICAgZiLku6XkuIvmmK/lt7LnlJ/miJDnmoTpg6jliIblhoXlrrnvvIjkuI3lrozmlbTvvInvvIzor7flnKjmraTln7rnoYDkuIrnu6fnu63lrozmiJDvvJpcbiIKICAgICAgICBmIi0tLVxue19wYXJ0aWFsX3Jlc3VsdH1cbi0tLVxuIgogICAgKQogICAgY29udGV4dF9wcm9tcHQgPSBfcmVjb3ZlcnlfaGludCArIGNvbnRleHRfcHJvbXB0CgogICAgIyA1LiDph43ot5EKICAgIGFnZW50X3Jlc3VsdCA9IGF3YWl0IHNlbGYuX3J1bl9hZ2VudCgKICAgICAgICBtZXNzYWdlPW1lc3NhZ2VfdGV4dCwKICAgICAgICBjb250ZXh0X3Byb21wdD1jb250ZXh0X3Byb21wdCwKICAgICAgICBoaXN0b3J5PVtdLCAgIyDlubLlh4Dnqbrljoblj7IKICAgICAgICBzb3VyY2U9c291cmNlLAogICAgICAgIHNlc3Npb25faWQ9c2Vzc2lvbl9lbnRyeS5zZXNzaW9uX2lkLAogICAgICAgIHNlc3Npb25fa2V5PXNlc3Npb25fa2V5LAogICAgICAgIGV2ZW50X21lc3NhZ2VfaWQ9ZXZlbnQubWVzc2FnZV9pZCwKICAgICAgICBjaGFubmVsX3Byb21wdD1ldmVudC5jaGFubmVsX3Byb21wdCwKICAgICkKCiAgICAjIDYuIOe7reS8oOaIkOWKnyDihpIg5o6o6YCa55+lCiAgICBpZiBub3QgYWdlbnRfcmVzdWx0LmdldCgiZmFpbGVkIik6CiAgICAgICAgX3Jlc3VtZV9ub3RpY2UgPSAoCiAgICAgICAgICAgICLwn5SEIOS4iuS4gOadoea2iOaBr+WboOWkp+S4iuS4i+aWh+i2heaXtuiiq+iHquWKqOe7reS8oOOAglxuIgogICAgICAgICAgICAi57uT5p6c5q2j5Zyo5aSE55CG5Lit77yM6K+356iN5YCZLi4uXG4iCiAgICAgICAgKQogICAgICAgIGF3YWl0IF90eXBpbmdfYWRhcHRlci5zZW5kKHNvdXJjZS5jaGF0X2lkLCBfcmVzdW1lX25vdGljZSkKICAgICAgICBfYXV0b19yZWNvdmVyZWQgPSBUcnVlICAjIOe7lei/h+mUmeivr+WkhOeQhuWdlwpgYGAKCioq6KaG55uW5Zy65pmvKirvvJoKLSB3aXNlbW9kZWwgNjDnp5LmiKrmlq0g4oaSIOiHquWKqOe7reS8oCDinIUKLSA1MDAvNTAyLzUwM+acjeWKoemUmeivryDihpIg6Ieq5Yqo57ut5LygIOKchQotIOWOi+e8qeiAl+WwvSDihpIg6Ieq5Yqo57ut5Lyg77yI5Y6f5pyJ6YC76L6R5Y2H57qn77yJ4pyFCi0g57ut5Lyg6Ieq6Lqr5Lmf5aSx6LSlIOKGkiBmYWxsYmFja+ato+W4uOmUmeivr+WkhOeQhiDinIUKCioq5Li65LuA5LmI5LiN55So5rS+5bel5p2/KirvvJrmtL7lt6Xmnb/pk77ot6/lpJrkuIDkuKrkvp3otZbvvIzlvIDmlrDkvJror53mm7TnqLPmm7Tnm7TmjqXjgIIKCiMjIOmqjOivgeaWueazlQrop6blj5HkuIDmrKEgd2lzZW1vZGVsIDQwMCDihpIg6KeC5a+f5piv5ZCm6Ieq5Yqo5pS25YiwIvCflIQg5q2j5Zyo57ut5LygIumAmuefpeOAgeacgOe7iOaYr+WQpuWHuue7k+aenOOAgXR5cGluZ+aYr+WQpuato+W4uOa2iOWkseOAggo=
+---
+name: wisemodel-400-friendly-handler
+description: wisemodel 400后gateway友好处理——立即停typing+直接推送中文错误消息，对话不卡死
+trigger: wisemodel 400 / unexpected end of data / 对话卡死
+---
+created: 2026-05-30
+version: 2.1
+---
+## 触发条件
+wisemodel 代理响应超时（~60秒限制）导致 HTTP 400：`unexpected end of data`
+
+## 问题现象
+- typing 指示器卡死（"正在输入..."一直显示）
+- 错误消息没推给用户
+- 对话完全卡死，必须开新会话才能恢复
+
+---
+
+## v2.1 实际落地：stream超时截断（2026-06-06实测）
+
+**问题根因**：wisemodel服务端~60秒截断流，Hermes客户端傻等120秒才超时 → wisemodel强制kill连接 → 400 "unexpected end of data"
+
+**修复1 — stream_read_timeout裁到55秒（run_agent.py:5390）**
+```python
+# Wisemodel/始智AI has a ~60s server-side streaming timeout.
+# Cap the client-side stream read timeout so httpx closes the
+# connection cleanly before wisemodel kills it, avoiding a
+# 400 "unexpected end of data" on long contexts.
+if _stream_read_timeout >= 120.0 and self.base_url and "wisemodel" in self.base_url.lower():
+    _stream_read_timeout = 55.0
+    logger.debug(
+        "Wisemodel detected (%s) — stream read timeout capped to 55s (server limit)",
+        self.base_url,
+    )
+```
+**插入位置**：`stream_kwargs = {...}` 之前，与"Local provider detected"并列
+
+**修复2 — 400友好提示（gateway/run.py:4083）**
+```python
+_is_ctx_fail = any(p in error_str for p in (
+    "context", "token", "too large", "too long",
+    "exceed", "payload",
+    "unexpected end of data",  # wisemodel/始智AI 超时截断响应
+)) or (
+    "400" in error_str
+    and len(history) > 50
+)
+```
+→ 用户看到"Session too large, use /compact or /reset"而非原始400
+
+**防御层级**：
+1. 55秒cap → 预防：提前收网，wisemodel干净关闭连接，无400
+2. 友好提示 → 兜底：万一还400，用户知道怎么办
+
+---
+
+## v2.0 checkpoint续传设计（待落地）
+
+```
+超时 → retry x2 → 耗尽 →
+  ① 保存断点（partial → checkpoint JSON文件）
+  ② 重置session（干净上下文，同session_key换session_id）
+  ③ 注入续传提示到context_prompt
+  ④ 自动重跑agent
+  ⑤ 推"🔄 正在续传..."通知
+  ⑥ 推送最终结果
+```
+
+**关键变量（run.py）**：
+```python
+_auto_recover_pending = False   # 初始化
+_send_error_to_user = True      # 初始化，防止错误消息抢先
+_is_wisemodel_timeout = False   # 初始化
+
+# retry耗尽后
+_auto_recover_pending = bool(_is_wisemodel_timeout)
+_send_error_to_user = not _auto_recover_pending  # 超时时不发错误
+```
+
+**流程守卫（4307行）**：
+```python
+# 错误消息块 + _send_error_to_user 守卫
+if not response and agent_result.get("failed") and _send_error_to_user:
+    # 只在非超时时执行，超时走下面recovery
+```
+
+**核心恢复逻辑（4499行+）**：
+```python
+_do_auto_recover = (
+    agent_result.get("compression_exhausted")
+    or _auto_recover_pending  # wisemodel超时时也为True
+) and session_entry and session_key
+if _do_auto_recover:
+    # 1. 提取最后一条assistant消息作为partial
+    _partial_result = ""
+    for _msg in reversed(agent_result.get("messages", [])):
+        if _msg.get("role") == "assistant" and _msg.get("content"):
+            _partial_result = _msg["content"]
+            break
+
+    # 2. 保存断点文件
+    _ckpt_file.write_text(json.dumps({
+        "partial": _partial_result,
+        "original_message": message_text,
+        "session_id": session_entry.session_id,
+        "timestamp": datetime.now().isoformat(),
+    }, ensure_ascii=False, indent=2))
+
+    # 3. 重置session
+    self.session_store.reset_session(session_key)
+    self._evict_cached_agent(session_key)
+    self._session_model_overrides.pop(session_key, None)
+
+    # 4. 注入续传提示
+    _recovery_hint = (
+        f"\n[系统续传] 上一次处理因大上下文超时被中断。"
+        f"以下是已生成的部分内容（不完整），请在此基础上继续完成：\n"
+        f"---\n{_partial_result}\n---\n"
+    )
+    context_prompt = _recovery_hint + context_prompt
+
+    # 5. 重跑
+    agent_result = await self._run_agent(
+        message=message_text,
+        context_prompt=context_prompt,
+        history=[],  # 干净空历史
+        source=source,
+        session_id=session_entry.session_id,
+        session_key=session_key,
+        event_message_id=event.message_id,
+        channel_prompt=event.channel_prompt,
+    )
+
+    # 6. 续传成功 → 推通知
+    if not agent_result.get("failed"):
+        _resume_notice = (
+            "🔄 上一条消息因大上下文超时被自动续传。\n"
+            "结果正在处理中，请稍候...\n"
+        )
+        await _typing_adapter.send(source.chat_id, _resume_notice)
+        _auto_recovered = True  # 绕过错误处理块
+```
+
+**覆盖场景**：
+- wisemodel 60秒截断 → 自动续传 ✅
+- 500/502/503服务错误 → 自动续传 ✅
+- 压缩耗尽 → 自动续传（原有逻辑升级）✅
+- 续传自身也失败 → fallback正常错误处理 ✅
+
+**为什么不用派工板**：派工板链路多一个依赖，开新会话更稳更直接。
+
+## 验证方法
+触发一次 wisemodel 400 → 观察是否自动收到"🔄 正在续传"通知、最终是否出结果、typing是否正常消失。

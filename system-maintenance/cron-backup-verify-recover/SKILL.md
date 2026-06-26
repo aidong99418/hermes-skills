@@ -1,1 +1,179 @@
-LS0tCm5hbWU6IGNyb24tYmFja3VwLXZlcmlmeS1yZWNvdmVyCmRlc2NyaXB0aW9uOiBDcm9u5aSH5Lu95Lu75Yqh6aqM6K+BICsgTUVNT1JZLm1k56m65paH5Lu25qOA5rWL5oGi5aSNICsgUkFH5pat6ZO+5L+u5aSN44CC6Kem5Y+R77ya5q+P5pel5aSH5Lu9Y3JvbuWQjuajgOafpeOAgeaJp+ihjOWkh+S7veiEmuacrOWQjumqjOivgeOAgeWPkeeOsOaWh+S7tuS4ouWkseOAguiHquWKqOaBouWkjSvkv67lpI1qb2JzLmpzb27phY3nva7jgIIKdHJpZ2dlcnM6IFsi5oGi5aSNIiwgIuWumuaXtiIsICJjcm9uIiwgIuiwg+W6piIsICLlpIfku70iXQp0YWdzOiBb5aSH5Lu9LCDmgaLlpI0sIE1FTU9SWS5tZCwgUkFHLCBjcm9uLCDmlq3pk75dCnJlbGF0ZWRfc2tpbGxzOiBbc3lzdGVtLWZ1bGwtYXVkaXQsIGRpc3BhdGNoZXItY2xlYW51cC13b3JrZmxvd10KdmVyc2lvbjogMS4wCi0tLQoKIyBDcm9uIOWkh+S7veS7u+WKoemqjOivgeS4juaBouWkjQoKIyMg6Kem5Y+R5Zy65pmvCgotIOavj+aXpSAwMzowMCDlpIfku70gY3JvbiDmiafooYzlkI4KLSDmiYvliqjmiafooYzlpIfku73ohJrmnKzlkI4KLSDlj5HnjrAgTUVNT1JZLm1kIC8gUkFHIOW8guW4uOaXtgoKIyMg5b+r6YCf6K+K5pat6ISa5pysCgpgYGBweXRob24KIyEvb3B0L2hlcm1lcy8udmVudi9iaW4vcHl0aG9uMwoiIiLlv6vpgJ/pqozor4HlpIfku73lrozmlbTmgKcgKyBNRU1PUlkubWTnqbrmlofku7bmo4DmtYsiIiIKaW1wb3J0IG9zLCBzaHV0aWwsIGdsb2IKCkJBQ0tVUF9ESVIgPSAiL3ZvbHVtZTIv5pWw5o2u5aSH5Lu9L21lbW9yeV9iYWNrdXAiCk1FTU9SWV9TUkMgPSAiL29wdC9kYXRhL21lbW9yaWVzL01FTU9SWS5tZCIKUkFHX0RJUiA9ICIvb3B0L2RhdGEvcmFnX2luZGV4IgoKZGVmIGNoZWNrKCk6CiAgICBpc3N1ZXMgPSBbXQogICAgd2FybmluZ3MgPSBbXQoKICAgICMgMS4gTUVNT1JZLm1kIOepuuaWh+S7tuajgOa1i++8iGNyaXRpY2Fs77yJCiAgICBzaXplID0gb3MucGF0aC5nZXRzaXplKE1FTU9SWV9TUkMpCiAgICBpZiBzaXplIDwgMTAwOiAgIyDmraPluLjlupTor6Xlh6BLQgogICAgICAgIHdhcm5pbmdzLmFwcGVuZChmIk1FTU9SWS5tZCDlvILluLjlsI86IHtzaXplfSBieXRlc++8jOmcgOimgeS7juWkh+S7veaBouWkjSIpCgogICAgIyAyLiBtYW5pZmVzdCDml6XmnJ/mmK/lkKbkuLrku4rlpKkKICAgIG1hbmlmZXN0ID0gZiJ7QkFDS1VQX0RJUn0vbWFuaWZlc3QuanNvbiIKICAgIGlmIG9zLnBhdGguZXhpc3RzKG1hbmlmZXN0KToKICAgICAgICBpbXBvcnQganNvbgogICAgICAgIHdpdGggb3BlbihtYW5pZmVzdCkgYXMgZjoKICAgICAgICAgICAgbSA9IGpzb24ubG9hZChmKQogICAgICAgIGlmIG0uZ2V0KCJkYXRlIikgIT0gb3MucG9wZW4oImRhdGUgKyVZLSVtLSVkIikucmVhZCgpLnN0cmlwKCk6CiAgICAgICAgICAgIGlzc3Vlcy5hcHBlbmQoZiJtYW5pZmVzdOaXpeacn+i/h+aXtjoge20uZ2V0KCdkYXRlJyl9IikKICAgIGVsc2U6CiAgICAgICAgaXNzdWVzLmFwcGVuZCgibWFuaWZlc3QuanNvbiDkuI3lrZjlnKgiKQoKICAgICMgMy4g5qOA5p+lIFJBRyDmlq3pk74KICAgIGJyb2tlbl9saW5rcyA9IFtdCiAgICBmb3Igcm9vdCwgZGlycywgZmlsZXMgaW4gb3Mud2FsayhSQUdfRElSKToKICAgICAgICBmb3IgZCBpbiBkaXJzOgogICAgICAgICAgICBwYXRoID0gb3MucGF0aC5qb2luKHJvb3QsIGQpCiAgICAgICAgICAgIGlmIG9zLnBhdGguaXNsaW5rKHBhdGgpIGFuZCBub3Qgb3MucGF0aC5leGlzdHMocGF0aCk6CiAgICAgICAgICAgICAgICBicm9rZW5fbGlua3MuYXBwZW5kKHBhdGgpCiAgICBpZiBicm9rZW5fbGlua3M6CiAgICAgICAgaXNzdWVzLmFwcGVuZChmIlJBR+WtmOWcqCB7bGVuKGJyb2tlbl9saW5rcyl9IOS4quaWremTvjoge2Jyb2tlbl9saW5rc1s6M119IikKCiAgICByZXR1cm4gaXNzdWVzLCB3YXJuaW5ncwoKaXNzdWVzLCB3YXJuaW5ncyA9IGNoZWNrKCkKZm9yIHcgaW4gd2FybmluZ3M6CiAgICBwcmludChmIuKaoO+4jyAge3d9IikKZm9yIGkgaW4gaXNzdWVzOgogICAgcHJpbnQoZiLwn5qoICB7aX0iKQppZiBub3QgaXNzdWVzIGFuZCBub3Qgd2FybmluZ3M6CiAgICBwcmludCgi4pyFIOWkh+S7veeKtuaAgeato+W4uCIpCmBgYAoKIyMgTUVNT1JZLm1kIOaBouWkjea1geeoiwoKYGBgYmFzaAojIDEuIOaJvuWIsOacgOaWsOeahOWkh+S7vQpscyAtbHQgIi92b2x1bWUyL+aVsOaNruWkh+S7vS9tZW1vcnlfYmFja3VwLyIgfCBncmVwICJNRU1PUllfIiB8IGhlYWQgLTUKCiMgMi4g5qOA5p+l5YCZ6YCJ5aSH5Lu95aSn5bCPCndjIC1jICIvdm9sdW1lMi/mlbDmja7lpIfku70vbWVtb3J5X2JhY2t1cC9NRU1PUllfMjAyNi0wNS0yOV8wMDEyMDYubWQiCgojIDMuIOehruiupOaBouWkjQpjcCAiL3ZvbHVtZTIv5pWw5o2u5aSH5Lu9L21lbW9yeV9iYWNrdXAvTUVNT1JZXzIwMjYtMDUtMjlfMDAxMjA2Lm1kIiBcCiAgIC9vcHQvZGF0YS9tZW1vcmllcy9NRU1PUlkubWQKCiMgNC4g6aqM6K+BCndjIC1jIC9vcHQvZGF0YS9tZW1vcmllcy9NRU1PUlkubWQKYGBgCgojIyDlpIfku73ohJrmnKzkv67lpI3vvIhSQUfmlq3pk77lr7zoh7Rjb3B5dHJlZeWksei0pe+8iQoKKirpl67popgqKu+8mmBzaHV0aWwuY29weXRyZWVgIOmBh+WIsCBicm9rZW4gc3ltbGluayDnm7TmjqXmipvlvILluLjvvIxjcm9uIOmdmem7mOWksei0pe+8jG1hbmlmZXN0IOWBnOa7nuWcqOWJjeS4gOWkqQoKKirkv67lpI0qKu+8muWcqCBqb2JzLmpzb24g55qE5aSH5Lu9IHByb21wdCDkuK3kv67mlLkgYHNodXRpbC5jb3B5dHJlZWAg6LCD55SoCgpgYGBweXRob24KIyDkv67lpI3liY0Kc2h1dGlsLmNvcHl0cmVlKFJBR19ESVIsIHJhZ19iYWspCgojIOS/ruWkjeWQju+8iOa3u+WKoCBkaXJzX2V4aXN0X29rICsgc3ltbGlua3PvvIkKc2h1dGlsLmNvcHl0cmVlKFJBR19ESVIsIHJhZ19iYWssIGRpcnNfZXhpc3Rfb2s9VHJ1ZSwgc3ltbGlua3M9VHJ1ZSkKYGBgCgpgYGBiYXNoCiMg5ZCM5pe25L+u5aSN5bey5a2Y5Zyo55qE5pat6ZO+CmZpbmQgL29wdC9kYXRhL3JhZ19pbmRleCAtdHlwZSBsICEgLWV4ZWMgdGVzdCAtZSB7fSBcOyAtcHJpbnQgMj4vZGV2L251bGwKIyDpgJDkuKrliKDpmaTmlq3pk77vvIjnoa7orqTmmK9icm9rZW4gc3ltbGlua+WQju+8iQpybSAiL29wdC9kYXRhL3JhZ19pbmRleC9icmFpbi90cmlnZ2VyX2NvbmZpZy5tZCIKYGBgCgojIyDmiYvliqjph43mlrDmiafooYzlpIfku73vvIjkv67lpI3lkI7vvIkKCmBgYHB5dGhvbgppbXBvcnQgc2h1dGlsLCBqc29uLCBvcwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQoKQkFDS1VQX0RJUiA9ICIvdm9sdW1lMi/mlbDmja7lpIfku70vbWVtb3J5X2JhY2t1cCIKTUVNT1JZX1NSQyA9ICIvb3B0L2RhdGEvbWVtb3JpZXMvTUVNT1JZLm1kIgpSQUdfRElSID0gIi9vcHQvZGF0YS9yYWdfaW5kZXgiClBST1RFQ1RFRF9TUkMgPSAiL29wdC9kYXRhL21lbW9yaWVzL3Byb3RlY3RlZF9hcmNoaXZlLmpzb24iCgpkYXRlID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZLSVtLSVkIikKb3MubWFrZWRpcnMoQkFDS1VQX0RJUiwgZXhpc3Rfb2s9VHJ1ZSkKCiMg5aSH5Lu9IE1FTU9SWS5tZAptZW1fYmFrID0gZiJ7QkFDS1VQX0RJUn0vTUVNT1JZX3tkYXRlfS5tZCIKc2h1dGlsLmNvcHkyKE1FTU9SWV9TUkMsIG1lbV9iYWspCgojIOWkh+S7vSBSQUfvvIjlhbPplK7vvJpkaXJzX2V4aXN0X29rPVRydWUsIHN5bWxpbmtzPVRydWXvvIkKcmFnX2JhayA9IGYie0JBQ0tVUF9ESVJ9L3JhZ19pbmRleF97ZGF0ZX0iCmlmIG9zLnBhdGguZXhpc3RzKHJhZ19iYWspOgogICAgc2h1dGlsLnJtdHJlZShyYWdfYmFrKQpzaHV0aWwuY29weXRyZWUoUkFHX0RJUiwgcmFnX2JhaywgZGlyc19leGlzdF9vaz1UcnVlLCBzeW1saW5rcz1UcnVlKQoKIyDlpIfku70gcHJvdGVjdGVkX2FyY2hpdmUKcHJvdF9iYWsgPSBmIntCQUNLVVBfRElSfS9wcm90ZWN0ZWRfYXJjaGl2ZV97ZGF0ZX0uanNvbiIKaWYgb3MucGF0aC5leGlzdHMoUFJPVEVDVEVEX1NSQyk6CiAgICBzaHV0aWwuY29weTIoUFJPVEVDVEVEX1NSQywgcHJvdF9iYWspCgojIOWGmeWFpSBtYW5pZmVzdAptYW5pZmVzdCA9IGYie0JBQ0tVUF9ESVJ9L21hbmlmZXN0Lmpzb24iCm1hbmlmZXN0X2RhdGEgPSB7CiAgICAiZGF0ZSI6IGRhdGUsCiAgICAibWVtb3J5X2JhY2t1cCI6IGYiTUVNT1JZX3tkYXRlfS5tZCIsCiAgICAicmFnX2JhY2t1cCI6IGYicmFnX2luZGV4X3tkYXRlfSIsCiAgICAicHJvdGVjdGVkX2JhY2t1cCI6IGYicHJvdGVjdGVkX2FyY2hpdmVfe2RhdGV9Lmpzb24iIGlmIG9zLnBhdGguZXhpc3RzKFBST1RFQ1RFRF9TUkMpIGVsc2UgTm9uZSwKfQp3aXRoIG9wZW4obWFuaWZlc3QsICd3JykgYXMgZjoKICAgIGpzb24uZHVtcChtYW5pZmVzdF9kYXRhLCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQoKIyDmuIXnkIYzMOWkqeWJjeaXp+Wkh+S7vQppbXBvcnQgZ2xvYiwgdGltZQpjdXRvZmYgPSB0aW1lLnRpbWUoKSAtIDMwICogODY0MDAKY2xlYW5lZCA9IDAKZm9yIGJhayBpbiBnbG9iLmdsb2IoZiJ7QkFDS1VQX0RJUn0vKiIpOgogICAgaWYgb3MucGF0aC5nZXRtdGltZShiYWspIDwgY3V0b2ZmOgogICAgICAgIGlmIG9zLnBhdGguaXNmaWxlKGJhayk6CiAgICAgICAgICAgIG9zLnJlbW92ZShiYWspCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2h1dGlsLnJtdHJlZShiYWspCiAgICAgICAgY2xlYW5lZCArPSAxCgpwcmludChmIuKchSDlpIfku73lrozmiJA6IHtkYXRlfSIpCnByaW50KGYiICAgTUVNT1JZOiB7bWVtX2Jha30gKHtvcy5wYXRoLmdldHNpemUobWVtX2Jhayl9IGJ5dGVzKSIpCnByaW50KGYiICAgUkFHOiB7cmFnX2Jha30vIikKcHJpbnQoZiIgICDmuIXnkIbml6flpIfku706IHtjbGVhbmVkfSDkuKoiKQpgYGAKCiMjIOmqjOivgea4heWNlQoKfCDmo4Dmn6XpobkgfCDlkb3ku6QgfCDpooTmnJ/nu5PmnpwgfAp8LS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLXwKfCBNRU1PUlkubWQg5aSn5bCPIHwgYHdjIC1jIC9vcHQvZGF0YS9tZW1vcmllcy9NRU1PUlkubWRgIHwgPiAxMDAwIGJ5dGVzIHwKfCBtYW5pZmVzdCDml6XmnJ8gfCBgY2F0IC92b2x1bWUyL+aVsOaNruWkh+S7vS9tZW1vcnlfYmFja3VwL21hbmlmZXN0Lmpzb25gIHwg5LuK5aSp5pel5pyfIHwKfCDku4rml6UgTUVNT1JZIOWkh+S7vSB8IGBscyAtbHQgL3ZvbHVtZTIv5pWw5o2u5aSH5Lu9L21lbW9yeV9iYWNrdXAvIHwgZ3JlcCAiTUVNT1JZXyQoZGF0ZSArJVktJW0tJWQpImAgfCDmnInmlofku7bkuJQgPiAxS0IgfAp8IOS7iuaXpSBSQUcg5aSH5Lu9IHwgYGR1IC1zaCAvdm9sdW1lMi/mlbDmja7lpIfku70vbWVtb3J5X2JhY2t1cC9yYWdfaW5kZXhfJChkYXRlICslWS0lbS0lZCkvYCB8IOacieWGheWuuSB8CnwgUkFHIOaWremTviB8IGBmaW5kIC9vcHQvZGF0YS9yYWdfaW5kZXggLXR5cGUgbCAhIC1leGVjIHRlc3QgLWUge30gXDsgLXByaW50YCB8IOaXoOi+k+WHuiB8CgojIyDlt7Lnn6UgUkFHIOaWremTvuadpea6kAoKLSBgL29wdC9kYXRhL3JhZ19pbmRleC9icmFpbi90cmlnZ2VyX2NvbmZpZy5tZGAg4oaSIGAvb3B0L2RhdGEvYnJhaW4vdHJpZ2dlcl9jb25maWcubWRg77yI5bey5Yig6Zmk77yML29wdC9kYXRhL2JyYWluLyDkuIvml6DmraTmlofku7bvvIkKLSDlj5HnjrDmlrDmlq3pk77ml7bvvJrnoa7orqTnm67moIfmlofku7bmmK/lkKblrZjlnKjvvIzlpoLkuI3lrZjlnKjliJnliKDpmaQgc3ltbGluawo=
+---
+name: cron-backup-verify-recover
+description: Cron备份任务验证 + MEMORY.md空文件检测恢复 + RAG断链修复。触发：每日备份cron后检查、执行备份脚本后验证、发现文件丢失。自动恢复+修复jobs.json配置。
+triggers: ["恢复", "定时", "cron", "调度", "备份"]
+tags: [备份, 恢复, MEMORY.md, RAG, cron, 断链]
+related_skills: [system-full-audit, dispatcher-cleanup-workflow]
+version: 1.0
+---
+
+# Cron 备份任务验证与恢复
+
+## 触发场景
+
+- 每日 03:00 备份 cron 执行后
+- 手动执行备份脚本后
+- 发现 MEMORY.md / RAG 异常时
+
+## 快速诊断脚本
+
+```python
+#!/opt/hermes/.venv/bin/python3
+"""快速验证备份完整性 + MEMORY.md空文件检测"""
+import os, shutil, glob
+
+BACKUP_DIR = "/volume2/数据备份/memory_backup"
+MEMORY_SRC = "/opt/data/memories/MEMORY.md"
+RAG_DIR = "/opt/data/rag_index"
+
+def check():
+    issues = []
+    warnings = []
+
+    # 1. MEMORY.md 空文件检测（critical）
+    size = os.path.getsize(MEMORY_SRC)
+    if size < 100:  # 正常应该几KB
+        warnings.append(f"MEMORY.md 异常小: {size} bytes，需要从备份恢复")
+
+    # 2. manifest 日期是否为今天
+    manifest = f"{BACKUP_DIR}/manifest.json"
+    if os.path.exists(manifest):
+        import json
+        with open(manifest) as f:
+            m = json.load(f)
+        if m.get("date") != os.popen("date +%Y-%m-%d").read().strip():
+            issues.append(f"manifest日期过时: {m.get('date')}")
+    else:
+        issues.append("manifest.json 不存在")
+
+    # 3. 检查 RAG 断链
+    broken_links = []
+    for root, dirs, files in os.walk(RAG_DIR):
+        for d in dirs:
+            path = os.path.join(root, d)
+            if os.path.islink(path) and not os.path.exists(path):
+                broken_links.append(path)
+    if broken_links:
+        issues.append(f"RAG存在 {len(broken_links)} 个断链: {broken_links[:3]}")
+
+    return issues, warnings
+
+issues, warnings = check()
+for w in warnings:
+    print(f"⚠️  {w}")
+for i in issues:
+    print(f"🚨  {i}")
+if not issues and not warnings:
+    print("✅ 备份状态正常")
+```
+
+## MEMORY.md 恢复流程
+
+```bash
+# 1. 找到最新的备份
+ls -lt "/volume2/数据备份/memory_backup/" | grep "MEMORY_" | head -5
+
+# 2. 检查候选备份大小
+wc -c "/volume2/数据备份/memory_backup/MEMORY_2026-05-29_001206.md"
+
+# 3. 确认恢复
+cp "/volume2/数据备份/memory_backup/MEMORY_2026-05-29_001206.md" \
+   /opt/data/memories/MEMORY.md
+
+# 4. 验证
+wc -c /opt/data/memories/MEMORY.md
+```
+
+## 备份脚本修复（RAG断链导致copytree失败）
+
+**问题**：`shutil.copytree` 遇到 broken symlink 直接抛异常，cron 静默失败，manifest 停滞在前一天
+
+**修复**：在 jobs.json 的备份 prompt 中修改 `shutil.copytree` 调用
+
+```python
+# 修复前
+shutil.copytree(RAG_DIR, rag_bak)
+
+# 修复后（添加 dirs_exist_ok + symlinks）
+shutil.copytree(RAG_DIR, rag_bak, dirs_exist_ok=True, symlinks=True)
+```
+
+```bash
+# 同时修复已存在的断链
+find /opt/data/rag_index -type l ! -exec test -e {} \; -print 2>/dev/null
+# 逐个删除断链（确认是broken symlink后）
+rm "/opt/data/rag_index/brain/trigger_config.md"
+```
+
+## 手动重新执行备份（修复后）
+
+```python
+import shutil, json, os
+from datetime import datetime
+
+BACKUP_DIR = "/volume2/数据备份/memory_backup"
+MEMORY_SRC = "/opt/data/memories/MEMORY.md"
+RAG_DIR = "/opt/data/rag_index"
+PROTECTED_SRC = "/opt/data/memories/protected_archive.json"
+
+date = datetime.now().strftime("%Y-%m-%d")
+os.makedirs(BACKUP_DIR, exist_ok=True)
+
+# 备份 MEMORY.md
+mem_bak = f"{BACKUP_DIR}/MEMORY_{date}.md"
+shutil.copy2(MEMORY_SRC, mem_bak)
+
+# 备份 RAG（关键：dirs_exist_ok=True, symlinks=True）
+rag_bak = f"{BACKUP_DIR}/rag_index_{date}"
+if os.path.exists(rag_bak):
+    shutil.rmtree(rag_bak)
+shutil.copytree(RAG_DIR, rag_bak, dirs_exist_ok=True, symlinks=True)
+
+# 备份 protected_archive
+prot_bak = f"{BACKUP_DIR}/protected_archive_{date}.json"
+if os.path.exists(PROTECTED_SRC):
+    shutil.copy2(PROTECTED_SRC, prot_bak)
+
+# 写入 manifest
+manifest = f"{BACKUP_DIR}/manifest.json"
+manifest_data = {
+    "date": date,
+    "memory_backup": f"MEMORY_{date}.md",
+    "rag_backup": f"rag_index_{date}",
+    "protected_backup": f"protected_archive_{date}.json" if os.path.exists(PROTECTED_SRC) else None,
+}
+with open(manifest, 'w') as f:
+    json.dump(manifest_data, f, ensure_ascii=False, indent=2)
+
+# 清理30天前旧备份
+import glob, time
+cutoff = time.time() - 30 * 86400
+cleaned = 0
+for bak in glob.glob(f"{BACKUP_DIR}/*"):
+    if os.path.getmtime(bak) < cutoff:
+        if os.path.isfile(bak):
+            os.remove(bak)
+        else:
+            shutil.rmtree(bak)
+        cleaned += 1
+
+print(f"✅ 备份完成: {date}")
+print(f"   MEMORY: {mem_bak} ({os.path.getsize(mem_bak)} bytes)")
+print(f"   RAG: {rag_bak}/")
+print(f"   清理旧备份: {cleaned} 个")
+```
+
+## 验证清单
+
+| 检查项 | 命令 | 预期结果 |
+|--------|------|---------|
+| MEMORY.md 大小 | `wc -c /opt/data/memories/MEMORY.md` | > 1000 bytes |
+| manifest 日期 | `cat /volume2/数据备份/memory_backup/manifest.json` | 今天日期 |
+| 今日 MEMORY 备份 | `ls -lt /volume2/数据备份/memory_backup/ | grep "MEMORY_$(date +%Y-%m-%d)"` | 有文件且 > 1KB |
+| 今日 RAG 备份 | `du -sh /volume2/数据备份/memory_backup/rag_index_$(date +%Y-%m-%d)/` | 有内容 |
+| RAG 断链 | `find /opt/data/rag_index -type l ! -exec test -e {} \; -print` | 无输出 |
+
+## 已知 RAG 断链来源
+
+- `/opt/data/rag_index/brain/trigger_config.md` → `/opt/data/brain/trigger_config.md`（已删除，/opt/data/brain/ 下无此文件）
+- 发现新断链时：确认目标文件是否存在，如不存在则删除 symlink

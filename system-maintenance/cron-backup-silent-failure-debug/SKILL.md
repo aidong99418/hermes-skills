@@ -1,1 +1,62 @@
-LS0tCm5hbWU6IGNyb24tYmFja3VwLXNpbGVudC1mYWlsdXJlLWRlYnVnCmRlc2NyaXB0aW9uOiDor4rmlq1jcm9u5aSH5Lu95Lu75Yqh6Z2Z6buY5aSx6LSl4oCU4oCUam9i5pi+56S66L+Q6KGM5L2G5aSH5Lu95paH5Lu25pyq55Sf5oiQ77yM5qCH5YeG6L6T5Ye65Li656m644CC6Kem5Y+R77yabWFuaWZlc3Tml6XmnJ/mnKrmm7TmlrAv5aSH5Lu95paH5Lu257y65aSxL+i+k+WHuuaWh+S7tjRLQuepuuaWh+S7tuOAggp0cmlnZ2VyczogWyLmgaLlpI0iLCAi6LCD6K+VIiwgIuWumuaXtiIsICLplJnor68iLCAiYnVnIiwgImNyb24iLCAi6LCD5bqmIiwgIuWkh+S7vSJdCnRyaWdnZXI6IGNyb24gYmFja3VwIGZhaWxlZCBzaWxlbnRseSAvIOWkh+S7veacqueUn+aIkOS9hmNyb27mmL7npLrov5DooYwKdGFnczogW2Nyb24sIGJhY2t1cCwgZGVidWddCnZlcnNpb246IDEuMApjcmVhdGVkOiAyMDI2LTA2LTA1Ci0tLQoKIyBDcm9u5aSH5Lu96Z2Z6buY5aSx6LSl6K+K5pat5rWB56iLCgojIyDnl4fnirYKLSBjcm9uIGpvYiBgbGFzdF9ydW5fYXRgIOW3suabtOaWsO+8jOS9huWkh+S7veaWh+S7tuacqueUn+aIkAotIG1hbmlmZXN0Lmpzb24gbXRpbWUg5YGc5Zyo5pen5pel5pyfCi0g6L6T5Ye65paH5Lu25aSn5bCPIDQwOTYg5a2X6IqC77yI5Yeg5LmO5Li656m6ID0g6ISa5pys5pegcHJpbnTovpPlh7rvvIkKLSDlpIfku73ohJrmnKzmiafooYzkuobvvIzkvYbpnZnpu5jkuK3mlq0KCiMjIOiviuaWreS4ieadv+aWpwoKIyMjIDEuIOS6pOWPiemqjOivgeaXtumXtOe6vwpgYGBweXRob24KaW1wb3J0IG9zCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgojIG1hbmlmZXN0IG10aW1lCm1mX210aW1lID0gb3MucGF0aC5nZXRtdGltZSgnL3ZvbHVtZTIv5pWw5o2u5aSH5Lu9L21lbW9yeV9iYWNrdXAvbWFuaWZlc3QuanNvbicpCnByaW50KGYibWFuaWZlc3Q6IHtkYXRldGltZS5mcm9tdGltZXN0YW1wKG1mX210aW1lKS5zdHJmdGltZSgnJVktJW0tJWQgJUg6JU0nKX0iKQoKIyDlpIfku73mlofku7bmmK/lkKblrZjlnKgKZGF0ZSA9ICIyMDI2LTA2LTA0IgptZW1fYmFrID0gZiIvdm9sdW1lMi/mlbDmja7lpIfku70vbWVtb3J5X2JhY2t1cC9NRU1PUllfe2RhdGV9Lm1kIgpwcmludChmIk1FTU9SWSBiYWNrdXAgZXhpc3RzOiB7b3MucGF0aC5leGlzdHMobWVtX2Jhayl9IikKCiMgY3JvbiBqb2Igb3V0cHV0IG10aW1lICAKam9iX2lkID0gJ2JjOThhNjI2YWUxYycKb3V0X210aW1lID0gb3MucGF0aC5nZXRtdGltZShmJy9vcHQvZGF0YS9jcm9uL291dHB1dC97am9iX2lkfScpCm91dF9zaXplID0gb3MucGF0aC5nZXRzaXplKGYnL29wdC9kYXRhL2Nyb24vb3V0cHV0L3tqb2JfaWR9JykKcHJpbnQoZiJPdXRwdXQ6IHtkYXRldGltZS5mcm9tdGltZXN0YW1wKG91dF9tdGltZSl9IC0ge291dF9zaXplfSBieXRlcyIpCmBgYAoKIyMjIDIuIOajgOafpei+k+WHuuaWh+S7tuWGheWuuQotIDQwOTblrZfoioLnqbrovpPlh7ogPSDohJrmnKzmjZXojrfkuoblvILluLjkvYbmsqFwcmludAotIDDlrZfoioIgPSDohJrmnKzmoLnmnKzmsqHov5DooYzliLAKLSDmraPluLjovpPlh7rlupTmnIkgYOKchSDlpIfku73lrozmiJBgIOWtl+agtwoKIyMjIDMuIOebtOaOpei/kOihjOiEmuacrOmqjOivgQpgYGBiYXNoCnB5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvbWVtb3J5X2JhY2t1cC5weQpgYGAK55yL5piv5ZCm5pyJ5oql6ZSZ77yM5piv5ZCm55Sf5oiQ5LqG5paH5Lu244CCCgojIyDmoLnlm6DmqKHlvI8KMS4gYHNodXRpbC5jb3B5MmAg5rqQ5paH5Lu25LiN5a2Y5Zyo77yI6Lev5b6E6ZSZ6K+v77yJ4oaSIOebtOaOpei3s+i/h++8jOaXoOaKpemUmQoyLiDohJrmnKzlnKhQeXRob27omZrmi5/njq/looPlpJbmiafooYzvvIxpbXBvcnTlpLHotKUg4oaSIOmdmem7mOmAgOWHugozLiDmnYPpmZDpl67popgg4oaSIOmdmem7mOmAgOWHugo0LiBDcm9u6Kem5Y+R5L2G5a6e6ZmF5omn6KGM55qE5piv5pen54mI5pys6ISa5pys77yIcHJvbXB0c+ayoeabtOaWsO+8iQoKIyMg5L+u5aSN5pa55ZCRCi0g6ISa5pys5byA5aS05YqgdmVudui3r+W+hOaIlueUqOato+ehrnNoZWJhbmcKLSDmiYDmnInmlofku7bmk43kvZzliqB0cnkvZXhjZXB05bm2cHJpbnTplJnor68KLSDlpIfku73liY3lkI7lr7nmr5Tmlofku7bmlbDph48v5aSn5bCP77yM5LiN5Yy56YWN5YiZ5oql6K2mCg==
+---
+name: cron-backup-silent-failure-debug
+description: 诊断cron备份任务静默失败——job显示运行但备份文件未生成，标准输出为空。触发：manifest日期未更新/备份文件缺失/输出文件4KB空文件。
+triggers: ["恢复", "调试", "定时", "错误", "bug", "cron", "调度", "备份"]
+trigger: cron backup failed silently / 备份未生成但cron显示运行
+tags: [cron, backup, debug]
+version: 1.0
+created: 2026-06-05
+---
+
+# Cron备份静默失败诊断流程
+
+## 症状
+- cron job `last_run_at` 已更新，但备份文件未生成
+- manifest.json mtime 停在旧日期
+- 输出文件大小 4096 字节（几乎为空 = 脚本无print输出）
+- 备份脚本执行了，但静默中断
+
+## 诊断三板斧
+
+### 1. 交叉验证时间线
+```python
+import os
+from datetime import datetime
+
+# manifest mtime
+mf_mtime = os.path.getmtime('/volume2/数据备份/memory_backup/manifest.json')
+print(f"manifest: {datetime.fromtimestamp(mf_mtime).strftime('%Y-%m-%d %H:%M')}")
+
+# 备份文件是否存在
+date = "2026-06-04"
+mem_bak = f"/volume2/数据备份/memory_backup/MEMORY_{date}.md"
+print(f"MEMORY backup exists: {os.path.exists(mem_bak)}")
+
+# cron job output mtime  
+job_id = 'bc98a626ae1c'
+out_mtime = os.path.getmtime(f'/opt/data/cron/output/{job_id}')
+out_size = os.path.getsize(f'/opt/data/cron/output/{job_id}')
+print(f"Output: {datetime.fromtimestamp(out_mtime)} - {out_size} bytes")
+```
+
+### 2. 检查输出文件内容
+- 4096字节空输出 = 脚本捕获了异常但没print
+- 0字节 = 脚本根本没运行到
+- 正常输出应有 `✅ 备份完成` 字样
+
+### 3. 直接运行脚本验证
+```bash
+python3 /opt/data/scripts/memory_backup.py
+```
+看是否有报错，是否生成了文件。
+
+## 根因模式
+1. `shutil.copy2` 源文件不存在（路径错误）→ 直接跳过，无报错
+2. 脚本在Python虚拟环境外执行，import失败 → 静默退出
+3. 权限问题 → 静默退出
+4. Cron触发但实际执行的是旧版本脚本（prompts没更新）
+
+## 修复方向
+- 脚本开头加venv路径或用正确shebang
+- 所有文件操作加try/except并print错误
+- 备份前后对比文件数量/大小，不匹配则报警

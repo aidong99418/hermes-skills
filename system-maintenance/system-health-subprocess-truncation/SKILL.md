@@ -1,1 +1,45 @@
-LS0tCm5hbWU6IHN5c3RlbS1oZWFsdGgtc3VicHJvY2Vzcy10cnVuY2F0aW9uCmRlc2NyaXB0aW9uOiBzeXN0ZW1faGVhbHRoLnB5IHN1YnByb2Nlc3PohJrmnKzpgJrov4ctY+WPguaVsOS8oOmAkuWkp0pTT07ov5Tlm57lgLzml7booqvlkb3ku6TooYzmiKrmlq3vvIzlr7zoh7TmiYDmnInlmajlrpjooqvor6/liKTkuLpjcml0aWNhbOOAgueXh+eKtuS4juagueWboOWujOWFqOS4jeWQjO+8jOW/hemhu+mAmui/h0pTT07ovpPlh7rop6PmnpDmiY3og73lrprkvY3jgILkv67lpI3vvJrmlLnnlKh0ZW1wZmlsZeS8oOmAkuiEmuacrOOAggp0cmlnZ2VyczogWyLlgaXlurciLCAi6K+K5patIiwgIuaetuaehCIsICLns7vnu58iLCAi5qOA5p+lIl0KdGFnczogW2RlYnVnLCBzdWJwcm9jZXNzLCBzeXN0ZW0taGVhbHRoLCBvcmdhbiwgaGVhbHRoLWNoZWNrLCBjb21tYW5kLWxpbmVdCm93bmVyOiBoZXJtZXMKY3JlYXRlZDogMjAyNi0wNi0wNgp1cGRhdGVkOiAyMDI2LTA2LTA2CnZlcnNpb246IDEuMAotLS0KCiMgc3lzdGVtX2hlYWx0aC5weSBzdWJwcm9jZXNzIOaIquaWrSBCdWcg6K+K5pat5LiO5L+u5aSNCgojIyDpl67popjnl4fnirYKCui/kOihjCBgL29wdC9oZXJtZXMvLnZlbnYvYmluL3B5dGhvbjMgL29wdC9kYXRhL2JyYWluL29yZ2Fucy9zeXN0ZW1faGVhbHRoLnB5YCDml7bvvJoKLSDmiYDmnInlmajlrpjvvIgxM+S4qu+8ieaYvuekuiBg4p2MIGNyaXRpY2FsYAotIOWBpeW6t+W6piBgMCVgCi0g5L2G55u05o6lIGltcG9ydCDlmajlrpjmtYvor5UgYGhlYWx0aF9jaGVjaygpYCDlhajpg6jov5Tlm54gYGhlYWx0aHk9VHJ1ZWAKCiMjIOagueWboAoKYF9nZXRfb3JnYW5faGVhbHRoX3N1YnByb2Nlc3NgIOeUqCBgLWNgIOWPguaVsOS8oOmAkuiEmuacrO+8jOW9k+WZqOWumOi/lOWbnuWkp0pTT07vvIjkuK3mlocrZW5zdXJlX2FzY2lpPUZhbHNl77yJ5pe277yMZi1zdHJpbmfmj5LlgLzlkI7otoXns7vnu59BUkdfTUFY6ZmQ5Yi2IOKGkiDlkb3ku6TooYzooqvmiKrmlq0g4oaSIGBfanNvbi5kdW1wcyhyZXNg5oiq5pat5oiQ5peg5pWI5Luj56CBIOKGkiBzdWJwcm9jZXNz6Kej5p6Q5aSx6LSlIOKGkiDmiYDmnInlmajlrpjooqvliKRgY3JpdGljYWxg44CCCgoqKueJueW+gSoq77ya55eH54q277yI5YWo6YOoY3JpdGljYWzvvInkuI7moLnlm6DvvIjlkb3ku6TooYzmiKrmlq3vvInlrozlhajkuI3lkIzjgIIKCiMjIOWumuS9jeaWueazlQoKMS4g6L+Q6KGMIGBweXRob24zIGJyYWluL29yZ2Fucy9zeXN0ZW1faGVhbHRoLnB5IC0tanNvbmAg6I635Y+W5Y6f5aeL6L6T5Ye6CjIuIOajgOafpSBgIm5vdGUiYCDlrZfmrrXlhoXlrrkKMy4g5aaC5p6c55yL5YiwIGAi5omn6KGM5aSx6LSlOiBUcmFjZWJhY2suLi4gX2pzb24uZHVtcHMocmVzImAg4oaSIOWRveS7pOihjOaIquaWrQo0LiDlr7nmr5TvvJrnm7TmjqVpbXBvcnTlmajlrpjmtYvor5VoZWFsdGhfY2hlY2soKSDihpIg5YWo6YOo5q2j5bi4CgojIyDkv67lpI3mlrnmoYgKCueUqCB0ZW1wZmlsZSDmm7/ku6MgYC1jYCDlj4LmlbDvvIjlrozmlbTku6PnoIHop4Egc3lzdGVtX2hlYWx0aC5weSBfZ2V0X29yZ2FuX2hlYWx0aF9zdWJwcm9jZXNzIOWHveaVsO+8jDIwMjYtMDYtMDblt7Lkv67lpI3vvInjgIIKCuaguOW/g+WOn+WIme+8mnN1YnByb2Nlc3PohJrmnKzkvKDpgJLlhoXlrrnotoU1MEtC5oiW5ZCr5Lit5paH5pe277yMKirmsLjov5znlKh0ZW1wZmlsZeiAjOmdni1j5Y+C5pWwKirjgIIKCiMjIOmqjOivgQoKYGBgYmFzaAovb3B0L2hlcm1lcy8udmVudi9iaW4vcHl0aG9uMyAvb3B0L2RhdGEvYnJhaW4vb3JnYW5zL3N5c3RlbV9oZWFsdGgucHkKIyDlupTovpPlh7rvvJrmlbTkvZPlgaXlurfluqY6IDEwMCUgW2xvd13vvIwxM+S4quWZqOWumOWFqOmDqCDinIUKYGBgCg==
+---
+name: system-health-subprocess-truncation
+description: system_health.py subprocess脚本通过-c参数传递大JSON返回值时被命令行截断，导致所有器官被误判为critical。症状与根因完全不同，必须通过JSON输出解析才能定位。修复：改用tempfile传递脚本。
+triggers: ["健康", "诊断", "架构", "系统", "检查"]
+tags: [debug, subprocess, system-health, organ, health-check, command-line]
+owner: hermes
+created: 2026-06-06
+updated: 2026-06-06
+version: 1.0
+---
+
+# system_health.py subprocess 截断 Bug 诊断与修复
+
+## 问题症状
+
+运行 `/opt/hermes/.venv/bin/python3 /opt/data/brain/organs/system_health.py` 时：
+- 所有器官（13个）显示 `❌ critical`
+- 健康度 `0%`
+- 但直接 import 器官测试 `health_check()` 全部返回 `healthy=True`
+
+## 根因
+
+`_get_organ_health_subprocess` 用 `-c` 参数传递脚本，当器官返回大JSON（中文+ensure_ascii=False）时，f-string插值后超系统ARG_MAX限制 → 命令行被截断 → `_json.dumps(res`截断成无效代码 → subprocess解析失败 → 所有器官被判`critical`。
+
+**特征**：症状（全部critical）与根因（命令行截断）完全不同。
+
+## 定位方法
+
+1. 运行 `python3 brain/organs/system_health.py --json` 获取原始输出
+2. 检查 `"note"` 字段内容
+3. 如果看到 `"执行失败: Traceback... _json.dumps(res"` → 命令行截断
+4. 对比：直接import器官测试health_check() → 全部正常
+
+## 修复方案
+
+用 tempfile 替代 `-c` 参数（完整代码见 system_health.py _get_organ_health_subprocess 函数，2026-06-06已修复）。
+
+核心原则：subprocess脚本传递内容超50KB或含中文时，**永远用tempfile而非-c参数**。
+
+## 验证
+
+```bash
+/opt/hermes/.venv/bin/python3 /opt/data/brain/organs/system_health.py
+# 应输出：整体健康度: 100% [low]，13个器官全部 ✅
+```

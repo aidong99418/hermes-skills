@@ -1,1 +1,171 @@
-LS0tCm5hbWU6IHdpc2Vtb2RlbC10aW1lb3V0LWF1dG8tcmVjb3ZlcgpkZXNjcmlwdGlvbjogd2lzZW1vZGVs5aSn5LiK5LiL5paHSFRUUCA0MDDkv67lpI3lhajpm4Yg4oCUIOKRoOa1gei2heaXtuS4u+WKqOmZjee6pyg1NXMp4pGh6K+G5YirdW5leHBlY3RlZCBlbmQgb2YgZGF0YeWPi+WlveaPkOekuiDikaJmYWxsYmFja+mTvuato+ehrumFjee9ruOAguinpuWPke+8mndpc2Vtb2RlbCA0MDAvdW5leHBlY3RlZCBlbmQgb2YgZGF0YeOAggp0YWdzOiBbd2lzZW1vZGVsLCB0aW1lb3V0LCA0MDAtZXJyb3IsIGF1dG8tcmVjb3Zlciwgc3RyZWFtLXJlYWQtdGltZW91dF0Kb3duZXI6IGhlcm1lcwpjcmVhdGVkOiAyMDI2LTA2LTA1CnVwZGF0ZWQ6IDIwMjYtMTAKdmVyc2lvbjogNC4wCi0tLQoKKirpqozor4HmlZnorq3vvIgwNi0wOSswNi0xMOS4pOi9ruihgOazqu+8iSoq77yac2tpbGzmlofmoaPor7Qi5bey6YOo572yIuS4jeetieS6juS7o+eggemHjOecn+eahOacieOAguavj+asoeW/hemhu2dyZXDlrp7pmYXpqozor4HjgIIK5pys6L2u5paw5Y+R546w77ya5pa55qGIQS9C5piv5Luj56CB5bGC77yMKirmlrnmoYhD5piv6YWN572u5bGCKirvvIzkuInlsYLnvLrkuIDkuI3lj6/jgIIKCioq8J+UpSBOQVPlrrnlmajng63ph43ovb3lpLHmlYjmlZnorq3vvIgwNi0xMO+8iSoq77yaCi0gYGtpbGwgLVNJR1VTUjEgUElEYCDlr7lhc3luYyBQeXRob27ku6PnoIHkuI3nlJ/mlYjvvIxnYXRld2F56L+b56iL5Lya5bSp5rqDCi0gKirmraPnoa7lgZrms5UqKu+8muS/ruaUueS7o+eggeWQjueUqCBga2lsbCAtU0lHVEVSTSAxYCDop6blj5Hlrrnlmajoh6rmhIjph43lkK8KLSDov5nmmK9QSUQgMeWuueWZqOeOr+Wig+eahOeJueaAp++8jOS4jeaYr2dhdGV3YXnku6PnoIHpl67popgKLSDlrrnlmajph43lkK/lkI7mlrDov5vnqIvoh6rliqjliqDovb3mlrDku6PnoIHvvIznirbmgIHmlofku7YgYHByb3ZpZGVyX2hlYWx0aC5qc29uYCDkuI3kuKLlpLEKCiMjIOKaoO+4jyDph43opoHliY3mj5DvvIgyMDI2LTA2LTEyIOmqjOivgeaVmeiure+8iQoKKipza2lsbOivtCLlt7Lpg6jnvbIi5LiN562J5LqO5Luj56CB6YeM55yf55qE5pyJ77yB5b+F6aG7Z3JlcOWunumZhemqjOivgeOAgioqCgrmnKxza2lsbOS4reagh+iusOS4uiLinIXlt7Lpg6jnvbIi55qE5pa55qGI77yM5Z2H5bey6YCa6L+H5Lul5LiL5ZG95Luk5a6e6ZmF6aqM6K+B77yaCmBgYGJhc2gKZ3JlcCAtbiAid2lzZW1vZGVsLio1NVx8b3NwcmV5YWkuKjU1XHw1NS4qd2lzZW1vZGVsXHw1NS4qb3NwcmV5YWkiIC9vcHQvaGVybWVzL3J1bl9hZ2VudC5weQpncmVwICJ1bmV4cGVjdGVkIGVuZCBvZiBkYXRhIiAvb3B0L2hlcm1lcy9nYXRld2F5L3J1bi5weQpncmVwICJQcm92aWRlckhlYWx0aE1hbmFnZXJcfHByb3ZpZGVyX2hlYWx0aCIgL29wdC9oZXJtZXMvZ2F0ZXdheS9ydW4ucHkKYGBgCgoqKuW9k+WJjemqjOivgee7k+aenO+8iDIwMjYtMDYtMTLvvIkqKu+8mgotIOaWueahiEEgd2lzZW1vZGVsIDcwc+i2heaXtu+8muKchSDlrp7pmYXlrZjlnKjvvIjnrKw1Mzk56KGM77yMNzBz6Z2eNTVz77yJCi0g5pa55qGIQiA0MDDlj4vlpb3mj5DnpLrvvJrinIUg5a6e6ZmF5a2Y5Zyo77yI56ysNDM0NOihjO+8iQotIOaWueahiEMgSGVhbHRoIE1hbmFnZXLvvJrinYwg5LiN5a2Y5Zyo77yIZ3JlcOaJvuS4jeWIsO+8iQoKLS0tCgojIyDkv67lpI3mlrnmoYjvvIjkuInlsYLvvIznvLrkuIDkuI3lj6/vvIkKCiMjIyDmlrnmoYhB77ya5rWB6LaF5pe25Li75Yqo6ZmN57qn77yI5Luj56CB5bGC77yJCgoqKuaWh+S7tioq77yaYC9vcHQvaGVybWVzL3J1bl9hZ2VudC5weWAgfjUzOTDooYwKCndpc2Vtb2RlbOacjeWKoeerrzYw56eS5oiq5patIOKGkiDlrqLmiLfnq6/kuLvliqjlnKg1NeenkuWFs+mXrei/nuaOpSDihpIgd2lzZW1vZGVs5LiN6ZyA5by65Yi2a2lsbCDihpIg5pegNDAw6ZSZ6K+v44CCCgpgYGBweXRob24KIyBXaXNlbW9kZWwv5aeL5pm6QUkgaGFzIH42MHMgc2VydmVyLXNpZGUgc3RyZWFtaW5nIHRpbWVvdXQuCiMgQ2FwIGNsaWVudC1zaWRlIHJlYWQgdGltZW91dCBzbyBodHRweCBjbG9zZXMgdGhlIGNvbm5lY3Rpb24KIyBjbGVhbmx5IGJlZm9yZSB3aXNlbW9kZWwga2lsbHMgaXQsIGF2b2lkaW5nIDQwMCAidW5leHBlY3RlZAojIGVuZCBvZiBkYXRhIiBvbiBsYXJnZSBjb250ZXh0cy4KaWYgKAogICAgX3N0cmVhbV9yZWFkX3RpbWVvdXQgPj0gMTIwLjAKICAgIGFuZCBzZWxmLmJhc2VfdXJsCiAgICBhbmQgKCJ3aXNlbW9kZWwiIGluIHNlbGYuYmFzZV91cmwubG93ZXIoKSBvciAib3NwcmV5YWkiIGluIHNlbGYuYmFzZV91cmwubG93ZXIoKSkKKToKICAgIF9zdHJlYW1fcmVhZF90aW1lb3V0ID0gNTUuMAogICAgbG9nZ2VyLmRlYnVnKAogICAgICAgICJXaXNlbW9kZWwgZGV0ZWN0ZWQgKCVzKSDigJQgc3RyZWFtIHJlYWQgdGltZW91dCBjYXBwZWQgdG8gNTVzIiwKICAgICAgICBzZWxmLmJhc2VfdXJsLAogICAgKQpgYGAKCiMjIyDmlrnmoYhC77yaNDAw5Y+L5aW95o+Q56S677yI5Luj56CB5bGC77yJCgoqKuaWh+S7tioq77yaYC9vcHQvaGVybWVzL2dhdGV3YXkvcnVuLnB5YCDnrKw0MzQ06KGMCgoidW5leHBlY3RlZCBlbmQgb2YgZGF0YSIg6ZSZ6K+vIOKGkiDor4bliKvkuLrkuIrkuIvmlofnsbvlpLHotKUg4oaSIOeUqOaIt+eci+WIsCJTZXNzaW9uIHRvbyBsYXJnZSwgdXNlIC9jb21wYWN0IG9yIC9yZXNldCLjgIIKCmBgYHB5dGhvbgpfaXNfY3R4X2ZhaWwgPSBhbnkocCBpbiBlcnJvcl9zdHIgZm9yIHAgaW4gKAogICAgImNvbnRleHQiLCAidG9rZW4iLCAidG9vIGxhcmdlIiwgInRvbyBsb25nIiwKICAgICJleGNlZWQiLCAicGF5bG9hZCIsCiAgICAidW5leHBlY3RlZCBlbmQgb2YgZGF0YSIsICAjIHdpc2Vtb2RlbOacjeWKoeerrzYwc+aIquaWreWTjeW6lCDihpAgMjAyNi0wNi0wOeihpea8jwopKSBvciAoCiAgICAiNDAwIiBpbiBlcnJvcl9zdHIKICAgIGFuZCBsZW4oaGlzdG9yeSkgPiA1MAopCmBgYAoKIyMjIOaWueahiEPvvJpIZWFsdGggTWFuYWdlcu+8iOW+hemDqOe9siDimqDvuI/vvIkKCioq4pqg77iPIOmHjeimgeS/ruato++8iDIwMjYtMDYtMTLvvIkqKu+8mnNraWxs5LmL5YmN5aOw56ewIuW3suWGmeWFpXJ1bi5weeeahEhlYWx0aCBNYW5hZ2VyIuaYr+mUmeivr+eahOKAlOKAlGdyZXAgYFByb3ZpZGVySGVhbHRoTWFuYWdlcmDmib7kuI3liLDku7vkvZXnu5PmnpzjgIIKLSBgZmFsbGJhY2tfcHJvdmlkZXJzYOmHjCoq57ud5a+55LiN6IO95pS+bWluaW1heC1jbioq77yMR2F0ZXdheeWGhemDqOWkhOeQhmZhbGxiYWNr6ZO+5pe25Lya5q276ZSB77yI5bey6aqM6K+B77yJCi0g5b2T5YmN5a6e6ZmF6YWN572u77yaYGZhbGxiYWNrX3Byb3ZpZGVyczogW29sbGFtYSBxd2VuMi41OjNiXWAKLSBtaW5pbWF4LWNu55qEYC92MWDnq6/ngrnlt7Lnoa7orqTlj6/nlKjvvIzkvYblj6rog73pgJrov4dPbmVBUEnmiJbnm7Tov57vvIzkuI3og73otbBHYXRld2F5IGZhbGxiYWNr5py65Yi2CgoqKuW3suWGmeWFpXJ1bi5weeeahEhlYWx0aCBNYW5hZ2VyKirvvIjkuInlsYLmnLrliLbvvInvvJoKMS4gKirpmY3nuqcqKu+8mndpc2Vtb2RlbOi/nue7rTPmrKHotoUv5aSx6LSlIOKGkiDoh6rliqjpmY3nuqfliLBvbGxhbWHvvIjnu5XlvIBHYXRld2F5IGZhbGxiYWNr6ZO+77yJCjIuICoq5Ya35Y20KirvvJrpmY3nuqflkI4zMDDnp5LlhrfljbTmnJ/vvIzkuI3lsJ3or5V3aXNlbW9kZWwKMy4gKirmgaLlpI0qKu+8muWGt+WNtOacn+WQjkhBTEZfT1BFTu+8jOi/nue7rTPmrKHmiJDlip8g4oaSIOaBouWkjXdpc2Vtb2RlbAoKKirku6PnoIHkvY3nva4qKu+8mmAvb3B0L2hlcm1lcy9nYXRld2F5L3J1bi5weWAg56ysMzI2LTUyNeihjO+8iFByb3ZpZGVySGVhbHRoTWFuYWdlcuexu++8iQoKKirmjIHkuYXljJYqKu+8mmAvb3B0L2RhdGEvc3RhdGUvcHJvdmlkZXJfaGVhbHRoLmpzb25g77yMR2F0ZXdheemHjeWQr+S4jeS4oueKtuaAgQoKKirlvZPliY3nirbmgIEqKu+8iDIwMjYtMDYtMTLlrp7mtYvvvInvvJoKLSB3aXNlbW9kZWwgNzBz6LaF5pe277ya4pyFIOWtmOWcqOS6jnJ1bl9hZ2VudC5weeesrDUzOTnooYzvvIjms6jmhI/mmK83MHPkuI3mmK81NXPvvIkKLSA0MDDlj4vlpb3mj5DnpLrvvJrinIUg5a2Y5Zyo5LqOcnVuLnB556ysNDM0NOihjAotIEhlYWx0aCBNYW5hZ2Vy77ya4p2MIGdyZXDmib7kuI3liLDvvIwqKuagueacrOayoeWGmei/m3J1bi5weSoqCi0gcHJvdmlkZXJfaGVhbHRoLmpzb27nirbmgIHmlofku7blrZjlnKjkvYbkuLrnqbrnu5PmnoTvvJpgeyd3aXNlbW9kZWwnOiB7J3N0YXRlJzogJ0NMT1NFRCcsICdmYWlsdXJlX2NvdW50JzogMH19YAoKKirimqDvuI8g5qC55Zug5Y+R546w77yIMjAyNi0wNi0xMu+8iSoq77yad2lzZW1vZGVsIGF1eGlsaWFyeV9jbGllbnTmlq3pk77nmoTnnJ/mraPljp/lm6DkuI3mmK9IZWFsdGggTWFuYWdlcue8uuWkse+8jOiAjOaYr2F1eGlsaWFyeV9jbGllbnQucHnnmoTop6PmnpDpobrluo/igJTigJRgX3Jlc29sdmVfYXBpX2tleV9wcm92aWRlcmDlnKhgX2dldF9uYW1lZF9jdXN0b21fcHJvdmlkZXJg5LmL5YmN5omn6KGM77yM5a+86Ie0d2lzZW1vZGVsL3NpbGljb25mbG93L29sbGFtYei/m+S4jeS6hmNvbmZpZy55YW1s55qEcHJvdmlkZXJz5a2X5YW444CC6K+m6KeBc2tpbGw6IGB3aXNlbW9kZWwtYXV4aWxpYXJ5LWNsaWVudC1jaGFpbi1kZWJ1Z2DjgIIKCioqT25lQVBJ6ZW/5pyf5pa55qGIKirvvJpPbmVBUEnlt7Loo4XlnKhOQVPvvIh2MC42LjEx77yM56uv5Y+jMzAwMO+8ie+8jEdhdGV3YXnov55PbmVBUEnvvIznlLFPbmVBUEnlhoXpg6jlpITnkIZ3aXNlbW9kZWzihpRtaW5pbWF4LWNu55qEZmFpbG92ZXLvvIzlvbvlupXnu5XlvIBHYXRld2F555qEZmFsbGJhY2vpk77jgILlhbfkvZPphY3ms5Xop4Fza2lsbCBgb25lYXBpLWdhdGV3YXktbXVsdGktY2xvdWQtcm91dGluZ2DjgIIKd2lzZW1vZGVs5bSpIOKGkiBtaW5pbWF4LWNuKE0yLjcpIOKGkiBvbGxhbWEocXdlbjIuNTozYuWFnOW6lSkKYGBgCgoqKumqjOivgeWRveS7pCoq77yaCmBgYGJhc2gKcHl0aG9uMyAtYyAiCmltcG9ydCB5YW1sCmNmZyA9IHlhbWwuc2FmZV9sb2FkKG9wZW4oJy9vcHQvZGF0YS9jb25maWcueWFtbCcpKQpmYiA9IGNmZy5nZXQoJ2ZhbGxiYWNrX3Byb3ZpZGVycycsIFtdKQpmb3IgaSwgZiBpbiBlbnVtZXJhdGUoZmIpOgogICAgcCA9IGYuZ2V0KCdwcm92aWRlcicsICcnKQogICAgbSA9IGYuZ2V0KCdtb2RlbCcsICcnKQogICAgcHJpbnQoZicgIFt7aSsxfV0ge3B9IC8ge219JykKICAgIGlmIHAgPT0gJ3dpc2Vtb2RlbCc6CiAgICAgICAgcHJpbnQoJyAg4pqg77iPIOWNsemZqe+8mndpc2Vtb2RlbOS9nOS4umZhbGxiYWNr56ys5LiA6aG65L2N5peg5pWI77yBJykKIgpgYGAKCiMjIOimhuebluWcuuaZrwoKfCDlnLrmma8gfCDlpITnkIYgfCDnirbmgIEgfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18Cnwgd2lzZW1vZGVsIDYw56eS6LaF5pe2IHwg5pa55qGIQe+8mjU1c+S4u+WKqOaUtue9kSB8IOKchSDlt7Lpg6jnvbIgfAp8IDQwMCB1bmV4cGVjdGVkIGVuZCBvZiBkYXRhIHwg5pa55qGIQu+8muWPi+WlveaPkOekuiB8IOKchSDlt7Lpg6jnvbIgfAp8IHdpc2Vtb2RlbOi/nue7rTPmrKHlpLHotKUgfCDmlrnmoYhD77ya6ZmN57qn5Yiwb2xsYW1h77yISGVhbHRoIE1hbmFnZXLvvIkgfCDimqDvuI8g5b6F6YOo572yIHwKfCB3aXNlbW9kZWzmgaLlpI0gfCDmlrnmoYhD77yaSEFMRl9PUEVO4oaS6Ieq5Yqo5oGi5aSNIHwg4pqg77iPIOW+hemDqOe9siB8CnwgbWluaW1heC1jbiBmYWxsYmFjayB8IOKdjCDkuI3og73otbBHYXRld2F5IGZhbGxiYWNr6ZO+77yI5Lya5q276ZSB77yJIHwg4pqg77iPIOWPquiDveeUqE9uZUFQSSB8Cnwg5Y6L57yp6ICX5bC9IHwg6ZyAIC9jb21wYWN0IOaJi+WKqOS7i+WFpSB8IPCfk4sg5b6F5a6e546wIHwKCioq6aqM6K+B5q2l6aqk77yI5b+F6aG75a6e6ZmF6aqM6K+B77yM5LiN6IO95L+hc2tpbGzlo7Dnp7DvvIkqKu+8mgpgYGBiYXNoCiMgMS4g5qOA5p+l5pa55qGIQQpncmVwICJ3aXNlbW9kZWwuKjU1XHw1NS4qd2lzZW1vZGVsXHxvc3ByZXlhaS4qNTVcfDU1Lipvc3ByZXlhaSIgL29wdC9oZXJtZXMvcnVuX2FnZW50LnB5CgojIDIuIOajgOafpeaWueahiEIKZ3JlcCAtQTUgIl9pc19jdHhfZmFpbCIgL29wdC9oZXJtZXMvZ2F0ZXdheS9ydW4ucHkgfCBncmVwICJ1bmV4cGVjdGVkIGVuZCBvZiBkYXRhIgoKIyAzLiDmo4Dmn6XmlrnmoYhDIOKAlCBIZWFsdGggTWFuYWdlcuW3suWGmeWFpXJ1bi5weQpncmVwICJQcm92aWRlckhlYWx0aE1hbmFnZXJcfHByb3ZpZGVyX2hlYWx0aCIgL29wdC9oZXJtZXMvZ2F0ZXdheS9ydW4ucHkgfCBoZWFkIC01CgojIDQuIOajgOafpWZhbGxiYWNrX3Byb3ZpZGVyc++8iOS4jeiDveaciW1pbmltYXgtY27vvIHvvIkKcHl0aG9uMyAtYyAiCmltcG9ydCB5YW1sCmNmZyA9IHlhbWwuc2FmZV9sb2FkKG9wZW4oJy9vcHQvZGF0YS9jb25maWcueWFtbCcpKQpmYiA9IGNmZy5nZXQoJ2ZhbGxiYWNrX3Byb3ZpZGVycycsIFtdKQpwcmludChmJ0ZhbGxiYWNr6ZO+KHtsZW4oZmIpfeS4qik6JykKZm9yIGksIGYgaW4gZW51bWVyYXRlKGZiKToKICAgIHAgPSBmLmdldCgncHJvdmlkZXInLCAnJykKICAgIG0gPSBmLmdldCgnbW9kZWwnLCAnJykKICAgIG9rID0gJ+KchScgaWYgcCAhPSAnd2lzZW1vZGVsJyBlbHNlICfimqDvuI8g5Y2x6ZmpIScKICAgIHdhcm4gPSAn4pqg77iPIOatu+mUgSEnIGlmIHAgPT0gJ21pbmltYXgtY24nIGVsc2UgJycKICAgIHByaW50KGYnICBbe2krMX1dIHtva317d2Fybn0ge3B9IC8ge219JykKIgoKIyA1LiDmo4Dmn6Vwcm92aWRlcl9oZWFsdGguanNvbuaYr+WQpuWtmOWcqApscyAtbGEgL29wdC9kYXRhL3N0YXRlL3Byb3ZpZGVyX2hlYWx0aC5qc29uIDI+L2Rldi9udWxsICYmIGVjaG8gIuKchSBIZWFsdGggTWFuYWdlcueKtuaAgeaWh+S7tuWtmOWcqCIKCiMgNi4g6K+t5rOV5qOA5p+lCi9vcHQvaGVybWVzLy52ZW52L2Jpbi9weXRob24zIC1tIHB5X2NvbXBpbGUgL29wdC9oZXJtZXMvZ2F0ZXdheS9ydW4ucHkgJiYgZWNobyAi4pyFIHJ1bi5weeivreazlU9LIgpgYGAKCiMjIOWFs+mUruWPguaVsAoKLSBgSEVSTUVTX1NUUkVBTV9SRUFEX1RJTUVPVVRgIOeOr+Wig+WPmOmHj+m7mOiupDEyMOenku+8jHdpc2Vtb2RlbOWcuuaZr+S4i+S7o+eggeiHquWKqOmZjeS4ujU156eSCi0gd2lzZW1vZGVs5pyN5Yqh56uv6LaF5pe2IOKJiCA2MOenku+8jOWPljU156eS55WZNeenkue8k+WGsgotICoqbWluaW1heC1jbuerr+eCuSoq77yaYGh0dHBzOi8vYXBpLm1pbmltYXhpLmNvbS92MWDvvIjkuI3nlKhgb3Blbi5taW5pbWF4aS5jb21g77yM5ZCO6ICFRE5T5LiN6YCa77yJCi0gKipNMi435qih5Z6L5ZCNKirvvJpgTWluaU1heC1NMi43YO+8iOmdnmBtaW5pbWF4LW0yLjdg77yM5rOo5oSP5aSn5bCP5YaZ77yJCg==
+---
+name: wisemodel-timeout-auto-recover
+description: wisemodel大上下文HTTP 400修复全集 — ①流超时主动降级(55s)②识别unexpected end of data友好提示 ③fallback链正确配置。触发：wisemodel 400/unexpected end of data。
+tags: [wisemodel, timeout, 400-error, auto-recover, stream-read-timeout]
+owner: hermes
+created: 2026-06-05
+updated: 2026-10
+version: 4.0
+---
+
+**验证教训（06-09+06-10两轮血泪）**：skill文档说"已部署"不等于代码里真的有。每次必须grep实际验证。
+本轮新发现：方案A/B是代码层，**方案C是配置层**，三层缺一不可。
+
+**🔥 NAS容器热重载失效教训（06-10）**：
+- `kill -SIGUSR1 PID` 对async Python代码不生效，gateway进程会崩溃
+- **正确做法**：修改代码后用 `kill -SIGTERM 1` 触发容器自愈重启
+- 这是PID 1容器环境的特性，不是gateway代码问题
+- 容器重启后新进程自动加载新代码，状态文件 `provider_health.json` 不丢失
+
+## ⚠️ 重要前提（2026-06-12 验证教训）
+
+**skill说"已部署"不等于代码里真的有！必须grep实际验证。**
+
+本skill中标记为"✅已部署"的方案，均已通过以下命令实际验证：
+```bash
+grep -n "wisemodel.*55\|ospreyai.*55\|55.*wisemodel\|55.*ospreyai" /opt/hermes/run_agent.py
+grep "unexpected end of data" /opt/hermes/gateway/run.py
+grep "ProviderHealthManager\|provider_health" /opt/hermes/gateway/run.py
+```
+
+**当前验证结果（2026-06-12）**：
+- 方案A wisemodel 70s超时：✅ 实际存在（第5399行，70s非55s）
+- 方案B 400友好提示：✅ 实际存在（第4344行）
+- 方案C Health Manager：❌ 不存在（grep找不到）
+
+---
+
+## 修复方案（三层，缺一不可）
+
+### 方案A：流超时主动降级（代码层）
+
+**文件**：`/opt/hermes/run_agent.py` ~5390行
+
+wisemodel服务端60秒截断 → 客户端主动在55秒关闭连接 → wisemodel不需强制kill → 无400错误。
+
+```python
+# Wisemodel/始智AI has ~60s server-side streaming timeout.
+# Cap client-side read timeout so httpx closes the connection
+# cleanly before wisemodel kills it, avoiding 400 "unexpected
+# end of data" on large contexts.
+if (
+    _stream_read_timeout >= 120.0
+    and self.base_url
+    and ("wisemodel" in self.base_url.lower() or "ospreyai" in self.base_url.lower())
+):
+    _stream_read_timeout = 55.0
+    logger.debug(
+        "Wisemodel detected (%s) — stream read timeout capped to 55s",
+        self.base_url,
+    )
+```
+
+### 方案B：400友好提示（代码层）
+
+**文件**：`/opt/hermes/gateway/run.py` 第4344行
+
+"unexpected end of data" 错误 → 识别为上下文类失败 → 用户看到"Session too large, use /compact or /reset"。
+
+```python
+_is_ctx_fail = any(p in error_str for p in (
+    "context", "token", "too large", "too long",
+    "exceed", "payload",
+    "unexpected end of data",  # wisemodel服务端60s截断响应 ← 2026-06-09补漏
+)) or (
+    "400" in error_str
+    and len(history) > 50
+)
+```
+
+### 方案C：Health Manager（待部署 ⚠️）
+
+**⚠️ 重要修正（2026-06-12）**：skill之前声称"已写入run.py的Health Manager"是错误的——grep `ProviderHealthManager`找不到任何结果。
+- `fallback_providers`里**绝对不能放minimax-cn**，Gateway内部处理fallback链时会死锁（已验证）
+- 当前实际配置：`fallback_providers: [ollama qwen2.5:3b]`
+- minimax-cn的`/v1`端点已确认可用，但只能通过OneAPI或直连，不能走Gateway fallback机制
+
+**已写入run.py的Health Manager**（三层机制）：
+1. **降级**：wisemodel连续3次超/失败 → 自动降级到ollama（绕开Gateway fallback链）
+2. **冷却**：降级后300秒冷却期，不尝试wisemodel
+3. **恢复**：冷却期后HALF_OPEN，连续3次成功 → 恢复wisemodel
+
+**代码位置**：`/opt/hermes/gateway/run.py` 第326-525行（ProviderHealthManager类）
+
+**持久化**：`/opt/data/state/provider_health.json`，Gateway重启不丢状态
+
+**当前状态**（2026-06-12实测）：
+- wisemodel 70s超时：✅ 存在于run_agent.py第5399行（注意是70s不是55s）
+- 400友好提示：✅ 存在于run.py第4344行
+- Health Manager：❌ grep找不到，**根本没写进run.py**
+- provider_health.json状态文件存在但为空结构：`{'wisemodel': {'state': 'CLOSED', 'failure_count': 0}}`
+
+**⚠️ 根因发现（2026-06-12）**：wisemodel auxiliary_client断链的真正原因不是Health Manager缺失，而是auxiliary_client.py的解析顺序——`_resolve_api_key_provider`在`_get_named_custom_provider`之前执行，导致wisemodel/siliconflow/ollama进不了config.yaml的providers字典。详见skill: `wisemodel-auxiliary-client-chain-debug`。
+
+**OneAPI长期方案**：OneAPI已装在NAS（v0.6.11，端口3000），Gateway连OneAPI，由OneAPI内部处理wisemodel↔minimax-cn的failover，彻底绕开Gateway的fallback链。具体配法见skill `oneapi-gateway-multi-cloud-routing`。
+wisemodel崩 → minimax-cn(M2.7) → ollama(qwen2.5:3b兜底)
+```
+
+**验证命令**：
+```bash
+python3 -c "
+import yaml
+cfg = yaml.safe_load(open('/opt/data/config.yaml'))
+fb = cfg.get('fallback_providers', [])
+for i, f in enumerate(fb):
+    p = f.get('provider', '')
+    m = f.get('model', '')
+    print(f'  [{i+1}] {p} / {m}')
+    if p == 'wisemodel':
+        print('  ⚠️ 危险：wisemodel作为fallback第一顺位无效！')
+"
+```
+
+## 覆盖场景
+
+| 场景 | 处理 | 状态 |
+|------|------|------|
+| wisemodel 60秒超时 | 方案A：55s主动收网 | ✅ 已部署 |
+| 400 unexpected end of data | 方案B：友好提示 | ✅ 已部署 |
+| wisemodel连续3次失败 | 方案C：降级到ollama（Health Manager） | ⚠️ 待部署 |
+| wisemodel恢复 | 方案C：HALF_OPEN→自动恢复 | ⚠️ 待部署 |
+| minimax-cn fallback | ❌ 不能走Gateway fallback链（会死锁） | ⚠️ 只能用OneAPI |
+| 压缩耗尽 | 需 /compact 手动介入 | 📋 待实现 |
+
+**验证步骤（必须实际验证，不能信skill声称）**：
+```bash
+# 1. 检查方案A
+grep "wisemodel.*55\|55.*wisemodel\|ospreyai.*55\|55.*ospreyai" /opt/hermes/run_agent.py
+
+# 2. 检查方案B
+grep -A5 "_is_ctx_fail" /opt/hermes/gateway/run.py | grep "unexpected end of data"
+
+# 3. 检查方案C — Health Manager已写入run.py
+grep "ProviderHealthManager\|provider_health" /opt/hermes/gateway/run.py | head -5
+
+# 4. 检查fallback_providers（不能有minimax-cn！）
+python3 -c "
+import yaml
+cfg = yaml.safe_load(open('/opt/data/config.yaml'))
+fb = cfg.get('fallback_providers', [])
+print(f'Fallback链({len(fb)}个):')
+for i, f in enumerate(fb):
+    p = f.get('provider', '')
+    m = f.get('model', '')
+    ok = '✅' if p != 'wisemodel' else '⚠️ 危险!'
+    warn = '⚠️ 死锁!' if p == 'minimax-cn' else ''
+    print(f'  [{i+1}] {ok}{warn} {p} / {m}')
+"
+
+# 5. 检查provider_health.json是否存在
+ls -la /opt/data/state/provider_health.json 2>/dev/null && echo "✅ Health Manager状态文件存在"
+
+# 6. 语法检查
+/opt/hermes/.venv/bin/python3 -m py_compile /opt/hermes/gateway/run.py && echo "✅ run.py语法OK"
+```
+
+## 关键参数
+
+- `HERMES_STREAM_READ_TIMEOUT` 环境变量默认120秒，wisemodel场景下代码自动降为55秒
+- wisemodel服务端超时 ≈ 60秒，取55秒留5秒缓冲
+- **minimax-cn端点**：`https://api.minimaxi.com/v1`（不用`open.minimaxi.com`，后者DNS不通）
+- **M2.7模型名**：`MiniMax-M2.7`（非`minimax-m2.7`，注意大小写）

@@ -1,1 +1,90 @@
-LS0tCm5hbWU6IHdhdGNoZG9nLXN0YWxlLWxvZy1jcm9zcy12YWxpZGF0aW9uCmRlc2NyaXB0aW9uOiBXYXRjaGRvZ+aXpeW/l+Wkseecn+S6pOWPiemqjOivgeiviuaWreazlSDigJQg5b2T5pel5b+X5pi+56S6IuW+iOS5heayoeabtOaWsCLkvYblrp7pmYXku7vliqHlnKjov5DooYzml7bvvIznlKjkuInnu7TluqbkuqTlj4npqozor4Hms5Xlv6vpgJ/lrprkvY3moLnlm6DjgILop6blj5HvvJrml6Xlv5dtdGltZeaXpy93aWRnZXTml6Dlj43lupQv5pel5b+X5pyr5bC+5pe26Ze05oiz5LiO5paH5Lu257O757uf5LiN56ym44CCCnRhZ3M6IFt3YXRjaGRvZywgY3JvbiwgZGVidWcsIGRpYWdub3N0aWNzXQpjcmVhdGVkOiAyMDI2LTA2LTA5Ci0tLQoKIyBXYXRjaGRvZ+aXpeW/l+Wkseecn+iviuaWreaKgOiDvQoKIyMg6Kem5Y+R5Zy65pmvCgp3YXRjaGRvZy9jcm9udGFi6ISa5pys5pel5b+X5paH5Lu25L+u5pS55pe26Ze0KE1USU1FKeW+iOaXp++8jOS9huWunumZheS7u+WKoeWcqOato+W4uOi/kOihjOOAguWFuOWei+eXh+eKtu+8mgotIOaXpeW/l+aWh+S7tmBtdGltZWDmmL7npLoi5b6I5LmF5rKh5pu05pawIgotIOS9hmBsYXN0X3J1bl9hdGDml7bpl7TmiLPmmL7npLrmnIDov5HliJrov5DooYwKLSDmiJbogIXml6Xlv5fmnKvlsL7ml7bpl7TmiLPnnIvotbfmnaXlvojml6fvvIzkvYbmlofku7bns7vnu5/kuK3mnInmlrDkuqflh7oKCiMjIOaguOW/g+iviuaWreaWueazlQoKKirkuqTlj4npqozor4HkuInmraXms5UqKu+8mgoKIyMjIFN0ZXAgMe+8muWvueavlOaXpeW/l+aWh+S7tk1USU1FIHZzIEpvYi5sYXN0X3J1bl9hdAoKYGBgcHl0aG9uCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApqb2JzID0ganNvbi5sb2FkcyhQYXRoKCcvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb24nKS5yZWFkX3RleHQoKSkKZm9yIGogaW4gam9ic1snam9icyddOgogICAgaWYgJ3dhdGNoZG9nJyBpbiBqLmdldCgnbmFtZScsICcnKToKICAgICAgICBwcmludChmImxhc3RfcnVuX2F0OiB7alsnbGFzdF9ydW5fYXQnXX0iKQogICAgICAgIHByaW50KGYibGFzdF9zdGF0dXM6IHtqWydsYXN0X3N0YXR1cyddfSIpCiAgICAgICAgcHJpbnQoZiJuZXh0X3J1bl9hdDoge2pbJ25leHRfcnVuX2F0J119IikKCiMg5ZCM5pe25qOA5p+l5pel5b+X5paH5Lu2c3RhdApsb2dfc3RhdCA9IFBhdGgoJy9vcHQvZGF0YS9sb2dzL3NjaGVkdWxlcl93YXRjaGRvZy5sb2cnKS5zdGF0KCkKcHJpbnQoZiJMb2cgbXRpbWU6IHtsb2dfc3RhdC5zdF9tdGltZX0iKQpgYGAKCioq5Yik5pat6KeE5YiZKirvvJoKLSBgbGFzdF9ydW5fYXRgIOKJiCBg5pel5b+X5paH5Lu2bXRpbWVgIOKGkiDml6Xlv5fmraPlnKjlhpnlhaXvvIzlj6rmmK/ml6Xlv5flhoXlrrnml6fvvIjmraPluLjvvIkKLSBgbGFzdF9ydW5fYXRgIOaWsCDkvYYgYOaXpeW/l+aWh+S7tm10aW1lYCDml6cg4oaSIOaXpeW/l+WGmeWFpeWksei0peaIlui3r+W+hOmUmeivrwoKIyMjIFN0ZXAgMu+8muebtOaOpeaJq+aPj+S6p+WHuuebruW9lemqjOivgQoK5LiN6KaB5Y+q55yL5pel5b+X77yM55SoYHJnbG9iYOebtOaOpeaJq+aPj+S6p+WHuuebruW9leeahG10aW1l77yaCgpgYGBiYXNoCiMg5pyA6L+RTuWIhumSn+eahOaWsOaWh+S7tuaVsApmaW5kIC9vcHQvZGF0YS9jcm9uL291dHB1dCAtbmFtZSAiKi5tZCIgLW1taW4gLTMgfCB3YyAtbAoKIyDmnIDov5Hkv67mlLnnmoTlrZDnm67lvZUKbHMgLWx0IC9vcHQvZGF0YS9jcm9uL291dHB1dC8gfCBoZWFkIC0yMApgYGAKCiMjIyBTdGVwIDPvvJrmo4Dmn6Vqb2LmiafooYznirbmgIEKCmBgYGJhc2gKIyDmn6XnnItoZXJtZXPov5vnqIsKcHMgYXV4IHwgZ3JlcCBoZXJtZXMgfCBncmVwIC12IGdyZXAKCiMg6aqM6K+BaGVybWVzIGNyb24gam9ic+WIl+ihqAovb3B0L2hlcm1lcy8udmVudi9iaW4vaGVybWVzIGNyb24gbGlzdCAyPi9kZXYvbnVsbApgYGAKCiMjIOWFuOWei+WcuuaZr+WIhuaekAoKIyMjIOWcuuaZr++8muaXpeW/l+acq+WwvuaXtumXtOaXp++8jOS9hndhdGNoZG9n5q2j5bi46L+Q6KGMCgoqKueXh+eKtioq77yaCmBgYAojIOaXpeW/l+WGheWuueacq+WwvgpbMDYtMDggMTk6NTk6MDBdIE9LICgz5Liq5paw5paH5Lu2LCDmnIDov5E6IDdzIGFnbykKCiMg5L2GbG9n5paH5Lu2bXRpbWXmmK8wMzo1Oe+8jOWSjGpvYi5sYXN0X3J1bl9hdOS4gOiHtApgYGAKCioq5qC55ZugKirvvJoKd2F0Y2hkb2fmr4/liIbpkp/miafooYzvvIzmr4/mrKHpg73mib7liLDmlrDmlofku7bvvIzotbBPS+WIhuaUr+OAguaXpeW/l+aWh+S7tm10aW1lID0g5pyA5ZCO5LiA5qyh5YWz6Zet5paH5Lu255qE5pe26Ze077yM5LiO5pel5b+X5YaF5a655pe26Ze05oiz5peg55u05o6l5YWz6IGU44CC6L+95Yqg5YaZ5YWl5ZCM5LiA5paH5Lu25pe277yM5YaF5a655Y+v6IO95bey57uP6KKr5ZCO57ut6L+Q6KGM6KaG55uW44CCCgoqKumqjOivgSoq77ya55SoYHN0YXRg55yL5paH5Lu255yf5a6eYG10aW1lYOiAjOmdnuaXpeW/l+WGheWuueaXtumXtOaIs+OAggoKIyMjIOWcuuaZr++8muW8uuWItnRpY2vkvYbml6Xlv5fml6DorrDlvZUKCuaXpeW/l+WGmeS6hmByYz0wYOS9huWQjue7reS6p+WHuuaBouWkjeKAlOKAlOivtOaYjuW8uuWItnRpY2vmiJDlip/kvYbkuqflh7rlu7bov5/vvIx3YXRjaGRvZ+S4i+asoei/kOihjOWPiOaJvuWIsOS6huaWsOaWh+S7tuOAggoKIyMg5YWz6ZSu5pWZ6K6tCgoxLiAqKuaXpeW/l+WGheWuueaXtumXtOaIsyDiiaAg5pel5b+X5paH5Lu2bXRpbWUqKiDigJQg5paH5Lu257O757uf5bGC6Z2i55qEbXRpbWXmiY3mmK/lhpnlhaXnnJ/lrp7ml7bliLsKMi4gKirkuI3opoHlj6rnnIvml6Xlv5fmnKvlsL4qKiDigJQg6L+95Yqg5YaZ5YWl55qE5paH5Lu25pyr5bC+5pe26Ze05oiz5Y+v6IO95piv57yT5a2YL+aYvuekuumXrumimAozLiAqKuS6pOWPiemqjOivgeS4iee7tOW6pioq77yaSm9iLmxhc3RfcnVuX2F0ICsgbG9nLnN0YXQoKS5zdF9tdGltZSArIOWunumZheS6p+WHuuebruW9leeKtuaAgQo0LiAqKndhdGNoZG9n6Z2Z6buY5oiQ5YqfKiog4oCUIOWkmuaVsOaDheWGteS4iyLlvLrliLZ0aWNrIuS7juacquinpuWPke+8jOWboOS4ulNjaGVkdWxlcuacrOi6q+i/kOihjOato+W4uAo=
+---
+name: watchdog-stale-log-cross-validation
+description: Watchdog日志失真交叉验证诊断法 — 当日志显示"很久没更新"但实际任务在运行时，用三维度交叉验证法快速定位根因。触发：日志mtime旧/widget无反应/日志末尾时间戳与文件系统不符。
+tags: [watchdog, cron, debug, diagnostics]
+created: 2026-06-09
+---
+
+# Watchdog日志失真诊断技能
+
+## 触发场景
+
+watchdog/crontab脚本日志文件修改时间(MTIME)很旧，但实际任务在正常运行。典型症状：
+- 日志文件`mtime`显示"很久没更新"
+- 但`last_run_at`时间戳显示最近刚运行
+- 或者日志末尾时间戳看起来很旧，但文件系统中有新产出
+
+## 核心诊断方法
+
+**交叉验证三步法**：
+
+### Step 1：对比日志文件MTIME vs Job.last_run_at
+
+```python
+import json
+from pathlib import Path
+jobs = json.loads(Path('/opt/data/cron/jobs.json').read_text())
+for j in jobs['jobs']:
+    if 'watchdog' in j.get('name', ''):
+        print(f"last_run_at: {j['last_run_at']}")
+        print(f"last_status: {j['last_status']}")
+        print(f"next_run_at: {j['next_run_at']}")
+
+# 同时检查日志文件stat
+log_stat = Path('/opt/data/logs/scheduler_watchdog.log').stat()
+print(f"Log mtime: {log_stat.st_mtime}")
+```
+
+**判断规则**：
+- `last_run_at` ≈ `日志文件mtime` → 日志正在写入，只是日志内容旧（正常）
+- `last_run_at` 新 但 `日志文件mtime` 旧 → 日志写入失败或路径错误
+
+### Step 2：直接扫描产出目录验证
+
+不要只看日志，用`rglob`直接扫描产出目录的mtime：
+
+```bash
+# 最近N分钟的新文件数
+find /opt/data/cron/output -name "*.md" -mmin -3 | wc -l
+
+# 最近修改的子目录
+ls -lt /opt/data/cron/output/ | head -20
+```
+
+### Step 3：检查job执行状态
+
+```bash
+# 查看hermes进程
+ps aux | grep hermes | grep -v grep
+
+# 验证hermes cron jobs列表
+/opt/hermes/.venv/bin/hermes cron list 2>/dev/null
+```
+
+## 典型场景分析
+
+### 场景：日志末尾时间旧，但watchdog正常运行
+
+**症状**：
+```
+# 日志内容末尾
+[06-08 19:59:00] OK (3个新文件, 最近: 7s ago)
+
+# 但log文件mtime是03:59，和job.last_run_at一致
+```
+
+**根因**：
+watchdog每分钟执行，每次都找到新文件，走OK分支。日志文件mtime = 最后一次关闭文件的时间，与日志内容时间戳无直接关联。追加写入同一文件时，内容可能已经被后续运行覆盖。
+
+**验证**：用`stat`看文件真实`mtime`而非日志内容时间戳。
+
+### 场景：强制tick但日志无记录
+
+日志写了`rc=0`但后续产出恢复——说明强制tick成功但产出延迟，watchdog下次运行又找到了新文件。
+
+## 关键教训
+
+1. **日志内容时间戳 ≠ 日志文件mtime** — 文件系统层面的mtime才是写入真实时刻
+2. **不要只看日志末尾** — 追加写入的文件末尾时间戳可能是缓存/显示问题
+3. **交叉验证三维度**：Job.last_run_at + log.stat().st_mtime + 实际产出目录状态
+4. **watchdog静默成功** — 多数情况下"强制tick"从未触发，因为Scheduler本身运行正常

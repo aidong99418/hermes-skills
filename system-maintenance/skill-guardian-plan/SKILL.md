@@ -1,1 +1,124 @@
-LS0tCm5hbWU6IHNraWxsLWd1YXJkaWFuLXBsYW4KZGVzY3JpcHRpb246IOaKgOiDveWNq+WjqyB2Mi4yIOKAlCBza2lsbOaZuuiDveeuoeWutuWujOaVtOaWh+aho+OAguiejeWQiOS+nei1lueuoeeQhuWZqCvlgaXlurflrojmiqQr5Zmo5a6Y5YGl5bq35qOA5p+lK+aZuuiDveaMluWune+8jOW3suWcqOeUn+S6p+i/kOihjOOAggp0cmlnZ2VyczogWyLlt6XlhbciLCAic2tpbGwiLCAi5oqA6IO9Il0KdmVyc2lvbjogIjIuMiIKY3JlYXRlZDogIjIwMjYtMDYtMDIiCnVwZGF0ZWQ6ICIyMDI2LTA2LTAzIgp0cmlnZ2VyOiDmioDog73ljavlo6svc2tpbGzlgaXlurcvc2tpbGzlkIjlubYvc2tpbGzph43lkb3lkI0v5a6e5pe255uR5o6n5a6I5oqk6L+b56iLL+WZqOWumOWBpeW6twotLS0KCiMg5oqA6IO95Y2r5aOrIHYyLjIg4oCUIHNraWxs5pm66IO9566h5a62CgojIyDlrprkvY0KTkFT5LiK5omA5pyJc2tpbGznmoTnu5/kuIDnu7TmiqTlt6XlhbfvvIzkuIDkuKrohJrmnKzmkJ7lrprmiYDmnInjgIIKCiMjIOWFpeWPowpgYGAKL29wdC9kYXRhL3NjcmlwdHMvc2tpbGxfaGVhbHRoLnB5ICAgICAgICAgICMg5Li76ISa5pysCi9vcHQvZGF0YS9zY3JpcHRzL3NraWxsX2hlYWx0aF9kYWVtb24ucHkgICAjIOWuiOaKpOi/m+eoi+euoeeQhgpgYGAKCiMjIENMSeWRveS7pApgYGBiYXNoCnB5dGhvbjMgc2tpbGxfaGVhbHRoLnB5IHNjYW4gICAgICAgICAjIOaJq+aPjzE2OeS4qnNraWxs77yM5bu656uL5byV55So5Zu+6LCxCnB5dGhvbjMgc2tpbGxfaGVhbHRoLnB5IGhlYWx0aCAgICAgICAjIFNraWxs5byV55So5YGl5bq35qOA5p+l77yM5qOA5rWL5aSx5pWI5byV55SoCnB5dGhvbjMgc2tpbGxfaGVhbHRoLnB5IG9yZ2FuLWhjICAgICAjIOWZqOWumOWBpeW6t+ajgOafpe+8iOWFqOmDqDEz5Liq5Zmo5a6Y77yJCnB5dGhvbjMgc2tpbGxfaGVhbHRoLnB5IG9yZ2FuLWhjIHh4eCAjIOWPquajgOafpeaMh+WumuWZqOWumO+8iOWmgiBvcmdhbi1oYyBhdXRvX2hlYWxpbmfvvIkKcHl0aG9uMyBza2lsbF9oZWFsdGgucHkgZml4ICAgICAgICAgICMg6Ieq5Yqo5L+u5aSN5aSx5pWI5byV55SoCnB5dGhvbjMgc2tpbGxfaGVhbHRoLnB5IG1lcmdlIGEsYiBjICAjIOWQiOW5tuWkmuS4qnNraWxs77yM6Ieq5Yqo5pu05paw5omA5pyJ5byV55SoCnB5dGhvbjMgc2tpbGxfaGVhbHRoLnB5IG1vdmUgb2xkIG5ldyAjIOmHjeWRveWQjXNraWxs77yM6Ieq5Yqo5pu05paw5omA5pyJ5byV55SoCnB5dGhvbjMgc2tpbGxfaGVhbHRoLnB5IHdhdGNoICAgICAgICAjIOWunuaXtuebkeaOp++8iGlub3RpZnnlrojmiqTov5vnqIvvvIkKcHl0aG9uMyBza2lsbF9oZWFsdGgucHkgZ2FwICAgICAgICAgICMg55+l6K+G57y65Y+j5qOA5rWL4oaS6Kem5Y+R5oyW5a6dCnB5dGhvbjMgc2tpbGxfaGVhbHRoLnB5IGZ1bGwgICAgICAgICAjIOWujOaVtOajgOafpSvkv67lpI0r57y65Y+j5YiG5p6QCmBgYAoKIyMg5a6I5oqk6L+b56iLCmBgYGJhc2gKcHl0aG9uMyBza2lsbF9oZWFsdGhfZGFlbW9uLnB5IHN0YXJ0ICAgIyDlkK/liqgKcHl0aG9uMyBza2lsbF9oZWFsdGhfZGFlbW9uLnB5IHN0b3AgICAgIyDlgZzmraIKcHl0aG9uMyBza2lsbF9oZWFsdGhfZGFlbW9uLnB5IHJlc3RhcnQgIyDph43lkK8KcHl0aG9uMyBza2lsbF9oZWFsdGhfZGFlbW9uLnB5IHN0YXR1cyAgIyDnirbmgIEKYGBgCi0gUElE5paH5Lu277yaYC90bXAvc2tpbGxfaGVhbHRoX3dhdGNoLnBpZGAKLSDml6Xlv5fvvJpgL29wdC9kYXRhL3NlY3JldGFyeS9za2lsbF9oZWFsdGhfd2F0Y2gubG9nYAotIOW8gOacuuiHquWQr++8muW3suWGmeWFpWNyb250YWIgQHJlYm9vdAoKIyMg6J6N5ZCI6K6w5b2VCi0gYHNraWxsX2RlcGVuZGVuY3kucHlgICgyNjfooYwpIOKGkiDlt7LliKDpmaTvvIzlip/og73lkIjlubbov5sgc2tpbGxfaGVhbHRoLnB5Ci0g5paw5aKe5Ye95pWw77yaYGJhY2t1cF9za2lsbCgpYCwgYF9yZXBsYWNlX3JlZnMoKWAsIGBtZXJnZV9za2lsbHMoKWAsIGBtb3ZlX3NraWxsKClgCi0g6J6N5ZCI5ZCO5YWx5Lqr5ZCM5LiA5Liq5rOo5YaM6KGo77yaYC9vcHQvZGF0YS9zZWNyZXRhcnkvc2tpbGxfcmVnaXN0cnkuanNvbmAKCiMjIOWZqOWumOWBpeW6t+ajgOafpe+8iHYyLjLmlrDlop7vvIkK5qOA5p+l5YWo6YOoMTPkuKrlmajlrpjnmoQgYGhlYWx0aF9jaGVjaygpYCDmjqXlj6PvvIznm7TmjqXosIPnlKjlubbph4fpm4bnu5PmnpzjgIIKCioqSENfVEVNUExBVEVTIOWumuS5iSoq77yIc2tpbGxfaGVhbHRoLnB5IOesrDU36KGM6LW377yJ77yaCi0g5qCH5YeG5Zmo5a6Y77ya6L+U5ZueIGB7b3JnYW4sIGhlYWx0aHkoYm9vbCksIGxhc3RfaGVhcnRiZWF0LCBkZXRhaWxzLCBzZXZlcml0eX1gIOKGkiBgaGVhbHRoX2ZpZWxkOiAiaGVhbHRoeSJgCi0g6Z2e5qCH5YeG5Zmo5a6Y77yI5aaCIGFsZXJ0X3NlbmRlci90YXNrX2JvYXJkL2ZlaXNodV9jYXJkX3NlbmRlcu+8ie+8mui/lOWbniBge29yZ2FuLCBzdGF0dXM6ICJoZWFsdGh5Ii8iZGVncmFkZWQiLCBkZXRhaWx9YCDihpIgYGhlYWx0aF9maWVsZDogInN0YXR1cyJgLCBgaGVhbHRoX3RydWU6ICJoZWFsdGh5ImAKCioqMTPkuKrlmajlrpjliJfooagqKu+8mgphZTRfYnJpZGdlIC8gYWxlcnRfc2VuZGVyIC8gYXV0b19oZWFsaW5nIC8gZXZvbHV0aW9uX2VuZ2luZSAvIGZlaXNodV9jYXJkX3NlbmRlciAvIGludGVudF9lbmdpbmUgLyBsZWFybmluZ19sb29wIC8gbmV1cmFsX3NhZmUgLyBvcmdhbl9idXMgLyBza2lsbHNfZmFjdG9yeSAvIHRhc2tfYm9hcmQgLyB1bmlmaWVkX3B1c2ggLyB3b3JrZmxvd19lbmdpbmUKCioq4pqg77iPIOi4qeWdke+8muWZqOWumOaWh+S7tiBkdXBsaWNhdGUgaGVhbHRoX2NoZWNrKCkg5a+86Ie0IFN5bnRheEVycm9yKioKLSBhbGVydF9zZW5kZXIucHnjgIFmZWlzaHVfY2FyZF9zZW5kZXIucHnjgIF0YXNrX2JvYXJkLnB5IOWQhOiHquacieS4pOS4qiBgZGVmIGhlYWx0aF9jaGVjaygpYAotIOesrOS4gOS4quaYr+aui+e8uueahO+8iGByZXR1cm4ge2Ag5LiN5a6M5pW077yM57y66Zet5ZCIIGB9YO+8ieKGkiDlvJXlj5EgU3ludGF4RXJyb3I6IGB7IHdhcyBuZXZlciBjbG9zZWRgCi0gUHl0aG9uIOWPquaKpeesrOS4gOS4qiBTeW50YXhFcnJvciDlsLHlgZzvvIzlr7zoh7TmlbTkuKrmlofku7bml6Dms5Xlr7zlhaUKLSAqKuS/ruWkjSoq77ya5Yig6Zmk56ys5LiA5Liq77yI5q6L57y655qE77yJaGVhbHRoX2NoZWNr77yM5L+d55WZ56ys5LqM5Liq77yI5q2j56Gu55qE77yJCi0g5a6a5L2N5pa55rOV77ya5om+5omA5pyJIGBkZWYgaGVhbHRoX2NoZWNrKClgIOihjOWPt++8jOesrOS4gOS4quWIsCBgaWYgX19uYW1lX19gIOS5i+mXtOWwseaYr+aui+e8uumDqOWIhgotIOaJuemHj+WIoOmZpOiEmuacrO+8mgpgYGBweXRob24KIyAwLWluZGV4ZWTooYzlj7cKIi9vcHQvZGF0YS9vcmdhbnMvYWxlcnRfc2VuZGVyLnB5IjogICAgIHsiYnJva2VuX3N0YXJ0IjogMzEwLCAia2VlcF9saW5lIjogMzI0fSwKIi9vcHQvZGF0YS9vcmdhbnMvZmVpc2h1X2NhcmRfc2VuZGVyLnB5IjogeyJicm9rZW5fc3RhcnQiOiAzNjgsICJrZWVwX2xpbmUiOiAzODJ9LAoiL29wdC9kYXRhL29yZ2Fucy90YXNrX2JvYXJkLnB5IjogICAgICAgeyJicm9rZW5fc3RhcnQiOiA1NTMsICJrZWVwX2xpbmUiOiA1Njd9LAojIOaJp+ihjO+8mmxpbmVzWzpicm9rZW5fc10gKyBsaW5lc1trZWVwOl0g4oaSIOWGmeWbnuaWh+S7tiDihpIgcHlfY29tcGlsZSDpqozor4EKYGBgCgojIyDohJrmnKznoo7niYfmuIXnkIbmqKHlvI/vvIjmnKzmrKHlrp7ot7XvvIkKMS4g5omr5o+P5omA5pyJ55u45YWz6ISa5pys77yM5om+5Yqf6IO96YeN5Y+gCjIuIOivhuWIq+avj+S4quiEmuacrOeahCoq54us54m55Lu35YC8KirvvIjmsqHmnInph43lj6DnmoTlip/og73lv4Xpobvkv53nlZnvvIkKMy4g5oqK54us54m55Yqf6IO95ZCI5bm26L+b5Li76ISa5pysCjQuIOmqjOivgeaWsOiEmuacrOi/kOihjOato+W4uAo1LiDliKDpmaTml6fohJrmnKwKNi4g6YeN5ZCv55u45YWz5a6I5oqk6L+b56iL5Yqg6L295paw54mI5pysCjcuIOa1i+ivleinpuWPkemqjOivge+8iOeUqCBgdG91Y2hgIOaooeaLn+aWh+S7tuWPmOabtO+8iQoKIyMg5L6d6LWW5paH5Lu2Ci0g5rOo5YaM6KGo77yaYC9vcHQvZGF0YS9zZWNyZXRhcnkvc2tpbGxfcmVnaXN0cnkuanNvbmAKLSDlpIfku73vvJpgL29wdC9kYXRhL3NlY3JldGFyeS9za2lsbF9iYWNrdXBzL2AKLSDml6Xlv5fvvJpgL29wdC9kYXRhL3NlY3JldGFyeS9za2lsbF9oZWFsdGgubG9nYAoKIyMg4pqg77iPIOi4qeWdkeiusOW9le+8iDIwMjYtMDYtMDPvvIkKCiMjIyAxLiBgdHJpZ2dlcl90cmVhc3VyZV9taW5pbmcoKWAg5YaFIHN5cyDmnKrlr7zlhaUKKirnl4fnirYqKu+8muW+ruS/oeaOqOmAgeaKpemUmSBgbmFtZSAnc3lzJyBpcyBub3QgZGVmaW5lZGDvvIzml6Xlv5fph4zmjIHnu63lh7rnjrDmraTplJnor68KCioq5qC55ZugKirvvJpgdHJpZ2dlcl90cmVhc3VyZV9taW5pbmcoKWAg5piv5bWM5aWX5Ye95pWw77yM5L2/55So5LqGIGBzeXMucGF0aC5pbnNlcnQoKWAg5L2G5rKh5pyJIGBpbXBvcnQgc3lzYOOAguWkluWxgiBgbWFpbigpYCDph4zmnIkgYGltcG9ydCBzeXNg77yM5L2G6YKj5piv5Ye95pWw5bGA6YOo5Y+Y6YeP77yM5LiN5Zyo5bWM5aWX5Ye95pWw5L2c55So5Z+f6YeM44CCCgoqKuS/ruWkjSoq77ya5ZyoIGB0cmlnZ2VyX3RyZWFzdXJlX21pbmluZ2Ag5YaF6YOo5bGA6YOo5a+85YWl77yaCmBgYHB5dGhvbgppbXBvcnQgc3lzIGFzIF9zeXNfbW9kdWxlCl9zeXNfbW9kdWxlLnBhdGguaW5zZXJ0KDAsICcvb3B0L2RhdGEnKQpgYGAK5LiN6IO955SoIGBmcm9tIC4uLiBpbXBvcnRgIOabv+S7o++8jOWboOS4uiBgZnJvbWAg6K+t5Y+l5LiN5Zyo5b2T5YmN5L2c55So5Z+f44CCCgojIyMgMi4gY3JvbiBwcm9tcHQg5b+F6aG75oyH5a6a5a2Q5ZG95LukCioq55eH54q2KirvvJpjcm9u6Kem5Y+R5ZCOQUnkvJror53msLjkuYXmjILotbfvvIzmr4/mrKHkuqfnlJ/kuIDkuKrmjILotbfnmoTlrZDov5vnqIsKCioq5qC55ZugKirvvJpgc2tpbGxfaGVhbHRoLnB5YCDml6Dlj4LmlbDml7bkvJrov5vlhaUgYHdhdGNoX2FuZF9yZWFjdCgpYCDnm5HmjqfmqKHlvI/vvIh3aGlsZSBUcnVlICsgc2xlZXDvvInvvIzmsLjov5zkuI3kvJrpgIDlh7rjgIJjcm9u55qEcHJvbXB05YaZ55qE5pivIGDov5DooYwgL29wdC9kYXRhL3NjcmlwdHMvc2tpbGxfaGVhbHRoLnB5YO+8iOaXoOWPguaVsO+8ie+8jOWvvOiHtEFJ5omn6KGM5pe26ISa5pys5rC45LmF6Zi75aGe44CCCgoqKuS/ruWkjSoq77yaY3JvbiBwcm9tcHQg5b+F6aG75piO56Gu5oyH5a6a5a2Q5ZG95Luk77yaCmBgYGJhc2gKL3Vzci9iaW4vcHl0aG9uMyAvb3B0L2RhdGEvc2NyaXB0cy9za2lsbF9oZWFsdGgucHkgaGVhbHRoICAjIOWBpeW6t+ajgOafpe+8jOS4gOasoeaAp+mAgOWHugovdXNyL2Jpbi9weXRob24zIC9vcHQvZGF0YS9zY3JpcHRzL3NraWxsX2hlYWx0aC5weSBmaXggICAgICMg5L+u5aSN5aSx5pWI5byV55SoCmBgYAoKIyMjIDMuIGpvYnMuanNvbiDmoLzlvI/nibnmrormgKcKKipqb2JzLmpzb24g5L2/55So55qE5pivIFB5dGhvbiByZXByIOmjjuagvOeahCBgXFx1YCDovazkuYnvvIjlj4zlj43mlpzmnaDvvInvvIzkuI3mmK/moIflh4ZKU09O55qEIGBcdWAqKgrmkJzntKLlkozljLnphY3ml7bms6jmhI/vvJrmkJzntKIgYHNraWxsXHU1MDY1XHU1ZWI3YCDog73ljLnphY3vvIzkvYbmma7pgJrmlofmnKznvJbovpHlmagvZ3JlcCDmkJzkuK3mloflkI3kuI3kuIDlrprog73ljLnphY3jgIIKCuWumuS9jXNraWxsX2hlYWx0aCBqb2LopoHpgJrov4cgYGlkOiBjNTJjNThiZTlkYWZg77yM6ICM5LiN5piv6YCa6L+HbmFtZe+8iOWboOS4umpvYuaVsOe7hOW+iOmVv++8jOWuueaYk+ivr+WMuemFjeWFtuS7luWBpeW6t+exu2pvYu+8ieOAggoKIyMjIDQuIOm7mOiupOihjOS4uu+8muaXoOWPguaVsOaXtui/m+WFpXdhdGNo5qih5byPCmBza2lsbF9oZWFsdGgucHlgIOaXoOWPguaVsOaXtui1sOm7mOiupOWIhuaUr++8jOS8muiwg+eUqCBgaGVhbHRoX2NoZWNrKClgIOeEtuWQjuajgOafpee8uuWPo++8jOS9hioq5LiN5Lya6L+b5YWl55uR5o6n5qih5byPKirigJTigJTlj6rmnInmmL7lvI8gYHdhdGNoYCDlrZDlkb3ku6TmiY3kvJrov5vlhaV3YXRjaGRvZ+W+queOr+OAguS9hmNyb27ph4zlpoLmnpzohJrmnKzmnKzouqvlsLHmmK/lrojmiqTov5vnqIvlnovnmoTvvIjmsqHmnInlrZDlkb3ku6Q9d2F0Y2jvvInvvIzliJnkvJrlr7zoh7TmsLjkuYXpmLvloZ7jgIIKCg==
+---
+name: skill-guardian-plan
+description: 技能卫士 v2.2 — skill智能管家完整文档。融合依赖管理器+健康守护+器官健康检查+智能挖宝，已在生产运行。
+triggers: ["工具", "skill", "技能"]
+version: "2.2"
+created: "2026-06-02"
+updated: "2026-06-03"
+trigger: 技能卫士/skill健康/skill合并/skill重命名/实时监控守护进程/器官健康
+---
+
+# 技能卫士 v2.2 — skill智能管家
+
+## 定位
+NAS上所有skill的统一维护工具，一个脚本搞定所有。
+
+## 入口
+```
+/opt/data/scripts/skill_health.py          # 主脚本
+/opt/data/scripts/skill_health_daemon.py   # 守护进程管理
+```
+
+## CLI命令
+```bash
+python3 skill_health.py scan         # 扫描169个skill，建立引用图谱
+python3 skill_health.py health       # Skill引用健康检查，检测失效引用
+python3 skill_health.py organ-hc     # 器官健康检查（全部13个器官）
+python3 skill_health.py organ-hc xxx # 只检查指定器官（如 organ-hc auto_healing）
+python3 skill_health.py fix          # 自动修复失效引用
+python3 skill_health.py merge a,b c  # 合并多个skill，自动更新所有引用
+python3 skill_health.py move old new # 重命名skill，自动更新所有引用
+python3 skill_health.py watch        # 实时监控（inotify守护进程）
+python3 skill_health.py gap          # 知识缺口检测→触发挖宝
+python3 skill_health.py full         # 完整检查+修复+缺口分析
+```
+
+## 守护进程
+```bash
+python3 skill_health_daemon.py start   # 启动
+python3 skill_health_daemon.py stop    # 停止
+python3 skill_health_daemon.py restart # 重启
+python3 skill_health_daemon.py status  # 状态
+```
+- PID文件：`/tmp/skill_health_watch.pid`
+- 日志：`/opt/data/secretary/skill_health_watch.log`
+- 开机自启：已写入crontab @reboot
+
+## 融合记录
+- `skill_dependency.py` (267行) → 已删除，功能合并进 skill_health.py
+- 新增函数：`backup_skill()`, `_replace_refs()`, `merge_skills()`, `move_skill()`
+- 融合后共享同一个注册表：`/opt/data/secretary/skill_registry.json`
+
+## 器官健康检查（v2.2新增）
+检查全部13个器官的 `health_check()` 接口，直接调用并采集结果。
+
+**HC_TEMPLATES 定义**（skill_health.py 第57行起）：
+- 标准器官：返回 `{organ, healthy(bool), last_heartbeat, details, severity}` → `health_field: "healthy"`
+- 非标准器官（如 alert_sender/task_board/feishu_card_sender）：返回 `{organ, status: "healthy"/"degraded", detail}` → `health_field: "status"`, `health_true: "healthy"`
+
+**13个器官列表**：
+ae4_bridge / alert_sender / auto_healing / evolution_engine / feishu_card_sender / intent_engine / learning_loop / neural_safe / organ_bus / skills_factory / task_board / unified_push / workflow_engine
+
+**⚠️ 踩坑：器官文件 duplicate health_check() 导致 SyntaxError**
+- alert_sender.py、feishu_card_sender.py、task_board.py 各自有两个 `def health_check()`
+- 第一个是残缺的（`return {` 不完整，缺闭合 `}`）→ 引发 SyntaxError: `{ was never closed`
+- Python 只报第一个 SyntaxError 就停，导致整个文件无法导入
+- **修复**：删除第一个（残缺的）health_check，保留第二个（正确的）
+- 定位方法：找所有 `def health_check()` 行号，第一个到 `if __name__` 之间就是残缺部分
+- 批量删除脚本：
+```python
+# 0-indexed行号
+"/opt/data/organs/alert_sender.py":     {"broken_start": 310, "keep_line": 324},
+"/opt/data/organs/feishu_card_sender.py": {"broken_start": 368, "keep_line": 382},
+"/opt/data/organs/task_board.py":       {"broken_start": 553, "keep_line": 567},
+# 执行：lines[:broken_s] + lines[keep:] → 写回文件 → py_compile 验证
+```
+
+## 脚本碎片清理模式（本次实践）
+1. 扫描所有相关脚本，找功能重叠
+2. 识别每个脚本的**独特价值**（没有重叠的功能必须保留）
+3. 把独特功能合并进主脚本
+4. 验证新脚本运行正常
+5. 删除旧脚本
+6. 重启相关守护进程加载新版本
+7. 测试触发验证（用 `touch` 模拟文件变更）
+
+## 依赖文件
+- 注册表：`/opt/data/secretary/skill_registry.json`
+- 备份：`/opt/data/secretary/skill_backups/`
+- 日志：`/opt/data/secretary/skill_health.log`
+
+## ⚠️ 踩坑记录（2026-06-03）
+
+### 1. `trigger_treasure_mining()` 内 sys 未导入
+**症状**：微信推送报错 `name 'sys' is not defined`，日志里持续出现此错误
+
+**根因**：`trigger_treasure_mining()` 是嵌套函数，使用了 `sys.path.insert()` 但没有 `import sys`。外层 `main()` 里有 `import sys`，但那是函数局部变量，不在嵌套函数作用域里。
+
+**修复**：在 `trigger_treasure_mining` 内部局部导入：
+```python
+import sys as _sys_module
+_sys_module.path.insert(0, '/opt/data')
+```
+不能用 `from ... import` 替代，因为 `from` 语句不在当前作用域。
+
+### 2. cron prompt 必须指定子命令
+**症状**：cron触发后AI会话永久挂起，每次产生一个挂起的子进程
+
+**根因**：`skill_health.py` 无参数时会进入 `watch_and_react()` 监控模式（while True + sleep），永远不会退出。cron的prompt写的是 `运行 /opt/data/scripts/skill_health.py`（无参数），导致AI执行时脚本永久阻塞。
+
+**修复**：cron prompt 必须明确指定子命令：
+```bash
+/usr/bin/python3 /opt/data/scripts/skill_health.py health  # 健康检查，一次性退出
+/usr/bin/python3 /opt/data/scripts/skill_health.py fix     # 修复失效引用
+```
+
+### 3. jobs.json 格式特殊性
+**jobs.json 使用的是 Python repr 风格的 `\\u` 转义（双反斜杠），不是标准JSON的 `\u`**
+搜索和匹配时注意：搜索 `skill\u5065\u5eb7` 能匹配，但普通文本编辑器/grep 搜中文名不一定能匹配。
+
+定位skill_health job要通过 `id: c52c58be9daf`，而不是通过name（因为job数组很长，容易误匹配其他健康类job）。
+
+### 4. 默认行为：无参数时进入watch模式
+`skill_health.py` 无参数时走默认分支，会调用 `health_check()` 然后检查缺口，但**不会进入监控模式**——只有显式 `watch` 子命令才会进入watchdog循环。但cron里如果脚本本身就是守护进程型的（没有子命令=watch），则会导致永久阻塞。
+

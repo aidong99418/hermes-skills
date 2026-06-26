@@ -1,1 +1,198 @@
-LS0tCm5hbWU6IHNraWxscy1kaXJlY3RvcnktZ3VhcmQKZGVzY3JpcHRpb246IFNraWxsc+ebruW9leWuiOaKpOezu+e7nyDigJQg6Ziy5q2ic2tpbGxzL+ebruW9leeijueJh+WMlueahOmVv+acn+acuuWItuOAguWNlXNraWxs55uu5b2V6Ieq5Yqo5b2S5YWla25vd2xlZGdlL++8jOepuuebruW9lea4heeQhu+8jOaWsHRvcC1sZXZlbOebruW9lemihOitpuOAguavj+WRqOS4gOiHquWKqOi3keOAggp0cmlnZ2VyczoKICAtIOWuoeiuoXNraWxscy/nm67lvZXnu5PmnoQKICAtIOWPkeeOsOWNlXNraWxs55uu5b2V5pWj6JC95Zyo5LiA57qn55uu5b2VCiAgLSDpmLLmraJza2lsbHMv5oyB57ut56KO54mH5YyWCiAgLSDmr4/mrKHmjJblrp0v5a2m5Lmg5ZCO5qOA5p+lCm5vdGVzOgogIC0g5qC45b+D5Luj56CB77yaL29wdC9kYXRhL3NjcmlwdHMvYXV0b19pbnRlZ3JhdG9yLnB5IC0tZ3VhcmQKICAtIOeZveWQjeWNle+8mjIw5Liq5ZCI5rOV5LiA57qn5YiG57G777yI5ZCrbWV0aG9kb2xvZ3nvvIwyMDI2LTA2LTA45pu05paw77yJCiAgLSDmiafooYzliY3lhYjlpIfku73vvJpjcCAtciAvb3B0L2RhdGEvc2tpbGxzLyAvb3B0L2RhdGEvYmFja3Vwcy9za2lsbHNfcHJlX2d1YXJkLwogIC0g5a6e5oiY77yaMjAyNi0wNi0wNCDku44xODXkuKrliIbnsbvljovnvKnliLAxOeS4qu+8jDQ4OeKGkjQ4OOS4qnNraWxs77yM5YWo6L+H56iL5peg5o2fCiAgLSDlt7Lnn6VCdWfkv67lpI3vvJpEaXJFbnRyeeWkseaViC/ot6jorr7lpIdFWERFVi/luYLnrYlGaWxlRXhpc3RzRXJyb3LvvIgyMDI2LTA2LTA477yJCnZlcnNpb246IDEuMQotLS0KCiMjIOKaoO+4jyBhdXRvX2ludGVncmF0b3IucHkgLS1ndWFyZCDnmoQz5Liq5bey55+lQnVn77yIMjAyNi0wNi0wOOS/ruWkje+8iQoKIyMjIEJ1ZyAxOiBEaXJFbnRyeSDot6/lvoTnvJPlrZjlpLHmlYjvvIjkuKXph43vvIkKLSAqKueXh+eKtioq77yaYHNodXRpbC5tb3ZlKHN0cihlbnRyeSksIC4uLilgIOWQjiBgRmlsZU5vdEZvdW5kRXJyb3I6IE5vIHN1Y2ggZmlsZSBvciBkaXJlY3RvcnlgCi0gKirmoLnlm6AqKu+8mmBvcy5zY2FuZGlyKClgIOi/lOWbnueahCBgRGlyRW50cnlgIOWvueixoeWcqCBgb3MucmVuYW1lKClgIOaIkOWKn+WQjue8k+WtmOWkseaViO+8jOWQjue7reiuv+mXriBgZW50cnkucGF0aGAg5oql6ZSZCi0gKirkv67lpI0qKu+8muW+queOr+W8gOWni+aXtumihOaNleiOtyBgc3JjX3BhdGggPSBlbnRyeS5wYXRoYO+8jOWQjue7reWFqOmDqOS9v+eUqOWtl+espuS4sui3r+W+hApgYGBweXRob24Kc3JjX3BhdGggPSBlbnRyeS5wYXRoICAgIyDpooTlhYjmjZXojrcKc3JjX25hbWUgPSBlbnRyeS5uYW1lCiMg5ZCO57ut55SoIHNyY19wYXRoIOiAjOmdniBlbnRyeS5wYXRoCnNodXRpbC5tb3ZlKHNyY19wYXRoLCBzdHIoZHN0KSkKYGBgCgojIyMgQnVnIDI6IOi3qOiuvuWkh+enu+WKqCBFWERFViDltKnmuoPvvIjkuKXph43vvIkKLSAqKueXh+eKtioq77yaYE9TRXJyb3I6IFtFcnJubyAxOF0gSW52YWxpZCBjcm9zcy1kZXZpY2UgbGlua2Ag5a+86Ie05Lit6YCU5bSp5rqDCi0gKirmoLnlm6AqKu+8mkRvY2tlciBvdmVybGF5IOWxguS4juWuv+S4u+acuui3r+W+hOmXtOenu+WKqOinpuWPkSBFWERFVu+8iFVuaXjot6jmlofku7bns7vnu5/np7vliqjpmZDliLbvvIkKLSAqKuS/ruWkjSoq77yaCmBgYHB5dGhvbgp0cnk6CiAgICBzaHV0aWwubW92ZShzcmNfcGF0aCwgc3RyKGRzdCkpCmV4Y2VwdCBPU0Vycm9yIGFzIGU6CiAgICBpZiBlLmVycm5vID09IDE4OiAgIyBFWERFVgogICAgICAgIHNodXRpbC5jb3B5dHJlZShzcmNfcGF0aCwgc3RyKGRzdCkpCiAgICAgICAgc2h1dGlsLnJtdHJlZShzcmNfcGF0aCkKICAgIGVsc2U6CiAgICAgICAgcmFpc2UKYGBgCgojIyMgQnVnIDM6IOW5guetiemHjeWkjei/kOihjCBGaWxlRXhpc3RzRXJyb3LvvIjkuK3nrYnvvIkKLSAqKueXh+eKtioq77ya6YeN5aSN5omn6KGM5pe25oqlIGBGaWxlRXhpc3RzRXJyb3Jg77yI5aSH5Lu955uu5qCH5bey5a2Y5Zyo77yJCi0gKirmoLnlm6AqKu+8mui3qCBydW4g5pe25ZCM5pel5pyf5aSH5Lu955uu5b2V5bey5a2Y5Zyo77yMYGNvcHl0cmVlKGRpcnNfZXhpc3Rfb2s9RmFsc2UpYAotICoq5L+u5aSNKirvvJrnqbrnm67lvZXmuIXnkIbliY3mo4Dmn6XlpIfku73nm67moIfmmK/lkKblt7LlrZjlnKgKYGBgcHl0aG9uCmRzdF9iYWNrdXAgPSBiYWNrdXBfZGlyIC8gZW50cnkubmFtZQppZiBkc3RfYmFja3VwLmV4aXN0cygpOgogICAgc2h1dGlsLnJtdHJlZShlbnRyeS5wYXRoKSAgIyDnm7TmjqXliKDpmaTvvIzlt7LlpIfku73ov4cKZWxzZToKICAgIHNodXRpbC5jb3B5dHJlZShlbnRyeS5wYXRoLCBkc3RfYmFja3VwKQogICAgc2h1dGlsLnJtdHJlZShlbnRyeS5wYXRoKQpgYGAKCiMjIOeZveWQjeWNleeuoeeQhuimgeeCuQoKLSBgbWV0aG9kb2xvZ3kvYCDlkKsz5Liq5pyJ5pWIc2tpbGzvvIhkZWVwLXNvdXJjZS1hbmFseXNpcy13b3JrZmxvd+etie+8ie+8jOmcgOWKoOWFpeeZveWQjeWNlQotIGB2ZXJzaW9uX2hpc3RvcnkvYCDlj6/og73lkKsgYC5tZGAg5L2G6Z2eIGBTS0lMTC5tZGDvvIzku43op4bkuLoi56m655uu5b2VIua4heeQhgotIOa4uOemu+eahCBgLm1kYCDljZXmlofku7bmioDog73vvIjlpoIgYGFnZW50LXplcm8ubWRg44CBYGFnZW50aWNTZWVrLm1kYO+8ieaYryBHaXRIdWIg5oyW5a6d5Lqn54mp77yM5bqU5L+d55WZ5Zyo6aG25bGC5oiW56e75YWlIGBrbm93bGVkZ2UvYAoKIyDkuInms6Lono3lkIjlt6XkvZzmtYHvvIgyMDI2LTA2LTA05a6e5oiY77yJCgojIyDnrKzkuIDms6LvvJrmuIXnkIbml6DmlYhza2lsbAoKKirmk43kvZwqKu+8muWIoOmZpCBgX2FyY2hpdmVkL2AgKyBgdmVyc2lvbl9oaXN0b3J5L2AgKyAyNeS4quaVo+iQveagueebruW9lS5tZOaWh+S7tgoKKirms6jmhI8qKu+8muWFiOaJq+aPj+agueebruW9leaVo+iQveaWh+S7tu+8jGAubWRg5paH5Lu25Y+v6IO95piv55+l6K+G5rKJ5reA77yI5q+U5aaCIGBicmFpbi1jb3JlLXByaW5jaXBsZXMubWRg77yJ77yM5Y+q5Yig5pS26ZuG55mW5q6L55WZCgojIyDnrKzkuozms6LvvJrlkIzlkI3nm67lvZXlkIjlubYKCioq5pON5L2cKirvvJoKLSA15LiqYnJhaW7nm7jlhbPnm67lvZUg4oaSIDLkuKrpm4bkuK3vvIhicmFpbi1zeXN0ZW0tbWFpbnRlbmFuY2UvaW50ZWdyYXRpb24g4oaSIGJyYWluLXN5c3Rlbe+8jGJyYWluLXRlYW0tYXJjaGl0ZWN0dXJlIOKGkiBicmFpbu+8iQotIDbkuKpmZWlzaHUgc2tpbGwg4oaSIDHkuKrnu5/kuIDnmoQgYGZlaXNodS1jYXJkLWJ1aWxkZXJgCi0g5Yig5YmN5YWIIGBzaHV0aWwuY29weXRyZWVgIOWkh+S7vQoKIyMg56ys5LiJ5rOi77ya5YiG57G75Y6L57yp77yI5pyA5YWz6ZSu77yJCgoqKuaJq+aPj+mYtuautSoq77yaCmBgYHB5dGhvbgojIOe7n+iuoeavj+S4quS4gOe6p+WIhuexu+eahHNraWxs5pWw6YePCmZvciBlbnRyeSBpbiBvcy5zY2FuZGlyKHNraWxsc19kaXIpOgogICAgY250ID0gc3VtKDEgZm9yIHIsZCxmIGluIG9zLndhbGsoZW50cnkucGF0aCkgZm9yIGYgaW4gZiBpZiBmID09ICJTS0lMTC5tZCIpCmBgYArnu5PmnpzvvJoxODXkuKrliIbnsbvph4wxNjfkuKrlj6rmnIkxfjLkuKpza2lsbCDihpIg5YWo6YOo56e75YWlIGBrbm93bGVkZ2UvYAoKKirnp7vliqjnrZbnlaUqKu+8mgotIOaciS5weeiEmuacrOeahOWPr+aJp+ihjHNraWxsIOKGkiDono3lhaXlr7nlupTliIbnsbsKLSDlip7lhawvTUwv5Z+656GA6K6+5pa9IOKGkiDlr7nlupTlt7LmnInliIbnsbsKLSDlhbbkvZkg4oaSIGBrbm93bGVkZ2UvYAoKKirnqbrnm67lvZXpmbfpmLEqKu+8muepuuebruW9leWPr+iDveaciSBERVNDUklQVElPTi5tZO+8jOWFiCBgb3MubGlzdGRpcmAg5YaN5Yik5patCgojIyDnnJ/lrp7lvbHlk43ngrkKCuWPquaciSBgYXV0b19pbnRlZ3JhdG9yLnB5YCDnmoQgRE9NQUlOUy50YXJnZXRfZmlsZXMg56Gs57yW56CB6Lev5b6E6ZyA6KaB5L+u77yaCmBgYHB5dGhvbgojIOS5i+WJjQoiL29wdC9kYXRhL3NraWxscy9hdXRvLWxlYXJuaW5nL1NLSUxMLm1kIgoiL29wdC9kYXRhL3NraWxscy9za2lsbC1jcmVhdG9yL1NLSUxMLm1kIgojIOS5i+WQjgoiL29wdC9kYXRhL3NraWxscy9rbm93bGVkZ2UvYXV0by1sZWFybmluZy9TS0lMTC5tZCIKIi9vcHQvZGF0YS9za2lsbHMva25vd2xlZGdlL3NraWxsLWNyZWF0b3IvU0tJTEwubWQiCmBgYAoKIyMg5pyA57uI57uT5p6c77yIMjAyNi0wNi0wNO+8iQoKYGBgCjE4NeS4quWIhuexuyDihpIgMTnkuKrliIbnsbsKNDg45Liqc2tpbGzml6DmjZ8KMOS4quepuuebruW9lQow5Liq5pen6Lev5b6E5byV55SoCuWkh+S7ve+8mjEuNk1CIC9vcHQvZGF0YS9iYWNrdXBzL3NraWxsc19jbGVhbnVwXzIwMjYwNjA0XzAxMzgzMS8KYGBgCgojIyDmnIDnu4jnu5PmnpzvvIgyMDI2LTA2LTA477yJCgpgYGAKMjDkuKrliIbnsbvvvIw0OTTkuKpza2lsbArljZVza2lsbOebruW9leW9kuS9jTPkuKrvvIjnp5jkuablpITmnrbmnoTljYfnuqflt6XkvZzmtYHlvJXmk47nrYnvvIkK56m655uu5b2V5riF55CGNeS4qu+8iGRvbWFpbi9pbmZlcmVuY2Utc2gvc21hcnQtaG9tZS9zb2NpYWwtbWVkaWEvdmVyc2lvbl9oaXN0b3J577yJCm1ldGhvZG9sb2d5IOe6s+WFpeeZveWQjeWNlQrinIUgU2tpbGxz55uu5b2V57uT5p6E5YGl5bq377yM5peg6ZyA5bmy6aKECuWkh+S7ve+8mi9vcHQvZGF0YS9iYWNrdXBzL3NraWxsc19ndWFyZF8yMDI2LTA2LTA4LwpgYGAKCiMjIOmVv+acn+WuiOaKpAoK5q+P5ZGo5LiAIDA4OjAwIOiHquWKqOi3kSBgLS1ndWFyZGDvvIzljZVza2lsbOebruW9leiHquWKqOW9kuS9je+8jOepuuebruW9leiHquWKqOa4heeQhu+8jOaWsOebruW9lemihOitpuOAggoKIyBTa2lsbHPnm67lvZXlrojmiqTns7vnu58KCiMjIOaguOW/g+mXrumimAoK5q+P5qyh5oyW5a6dL+WtpuS5oOmDveS8muWcqCBgL29wdC9kYXRhL3NraWxscy9gIOaWsOW7uuebruW9le+8jOaXpeenr+aciOe0r+WvvOiHtDE4NeS4quS4gOe6p+WIhuexu++8jOWkp+mDqOWIhuWPquaciTF+MuS4qnNraWxs44CCCgojIyDop6PlhrPmlrnmoYgKCuWcqCBgYXV0b19pbnRlZ3JhdG9yLnB5YCDph4zliqDlrojmiqTop4TliJnvvIwz5Liq5Yqo5L2c77yaCgp8IOaDheWGtSB8IOWkhOeQhiB8CnwtLS0tLS18LS0tLS0tfAp8IOWNlXNraWxs55uu5b2V77yI4omkMuS4qlNLSUxMLm1k77yJIHwgKiroh6rliqgqKuenu+WFpSBga25vd2xlZGdlL2AgfAp8IOS4jeWcqOeZveWQjeWNleeahOaWsHRvcC1sZXZlbOebruW9lSB8IOmihOitpuiusOW9le+8jOetieS6uuW3peehruiupCB8Cnwg56m655uu5b2VIHwg5aSH5Lu95ZCO5Yig6ZmkIHwKCiMjIOeZveWQjeWNle+8iDIw5Liq5ZCI5rOV5LiA57qn5YiG57G777yMMjAyNi0wNi0wOOabtOaWsO+8iQoKYGBgcHl0aG9uCkFMTE9XRURfVE9QX0xFVkVMID0gewogICAgImFwcGxlIiwgImJyYWluIiwgImJyYWluLXN5c3RlbSIsICJjcmVhdGl2ZSIsICJkZWJ1ZyIsCiAgICAiZGV2b3BzIiwgImV2ZXJvcyIsICJnYW1pbmciLCAiZ2l0aHViIiwgImtub3dsZWRnZSIsCiAgICAibWNwIiwgIm1lZGlhIiwgIm1ldGhvZG9sb2d5IiwgICMgMjAyNi0wNi0wOCDmlrDlop4KICAgICJtbG9wcyIsICJwcm9kdWN0aXZpdHkiLCAicmVzZWFyY2giLAogICAgInNvZnR3YXJlLWRldmVsb3BtZW50IiwgInN5c3RlbSIsICJzeXN0ZW0tbWFpbnRlbmFuY2UiLCAid29ya2Zsb3ciLAp9CmBgYAoKIyMg5L2/55So5pa55rOVCgpgYGBiYXNoCiMg5omL5Yqo6L+Q6KGMCnB5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvYXV0b19pbnRlZ3JhdG9yLnB5IC0tZ3VhcmQKCiMg5q+P5ZGo5LiA6Ieq5Yqo6LeR77yI5bey6YWN572uY3JvbiBqb2JfaWQ6IGEzM2NmZDY5ZGM5MO+8iQpgYGAKCiMjIOWFs+mUruaVmeiure+8iOiejeWQiOW/heivu++8iQoKIyMjIOiejeWQiOWJjeW/hemhu+WBmueahOS6iwoKMS4gKirlhYjmiavmj48qKiDigJQgYG9zLndhbGtgIOe7n+iuoeavj+S4quWIhuexu+eahCBTS0lMTC5tZCDmlbDph48KMi4gKirlhYjlpIfku70qKiDigJQgYGNwIC1yIC9vcHQvZGF0YS9za2lsbHMvIC9vcHQvZGF0YS9iYWNrdXBzL2AKMy4gKirmiavnqbrnm67lvZXpmpDol4/mlofku7YqKiDigJQg56m655uu5b2V5Y+v6IO95pyJIERFU0NSSVBUSU9OLm1kCjQuICoq5om+56Gs57yW56CB6Lev5b6EKiog4oCUIGBhdXRvX2ludGVncmF0b3IucHlgIOmHjCBET01BSU5TLnRhcmdldF9maWxlcyDlj6/og73lvJXnlKjml6fot6/lvoQKNS4gKirpqozor4Fjcm9uKiog4oCUIGpvYnMuanNvbiDkuI3lupTlvJXnlKhza2lsbOebruW9lei3r+W+hAoKIyMjIOiejeWQiOS4reeahOmZt+mYsQoKfCDpmbfpmLEgfCDlj5HnjrDmlrnlvI8gfCDop6PlhrPmlrnmoYggfAp8LS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLS0tLXwKfCBleGVjdXRlX2NvZGUgc2FuZGJveCDnnIvkuI3liLDmlofku7YgfCDovpPlh7rkuLrnqbov5peg6L6T5Ye6IHwg55SoIGB0ZXJtaW5hbGAg5ZG95LukIHwKfCDmlaPokL0ubWTkuI3mmK9za2lsbCB8IOebruW9lTAgc2tpbGzkvYbmnIkubWQgfCDmo4Dmn6Ugb3MubGlzdGRpciB8Cnwg56m655uu5b2V5pyJ6ZqQ6JeP5paH5Lu2IHwg55uu5b2VMCBza2lsbOS9huaXoOazlXJtZGlyIHwg6YCQ5Liq5paH5Lu25qOA5p+lIHwKfCBza2lsbF92aWV3IOeUqCBuYW1lIOWtl+autSB8IOebruW9lemHjee7hOS4jeegtOWdjyBza2lsbF92aWV3IHwg5LiN6ZyA6KaB5pS5IHwKfCBhdXRvX2ludGVncmF0b3Ig56Gs57yW56CB6Lev5b6EIHwgZ3JlcCB0YXJnZXRfZmlsZXMgfCDmiYvliqjkv64gfAp8IGNyb27nlKhza2lsbOWQjeS4jei3r+W+hCB8IGpvYnMuanNvbuaXoHNraWxscy/ot6/lvoTlvJXnlKggfCDlronlhaggfAp8IHZlcnNpb25faGlzdG9yeeWQqy5tZOmdnlNLSUxMLm1kIHwg57uf6K6h5Y+q55yLU0tJTEwubWQgfCDop4bkuLrnqbrnm67lvZXmuIXnkIYgfAp8IERpckVudHJ55ZyobW92ZeWQjuWkseaViCB8IOmHjeWkjeaJp+ihjOesrDLmrKHmiqXplJkgfCDpooTmjZXojrdzcmNfcGF0aOWtl+espuS4siB8Cnwg6Leo6K6+5aSHRVhERVYgfCBEb2NrZXIgb3ZlcmxheeWcuuaZryB8IGNvcHl0cmVlK3JtdHJlZeWFnOW6lSB8Cnwg5bmC562J6YeN6LeRRmlsZUV4aXN0c0Vycm9yIHwg56ys5LqM5qyh5omn6KGM5bSp5rqDIHwg5qOA5p+lZHN0X2JhY2t1cC5leGlzdHMoKSB8CgojIyMg6J6N5ZCI5ZCO55qE55yf5a6e5b2x5ZON54K5Cgrlj6rmnIkgYGF1dG9faW50ZWdyYXRvci5weWAg6YeM55qEIGBET01BSU5TWyJ0YXJnZXRfZmlsZXMiXWAg5piv5Y2x6Zmp5Yy677yM5YW25LuW77yI5Zmo5a6YL+iEmuacrC9jcm9u77yJ6YO95a6J5YWo44CCCg==
+---
+name: skills-directory-guard
+description: Skills目录守护系统 — 防止skills/目录碎片化的长期机制。单skill目录自动归入knowledge/，空目录清理，新top-level目录预警。每周一自动跑。
+triggers:
+  - 审计skills/目录结构
+  - 发现单skill目录散落在一级目录
+  - 防止skills/持续碎片化
+  - 每次挖宝/学习后检查
+notes:
+  - 核心代码：/opt/data/scripts/auto_integrator.py --guard
+  - 白名单：20个合法一级分类（含methodology，2026-06-08更新）
+  - 执行前先备份：cp -r /opt/data/skills/ /opt/data/backups/skills_pre_guard/
+  - 实战：2026-06-04 从185个分类压缩到19个，489→488个skill，全过程无损
+  - 已知Bug修复：DirEntry失效/跨设备EXDEV/幂等FileExistsError（2026-06-08）
+version: 1.1
+---
+
+## ⚠️ auto_integrator.py --guard 的3个已知Bug（2026-06-08修复）
+
+### Bug 1: DirEntry 路径缓存失效（严重）
+- **症状**：`shutil.move(str(entry), ...)` 后 `FileNotFoundError: No such file or directory`
+- **根因**：`os.scandir()` 返回的 `DirEntry` 对象在 `os.rename()` 成功后缓存失效，后续访问 `entry.path` 报错
+- **修复**：循环开始时预捕获 `src_path = entry.path`，后续全部使用字符串路径
+```python
+src_path = entry.path   # 预先捕获
+src_name = entry.name
+# 后续用 src_path 而非 entry.path
+shutil.move(src_path, str(dst))
+```
+
+### Bug 2: 跨设备移动 EXDEV 崩溃（严重）
+- **症状**：`OSError: [Errno 18] Invalid cross-device link` 导致中途崩溃
+- **根因**：Docker overlay 层与宿主机路径间移动触发 EXDEV（Unix跨文件系统移动限制）
+- **修复**：
+```python
+try:
+    shutil.move(src_path, str(dst))
+except OSError as e:
+    if e.errno == 18:  # EXDEV
+        shutil.copytree(src_path, str(dst))
+        shutil.rmtree(src_path)
+    else:
+        raise
+```
+
+### Bug 3: 幂等重复运行 FileExistsError（中等）
+- **症状**：重复执行时报 `FileExistsError`（备份目标已存在）
+- **根因**：跨 run 时同日期备份目录已存在，`copytree(dirs_exist_ok=False)`
+- **修复**：空目录清理前检查备份目标是否已存在
+```python
+dst_backup = backup_dir / entry.name
+if dst_backup.exists():
+    shutil.rmtree(entry.path)  # 直接删除，已备份过
+else:
+    shutil.copytree(entry.path, dst_backup)
+    shutil.rmtree(entry.path)
+```
+
+## 白名单管理要点
+
+- `methodology/` 含3个有效skill（deep-source-analysis-workflow等），需加入白名单
+- `version_history/` 可能含 `.md` 但非 `SKILL.md`，仍视为"空目录"清理
+- 游离的 `.md` 单文件技能（如 `agent-zero.md`、`agenticSeek.md`）是 GitHub 挖宝产物，应保留在顶层或移入 `knowledge/`
+
+# 三波融合工作流（2026-06-04实战）
+
+## 第一波：清理无效skill
+
+**操作**：删除 `_archived/` + `version_history/` + 25个散落根目录.md文件
+
+**注意**：先扫描根目录散落文件，`.md`文件可能是知识沉淀（比如 `brain-core-principles.md`），只删收集癖残留
+
+## 第二波：同名目录合并
+
+**操作**：
+- 5个brain相关目录 → 2个集中（brain-system-maintenance/integration → brain-system，brain-team-architecture → brain）
+- 6个feishu skill → 1个统一的 `feishu-card-builder`
+- 删前先 `shutil.copytree` 备份
+
+## 第三波：分类压缩（最关键）
+
+**扫描阶段**：
+```python
+# 统计每个一级分类的skill数量
+for entry in os.scandir(skills_dir):
+    cnt = sum(1 for r,d,f in os.walk(entry.path) for f in f if f == "SKILL.md")
+```
+结果：185个分类里167个只有1~2个skill → 全部移入 `knowledge/`
+
+**移动策略**：
+- 有.py脚本的可执行skill → 融入对应分类
+- 办公/ML/基础设施 → 对应已有分类
+- 其余 → `knowledge/`
+
+**空目录陷阱**：空目录可能有 DESCRIPTION.md，先 `os.listdir` 再判断
+
+## 真实影响点
+
+只有 `auto_integrator.py` 的 DOMAINS.target_files 硬编码路径需要修：
+```python
+# 之前
+"/opt/data/skills/auto-learning/SKILL.md"
+"/opt/data/skills/skill-creator/SKILL.md"
+# 之后
+"/opt/data/skills/knowledge/auto-learning/SKILL.md"
+"/opt/data/skills/knowledge/skill-creator/SKILL.md"
+```
+
+## 最终结果（2026-06-04）
+
+```
+185个分类 → 19个分类
+488个skill无损
+0个空目录
+0个旧路径引用
+备份：1.6MB /opt/data/backups/skills_cleanup_20260604_013831/
+```
+
+## 最终结果（2026-06-08）
+
+```
+20个分类，494个skill
+单skill目录归位3个（秘书处架构升级工作流引擎等）
+空目录清理5个（domain/inference-sh/smart-home/social-media/version_history）
+methodology 纳入白名单
+✅ Skills目录结构健康，无需干预
+备份：/opt/data/backups/skills_guard_2026-06-08/
+```
+
+## 长期守护
+
+每周一 08:00 自动跑 `--guard`，单skill目录自动归位，空目录自动清理，新目录预警。
+
+# Skills目录守护系统
+
+## 核心问题
+
+每次挖宝/学习都会在 `/opt/data/skills/` 新建目录，日积月累导致185个一级分类，大部分只有1~2个skill。
+
+## 解决方案
+
+在 `auto_integrator.py` 里加守护规则，3个动作：
+
+| 情况 | 处理 |
+|------|------|
+| 单skill目录（≤2个SKILL.md） | **自动**移入 `knowledge/` |
+| 不在白名单的新top-level目录 | 预警记录，等人工确认 |
+| 空目录 | 备份后删除 |
+
+## 白名单（20个合法一级分类，2026-06-08更新）
+
+```python
+ALLOWED_TOP_LEVEL = {
+    "apple", "brain", "brain-system", "creative", "debug",
+    "devops", "everos", "gaming", "github", "knowledge",
+    "mcp", "media", "methodology",  # 2026-06-08 新增
+    "mlops", "productivity", "research",
+    "software-development", "system", "system-maintenance", "workflow",
+}
+```
+
+## 使用方法
+
+```bash
+# 手动运行
+python3 /opt/data/scripts/auto_integrator.py --guard
+
+# 每周一自动跑（已配置cron job_id: a33cfd69dc90）
+```
+
+## 关键教训（融合必读）
+
+### 融合前必须做的事
+
+1. **先扫描** — `os.walk` 统计每个分类的 SKILL.md 数量
+2. **先备份** — `cp -r /opt/data/skills/ /opt/data/backups/`
+3. **扫空目录隐藏文件** — 空目录可能有 DESCRIPTION.md
+4. **找硬编码路径** — `auto_integrator.py` 里 DOMAINS.target_files 可能引用旧路径
+5. **验证cron** — jobs.json 不应引用skill目录路径
+
+### 融合中的陷阱
+
+| 陷阱 | 发现方式 | 解决方案 |
+|------|----------|----------|
+| execute_code sandbox 看不到文件 | 输出为空/无输出 | 用 `terminal` 命令 |
+| 散落.md不是skill | 目录0 skill但有.md | 检查 os.listdir |
+| 空目录有隐藏文件 | 目录0 skill但无法rmdir | 逐个文件检查 |
+| skill_view 用 name 字段 | 目录重组不破坏 skill_view | 不需要改 |
+| auto_integrator 硬编码路径 | grep target_files | 手动修 |
+| cron用skill名不路径 | jobs.json无skills/路径引用 | 安全 |
+| version_history含.md非SKILL.md | 统计只看SKILL.md | 视为空目录清理 |
+| DirEntry在move后失效 | 重复执行第2次报错 | 预捕获src_path字符串 |
+| 跨设备EXDEV | Docker overlay场景 | copytree+rmtree兜底 |
+| 幂等重跑FileExistsError | 第二次执行崩溃 | 检查dst_backup.exists() |
+
+### 融合后的真实影响点
+
+只有 `auto_integrator.py` 里的 `DOMAINS["target_files"]` 是危险区，其他（器官/脚本/cron）都安全。

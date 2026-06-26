@@ -1,1 +1,65 @@
-LS0tCm5hbWU6IG5hcy1jbG9jay1kcmlmdC0xNmgKZGVzY3JpcHRpb246IE5BU+aXtumSn+WBj+W3rjE25bCP5pe26Zeu6aKY6K+K5pat5LiO5L+u5aSN77yMMjAyNi0wNi0xMOWHjOaZqOWPkeeOsAp0YWdzOiBbbmFzLCBjcm9uLCBjbG9jaywgYnVnXQotLS0KCiMgTkFT5pe26ZKf5YGP5beuMTblsI/ml7YgLSDpl67popjor4rmlq3kuI7kv67lpI0KCioq5Y+R546w5pe26Ze077yaKiogMjAyNi0wNi0xMCDlh4zmmaggIAoqKuS4pemHjeaAp++8mioqIOmrmO+8iOW9seWTjUNyb27osIPluqbvvIkKCiMjIOeXh+eKtgoKLSBgZGF0ZWAg5pi+56S6IENTVDogYFdlZCBKdW4gMTAgMDQ6MTg6MTIgQ1NUIDIwMjZg77yI5YeM5pmoNOeCue+8iQotIFVUQ+aXtumXtDogYFdlZCBKdW4gMTAgMjA6MTg6MTIgVVRDIDIwMjZg77yI5pma5LiKOOeCue+8iQotICoq5beu5YC877yaMTblsI/ml7YqKu+8iENTVOavlFVUQ+aFojE25bCP5pe277yJCi0gSGVybWVzIHNjaGVkdWxlciBjcm9u5Lu75Yqh5YWo6YOo5aSx5pWI77yaCiAgLSAwNDowNeS7u+WKoSDihpIg57O757uf6K6k5Li6IuW3sui/hyIKICAtIDIwOjEw5Lu75YqhIOKGkiDns7vnu5/orqTkuLoiMTPlsI/ml7blkI4iCgojIyDmoLnlm6AKCk5BU+ehrOS7tuaXtumSn+aIlk5UUOWQjOatpeaNn+Wdj++8jENTVOaXtuWMuuWBj+enu+mUmeivr+OAggoKIyMg5L+u5aSN5pa55qGICgojIyMg5pa55qGIMe+8muS/ruWkjU5BU+ezu+e7n+aXtumSn++8iOaOqOiNkO+8iQpgYGBiYXNoCiMg5omL5Yqo5ZCM5q2lTlRQCnN1ZG8gbnRwZGF0ZSBwb29sLm50cC5vcmcKCiMg5oiW6K6+572u56Gs5Lu25pe26ZKfCnN1ZG8gaHdjbG9jayAtLXN5c3RvaGMgLS11dGMKc3VkbyB0aW1lZGF0ZWN0bCBzZXQtdGltZXpvbmUgQXNpYS9TaGFuZ2hhaQpgYGAKCiMjIyDmlrnmoYgy77ya57uV6L+HQ3Jvbu+8jOeUqEBob3VybHkK5ZyoIGpvYnMuanNvbiDkuK3pgb/lhY3nsr7noa7liIbpkp/vvIzmlLnnlKggYCJjcm9uIjogIkBob3VybHkiYCDmiJYgYCJjcm9uIjogIjAgKiAqICogKiJg77yI5q+P5pW054K577yJ6ZmN5L2O5pe26Ze057K+5bqm5L6d6LWW44CCCgojIyMg5pa55qGIM++8muS6i+S7tumpseWKqOabv+S7o0Nyb27vvIjmnIDnqLPvvIkK55uR5o6n57G75Lu75YqhIOKGkiB3YXRjaGRvZ+aWh+S7tuebkeaOp+abv+S7o+WumuaXtui9ruivoiAgCuWBpeW6t+exu+S7u+WKoSDihpIgZGFlbW9u5bi46am7K+mYiOWAvOinpuWPkSAgCuWPquacieecn+ato+mcgOimgeeyvuehruaXtumXtOeCueaJjeeUqGNyb24KCiMjIOW9seWTjeiMg+WbtAoKLSBgaGVybWVzX2Nyb25gIGpvYnMuanNvbiDmiYDmnInku7vliqHlj6/og73osIPluqblvILluLgKLSDkvp3otZbns7vnu5/ml7bpl7TnmoTlip/og73vvIjmtL7lt6Xmnb/otoXml7bmuIXnkIbjgIFyZXN1bHRfYm9hcmQgVFRM562J77yJ5Y+v6IO95aSx5pWICi0g5aSn6JOd5Zu+UDDoh6rliqjljJbku7vliqHmjpLkuoZjcm9u5L2G5pyq6Kem5Y+R77yM6ZyA5L+u5aSN5ZCO5omL5Yqo6aqM6K+BCgojIyDpqozor4Hlkb3ku6QKCmBgYGJhc2gKIyDmn6Xml7bpkp8KZGF0ZQpod2Nsb2NrIC1yCgojIOafpWhlcm1lcyBjcm9u5Lu75Yqh54q25oCBCmNhdCAvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb24gfCBweXRob24zIC1jICJpbXBvcnQganNvbixzeXM7IFtwcmludChqWyduYW1lJ10sai5nZXQoJ2xhc3RfcnVuX2F0JykpIGZvciBqIGluIGpzb24ubG9hZChzeXMuc3RkaW4pWydqb2JzJ11dIgpgYGAKCiMjIOeKtuaAgQoKLSDlj5HnjrDvvJoyMDI2LTA2LTEwIDA0OjE4Ci0g562J5b6F77ya6JGj5ZOl552h6YaS5ZCO5omL5Yqo5L+u5aSNTkFT5pe26ZKf77yM5YaN6aqM6K+B5aSn6JOd5Zu+UDDku7vliqEK
+---
+name: nas-clock-drift-16h
+description: NAS时钟偏差16小时问题诊断与修复，2026-06-10凌晨发现
+tags: [nas, cron, clock, bug]
+---
+
+# NAS时钟偏差16小时 - 问题诊断与修复
+
+**发现时间：** 2026-06-10 凌晨  
+**严重性：** 高（影响Cron调度）
+
+## 症状
+
+- `date` 显示 CST: `Wed Jun 10 04:18:12 CST 2026`（凌晨4点）
+- UTC时间: `Wed Jun 10 20:18:12 UTC 2026`（晚上8点）
+- **差值：16小时**（CST比UTC慢16小时）
+- Hermes scheduler cron任务全部失效：
+  - 04:05任务 → 系统认为"已过"
+  - 20:10任务 → 系统认为"13小时后"
+
+## 根因
+
+NAS硬件时钟或NTP同步损坏，CST时区偏移错误。
+
+## 修复方案
+
+### 方案1：修复NAS系统时钟（推荐）
+```bash
+# 手动同步NTP
+sudo ntpdate pool.ntp.org
+
+# 或设置硬件时钟
+sudo hwclock --systohc --utc
+sudo timedatectl set-timezone Asia/Shanghai
+```
+
+### 方案2：绕过Cron，用@hourly
+在 jobs.json 中避免精确分钟，改用 `"cron": "@hourly"` 或 `"cron": "0 * * * *"`（每整点）降低时间精度依赖。
+
+### 方案3：事件驱动替代Cron（最稳）
+监控类任务 → watchdog文件监控替代定时轮询  
+健康类任务 → daemon常驻+阈值触发  
+只有真正需要精确时间点才用cron
+
+## 影响范围
+
+- `hermes_cron` jobs.json 所有任务可能调度异常
+- 依赖系统时间的功能（派工板超时清理、result_board TTL等）可能失效
+- 大蓝图P0自动化任务排了cron但未触发，需修复后手动验证
+
+## 验证命令
+
+```bash
+# 查时钟
+date
+hwclock -r
+
+# 查hermes cron任务状态
+cat /opt/data/cron/jobs.json | python3 -c "import json,sys; [print(j['name'],j.get('last_run_at')) for j in json.load(sys.stdin)['jobs']]"
+```
+
+## 状态
+
+- 发现：2026-06-10 04:18
+- 等待：董哥睡醒后手动修复NAS时钟，再验证大蓝图P0任务

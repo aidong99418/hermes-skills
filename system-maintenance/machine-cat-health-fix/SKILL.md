@@ -1,1 +1,67 @@
-LS0tCm5hbWU6IG1hY2hpbmUtY2F0LWhlYWx0aC1maXgKZGVzY3JpcHRpb246IOacuuWZqOeMq+WBpeW6t+W6puiHquajgOS4juS/ruWkjeaJi+WGjCDigJQg5b+r6YCf6K+K5pat5YGl5bq35YiG5L2OL+WZqOWumOW8guW4uC9jcm9u5YGH5q2777yM6L6T5Ye6MTAwJeWBpeW6t+W6puOAguinpuWPke+8muWBpeW6t+W6pjwxMDAl44CB5Zmo5a6Y5oql6ZSZ44CBY3JvbuS7u+WKoeS4jeWKqOOAggp0cmlnZ2VyczogWyLlgaXlurciLCAi6K+K5patIiwgIuajgOafpSJdCnRhZ3M6IFvlgaXlurfmo4Dmn6UsIOaVhemanOS/ruWkjSwg5Zmo5a6Y57O757ufLCBjcm9uXQp2ZXJzaW9uOiAxLjAKY3JlYXRlZDogMjAyNi0wNi0wNQotLS0KCiMg5py65Zmo54yr5YGl5bq35bqm6Ieq5qOA5LiO5L+u5aSN5omL5YaMCgojIyDlv6vpgJ/oh6rmo4AKCmBgYHB5dGhvbgppbXBvcnQgc3lzCnN5cy5wYXRoLmluc2VydCgwLCAnL29wdC9kYXRhL29yZ2FucycpCmltcG9ydCBhdXRvX2hlYWxpbmcKYWggPSBhdXRvX2hlYWxpbmcuQXV0b0hlYWxpbmdPcmdhbigpCnJlc3VsdCA9IGFoLmZ1bGxfaGVhbHRoX2NoZWNrKCkKcHJpbnQoZiLlgaXlurfluqY6IHtyZXN1bHRbJ3Njb3JlJ119JSB8IOWfuuehgDp7cmVzdWx0Wyfln7rnoYAnXX0gfCDlmajlrpg6e3Jlc3VsdFsn5Zmo5a6YJ119IikKYGBgCgojIyDluLjop4HmlYXpmpzkv67lpI0KCiMjIyDlgaXlurfliIY8OTAlIOKGkiDkuInlsYLmjpLmn6UKCioq4pGgIOWtl+auteWQjemUmeivryoq77yaYGhlYWx0aF9jaGVjaygpYCDov5Tlm54gYHsic3RhdHVzIjoib2sifWAg6ICM6Z2eIGB7ImhlYWx0aHkiOlRydWV9YO+8jOWvvOiHtOivr+WIpOS4jeWBpeW6t+OAggrmo4Dmn6XvvJpgZ3JlcCAtbiAiZGVmIGhlYWx0aF9jaGVjayIgL29wdC9kYXRhL29yZ2Fucy8qLnB5YCArIGBncmVwIC1uICJyZXR1cm4iIC9vcHQvZGF0YS9vcmdhbnMvKi5weWAK5L+u5aSN77ya5YWo6YOo5pS55Li6IGByZXR1cm4geyJoZWFsdGh5IjogVHJ1ZX1g44CCCgoqKuKRoSDlmajlrpjor4TliIbliIbmr41idWcqKu+8muaXoCBgaGVhbHRoX2NoZWNrKClgIOeahOWZqOWumOiiq+iuoeWFpeWIhuavje+8jOWkmuaJo+WIhuOAggrkv67lpI3vvJrku4Xlr7nmnIkgYGhlYWx0aF9jaGVjaygpYCDkuJTlkKsgYGhlYWx0aHlgIOWtl+auteeahOWZqOWumOiuoeWFpeWIhuavjeOAggoKKirikaIg5YWN55arY3Jvbuato+WImWJ1Zyoq77yaYF5bMC05XSRgIOWPquWMuemFjTHkvY3mlbDliIbpkp/vvIwz5L2N5pWw77yI5aaCMTU25YiG6ZKf77yJ6KKr6K+v5Yik6L+f5Yiw44CCCuS/ruWkje+8muaUueS4uiBgXlswLTldezEsM30kYOOAggoKIyMjIGNyb27ku7vliqHlgYfmrbsKCuiviuaWre+8mmBscyAtbHQgL29wdC9kYXRhL2Nyb24vb3V0cHV0Lzxqb2JfaWQ+L2AgKyBgL29wdC9oZXJtZXMvLnZlbnYvYmluL2hlcm1lcyBjcm9uIHN0YXR1c2AK6Ieq5oSI77yI5peg6ZyA6YeN5ZCvc2NoZWR1bGVy77yJ77yaYC9vcHQvaGVybWVzLy52ZW52L2Jpbi9oZXJtZXMgY3JvbiBydW4gPGpvYl9pZD5gCgojIyMg5L+u5pS5LnB55ZCO5LiN55Sf5pWICgrljp/lm6DvvJpQeXRob27nvJPlrZjkuobml6flrZfoioLnoIHjgIIK5L+u5aSN77yaYGZpbmQgL29wdC9kYXRhIC1uYW1lIF9fcHljYWNoZV9fIC10eXBlIGQgLWV4ZWMgcm0gLXJmIHt9ICsgMj4vZGV2L251bGxgCgojIyMg5rS+5bel5p2/L+aIkOaenOadv+enr+WOiwoKYGBgcHl0aG9uCmltcG9ydCBqc29uCndpdGggb3BlbignL29wdC9kYXRhL3NlY3JldGFyeS9kaXNwYXRjaF9ib2FyZC5qc29uJykgYXMgZjoKICAgIGJvYXJkID0ganNvbi5sb2FkKGYpCiMg5L+d55WZ6Z2eZG9uZeeKtuaAgeeahOS7u+WKoe+8jOWGmeWbngpgYGAKCiMjIGhlYWx0aF9jaGVjaygpIOWlkee6pgoKYGBgcHl0aG9uCmRlZiBoZWFsdGhfY2hlY2soc2VsZikgLT4gZGljdDoKICAgIHJldHVybiB7ImhlYWx0aHkiOiBUcnVlfSAgIyDinJMKICAgICMgcmV0dXJuIHsic3RhdHVzIjogIm9rIn0gICAgIyDinJcKICAgICMgcmV0dXJuIHsiaGVhbHRoeSI6ICJvayJ9ICAgIyDinJcKYGBgCgojIyDnm67moIcKCuWBpeW6t+W6piAxMDAl77yM5peg5YO15bC46L+b56iL77yM5peg56ev5Y6L5Lu75Yqh77yM5omA5pyJY3JvbuWcqOaJp+ihjOOAggo=
+---
+name: machine-cat-health-fix
+description: 机器猫健康度自检与修复手册 — 快速诊断健康分低/器官异常/cron假死，输出100%健康度。触发：健康度<100%、器官报错、cron任务不动。
+triggers: ["健康", "诊断", "检查"]
+tags: [健康检查, 故障修复, 器官系统, cron]
+version: 1.0
+created: 2026-06-05
+---
+
+# 机器猫健康度自检与修复手册
+
+## 快速自检
+
+```python
+import sys
+sys.path.insert(0, '/opt/data/organs')
+import auto_healing
+ah = auto_healing.AutoHealingOrgan()
+result = ah.full_health_check()
+print(f"健康度: {result['score']}% | 基础:{result['基础']} | 器官:{result['器官']}")
+```
+
+## 常见故障修复
+
+### 健康分<90% → 三层排查
+
+**① 字段名错误**：`health_check()` 返回 `{"status":"ok"}` 而非 `{"healthy":True}`，导致误判不健康。
+检查：`grep -n "def health_check" /opt/data/organs/*.py` + `grep -n "return" /opt/data/organs/*.py`
+修复：全部改为 `return {"healthy": True}`。
+
+**② 器官评分分母bug**：无 `health_check()` 的器官被计入分母，多扣分。
+修复：仅对有 `health_check()` 且含 `healthy` 字段的器官计入分母。
+
+**③ 免疫cron正则bug**：`^[0-9]$` 只匹配1位数分钟，3位数（如156分钟）被误判迟到。
+修复：改为 `^[0-9]{1,3}$`。
+
+### cron任务假死
+
+诊断：`ls -lt /opt/data/cron/output/<job_id>/` + `/opt/hermes/.venv/bin/hermes cron status`
+自愈（无需重启scheduler）：`/opt/hermes/.venv/bin/hermes cron run <job_id>`
+
+### 修改.py后不生效
+
+原因：Python缓存了旧字节码。
+修复：`find /opt/data -name __pycache__ -type d -exec rm -rf {} + 2>/dev/null`
+
+### 派工板/成果板积压
+
+```python
+import json
+with open('/opt/data/secretary/dispatch_board.json') as f:
+    board = json.load(f)
+# 保留非done状态的任务，写回
+```
+
+## health_check() 契约
+
+```python
+def health_check(self) -> dict:
+    return {"healthy": True}  # ✓
+    # return {"status": "ok"}    # ✗
+    # return {"healthy": "ok"}   # ✗
+```
+
+## 目标
+
+健康度 100%，无僵尸进程，无积压任务，所有cron在执行。

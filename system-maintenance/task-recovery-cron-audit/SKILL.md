@@ -1,1 +1,53 @@
-LS0tCm5hbWU6IHRhc2stcmVjb3ZlcnktY3Jvbi1hdWRpdApkZXNjcmlwdGlvbjogdGFza19yZWNvdmVyeV9jcm9uLnB5IOaJp+ihjOS4juWuoeiuoeinhOiMgyDigJQg6ISa5pys6Z2Z6buY5oiQ5Yqf6K6+6K6h77yM5q2j56Gu5a6h6K6h5pa55rOVCnRyaWdnZXJzOgogIC0g5omn6KGMIHRhc2tfcmVjb3ZlcnlfY3Jvbi5weSDlkI7pqozor4Hnu5PmnpwKICAtIOa0vuW3peadv+S7u+WKoeWNoeS9j+aOkuafpQogIC0gcmVzdWx0X2JvYXJkIOaOqOmAgeeuoemBk+W8guW4uAotLS0KCiMgdGFza19yZWNvdmVyeV9jcm9uLnB5IOaJp+ihjOS4juWuoeiuoeinhOiMgwoKIyMg6Kem5Y+R5Zy65pmvCuaJp+ihjCB0YXNrX3JlY292ZXJ5X2Nyb24ucHkg5ZCO77yM6ZyA6KaB6aqM6K+B5piv5ZCm55yf5q2j5a6M5oiQ5LqG5oGi5aSN5pON5L2c44CCCgojIyDlhbPplK7lj5HnjrAKCiMjIyAxLiDohJrmnKzorr7orqHvvJrpnZnpu5jmiJDlip8KLSBleGl0X2NvZGU9MCDkvYYgc3Rkb3V0L3N0ZGVyciDlhajnqbrmmK/mraPluLjnjrDosaEKLSDmiYDmnInmk43kvZzml6Xlv5flhpnlhaUgYC9vcHQvZGF0YS9zZWNyZXRhcnkvbG9ncy9yZWNvdmVyeS9yZWNvdmVyeV9ZWVlZTU1ERC5sb2dgCi0g5LiN5Lqn55Sf5Lu75L2V57uI56uv6L6T5Ye677yI6K6+6K6h5aaC5q2k77yJCgojIyMgMi4g5a6h6K6h5q2j56Gu5pa55rOVCmBgYHB5dGhvbgojIOivu+a0vuW3peadvwppbXBvcnQganNvbgp3aXRoIG9wZW4oIi9vcHQvZGF0YS9zZWNyZXRhcnkvZGlzcGF0Y2hfYm9hcmQuanNvbiIpIGFzIGY6CiAgICBkaXNwYXRjaCA9IGpzb24ubG9hZChmKQpmb3IgdCBpbiBkaXNwYXRjaC5nZXQoInRhc2tzIiwgW10pOgogICAgcHJpbnQoZiJbe3RbJ3N0YXR1cyddfV0ge3QuZ2V0KCd0YXNrX2lkJywnPycpfSB8IHt0LmdldCgnd29ya2VyX3R5cGUnLCc/Jyl9IHwgY3JlYXRlZD17dC5nZXQoJ2NyZWF0ZWRfYXQnKX0iKQoKIyDor7vnu5Pmnpzmnb8Kd2l0aCBvcGVuKCIvb3B0L2RhdGEvc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uIikgYXMgZjoKICAgIHJlc3VsdCA9IGpzb24ubG9hZChmKQpmb3IgciBpbiByZXN1bHQuZ2V0KCJyZXN1bHRzIiwgW10pOgogICAgcHJpbnQoZiJbe3IuZ2V0KCdzdGF0dXMnKX1dIHtyLmdldCgnZnJvbV9kaXNwYXRjaF9pZCcsJz8nKX0gfCB7ci5nZXQoJ2Zyb21fc2VjcmV0YXJ5JywnPycpfSIpCmBgYAoKIyMjIDMuIHBlbmRpbmdfb3JwaGFuZWQg5Lu75Yqh5LiN5Lya6KKr6Ieq5Yqo5riF55CGCi0g6ISa5pys5Y+q5oGi5aSNIGBwcm9jZXNzaW5nYCDnirbmgIHku7vliqHvvIjotoXml7bph43nva7kuLogcGVuZGluZ++8iQotIGBwZW5kaW5nX29ycGhhbmVkYCDku7vliqHkuI3kvJrooqvoh6rliqjliKDpmaTmiJbph43nva4KLSDpnIDopoHkurrlt6XlhrPnrZbmmK/lkKbmiYvliqjmuIXnkIYKLSDliKTmlq3moIflh4bvvJpjcmVhdGVkX2F0IOi2hei/hyAyaCDml6Agd29ya2VyIOiupOmihiDihpIg5a2k56uL5Lu75YqhCgojIyMgNC4g5omn6KGM5ZG95LukCmBgYGJhc2gKcHl0aG9uMyAvb3B0L2RhdGEvc2NyaXB0cy90YXNrX3JlY292ZXJ5X2Nyb24ucHkKYGBgCgojIyDlrqHorqHmo4Dmn6XmuIXljZUKMS4g6K+75pel5b+X5paH5Lu256Gu6K6k5pys5qyh5omn6KGM5pyJ6K6w5b2VCjIuIOaJq+a0vuW3peadv++8mnByb2Nlc3Npbmc9MCDliJnml6DljaHkvY/ku7vliqEKMy4g5omrIHBlbmRpbmdfb3JwaGFuZWTvvJrliKTmlq3mmK/lkKbpnIDopoHmiYvliqjmuIXnkIYKNC4g5omr57uT5p6c5p2/77yacHVzaGVkIOaVsOmHj+WPmOWMluehruiupOaOqOmAgeeuoemBk+ato+W4uA==
+---
+name: task-recovery-cron-audit
+description: task_recovery_cron.py 执行与审计规范 — 脚本静默成功设计，正确审计方法
+triggers:
+  - 执行 task_recovery_cron.py 后验证结果
+  - 派工板任务卡住排查
+  - result_board 推送管道异常
+---
+
+# task_recovery_cron.py 执行与审计规范
+
+## 触发场景
+执行 task_recovery_cron.py 后，需要验证是否真正完成了恢复操作。
+
+## 关键发现
+
+### 1. 脚本设计：静默成功
+- exit_code=0 但 stdout/stderr 全空是正常现象
+- 所有操作日志写入 `/opt/data/secretary/logs/recovery/recovery_YYYYMMDD.log`
+- 不产生任何终端输出（设计如此）
+
+### 2. 审计正确方法
+```python
+# 读派工板
+import json
+with open("/opt/data/secretary/dispatch_board.json") as f:
+    dispatch = json.load(f)
+for t in dispatch.get("tasks", []):
+    print(f"[{t['status']}] {t.get('task_id','?')} | {t.get('worker_type','?')} | created={t.get('created_at')}")
+
+# 读结果板
+with open("/opt/data/secretary/result_board.json") as f:
+    result = json.load(f)
+for r in result.get("results", []):
+    print(f"[{r.get('status')}] {r.get('from_dispatch_id','?')} | {r.get('from_secretary','?')}")
+```
+
+### 3. pending_orphaned 任务不会被自动清理
+- 脚本只恢复 `processing` 状态任务（超时重置为 pending）
+- `pending_orphaned` 任务不会被自动删除或重置
+- 需要人工决策是否手动清理
+- 判断标准：created_at 超过 2h 无 worker 认领 → 孤立任务
+
+### 4. 执行命令
+```bash
+python3 /opt/data/scripts/task_recovery_cron.py
+```
+
+## 审计检查清单
+1. 读日志文件确认本次执行有记录
+2. 扫派工板：processing=0 则无卡住任务
+3. 扫 pending_orphaned：判断是否需要手动清理
+4. 扫结果板：pushed 数量变化确认推送管道正常

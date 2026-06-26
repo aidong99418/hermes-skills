@@ -1,1 +1,285 @@
-LS0tCm5hbWU6IHNlY3JldGFyeS1waXBlbGluZS1idWctcGF0dGVybnMKZGVzY3JpcHRpb246IOenmOS5puWkhOeuoemBk0J1Z+aooeW8j+iviuaWreS4juS/ruWkjSDigJQg5rS+5bel5p2/5qC85byP5pat6ZO+44CB5oiQ5p6c5p2/54q25oCB5py65pat6KOC44CBcmVzdWx0X2JvYXJk6L+B56e75py65Yi244CC6Kem5Y+R77ya5Lu75Yqh5Y2h5L2PL+mAmuefpeS4jeWIsC/nu5Pmnpznn7PmsonlpKfmtbfml7bns7vnu5/or4rmlq3jgIIKdHJpZ2dlcnM6IFsi56eY5LmmIiwgIuWNj+iwgyJdCnZlcnNpb246IDEuMAotLS0KCiMg56eY5Lmm5aSE566h6YGTQnVn5qih5byP6K+K5pat5LiO5L+u5aSNCgojIyDnu4/pqozmlZnorq3vvIgyMDI2LTA2LTAz5YWo6Z2i6K+K5pat5Zu65YyW77yJCgojIyMg5qC55Zug5YiG5bGC5qih5Z6LCgp8IOWxguasoSB8IOW4uOingUJ1ZyB8IOeXh+eKtiB8CnwtLS0tLS18LS0tLS0tLS18LS0tLS0tfAp8ICoq5qC85byP5bGCKiogfCDlhpnlhaXmlrnlkozor7vlj5bmlrkgc2NoZW1hIOS4jeS4gOiHtCB8IOivu+S4jeWIsOS7u+WKoeOAgeS7u+WKoea2iOWksSB8CnwgKirnirbmgIHmnLrlsYIqKiB8IOWGmeWFpeeKtuaAgSAhPSDor7vlj5bmlrnmnJ/mnJvnirbmgIEgfCByZXN1bHRfYm9hcmQg56ev5Y6L77yM5rC46L+c5o6o5LiN5Ye6IHwKfCAqKuaOqOmAgeWxgioqIHwgd2ViaG9vayDljaDkvY3nrKYgLyBvcGVuX21lc3NhZ2VfaWQg5aSx5pWIIHwg6YCa55+l55+z5rKJ5aSn5rW3IHwKfCAqKue9keWFs+WxgioqIHwgcmVjdXJzaW9uIGRlcHRoIOi/h+S9jiAvIHRpbWVvdXQg6L+H55+tIHwg5raI5oGv6KKr5Lii6Zif5YiX44CB5Lu75Yqh5YGa5LiA5Y2K6KKr56CNIHwKfCAqKuaJp+ihjOWxgioqIHwg5peg6K6k6aKG5py65Yi2IC8g5peg5a6I5oqk6L+b56iLIHwg5Lu75Yqh5YaZ6L+b5p2/5a2Q5L2G5rKh5Lq66LeRIHwKCi0tLQoKIyMgQnVn5qih5byPMO+8mmBfbWlncmF0ZV9ib2FyZCgpYCDov4Hnp7vpgLvovpHor6/liKTvvIgyMDI2LTA2LTA5IOaWsOWPkeeOsO+8iQoKIyMjIOeOsOixoQpgZGVwdXR5X3Jlc3VsdGAg5ZCv5Yqo5ZCO56uL5Y2zIGNyYXNo77yaYCdzdHInIG9iamVjdCBoYXMgbm8gYXR0cmlidXRlICdnZXQnYOOAguS9hiBgZGVwdXR5X2Rpc3BhdGNoYCDlkowgYGRlcHV0eV93b3JrZXJgIOWQjOagt+aciei/meS4quWHveaVsOWNtCLlronlhagi6L+Q6KGM44CCCgojIyMg5qC55Zug77ya6ZSZ6K+v55qE5qC85byP5qOA5rWL5p2h5Lu2CgrkuInmgIHmtL7lt6Xmnb/mnIkqKuS4ieenjeagvOW8jyoq77yaCi0gKirljp/lp4vmoLzlvI8qKu+8mmB7InRhc2tzIjogWy4uLl19YCDvvIjml6fmlbDnu4TvvIkKLSAqKuW9k+WJjeagvOW8jyoq77yaYHsidGFza3MiOiB7InBlbmRpbmciOiBbXSwgImRvbmUiOiB7fX19YCDvvIjml6AgYHByb2Nlc3NpbmdgIGtlee+8iQotICoq55yf5q2j5paw5qC85byPKirvvJpgeyJ0YXNrcyI6IHsicGVuZGluZyI6IFtdLCAicHJvY2Vzc2luZyI6IHt9LCAiZG9uZSI6IHt9fX1gIO+8iOS4ieaAgem9kOWFqO+8iQoK6L+B56e75Ye95pWw55qE5qOA5rWL5p2h5Lu25pyJ57y66Zm377yaCmBgYHB5dGhvbgojIOKdjCDplJnor6/mnaHku7YKaWYgInBlbmRpbmciIGluIGJvYXJkLmdldCgidGFza3MiLCB7fSkgYW5kICJwcm9jZXNzaW5nIiBpbiBib2FyZC5nZXQoInRhc2tzIiwge30pOgogICAgcmV0dXJuIGJvYXJkICAjIOiupOS4uuaYr+aWsOagvOW8j++8jOi3s+i/h+i/geenuwoKIyDlrp7pmYXmg4XlhrXvvJrlvZPliY3moLzlvI/mnIkgInBlbmRpbmciIOS9huaXoCAicHJvY2Vzc2luZyIg4oaSIOadoeS7tiBGYWxzZQojIOKGkiDplJnor6/otbDml6fov4Hnp7vot6/lvoQg4oaSIG9sZF90YXNrcyA9IHsicGVuZGluZyI6W10sImRvbmUiOnt9fQojIOKGkiDpgY3ljoYgZGljdC5pdGVtcygpIOKGkiDmi7/liLAgKCJwZW5kaW5nIiwgW10pIOWtl+espuS4smtleSDihpIgc3RyLmdldCgpIOS4jeWtmOWcqAojIOKGkiBkZXB1dHlfcmVzdWx0IGNyYXNo77yI5pegIGlzaW5zdGFuY2Ug5L+d5oqk77yJCiMg4oaSIGRlcHV0eV9kaXNwYXRjaC93b3JrZXIg5LiNIGNyYXNo77yI5pyJIGlzaW5zdGFuY2UodCwgZGljdCkg5L+d5oqk77yJ5L2G6L+B56e75Lmf6KKr6Lez6L+HCmBgYAoKIyMjIOWFs+mUruaVmeiurQotIOaciSBgaXNpbnN0YW5jZWAg5L+d5oqk55qE5Luj56CBKirkuI3nrYnkuo7mraPnoa4qKu+8jOWug+WPquaYr+mYsuatouS6hiBjcmFzaCDkvYblkIzml7YqKumdmem7mOi3s+i/hyoq5LqG6L+B56e76YC76L6RCi0g5qC85byP5qOA5rWL6KaB55SoKirmraPlkJHliKTmlq0qKu+8muWFiOehruiupOS4jeaYr+WOn+Wni+aVsOe7hOagvOW8j++8jOWGjeehruiupOS4jeaYr+aWsOagvOW8j++8jOWJqeS9meaJjeaYr+mcgOimgei/geenu+eahOaXp+agvOW8jwoKIyMjIOS/ruWkjeaooeadvwpgYGBweXRob24KZGVmIF9taWdyYXRlX2JvYXJkKGJvYXJkKToKICAgICIiIuaXp+agvOW8j+aVsOe7hOKGkuS4ieaAgee7k+aehO+8jOiHquWKqOaJp+ihjOS4gOasoSIiIgogICAgaWYgbm90IGlzaW5zdGFuY2UoYm9hcmQuZ2V0KCJ0YXNrcyIpLCBkaWN0KToKICAgICAgICByZXR1cm4gYm9hcmQgICMg5pei5LiN5piv5paw5qC85byP5Lmf5LiN5piv5pen5pWw57uE5qC85byP77yM5a6J5YWo6L+U5ZueCiAgICB0YXNrcyA9IGJvYXJkWyJ0YXNrcyJdCiAgICAjIOecn+ato+eahOaWsOagvOW8j++8mnRhc2tz5pivZGljdOS4lOWQjOaXtuaciXBlbmRpbmcoQXJyYXkp5ZKMcHJvY2Vzc2luZyhEaWN0KQogICAgaWYgInBlbmRpbmciIGluIHRhc2tzIGFuZCAicHJvY2Vzc2luZyIgaW4gdGFza3M6CiAgICAgICAgcmV0dXJuIGJvYXJkCiAgICAjIOW9k+WJjeagvOW8j++8iDIwMjYtMDYtMTDlkI7vvInvvJp0YXNrcz17InBlbmRpbmciOltdLCAiZG9uZSI6e31977yM5pegcHJvY2Vzc2luZyBrZXkKICAgIG9sZF90YXNrcyA9ICh0YXNrcy5nZXQoInBlbmRpbmciLCBbXSkKICAgICAgICAgICAgICAgICArIGxpc3QodGFza3MuZ2V0KCJkb25lIiwge30pLnZhbHVlcygpKQogICAgICAgICAgICAgICAgICsgbGlzdCh0YXNrcy5nZXQoInByb2Nlc3NpbmciLCB7fSkudmFsdWVzKCkpKQogICAgbmV3X3Rhc2tzID0geyJwZW5kaW5nIjogW10sICJwcm9jZXNzaW5nIjoge30sICJkb25lIjoge319CiAgICBmb3IgdCBpbiBvbGRfdGFza3M6CiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UodCwgZGljdCk6ICAjIOmYsuW+oe+8mui3s+i/h+mdnmRpY3TpobkKICAgICAgICAgICAgY29udGludWUKICAgICAgICBzaWQgPSB0LmdldCgiaWQiKSBvciB0LmdldCgidGFza19pZCIpIG9yIGYibGVnYWN5X3tsZW4obmV3X3Rhc2tzWydkb25lJ10pfSIKICAgICAgICBzdGF0dXMgPSB0LmdldCgic3RhdHVzIiwgInBlbmRpbmciKQogICAgICAgIGlmIHN0YXR1cyA9PSAiZG9uZSI6CiAgICAgICAgICAgIG5ld190YXNrc1siZG9uZSJdW3NpZF0gPSB0CiAgICAgICAgZWxpZiB0LmdldCgicHJvY2Vzc2luZ19hdCIpIGFuZCBzdGF0dXMgPT0gInBlbmRpbmciOgogICAgICAgICAgICBuZXdfdGFza3NbInByb2Nlc3NpbmciXVtzaWRdID0gdAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG5ld190YXNrc1sicGVuZGluZyJdLmFwcGVuZCh0KQogICAgYm9hcmRbInRhc2tzIl0gPSBuZXdfdGFza3MKICAgIHJldHVybiBib2FyZApgYGAKCiMjIyDor4rmlq3lkb3ku6QKYGBgYmFzaAojIOebtOaOpea1i+i/geenu+WHveaVsOmAu+i+kQpweXRob24zIC1jICIKaW1wb3J0IGpzb24KZCA9IGpzb24ubG9hZChvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L2Rpc3BhdGNoX2JvYXJkLmpzb24nKSkKdGFza3MgPSBkLmdldCgndGFza3MnLCB7fSkKcHJpbnQoJ3Rhc2tz57G75Z6LOicsIHR5cGUodGFza3MpLl9fbmFtZV9fKQpwcmludCgndGFza3Mga2V5czonLCBsaXN0KHRhc2tzLmtleXMoKSkpCnByaW50KCdoYXMgcGVuZGluZz8nLCAncGVuZGluZycgaW4gdGFza3MpCnByaW50KCdoYXMgcHJvY2Vzc2luZz8nLCAncHJvY2Vzc2luZycgaW4gdGFza3MpCnByaW50KCdwZW5kaW5n5piv5pWw57uEPycsIGlzaW5zdGFuY2UodGFza3MuZ2V0KCdwZW5kaW5nJyksIGxpc3QpKQoiCmBgYAoKLS0tCgojIyBCdWfmqKHlvI8x77ya5rS+5bel5p2/5qC85byP5pat6ZO+77yI5pyA5bi46KeB77yJCgojIyMg546w6LGhCmNyb24g5YaZIGB7InZlcnNpb24iOiIxLjAiLCJ0YXNrcyI6Wy4uLl19YCDmoLzlvI/vvIzkvYbnp5jkuabohJrmnKzor7sgYHsicGVuZGluZ190YXNrcyI6W119YCDmoLzlvI/jgILor7vkuI3liLAgcGVuZGluZyDku7vliqHjgIIKCiMjIyDor4rmlq3lkb3ku6QKYGBgYmFzaApweXRob24zIC1jICIKaW1wb3J0IGpzb24Kd2l0aCBvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L2Rpc3BhdGNoX2JvYXJkLmpzb24nKSBhcyBmOgogICAgZCA9IGpzb24ubG9hZChmKQpwcmludCgna2V5czonLCBsaXN0KGQua2V5cygpKSkKaWYgJ3Rhc2tzJyBpbiBkOgogICAgcHJpbnQoJ3Yx5qC85byPOiB0YXNrc+aVsOe7hCwg5p2h5pWwOicsIGxlbihkLmdldCgndGFza3MnLFtdKSkpCmlmICdwZW5kaW5nX3Rhc2tzJyBpbiBkOgogICAgcHJpbnQoJ3Yy5qC85byPOiBwZW5kaW5nX3Rhc2tz5pWw57uELCDmnaHmlbA6JywgbGVuKGQuZ2V0KCdwZW5kaW5nX3Rhc2tzJyxbXSkpKQoiCmBgYAoKIyMjIOS/ruWkje+8muWFvOWuueWxguaooeW8jwpgYGBweXRob24KZGVmIGxvYWRfYm9hcmQoKToKICAgIHJhdyA9IGpzb24ubG9hZHMoQk9BUkQucmVhZF90ZXh0KCkpCiAgICBpZiAicGVuZGluZ190YXNrcyIgaW4gcmF3OgogICAgICAgIHJldHVybiByYXcgICMgdjLmoLzlvI/vvIznm7TmjqXov5Tlm54KICAgICMgdjHmoLzlvI/ovazmjaIKICAgIHRhc2tzID0gcmF3LmdldCgidGFza3MiLCBbXSkKICAgIHBlbmRpbmcgPSBbdCBmb3IgdCBpbiB0YXNrcyBpZiB0LmdldCgic3RhdHVzIikgaW4gKCJwZW5kaW5nIiwicHJvY2Vzc2luZyIpXQogICAgY29tcGxldGVkID0gW3QgZm9yIHQgaW4gdGFza3MgaWYgdC5nZXQoInN0YXR1cyIpID09ICJkb25lIl0KICAgIHJldHVybiB7CiAgICAgICAgInBlbmRpbmdfdGFza3MiOiBwZW5kaW5nLAogICAgICAgICJjb21wbGV0ZWRfdGFza3MiOiBjb21wbGV0ZWQsCiAgICAgICAgIl9yYXdfdGFza3MiOiB0YXNrcywKICAgIH0KCmRlZiBzYXZlX2JvYXJkKGRiKToKICAgIGlmICJfcmF3X3Rhc2tzIiBpbiBkYjoKICAgICAgICByYXdfdGFza3MgPSBkYi5wb3AoIl9yYXdfdGFza3MiKQogICAgICAgIHN0YXR1c19tYXAgPSB7fQogICAgICAgIGZvciB0IGluIGRiLmdldCgicGVuZGluZ190YXNrcyIsIFtdKToKICAgICAgICAgICAgc3RhdHVzX21hcFt0WyJ0YXNrX2lkIl1dID0gdC5nZXQoInN0YXR1cyIsInBlbmRpbmciKQogICAgICAgIGZvciB0IGluIGRiLmdldCgiY29tcGxldGVkX3Rhc2tzIiwgW10pOgogICAgICAgICAgICBzdGF0dXNfbWFwW3RbInRhc2tfaWQiXV0gPSAiZG9uZSIKICAgICAgICBmb3IgdCBpbiByYXdfdGFza3M6CiAgICAgICAgICAgIGlmIHQuZ2V0KCJ0YXNrX2lkIikgaW4gc3RhdHVzX21hcDoKICAgICAgICAgICAgICAgIHRbInN0YXR1cyJdID0gc3RhdHVzX21hcFt0WyJ0YXNrX2lkIl1dCiAgICAgICAgQk9BUkQud3JpdGVfdGV4dChqc29uLmR1bXBzKHsidmVyc2lvbiI6IjEuMCIsInRhc2tzIjpyYXdfdGFza3N9LCAuLi4pKQogICAgZWxzZToKICAgICAgICBCT0FSRC53cml0ZV90ZXh0KGpzb24uZHVtcHMoZGIsIC4uLikpCmBgYAoKLS0tCgojIyBCdWfmqKHlvI8y77yacmVzdWx0X2JvYXJkIOeKtuaAgeacuuaWreijggoKIyMjIOeOsOixoQoyMDDmnaHnu5PmnpzlhajmmK8gYGFyY2hpdmVkYCDnirbmgIHvvIxxdWV1ZV93b3JrZXIg5om+IGBwZW5kaW5nX3B1c2hg77yMMOadoeiDveaOqOmAgeOAggoKIyMjIOagueWboArlhpnlhaXmlrnlhpkgYGFyY2hpdmVkYO+8jHF1ZXVlX3dvcmtlciDmnJ/mnJsgYHBlbmRpbmdfcHVzaGDvvIznirbmgIHmnLrmlq3lnKjkuK3pl7TjgIIKCiMjIyDor4rmlq3lkb3ku6QKYGBgYmFzaApweXRob24zIC1jICIKaW1wb3J0IGpzb24KZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgQ291bnRlcgp3aXRoIG9wZW4oJy9vcHQvZGF0YS9zZWNyZXRhcnkvcmVzdWx0X2JvYXJkLmpzb24nKSBhcyBmOgogICAgZCA9IGpzb24ubG9hZChmKQpyID0gZC5nZXQoJ3Jlc3VsdHMnLCBbXSkKcHJpbnQoJ+aAu+adoeaVsDonLCBsZW4ocikpCnByaW50KCfnirbmgIHliIbluIM6JywgQ291bnRlcih4LmdldCgnc3RhdHVzJykgZm9yIHggaW4gcikpCiIKYGBgCgojIyMg5L+u5aSN77ya5LiJ5aSE5ZCM5pe25omT6KGl5LiBCgoxLiAqKnF1ZXVlX3dvcmtlcl9jcm9uLnB5Kiog4oCUIOiHquWKqOi/geenu++8mgpgYGBweXRob24KcGVuZGluZyA9IFtyIGZvciByIGluIHJlc3VsdHMgaWYgci5nZXQoInN0YXR1cyIpID09ICJwZW5kaW5nX3B1c2giXQphcmNoaXZlZCA9IFtyIGZvciByIGluIHJlc3VsdHMgaWYgci5nZXQoInN0YXR1cyIpID09ICJhcmNoaXZlZCJdCmlmIGFyY2hpdmVkOgogICAgZm9yIHIgaW4gcmVzdWx0czoKICAgICAgICBpZiByLmdldCgic3RhdHVzIikgPT0gImFyY2hpdmVkIjoKICAgICAgICAgICAgclsic3RhdHVzIl0gPSAicGVuZGluZ19wdXNoIgogICAgYm9hcmRbInJlc3VsdHMiXSA9IHJlc3VsdHMKICAgIHdyaXRlX2pzb24oUkVTVUxUX0JPQVJELCBib2FyZCkKYGBgCgoyLiAqKmlyb25fcnVsZXNfcmVnaXN0cnkuanNvbioqIOeahCByZXN1bHRfcHVzaGVyIOKAlCDlkIznkIbov4Hnp7sKCjMuICoq5qC55pys5L+u5aSNKiog4oCUIOiuqeWGmeWFpeaWueebtOaOpeWGmeato+ehrueKtuaAgQoKLS0tCgojIyBCdWfmqKHlvI8z77yaR2F0ZXdheSByZWN1cnNpb24gZGVwdGgg5a+86Ie05raI5oGv5Lii6Zif5YiXCgojIyMg546w6LGhCuaXpeW/lyBgSW50ZXJydXB0IHJlY3Vyc2lvbiBkZXB0aCAzIHJlYWNoZWQgZm9yIHNlc3Npb24geHh4IOKAlCBxdWV1ZWluZyBtZXNzYWdlIGluc3RlYWQgb2YgcmVjdXJzaW5nYOOAgueUqOaIt+aEn+iniSLlj5Hmtojmga/msqHlj43lupQi44CCCgojIyMg5qC55ZugCmBnYXRld2F5L3J1bi5weWAg56Gs57yW56CBIGBfTUFYX0lOVEVSUlVQVF9ERVBUSCA9IDNg77yM6LaF6L+HM+WxgumAkuW9kua2iOaBr+iiq+S4oui/m+mYn+WIl+OAgnN1YmFnZW50IOW5tuihjOiwg+eUqOaXtuWuueaYk+inpuWPkeOAggoKIyMjIOiviuaWreWRveS7pApgYGBiYXNoCmdyZXAgInJlY3Vyc2lvbiBkZXB0aCIgL29wdC9kYXRhL2xvZ3MvZXJyb3JzLmxvZwpgYGAKCiMjIyDkv67lpI0KYGBgcHl0aG9uCiMgL29wdC9oZXJtZXMvZ2F0ZXdheS9ydW4ucHkgbGluZSB+ODEzNApfTUFYX0lOVEVSUlVQVF9ERVBUSCA9IGludChvcy5nZXRlbnYoIkhFUk1FU19NQVhfSU5URVJSVVBUX0RFUFRIIiwgMTApKQpgYGAKKirpnIDopoHph43lkK8gZ2F0ZXdheSDnlJ/mlYjjgIIqKgoKLS0tCgojIyBCdWfmqKHlvI8077yaVGVybWluYWwg6LaF5pe256CN5pat6ZW/5Lu75YqhCgojIyMg546w6LGhCuaXpeW/lyBgQWdlbnQgaWRsZSBmb3IgMTgwM3MgKHRpbWVvdXQgMTgwMHMpYO+8jHRlcm1pbmFsIOS7u+WKoei3keS6hjMw5YiG6ZKf6KKr5by65Yi25Lit5pat44CCCgojIyMg5L+u5aSNCmBgYHB5dGhvbgojIC9vcHQvaGVybWVzL2dhdGV3YXkvcnVuLnB5Cl9yYXdfc3RhbGVfdGltZW91dCA9IGZsb2F0KG9zLmdldGVudigiSEVSTUVTX0FHRU5UX1RJTUVPVVQiLCAzNjAwKSkKYGBgCgotLS0KCiMjIOWujOaVtOiviuaWrea4heWNlQoKYGBgYmFzaAojIDEuIOa0vuW3peadv+agvOW8jwpweXRob24zIC1jICJpbXBvcnQganNvbjsgZD1qc29uLmxvYWQob3BlbignL29wdC9kYXRhL3NlY3JldGFyeS9kaXNwYXRjaF9ib2FyZC5qc29uJykpOyBwcmludChsaXN0KGQua2V5cygpKVs6NV0pIgoKIyAyLiDnu5Pmnpzmnb/nirbmgIHliIbluIMKcHl0aG9uMyAtYyAiaW1wb3J0IGpzb247IGQ9anNvbi5sb2FkKG9wZW4oJy9vcHQvZGF0YS9zZWNyZXRhcnkvcmVzdWx0X2JvYXJkLmpzb24nKSk7IGZyb20gY29sbGVjdGlvbnMgaW1wb3J0IENvdW50ZXI7IHI9ZC5nZXQoJ3Jlc3VsdHMnLFtdKTsgcHJpbnQoQ291bnRlcih4LmdldCgnc3RhdHVzJykgZm9yIHggaW4gcikpIgoKIyAzLiByZWN1cnNpb27miqXplJkKZ3JlcCAicmVjdXJzaW9uIGRlcHRoIiAvb3B0L2RhdGEvbG9ncy9lcnJvcnMubG9nIHwgdGFpbCAtNQoKIyA0LiDotoXml7bmiqXplJkKZ3JlcCAiaWRsZSBmb3IuKnRpbWVvdXQiIC9vcHQvZGF0YS9sb2dzL2FnZW50LmxvZyB8IHRhaWwgLTUKYGBgCgotLS0KCiMjIOS7u+WKoee7reaOpeaBouWkjSBDcm9uCuaWh+S7tu+8mmAvb3B0L2RhdGEvc2NyaXB0cy90YXNrX3JlY292ZXJ5X2Nyb24ucHlg77yI5q+PNeWIhumSn+aJp+ihjO+8iQoKKirph43opoHvvJrmraTohJrmnKzkuI3ovpPlh7rliLAgc3Rkb3V0KirvvIxleGl0X2NvZGU9MCDkuZ/kuI3ku6PooajmnInku7vkvZXmk43kvZzjgILlv4Xpobvmn6XnnIvoh6rlt7HnmoTml6Xlv5fmlofku7bvvJoKYGBgYmFzaApjYXQgL29wdC9kYXRhL3NlY3JldGFyeS9sb2dzL3JlY292ZXJ5L3JlY292ZXJ5XyQoZGF0ZSArJVklbSVkKS5sb2cKYGBgCgoqKmJvYXJkIOe7k+aehO+8iDIwMjYtMDYtMDYg5a6e5rWL56Gu6K6k77yJ77yaKioKLSBkaXNwYXRjaF9ib2FyZDogYHsidGFza3MiOiBbLi4uXX1g77yMc3RhdHVzIOWtl+auteS4uiBgY29tcGxldGVkYC9gZG9uZWDvvIzml6AgYHByb2Nlc3NpbmdgIOWNoeatuwotIHJlc3VsdF9ib2FyZDogYHsidmVyc2lvbiIsICJsYXN0X3VwZGF0ZWQiLCAicmVzdWx0cyI6IFsuLi5dfWDvvIwqKuayoeaciSBgcHVzaF9zdGF0dXNgIOWtl+autSoq77yM5o6o6YCB54q25oCB55SoIGBwdXNoZWRfYXRgIOWtl+auteWIpOaWre+8iOacieWAvD3lt7LmjqjpgIHvvIxOb25lL+epuj3mnKrmjqjpgIHvvIkKCioq6K+K5pat5ZG95Luk77yI55u05o6l55So77yM5LiN6KaB55SoIHRhc2tfcmVjb3ZlcnlfY3Jvbi5weSDnmoQgc3Rkb3V077yJ77yaKioKYGBgYmFzaAojIOa0vuW3peadv+WNoeS9j+S7u+WKoQpweXRob24zIC1jICIKaW1wb3J0IGpzb24KZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgQ291bnRlcgpkID0ganNvbi5sb2FkKG9wZW4oJy9vcHQvZGF0YS9zZWNyZXRhcnkvZGlzcGF0Y2hfYm9hcmQuanNvbicpKQp0YXNrcyA9IGQuZ2V0KCd0YXNrcycsIFtdKQpwcmludCgnVG90YWw6JywgbGVuKHRhc2tzKSwgJ3wnLCBDb3VudGVyKHQuZ2V0KCdzdGF0dXMnKSBmb3IgdCBpbiB0YXNrcykpCnN0dWNrID0gW3QgZm9yIHQgaW4gdGFza3MgaWYgdC5nZXQoJ3N0YXR1cycpID09ICdwcm9jZXNzaW5nJ10KcHJpbnQoJ1N0dWNrIChwcm9jZXNzaW5nKTonLCBsZW4oc3R1Y2spKQoiCgojIOe7k+aenOadv+aOqOmAgeeuoemBkwpweXRob24zIC1jICIKaW1wb3J0IGpzb24KZCA9IGpzb24ubG9hZChvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uJykpCnJlc3VsdHMgPSBkLmdldCgncmVzdWx0cycsIFtdKQpwcmludCgnVG90YWwgcmVzdWx0czonLCBsZW4ocmVzdWx0cykpCiMg5o6o6YCB54q25oCB55SoIHB1c2hlZF9hdCDliKTmlq3vvIzkuI3mmK8gcHVzaF9zdGF0dXMKdW5wdXNoZWQgPSBbciBmb3IgciBpbiByZXN1bHRzIGlmIG5vdCByLmdldCgncHVzaGVkX2F0JyldCnByaW50KCdVbnB1c2hlZCAobm8gcHVzaGVkX2F0KTonLCBsZW4odW5wdXNoZWQpKQpwdXNoZWQgPSBbciBmb3IgciBpbiByZXN1bHRzIGlmIHIuZ2V0KCdwdXNoZWRfYXQnKV0KcHJpbnQoJ1B1c2hlZCAoaGFzIHB1c2hlZF9hdCk6JywgbGVuKHB1c2hlZCkpCmZvciByIGluIHVucHVzaGVkWzo1XToKICAgIHByaW50KGYnICBbe3JbXCJpZFwiXX1dIGNyZWF0ZWQ9e3IuZ2V0KFwiY3JlYXRlZFwiLFwiP1wiKVs6MTldfScpCiIK
+---
+name: secretary-pipeline-bug-patterns
+description: 秘书处管道Bug模式诊断与修复 — 派工板格式断链、成果板状态机断裂、result_board迁移机制。触发：任务卡住/通知不到/结果石沉大海时系统诊断。
+triggers: ["秘书", "协调"]
+version: 1.0
+---
+
+# 秘书处管道Bug模式诊断与修复
+
+## 经验教训（2026-06-03全面诊断固化）
+
+### 根因分层模型
+
+| 层次 | 常见Bug | 症状 |
+|------|--------|------|
+| **格式层** | 写入方和读取方 schema 不一致 | 读不到任务、任务消失 |
+| **状态机层** | 写入状态 != 读取方期望状态 | result_board 积压，永远推不出 |
+| **推送层** | webhook 占位符 / open_message_id 失效 | 通知石沉大海 |
+| **网关层** | recursion depth 过低 / timeout 过短 | 消息被丢队列、任务做一半被砍 |
+| **执行层** | 无认领机制 / 无守护进程 | 任务写进板子但没人跑 |
+
+---
+
+## Bug模式0：`_migrate_board()` 迁移逻辑误判（2026-06-09 新发现）
+
+### 现象
+`deputy_result` 启动后立即 crash：`'str' object has no attribute 'get'`。但 `deputy_dispatch` 和 `deputy_worker` 同样有这个函数却"安全"运行。
+
+### 根因：错误的格式检测条件
+
+三态派工板有**三种格式**：
+- **原始格式**：`{"tasks": [...]}` （旧数组）
+- **当前格式**：`{"tasks": {"pending": [], "done": {}}}` （无 `processing` key）
+- **真正新格式**：`{"tasks": {"pending": [], "processing": {}, "done": {}}}` （三态齐全）
+
+迁移函数的检测条件有缺陷：
+```python
+# ❌ 错误条件
+if "pending" in board.get("tasks", {}) and "processing" in board.get("tasks", {}):
+    return board  # 认为是新格式，跳过迁移
+
+# 实际情况：当前格式有 "pending" 但无 "processing" → 条件 False
+# → 错误走旧迁移路径 → old_tasks = {"pending":[],"done":{}}
+# → 遍历 dict.items() → 拿到 ("pending", []) 字符串key → str.get() 不存在
+# → deputy_result crash（无 isinstance 保护）
+# → deputy_dispatch/worker 不 crash（有 isinstance(t, dict) 保护）但迁移也被跳过
+```
+
+### 关键教训
+- 有 `isinstance` 保护的代码**不等于正确**，它只是防止了 crash 但同时**静默跳过**了迁移逻辑
+- 格式检测要用**正向判断**：先确认不是原始数组格式，再确认不是新格式，剩余才是需要迁移的旧格式
+
+### 修复模板
+```python
+def _migrate_board(board):
+    """旧格式数组→三态结构，自动执行一次"""
+    if not isinstance(board.get("tasks"), dict):
+        return board  # 既不是新格式也不是旧数组格式，安全返回
+    tasks = board["tasks"]
+    # 真正的新格式：tasks是dict且同时有pending(Array)和processing(Dict)
+    if "pending" in tasks and "processing" in tasks:
+        return board
+    # 当前格式（2026-06-10后）：tasks={"pending":[], "done":{}}，无processing key
+    old_tasks = (tasks.get("pending", [])
+                 + list(tasks.get("done", {}).values())
+                 + list(tasks.get("processing", {}).values()))
+    new_tasks = {"pending": [], "processing": {}, "done": {}}
+    for t in old_tasks:
+        if not isinstance(t, dict):  # 防御：跳过非dict项
+            continue
+        sid = t.get("id") or t.get("task_id") or f"legacy_{len(new_tasks['done'])}"
+        status = t.get("status", "pending")
+        if status == "done":
+            new_tasks["done"][sid] = t
+        elif t.get("processing_at") and status == "pending":
+            new_tasks["processing"][sid] = t
+        else:
+            new_tasks["pending"].append(t)
+    board["tasks"] = new_tasks
+    return board
+```
+
+### 诊断命令
+```bash
+# 直接测迁移函数逻辑
+python3 -c "
+import json
+d = json.load(open('/opt/data/secretary/dispatch_board.json'))
+tasks = d.get('tasks', {})
+print('tasks类型:', type(tasks).__name__)
+print('tasks keys:', list(tasks.keys()))
+print('has pending?', 'pending' in tasks)
+print('has processing?', 'processing' in tasks)
+print('pending是数组?', isinstance(tasks.get('pending'), list))
+"
+```
+
+---
+
+## Bug模式1：派工板格式断链（最常见）
+
+### 现象
+cron 写 `{"version":"1.0","tasks":[...]}` 格式，但秘书脚本读 `{"pending_tasks":[]}` 格式。读不到 pending 任务。
+
+### 诊断命令
+```bash
+python3 -c "
+import json
+with open('/opt/data/secretary/dispatch_board.json') as f:
+    d = json.load(f)
+print('keys:', list(d.keys()))
+if 'tasks' in d:
+    print('v1格式: tasks数组, 条数:', len(d.get('tasks',[])))
+if 'pending_tasks' in d:
+    print('v2格式: pending_tasks数组, 条数:', len(d.get('pending_tasks',[])))
+"
+```
+
+### 修复：兼容层模式
+```python
+def load_board():
+    raw = json.loads(BOARD.read_text())
+    if "pending_tasks" in raw:
+        return raw  # v2格式，直接返回
+    # v1格式转换
+    tasks = raw.get("tasks", [])
+    pending = [t for t in tasks if t.get("status") in ("pending","processing")]
+    completed = [t for t in tasks if t.get("status") == "done"]
+    return {
+        "pending_tasks": pending,
+        "completed_tasks": completed,
+        "_raw_tasks": tasks,
+    }
+
+def save_board(db):
+    if "_raw_tasks" in db:
+        raw_tasks = db.pop("_raw_tasks")
+        status_map = {}
+        for t in db.get("pending_tasks", []):
+            status_map[t["task_id"]] = t.get("status","pending")
+        for t in db.get("completed_tasks", []):
+            status_map[t["task_id"]] = "done"
+        for t in raw_tasks:
+            if t.get("task_id") in status_map:
+                t["status"] = status_map[t["task_id"]]
+        BOARD.write_text(json.dumps({"version":"1.0","tasks":raw_tasks}, ...))
+    else:
+        BOARD.write_text(json.dumps(db, ...))
+```
+
+---
+
+## Bug模式2：result_board 状态机断裂
+
+### 现象
+200条结果全是 `archived` 状态，queue_worker 找 `pending_push`，0条能推送。
+
+### 根因
+写入方写 `archived`，queue_worker 期望 `pending_push`，状态机断在中间。
+
+### 诊断命令
+```bash
+python3 -c "
+import json
+from collections import Counter
+with open('/opt/data/secretary/result_board.json') as f:
+    d = json.load(f)
+r = d.get('results', [])
+print('总条数:', len(r))
+print('状态分布:', Counter(x.get('status') for x in r))
+"
+```
+
+### 修复：三处同时打补丁
+
+1. **queue_worker_cron.py** — 自动迁移：
+```python
+pending = [r for r in results if r.get("status") == "pending_push"]
+archived = [r for r in results if r.get("status") == "archived"]
+if archived:
+    for r in results:
+        if r.get("status") == "archived":
+            r["status"] = "pending_push"
+    board["results"] = results
+    write_json(RESULT_BOARD, board)
+```
+
+2. **iron_rules_registry.json** 的 result_pusher — 同理迁移
+
+3. **根本修复** — 让写入方直接写正确状态
+
+---
+
+## Bug模式3：Gateway recursion depth 导致消息丢队列
+
+### 现象
+日志 `Interrupt recursion depth 3 reached for session xxx — queueing message instead of recursing`。用户感觉"发消息没反应"。
+
+### 根因
+`gateway/run.py` 硬编码 `_MAX_INTERRUPT_DEPTH = 3`，超过3层递归消息被丢进队列。subagent 并行调用时容易触发。
+
+### 诊断命令
+```bash
+grep "recursion depth" /opt/data/logs/errors.log
+```
+
+### 修复
+```python
+# /opt/hermes/gateway/run.py line ~8134
+_MAX_INTERRUPT_DEPTH = int(os.getenv("HERMES_MAX_INTERRUPT_DEPTH", 10))
+```
+**需要重启 gateway 生效。**
+
+---
+
+## Bug模式4：Terminal 超时砍断长任务
+
+### 现象
+日志 `Agent idle for 1803s (timeout 1800s)`，terminal 任务跑了30分钟被强制中断。
+
+### 修复
+```python
+# /opt/hermes/gateway/run.py
+_raw_stale_timeout = float(os.getenv("HERMES_AGENT_TIMEOUT", 3600))
+```
+
+---
+
+## 完整诊断清单
+
+```bash
+# 1. 派工板格式
+python3 -c "import json; d=json.load(open('/opt/data/secretary/dispatch_board.json')); print(list(d.keys())[:5])"
+
+# 2. 结果板状态分布
+python3 -c "import json; d=json.load(open('/opt/data/secretary/result_board.json')); from collections import Counter; r=d.get('results',[]); print(Counter(x.get('status') for x in r))"
+
+# 3. recursion报错
+grep "recursion depth" /opt/data/logs/errors.log | tail -5
+
+# 4. 超时报错
+grep "idle for.*timeout" /opt/data/logs/agent.log | tail -5
+```
+
+---
+
+## 任务续接恢复 Cron
+文件：`/opt/data/scripts/task_recovery_cron.py`（每5分钟执行）
+
+**重要：此脚本不输出到 stdout**，exit_code=0 也不代表有任何操作。必须查看自己的日志文件：
+```bash
+cat /opt/data/secretary/logs/recovery/recovery_$(date +%Y%m%d).log
+```
+
+**board 结构（2026-06-06 实测确认）：**
+- dispatch_board: `{"tasks": [...]}`，status 字段为 `completed`/`done`，无 `processing` 卡死
+- result_board: `{"version", "last_updated", "results": [...]}`，**没有 `push_status` 字段**，推送状态用 `pushed_at` 字段判断（有值=已推送，None/空=未推送）
+
+**诊断命令（直接用，不要用 task_recovery_cron.py 的 stdout）：**
+```bash
+# 派工板卡住任务
+python3 -c "
+import json
+from collections import Counter
+d = json.load(open('/opt/data/secretary/dispatch_board.json'))
+tasks = d.get('tasks', [])
+print('Total:', len(tasks), '|', Counter(t.get('status') for t in tasks))
+stuck = [t for t in tasks if t.get('status') == 'processing']
+print('Stuck (processing):', len(stuck))
+"
+
+# 结果板推送管道
+python3 -c "
+import json
+d = json.load(open('/opt/data/secretary/result_board.json'))
+results = d.get('results', [])
+print('Total results:', len(results))
+# 推送状态用 pushed_at 判断，不是 push_status
+unpushed = [r for r in results if not r.get('pushed_at')]
+print('Unpushed (no pushed_at):', len(unpushed))
+pushed = [r for r in results if r.get('pushed_at')]
+print('Pushed (has pushed_at):', len(pushed))
+for r in unpushed[:5]:
+    print(f'  [{r[\"id\"]}] created={r.get(\"created\",\"?\")[:19]}')
+"

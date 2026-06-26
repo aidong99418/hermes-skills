@@ -1,1 +1,4 @@
-L29wdC9kYXRhL3NjcmlwdHMvY29uZmlnX2d1YXJkaWFuLnB5Ci9vcHQvZGF0YS9jb25maWcvZ3VhcmRpYW5fc3RhdGUuanNvbgovb3B0L2RhdGEvbG9ncy9ndWFyZGlhbi5sb2cKL29wdC9kYXRhL2JhY2t1cHMvZ3VhcmRpYW5fWVlZWU1NRERfSEhNTVNTLyAgKOavj+asoeS/ruWkjeiHquWKqOeUn+aIkCkK
+/opt/data/scripts/config_guardian.py
+/opt/data/config/guardian_state.json
+/opt/data/logs/guardian.log
+/opt/data/backups/guardian_YYYYMMDD_HHMMSS/  (每次修复自动生成)

@@ -1,1 +1,464 @@
-LS0tCm5hbWU6IHN5c3RlbS1mdWxsLWF1ZGl0CmRlc2NyaXB0aW9uOiDns7vnu5/lhajouqvmo4Dmn6XkuI7muIXnkIbmtYHmsLTnur8g4oCUIOmAkOWtl+aJq+aPj+aJgOacieaooeWdl++8jOWPkeeOsOmHjeWkjS/lup/lvIMv5Yay56qB5bm26Ieq5Yqo5L+u5aSN44CC6Kem5Y+R77ya55So5oi36K+0IuWBmuWFqOi6q+ajgOafpSLjgIEi57O757uf6K+K5patIuOAgSLmuIXnkIbph43lpI0i44CCCnRyaWdnZXJzOiBbIuaetuaehCIsICLnlKjmiLfor7QiLCAi57O757ufIl0KdmVyc2lvbjogMS4wCi0tLQoKIyDns7vnu5/lhajouqvmo4Dmn6XkuI7muIXnkIbmtYHmsLTnur8KCiMjIOaJp+ihjOatpemqpAoKIyMjIDEuIOebruW9leaJq+aPjwpgYGBiYXNoCiMg5qOA5p+l5qC45b+D55uu5b2VCmxzIC1sYSAvb3B0L2RhdGEvc2VjcmV0YXJ5LyAgICAgICAgICAjIOenmOS5puWkhApscyAtbGEgL29wdC9kYXRhL+enmOS5pi8qLnB5ICAgICAgICAgIyDnp5jkuabnp5jkuaYKbHMgLWxhIC9vcHQvZGF0YS9zY3JpcHRzLyAgICAgICAgICAgICMgc2NyaXB0c+ebruW9lQpmaW5kIC9vcHQvZGF0YS9za2lsbHMgLW5hbWUgIioubWQiICAgIyBza2lsbHPmlofmoaMKCiMg5qOA5p+l6L+b56iLCnBzIGF1eCB8IGdyZXAgLUUgIihydW4ucHl8c2VjcmV0YXJ5fOenmOS5pikiIHwgZ3JlcCAtdiBncmVwCgojIOajgOafpWNyb25qb2JzCmNyb25qb2IgbGlzdApgYGAKCiMjIyAyLiDor4bliKs157G75bi46KeB6Zeu6aKYCgp8IOmXrumimOexu+WeiyB8IOajgOafpeaWueazlSB8IOS/ruWkjeaWueW8jyB8CnwtLS0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLXwKfCAqKuW6n+W8g+ebruW9lSoqIHwg55uu5b2V5a2Y5Zyo5L2GY3JvbuS7juacquinpuWPkSB8IOenu+WKqOWIsCBgX29sZF94eHhfWVlZWU1NREQvYCB8CnwgKirph43lpI3ohJrmnKwqKiB8IOWkmuebruW9leWQjOWQjeaWh+S7tu+8jOWGheWuueebuOWQjCB8IOS/neeVmeS4gOS4qu+8jOabtOaWsOaJgOacieW8leeUqCB8CnwgKirph43lpI1jcm9uam9iKiogfCDlpJrkuKpjcm9u6LeR5ZCM5LiA6ISa5pysIHwg5L+d55WZ6aKR546H5pyA5ZCI6YCC55qE77yMcGF1c2Xlhbbku5YgfAp8ICoq5Yqf6IO96YeN5Y+gKiogfCAxM+S4quWtpuS5oOS7u+WKoSDihpIg5a6e6ZmF5Y+q5pyJMy005Liq54us56uL5Yqf6IO9IHwg5ZCI5bm255Sx57uf5LiA6LCD5bqm5Zmo5o6l566h77yM5pqC5YGc5pen55qEIHwKfCAqKuaOqOmAgeacqumFjee9rioqIHwgd2ViaG9va+S4uuepuuS9hmNyb27lnKjot5EgfCDorrDlvZXpl67popjvvIzpqozor4HohJrmnKzog73mraPluLjmiafooYwgfAoKIyMjIDMuIOmqjOivgeajgOafpea4heWNlQoKYGBgYmFzaAojIOmqjOivgeWIoOmZpC/np7vliqgKbHMgL29wdC9kYXRhL3NlY3JldGFyeS8KCiMg6aqM6K+BY3JvbuW3suaaguWBnApjcm9uam9iIGxpc3QgfCBncmVwIGVuYWJsZWQKCiMg6aqM6K+B5byV55So5bey5pu05pawCmdyZXAgLXIgIuaXp+i3r+W+hCIgL29wdC9kYXRhL3NjcmlwdHMvKi5weQoKIyDmtYvor5XlhbPplK7ohJrmnKzvvIhwdXNoX3Jlc3VsdHMucHnlt7Lkuo4yMDI2LTA1LTI55riF55CG77yJCmBgYAoKIyMg5bi46KeB5L+u5aSN5pON5L2cCgojIyMg4pqg77iPIGBodHRwLnB5YCDopobnm5bmoIflh4blupPvvIjmibnph49jcm9u5oqlIE1vZHVsZU5vdEZvdW5kRXJyb3LvvIkKKirnl4fnirYqKu+8muWkmuS4qmNyb27ku7vliqHlkIzml7bmiqXplJkgYE1vZHVsZU5vdEZvdW5kRXJyb3I6IE5vIG1vZHVsZSBuYW1lZCAnaHR0cC5jbGllbnQnYCAvIGBObyBtb2R1bGUgbmFtZWQgJ3JlcXVlc3RzJ2AKCioq5qC55ZugKirvvJpgL29wdC9kYXRhL3NjcmlwdHMvaHR0cC5weWAg5LiOUHl0aG9u5qCH5YeG5bqTIGBodHRwYCDljIXlkIzlkI3vvIzlr7zlhaXml7bkvJjlhYjmib7liLAgYHNjcmlwdHMvaHR0cC5weWDvvIzopobnm5bmoIflh4blupPvvIxodHRweC91cmxsaWIzL3JlcXVlc3Rz5YWo6YOo5oyC44CCCgoqKuiviuaWrSoq77yaCmBgYGJhc2gKL29wdC9oZXJtZXMvLnZlbnYvYmluL3B5dGhvbjMgLWMgImltcG9ydCBodHRwLmNsaWVudCIgICAjIOaKpemUmeWNs+S4reaLmwovb3B0L2hlcm1lcy8udmVudi9iaW4vcHl0aG9uMyAtYyAiaW1wb3J0IHJlcXVlc3RzIiAgICAgICAjIOaKpemUmeWNs+S4reaLmwpgYGAKCioq5L+u5aSNKirvvJrph43lkb3lkI3mlofku7bop6PpmaTopobnm5YKYGBgYmFzaAptdiAvb3B0L2RhdGEvc2NyaXB0cy9odHRwLnB5IC9vcHQvZGF0YS9zY3JpcHRzL2h0dHBfdm9sY2Fuby5weQojIOmqjOivgQovb3B0L2hlcm1lcy8udmVudi9iaW4vcHl0aG9uMyAtYyAiaW1wb3J0IHJlcXVlc3RzOyBwcmludCgnT0snKSIKYGBgCgoqKumihOmYsioq77ya6YG/5YWN5ZyoIGAvb3B0L2RhdGEvc2NyaXB0cy9gIOS4i+WIm+W7uuS4jlB5dGhvbuagh+WHhuW6k+WQjOWQjeeahOaWh+S7tu+8iGBodHRwLnB5YOOAgWB0eXBpbmcucHlg44CBYHBhdGhsaWIucHlgIOetie+8ieOAggoKIyMjIOWDteWwuOi/m+eoi+iviuaWrQoqKueXh+eKtioq77yaYHBzIGF1eGAg5pi+56S6IGA8ZGVmdW5jdD5g77yMQ1BVIDAlCgoqKuiviuaWrSoq77yaYHBzIGF1eCB8IGdyZXAgZGVmdW5jdGAKCioq6aOO6ZmpKirvvJrpgJrluLjml6DlrrPvvIzniLbov5vnqIvpgIDlh7rlkI5pbml06Ieq5Yqo5Zue5pS244CCUElEIDHkuIvlpKfph4/lg7XlsLjmiY3pnIDlhbPms6jjgIIKCioq5riF55CGKirvvJrlg7XlsLjml6Dms5XmiYvliqhraWxs77yM562J5b6F54i26L+b56iL6YCA5Ye65Y2z5Y+v44CCCgojIyMg5Yig6Zmk5bqf5byD55uu5b2V77yI5YWI5aSH5Lu95ZCO5Yig6Zmk77yJCmBgYGJhc2gKbWtkaXIgLXAgL29wdC9kYXRhL3NlY3JldGFyeS9fb2xkX2JhY2t1cF8kKGRhdGUgKyVZJW0lZCkKbXYgL29wdC9kYXRhL3NlY3JldGFyeS/lup/lvIPnm67lvZUgL29wdC9kYXRhL3NlY3JldGFyeS9fb2xkX2JhY2t1cF8kKGRhdGUgKyVZJW0lZCkvCmBgYAoKIyMjIOaaguWBnOmHjeWkjWNyb25qb2IKYGBgYmFzaAojIOS4pOS4quebuOWQjOS7u+WKoe+8jOS/neeVmeaOqOW+ruS/oeeahApjcm9uam9iIHBhdXNlIDxqb2JfaWRf5LiN5o6o5b6u5L+h55qEPgpgYGAKCiMjIyDlkIjlubZvZmZpY2Xlt6XlhbfvvIjkuInlpZflj5jkuIDlpZfvvIkKYGBgYmFzaAojIDEuIOavlOi+g+WGheWuuQpweXRob24zIC1jICIKaW1wb3J0IG9zCmQxID0gb3BlbignL29wdC9kYXRhL3NjcmlwdHMvcHB0eF9URU1QL29mZmljZS9wYWNrLnB5JykucmVhZCgpCmQyID0gb3BlbignL29wdC9kYXRhL3NjcmlwdHMveGxzeC9vZmZpY2UvcGFjay5weScpLnJlYWQoKQpwcmludCgn55u45ZCMJyBpZiBkMT09ZDIgZWxzZSAn5LiN5ZCMJykKIgoKIyAyLiDkv53nlZlkb2N4X1RFTVDvvIzmm7TmlrDlvJXnlKgKcGF0Y2ggL29wdC9kYXRhL3NjcmlwdHMvb2ZmaWNlX3NraWxsc19kaXNwYXRjaGVyLnB5IFwKICAtZSAnc3xwcHR4X1RFTVB8ZG9jeF9URU1QfGcnIFwKICAtZSAnc3x4bHN4L3xkb2N4X1RFTVAvfGcnCmBgYAoKIyMjIOi/geenu+aWh+S7tumalOemu++8iOW3suWujOaIkO+8iQoqKueKtuaAgSoq77yaL29wdC9kYXRhL3NjcmlwdHMvbWlncmF0aW9ucy8g5bey6ZqU56a7MTc15Liq6L+B56e75paH5Lu277yIaGV45qC85byPaGFzaF8g5ZKM5pWw5a2X5YmN57yAMDAxX++8ieOAggrpmpTnprvlt7LlrozmiJDvvIxzY3JpcHRz55uu5b2V5LiN5YaN6KKrbWlncmF0aW9u5paH5Lu25rGh5p+T44CC5LiN6ZyA6KaB5YaN5aSE55CG44CCCgojIyMgUHl0aG9u5qCH5YeG5bqTc2hhZG935YiG5p6Q77yIMjAyNi0wNS0zMOWunua1i++8iQoqKuWPkeeOsDXkuKpzaGFkb3fmlofku7bvvIzkvYbkuI3lj6/liKDpmaQqKu+8mgpgYGAKY29kZS5weSAgICAtIDM35Liq5YaF6YOo5byV55SoCmh0bWwucHkgICAgLSA35Liq5YaF6YOo5byV55SoCnBsYXRmb3JtLnB5IC0gNeS4quWGhemDqOW8leeUqApyZXNvdXJjZS5weSAtIDEy5Liq5YaF6YOo5byV55SoCnRpbWUucHkgICAgLSA1NjLkuKrlhoXpg6jlvJXnlKjvvIjmnIDpq5jljbHvvIHvvIkKYGBgCioq6K+K5pat5pa55rOVKirvvJoKYGBgYmFzaAojIOaWueazlTHvvJrnlKhQeXRob24gc3RkbGliX21vZHVsZV9uYW1lc+ajgOa1iwpweXRob24zIC1jICJpbXBvcnQgb3Msc3lzOyBzdGRsaWI9c2V0KHN5cy5zdGRsaWJfbW9kdWxlX25hbWVzKTsgc2hhZG93ZWQ9W2YgZm9yIGYgaW4gb3MubGlzdGRpcignL29wdC9kYXRhL3NjcmlwdHMnKSBpZiBmLmVuZHN3aXRoKCcucHknKSBhbmQgZls6LTNdIGluIHN0ZGxpYiBhbmQgbm90IGYuc3RhcnRzd2l0aCgnXycpXTsgcHJpbnQoc2hhZG93ZWQpIgoKIyDmlrnms5Uy77ya5qOA5p+l5byV55So5pWw6YeP77yI5Yaz5a6a6IO95ZCm5a6J5YWo5Yig6Zmk77yJCmdyZXAgLXJsICJmcm9tIHNjcmlwdHMgaW1wb3J0IHRpbWVcfGltcG9ydCB0aW1lIiAvb3B0L2RhdGEvc2NyaXB0cy8qLnB5IHwgd2MgLWwKYGBgCioq57uT6K66KirvvJp0aW1lLnB56KKr5byV55SoNTYy5qyh77yM5Yqo5LiN5b6X44CC5a6J5YWo5riF55CG5Y+q5aSE55CG77ya5bqf5byD55uu5b2V44CB6YeN5aSN5paH5Lu244CB5aSx5pWI56ym5Y+36ZO+5o6l44CCCgojIyMgUG9ydCAxODY0M+WGsueqgeivr+aKpQoqKueXh+eKtioq77yaZ2F0ZXdheV9yZXN0YXJ0LmxvZ+aYvuekuiBgT1NFcnJvciBbRXJybm8gOThdIGFkZHJlc3MgYWxyZWFkeSBpbiB1c2VgICAKKirnu5PorroqKu+8mui/meaYr0dhdGV3YXnkuIrmrKHph43lkK/ml7bnmoTplJnor6/ml6Xlv5fvvIzkuI3ku6PooajlvZPliY3pl67popjjgILlvZPliY1HYXRld2F55q2j5bi46L+Q6KGM5Zyo56uv5Y+jMTg2NDPvvIhQSUQgMe+8ie+8jOaXoOmcgOWkhOeQhuOAggoKIyMjIHNlbGZfb2JzZXJ2ZXJfd3JhcHBlci5zaOi3r+W+hOmUmeivrwoqKueXh+eKtioq77yaY3JvbuS7u+WKoeaKpemUmSJObyBpbmZlcmVuY2UgcHJvdmlkZXIi77yIcHJvbXB05qih5byP77yJICAKKirmoLnlm6AqKu+8mmNyb27lvJXnlKggYC9vcHQvZGF0YS9zY3JpcHRzL3NlbGZfb2JzZXJ2ZXJfd3JhcHBlci5zaGDvvIzlrp7pmYXmlofku7blnKggYGNyb25fd3JhcHBlcnMvYCDlrZDnm67lvZUgIAoqKuS/ruWkjSoq77yaCmBgYGJhc2gKbG4gLXNmIGNyb25fd3JhcHBlcnMvc2VsZl9vYnNlcnZlcl93cmFwcGVyLnNoIC9vcHQvZGF0YS9zY3JpcHRzL3NlbGZfb2JzZXJ2ZXJfd3JhcHBlci5zaApgYGAKCiMjIyA05LiqY3JvbuaKpSJObyBpbmZlcmVuY2UgcHJvdmlkZXIi77yI5pqC5LiN5aSE55CG77yJCioq5qC55ZugKirvvJrov5k05LiqY3JvbueUqHByb21wdOaooeW8j+i/kOihjO+8jOS8mui1sEFnZW505o6o55CG77yM5L2GY3JvbuWQjuWPsOaXoOaOqOeQhueOr+Wig+mFjee9riAgCioq5raJ5Y+K5Lu75YqhKirvvJrmr4/ml6XlhYPlrabkuaAv55+t6KeG6aKR6JCl6ZSA5a2m5LmgL+iHqui/m+WMluavj+aXpeaKpeWRii9oZXJybWVzLXNraWxsc+WQjOatpSAgCioq6K+05piOKirvvJrpnIDopoHmt7HlhaXnkIbop6Njcm9u5omn6KGM546v5aKD5ZKM5qih5Z6L6YWN572u5omN6IO95a6J5YWo5L+u5aSN44CC5b2T5YmN54q25oCB5LiN5b2x5ZON5qC45b+D5Yqf6IO977yM5pqC5L+d55WZ44CCCgojIyDlmajlrpjlkb3lkI3op4TojIPvvIgyMDI2LTA1LTI456Gu6K6k77yJCi0gV29ya2VyLUEgPSDwn5GDIOm8u+WtkMK35oOF5oql56eY5LmmCi0gV29ya2VyLUIgPSDwn6uaIOiCneiEj8K35a2m5Lmg56eY5LmmCi0gV29ya2VyLUMgPSDinIsg5omL5o6Mwrfmlofnp5gKLSBXb3JrZXItRCA9IPCfq4Ag5b+D6ISPwrfnrZbnlaXnp5jkuaYKLSBIZXJtZXMgPSDlpKfohJHvvIjkuI3og73ph43lpI3lj6vlpKfohJHvvIkKCiMjIOS/ruWkjeS8mOWFiOe6pwoxLiAqKuWuieWFqOa4heeQhioqIC0g5Yig6Zmk5bqf5byD55uu5b2V77yI5peg6aOO6Zmp77yJCjIuICoq5YGc55So6YeN5aSNKiogLSBwYXVzZemHjeWkjWNyb27vvIjlj6/mgaLlpI3vvIkKMy4gKirlkIjlubbph43lpI0qKiAtIOS4ieWll+WPmOS4gOWll++8iOmcgOabtOaWsOW8leeUqO+8iQo0LiAqKumqjOivgeaOqOmAgSoqIC0g56Gu6K6kd2ViaG9va+mFjee9rgoKLS0tCgojIyBOQVPno4Hnm5jlnoPlnL7muIXnkIblt6XkvZzmtYHvvIgyMDI2LTA1LTMw5a6e5rWL77yJCgojIyMg4pqg77iPIOmTgeW+i++8muWFiOivhuWIq+a0u+S7o+egge+8jOWGjea4heeQhuatu+S7o+eggQoqKuWFuOWei+mUmeivryoq77ya5a+5552A5bqf5byD5Luj56CB5YGa5Y2H57qnL+i/geenu+OAgua0u+S7o+eggeWIpOaWreagh+WHhu+8mgotIGNyb27ov5HmnJ/mnInovpPlh7rvvJ/ihpIg5rS7Ci0ganNvbmzmlofku7bmnInmnIDov5HlhpnlhaXvvJ/ihpIg5rS7Ci0g5pyJ6L+b56iL5Zyo6LeR77yf4oaSIOa0uwotIOWklumDqOiiq+W8leeUqO+8n+KGkiDmtLsKCiMjIyDnrKzkuIDmraXvvJror4bliKvnnJ/lrp7ljaDnlKgKYGBgYmFzaAojIOejgeebmOWNoOeUqFRPUOWIhuW4gwpkdSAtc2ggL29wdC9kYXRhLyovIHwgc29ydCAtcmggfCBoZWFkIC0xNQoKIyDkuLTml7bnm67lvZUKZHUgLXNoIC90bXAvKi8gfCBzb3J0IC1yaApkdSAtc2ggL29wdC9kYXRhL2Nyb24vb3V0cHV0LwoKIyDlpKfmlofku7bmiavmj4/vvIg+MTAwTULvvIkKZmluZCAvb3B0L2RhdGEgLXR5cGUgZiAtc2l6ZSArMTAwTSAyPi9kZXYvbnVsbApgYGAKCiMjIyDnrKzkuozmraXvvJror4bliKvmtLsgdnMg5q27CmBgYGJhc2gKIyDmtLvot4Nqc29ubO+8iDPlpKnlhoXmnInlhpnlhaXvvIkKZmluZCAvb3B0L2RhdGEvYnJhaW4gLW5hbWUgIiouanNvbmwiIC1tdGltZSAtMyAtZXhlYyB3YyAtbCB7fSBcOwoKIyBjcm9u6L6T5Ye65rS76LeD5bqmCmxzIC1sdCAvb3B0L2RhdGEvY3Jvbi9vdXRwdXQvIHwgaGVhZCAtMTAKCiMg6L+b56iL5qOA5p+lCnBzIGF1eCB8IGdyZXAgPOi/m+eoi+WQjT4gfCBncmVwIC12IGdyZXAKCiMg6ISa5pys5byV55So5qOA5p+lCmdyZXAgLXIgIjznm67lvZXlkI0+IiAvb3B0L2RhdGEvc2NyaXB0cy8gL29wdC9kYXRhL2Nyb24vIDI+L2Rldi9udWxsIHwgaGVhZCAtNQpgYGAKCiMjIyDnrKzkuInmraXvvJrlronlhajliKTlrprliIbnsbsKCnwg57G75YirIHwg5Yik5a6a5qCH5YeGIHwg6KGM5YqoIHwKfC0tLS0tLXwtLS0tLS0tLS18LS0tLS0tfAp8ICoq56uL5Y2z5Y+v5riFKiogfCDml6Dov5vnqIsgKyDml6DlvJXnlKggKyDmrovnlZnnianvvIjlronoo4XljIUv57yT5a2YL+S4i+i9veaui+eVme+8iSB8IOebtOaOpXJtIC1yZiB8CnwgKirosKjmhY7muIXnkIYqKiB8IOaXoOi/m+eoiyArIOaXoOW8leeUqCArIOS9huacieecn+WunuaVsOaNru+8iOaXp+Wkh+S7vS/ml6fovpPlh7rvvIkgfCDlhYjnnIvlhoXlrrnvvIzlho3lhrPlrpogfAp8ICoq6ZyA6JGj5ZOl56Gu6K6kKiogfCDljoblj7Llr7nor53orrDlvZUgLyDmnInlvJXnlKjkvYbkuI3noa7lrprnlKjpgJQgfCDkuI3liqjvvIznrYnnoa7orqQgfAoKIyMjIOW3sumqjOivgeWPr+eri+WNs+a4heeQhueahOexu+Wei++8iOmbtumjjumZqe+8iQoKfCDlnoPlnL7nsbvlnosgfCDlhbjlnovot6/lvoQgfCDnkIbnlLEgfAp8LS0tLS0tLS0tfC0tLS0tLS0tLXwtLS0tLS18CnwgKipwaXAgaHR0cOe8k+WtmCoqIHwgYC9vcHQvZGF0YS9ob21lLy5jYWNoZS9waXAvaHR0cC12Mi9gIHwgMi45R0LvvIxwaXDkuIvmrKHoh6rliqjph43lu7ogfAp8ICoqcGlwIHVucGFja+aui+eVmSoqIHwgYC90bXAvcGlwLXVucGFjay0qYCB8IHBpcOiHquW3seeahOS4tOaXtuebruW9lSB8CnwgKirkuIvovb3mrovnlZkqKiB8IGAvdG1wLzzova/ku7blkI0+Ki9gIHwg56iL5bqP5bey6KOF5YiwL3Vzci9sb2NhbC9iaW4vIHwKfCAqKua1j+iniOWZqOWuieijheWMhSoqIHwgYC90bXAvY2Ftb3Vmb3gqL2AgfCDnlKjlroznmoR6aXDvvIzml6Dov5vnqIsgfAp8ICoqREVMRVRF5qCH6K6w55uu5b2VKiogfCBgZXh0ZXJuYWwtc2tpbGxzLyotREVMRVRFL2AgfCAxMDAl5bqf5byD77yM5peg5rS76LeD5byV55SoIHwKfCAqKm5ldXJhbOaXp+Wkh+S7vSoqIHwgYG5ldXJhbF9uZXR3b3JrX3YzLjVfYmFja3VwX1lZWVlNTUREL2AgfCDnoa7orqTml6DlvJXnlKjlkI7lj6/muIUgfAoKIyMjIOW3sumqjOivgeW/hemhu+S/neeVmeeahOa0u+i3g+aooeWdlwoKfCDnm67lvZUgfCDlpKflsI8gfCDnkIbnlLEgfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgYG1vZGVscy9gIHwgOEdCIHwgT2xsYW1hIEdHVUbmqKHlnovmlofku7YgfAp8IGDnp5jkuaYv56eY5LmmX2ZfY29uZmlnL2AgfCAxNE1CIHwg6YWN572u55uR5o6n5bel5YW377yMY2hhbmdlcy5sb2fmtLvot4MgfAp8IGBnZW1zL2Rvd25sb2Fkcy9icm93c2VyX3VzZWAgfCA1NzJLQiB8IOWunumZheS9v+eUqOeahOeyvueugOeJiCB8CnwgYGJyYWluL2AgfCA1OU1CIHwg6K6w5b+G57O757uf5qC45b+D77yM5pyJanNvbmzmtLvot4PlhpnlhaUgfAp8IGBzZXNzaW9ucy9gIHwgMS41R0IrIHwg5Y6G5Y+y5a+56K+d6K6w5b2VIHwKfCBgdmVudi9gIHwgMTI1TUIgfCBQeXRob27njq/looMgfAp8IGBjcm9uL291dHB1dC9gIHwgNzRNQisgfCBjcm9u5a6e5pe26L6T5Ye657yT5a2YIHwKCiMjIyDlg7XlsLjov5vnqIvliKTmlq0KYGBgYmFzaApwcyBhdXggfCBncmVwIGRlZnVuY3QgICAgIyDnnIvmlbDph4/lkozlubTpvoQKcHMgYXV4IHwgYXdrICckOD09Iloie3ByaW50ICQzfScgfCBzb3J0IHwgdW5pcSAtYyB8IHNvcnQgLXJuICAjIFBQSUTliIbnu4QKYGBgCi0gUFBJRD0w77ya5Y6G5Y+y5a2k5YS/77yM5Y+v5b+955WlCi0gUFBJRD0x5LiU5aSa77ya5a655ZmoUElEIDHpl67popjvvIzpnIDph43lkK/lrrnlmagKLSDmlrDlg7XlsLjmjIHnu63kuqfnlJ/vvJrniLbov5vnqItmb3JrL3dhaXQgYnVn77yM6ZyA5L+u5aSN6ISa5pysCgotLS0KCiMjIOaJp+ihjOWZqOWNoeatu+S7u+WKoeiviuaWre+8iDIwMjYtMDYtMDPlrp7mtYvvvIkKCiMjIyDlhbjlnovnl4fnirYKLSDku7vliqFgc3RhdHVzPXBlbmRpbmdgK2Bwcm9jZXNzaW5nX2F0PeaXtumXtOaIs2DvvIzkvYbmsLjov5zkuI3lrozmiJAKLSDml6Xlv5flj6rmmL7npLrlv4Pot7Mi5peg5b6F5omn6KGM5Lu75YqhIgotIOWkmuasoeaJi+WKqOmHjeWGmea0vuW3peadv+aXoOaViAoKIyMjIOagueWboApgZGVwdXR5X3dvcmtlci5weWAgbGluZSAxNjfov4fmu6TpgLvovpHvvJoKYGBgcHl0aG9uCnBlbmRpbmcgPSBbdCBmb3IgdCBpbiB0YXNrcyBpZiB0LmdldCgic3RhdHVzIikgPT0gInBlbmRpbmciIGFuZCBub3QgdC5nZXQoInByb2Nlc3NpbmdfYXQiKV0KYGBgCuS7u+WKoeS4gOaXpuiiq+iupOmihu+8iGBwcm9jZXNzaW5nX2F0YOW3suiuvu+8ie+8jOaJp+ihjOWZqOWwseiupOS4uiLmraPlnKjlpITnkIYi77yM5rC45LiN6YeN5o2h44CCCgoqKuinpuWPkeadoeS7tioq77ya5qih5Z6LT09NL+i2heaXti/mrbvlvqrnjq/ml7bvvIzku7vliqHljaHlnKhgcHJvY2Vzc2luZ2DnirbmgIHml6Dms5XmgaLlpI3jgIIKCiMjIyDor4rmlq3kuInmnb/mlqcKYGBgYmFzaAojIDEuIOeci+a0vuW3peadv+eKtuaAgQpweXRob24zIC1jICIKaW1wb3J0IGpzb24KZCA9IGpzb24ubG9hZChvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L2Rpc3BhdGNoX2JvYXJkLmpzb24nKSkKZm9yIHQgaW4gZFsndGFza3MnXToKICAgIGlmIHQuZ2V0KCdzdGF0dXMnKSA9PSAncGVuZGluZycgYW5kIHQuZ2V0KCdwcm9jZXNzaW5nX2F0Jyk6CiAgICAgICAgcHJpbnQoZifljaHmrbvku7vliqE6IHt0LmdldChcInRhc2tfaWRcIixcIj9cIilbOjQwXX0nKQogICAgICAgIHByaW50KGYnICBwcm9jZXNzaW5nX2F0OiB7dC5nZXQoXCJwcm9jZXNzaW5nX2F0XCIpfScpCiIKCiMgMi4g55yLd29ya2Vy5pel5b+XCnRhaWwgLTIwIC9vcHQvZGF0YS9zZWNyZXRhcnkvbG9ncy9kZXB1dHlfd29ya2VyLmxvZwoKIyAzLiDnnIt3b3JrZXLov5vnqIvnirbmgIEKcHMgYXV4IHwgZ3JlcCBkZXB1dHlfd29ya2VyIHwgZ3JlcCAtdiBncmVwCmNhdCAvdG1wL2RlcHV0eV93b3JrZXIubG9jawpgYGAKCiMjIyDkv67lpI3vvJpTVFVDS19NSU5VVEVT6Ieq5Yqo5oGi5aSNCuWcqGBkZXB1dHlfd29ya2VyLnB5YOS4u+W+queOr+WKoOiHquWKqOaBouWkje+8mgpgYGBweXRob24KU1RVQ0tfTUlOVVRFUyA9IDE1ICAjIHByb2Nlc3NpbmfotoXov4fmraTml7bpl7TliJnph43nva4KCndoaWxlIFRydWU6CiAgICAjIOiHquWKqOaBouWkjeWNoeatu+S7u+WKoQogICAgbm93ID0gZGF0ZXRpbWUubm93KCkKICAgIGZvciB0IGluIHRhc2tzOgogICAgICAgIHB0ID0gdC5nZXQoInByb2Nlc3NpbmdfYXQiKQogICAgICAgIGlmIHB0IGFuZCB0LmdldCgic3RhdHVzIikgPT0gInBlbmRpbmciOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBlbGFwc2VkID0gKG5vdyAtIGR0LmZyb21pc29mb3JtYXQocHQpKS50b3RhbF9zZWNvbmRzKCkKICAgICAgICAgICAgICAgIGlmIGVsYXBzZWQgPiBTVFVDS19NSU5VVEVTICogNjA6CiAgICAgICAgICAgICAgICAgICAgdC5wb3AoInByb2Nlc3NpbmdfYXQiLCBOb25lKQogICAgICAgICAgICAgICAgICAgIHQucG9wKCJjbGFpbWVkX2J5IiwgTm9uZSkKICAgICAgICAgICAgICAgICAgICBsb2coZiLwn5SEIOaBouWkjeWNoeatu+S7u+WKoSIsICJXQVJOIikKICAgICAgICAgICAgZXhjZXB0OiBwYXNzCmBgYAoKIyMjIOaJi+WKqOe0p+aApeS/ruWkjQpgYGBweXRob24KcHl0aG9uMyAtYyAiCmltcG9ydCBqc29uCmQgPSBqc29uLmxvYWQob3BlbignL29wdC9kYXRhL3NlY3JldGFyeS9kaXNwYXRjaF9ib2FyZC5qc29uJykpCmZvciB0IGluIGRbJ3Rhc2tzJ106CiAgICBpZiB0LmdldCgndGFza19pZCcpID09ICfnm67moId0YXNrX2lkJzoKICAgICAgICB0WydzdGF0dXMnXSA9ICdwZW5kaW5nJwogICAgICAgIHQucG9wKCdwcm9jZXNzaW5nX2F0JywgTm9uZSkKICAgICAgICB0LnBvcCgnY2xhaW1lZF9ieScsIE5vbmUpCmpzb24uZHVtcChkLCBvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L2Rpc3BhdGNoX2JvYXJkLmpzb24nLCd3JyksIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCnByaW50KCflt7Lph43nva4nKQoiCmBgYAoKLS0tCgojIyDku7vliqFyZXNvdXJjZXPlrZfmrrXliIbmibnmiafooYzvvIgyMDI2LTA2LTAz77yJCgojIyMg5YW45Z6L55eH54q2CuaJp+ihjOWZqOi+k+WHuuepuua0nu+8miLor7fmj5DkvpvotYTmupDkv6Hmga8i77yM5qih5Z6L55yL5LiN5YiwYHJlc291cmNlc2DlrZfmrrXjgIIKCiMjIyDmoLnlm6AKYGRlcHV0eV93b3JrZXIucHlg55qEYGV4ZWN1dGVfdGFzaygpYOebtOaOpeaLvOaOpWBpbnN0cnVjdGlvbnNg77yM5LiN5aSE55CGYHJlc291cmNlc2DlrZfmrrXvvJoKYGBgcHl0aG9uCmluc3RydWN0aW9uID0gIlxuIi5qb2luKHRhc2suZ2V0KCJpbnN0cnVjdGlvbnMiLCBbXSkpCiMgcmVzb3VyY2Vz5a2X5q616KKr5a6M5YWo5b+955Wl77yBCmBgYAoKIyMjIOino+WGs++8mnNwbGl0X2ludG9fYmF0Y2hlcyArIGV4ZWN1dGVfYmF0Y2hlZApgYGBweXRob24KQkFUQ0hfU0laRSA9IDMgICMg5q+P5om55pyA5aSaM+S4qui1hOa6kAoKZGVmIHNwbGl0X2ludG9fYmF0Y2hlcyh0YXNrKToKICAgIHJlc291cmNlcyA9IHRhc2suZ2V0KCJyZXNvdXJjZXMiLCBbXSkKICAgIGlmIGxlbihyZXNvdXJjZXMpIDw9IEJBVENIX1NJWkU6CiAgICAgICAgcmV0dXJuIFt0YXNrXQogICAgCiAgICBpbnN0cnVjdGlvbnMgPSB0YXNrLmdldCgiaW5zdHJ1Y3Rpb25zIiwgW10pCiAgICBiYXRjaGVzID0gW10KICAgIHRvdGFsID0gKGxlbihyZXNvdXJjZXMpICsgQkFUQ0hfU0laRSAtIDEpIC8vIEJBVENIX1NJWkUgICMg5ZCR5LiK5Y+W5pW0CiAgICBmb3IgaSBpbiByYW5nZSgwLCBsZW4ocmVzb3VyY2VzKSwgQkFUQ0hfU0laRSk6CiAgICAgICAgY2h1bmsgPSByZXNvdXJjZXNbaTppK0JBVENIX1NJWkVdCiAgICAgICAgc3ViID0geyoqdGFzaywgInJlc291cmNlcyI6IGNodW5rfQogICAgICAgIGJhc2UgPSBpbnN0cnVjdGlvbnNbMF0gaWYgaW5zdHJ1Y3Rpb25zIGVsc2UgdGFzay5nZXQoImluc3RydWN0aW9uIiwgIiIpCiAgICAgICAgcmFuZ2VfaGludCA9IGYi77yI6L+Z5piv56yse2kvL0JBVENIX1NJWkUrMX3mibnvvIzlhbF7dG90YWx95om577yM5YiG5p6Q6L+Ze2xlbihjaHVuayl95Liq6LWE5rqQ77yJIgogICAgICAgIHN1YlsiaW5zdHJ1Y3Rpb25zIl0gPSBbYmFzZSArIHJhbmdlX2hpbnRdICsgaW5zdHJ1Y3Rpb25zWzE6XQogICAgICAgIGJhdGNoZXMuYXBwZW5kKHN1YikKICAgIHJldHVybiBiYXRjaGVzCgpkZWYgZXhlY3V0ZV9iYXRjaGVkKHRhc2spOgogICAgYmF0Y2hlcyA9IHNwbGl0X2ludG9fYmF0Y2hlcyh0YXNrKQogICAgcmVzdWx0cyA9IFtdCiAgICBmb3IgYmF0Y2ggaW4gYmF0Y2hlczoKICAgICAgICByZXN1bHRzLmFwcGVuZChjYWxsX29sbGFtYSguLi4pKQogICAgcmV0dXJuIHsKICAgICAgICAqKnRhc2ssCiAgICAgICAgInN0YXR1cyI6ICJkb25lIiwKICAgICAgICAiY29tcGxldGVkX2F0IjogdHMoKSwKICAgICAgICAicmF3X3Jlc3VsdCI6ICJcblxuIi5qb2luKHJlc3VsdHMpLAogICAgfQpgYGAKCioq5rOo5oSPKirvvJpgdG90YWxfYmF0Y2hlcyA9IChsZW4ocmVzb3VyY2VzKSArIEJBVENIX1NJWkUgLSAxKSAvLyBCQVRDSF9TSVpFYCDnlKjlkJHkuIrlj5bmlbTvvIzkuI3nlKggYGxlbi8vQkFUQ0hfU0laRSsxYOOAggoKIyMjIOmqjOivgQpgYGBweXRob24KIyA25Liq6LWE5rqQ5bqU5ouG5oiQMuaJue+8iOS4jeaYrzPmibnvvIkKYmF0Y2hlcyA9IHNwbGl0X2ludG9fYmF0Y2hlcyh7J3Rhc2tfaWQnOid4JywnaW5zdHJ1Y3Rpb25zJzpbJ+WIhuaekCddLCdyZXNvdXJjZXMnOlt7J2lkJzppfSBmb3IgaSBpbiByYW5nZSgxLDcpXX0pCnByaW50KGxlbihiYXRjaGVzKSkgICMg5bqU6L6T5Ye6MgpgYGAKCi0tLQoKIyMgaGVybWVzX2F1dG9fY2xlYW4ucHnmjqXlhaXop4TojIPvvIgyMDI2LTA2LTAz5a6e5rWL77yJCgojIyMg5a6M5pW06JC95Zyw5LiJ5q2lCjEuICoqY3JvbuinpuWPkSoq77ya5q+P5aSpMDM6MDDmiafooYwKICAgYGBgYmFzaAogICBjcm9udGFiIC1sIHwgZ3JlcCBhdXRvX2NsZWFuIHx8IGVjaG8gIjAgMyAqICogKiAvdXNyL2Jpbi9weXRob24zIC9vcHQvZGF0YS9zY3JpcHRzL2hlcm1lc19hdXRvX2NsZWFuLnB5ID4+IC9vcHQvZGF0YS9sb2dzL2F1dG9fY2xlYW4ubG9nIDI+JjEiIHwgY3JvbnRhYiAtCiAgIGBgYAoyLiAqKuWFjeeWq+WxguebkeaOpyoq77ya5ZyoYC9vcHQvZGF0YS9hdXRvX2hlYWxpbmcucHlg55qEYERFVEVDVElPTl9SVUxFU2DliqDkuIDpobkKICAgYGBgcHl0aG9uCiAgICJzeXN0ZW1fY2xlYW4iOiB7CiAgICAgICAibmFtZSI6ICLns7vnu5/oh6rlh4DljJZjcm9uIiwKICAgICAgICJjaGVja19jbWQiOiAiY3JvbnRhYiAtbCAyPi9kZXYvbnVsbCB8IGdyZXAgJ2hlcm1lc19hdXRvX2NsZWFuJyA+IC9kZXYvbnVsbCAmJiBlY2hvIEhFQUxUSFkgfHwgZWNobyBNSVNTSU5HIiwKICAgICAgICJhdXRvX2ZpeCI6IFRydWUsCiAgICAgICAiZml4X2NtZCI6ICJlY2hvICcwIDMgKiAqICogLi4uJyB8IGNyb250YWIgLSIsCiAgICAgICAiaGVhbHRoeV9wYXR0ZXJuIjogIl5IRUFMVEhZJCIsCiAgICAgICAic2V2ZXJpdHkiOiAibG93IiwKICAgfSwKICAgYGBgCjMuICoq6aqM6K+BKirvvJrlgaXlurfliIYxMDAvMTAw5YyF5ZCr6K+l6aG5CgojIyMgc2Vzc2lvbuaWh+S7tua4heeQhuaVmeiure+8iDIwMjYtMDYtMDPvvIkKLSBjcm9u6aKR57mB5Lqn55Sfc2Vzc2lvbuW/q+eFp++8jHNlc3Npb25zL+ebruW9leWPr+i+vjEyLDc0N+S4quaWh+S7tgotICoq5L+d55WZ5pyfMzDlpKnlpKrplb8qKu+8jOW6lOaUueS4uioqN+WkqSoqCi0gYGNsZWFuX29sZF9zZXNzaW9ucygpYOmcgOimhueblioq5Lik5Liq5L2N572uKirvvJpzZXNzaW9ucy/nm67lvZUgKyDmoLnnm67lvZVgc2Vzc2lvbl8qLmpzb25gCi0g6aaW5qyh6L+Q6KGM5riF55CGNSwxMjLkuKrmlofku7bvvIzph4rmlL42MjYuM01CCgojIyMg5riF55CG5LyY5YWI57qn77yI5a6J5YWo6aG65bqP77yJCjEuIOKRoCBgX19weWNhY2hlX19gICsgYC5weWNg77yIUHl0aG9u57yT5a2Y77yM6Ieq5Yqo6YeN5bu677yJCjIuIOKRoSBgLnB5dGVzdF9jYWNoZWDvvIjmtYvor5XnvJPlrZjvvIkKMy4g4pGiIOaXp+S8muivne+8iD435aSp5b2S5qGj77yJCjQuIOKRoyDml6fml6Xlv5fvvIg+N+WkqeWOi+e8qe+8jD4zMOWkqeWIoOmZpO+8iQo1LiDikaQg56m655uu5b2V77yI6YCS5b2S5riF55CG77yJCjYuIOKRpSDnp6/ljovlpIfku73vvIjkv53nlZnmnIDov5E05Liq77yJCgotLS0KCiMjIOWFqOmTvui3r0FnZW505p625p6E5a6h6K6h77yIMjAyNi0wNi0wM+Wunua1i++8iQoKIyMjIOinpuWPkeadoeS7tgrnlKjmiLfor7Qi5YWo6ZO+6Lev5a6h6K6hIuOAgSLmnrbmnoTmiavmj48i44CCCgojIyMg5LiJ5YiG57G75qGG5p62Cgp8IOexu+WIqyB8IOWuoeiuoeWGheWuuSB8IOWFuOWei+mXrumimCB8CnwtLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLXwKfCAqKuagh+eCuS/mlofmnKwqKiB8IOWFqOinki/ljYrop5LjgIHlvJXlj7fjgIHmi6zlj7fjgIHnibnmrornrKblj7cgfCDkuK3mlofmoIfngrnjgIHmraPliJnovazkuYkgfAp8ICoq5pWw5o2u5a2k5bKbKiogfCBKU09O5paH5Lu26Ze05byV55So5pat6KOC44CB5pWw5o2u5LiN5ZCM5q2lIHwg5Y+M54mI5pys5pWw5o2u44CB6Lev5b6E6ZSZ5L2N44CB5paH5qGj5LiO5a6e6ZmF5LiN56ymIHwKfCAqKuaetuaehOmTvui3ryoqIHwgT2xsYW1h4oaSR2F0ZXdheeKGkuWZqOWumOKGkuenmOS5puWkhOKGkuaOqOmAgSB8IOWtl+auteS4jeWFvOWuueOAgeaWreeCueaXoOmZjee6pyB8CgojIyMg5b+r6YCf5omr5o+P6ISa5pys77yIZXhlY3V0ZV9jb2Rl5omn6KGM77yJCgpgYGBweXRob24KaW1wb3J0IGpzb24sIHBhdGhsaWIKCiMgMS4gZXZvbHV0aW9uX3N0YXRlIOeJiOacrOajgOafpQplcyA9IGpzb24ubG9hZChvcGVuKCcvb3B0L2RhdGEvYnJhaW4vbmV1cmFsL2V2b2x1dGlvbl9zdGF0ZS5qc29uJykpCnByaW50KGYiZXZvbHZl54mI5pysOiB7ZXMuZ2V0KCd2ZXJzaW9uJyl9IHwg6IqC54K5OiB7bGVuKGVzLmdldCgnbm9kZXMnLHt9KSl9IikKCiMgMi4gTUVNT1JZ6Lev5b6E5YeG56Gu5oCnCm1lbSA9IG9wZW4oJy9vcHQvZGF0YS9tZW1vcmllcy9NRU1PUlkubWQnKS5yZWFkKCkKZm9yIHBhdGggaW4gWycvb3B0L2RhdGEvbmV1cmFsX25ldHdvcmsvJywgJy9vcHQvZGF0YS9icmFpbi9uZXVyYWwvJ106CiAgICBleGlzdHMgPSBwYXRobGliLlBhdGgocGF0aCkuZXhpc3RzKCkKICAgIHByaW50KGYie3BhdGh9OiB7J+WtmOWcqCcgaWYgZXhpc3RzIGVsc2UgJ+S4jeWtmOWcqCd9IHwgTUVNT1JZ5LitOiB7J+aciScgaWYgcGF0aCBpbiBtZW0gZWxzZSAn5pegJ30iKQoKIyAzLiBvcmdhbuaWh+ahoyB2cyDlrp7pmYXmlofku7bmlbAKYWN0dWFsID0gc2V0KHAuc3RlbSBmb3IgcCBpbiBwYXRobGliLlBhdGgoJy9vcHQvZGF0YS9vcmdhbnMnKS5nbG9iKCcqLnB5JykpCmRvY19vcmdhbnMgPSBzZXQoKQp0cnk6CiAgICBkb2MgPSBqc29uLmxvYWQob3BlbignL29wdC9kYXRhL2JyYWluL21lbW9yeV9iYW5rL29yZ2FuX3N5c3RlbV92Mi5qc29uJykpCiAgICBkb2Nfb3JnYW5zID0gc2V0KG9bJ25hbWUnXSBmb3IgbyBpbiBkb2MuZ2V0KCdvcmdhbnMnLFtdKSkKZXhjZXB0OiBwYXNzCnByaW50KGYi5a6e6ZmF5Zmo5a6YOiB7bGVuKGFjdHVhbCl9IHwg5paH5qGj6K6w5b2VOiB7bGVuKGRvY19vcmdhbnMpfSB8IOW3rumbhjoge2FjdHVhbC1kb2Nfb3JnYW5zfSIpCgojIDQuIOa0vuW3peadv+Wtl+auteWujOaVtOaApwpkYiA9IGpzb24ubG9hZChvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L2Rpc3BhdGNoX2JvYXJkLmpzb24nKSkKaXNzdWVzID0gW10KZm9yIHQgaW4gZGIuZ2V0KCd0YXNrcycsW10pWzoxMF06CiAgICBpZiAndGFza19pZCcgbm90IGluIHQgYW5kICdpZCcgbm90IGluIHQ6CiAgICAgICAgaXNzdWVzLmFwcGVuZChmIue8uuWwkWlkOiB7c3RyKHQpWzo2MF19IikKcHJpbnQoZiLmtL7lt6Xmnb86IHtsZW4oaXNzdWVzKX3kuKrpl67popgiIGlmIGlzc3VlcyBlbHNlICLinIUg5a2X5q615a6M5pW0IikKYGBgCgojIyMg5bey5Y+R546w5bm25L+u5aSN55qE6Zeu6aKY77yIMjAyNi0wNi0wM++8iQoKfCDpl67popggfCDkv67lpI0gfAp8LS0tLS0tfC0tLS0tLXwKfCBldm9sdXRpb25fc3RhdGXlj4zniYjmnKzliIbmtYHvvIh2My4w5Zyo5qC555uu5b2V77yMdjQuMOWcqGFjdGl2YXRpb25fZW5naW5lX2RhdGEv77yJIHwgdjPot6/lvoTmm7/mjaLkuLp2NOWGheWuue+8jOiKgueCuTIyOOKGkjIzOTQ577yM5aSn5bCPMS42NuKGkjkuNk1CIHwKfCBNRU1PUlkubWTot6/lvoRgL29wdC9kYXRhL25ldXJhbF9uZXR3b3JrL2DkuI3lrZjlnKggfCDmlLnkuLpgL29wdC9kYXRhL2JyYWluL25ldXJhbC9gIHwKfCBNRU1PUlkubWTlmajlrpjmlbA477yI5a6e6ZmFMTPvvIkgfCDooaXlhYXlrozmlbTliJfooaggfAp8IG9yZ2FuX3N5c3RlbV92Mi5qc29u5Zmo5a6Y5pWwMTDvvIjlrp7pmYUxM++8iSB8IOmHjeWGmeS4unYzLjDvvIwxM+WZqOWumOWFqOiusOW9lSB8Cg==
+---
+name: system-full-audit
+description: 系统全身检查与清理流水线 — 逐字扫描所有模块，发现重复/废弃/冲突并自动修复。触发：用户说"做全身检查"、"系统诊断"、"清理重复"。
+triggers: ["架构", "用户说", "系统"]
+version: 1.0
+---
+
+# 系统全身检查与清理流水线
+
+## 执行步骤
+
+### 1. 目录扫描
+```bash
+# 检查核心目录
+ls -la /opt/data/secretary/          # 秘书处
+ls -la /opt/data/秘书/*.py         # 秘书秘书
+ls -la /opt/data/scripts/            # scripts目录
+find /opt/data/skills -name "*.md"   # skills文档
+
+# 检查进程
+ps aux | grep -E "(run.py|secretary|秘书)" | grep -v grep
+
+# 检查cronjobs
+cronjob list
+```
+
+### 2. 识别5类常见问题
+
+| 问题类型 | 检查方法 | 修复方式 |
+|---------|---------|---------|
+| **废弃目录** | 目录存在但cron从未触发 | 移动到 `_old_xxx_YYYYMMDD/` |
+| **重复脚本** | 多目录同名文件，内容相同 | 保留一个，更新所有引用 |
+| **重复cronjob** | 多个cron跑同一脚本 | 保留频率最合适的，pause其他 |
+| **功能重叠** | 13个学习任务 → 实际只有3-4个独立功能 | 合并由统一调度器接管，暂停旧的 |
+| **推送未配置** | webhook为空但cron在跑 | 记录问题，验证脚本能正常执行 |
+
+### 3. 验证检查清单
+
+```bash
+# 验证删除/移动
+ls /opt/data/secretary/
+
+# 验证cron已暂停
+cronjob list | grep enabled
+
+# 验证引用已更新
+grep -r "旧路径" /opt/data/scripts/*.py
+
+# 测试关键脚本（push_results.py已于2026-05-29清理）
+```
+
+## 常见修复操作
+
+### ⚠️ `http.py` 覆盖标准库（批量cron报 ModuleNotFoundError）
+**症状**：多个cron任务同时报错 `ModuleNotFoundError: No module named 'http.client'` / `No module named 'requests'`
+
+**根因**：`/opt/data/scripts/http.py` 与Python标准库 `http` 包同名，导入时优先找到 `scripts/http.py`，覆盖标准库，httpx/urllib3/requests全部挂。
+
+**诊断**：
+```bash
+/opt/hermes/.venv/bin/python3 -c "import http.client"   # 报错即中招
+/opt/hermes/.venv/bin/python3 -c "import requests"       # 报错即中招
+```
+
+**修复**：重命名文件解除覆盖
+```bash
+mv /opt/data/scripts/http.py /opt/data/scripts/http_volcano.py
+# 验证
+/opt/hermes/.venv/bin/python3 -c "import requests; print('OK')"
+```
+
+**预防**：避免在 `/opt/data/scripts/` 下创建与Python标准库同名的文件（`http.py`、`typing.py`、`pathlib.py` 等）。
+
+### 僵尸进程诊断
+**症状**：`ps aux` 显示 `<defunct>`，CPU 0%
+
+**诊断**：`ps aux | grep defunct`
+
+**风险**：通常无害，父进程退出后init自动回收。PID 1下大量僵尸才需关注。
+
+**清理**：僵尸无法手动kill，等待父进程退出即可。
+
+### 删除废弃目录（先备份后删除）
+```bash
+mkdir -p /opt/data/secretary/_old_backup_$(date +%Y%m%d)
+mv /opt/data/secretary/废弃目录 /opt/data/secretary/_old_backup_$(date +%Y%m%d)/
+```
+
+### 暂停重复cronjob
+```bash
+# 两个相同任务，保留推微信的
+cronjob pause <job_id_不推微信的>
+```
+
+### 合并office工具（三套变一套）
+```bash
+# 1. 比较内容
+python3 -c "
+import os
+d1 = open('/opt/data/scripts/pptx_TEMP/office/pack.py').read()
+d2 = open('/opt/data/scripts/xlsx/office/pack.py').read()
+print('相同' if d1==d2 else '不同')
+"
+
+# 2. 保留docx_TEMP，更新引用
+patch /opt/data/scripts/office_skills_dispatcher.py \
+  -e 's|pptx_TEMP|docx_TEMP|g' \
+  -e 's|xlsx/|docx_TEMP/|g'
+```
+
+### 迁移文件隔离（已完成）
+**状态**：/opt/data/scripts/migrations/ 已隔离175个迁移文件（hex格式hash_ 和数字前缀001_）。
+隔离已完成，scripts目录不再被migration文件污染。不需要再处理。
+
+### Python标准库shadow分析（2026-05-30实测）
+**发现5个shadow文件，但不可删除**：
+```
+code.py    - 37个内部引用
+html.py    - 7个内部引用
+platform.py - 5个内部引用
+resource.py - 12个内部引用
+time.py    - 562个内部引用（最高危！）
+```
+**诊断方法**：
+```bash
+# 方法1：用Python stdlib_module_names检测
+python3 -c "import os,sys; stdlib=set(sys.stdlib_module_names); shadowed=[f for f in os.listdir('/opt/data/scripts') if f.endswith('.py') and f[:-3] in stdlib and not f.startswith('_')]; print(shadowed)"
+
+# 方法2：检查引用数量（决定能否安全删除）
+grep -rl "from scripts import time\|import time" /opt/data/scripts/*.py | wc -l
+```
+**结论**：time.py被引用562次，动不得。安全清理只处理：废弃目录、重复文件、失效符号链接。
+
+### Port 18643冲突误报
+**症状**：gateway_restart.log显示 `OSError [Errno 98] address already in use`  
+**结论**：这是Gateway上次重启时的错误日志，不代表当前问题。当前Gateway正常运行在端口18643（PID 1），无需处理。
+
+### self_observer_wrapper.sh路径错误
+**症状**：cron任务报错"No inference provider"（prompt模式）  
+**根因**：cron引用 `/opt/data/scripts/self_observer_wrapper.sh`，实际文件在 `cron_wrappers/` 子目录  
+**修复**：
+```bash
+ln -sf cron_wrappers/self_observer_wrapper.sh /opt/data/scripts/self_observer_wrapper.sh
+```
+
+### 4个cron报"No inference provider"（暂不处理）
+**根因**：这4个cron用prompt模式运行，会走Agent推理，但cron后台无推理环境配置  
+**涉及任务**：每日元学习/短视频营销学习/自进化每日报告/herrmes-skills同步  
+**说明**：需要深入理解cron执行环境和模型配置才能安全修复。当前状态不影响核心功能，暂保留。
+
+## 器官命名规范（2026-05-28确认）
+- Worker-A = 👃 鼻子·情报秘书
+- Worker-B = 🫚 肝脏·学习秘书
+- Worker-C = ✋ 手掌·文秘
+- Worker-D = 🫀 心脏·策略秘书
+- Hermes = 大脑（不能重复叫大脑）
+
+## 修复优先级
+1. **安全清理** - 删除废弃目录（无风险）
+2. **停用重复** - pause重复cron（可恢复）
+3. **合并重复** - 三套变一套（需更新引用）
+4. **验证推送** - 确认webhook配置
+
+---
+
+## NAS磁盘垃圾清理工作流（2026-05-30实测）
+
+### ⚠️ 铁律：先识别活代码，再清理死代码
+**典型错误**：对着废弃代码做升级/迁移。活代码判断标准：
+- cron近期有输出？→ 活
+- jsonl文件有最近写入？→ 活
+- 有进程在跑？→ 活
+- 外部被引用？→ 活
+
+### 第一步：识别真实占用
+```bash
+# 磁盘占用TOP分布
+du -sh /opt/data/*/ | sort -rh | head -15
+
+# 临时目录
+du -sh /tmp/*/ | sort -rh
+du -sh /opt/data/cron/output/
+
+# 大文件扫描（>100MB）
+find /opt/data -type f -size +100M 2>/dev/null
+```
+
+### 第二步：识别活 vs 死
+```bash
+# 活跃jsonl（3天内有写入）
+find /opt/data/brain -name "*.jsonl" -mtime -3 -exec wc -l {} \;
+
+# cron输出活跃度
+ls -lt /opt/data/cron/output/ | head -10
+
+# 进程检查
+ps aux | grep <进程名> | grep -v grep
+
+# 脚本引用检查
+grep -r "<目录名>" /opt/data/scripts/ /opt/data/cron/ 2>/dev/null | head -5
+```
+
+### 第三步：安全判定分类
+
+| 类别 | 判定标准 | 行动 |
+|------|---------|------|
+| **立即可清** | 无进程 + 无引用 + 残留物（安装包/缓存/下载残留） | 直接rm -rf |
+| **谨慎清理** | 无进程 + 无引用 + 但有真实数据（旧备份/旧输出） | 先看内容，再决定 |
+| **需董哥确认** | 历史对话记录 / 有引用但不确定用途 | 不动，等确认 |
+
+### 已验证可立即清理的类型（零风险）
+
+| 垃圾类型 | 典型路径 | 理由 |
+|---------|---------|------|
+| **pip http缓存** | `/opt/data/home/.cache/pip/http-v2/` | 2.9GB，pip下次自动重建 |
+| **pip unpack残留** | `/tmp/pip-unpack-*` | pip自己的临时目录 |
+| **下载残留** | `/tmp/<软件名>*/` | 程序已装到/usr/local/bin/ |
+| **浏览器安装包** | `/tmp/camoufox*/` | 用完的zip，无进程 |
+| **DELETE标记目录** | `external-skills/*-DELETE/` | 100%废弃，无活跃引用 |
+| **neural旧备份** | `neural_network_v3.5_backup_YYYYMMDD/` | 确认无引用后可清 |
+
+### 已验证必须保留的活跃模块
+
+| 目录 | 大小 | 理由 |
+|------|------|------|
+| `models/` | 8GB | Ollama GGUF模型文件 |
+| `秘书/秘书_f_config/` | 14MB | 配置监控工具，changes.log活跃 |
+| `gems/downloads/browser_use` | 572KB | 实际使用的精简版 |
+| `brain/` | 59MB | 记忆系统核心，有jsonl活跃写入 |
+| `sessions/` | 1.5GB+ | 历史对话记录 |
+| `venv/` | 125MB | Python环境 |
+| `cron/output/` | 74MB+ | cron实时输出缓存 |
+
+### 僵尸进程判断
+```bash
+ps aux | grep defunct    # 看数量和年龄
+ps aux | awk '$8=="Z"{print $3}' | sort | uniq -c | sort -rn  # PPID分组
+```
+- PPID=0：历史孤儿，可忽略
+- PPID=1且多：容器PID 1问题，需重启容器
+- 新僵尸持续产生：父进程fork/wait bug，需修复脚本
+
+---
+
+## 执行器卡死任务诊断（2026-06-03实测）
+
+### 典型症状
+- 任务`status=pending`+`processing_at=时间戳`，但永远不完成
+- 日志只显示心跳"无待执行任务"
+- 多次手动重写派工板无效
+
+### 根因
+`deputy_worker.py` line 167过滤逻辑：
+```python
+pending = [t for t in tasks if t.get("status") == "pending" and not t.get("processing_at")]
+```
+任务一旦被认领（`processing_at`已设），执行器就认为"正在处理"，永不重捡。
+
+**触发条件**：模型OOM/超时/死循环时，任务卡在`processing`状态无法恢复。
+
+### 诊断三板斧
+```bash
+# 1. 看派工板状态
+python3 -c "
+import json
+d = json.load(open('/opt/data/secretary/dispatch_board.json'))
+for t in d['tasks']:
+    if t.get('status') == 'pending' and t.get('processing_at'):
+        print(f'卡死任务: {t.get(\"task_id\",\"?\")[:40]}')
+        print(f'  processing_at: {t.get(\"processing_at\")}')
+"
+
+# 2. 看worker日志
+tail -20 /opt/data/secretary/logs/deputy_worker.log
+
+# 3. 看worker进程状态
+ps aux | grep deputy_worker | grep -v grep
+cat /tmp/deputy_worker.lock
+```
+
+### 修复：STUCK_MINUTES自动恢复
+在`deputy_worker.py`主循环加自动恢复：
+```python
+STUCK_MINUTES = 15  # processing超过此时间则重置
+
+while True:
+    # 自动恢复卡死任务
+    now = datetime.now()
+    for t in tasks:
+        pt = t.get("processing_at")
+        if pt and t.get("status") == "pending":
+            try:
+                elapsed = (now - dt.fromisoformat(pt)).total_seconds()
+                if elapsed > STUCK_MINUTES * 60:
+                    t.pop("processing_at", None)
+                    t.pop("claimed_by", None)
+                    log(f"🔄 恢复卡死任务", "WARN")
+            except: pass
+```
+
+### 手动紧急修复
+```python
+python3 -c "
+import json
+d = json.load(open('/opt/data/secretary/dispatch_board.json'))
+for t in d['tasks']:
+    if t.get('task_id') == '目标task_id':
+        t['status'] = 'pending'
+        t.pop('processing_at', None)
+        t.pop('claimed_by', None)
+json.dump(d, open('/opt/data/secretary/dispatch_board.json','w'), ensure_ascii=False, indent=2)
+print('已重置')
+"
+```
+
+---
+
+## 任务resources字段分批执行（2026-06-03）
+
+### 典型症状
+执行器输出空洞："请提供资源信息"，模型看不到`resources`字段。
+
+### 根因
+`deputy_worker.py`的`execute_task()`直接拼接`instructions`，不处理`resources`字段：
+```python
+instruction = "\n".join(task.get("instructions", []))
+# resources字段被完全忽略！
+```
+
+### 解决：split_into_batches + execute_batched
+```python
+BATCH_SIZE = 3  # 每批最多3个资源
+
+def split_into_batches(task):
+    resources = task.get("resources", [])
+    if len(resources) <= BATCH_SIZE:
+        return [task]
+    
+    instructions = task.get("instructions", [])
+    batches = []
+    total = (len(resources) + BATCH_SIZE - 1) // BATCH_SIZE  # 向上取整
+    for i in range(0, len(resources), BATCH_SIZE):
+        chunk = resources[i:i+BATCH_SIZE]
+        sub = {**task, "resources": chunk}
+        base = instructions[0] if instructions else task.get("instruction", "")
+        range_hint = f"（这是第{i//BATCH_SIZE+1}批，共{total}批，分析这{len(chunk)}个资源）"
+        sub["instructions"] = [base + range_hint] + instructions[1:]
+        batches.append(sub)
+    return batches
+
+def execute_batched(task):
+    batches = split_into_batches(task)
+    results = []
+    for batch in batches:
+        results.append(call_ollama(...))
+    return {
+        **task,
+        "status": "done",
+        "completed_at": ts(),
+        "raw_result": "\n\n".join(results),
+    }
+```
+
+**注意**：`total_batches = (len(resources) + BATCH_SIZE - 1) // BATCH_SIZE` 用向上取整，不用 `len//BATCH_SIZE+1`。
+
+### 验证
+```python
+# 6个资源应拆成2批（不是3批）
+batches = split_into_batches({'task_id':'x','instructions':['分析'],'resources':[{'id':i} for i in range(1,7)]})
+print(len(batches))  # 应输出2
+```
+
+---
+
+## hermes_auto_clean.py接入规范（2026-06-03实测）
+
+### 完整落地三步
+1. **cron触发**：每天03:00执行
+   ```bash
+   crontab -l | grep auto_clean || echo "0 3 * * * /usr/bin/python3 /opt/data/scripts/hermes_auto_clean.py >> /opt/data/logs/auto_clean.log 2>&1" | crontab -
+   ```
+2. **免疫层监控**：在`/opt/data/auto_healing.py`的`DETECTION_RULES`加一项
+   ```python
+   "system_clean": {
+       "name": "系统自净化cron",
+       "check_cmd": "crontab -l 2>/dev/null | grep 'hermes_auto_clean' > /dev/null && echo HEALTHY || echo MISSING",
+       "auto_fix": True,
+       "fix_cmd": "echo '0 3 * * * ...' | crontab -",
+       "healthy_pattern": "^HEALTHY$",
+       "severity": "low",
+   },
+   ```
+3. **验证**：健康分100/100包含该项
+
+### session文件清理教训（2026-06-03）
+- cron频繁产生session快照，sessions/目录可达12,747个文件
+- **保留期30天太长**，应改为**7天**
+- `clean_old_sessions()`需覆盖**两个位置**：sessions/目录 + 根目录`session_*.json`
+- 首次运行清理5,122个文件，释放626.3MB
+
+### 清理优先级（安全顺序）
+1. ① `__pycache__` + `.pyc`（Python缓存，自动重建）
+2. ② `.pytest_cache`（测试缓存）
+3. ③ 旧会话（>7天归档）
+4. ④ 旧日志（>7天压缩，>30天删除）
+5. ⑤ 空目录（递归清理）
+6. ⑥ 积压备份（保留最近4个）
+
+---
+
+## 全链路Agent架构审计（2026-06-03实测）
+
+### 触发条件
+用户说"全链路审计"、"架构扫描"。
+
+### 三分类框架
+
+| 类别 | 审计内容 | 典型问题 |
+|------|---------|---------|
+| **标点/文本** | 全角/半角、引号、括号、特殊符号 | 中文标点、正则转义 |
+| **数据孤岛** | JSON文件间引用断裂、数据不同步 | 双版本数据、路径错位、文档与实际不符 |
+| **架构链路** | Ollama→Gateway→器官→秘书处→推送 | 字段不兼容、断点无降级 |
+
+### 快速扫描脚本（execute_code执行）
+
+```python
+import json, pathlib
+
+# 1. evolution_state 版本检查
+es = json.load(open('/opt/data/brain/neural/evolution_state.json'))
+print(f"evolve版本: {es.get('version')} | 节点: {len(es.get('nodes',{}))}")
+
+# 2. MEMORY路径准确性
+mem = open('/opt/data/memories/MEMORY.md').read()
+for path in ['/opt/data/neural_network/', '/opt/data/brain/neural/']:
+    exists = pathlib.Path(path).exists()
+    print(f"{path}: {'存在' if exists else '不存在'} | MEMORY中: {'有' if path in mem else '无'}")
+
+# 3. organ文档 vs 实际文件数
+actual = set(p.stem for p in pathlib.Path('/opt/data/organs').glob('*.py'))
+doc_organs = set()
+try:
+    doc = json.load(open('/opt/data/brain/memory_bank/organ_system_v2.json'))
+    doc_organs = set(o['name'] for o in doc.get('organs',[]))
+except: pass
+print(f"实际器官: {len(actual)} | 文档记录: {len(doc_organs)} | 差集: {actual-doc_organs}")
+
+# 4. 派工板字段完整性
+db = json.load(open('/opt/data/secretary/dispatch_board.json'))
+issues = []
+for t in db.get('tasks',[])[:10]:
+    if 'task_id' not in t and 'id' not in t:
+        issues.append(f"缺少id: {str(t)[:60]}")
+print(f"派工板: {len(issues)}个问题" if issues else "✅ 字段完整")
+```
+
+### 已发现并修复的问题（2026-06-03）
+
+| 问题 | 修复 |
+|------|------|
+| evolution_state双版本分流（v3.0在根目录，v4.0在activation_engine_data/） | v3路径替换为v4内容，节点228→23949，大小1.66→9.6MB |
+| MEMORY.md路径`/opt/data/neural_network/`不存在 | 改为`/opt/data/brain/neural/` |
+| MEMORY.md器官数8（实际13） | 补充完整列表 |
+| organ_system_v2.json器官数10（实际13） | 重写为v3.0，13器官全记录 |

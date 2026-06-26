@@ -1,1 +1,79 @@
-LS0tCm5hbWU6IGNvbmZpZy1taWdyYXRpb24tYXVkaXQtY2hlY2tsaXN0CmRlc2NyaXB0aW9uOiDphY3nva7ov4Hnp7vlkI7lv4Xmn6XmuIXljZUg4oCUIOmYsuatouaUueWKqGNvbmZpZ+e7k+aehOWvvOiHtOS4i+a4uOiEmuacrOmdmem7mOWkseaViO+8iDIwMjYtMDYtMDggRU5W6L+B56e75pWZ6K6t77yJCnRyaWdnZXJzOgogIC0g5pS55LqGY29uZmlnLnlhbWznu5PmnoQKICAtIOaUueS6hi5lbnblj5jph48KICAtIOaUueS6hmN1c3RvbV9wcm92aWRlcnPmoLzlvI8KICAtIOmHjeaehOS6hnByb3ZpZGVy6YWN572u5biD5bGACiAgLSDphY3nva7ov4Hnp7vlkI7lj5HnjrDlvILluLgKLS0tCgojIOmFjee9rui/geenu+WQjuW/heafpea4heWNlQoKIyMg5pWZ6K6t5p2l5rqQCjIwMjYtMDYtMDgg57uf5LiA6YWN572u5p625p6E6L+B56e777yIYC5lbnZg5Y2V5rqQ566h55CG77yJ5bCGIGB3aXNlbW9kZWxgIEFQSSBrZXkvVVJMIOS7jiBgY3VzdG9tX3Byb3ZpZGVyc2Ag6L+B56e75YiwIGBtb2RlbC5iYXNlX3VybC9hcGlfa2V5YCDnm7TmjqXlrZfmrrXvvIzlr7zoh7QgYGhlcm1lc19jb2RlX2d1YXJkLnB5YCDnmoQgYGNoZWNrX21vZGVsX2FwaSgpYCDmjIHnu63miqUgInByb3ZpZGVyW2N1c3RvbV3phY3nva7nvLrlpLEi77yI5a6e6ZmF5LiK6YWN572u5a2Y5Zyo77yM5Y+q5piv5L2N572u5Y+Y5LqG77yJ44CCCgojIyDmoLjlv4PmlZnorq0KKirmlLljb25maWfnu5PmnoTml7bvvIzlv4XpobvlkIzml7blrqHorqHmiYDmnInor7vlj5bor6Vjb25maWfnmoTohJrmnKzjgIIqKgoKQ29uZmln57uT5p6E6L+B56e75ZCO77yM5bi46KeB6Z2Z6buY5aSx5pWI54K577yaCjEuIGBjaGVja19tb2RlbF9hcGkoKWAgLyBoZWFsdGggY2hlY2sg6ISa5pysIOKAlCDor7twcm92aWRlcumFjee9rueahOWFpeWPowoyLiBgdHJ5X2ZhbGxiYWNrX3N3aXRjaCgpYCDigJQg5qC55o2ucHJvdmlkZXLlkI3np7Dmn6Xmib7phY3nva4KMy4g5Lu75L2V6K+75Y+WIGBjdXN0b21fcHJvdmlkZXJzYCDkvYbmsqHlm57pgIDpgLvovpHnmoTku6PnoIEKCiMjIOWuoeafpeatpemqpAoKIyMjIOesrDHmraXvvJrlrprkvY3miYDmnInor7tjb25maWfnmoTohJrmnKwKYGBgYmFzaApncmVwIC1ybCAiY3VzdG9tX3Byb3ZpZGVyc1x8Y29uZmlnLnlhbWwiIC9vcHQvZGF0YS9zY3JpcHRzLyAvb3B0L2RhdGEvaG9va3MvIDI+L2Rldi9udWxsCmBgYAoKIyMjIOesrDLmraXvvJrmo4Dmn6Xmr4/kuKrohJrmnKznmoTor7vlj5bmqKHlvI8KLSDmmK/lkKblj6rku44gYGN1c3RvbV9wcm92aWRlcnNgIOaVsOe7hOafpeaJvu+8nwotIOaYr+WQpuacieWbnumAgOWIsCBgbW9kZWwuYmFzZV91cmxgIC8gYG1vZGVsLmFwaV9rZXlgIOeahOmAu+i+ke+8nwotIOaYr+WQpuacieWFtuS7luivu+WPlui3r+W+hO+8nwoKIyMjIOesrDPmraXvvJrlr7nmr5TmlrDml6djb25maWfnu5PmnoQK5YaZ5LiA5Liq5a+554Wn6KGo77yaCgp8IOWtl+autSB8IOi/geenu+WJjSB8IOi/geenu+WQjiB8CnwtLS0tLS18LS0tLS0tLS18LS0tLS0tLS18CnwgcHJvdmlkZXLlkI3np7AgfCDnm7TmjqXor7sgfCBgbW9kZWwucHJvdmlkZXJgIHwKfCBBUEkga2V5IHwgYGN1c3RvbV9wcm92aWRlcnNbbmFtZV0uYXBpX2tleWAgfCBgbW9kZWwuYXBpX2tleWAgKyBgJHtFTlZ9YCB8CnwgYmFzZV91cmwgfCBgY3VzdG9tX3Byb3ZpZGVyc1tuYW1lXS5iYXNlX3VybGAgfCBgbW9kZWwuYmFzZV91cmxgICsgYCR7RU5WfWAgfAoKIyMjIOesrDTmraXvvJrkuLrmr4/kuKpyZWFkZXLliqDlj4zph43lm57pgIDpgLvovpEK5q2j56Gu5qih5byP77yaCmBgYHB5dGhvbgojIOS8mOWFiOS7jmN1c3RvbV9wcm92aWRlcnPmn6UKY3VzdG9tID0gY2ZnLmdldCgiY3VzdG9tX3Byb3ZpZGVycyIsIFtdKQpwcm92aWRlcnMgPSB7cC5nZXQoIm5hbWUiLCAiIik6IHAgZm9yIHAgaW4gY3VzdG9tfQpwcm92ID0gcHJvdmlkZXJzLmdldChwcmltYXJ5LCB7fSkKCiMg5Zue6YCA77yaMjAyNi0wNi0wOCBFTlbov4Hnp7vlkI7vvIzpg6jliIZwcm92aWRlcuebtOaOpeWGmeWcqG1vZGVs5q61CmJhc2VfdXJsID0gcHJvdi5nZXQoImJhc2VfdXJsIiwgIiIpCmFwaV9rZXkgPSBwcm92LmdldCgiYXBpX2tleSIsICIiKQppZiBub3QgYmFzZV91cmwgb3Igbm90IGFwaV9rZXk6CiAgICBtb2RlbF9zZWN0aW9uID0gY2ZnLmdldCgibW9kZWwiLCB7fSkKICAgIGJhc2VfdXJsID0gbW9kZWxfc2VjdGlvbi5nZXQoImJhc2VfdXJsIiwgIiIpCiAgICBhcGlfa2V5ID0gbW9kZWxfc2VjdGlvbi5nZXQoImFwaV9rZXkiLCAiIikKYGBgCgojIyMg56ysNeatpe+8mumqjOivgWhlYWx0aCBjaGVjawpgYGBiYXNoCnB5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvaGVybWVzX2NvZGVfZ3VhcmQucHkKIyDnoa7orqTml6AgIumFjee9rue8uuWksSIg6K+v5oqlCmBgYAoKIyMg5YWz6ZSu5paH5Lu25riF5Y2V77yI5b2T5YmNTkFT77yJCgp8IOaWh+S7tiB8IOivu+WPluaWueW8jyB8IOeKtuaAgSB8CnwtLS0tLS18LS0tLS0tLS0tLXwtLS0tLS18CnwgYGhlcm1lc19jb2RlX2d1YXJkLnB5YCB8IGBjdXN0b21fcHJvdmlkZXJzYCArIGBtb2RlbC5iYXNlX3VybGAg5Zue6YCAIHwg4pyFIOW3suS/ruWkjSB8CnwgYHN3aXRjaF90b19wcm92aWRlcigpYCB8IGBjdXN0b21fcHJvdmlkZXJzYCBvbmx5IHwg4pqg77iPIOmcgOi/geenu+WJjeWFiOajgOafpSB8CnwgYHRyeV9mYWxsYmFja19zd2l0Y2goKWAgfCDkvp3otZZgY3VzdG9tX3Byb3ZpZGVyc2DmnIlzaWxpY29uZmxvdyB8IOKchSBzaWxpY29uZmxvd+W3suWKoOWFpSB8CgojIyDpk4HlvosKLSDmr4/mrKHmlLkgYGNvbmZpZy55YW1sYCDnu5PmnoTvvIzlvZPlpKnlhoXmm7TmlrAgTUVNT1JZLm1kICsg5pysc2tpbGwKLSDmlLnkuYvliY3lhYggZ3JlcCDmiYDmnInlvJXnlKjot6/lvoTvvIzmlLnlroznq4vliLvpqozor4HmiYDmnIlyZWFkZXIK
+---
+name: config-migration-audit-checklist
+description: 配置迁移后必查清单 — 防止改动config结构导致下游脚本静默失效（2026-06-08 ENV迁移教训）
+triggers:
+  - 改了config.yaml结构
+  - 改了.env变量
+  - 改了custom_providers格式
+  - 重构了provider配置布局
+  - 配置迁移后发现异常
+---
+
+# 配置迁移后必查清单
+
+## 教训来源
+2026-06-08 统一配置架构迁移（`.env`单源管理）将 `wisemodel` API key/URL 从 `custom_providers` 迁移到 `model.base_url/api_key` 直接字段，导致 `hermes_code_guard.py` 的 `check_model_api()` 持续报 "provider[custom]配置缺失"（实际上配置存在，只是位置变了）。
+
+## 核心教训
+**改config结构时，必须同时审计所有读取该config的脚本。**
+
+Config结构迁移后，常见静默失效点：
+1. `check_model_api()` / health check 脚本 — 读provider配置的入口
+2. `try_fallback_switch()` — 根据provider名称查找配置
+3. 任何读取 `custom_providers` 但没回退逻辑的代码
+
+## 审查步骤
+
+### 第1步：定位所有读config的脚本
+```bash
+grep -rl "custom_providers\|config.yaml" /opt/data/scripts/ /opt/data/hooks/ 2>/dev/null
+```
+
+### 第2步：检查每个脚本的读取模式
+- 是否只从 `custom_providers` 数组查找？
+- 是否有回退到 `model.base_url` / `model.api_key` 的逻辑？
+- 是否有其他读取路径？
+
+### 第3步：对比新旧config结构
+写一个对照表：
+
+| 字段 | 迁移前 | 迁移后 |
+|------|--------|--------|
+| provider名称 | 直接读 | `model.provider` |
+| API key | `custom_providers[name].api_key` | `model.api_key` + `${ENV}` |
+| base_url | `custom_providers[name].base_url` | `model.base_url` + `${ENV}` |
+
+### 第4步：为每个reader加双重回退逻辑
+正确模式：
+```python
+# 优先从custom_providers查
+custom = cfg.get("custom_providers", [])
+providers = {p.get("name", ""): p for p in custom}
+prov = providers.get(primary, {})
+
+# 回退：2026-06-08 ENV迁移后，部分provider直接写在model段
+base_url = prov.get("base_url", "")
+api_key = prov.get("api_key", "")
+if not base_url or not api_key:
+    model_section = cfg.get("model", {})
+    base_url = model_section.get("base_url", "")
+    api_key = model_section.get("api_key", "")
+```
+
+### 第5步：验证health check
+```bash
+python3 /opt/data/scripts/hermes_code_guard.py
+# 确认无 "配置缺失" 误报
+```
+
+## 关键文件清单（当前NAS）
+
+| 文件 | 读取方式 | 状态 |
+|------|----------|------|
+| `hermes_code_guard.py` | `custom_providers` + `model.base_url` 回退 | ✅ 已修复 |
+| `switch_to_provider()` | `custom_providers` only | ⚠️ 需迁移前先检查 |
+| `try_fallback_switch()` | 依赖`custom_providers`有siliconflow | ✅ siliconflow已加入 |
+
+## 铁律
+- 每次改 `config.yaml` 结构，当天内更新 MEMORY.md + 本skill
+- 改之前先 grep 所有引用路径，改完立刻验证所有reader

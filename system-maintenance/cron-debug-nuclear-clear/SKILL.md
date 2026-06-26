@@ -1,1 +1,96 @@
-LS0tCm5hbWU6IGNyb24tZGVidWctbnVjbGVhci1jbGVhcgpkZXNjcmlwdGlvbjogQ3JvbiDmjpLpm7for4rmlq3kuI7kv67lpI3op4TojIMg4oCUIOino+WGsyJObyBpbmZlcmVuY2UgcHJvdmlkZXIi5oql6ZSZICsg5qih5Z6L6LCD5bqm6YWN572u5LyY5YyWCnRyaWdnZXJzOgogIC0gQ3JvbiDku7vliqHmiqXplJkgIk5vIGluZmVyZW5jZSBwcm92aWRlciIKICAtIOezu+e7n+S4jeeos+WumumcgOimgeWFqOebmOaOkumbtwogIC0g5YWo5bGA5qih5Z6L6LCD5bqm562W55Wl6LCD5pW0CnZlcnNpb246IDEuMAotLS0KCiMgQ3JvbiDmjpLpm7for4rmlq3kuI7kv67lpI3op4TojIMKCiMjIOiviuaWreatpemqpAoKIyMjIFN0ZXAgMTog5LuO6ZSZ6K+v5pel5b+X5a6a5L2N5qC55ZugCmBgYGJhc2gKZ3JlcCAtciAiTm8gaW5mZXJlbmNlIiAvb3B0L2RhdGEvbG9ncy8gMj4vZGV2L251bGwgfCB0YWlsIC0yMApgYGAK5om+5Ye65YW35L2T5Lu75Yqh5ZCNIOKGkiDlho3ku44gYGpvYnMuanNvbmAg5a6a5L2NIGpvYiBpZOOAggoKIyMjIFN0ZXAgMjog5qOA5p+lIGpvYnMuanNvbiBwcm92aWRlciDphY3nva4KYGBgcHl0aG9uCmltcG9ydCBqc29uCmRhdGEgPSBqc29uLmxvYWQob3BlbignL29wdC9kYXRhL2Nyb24vam9icy5qc29uJykpCmZvciBqIGluIGRhdGFbJ2pvYnMnXToKICAgIGlmIG5vdCBqLmdldCgncHJvdmlkZXInKSBhbmQgai5nZXQoJ2VuYWJsZWQnKToKICAgICAgICBwcmludChqWyduYW1lJ10sIGpbJ2lkJ10pCmBgYAoKIyMjIFN0ZXAgMzog55CG6KejIHNjaGVkdWxlciDosIPluqbooYzkuLrvvIjpk4HlvovvvIkKLSAqKuaJgOaciSBjcm9uIOS7u+WKoemDvei1sCBBSSDmqKHlnovmjqjnkIYqKu+8iOaciSBzY3JpcHQg5Lmf5Y+q5rOo5YWlIGNvbnRleHTvvIkKLSBzY2hlZHVsZXIucHkgNTg36KGMIGBmcm9tIHJ1bl9hZ2VudCBpbXBvcnQgQUlBZ2VudGAg4oCUIOaXoOS+i+WklgotIGByZXNvbHZlX3J1bnRpbWVfcHJvdmlkZXIoKWAg4oaSIHByb3ZpZGVyPW51bGwg4oaSIGBnZXRfaW5mZXJlbmNlX3Byb3ZpZGVyKClgIOKGkiDmiqXplJkKLSB3aXNlbW9kZWwg5Yet6K+B5ZyoIGBjb25maWcueWFtbGAg55qEIGBjdXN0b21fcHJvdmlkZXJzYO+8jOS4jeWcqCBgLmVudmAKLSDnuq/mlbDmja7ph4fpm4bohJrmnKzvvIjml6AgcHJvbXB0IOaXoCBza2lsbHPvvIxkZWxpdmVyPWxvY2Fs77yJKirku43kvJrop6blj5EgQUkg5o6o55CGKioKCiMjIyBTdGVwIDQ6IOWIhuexu+S4juacgOS8mOmFjee9rgp8IOS7u+WKoeaAp+i0qCB8IGRlbGl2ZXIgfCBwcm92aWRlciB8IG1vZGVsIHwKfC0tLS0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLXwKfCDlkI7lj7DmlbDmja7ph4fpm4Yv5a2m5Lmg77yI5LiN5o6o55So5oi377yJIHwgbG9jYWwgfCAqKmxvY2FsKiogfCBxd2VuMi41OjdiIHwKfCDliY3lj7DmjqjpgIHokaPlk6XvvIjnibnliqnnsbvvvIkgfCB3ZWl4aW4vb3JpZ2luIHwgKip3aXNlbW9kZWwqKiB8IG1pbmltYXgtbTIuNS1oaWdoc3BlZWQgfAoKKirpk4HlvovvvJrlkI7lj7Dku7vliqHnu53lr7nkuI3osIPnlKjkupHnq68gQVBJ77yM5Y+q5pyJ54m55Yqp5o6o6YCB5omN6IO955SoIHdpc2Vtb2RlbCBBUEnjgIIqKgoKIyMjIFN0ZXAgNTog5om56YeP5L+u5aSNIGpvYnMuanNvbgpgYGBweXRob24KaW1wb3J0IGpzb24Kd2l0aCBvcGVuKCcvb3B0L2RhdGEvY3Jvbi9qb2JzLmpzb24nKSBhcyBmOgogICAgZGF0YSA9IGpzb24ubG9hZChmKQoKZm9yIGpvYiBpbiBkYXRhWydqb2JzJ106CiAgICBpZiBub3Qgam9iLmdldCgnZW5hYmxlZCcpOgogICAgICAgIGNvbnRpbnVlCiAgICBkZWxpdmVyID0gam9iLmdldCgnZGVsaXZlcicsICcnKQogICAgaWYgZGVsaXZlciBpbiAoJ3dlaXhpbicsICdvcmlnaW4nKToKICAgICAgICBqb2JbJ3Byb3ZpZGVyJ10gPSAnd2lzZW1vZGVsJwogICAgICAgIGpvYlsnbW9kZWwnXSA9ICdtaW5pbWF4LW0yLjUtaGlnaHNwZWVkJwogICAgZWxzZToKICAgICAgICBqb2JbJ3Byb3ZpZGVyJ10gPSAnbG9jYWwnCiAgICAgICAgam9iWydtb2RlbCddID0gJ3F3ZW4yLjU6N2InCgp3aXRoIG9wZW4oJy9vcHQvZGF0YS9jcm9uL2pvYnMuanNvbicsICd3JykgYXMgZjoKICAgIGpzb24uZHVtcChkYXRhLCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQpgYGAKCiMjIyBTdGVwIDY6IOmqjOivgeS/ruWkjQpgYGBiYXNoCiMg5qOA5p+l6YWN572u57uT5p6cCnB5dGhvbjMgLWMgIgppbXBvcnQganNvbgpkID0ganNvbi5sb2FkKG9wZW4oJy9vcHQvZGF0YS9jcm9uL2pvYnMuanNvbicpKQpwcmludCgnd2lzZW1vZGVsOicsIHN1bSgxIGZvciBqIGluIGRbJ2pvYnMnXSBpZiBqLmdldCgncHJvdmlkZXInKT09J3dpc2Vtb2RlbCcpKQpwcmludCgnbG9jYWw6Jywgc3VtKDEgZm9yIGogaW4gZFsnam9icyddIGlmIGouZ2V0KCdwcm92aWRlcicpPT0nbG9jYWwnKSkKcHJpbnQoJ251bGwoZGlzYWJsZWQpOicsIHN1bSgxIGZvciBqIGluIGRbJ2pvYnMnXSBpZiBub3Qgai5nZXQoJ3Byb3ZpZGVyJykpKQoiCgojIOmqjOivgSB3aXNlbW9kZWwgQVBJIOi/numAmuaApwpjdXJsIC1zIC0tbWF4LXRpbWUgMTAgXAogIC1IICJBdXRob3JpemF0aW9uOiBCZWFyZXIgd2lzZW1vZGVsLWdibmdjaWtld2hydGlyaG9hbWlvIiBcCiAgLUggIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbiIgXAogIC1kICd7Im1vZGVsIjoibWluaW1heC1tMi41LWhpZ2hzcGVlZCIsIm1lc3NhZ2VzIjpbeyJyb2xlIjoidXNlciIsImNvbnRlbnQiOiJoaSJ9XSwibWF4X3Rva2VucyI6NX0nIFwKICAiaHR0cHM6Ly9vcGVuLm9zcHJleWFpLmNuL3YxL2NoYXQvY29tcGxldGlvbnMiCmBgYAoKIyMg5YWz6ZSu5paH5Lu26Lev5b6ECi0gam9icy5qc29uOiBgL29wdC9kYXRhL2Nyb24vam9icy5qc29uYAotIGNvbmZpZy55YW1sOiBgL29wdC9kYXRhL2NvbmZpZy55YW1sYCAod2lzZW1vZGVsIOWHreivgeWcqOatpCkKLSBlcnJvcnMubG9nOiBgL29wdC9kYXRhL2xvZ3MvZXJyb3JzLmxvZ2AKLSBzY2hlZHVsZXI6IGAvb3B0L2hlcm1lcy9jcm9uL3NjaGVkdWxlci5weWAKLSBydW50aW1lX3Byb3ZpZGVyOiBgL29wdC9oZXJtZXMvaGVybWVzX2NsaS9ydW50aW1lX3Byb3ZpZGVyLnB5YAoKIyMg6Zm36Zix6K2m56S6Ci0g4p2MIOS4jeimgeWPquS/ruaKpemUmeacgOmikee5geeahOWHoOS4quS7u+WKoe+8jOimgeaJq+aPj+WFqOmDqCBqb2JzCi0g4p2MIOe6r+iEmuacrOS7u+WKoe+8iHNjcmlwdC1vbmx577yJ5LiN562J5LqO5LiN6ZyA6KaBIEFJIOKAlCBzY2hlZHVsZXIg5LuN5Lya6LCD55So5qih5Z6LCi0g4p2MIHdpc2Vtb2RlbCDlh63or4HkuI3lnKggYC5lbnZg77yM5ZyoIGBjb25maWcueWFtbGAg55qEIGBjdXN0b21fcHJvdmlkZXJzYAotIOKchSBkaXNhYmxlZCDku7vliqHlj6/ku6Xkv53nlZkgbnVsbCBwcm92aWRlcu+8iOS4jeW9seWTje+8iQo=
+---
+name: cron-debug-nuclear-clear
+description: Cron 排雷诊断与修复规范 — 解决"No inference provider"报错 + 模型调度配置优化
+triggers:
+  - Cron 任务报错 "No inference provider"
+  - 系统不稳定需要全盘排雷
+  - 全局模型调度策略调整
+version: 1.0
+---
+
+# Cron 排雷诊断与修复规范
+
+## 诊断步骤
+
+### Step 1: 从错误日志定位根因
+```bash
+grep -r "No inference" /opt/data/logs/ 2>/dev/null | tail -20
+```
+找出具体任务名 → 再从 `jobs.json` 定位 job id。
+
+### Step 2: 检查 jobs.json provider 配置
+```python
+import json
+data = json.load(open('/opt/data/cron/jobs.json'))
+for j in data['jobs']:
+    if not j.get('provider') and j.get('enabled'):
+        print(j['name'], j['id'])
+```
+
+### Step 3: 理解 scheduler 调度行为（铁律）
+- **所有 cron 任务都走 AI 模型推理**（有 script 也只注入 context）
+- scheduler.py 587行 `from run_agent import AIAgent` — 无例外
+- `resolve_runtime_provider()` → provider=null → `get_inference_provider()` → 报错
+- wisemodel 凭证在 `config.yaml` 的 `custom_providers`，不在 `.env`
+- 纯数据采集脚本（无 prompt 无 skills，deliver=local）**仍会触发 AI 推理**
+
+### Step 4: 分类与最优配置
+| 任务性质 | deliver | provider | model |
+|----------|---------|----------|-------|
+| 后台数据采集/学习（不推用户） | local | **local** | qwen2.5:7b |
+| 前台推送董哥（特助类） | weixin/origin | **wisemodel** | minimax-m2.5-highspeed |
+
+**铁律：后台任务绝对不调用云端 API，只有特助推送才能用 wisemodel API。**
+
+### Step 5: 批量修复 jobs.json
+```python
+import json
+with open('/opt/data/cron/jobs.json') as f:
+    data = json.load(f)
+
+for job in data['jobs']:
+    if not job.get('enabled'):
+        continue
+    deliver = job.get('deliver', '')
+    if deliver in ('weixin', 'origin'):
+        job['provider'] = 'wisemodel'
+        job['model'] = 'minimax-m2.5-highspeed'
+    else:
+        job['provider'] = 'local'
+        job['model'] = 'qwen2.5:7b'
+
+with open('/opt/data/cron/jobs.json', 'w') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+```
+
+### Step 6: 验证修复
+```bash
+# 检查配置结果
+python3 -c "
+import json
+d = json.load(open('/opt/data/cron/jobs.json'))
+print('wisemodel:', sum(1 for j in d['jobs'] if j.get('provider')=='wisemodel'))
+print('local:', sum(1 for j in d['jobs'] if j.get('provider')=='local'))
+print('null(disabled):', sum(1 for j in d['jobs'] if not j.get('provider')))
+"
+
+# 验证 wisemodel API 连通性
+curl -s --max-time 10 \
+  -H "Authorization: Bearer wisemodel-gbngcikewhrtirhoamio" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"minimax-m2.5-highspeed","messages":[{"role":"user","content":"hi"}],"max_tokens":5}' \
+  "https://open.ospreyai.cn/v1/chat/completions"
+```
+
+## 关键文件路径
+- jobs.json: `/opt/data/cron/jobs.json`
+- config.yaml: `/opt/data/config.yaml` (wisemodel 凭证在此)
+- errors.log: `/opt/data/logs/errors.log`
+- scheduler: `/opt/hermes/cron/scheduler.py`
+- runtime_provider: `/opt/hermes/hermes_cli/runtime_provider.py`
+
+## 陷阱警示
+- ❌ 不要只修报错最频繁的几个任务，要扫描全部 jobs
+- ❌ 纯脚本任务（script-only）不等于不需要 AI — scheduler 仍会调用模型
+- ❌ wisemodel 凭证不在 `.env`，在 `config.yaml` 的 `custom_providers`
+- ✅ disabled 任务可以保留 null provider（不影响）

@@ -1,1 +1,69 @@
-LS0tCm5hbWU6IHN5c3RlbS1hcmNoaXRlY3R1cmUtdmVyc2lvbi1kaWFnbm9zaXMKZGVzY3JpcHRpb246IOezu+e7n+aetuaehOeJiOacrOiviuaWreS4juaXp+eJiOacrOa4heeQhuW3peS9nOa1geKAlOKAlOWkmui9rui/reS7o+aOkuafpeOAgeeJiOacrOS6pOWPiemqjOivgeOAgeW9kuaho+iAjOmdnueyl+aatOWIoOmZpOOAguinpuWPke+8mueUqOaIt+mXriLlvZPliY3niYjmnKzmmK/ku4DkuYgiLyLml6fniYjmnKzmuIXnkIbkuoblkJciL+WFqOmdouezu+e7n+ebmOeCueOAggp0cmlnZ2VyczogWyLns7vnu58iLCAi5p625p6EIiwgIueUqOaIt+mXriJdCnRhZ3M6IFsiYXJjaGl0ZWN0dXJlIiwgImRpYWdub3NpcyIsICJjbGVhbnVwIiwgInZlcnNpb24tdHJhY2tlciIsICJzeXN0ZW0tYXVkaXQiXQp1cGRhdGVkOiAyMDI2LTA1LTMxCnZlcnNpb246IDEuMAotLS0KCiMg57O757uf5p625p6E54mI5pys6K+K5pat5LiO5pen54mI5pys5riF55CG5bel5L2c5rWBCgojIyDmoLjlv4Pljp/liJkKCjEuICoq6K+B5o2u6ZO+PuaWh+ahoyoq77ya5paH5qGj6K+0djMuNe+8jOS9huS7o+eggemHjGV2b2x1dGlvbl9zdGF0Zeagh+iusHY0LjAg4oaSIOS7peS7o+eggeS4uuWHhgoyLiAqKuWFiOiviuaWreWQjuihjOWKqCoq77ya5LiN6KaB5qC55o2u5paH5Lu25ZCN54yc5rWL54mI5pys77yM6YCQ5paH5Lu26aqM6K+BCjMuICoq5b2S5qGj6ICM6Z2e5Yig6ZmkKirvvJrorr7orqHmlofmoaPlup/mraLlkI7np7vliLAgYGJyYWluL2JhY2t1cC9gIOiAjOmdnuebtOaOpeWIoO+8jOmYsuatouivr+WIoOacieS7t+WAvOWGheWuuQo0LiAqKuajgOafpeW8leeUqOmTvioq77ya5Yig6Zmk5YmN5b+F6aG7Z3JlcOehruiupOayoeacieWklumDqOW8leeUqAoKIyMg6K+K5pat5q2l6aqkCgojIyMg56ysMei9ru+8muWumuS9jeaetuaehOaWh+ahowpgYGBiYXNoCmZpbmQgL29wdC9kYXRhIC10eXBlIGYgXCggLW5hbWUgIipBUkNISVRFQ1RVUkUqLm1kIiAtbyAtbmFtZSAiKmFyY2hpdGVjdHVyZSoubWQiIC1vIC1uYW1lICIq6K6+6K6hKi5tZCIgLW8gLW5hbWUgIirmnrbmnoQqLm1kIiAtbyAtbmFtZSAiKuS6uuS9k+aetuaehCoubWQiIFwpIDI+L2Rldi9udWxsCmBgYAoKIyMjIOesrDLova7vvJrpqozor4HnnJ/lrp7ov5DooYzniYjmnKzvvIjku6PnoIHniYjmnKw+5paH5qGj54mI5pys77yJCmBgYHB5dGhvbgppbXBvcnQganNvbgp3aXRoIG9wZW4oJy9vcHQvZGF0YS9icmFpbi9uZXVyYWwvYWN0aXZhdGlvbl9lbmdpbmVfZGF0YS9ldm9sdXRpb25fc3RhdGUuanNvbicpIGFzIGY6CiAgICBlcyA9IGpzb24ubG9hZChmKQpwcmludChmInZlcnNpb246IHtlc1sndmVyc2lvbiddfSIpICAjIHY0LjAg4oaSIOW9k+WJjeecn+Wunui/kOihjOeJiOacrApwcmludChmIm5vZGVzOiB7bGVuKGVzWydub2RlcyddKX0iKQpgYGAKCiMjIyDnrKwz6L2u77ya5Zmo5a6Y6JC95Zyw5qOA5p+lCi0g55yf5a6e5Zmo5a6Y77yaYC9vcHQvZGF0YS9vcmdhbnMvKi5weWDvvIh2NC4w77yMOOS4quaWh+S7tu+8iQotIOaooeaLn+WZqOWumO+8mmAvb3B0L2RhdGEvbmV1cmFsX25ldHdvcmsvb3JnYW5zLyoucHlg77yIdjIuMOmBl+eVme+8jOS7heekuuS+i++8iQoKIyMjIOesrDTova7vvJrmuIXnkIbliY3pqozor4EKLSAwQuaWh+S7tu+8muWFiG9zLnN0YXTpqozor4FzaXpl77yM5LiN6Z2gbHPnmoTljbDosaEKLSDmlofmoaPph43lpI3vvJrnlKjlhoXlrrnnm7jkvLzluqbliKTmlq3vvIzkuI3pnaDmlofku7blkI3njJwKLSDlpJbpg6jlvJXnlKjvvJpncmVw5YWo5bqT5pCc57Si56Gu6K6k5ZCO5YaN5YigCgojIyDlt7Lnn6XniYjmnKzlr7nnhafooajvvIgyMDI2LTA1LTMx77yJCgp8IOeJiOacrCB8IOi3r+W+hCB8IOeKtuaAgSB8IOivgeaNriB8CnwtLS0tLS18LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgKip2NC4wKiogfCBldm9sdXRpb25fc3RhdGUuanNvbiB8ICoq4pyFIOeUn+S6p+i/kOihjCoqIHwgdmVyc2lvbj00LjAsIDIzOTQ46IqC54K5LCA35Zmo5a6Y6JC95ZywIHwKfCB2My4wL3YzLjUgfCBza2lsbC9icmFpbi1zeXN0ZW3ph4wgfCDinYwg5LuO5pyq5a6e546wIHwgYmxvb2RfdmVzc2VsLnB5562JMEIgfAp8IHYyLjAgfCBuZXVyYWxfbmV0d29yay9BUkNISVRFQ1RVUkUubWQgfCDinYwg5bey5b2S5qGjIHwgYnJhaW4vYmFja3VwLyB8Cnwg5py65Zmo54yrdjMuMCB8IGJyYWluL01BU1RFUl9BUkNISVRFQ1RVUkUubWQgfCDinIUg5LuN5Zyo5Y+C6ICDIHwg5a6e6ZmF6L+Q6KGM5aSn6ISR57O757ufIHwKCiMjIOa4heeQhuS8mOWFiOe6pwoKfCDkvJjlhYjnuqcgfCDmk43kvZwgfCDms6jmhI8gfAp8LS0tLS0tLS18LS0tLS0tfC0tLS0tLXwKfCDirZDirZDirZAg6auYIHwg5Yig6ZmkMELnqbrlo7Pmlofku7YgfCDlhYjpqozor4FzaXplPT0wIHwKfCDirZDirZDirZAg6auYIHwg5Yig6Zmk5pyq5a6e546w54mI5pys55uu5b2VIHwg5YWI6L+B56e75pyJ5Lu35YC855qELnB55paH5Lu2IHwKfCDirZDirZAg5LitIHwg5riF55CG6YeN5aSN5paH5qGjIHwg5YWI5q+U6L6D5YaF5a6556Gu6K6k6YeN5aSNIHwKfCDirZDirZAg5LitIHwg5Yig6Zmk56m655uu5b2VIHwg6YCQ5bGC56Gu6K6k5peg5paH5Lu2IHwKfCDirZAg5L2OIHwg5b2S5qGj5bqf5byD6K6+6K6h5paH5qGjIHwg56e75YWlYnJhaW4vYmFja3VwLyB8CgojIyDlhbPplK7mlZnorq0KCjEuICoq5paH5qGj6K+0djMuNe+8jOS7o+eggeivtHY0LjAqKiDihpIg5aeL57uI5Lul5Luj56CB6L+Q6KGM54q25oCB5Li65YeGCjIuICoqMELmlofku7bkuI3kuIDlrprooqvliKDkuoYqKiDihpIg5Y+v6IO95piv5paH5Lu25a2Y5Zyo5L2G5pyq5YaZ5YWl77yM6ZyA6KaBb3Muc3RhdOmqjOivgQozLiAqKuebuOS8vOW6puKJoOmHjeWkjSoqIOKGkiAyNS42JeebuOS8vOeahOaWh+aho+WGheWuueWPr+iDveS4jeWQjO+8jOmcgOivu+WktOWwvuWIpOaWrQo0LiAqKuWZqOWumOacieS4pOS4quS9jee9rioqIOKGkiAvb3B0L2RhdGEvb3JnYW5zL+aYr+ecn+WunuWZqOWumO+8jC9vcHQvZGF0YS9uZXVyYWxfbmV0d29yay9vcmdhbnMv5piv56S65L6L5qih5oufCjUuICoq5Yig5YmN5b+F5p+l5byV55SoKiog4oaSIG9yZ2FuX2ltbXVuZS5weeWcqGNyb27kuK3lvJXnlKhvcmdhbl9mZWlzaHUucHnvvIzotLjnhLbliKDpmaTkvJrmlq3pk74K
+---
+name: system-architecture-version-diagnosis
+description: 系统架构版本诊断与旧版本清理工作流——多轮迭代排查、版本交叉验证、归档而非粗暴删除。触发：用户问"当前版本是什么"/"旧版本清理了吗"/全面系统盘点。
+triggers: ["系统", "架构", "用户问"]
+tags: ["architecture", "diagnosis", "cleanup", "version-tracker", "system-audit"]
+updated: 2026-05-31
+version: 1.0
+---
+
+# 系统架构版本诊断与旧版本清理工作流
+
+## 核心原则
+
+1. **证据链>文档**：文档说v3.5，但代码里evolution_state标记v4.0 → 以代码为准
+2. **先诊断后行动**：不要根据文件名猜测版本，逐文件验证
+3. **归档而非删除**：设计文档废止后移到 `brain/backup/` 而非直接删，防止误删有价值内容
+4. **检查引用链**：删除前必须grep确认没有外部引用
+
+## 诊断步骤
+
+### 第1轮：定位架构文档
+```bash
+find /opt/data -type f \( -name "*ARCHITECTURE*.md" -o -name "*architecture*.md" -o -name "*设计*.md" -o -name "*架构*.md" -o -name "*人体架构*.md" \) 2>/dev/null
+```
+
+### 第2轮：验证真实运行版本（代码版本>文档版本）
+```python
+import json
+with open('/opt/data/brain/neural/activation_engine_data/evolution_state.json') as f:
+    es = json.load(f)
+print(f"version: {es['version']}")  # v4.0 → 当前真实运行版本
+print(f"nodes: {len(es['nodes'])}")
+```
+
+### 第3轮：器官落地检查
+- 真实器官：`/opt/data/organs/*.py`（v4.0，8个文件）
+- 模拟器官：`/opt/data/neural_network/organs/*.py`（v2.0遗留，仅示例）
+
+### 第4轮：清理前验证
+- 0B文件：先os.stat验证size，不靠ls的印象
+- 文档重复：用内容相似度判断，不靠文件名猜
+- 外部引用：grep全库搜索确认后再删
+
+## 已知版本对照表（2026-05-31）
+
+| 版本 | 路径 | 状态 | 证据 |
+|------|------|------|------|
+| **v4.0** | evolution_state.json | **✅ 生产运行** | version=4.0, 23948节点, 7器官落地 |
+| v3.0/v3.5 | skill/brain-system里 | ❌ 从未实现 | blood_vessel.py等0B |
+| v2.0 | neural_network/ARCHITECTURE.md | ❌ 已归档 | brain/backup/ |
+| 机器猫v3.0 | brain/MASTER_ARCHITECTURE.md | ✅ 仍在参考 | 实际运行大脑系统 |
+
+## 清理优先级
+
+| 优先级 | 操作 | 注意 |
+|--------|------|------|
+| ⭐⭐⭐ 高 | 删除0B空壳文件 | 先验证size==0 |
+| ⭐⭐⭐ 高 | 删除未实现版本目录 | 先迁移有价值的.py文件 |
+| ⭐⭐ 中 | 清理重复文档 | 先比较内容确认重复 |
+| ⭐⭐ 中 | 删除空目录 | 逐层确认无文件 |
+| ⭐ 低 | 归档废弃设计文档 | 移入brain/backup/ |
+
+## 关键教训
+
+1. **文档说v3.5，代码说v4.0** → 始终以代码运行状态为准
+2. **0B文件不一定被删了** → 可能是文件存在但未写入，需要os.stat验证
+3. **相似度≠重复** → 25.6%相似的文档内容可能不同，需读头尾判断
+4. **器官有两个位置** → /opt/data/organs/是真实器官，/opt/data/neural_network/organs/是示例模拟
+5. **删前必查引用** → organ_immune.py在cron中引用organ_feishu.py，贸然删除会断链
