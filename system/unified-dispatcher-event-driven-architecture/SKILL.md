@@ -1,1 +1,85 @@
-LS0tCm5hbWU6IHVuaWZpZWQtZGlzcGF0Y2hlci1ldmVudC1kcml2ZW4tYXJjaGl0ZWN0dXJlCmRlc2NyaXB0aW9uOiDnu5/kuIDkuovku7bpqbHliqjmtL7lt6XlrojmiqTov5vnqIsg4oCUIOabv+S7ozEx5Liq55uR5o6n57G7IGNyb24g6L2u6K+i77yM55SoMzDnp5LpmLLmipbova7or6IxMeS4qui3r+W+hOWunueOsOS6i+S7tumpseWKqOOAguinpuWPke+8mumcgOimgeWwhuaVo+iQveeahOebkeaOp+exuyBjcm9uIOWQiOW5tuS4uue7n+S4gOWuiOaKpOi/m+eoi+OAggotLS0KCiMg57uf5LiA5LqL5Lu26amx5Yqo5rS+5bel5a6I5oqk6L+b56iLCgojIyDorr7orqHnm67moIcK55So5Y2V5LiqIGRhZW1vbiDmm7/ku6MxMeS4quaVo+iQveeahOebkeaOp+exuyBjcm9u77yM5a6e546w77yaCi0gMzDnp5LpmLLmipbova7or6LvvIjpgb/lhY3popHnuYHop6blj5HvvIkKLSDluYLnrYnljrvph43vvIjpmLLmraLlkIzkuIDkuovku7bph43lpI3lpITnkIbvvIkKLSDnu5/kuIDmtL7lt6XlhaXlj6MKCiMjIOebkeaOp+i3r+W+hO+8iDEx5Liq77yJCmBgYHB5dGhvbgpXQVRDSF9QQVRIUyA9IFsKICAgICIvb3B0L2RhdGEvc2VjcmV0YXJ5L2Rpc3BhdGNoX2JvYXJkLmpzb24iLCAgICAgICMg5rS+5bel5p2/CiAgICAiL29wdC9kYXRhL3NlY3JldGFyeS9yZXN1bHRfYm9hcmQuanNvbiIsICAgICAgICMg57uT5p6c5p2/CiAgICAiL29wdC9kYXRhL3NlY3JldGFyeS9wZW5kaW5nX3B1c2guanNvbiIsICAgICAgIyDlvoXmjqjpgIHpmJ/liJcKICAgICIvb3B0L2RhdGEvc2VjcmV0YXJ5L3N1cGVyX3NlY3JldGFyeV9ib2FyZC5qc29uIiwKICAgICIvb3B0L2RhdGEvYWlfbGVhcm5pbmcvcGVuZGluZ190YXNrcy5qc29uIiwKICAgICIvb3B0L2RhdGEvYnJhaW4vbmV1cmFsL2V2b2x1dGlvbl9zdGF0ZS5qc29uIiwKICAgICIvb3B0L2RhdGEvYnJhaW4vbmV1cmFsL3NraWxsX25ldXJhbC5qc29uIiwKICAgICIvb3B0L2RhdGEvYnJhaW5zL3RvdGFsX2dlbXMuanNvbiIsCiAgICAiL29wdC9kYXRhL29yZ2Fucy9vcmdhbl9zdGF0ZS5qc29uIiwKICAgICIvb3B0L2RhdGEvYWlfbGVhcm5pbmcvcGVuZGluZ19pbnZpdGF0aW9ucy5qc29uIiwKICAgICIvb3B0L2RhdGEvbWNwX3Rvb2xzL21jcF90b29scy5qc29uIiwKXQpgYGAKCiMjIOaguOW/g+mAu+i+kQpgYGBweXRob24KZGVmIHNjYW5fYW5kX2Rpc3BhdGNoKCk6CiAgICBmb3IgcGF0aCBpbiBXQVRDSF9QQVRIUzoKICAgICAgICAjIDEuIOmYsuaKlu+8muajgOafpeaWh+S7tiBtdGltZe+8jDMw56eS5YaF5bey5aSE55CG6L+H55qE6Lez6L+HCiAgICAgICAgaWYgaXNfcmVjZW50bHlfcHJvY2Vzc2VkKHBhdGgsIGRlYm91bmNlPTMwKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICAjIDIuIOivu+WPluaWh+S7tgogICAgICAgIGRhdGEgPSByZWFkX2pzb24ocGF0aCkKICAgICAgICAjIDMuIOa0vuW3pe+8muagueaNrui3r+W+hOexu+Wei+WGs+Wumua0vue7meWTquS4quaJp+ihjOWZqAogICAgICAgIGRpc3BhdGNoKGRhdGEsIHBhdGgpCiAgICAgICAgIyA0LiDmoIforrDlt7LlpITnkIYKICAgICAgICBtYXJrX3Byb2Nlc3NlZChwYXRoKQoKIyAzMOenkui9ruivogp3aGlsZSBUcnVlOgogICAgc2Nhbl9hbmRfZGlzcGF0Y2goKQogICAgdGltZS5zbGVlcCgzMCkKYGBgCgojIyDpmLLmipbmnLrliLYK6Ziy5q2i5ZCM5LiA5paH5Lu25ZyoMzDnp5LlhoXooqvlpJrmrKHlpITnkIbvvJoKYGBgcHl0aG9uCnByb2Nlc3NlZF9jYWNoZSA9IHt9ICAjIHtwYXRoOiBsYXN0X3Byb2Nlc3NlZF90aW1lfQoKZGVmIGlzX3JlY2VudGx5X3Byb2Nlc3NlZChwYXRoLCBkZWJvdW5jZT0zMCk6CiAgICBsYXN0ID0gcHJvY2Vzc2VkX2NhY2hlLmdldChwYXRoLCAwKQogICAgcmV0dXJuICh0aW1lLnRpbWUoKSAtIGxhc3QpIDwgZGVib3VuY2UKYGBgCgojIyDmtL7lt6Xop4TliJkKfCDot6/lvoQgfCDmiafooYzlmaggfCDor7TmmI4gfAp8LS0tfC0tLXwtLS18CnwgZGlzcGF0Y2hfYm9hcmQuanNvbiB8IGRlcHV0eV93b3JrZXIgfCBwZW5kaW5nIOS7u+WKoea2iOi0uSB8CnwgcGVuZGluZ19wdXNoLmpzb24gfCB3b2tlciB8IOaOqOmAgemYn+WIlyB8CnwgcGVuZGluZ190YXNrcy5qc29uIHwgYWlfbGVhcm5pbmcgfCDlrabkuaDku7vliqEgfAp8IOWFtuS7liB8IOWvueW6lOWtkOaooeWdlyB8IOWQhOiHquWkhOeQhiB8CgojIyDlkK/liqjmlrnlvI8KYGBgYmFzaApub2h1cCBweXRob24zIC9vcHQvZGF0YS9zY3JpcHRzL3VuaWZpZWRfZGlzcGF0Y2hlci5weSBcCiAgICA+IC9vcHQvZGF0YS9sb2dzL3VuaWZpZWRfZGlzcGF0Y2hlci5sb2cgMj4mMSAmCmVjaG8gJCEgPiAvdG1wL3VuaWZpZWRfZGlzcGF0Y2hlci5waWQKYGBgCgojIyDoh6rlkK/liqgK5bu66K6u55SoIHN5c3RlbWQgc2VydmljZSDmiJYgcmMubG9jYWznoa7kv53ph43lkK/lkI7oh6rliqjov5DooYzjgIIKCiMjIOebuOWFs+aWh+S7tgotIGAvb3B0L2RhdGEvc2NyaXB0cy91bmlmaWVkX2Rpc3BhdGNoZXIucHlgIOKAlCDkuLvohJrmnKwKLSBgL29wdC9kYXRhL3NlY3JldGFyeS9kaXNwYXRjaF9ib2FyZC5qc29uYCDigJQg5rS+5bel5p2/Ci0gYC9vcHQvZGF0YS9zZWNyZXRhcnkvcmVzdWx0X2JvYXJkLmpzb25gIOKAlCDnu5Pmnpzmnb8KCiMjIOabv+S7o+eahCBDcm9u77yI5bey5pqC5YGc77yJCjEx5Liq55uR5o6n57G7IGNyb25qb2LvvIhicmFpbl90cmVhc3VyZV9odW5044CBc2VjcmV0YXJ5X3N1cGVydmlzb3Ig562J77yJ5bey5pqC5YGc77yM5Yqf6IO955Sx5pysIGRhZW1vbiDopobnm5bjgIIK
+---
+name: unified-dispatcher-event-driven-architecture
+description: 统一事件驱动派工守护进程 — 替代11个监控类 cron 轮询，用30秒防抖轮询11个路径实现事件驱动。触发：需要将散落的监控类 cron 合并为统一守护进程。
+---
+
+# 统一事件驱动派工守护进程
+
+## 设计目标
+用单个 daemon 替代11个散落的监控类 cron，实现：
+- 30秒防抖轮询（避免频繁触发）
+- 幂等去重（防止同一事件重复处理）
+- 统一派工入口
+
+## 监控路径（11个）
+```python
+WATCH_PATHS = [
+    "/opt/data/secretary/dispatch_board.json",      # 派工板
+    "/opt/data/secretary/result_board.json",       # 结果板
+    "/opt/data/secretary/pending_push.json",      # 待推送队列
+    "/opt/data/secretary/super_secretary_board.json",
+    "/opt/data/ai_learning/pending_tasks.json",
+    "/opt/data/brain/neural/evolution_state.json",
+    "/opt/data/brain/neural/skill_neural.json",
+    "/opt/data/brains/total_gems.json",
+    "/opt/data/organs/organ_state.json",
+    "/opt/data/ai_learning/pending_invitations.json",
+    "/opt/data/mcp_tools/mcp_tools.json",
+]
+```
+
+## 核心逻辑
+```python
+def scan_and_dispatch():
+    for path in WATCH_PATHS:
+        # 1. 防抖：检查文件 mtime，30秒内已处理过的跳过
+        if is_recently_processed(path, debounce=30):
+            continue
+        # 2. 读取文件
+        data = read_json(path)
+        # 3. 派工：根据路径类型决定派给哪个执行器
+        dispatch(data, path)
+        # 4. 标记已处理
+        mark_processed(path)
+
+# 30秒轮询
+while True:
+    scan_and_dispatch()
+    time.sleep(30)
+```
+
+## 防抖机制
+防止同一文件在30秒内被多次处理：
+```python
+processed_cache = {}  # {path: last_processed_time}
+
+def is_recently_processed(path, debounce=30):
+    last = processed_cache.get(path, 0)
+    return (time.time() - last) < debounce
+```
+
+## 派工规则
+| 路径 | 执行器 | 说明 |
+|---|---|---|
+| dispatch_board.json | deputy_worker | pending 任务消费 |
+| pending_push.json | woker | 推送队列 |
+| pending_tasks.json | ai_learning | 学习任务 |
+| 其他 | 对应子模块 | 各自处理 |
+
+## 启动方式
+```bash
+nohup python3 /opt/data/scripts/unified_dispatcher.py \
+    > /opt/data/logs/unified_dispatcher.log 2>&1 &
+echo $! > /tmp/unified_dispatcher.pid
+```
+
+## 自启动
+建议用 systemd service 或 rc.local确保重启后自动运行。
+
+## 相关文件
+- `/opt/data/scripts/unified_dispatcher.py` — 主脚本
+- `/opt/data/secretary/dispatch_board.json` — 派工板
+- `/opt/data/secretary/result_board.json` — 结果板
+
+## 替代的 Cron（已暂停）
+11个监控类 cronjob（brain_treasure_hunt、secretary_supervisor 等）已暂停，功能由本 daemon 覆盖。

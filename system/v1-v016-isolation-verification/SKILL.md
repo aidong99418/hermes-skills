@@ -1,1 +1,54 @@
-LS0tCm5hbWU6IHYxLXYwMTYtaXNvbGF0aW9uLXZlcmlmaWNhdGlvbgpkZXNjcmlwdGlvbjogVjEg4oaUIFYwMTbmlofku7bns7vnu5/pmpTnprvpqozor4HigJTigJRpbm9kZeajgOafpeazle+8jOe6oOato+aXp3Nlc3Npb27plJnor6/nu5PorroKdHJpZ2dlcnM6CiAgLSDpqozor4FWMeWSjFYwMTbmmK/lkKblhbHnlKjmlofku7YKICAtIOehruiupOaWh+S7tuezu+e7n+malOemu+eKtuaAgQogIC0g5o6S5p+l5pWw5o2u5omT5p626Zeu6aKYCi0tLQoKIyBWMSDihpQgVjAxNiDpmpTnprvpqozor4Hmlrnms5UKCiMjIOmqjOivgeaWueazle+8iGlub2Rl5qOA5p+l5rOV77yJCgpgYGBweXRob24KaW1wb3J0IG9zCgpwYXRocyA9IHsKICAgICJWMSBjb25uZWN0aW9ucy5qc29uIjogIi9vcHQvZGF0YS9icmFpbi9uZXVyYWwvY29ubmVjdGlvbnMuanNvbiIsCiAgICAiVjAxNiBjb25uZWN0aW9ucy5qc29uIjogIi92b2x1bWUxL2RvY2tlci9oZXJtZXMt5paH5Lu26Lev5b6EL2hlcm1lczAxNi9icmFpbi9uZXVyYWwvY29ubmVjdGlvbnMuanNvbiIsCiAgICAiVjEgc2tpbGxzIjogIi9vcHQvZGF0YS9za2lsbHMiLAogICAgIlYwMTYgc2tpbGxzIjogIi92b2x1bWUxL2RvY2tlci9oZXJtZXMt5paH5Lu26Lev5b6EL2hlcm1lczAxNi9za2lsbHMiLAogICAgIlYxIGJyYWluIjogIi9vcHQvZGF0YS9icmFpbiIsCiAgICAiVjAxNiBicmFpbiI6ICIvdm9sdW1lMS9kb2NrZXIvaGVybWVzLeaWh+S7tui3r+W+hC9oZXJtZXMwMTYvYnJhaW4iLAp9Cgpmb3IgbmFtZSwgcGF0aCBpbiBwYXRocy5pdGVtcygpOgogICAgdHJ5OgogICAgICAgIHN0ID0gb3Muc3RhdChwYXRoKQogICAgICAgIHByaW50KGYie25hbWV9OiBpbm9kZT17c3Quc3RfaW5vfSIpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoZiJ7bmFtZX06IOS4jeWtmOWcqCAtIHtlfSIpCmBgYAoKIyMg5Yik5pat5qCH5YeGCi0gKippbm9kZeebuOWQjCoqID0g5ZCM5LiA54mp55CG5paH5Lu2ID0g5YWx55So77yI6Zeu6aKY77yJCi0gKippbm9kZeS4jeWQjCoqID0g5a6M5YWo54us56uL5paH5Lu2ID0g6ZqU56a777yI5q2j5bi477yJCgojIyDlt7Lnn6Xnu5PmnpzvvIgyMDI2LTA2LTIy5a6e5rWL77yJCgp8IOajgOa1i+mhuSB8IFYxIGlub2RlIHwgVjAxNiBpbm9kZSB8IOe7k+iuuiB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS18CnwgY29ubmVjdGlvbnMuanNvbiB8IDM3NjkzMTk1IHwgMzc5MDU0ODcgfCDinIUg54us56uLIHwKfCBza2lsbHPnm67lvZUgfCAzNzc1NzAxOSB8IDM3ODkzMDY4IHwg4pyFIOeLrOeriyB8CnwgYnJhaW7nm67lvZUgfCAzNzc1MjkwNyB8IDM3OTAxMDY3IHwg4pyFIOeLrOeriyB8CgojIyDlhbPplK7mlZnorq0KLSAqKuS4jeimgeebuOS/oei3qHNlc3Npb27nmoTml6fnu5PorroqKuOAguS4iuasoXNlc3Npb27or7Qi5YWx55SoaW5vZGU9Mzc2OTMxOTUi77yM5LuK5aSp6YeN5paw6aqM6K+B5Y+R546w5piv6ZSZ55qE44CCCi0g54mp55CG5bqV5bGC6YO95pivZXh0NOWQjOS4gOejgeebmO+8jOS9hioq55uu5b2V6Lev5b6E5LiN5ZCMPWlub2Rl5LiN5ZCMPeWujOWFqOmalOemuyoq44CCCi0g5qOA5p+l6ZqU56a76KaB55SoYG9zLnN0YXQoKWDlj5bnnJ/lrp5pbm9kZe+8jOS4jeiDveeci+ebruW9lei3r+W+hOaIluaWh+S7tuWGheWuueaYr+WQpuebuOS8vOOAggoKIyMg5p625p6E5ZCr5LmJCi0gVjHmlbDmja4g4oaSIGAvb3B0L2RhdGEvYO+8iGV4dDTniannkIbnm5jvvIkKLSBWMDE25pWw5o2uIOKGkiBgL3ZvbHVtZTEvZG9ja2VyL2hlcm1lcy3mlofku7bot6/lvoQvaGVybWVzMDE2L2DvvIjlkIzkuIDniannkIbnm5jnmoTkuI3lkIznm67lvZXvvIkKLSDkuKTkuKrns7vnu5/lkIzml7bor7vlhpnlkIzkuIDno4Hnm5jkuI3lkIznm67lvZXvvIzkuI3miZPmnrbvvIzlm6DkuLrmlofku7bnuqdpbm9kZeWujOWFqOS4jeWQjAo=
+---
+name: v1-v016-isolation-verification
+description: V1 ↔ V016文件系统隔离验证——inode检查法，纠正旧session错误结论
+triggers:
+  - 验证V1和V016是否共用文件
+  - 确认文件系统隔离状态
+  - 排查数据打架问题
+---
+
+# V1 ↔ V016 隔离验证方法
+
+## 验证方法（inode检查法）
+
+```python
+import os
+
+paths = {
+    "V1 connections.json": "/opt/data/brain/neural/connections.json",
+    "V016 connections.json": "/volume1/docker/hermes-文件路径/hermes016/brain/neural/connections.json",
+    "V1 skills": "/opt/data/skills",
+    "V016 skills": "/volume1/docker/hermes-文件路径/hermes016/skills",
+    "V1 brain": "/opt/data/brain",
+    "V016 brain": "/volume1/docker/hermes-文件路径/hermes016/brain",
+}
+
+for name, path in paths.items():
+    try:
+        st = os.stat(path)
+        print(f"{name}: inode={st.st_ino}")
+    except Exception as e:
+        print(f"{name}: 不存在 - {e}")
+```
+
+## 判断标准
+- **inode相同** = 同一物理文件 = 共用（问题）
+- **inode不同** = 完全独立文件 = 隔离（正常）
+
+## 已知结果（2026-06-22实测）
+
+| 检测项 | V1 inode | V016 inode | 结论 |
+|--------|----------|------------|------|
+| connections.json | 37693195 | 37905487 | ✅ 独立 |
+| skills目录 | 37757019 | 37893068 | ✅ 独立 |
+| brain目录 | 37752907 | 37901067 | ✅ 独立 |
+
+## 关键教训
+- **不要相信跨session的旧结论**。上次session说"共用inode=37693195"，今天重新验证发现是错的。
+- 物理底层都是ext4同一磁盘，但**目录路径不同=inode不同=完全隔离**。
+- 检查隔离要用`os.stat()`取真实inode，不能看目录路径或文件内容是否相似。
+
+## 架构含义
+- V1数据 → `/opt/data/`（ext4物理盘）
+- V016数据 → `/volume1/docker/hermes-文件路径/hermes016/`（同一物理盘的不同目录）
+- 两个系统同时读写同一磁盘不同目录，不打架，因为文件级inode完全不同

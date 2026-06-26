@@ -1,1 +1,30 @@
-LS0tCm5hbWU6IGNyb24tcHVzaC1mcmVxdWVuY3ktc2VwYXJhdGUtZnJvbS1zY2FuCmRlc2NyaXB0aW9uOiBDcm9u5omr5o+P6aKR546H5LiO5o6o6YCB6aKR546H5YiG56a74oCU4oCU5ZCO5Y+w6auY6aKR5omr5o+P77yM6Z2Z6buY77yb5o6o6YCB5L2O6aKR77yM5LiA5aSp5LiA5qyhCnRhZ3M6IFtjcm9uLCBmZWlzaHUsIHB1c2gsIOiRo+WTpeWBj+WlvV0KZGF0ZTogMjAyNi0wNi0xOQotLS0KCiMgQ3JvbuaJq+aPj+mikeeOhyB2cyDmjqjpgIHpopHnjofliIbnprsKCiMjIOinpuWPkeWcuuaZrwrlrojmiqTov5vnqIvlgaXlurfmo4Dmn6Xnsbtjcm9u77yM5q+PMzDliIbpkp/miavmj48r5o6o6YCB6aOe5Lmm77yM5L2G5o6o6YCB5YaF5a655aSa5Li65peg5oSP5LmJ55qE5L6L6KGM5L+h5oGv77yM6aKR57mB5omT5omw6JGj5ZOl44CCCgojIyDmoLjlv4PmlZnorq0KQ3JvbiBqb2LnmoQgYHNjaGVkdWxlYCDmjqfliLYqKuaJq+aPj+mikeeOhyoq77yMYGRlbGl2ZXJgIOaOp+WItioq5o6o6YCB6aKR546HKirvvIzkuKTogIXlj6/ku6XlrozlhajliIbnprvvvJoKLSDmiavmj4/lj6/ku6Xmr48zMOWIhumSn+i3keS4gOasoe+8iOWQjuWPsOmdmem7mO+8iQotIOaOqOmAgeWPquaOqOS4gOasoSAvIOS4gOWkqeS4gOasoQoKIyMg5q2j56Gu5YGa5rOVCuW9k+iRo+WTpeivtCLlkI7lj7Dot5HvvIzkvYbmjqjpgIHliKvlpKrpopHnuYEi77yaCjEuIOS/neaMgWNyb24gc2NoZWR1bGXkuI3lj5jvvIjlpoIgYGV2ZXJ5IDMwbWDvvIkKMi4g5oqKIGBkZWxpdmVyYCDmlLnkuLogYGxvY2FsYO+8iOWPquiusOW9leaXpeW/l++8jOS4jeaOqOmAge+8iQozLiDlj6blu7rkuIDkuKrni6znq4vnmoRjcm9uIGpvYu+8jHNjaGVkdWxl5Li6IGAwIDkgKiAqICpg77yMZGVsaXZlcuS4uiBgZmVpc2h1YO+8jHByb21wdOmHjOivu+WPluS4iuS4gOasoeeahOaJq+aPj+aXpeW/l++8jOacieWRiuitpuaJjeaOqOmAgQoK5oiW6ICF5pu0566A5Y2V77yaCi0g55u05o6l5oqK5Y6fam9i55qEIGBzY2hlZHVsZWAg5pS55oiQIGAwIDkgKiAqICpg77yI5q+P5aSp5LiA5qyh77yJ77yM5omr5o+PK+aOqOmAgeWQiOW5tgoKIyMg5pys5qyh5pS55YqoCi0gam9iOiBgOWRiMTg0NmMyOWUwYCAo5Li75Yqo6aKE6Ziy5omr5o+PKQotIOaUueWKqOWJjTogYGV2ZXJ5IDMwbWAsIGRlbGl2ZXI9YGZlaXNodWAKLSDmlLnliqjlkI46IGAwIDkgKiAqICpgLCBkZWxpdmVyPWBmZWlzaHVgCg==
+---
+name: cron-push-frequency-separate-from-scan
+description: Cron扫描频率与推送频率分离——后台高频扫描，静默；推送低频，一天一次
+tags: [cron, feishu, push, 董哥偏好]
+date: 2026-06-19
+---
+
+# Cron扫描频率 vs 推送频率分离
+
+## 触发场景
+守护进程健康检查类cron，每30分钟扫描+推送飞书，但推送内容多为无意义的例行信息，频繁打扰董哥。
+
+## 核心教训
+Cron job的 `schedule` 控制**扫描频率**，`deliver` 控制**推送频率**，两者可以完全分离：
+- 扫描可以每30分钟跑一次（后台静默）
+- 推送只推一次 / 一天一次
+
+## 正确做法
+当董哥说"后台跑，但推送别太频繁"：
+1. 保持cron schedule不变（如 `every 30m`）
+2. 把 `deliver` 改为 `local`（只记录日志，不推送）
+3. 另建一个独立的cron job，schedule为 `0 9 * * *`，deliver为 `feishu`，prompt里读取上一次的扫描日志，有告警才推送
+
+或者更简单：
+- 直接把原job的 `schedule` 改成 `0 9 * * *`（每天一次），扫描+推送合并
+
+## 本次改动
+- job: `9db1846c29e0` (主动预防扫描)
+- 改动前: `every 30m`, deliver=`feishu`
+- 改动后: `0 9 * * *`, deliver=`feishu`

@@ -1,1 +1,86 @@
-LS0tCm5hbWU6IGdpZi1zZWFyY2gKZGVzY3JpcHRpb246IFNlYXJjaCBhbmQgZG93bmxvYWQgR0lGcyBmcm9tIFRlbm9yIHVzaW5nIGN1cmwuIE5vIGRlcGVuZGVuY2llcyBiZXlvbmQgY3VybCBhbmQganEuIFVzZWZ1bCBmb3IgZmluZGluZyByZWFjdGlvbiBHSUZzLCBjcmVhdGluZyB2aXN1YWwgY29udGVudCwgYW5kIHNlbmRpbmcgR0lGcyBpbiBjaGF0Lgp2ZXJzaW9uOiAxLjEuMAphdXRob3I6IEhlcm1lcyBBZ2VudApsaWNlbnNlOiBNSVQKcHJlcmVxdWlzaXRlczoKICBlbnZfdmFyczogW1RFTk9SX0FQSV9LRVldCiAgY29tbWFuZHM6IFtjdXJsLCBqcV0KbWV0YWRhdGE6CiAgaGVybWVzOgogICAgdGFnczogW0dJRiwgTWVkaWEsIFNlYXJjaCwgVGVub3IsIEFQSV0KLS0tCgojIEdJRiBTZWFyY2ggKFRlbm9yIEFQSSkKClNlYXJjaCBhbmQgZG93bmxvYWQgR0lGcyBkaXJlY3RseSB2aWEgdGhlIFRlbm9yIEFQSSB1c2luZyBjdXJsLiBObyBleHRyYSB0b29scyBuZWVkZWQuCgojIyBTZXR1cAoKU2V0IHlvdXIgVGVub3IgQVBJIGtleSBpbiB5b3VyIGVudmlyb25tZW50IChhZGQgdG8gYH4vLmhlcm1lcy8uZW52YCk6CgpgYGBiYXNoClRFTk9SX0FQSV9LRVk9eW91cl9rZXlfaGVyZQpgYGAKCkdldCBhIGZyZWUgQVBJIGtleSBhdCBodHRwczovL2RldmVsb3BlcnMuZ29vZ2xlLmNvbS90ZW5vci9ndWlkZXMvcXVpY2tzdGFydCDigJQgdGhlIEdvb2dsZSBDbG91ZCBDb25zb2xlIFRlbm9yIEFQSSBrZXkgaXMgZnJlZSBhbmQgaGFzIGdlbmVyb3VzIHJhdGUgbGltaXRzLgoKIyMgUHJlcmVxdWlzaXRlcwoKLSBgY3VybGAgYW5kIGBqcWAgKGJvdGggc3RhbmRhcmQgb24gbWFjT1MvTGludXgpCi0gYFRFTk9SX0FQSV9LRVlgIGVudmlyb25tZW50IHZhcmlhYmxlCgojIyBTZWFyY2ggZm9yIEdJRnMKCmBgYGJhc2gKIyBTZWFyY2ggYW5kIGdldCBHSUYgVVJMcwpjdXJsIC1zICJodHRwczovL3Rlbm9yLmdvb2dsZWFwaXMuY29tL3YyL3NlYXJjaD9xPXRodW1icyt1cCZsaW1pdD01JmtleT0ke1RFTk9SX0FQSV9LRVl9IiB8IGpxIC1yICcucmVzdWx0c1tdLm1lZGlhX2Zvcm1hdHMuZ2lmLnVybCcKCiMgR2V0IHNtYWxsZXIvcHJldmlldyB2ZXJzaW9ucwpjdXJsIC1zICJodHRwczovL3Rlbm9yLmdvb2dsZWFwaXMuY29tL3YyL3NlYXJjaD9xPW5pY2Urd29yayZsaW1pdD0zJmtleT0ke1RFTk9SX0FQSV9LRVl9IiB8IGpxIC1yICcucmVzdWx0c1tdLm1lZGlhX2Zvcm1hdHMudGlueWdpZi51cmwnCmBgYAoKIyMgRG93bmxvYWQgYSBHSUYKCmBgYGJhc2gKIyBTZWFyY2ggYW5kIGRvd25sb2FkIHRoZSB0b3AgcmVzdWx0ClVSTD0kKGN1cmwgLXMgImh0dHBzOi8vdGVub3IuZ29vZ2xlYXBpcy5jb20vdjIvc2VhcmNoP3E9Y2VsZWJyYXRpb24mbGltaXQ9MSZrZXk9JHtURU5PUl9BUElfS0VZfSIgfCBqcSAtciAnLnJlc3VsdHNbMF0ubWVkaWFfZm9ybWF0cy5naWYudXJsJykKY3VybCAtc0wgIiRVUkwiIC1vIGNlbGVicmF0aW9uLmdpZgpgYGAKCiMjIEdldCBGdWxsIE1ldGFkYXRhCgpgYGBiYXNoCmN1cmwgLXMgImh0dHBzOi8vdGVub3IuZ29vZ2xlYXBpcy5jb20vdjIvc2VhcmNoP3E9Y2F0JmxpbWl0PTMma2V5PSR7VEVOT1JfQVBJX0tFWX0iIHwganEgJy5yZXN1bHRzW10gfCB7dGl0bGU6IC50aXRsZSwgdXJsOiAubWVkaWFfZm9ybWF0cy5naWYudXJsLCBwcmV2aWV3OiAubWVkaWFfZm9ybWF0cy50aW55Z2lmLnVybCwgZGltZW5zaW9uczogLm1lZGlhX2Zvcm1hdHMuZ2lmLmRpbXN9JwpgYGAKCiMjIEFQSSBQYXJhbWV0ZXJzCgp8IFBhcmFtZXRlciB8IERlc2NyaXB0aW9uIHwKfC0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS18CnwgYHFgIHwgU2VhcmNoIHF1ZXJ5IChVUkwtZW5jb2RlIHNwYWNlcyBhcyBgK2ApIHwKfCBgbGltaXRgIHwgTWF4IHJlc3VsdHMgKDEtNTAsIGRlZmF1bHQgMjApIHwKfCBga2V5YCB8IEFQSSBrZXkgKGZyb20gYCRURU5PUl9BUElfS0VZYCBlbnYgdmFyKSB8CnwgYG1lZGlhX2ZpbHRlcmAgfCBGaWx0ZXIgZm9ybWF0czogYGdpZmAsIGB0aW55Z2lmYCwgYG1wNGAsIGB0aW55bXA0YCwgYHdlYm1gIHwKfCBgY29udGVudGZpbHRlcmAgfCBTYWZldHk6IGBvZmZgLCBgbG93YCwgYG1lZGl1bWAsIGBoaWdoYCB8CnwgYGxvY2FsZWAgfCBMYW5ndWFnZTogYGVuX1VTYCwgYGVzYCwgYGZyYCwgZXRjLiB8CgojIyBBdmFpbGFibGUgTWVkaWEgRm9ybWF0cwoKRWFjaCByZXN1bHQgaGFzIG11bHRpcGxlIGZvcm1hdHMgdW5kZXIgYC5tZWRpYV9mb3JtYXRzYDoKCnwgRm9ybWF0IHwgVXNlIGNhc2UgfAp8LS0tLS0tLS18LS0tLS0tLS0tLXwKfCBgZ2lmYCB8IEZ1bGwgcXVhbGl0eSBHSUYgfAp8IGB0aW55Z2lmYCB8IFNtYWxsIHByZXZpZXcgR0lGIHwKfCBgbXA0YCB8IFZpZGVvIHZlcnNpb24gKHNtYWxsZXIgZmlsZSBzaXplKSB8CnwgYHRpbnltcDRgIHwgU21hbGwgcHJldmlldyB2aWRlbyB8CnwgYHdlYm1gIHwgV2ViTSB2aWRlbyB8CnwgYG5hbm9naWZgIHwgVGlueSB0aHVtYm5haWwgfAoKIyMgTm90ZXMKCi0gVVJMLWVuY29kZSB0aGUgcXVlcnk6IHNwYWNlcyBhcyBgK2AsIHNwZWNpYWwgY2hhcnMgYXMgYCVYWGAKLSBGb3Igc2VuZGluZyBpbiBjaGF0LCBgdGlueWdpZmAgVVJMcyBhcmUgbGlnaHRlciB3ZWlnaHQKLSBHSUYgVVJMcyBjYW4gYmUgdXNlZCBkaXJlY3RseSBpbiBtYXJrZG93bjogYCFbYWx0XSh1cmwpYAo=
+---
+name: gif-search
+description: Search and download GIFs from Tenor using curl. No dependencies beyond curl and jq. Useful for finding reaction GIFs, creating visual content, and sending GIFs in chat.
+version: 1.1.0
+author: Hermes Agent
+license: MIT
+prerequisites:
+  env_vars: [TENOR_API_KEY]
+  commands: [curl, jq]
+metadata:
+  hermes:
+    tags: [GIF, Media, Search, Tenor, API]
+---
+
+# GIF Search (Tenor API)
+
+Search and download GIFs directly via the Tenor API using curl. No extra tools needed.
+
+## Setup
+
+Set your Tenor API key in your environment (add to `~/.hermes/.env`):
+
+```bash
+TENOR_API_KEY=your_key_here
+```
+
+Get a free API key at https://developers.google.com/tenor/guides/quickstart — the Google Cloud Console Tenor API key is free and has generous rate limits.
+
+## Prerequisites
+
+- `curl` and `jq` (both standard on macOS/Linux)
+- `TENOR_API_KEY` environment variable
+
+## Search for GIFs
+
+```bash
+# Search and get GIF URLs
+curl -s "https://tenor.googleapis.com/v2/search?q=thumbs+up&limit=5&key=${TENOR_API_KEY}" | jq -r '.results[].media_formats.gif.url'
+
+# Get smaller/preview versions
+curl -s "https://tenor.googleapis.com/v2/search?q=nice+work&limit=3&key=${TENOR_API_KEY}" | jq -r '.results[].media_formats.tinygif.url'
+```
+
+## Download a GIF
+
+```bash
+# Search and download the top result
+URL=$(curl -s "https://tenor.googleapis.com/v2/search?q=celebration&limit=1&key=${TENOR_API_KEY}" | jq -r '.results[0].media_formats.gif.url')
+curl -sL "$URL" -o celebration.gif
+```
+
+## Get Full Metadata
+
+```bash
+curl -s "https://tenor.googleapis.com/v2/search?q=cat&limit=3&key=${TENOR_API_KEY}" | jq '.results[] | {title: .title, url: .media_formats.gif.url, preview: .media_formats.tinygif.url, dimensions: .media_formats.gif.dims}'
+```
+
+## API Parameters
+
+| Parameter | Description |
+|-----------|-------------|
+| `q` | Search query (URL-encode spaces as `+`) |
+| `limit` | Max results (1-50, default 20) |
+| `key` | API key (from `$TENOR_API_KEY` env var) |
+| `media_filter` | Filter formats: `gif`, `tinygif`, `mp4`, `tinymp4`, `webm` |
+| `contentfilter` | Safety: `off`, `low`, `medium`, `high` |
+| `locale` | Language: `en_US`, `es`, `fr`, etc. |
+
+## Available Media Formats
+
+Each result has multiple formats under `.media_formats`:
+
+| Format | Use case |
+|--------|----------|
+| `gif` | Full quality GIF |
+| `tinygif` | Small preview GIF |
+| `mp4` | Video version (smaller file size) |
+| `tinymp4` | Small preview video |
+| `webm` | WebM video |
+| `nanogif` | Tiny thumbnail |
+
+## Notes
+
+- URL-encode the query: spaces as `+`, special chars as `%XX`
+- For sending in chat, `tinygif` URLs are lighter weight
+- GIF URLs can be used directly in markdown: `![alt](url)`

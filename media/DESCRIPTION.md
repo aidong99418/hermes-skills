@@ -1,1 +1,3 @@
-LS0tCmRlc2NyaXB0aW9uOiBTa2lsbHMgZm9yIHdvcmtpbmcgd2l0aCBtZWRpYSBjb250ZW50IOKAlCBZb3VUdWJlIHRyYW5zY3JpcHRzLCBHSUYgc2VhcmNoLCBtdXNpYyBnZW5lcmF0aW9uLCBhbmQgYXVkaW8gdmlzdWFsaXphdGlvbi4KLS0tCg==
+---
+description: Skills for working with media content — YouTube transcripts, GIF search, music generation, and audio visualization.
+---

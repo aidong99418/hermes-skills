@@ -1,1 +1,88 @@
-LS0tCm5hbWU6IHdvcmtmbG93CmRlc2NyaXB0aW9uOiA+CnRyaWdnZXJzOiBbIumFjee9ruinpuWPkeinhOWImeaXtua/gCIsICLosIPluqYiLCAi5rWL6K+V5YiwIiwgIumcgOimgeWwhuiEmuacrOaOpeWFpSIsICLohJrmnKzmjqXlhaUiLCAi6aqM6K+B5ZG95LukIiwgIuWumuaXtuS7u+WKoSIsICLmr4/ml6Xov5DooYwiXQogIOW3peS9nOa1geiHquWKqOWMluaKgOiDveW6kyDigJQg6KaG55uW6ISa5pys4oaSQ3Jvbuiwg+W6puKGklBsYXl3cmlnaHQgRTJF4oaS5Luj56CB5o+S5Lu24oaSR2l05a2m5Lmg4oaS6Kem5Y+R6YWN572u55qE5a6M5pW06Ieq5Yqo5YyW6ZO+6Lev44CCCiAg6Kem5Y+R5Zy65pmv77ya6ZyA6KaB5bCG6ISa5pys5o6l5YWlQ3JvbuOAgee8luWGmUUyRea1i+ivleOAgUdpdEh1YuaKgOiDveWtpuS5oOOAgemFjee9ruinpuWPkeinhOWImeaXtua/gOa0u+OAggp0YWdzOiBbd29ya2Zsb3csIGNyb24sIHBsYXl3cmlnaHQsIGF1dG9tYXRpb24sIHRlc3RpbmcsIGdpdCwgdHJpZ2dlcl0Kb3duZXI6IGhlcm1lcwpjcmVhdGVkOiAyMDI2LTA1LTI0CnZlcnNpb246IDEuMAp1cGRhdGVkOiAyMDI2LTA1LTI0Ci0tLQoKIyBXb3JrZmxvdyDigJQg5bel5L2c5rWB6Ieq5Yqo5YyWCgropobnm5bku47ohJrmnKzlvIDlj5HjgIFDcm9u6LCD5bqm44CBRTJF5rWL6K+V5YiwR2l05a2m5Lmg44CB6Kem5Y+R6YWN572u55qE5a6M5pW06Ieq5Yqo5YyW6ZO+6Lev44CCCgotLS0KCiMjIOaguOW/g+aWh+ahowoKIyMjIHNjcmlwdC10by1jcm9uLWludGVncmF0aW9uCj4g5paw6ISa5pys5o6l5YWlIGBhdXRvX2xlYXJuaW5nLnB5YCDkuLvmtYHnqIvnmoTmoIflh4bmraXpqqTjgILlkKvmoIflh4bmj5LlhaXmqKHmnb/vvIh0cnktZXhjZXB05YyF6KO577yJ44CBc3VicHJvY2Vzc+iwg+eUqOaooeW8j+OAgemqjOivgeWRveS7pOOAggrop6blj5Hor43vvJrohJrmnKzmjqXlhaVDcm9u44CBY3JvbuiHquWKqOWMluOAgeavj+aXpei/kOihjOOAgeWumuaXtuS7u+WKoeOAggror6bnu4bmlofmoaPvvJpgc2NyaXB0LXRvLWNyb24taW50ZWdyYXRpb24vU0tJTEwubWRgCgojIyMgcGxheXdyaWdodC1kZXZlbG9wbWVudC13b3JrZmxvdwo+IFBsYXl3cmlnaHQgRTJF5rWL6K+V5byA5Y+R5bel5L2c5rWBIOKAlCDlronoo4XjgIHpobXpnaLlr7nosaHmqKHlnovjgIHluLjnlKhBUEnvvIhjbGljay9maWxsL3NjcmVlbnNob3QvcGF1c2XvvInjgIHosIPor5XmioDlt6fjgIHphY3lkIh2aXNpb27liIbmnpDlpLHotKXmiKrlm77jgIIK6Kem5Y+R6K+N77yaRTJF5rWL6K+V44CBUGxheXdyaWdodOOAgeerr+WIsOerr+a1i+ivleOAgVdlYua1i+ivleOAgeiHquWKqOWMlua1i+ivleOAggror6bnu4bmlofmoaPvvJpgd29ya2Zsb3cvcGxheXdyaWdodC1kZXZlbG9wbWVudC13b3JrZmxvdy5tZGAKCiMjIyBnaXRfbGVhcm5pbmdfd29ya2Zsb3cubWQKPiBHaXRIdWLmioDog73lrabkuaDihpLmnKzlnLDmqKHlnovlkIzmraXlt6XkvZzmtYEg4oCUIOWFi+mahuKGkuaJq+aPj+KGkuW5tuihjOivu+WPluKGkuefpeivhuayiea3gOKGkue0ouW8lemHjeW7uuKGkumqjOivgeajgOe0ouKGkuaOqOmAgWhlcm1lcy1hZGRvbnPjgIIK6Kem5Y+R6K+N77ya5oqKR2l06YeM55qE5aW95Lic6KW/6YO95a2m5Lmg5o6M5o+h44CB5LuT5bqT5ZCM5q2l44CBc2tpbGzlrabkuaDjgIIKCiMjIyBjbGF1ZGUtY29kZS1wbHVnaW4tY3JlYXRpb24ubWQKPiBDbGF1ZGUgQ29kZeaPkuS7tuWIm+W7uuaMh+WNl++8iGFkZHlvc21hbmkvT3BlbkNvZGUgU2tpbGzpqbHliqjmiafooYzmqKHlnovvvInjgIIK5oqA6IO95LyY5YWI5Y6f5YiZ44CBSW50ZW504oaSU2tpbGzmmKDlsITjgIHnlJ/lkb3lkajmnJ/pmpDlvI/lkb3ku6TjgIFQZXJzb25hcy9Ta2lsbHMvQ29tbWFuZHPkuInlsYLnvJbmjpLjgIIKCiMjIyBvcGVuY29kZS1za2lsbC1tb2RlbC5tZAo+IE9wZW5Db2RlIHNraWxs6amx5Yqo5omn6KGM5qih5Z6L6K6+6K6hIOKAlCDmioDog73kvJjlhYjljp/liJnjgIHnlJ/lkb3lkajmnJ/vvIhERUZJTkXihpJQTEFO4oaSQlVJTETihpJWRVJJRlnihpJSRVZJRVfihpJTSElQ77yJ44CB5bm26KGM5omH5Ye6K+WQiOW5tue8luaOkuinhOWImeOAggoKIyMjIHRyaWdnZXJfY29uZmlnLm1kCj4g5py65Zmo54yr5aSn6ISR6Ieq6YCC5bqU6Kem5Y+R5py65Yi2djIuMCDigJQgUDDmr4/mrKHlv4Xmo4DihpJQMemXrumimOino+WGs+WQjuayiea3gOKGklAy5q+P5pel6Ieq5Yqo5pu05paw4oaSUDPlrprmnJ/nu7TmiqTjgIIK5YWz6ZSu6K+N4oaS5qih5Z2X5pig5bCE6KGo77yIUDAtUDPkvJjlhYjnuqfvvInjgIHoh6rmo4DmuIXljZXjgIFicmFpbuWGheWuuei0qOmHj+agh+WHhuOAggoKLS0tCgojIyDopobnm5bojIPlm7TpgJ/mn6UKCnwg6Zi25q61IHwg5bel5YW3L+aWh+ahoyB8CnwtLS0tLS18LS0tLS0tLS0tLXwKfCAqKuiEmuacrOW8gOWPkSoqIHwg54us56uLUHl0aG9uL1NoZWxs6ISa5pysIHwKfCAqKkNyb27osIPluqYqKiB8IGBzY3JpcHQtdG8tY3Jvbi1pbnRlZ3JhdGlvbmDvvIjmjqXlhaVhdXRvX2xlYXJuaW5nLnB577yJfAp8ICoqRTJF5rWL6K+VKiogfCBgcGxheXdyaWdodC1kZXZlbG9wbWVudC13b3JrZmxvd2AgfAp8ICoq5Luj56CB5Yqp5omL6ZuG5oiQKiogfCBgY2xhdWRlLWNvZGUtcGx1Z2luLWNyZWF0aW9uYO+8iENsYXVkZSBDb2Rl5o+S5Lu277yJfAp8ICoqR2l05a2m5LmgKiogfCBgZ2l0X2xlYXJuaW5nX3dvcmtmbG93YCB8CnwgKipTa2lsbOaooeWeiyoqIHwgYG9wZW5jb2RlLXNraWxsLW1vZGVsYO+8iE9wZW5Db2Rl5omn6KGM5qih5Z6L77yJfAp8ICoq6Kem5Y+R6YWN572uKiogfCBgdHJpZ2dlcl9jb25maWdg77yIYnJhaW7oh6rpgILlupTop6blj5HmnLrliLbvvIl8CgojIyMgdW5pZmllZF9sZWFybmluZy5weSDplIHmlofku7bnu7TmiqQKCmB1bmlmaWVkX2xlYXJuaW5nLnB5YCDkvb/nlKggUElELWJhc2VkIGxvY2sgKGAvdG1wL3VuaWZpZWRfbGVhcm5pbmcubG9ja2ApIOmYsumHjeWkjei/kOihjOOAgui/m+eoi+aEj+WklumAgOWHuuaXtumUgeaui+eVme+8jOWvvOiHtOWQjue7reaJgOaciSBjcm9uIOmdmem7mOi3s+i/h++8iOaXpeW/l+WPquaYvuekuiBg5bey5pyJ5a6e5L6L5Zyo6LeR77yM6Lez6L+HYO+8ieOAggoKKiror4rmlq3lkb3ku6QqKu+8mgpgYGBiYXNoCiMg5p+l55yL5piv5ZCm5pyJ5q6L55WZ6ZSBCmNhdCAvdG1wL3VuaWZpZWRfbGVhcm5pbmcubG9jawpwZ3JlcCAtZmEgInB5dGhvbjMuKnVuaWZpZWQiCgojIOWmguaenOmUgeS4rVBJROW3suatu++8jOaJi+WKqOa4heeQhgpybSAtZiAvdG1wL3VuaWZpZWRfbGVhcm5pbmcubG9jawpybSAtZiAvdG1wL3VuaWZpZWRfbGVhcm5pbmdfZGFlbW9uLnBpZCAgIyDlj6/og73lkIzml7bmrovnlZkKYGBgCgoqKuinpuWPkeadoeS7tioq77yaY3JvbiDmiafooYzkvYbml6Xlv5flj43lpI3lh7rnjrAgYFtXQVJOXSDlt7LmnInlrp7kvovlnKjot5HvvIzot7Pov4dgIOS4lOaXoOWvueW6lCBQeXRob24g6L+b56iLCgoqKuWujOaVtOS/ruWkjea1geeoiyoq77ya6ZSB5riF55CGIOKGkiDnoa7orqTml6DmrovnlZnov5vnqIsg4oaSIOmHjeaWsOi/kOihjAoKIyMjIHNjcmlwdC10by1jcm9uLWludGVncmF0aW9uCgojIyDop6blj5Hor40KCi0g6ISa5pys5o6l5YWlQ3JvbuOAgWNyb27oh6rliqjljJbjgIHmr4/ml6Xov5DooYwKLSBFMkXmtYvor5XjgIFQbGF5d3JpZ2h044CB56uv5Yiw56uvCi0g5oqKR2l06YeM55qE5aW95Lic6KW/6YO95a2m5Lmg5o6M5o+hCi0gQ2xhdWRlIENvZGXmj5Lku7bjgIFPcGVuQ29kZQotIOinpuWPkeacuuWItuOAgeWFs+mUruivjeinpuWPkeOAgeiHqumAguW6lOinpuWPkQo=
+---
+name: workflow
+description: >
+triggers: ["配置触发规则时激", "调度", "测试到", "需要将脚本接入", "脚本接入", "验证命令", "定时任务", "每日运行"]
+  工作流自动化技能库 — 覆盖脚本→Cron调度→Playwright E2E→代码插件→Git学习→触发配置的完整自动化链路。
+  触发场景：需要将脚本接入Cron、编写E2E测试、GitHub技能学习、配置触发规则时激活。
+tags: [workflow, cron, playwright, automation, testing, git, trigger]
+owner: hermes
+created: 2026-05-24
+version: 1.0
+updated: 2026-05-24
+---
+
+# Workflow — 工作流自动化
+
+覆盖从脚本开发、Cron调度、E2E测试到Git学习、触发配置的完整自动化链路。
+
+---
+
+## 核心文档
+
+### script-to-cron-integration
+> 新脚本接入 `auto_learning.py` 主流程的标准步骤。含标准插入模板（try-except包裹）、subprocess调用模式、验证命令。
+触发词：脚本接入Cron、cron自动化、每日运行、定时任务。
+详细文档：`script-to-cron-integration/SKILL.md`
+
+### playwright-development-workflow
+> Playwright E2E测试开发工作流 — 安装、页面对象模型、常用API（click/fill/screenshot/pause）、调试技巧、配合vision分析失败截图。
+触发词：E2E测试、Playwright、端到端测试、Web测试、自动化测试。
+详细文档：`workflow/playwright-development-workflow.md`
+
+### git_learning_workflow.md
+> GitHub技能学习→本地模型同步工作流 — 克隆→扫描→并行读取→知识沉淀→索引重建→验证检索→推送hermes-addons。
+触发词：把Git里的好东西都学习掌握、仓库同步、skill学习。
+
+### claude-code-plugin-creation.md
+> Claude Code插件创建指南（addyosmani/OpenCode Skill驱动执行模型）。
+技能优先原则、Intent→Skill映射、生命周期隐式命令、Personas/Skills/Commands三层编排。
+
+### opencode-skill-model.md
+> OpenCode skill驱动执行模型设计 — 技能优先原则、生命周期（DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIP）、并行扇出+合并编排规则。
+
+### trigger_config.md
+> 机器猫大脑自适应触发机制v2.0 — P0每次必检→P1问题解决后沉淀→P2每日自动更新→P3定期维护。
+关键词→模块映射表（P0-P3优先级）、自检清单、brain内容质量标准。
+
+---
+
+## 覆盖范围速查
+
+| 阶段 | 工具/文档 |
+|------|----------|
+| **脚本开发** | 独立Python/Shell脚本 |
+| **Cron调度** | `script-to-cron-integration`（接入auto_learning.py）|
+| **E2E测试** | `playwright-development-workflow` |
+| **代码助手集成** | `claude-code-plugin-creation`（Claude Code插件）|
+| **Git学习** | `git_learning_workflow` |
+| **Skill模型** | `opencode-skill-model`（OpenCode执行模型）|
+| **触发配置** | `trigger_config`（brain自适应触发机制）|
+
+### unified_learning.py 锁文件维护
+
+`unified_learning.py` 使用 PID-based lock (`/tmp/unified_learning.lock`) 防重复运行。进程意外退出时锁残留，导致后续所有 cron 静默跳过（日志只显示 `已有实例在跑，跳过`）。
+
+**诊断命令**：
+```bash
+# 查看是否有残留锁
+cat /tmp/unified_learning.lock
+pgrep -fa "python3.*unified"
+
+# 如果锁中PID已死，手动清理
+rm -f /tmp/unified_learning.lock
+rm -f /tmp/unified_learning_daemon.pid  # 可能同时残留
+```
+
+**触发条件**：cron 执行但日志反复出现 `[WARN] 已有实例在跑，跳过` 且无对应 Python 进程
+
+**完整修复流程**：锁清理 → 确认无残留进程 → 重新运行
+
+### script-to-cron-integration
+
+## 触发词
+
+- 脚本接入Cron、cron自动化、每日运行
+- E2E测试、Playwright、端到端
+- 把Git里的好东西都学习掌握
+- Claude Code插件、OpenCode
+- 触发机制、关键词触发、自适应触发

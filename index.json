@@ -1,1 +1,296 @@
-ewogICJfbWV0YSI6IHsKICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAidXBkYXRlZCI6ICIyMDI2LTA1LTIyIiwKICAgICJkZXNjcmlwdGlvbiI6ICLmnLrlmajnjKvotoXnuqflpKfohJEg4oCUIOWPjOWxguaetuaehOe0ouW8lSIKICB9LAogICJzdHJ1Y3R1cmUiOiB7CiAgICAi6Z2Z5oCB5bGCIjogewogICAgICAicHJvYmxlbV90eXBlcy8iOiAiNuexu+mXrumimOWIhuexuyhKU09O4oaSTWFya2Rvd27lt7LovazmjaIpIiwKICAgICAgInJlYXNvbmluZ19wYXR0ZXJucy9jb250ZW50LyI6ICI15Liq5qC45b+D55+l6K+G56yU6K6wKDEsNjky6KGMKSIsCiAgICAgICJ0b29sX3RlbXBsYXRlcy8iOiAi56m6KOW+heWhq+WFhSkiCiAgICB9LAogICAgIuWKqOaAgeWxgiI6IHsKICAgICAgIm5ldXJhbC9jb25uZWN0aW9ucy5qc29uIjogIuaAnei3r+WFs+iBlOWbviIsCiAgICAgICJuZXVyYWwvaW5mZXJlbmNlX3BhdGhzLmpzb24iOiAi5o6o55CG6Lev5b6EKGNvZGluZy9kZXZvcHMvZGVidWdnaW5nL2FyY2hpdGVjdHVyZS9yZXNlYXJjaC9kZWNpc2lvbikiCiAgICB9CiAgfSwKICAiaW50ZWdyYXRlZCI6IHsKICAgICJyYWciOiB0cnVlLAogICAgInJhZ19pbmRleF9wYXRoIjogIi9vcHQvZGF0YS9yYWdfaW5kZXgvYnJhaW4vIiwKICAgICJhY2Nlc3NfbWV0aG9kIjogInB5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvcmFnX3F1ZXJ5LnB5ICflhbPplK7or40nIFvln59dIiwKICAgICJmaWxlc19pbmRleGVkIjogMjQsCiAgICAiZW50cmllcyI6IFsKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvdGFzdGUtZGVzaWduLXByaW5jaXBsZXMubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJmcm9udGVuZC1kZXNpZ24iLAogICAgICAgICJrZXl3b3JkcyI6ICLliY3nq68gVUkg6K6+6K6h5a6h576OIHRhc3RlLXNraWxsIGFudGktc2xvcCDluIPlsYAg5Yqo5pWIIOWtl+S9kyDml4vpkq4iLAogICAgICAgICJzdW1tYXJ5IjogInRhc3RlLXNraWxsIEFJ5YmN56uv5a6h576O6K6+6K6h5Y6f5YiZ4oCU4oCUM+aXi+mSruezu+e7n+OAgTfmnaHpmLJBSeWBj+ingemTgeW+i+OAgeaAp+iDvee6oue6vyIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvYWdlbnQtYmVoYXZpb3ItZ3VhcmRyYWlscy5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogImFnZW50LXBoaWxvc29waHkiLAogICAgICAgICJrZXl3b3JkcyI6ICJBSSBhZ2VudCDooYzkuLrlh4bliJkgc3VwZXJwb3dlcnMgUFLop4TojIMg5L+d5oqk5Lq657G7IiwKICAgICAgICAic3VtbWFyeSI6ICJzdXBlcnBvd2VycyBBR0VOVFMubWTigJTigJQ5NCUgUFLmi5Lnu53njofmlZnorq3vvIxhZ2VudOihjOS4uuS/neaKpOWOn+WImSIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvb3BlbmNvZGUtc2tpbGwtbW9kZWwubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJza2lsbC1hcmNoaXRlY3R1cmUiLAogICAgICAgICJrZXl3b3JkcyI6ICJPcGVuQ29kZSBza2lsbOmpseWKqOaJp+ihjCBpbnRlbnTmmKDlsIQg55Sf5ZG95ZGo5pyf57yW5o6SIOS4ieWxguaetuaehCIsCiAgICAgICAgInN1bW1hcnkiOiAiYWRkeW9zbWFuaSBPcGVuQ29kZeaooeWei+KAlOKAlHNraWxsL3BlcnNvbmEvY29tbWFuZOS4ieWxgue8luaOku+8jGludGVudOKGknNraWxs6Lev55SxIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy90ZGQtZW5naW5lZXJpbmcubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJlbmdpbmVlcmluZyIsCiAgICAgICAgImtleXdvcmRzIjogIlRERCDmtYvor5XpqbHliqgg5Z6C55u05YiH54mHIHRyYWNlciBidWxsZXQg57qi57u/6YeN5p6EIFJFRCBHUkVFTiBSRUZBQ1RPUiIsCiAgICAgICAgInN1bW1hcnkiOiAibWF0dHBvY29jayBURETlt6XnqIvlrp7ot7XigJTigJTlnoLnm7TliIfniYfkvJjlhYjkuo7msLTlubPliIfniYfvvIxSRUQtR1JFRU4tUkVGQUNUT1Llvqrnjq/vvIzmtYvor5XooYzkuLrkuI3mtYvlrp7njrAiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGF0aCI6ICJwcmluY2lwbGVzL3N1cGVycG93ZXJzLXdvcmtmbG93Lm1kIiwKICAgICAgICAiY2F0ZWdvcnkiOiAiZW5naW5lZXJpbmciLAogICAgICAgICJrZXl3b3JkcyI6ICJTdXBlcnBvd2VycyA35q2l5rWB5rC057q/IGJyYWluc3Rvcm1pbmcgc3ViYWdlbnQgVEREIGNvZGUtcmV2aWV3IOiHquWKqOinpuWPkSIsCiAgICAgICAgInN1bW1hcnkiOiAic3VwZXJwb3dlcnMgMjAzS+KYheKAlOKAlDfmraVBSeW8gOWPkea1geawtOe6v++8jOavj+atpXNraWxs6Ieq5Yqo6Kem5Y+R77yM5LuO5p6E5oCd5Yiw5ZCI5bm2IgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy9wcm90b3R5cGUtYnJhbmNoaW5nLm1kIiwKICAgICAgICAiY2F0ZWdvcnkiOiAiZW5naW5lZXJpbmciLAogICAgICAgICJrZXl3b3JkcyI6ICLljp/lnosgcHJvdG90eXBlIOWeguebtOWIh+eJhyBMT0dJQyBVSeWIhuaUryByYXBpZC12YWxpZGF0aW9uIiwKICAgICAgICAic3VtbWFyeSI6ICJtYXR0cG9jb2NrIHByb3RvdHlwZSBza2lsbOKAlOKAlExPR0lDKOe7iOerrykgdnMgVUko5aSa5Y+Y5L2TKeS4pOWIhuaUr+WGs+etlu+8jOW/q+mAn+mqjOivgeWQjuWIoOmZpCIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvc2tpbGwtYW5hdG9teS5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogInNraWxsLWFyY2hpdGVjdHVyZSIsCiAgICAgICAgImtleXdvcmRzIjogIlNraWxs5qC85byPIFlBTUwgZnJvbnRtYXR0ZXIg6Kem5Y+R5p2h5Lu2IHJlZCBmbGFncyBhbmF0b215IOagh+WHhue7k+aehCIsCiAgICAgICAgInN1bW1hcnkiOiAi5Zub5aSn5LuT5bqT5YWx5ZCM5qCH5YeG4oCU4oCUU0tJTEwubWTnmoQ25Liq5b+F6KaB57uE5oiQ6YOo5YiG77yM57K+5YeG6Kem5Y+R5p2h5Lu25YaZ5rOV77yM6LSo6YeP6Zeo5qebOTQl5ouS57udIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy9tdWx0aS1hZ2VudC1zdHVkaW8ubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJhcmNoaXRlY3R1cmUiLAogICAgICAgICJrZXl3b3JkcyI6ICLlpJpBZ2VudOWNj+S9nCDlm6LpmJ/lt6XkvZzlrqQg5bGC57qn5p625p6EIOiHquWKqOWMlkhvb2sg6Lev5b6E6KeE5YiZIENsYXVkZSBDb2RlIEdhbWUgU3R1ZGlvcyIsCiAgICAgICAgInN1bW1hcnkiOiAiQ2xhdWRlIENvZGUgR2FtZSBTdHVkaW9zIDcwMOKYheKAlOKAlDQ5IEFnZW505LiJ5bGC5p625p6EKOaAu+ebkS/kuLvnrqEv5LiT5a62KeOAgUhvb2voh6rliqjljJbjgIHot6/lvoTkvZznlKjln5/op4TliJkiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGF0aCI6ICJwcmluY2lwbGVzL2NvbGxhYm9yYXRpdmUtcHJvdG9jb2wubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJhZ2VudC1waGlsb3NvcGh5IiwKICAgICAgICAia2V5d29yZHMiOiAi5Y2P5L2c5Y2P6K6uIEFTSyBQUkVTRU5UIERFQ0lERSBEUkFGVCBBUFBST1ZFIOS6uuacuuWNj+WQjCDkupTmraXmtYHnqIsg5Yaz562W5p2DIiwKICAgICAgICAic3VtbWFyeSI6ICJDbGF1ZGUgQ29kZSBHYW1lIFN0dWRpb3PljY/kvZzljY/orq7igJTigJRBZ2VudOawuOi/nOmXri3lsZXnpLot562J5b6F5Yaz5a6aLeiNieeovy3noa7orqTvvIzkuI3mk4Xoh6rooYzliqgiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGF0aCI6ICJwcmluY2lwbGVzL2hvb2stYXV0b21hdGlvbi5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogImF1dG9tYXRpb24iLAogICAgICAgICJrZXl3b3JkcyI6ICJIb29r6ZKp5a2QIOiHquWKqOWMluajgOafpSDnlJ/lkb3lkajmnJ8g5Lya6K+d5Y6L57ypIHByZS1jb21taXQg5a6h6K6h5pel5b+XIOWkseaViOWuieWFqCIsCiAgICAgICAgInN1bW1hcnkiOiAiR2FtZSBTdHVkaW9zIDEy5Liq6Ieq5Yqo5YyWSG9va+KAlOKAlOmihOaJp+ihjOaLpuaIquOAgeS8muivneeUn+WRveWRqOacn+euoeeQhuOAgUFnZW505a6h6K6h5pel5b+X77yM5Y+v6L+B56e75YiwSGVybWVzIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy9tY3AtaW50ZWdyYXRpb24ubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJ0b29sLWludGVncmF0aW9uIiwKICAgICAgICAia2V5d29yZHMiOiAiTUNQIE1vZGVsIENvbnRleHQgUHJvdG9jb2wgc3RkaW8gSFRUUCDlt6Xlhbfpm4bmiJAgR2l0SHViIGZpbGVzeXN0ZW0gc3FsaXRlIiwKICAgICAgICAic3VtbWFyeSI6ICJNQ1DljY/orq7igJTigJRzdGRpby9IVFRQ5Lik56eN5Lyg6L6T5pa55byP77yMbWNwX3tzZXJ2ZXJ9X3t0b29sfeWRveWQjeinhOWIme+8jOWuieWFqOmFjee9ruimgeeCuSIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvcGx1Z2luLWNyZWF0ZS13b3JrZmxvdy5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogInBsdWdpbi1kZXYiLAogICAgICAgICJrZXl3b3JkcyI6ICJDbGF1ZGUgQ29kZSBwbHVnaW7mj5Lku7bliJvlu7ogN+atpea1geeoiyBEaXNjb3ZlcnkgQ29tcG9uZW50IFBsYW5uaW5nIERlc2lnbiBJbXBsZW1lbnRhdGlvbiBWYWxpZGF0aW9uIiwKICAgICAgICAic3VtbWFyeSI6ICJjbGF1ZGUtY29kZSA1NUvimIXigJTigJRQbHVnaW7liJvlu7o36Zi25q615bel5L2c5rWB77ya5Y+R546w4oaS57uE5Lu26KeE5YiS4oaS6K+m57uG6K6+6K6h4oaS5a6e546w4oaS6aqM6K+B4oaS5rWL6K+V4oaS5a6M5oiQIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy9wbGF5d3JpZ2h0LXRlc3RpbmcubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJ0ZXN0aW5nIiwKICAgICAgICAia2V5d29yZHMiOiAiUGxheXdyaWdodCDoh6rliqjljJbmtYvor5UgRTJFIGJyb3dzZXIgY2hyb21pdW0gZmlyZWZveCB3ZWJraXQgY3Jvc3MtYnJvd3NlciIsCiAgICAgICAgInN1bW1hcnkiOiAibWljcm9zb2Z0IFBsYXl3cmlnaHQgNjNL4piF4oCU4oCU6Leo5rWP6KeI5ZmoRTJF5rWL6K+V77yM5pSv5oyBY2hyb21pdW0vZmlyZWZveC93ZWJraXTvvIxjb2RlZ2Vu55Sf5oiQ5rWL6K+VIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy9kZWVyLWZsb3ctaGFybmVzcy5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogImFnZW50LWFyY2hpdGVjdHVyZSIsCiAgICAgICAgImtleXdvcmRzIjogIkRlZXJGbG93IEJ5dGVEYW5jZSBMYW5nR3JhcGggTGFuZ0NoYWluIHN1Yi1hZ2VudCBzYW5kYm94IHNraWxscyBNQ1AgbWVtb3J5IElNIGNoYW5uZWxzIiwKICAgICAgICAic3VtbWFyeSI6ICJCeXRlRGFuY2UgRGVlckZsb3cgMi4wIDc3MeKYheKAlOKAlOi2hee6p0FnZW50IEhhcm5lc3PvvIxMYW5nR3JhcGjnvJbmjpLvvIxTa2lsbHPmuJDov5vliqDovb3vvIxTYW5kYm946ZqU56a777yM5aSaSU3pgJrpgZMiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGF0aCI6ICJwcmluY2lwbGVzL2FnZW50LXNraWxscy1saWZlY3ljbGUubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJza2lsbC1lbmdpbmVlcmluZyIsCiAgICAgICAgImtleXdvcmRzIjogImFkZHlvc21hbmkgYWdlbnQtc2tpbGxzIDIz5Liqc2tpbGwgc2xhc2jlkb3ku6Qg5bel56iL5a6e6Le1IFNERCBUREQgcmV2aWV3IHNlY3VyaXR5IHNoaXAiLAogICAgICAgICJzdW1tYXJ5IjogImFkZHlvc21hbmkvYWdlbnQtc2tpbGxzIDIx4piF4oCU4oCUMjPkuKrnlJ/kuqfnuqdza2lsbOimhuebluWujOaVtOW8gOWPkeeUn+WRveWRqOacn++8jDfkuKpzbGFzaOWRveS7pO+8jOi0qOmHj+mXqOanm+agh+WHhiIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvb3Blbi1pbnRlcnByZXRlci1leGVjdXRpb24ubWQiLAogICAgICAgICJjYXRlZ29yeSI6ICJjb2RlLWV4ZWN1dGlvbiIsCiAgICAgICAgImtleXdvcmRzIjogIk9wZW4gSW50ZXJwcmV0ZXIg5pys5Zyw5Luj56CB5omn6KGMIFB5dGhvbiBKYXZhU2NyaXB0IFNoZWxsIExNIFN0dWRpbyDmtYHlvI/ovpPlh7oiLAogICAgICAgICJzdW1tYXJ5IjogIk9wZW5JbnRlcnByZXRlci9vcGVuLWludGVycHJldGVy4oCU4oCU5pys5ZywTExN5Luj56CB5omn6KGM77yM57uI56uvQ2hhdEdQVOmjjuagvO+8jOaUr+aMgVB5dGhvbi9KUy9TaGVsbO+8jOWkmuaooeWeiyIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvb2xsYW1hLXBsYXRmb3JtLWVjb3N5c3RlbS5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogImxvY2FsLWxsbSIsCiAgICAgICAgImtleXdvcmRzIjogIk9sbGFtYSDmnKzlnLBMTE0gNjAwK+aooeWeiyBMYW5nQ2hhaW4gY3Jld0FJIFJBRyBPcGVuIFdlYlVJIEFueXRoaW5nTExNIENsYXVkZSBDb2Rl6ZuG5oiQIiwKICAgICAgICAic3VtbWFyeSI6ICJvbGxhbWEvb2xsYW1h4oCU4oCU5byA5rqQ5pys5ZywTExN5bmz5Y+w77yMNjAwK+aooeWei++8jOS4gOadoeWRveS7pOi/kOihjO+8jOWujOaVtOmbhuaIkOeUn+aAgeWbvuiwsSIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvdmVyY2VsLWFpLXNkay1wYXR0ZXJucy5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogImFpLXNkayIsCiAgICAgICAgImtleXdvcmRzIjogIlZlcmNlbCBBSSBTREsgbW9ub3JlcG8gcHJvdmlkZXLmqKHlvI8gZ2VuZXJhdGVUZXh0IHN0cmVhbVRleHQgZ2VuZXJhdGVPYmplY3QiLAogICAgICAgICJzdW1tYXJ5IjogInZlcmNlbC9haSAyNkvimIXigJTigJRUeXBlU2NyaXB0IEFJIFNESyBtb25vcmVwb++8jFByb3ZpZGVy5Zub5bGC5p625p6E77yMZ2VuZXJhdGVUZXh0L3N0cmVhbVRleHQv5bel5YW3U2NoZW1hIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy9wbGF5d3JpZ2h0LWRldmVsb3BtZW50LXdvcmtmbG93Lm1kIiwKICAgICAgICAiY2F0ZWdvcnkiOiAidGVzdGluZyIsCiAgICAgICAgImtleXdvcmRzIjogIlBsYXl3cmlnaHQg5rWP6KeI5Zmo6Ieq5Yqo5YyWIG1vbm9yZXBvIERFUFPns7vnu58gZmxpbnQgbGludCDmj5DkuqTop4TojIMgQVBJIDbmraUiLAogICAgICAgICJzdW1tYXJ5IjogIm1pY3Jvc29mdC9wbGF5d3JpZ2h0IDYzS+KYheKAlOKAlG1vbm9yZXBv57uT5p6E77yMREVQU+i+ueeVjOezu+e7n++8jGZsaW506Zeo56aB77yMQVBJ5re75YqgNuatpea1geeoiyIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInByaW5jaXBsZXMvY2xhdWRlLWNvZGUtcGx1Z2luLWNyZWF0aW9uLm1kIiwKICAgICAgICAiY2F0ZWdvcnkiOiAicGx1Z2luLWRldiIsCiAgICAgICAgImtleXdvcmRzIjogIkNsYXVkZSBDb2RlIHBsdWdpbuaPkuS7tuWIm+W7uiA36Zi25q61IERpc2NvdmVyeSBDb21wb25lbnRQbGFubmluZyBEZXNpZ24gSW1wbGVtZW50YXRpb24gVmFsaWRhdGlvbiIsCiAgICAgICAgInN1bW1hcnkiOiAiY2xhdWRlLWNvZGUgcGx1Z2luLWRlduKAlOKAlOerr+WIsOerrzjpmLbmrrXmj5Lku7bliJvlu7rvvIxTa2lsbC9Db21tYW5kL0FnZW50L0hvb2svTUNQ57uE5Lu25a6e546w6KeE6IyDIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy9vbGxhbWEtcHl0aG9uLXNkay5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogImxvY2FsLWxsbSIsCiAgICAgICAgImtleXdvcmRzIjogIk9sbGFtYSBQeXRob24gU0RLIGFzeW5jIHN0cmVhbWluZyBjbG91ZCBBUEkgQ2xpZW50IFJlc3BvbnNlRXJyb3IgZW1iZWRkaW5ncyIsCiAgICAgICAgInN1bW1hcnkiOiAib2xsYW1hL29sbGFtYS1weXRob27igJTigJTovbvph49QeXRob24gU0RL77yM5pys5ZywK+S6keaooeWei++8jOWQjOatpeW8guatpeaUr+aMge+8jOa1geW8j+i+k+WHuu+8jGh0dHB45bqV5bGCIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiOiAic2tpbGxzL2NvbnRpbnVlL1NLSUxMLm1kIiwKICAgICAgICAiY2F0ZWdvcnkiOiAidG9vbCIsCiAgICAgICAgImtleXdvcmRzIjogIkNvbnRpbnVlIFZTQ29kZSBBSeWKqeaJiyDku6PnoIHooaXlhagg5Luj56CB55CG6KejIiwKICAgICAgICAic3VtbWFyeSI6ICJDb250aW51ZeKAlOKAlFZTQ29kZS9KZXRCcmFpbnMgQUnnvJbnqIvliqnmiYvvvIzmlK/mjIHku6PnoIHooaXlhajjgIHnkIbop6PjgIHosIPor5XvvIzln7rkuo5Db250aW51ZSBTREvmnoTlu7oiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGF0aCI6ICJza2lsbHMvdmVyY2VsLWFnZW50LXNraWxscy9TS0lMTC5tZCIsCiAgICAgICAgImNhdGVnb3J5IjogInRvb2wiLAogICAgICAgICJrZXl3b3JkcyI6ICJWZXJjZWwgQWdlbnQgU2tpbGxzIEFJ57yW56iLIGFnZW505oqA6IO96ZuG5ZCIIiwKICAgICAgICAic3VtbWFyeSI6ICJWZXJjZWwgQWdlbnQgU2tpbGxz4oCU4oCUVmVyY2VsIExhYnMgQUkgQWdlbnTmioDog73lkIjpm4bvvIzmianlsZVBSee8lueoi+iDveWKmyIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogInNraWxscy9jbGF1ZGUtY29kZS1wbHVnaW5zL1NLSUxMLm1kIiwKICAgICAgICAiY2F0ZWdvcnkiOiAiZW5naW5lZXJpbmciLAogICAgICAgICJrZXl3b3JkcyI6ICJDbGF1ZGUgQ29kZSBQbHVnaW5zIOaPkuS7tiDmianlsZUg6Ieq5a6a5LmJ5ZG95LukIGFnZW50IEhvb2sgTUNQIiwKICAgICAgICAic3VtbWFyeSI6ICJDbGF1ZGUgQ29kZSBQbHVnaW5z4oCU4oCU5a6Y5pa55o+S5Lu256S65L6L6ZuG77yM5ZCr6Ieq5a6a5LmJ5ZG95LukL0FnZW50L0hvb2svTUNQ5omp5bGV5qih5byPIgogICAgICB9CiAgICBdCiAgfSwKICAi5b6F5a6M5oiQIjogewogICAgInRvb2xfdGVtcGxhdGVzIjogIuWhq+WFheWunumZheW3peWFt+aooeadvyIsCiAgICAibGVhcm5pbmdfc2NyaXB0IjogIuaXp2F1dG9fbGVhcm5pbmcucHnlsJrmnKrov57mjqVicmFpbuaetuaehCIKICB9LAogICJlbnRyaWVzIjogWwogICAgewogICAgICAicGF0aCI6ICJwcmluY2lwbGVzL29sbGFtYV9tb2RlbF90aWVycy5tZCIsCiAgICAgICJ0eXBlIjogInByaW5jaXBsZSIsCiAgICAgICJ0YWdzIjogWwogICAgICAgICLmqKHlnosiLAogICAgICAgICLosIPluqYiLAogICAgICAgICJPbGxhbWEiLAogICAgICAgICLmnrbmnoQiCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInByaW5jaXBsZXMvbXVsdGlfYWdlbnRfcGF0dGVybnMubWQiLAogICAgICAidHlwZSI6ICJwcmluY2lwbGUiLAogICAgICAidGFncyI6IFsKICAgICAgICAi5aSaQWdlbnQiLAogICAgICAgICJkZWxlZ2F0ZV90YXNrIiwKICAgICAgICAi5Y2P5L2cIgogICAgICBdCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJwcmluY2lwbGVzL2Nyb25fc2lsZW50X21vZGUubWQiLAogICAgICAidHlwZSI6ICJwcmluY2lwbGUiLAogICAgICAidGFncyI6IFsKICAgICAgICAiQ3JvbiIsCiAgICAgICAgIumdmem7mCIsCiAgICAgICAgIumAmuefpSIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAicmVhc29uaW5nX3BhdHRlcm5zL3NlbGZfZXZvbHV0aW9uLm1kIiwKICAgICAgInR5cGUiOiAicGF0dGVybiIsCiAgICAgICJ0YWdzIjogWwogICAgICAgICLoh6rov5vljJYiLAogICAgICAgICLoh6rmiJHop4LmtYsiLAogICAgICAgICLlj43ppojpl63njq8iCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInByaW5jaXBsZXMvZGVlci1mbG93LWhhcm5lc3MubWQiLAogICAgICAidHlwZSI6ICJwcmluY2lwbGUiLAogICAgICAidGFncyI6IFsKICAgICAgICAiRGVlckZsb3ciLAogICAgICAgICJCeXRlRGFuY2UiLAogICAgICAgICJMYW5nR3JhcGgiLAogICAgICAgICJBZ2VudCIsCiAgICAgICAgIkhhcm5lc3MiCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInByaW5jaXBsZXMvYWdlbnQtc2tpbGxzLWxpZmVjeWNsZS5tZCIsCiAgICAgICJ0eXBlIjogInByaW5jaXBsZSIsCiAgICAgICJ0YWdzIjogWwogICAgICAgICJBZ2VudC1Ta2lsbHMiLAogICAgICAgICJTS0lMTCIsCiAgICAgICAgInNsYXNo5ZG95LukIiwKICAgICAgICAi5byA5Y+R55Sf5ZG95ZGo5pyfIgogICAgICBdCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJwcmluY2lwbGVzL29wZW4taW50ZXJwcmV0ZXItZXhlY3V0aW9uLm1kIiwKICAgICAgInR5cGUiOiAicHJpbmNpcGxlIiwKICAgICAgInRhZ3MiOiBbCiAgICAgICAgIk9wZW4tSW50ZXJwcmV0ZXIiLAogICAgICAgICLku6PnoIHmiafooYwiLAogICAgICAgICLmnKzlnLBMTE0iLAogICAgICAgICJQeXRob24iCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInByaW5jaXBsZXMvb2xsYW1hLXBsYXRmb3JtLWVjb3N5c3RlbS5tZCIsCiAgICAgICJ0eXBlIjogInByaW5jaXBsZSIsCiAgICAgICJ0YWdzIjogWwogICAgICAgICJPbGxhbWEiLAogICAgICAgICLmnKzlnLBMTE0iLAogICAgICAgICLnlJ/mgIEiLAogICAgICAgICLpm4bmiJAiCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInByaW5jaXBsZXMvdmVyY2VsLWFpLXNkay1wYXR0ZXJucy5tZCIsCiAgICAgICJ0eXBlIjogInByaW5jaXBsZSIsCiAgICAgICJ0YWdzIjogWwogICAgICAgICJWZXJjZWwtQUktU0RLIiwKICAgICAgICAiUHJvdmlkZXIiLAogICAgICAgICJtb25vcmVwbyIsCiAgICAgICAgImdlbmVyYXRlVGV4dCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAicHJpbmNpcGxlcy9wbGF5d3JpZ2h0LWRldmVsb3BtZW50LXdvcmtmbG93Lm1kIiwKICAgICAgInR5cGUiOiAicHJpbmNpcGxlIiwKICAgICAgInRhZ3MiOiBbCiAgICAgICAgIlBsYXl3cmlnaHQiLAogICAgICAgICLmtY/op4jlmajoh6rliqjljJYiLAogICAgICAgICJtb25vcmVwbyIsCiAgICAgICAgIkRFUFPns7vnu58iCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInByaW5jaXBsZXMvY2xhdWRlLWNvZGUtcGx1Z2luLWNyZWF0aW9uLm1kIiwKICAgICAgInR5cGUiOiAicHJpbmNpcGxlIiwKICAgICAgInRhZ3MiOiBbCiAgICAgICAgIkNsYXVkZS1Db2RlIiwKICAgICAgICAiUGx1Z2luIiwKICAgICAgICAiU0tJTEwiLAogICAgICAgICJIb29rIiwKICAgICAgICAiTUNQIgogICAgICBdCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJwcmluY2lwbGVzL29sbGFtYS1weXRob24tc2RrLm1kIiwKICAgICAgInR5cGUiOiAicHJpbmNpcGxlIiwKICAgICAgInRhZ3MiOiBbCiAgICAgICAgIk9sbGFtYSIsCiAgICAgICAgIlB5dGhvbi1TREsiLAogICAgICAgICJhc3luYyIsCiAgICAgICAgInN0cmVhbWluZyIKICAgICAgXQogICAgfQogIF0sCiAgImxhc3RfdXBkYXRlZCI6ICIyMDI2LTA1LTI2Igp9
+{
+  "_meta": {
+    "version": "2.0",
+    "updated": "2026-05-22",
+    "description": "机器猫超级大脑 — 双层架构索引"
+  },
+  "structure": {
+    "静态层": {
+      "problem_types/": "6类问题分类(JSON→Markdown已转换)",
+      "reasoning_patterns/content/": "5个核心知识笔记(1,692行)",
+      "tool_templates/": "空(待填充)"
+    },
+    "动态层": {
+      "neural/connections.json": "思路关联图",
+      "neural/inference_paths.json": "推理路径(coding/devops/debugging/architecture/research/decision)"
+    }
+  },
+  "integrated": {
+    "rag": true,
+    "rag_index_path": "/opt/data/rag_index/brain/",
+    "access_method": "python3 /opt/data/scripts/rag_query.py '关键词' [域]",
+    "files_indexed": 24,
+    "entries": [
+      {
+        "path": "principles/taste-design-principles.md",
+        "category": "frontend-design",
+        "keywords": "前端 UI 设计审美 taste-skill anti-slop 布局 动效 字体 旋钮",
+        "summary": "taste-skill AI前端审美设计原则——3旋钮系统、7条防AI偏见铁律、性能红线"
+      },
+      {
+        "path": "principles/agent-behavior-guardrails.md",
+        "category": "agent-philosophy",
+        "keywords": "AI agent 行为准则 superpowers PR规范 保护人类",
+        "summary": "superpowers AGENTS.md——94% PR拒绝率教训，agent行为保护原则"
+      },
+      {
+        "path": "principles/opencode-skill-model.md",
+        "category": "skill-architecture",
+        "keywords": "OpenCode skill驱动执行 intent映射 生命周期编排 三层架构",
+        "summary": "addyosmani OpenCode模型——skill/persona/command三层编排，intent→skill路由"
+      },
+      {
+        "path": "principles/tdd-engineering.md",
+        "category": "engineering",
+        "keywords": "TDD 测试驱动 垂直切片 tracer bullet 红绿重构 RED GREEN REFACTOR",
+        "summary": "mattpocock TDD工程实践——垂直切片优先于水平切片，RED-GREEN-REFACTOR循环，测试行为不测实现"
+      },
+      {
+        "path": "principles/superpowers-workflow.md",
+        "category": "engineering",
+        "keywords": "Superpowers 7步流水线 brainstorming subagent TDD code-review 自动触发",
+        "summary": "superpowers 203K★——7步AI开发流水线，每步skill自动触发，从构思到合并"
+      },
+      {
+        "path": "principles/prototype-branching.md",
+        "category": "engineering",
+        "keywords": "原型 prototype 垂直切片 LOGIC UI分支 rapid-validation",
+        "summary": "mattpocock prototype skill——LOGIC(终端) vs UI(多变体)两分支决策，快速验证后删除"
+      },
+      {
+        "path": "principles/skill-anatomy.md",
+        "category": "skill-architecture",
+        "keywords": "Skill格式 YAML frontmatter 触发条件 red flags anatomy 标准结构",
+        "summary": "四大仓库共同标准——SKILL.md的6个必要组成部分，精准触发条件写法，质量门槛94%拒绝"
+      },
+      {
+        "path": "principles/multi-agent-studio.md",
+        "category": "architecture",
+        "keywords": "多Agent协作 团队工作室 层级架构 自动化Hook 路径规则 Claude Code Game Studios",
+        "summary": "Claude Code Game Studios 700★——49 Agent三层架构(总监/主管/专家)、Hook自动化、路径作用域规则"
+      },
+      {
+        "path": "principles/collaborative-protocol.md",
+        "category": "agent-philosophy",
+        "keywords": "协作协议 ASK PRESENT DECIDE DRAFT APPROVE 人机协同 五步流程 决策权",
+        "summary": "Claude Code Game Studios协作协议——Agent永远问-展示-等待决定-草稿-确认，不擅自行动"
+      },
+      {
+        "path": "principles/hook-automation.md",
+        "category": "automation",
+        "keywords": "Hook钩子 自动化检查 生命周期 会话压缩 pre-commit 审计日志 失效安全",
+        "summary": "Game Studios 12个自动化Hook——预执行拦截、会话生命周期管理、Agent审计日志，可迁移到Hermes"
+      },
+      {
+        "path": "principles/mcp-integration.md",
+        "category": "tool-integration",
+        "keywords": "MCP Model Context Protocol stdio HTTP 工具集成 GitHub filesystem sqlite",
+        "summary": "MCP协议——stdio/HTTP两种传输方式，mcp_{server}_{tool}命名规则，安全配置要点"
+      },
+      {
+        "path": "principles/plugin-create-workflow.md",
+        "category": "plugin-dev",
+        "keywords": "Claude Code plugin插件创建 7步流程 Discovery Component Planning Design Implementation Validation",
+        "summary": "claude-code 55K★——Plugin创建7阶段工作流：发现→组件规划→详细设计→实现→验证→测试→完成"
+      },
+      {
+        "path": "principles/playwright-testing.md",
+        "category": "testing",
+        "keywords": "Playwright 自动化测试 E2E browser chromium firefox webkit cross-browser",
+        "summary": "microsoft Playwright 63K★——跨浏览器E2E测试，支持chromium/firefox/webkit，codegen生成测试"
+      },
+      {
+        "path": "principles/deer-flow-harness.md",
+        "category": "agent-architecture",
+        "keywords": "DeerFlow ByteDance LangGraph LangChain sub-agent sandbox skills MCP memory IM channels",
+        "summary": "ByteDance DeerFlow 2.0 771★——超级Agent Harness，LangGraph编排，Skills渐进加载，Sandbox隔离，多IM通道"
+      },
+      {
+        "path": "principles/agent-skills-lifecycle.md",
+        "category": "skill-engineering",
+        "keywords": "addyosmani agent-skills 23个skill slash命令 工程实践 SDD TDD review security ship",
+        "summary": "addyosmani/agent-skills 21★——23个生产级skill覆盖完整开发生命周期，7个slash命令，质量门槛标准"
+      },
+      {
+        "path": "principles/open-interpreter-execution.md",
+        "category": "code-execution",
+        "keywords": "Open Interpreter 本地代码执行 Python JavaScript Shell LM Studio 流式输出",
+        "summary": "OpenInterpreter/open-interpreter——本地LLM代码执行，终端ChatGPT风格，支持Python/JS/Shell，多模型"
+      },
+      {
+        "path": "principles/ollama-platform-ecosystem.md",
+        "category": "local-llm",
+        "keywords": "Ollama 本地LLM 600+模型 LangChain crewAI RAG Open WebUI AnythingLLM Claude Code集成",
+        "summary": "ollama/ollama——开源本地LLM平台，600+模型，一条命令运行，完整集成生态图谱"
+      },
+      {
+        "path": "principles/vercel-ai-sdk-patterns.md",
+        "category": "ai-sdk",
+        "keywords": "Vercel AI SDK monorepo provider模式 generateText streamText generateObject",
+        "summary": "vercel/ai 26K★——TypeScript AI SDK monorepo，Provider四层架构，generateText/streamText/工具Schema"
+      },
+      {
+        "path": "principles/playwright-development-workflow.md",
+        "category": "testing",
+        "keywords": "Playwright 浏览器自动化 monorepo DEPS系统 flint lint 提交规范 API 6步",
+        "summary": "microsoft/playwright 63K★——monorepo结构，DEPS边界系统，flint门禁，API添加6步流程"
+      },
+      {
+        "path": "principles/claude-code-plugin-creation.md",
+        "category": "plugin-dev",
+        "keywords": "Claude Code plugin插件创建 7阶段 Discovery ComponentPlanning Design Implementation Validation",
+        "summary": "claude-code plugin-dev——端到端8阶段插件创建，Skill/Command/Agent/Hook/MCP组件实现规范"
+      },
+      {
+        "path": "principles/ollama-python-sdk.md",
+        "category": "local-llm",
+        "keywords": "Ollama Python SDK async streaming cloud API Client ResponseError embeddings",
+        "summary": "ollama/ollama-python——轻量Python SDK，本地+云模型，同步异步支持，流式输出，httpx底层"
+      },
+      {
+        "path": "skills/continue/SKILL.md",
+        "category": "tool",
+        "keywords": "Continue VSCode AI助手 代码补全 代码理解",
+        "summary": "Continue——VSCode/JetBrains AI编程助手，支持代码补全、理解、调试，基于Continue SDK构建"
+      },
+      {
+        "path": "skills/vercel-agent-skills/SKILL.md",
+        "category": "tool",
+        "keywords": "Vercel Agent Skills AI编程 agent技能集合",
+        "summary": "Vercel Agent Skills——Vercel Labs AI Agent技能合集，扩展AI编程能力"
+      },
+      {
+        "path": "skills/claude-code-plugins/SKILL.md",
+        "category": "engineering",
+        "keywords": "Claude Code Plugins 插件 扩展 自定义命令 agent Hook MCP",
+        "summary": "Claude Code Plugins——官方插件示例集，含自定义命令/Agent/Hook/MCP扩展模式"
+      }
+    ]
+  },
+  "待完成": {
+    "tool_templates": "填充实际工具模板",
+    "learning_script": "旧auto_learning.py尚未连接brain架构"
+  },
+  "entries": [
+    {
+      "path": "principles/ollama_model_tiers.md",
+      "type": "principle",
+      "tags": [
+        "模型",
+        "调度",
+        "Ollama",
+        "架构"
+      ]
+    },
+    {
+      "path": "principles/multi_agent_patterns.md",
+      "type": "principle",
+      "tags": [
+        "多Agent",
+        "delegate_task",
+        "协作"
+      ]
+    },
+    {
+      "path": "principles/cron_silent_mode.md",
+      "type": "principle",
+      "tags": [
+        "Cron",
+        "静默",
+        "通知"
+      ]
+    },
+    {
+      "path": "reasoning_patterns/self_evolution.md",
+      "type": "pattern",
+      "tags": [
+        "自进化",
+        "自我观测",
+        "反馈闭环"
+      ]
+    },
+    {
+      "path": "principles/deer-flow-harness.md",
+      "type": "principle",
+      "tags": [
+        "DeerFlow",
+        "ByteDance",
+        "LangGraph",
+        "Agent",
+        "Harness"
+      ]
+    },
+    {
+      "path": "principles/agent-skills-lifecycle.md",
+      "type": "principle",
+      "tags": [
+        "Agent-Skills",
+        "SKILL",
+        "slash命令",
+        "开发生命周期"
+      ]
+    },
+    {
+      "path": "principles/open-interpreter-execution.md",
+      "type": "principle",
+      "tags": [
+        "Open-Interpreter",
+        "代码执行",
+        "本地LLM",
+        "Python"
+      ]
+    },
+    {
+      "path": "principles/ollama-platform-ecosystem.md",
+      "type": "principle",
+      "tags": [
+        "Ollama",
+        "本地LLM",
+        "生态",
+        "集成"
+      ]
+    },
+    {
+      "path": "principles/vercel-ai-sdk-patterns.md",
+      "type": "principle",
+      "tags": [
+        "Vercel-AI-SDK",
+        "Provider",
+        "monorepo",
+        "generateText"
+      ]
+    },
+    {
+      "path": "principles/playwright-development-workflow.md",
+      "type": "principle",
+      "tags": [
+        "Playwright",
+        "浏览器自动化",
+        "monorepo",
+        "DEPS系统"
+      ]
+    },
+    {
+      "path": "principles/claude-code-plugin-creation.md",
+      "type": "principle",
+      "tags": [
+        "Claude-Code",
+        "Plugin",
+        "SKILL",
+        "Hook",
+        "MCP"
+      ]
+    },
+    {
+      "path": "principles/ollama-python-sdk.md",
+      "type": "principle",
+      "tags": [
+        "Ollama",
+        "Python-SDK",
+        "async",
+        "streaming"
+      ]
+    }
+  ],
+  "last_updated": "2026-05-26"
+}

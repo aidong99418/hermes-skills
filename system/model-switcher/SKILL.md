@@ -1,1 +1,100 @@
-IyDmqKHlnovliIfmjaLlmagKCuWcqOW+ruS/oS/po57kuablr7nor53kuK3nm7TmjqXovpPlhaXmqKHlnovliIfmjaLmjIfku6TvvIzor4bliKsg4oaSIOmFjee9riDihpIg6YeN5ZCv5YWo6Ieq5Yqo5a6M5oiQ44CCCgojIyDop6blj5HlhbPplK7or40KCnwg55So5oi36L6T5YWlIHwg5YiH5o2i5YiwIHwKfC0tLS0tLS0tLXwtLS0tLS0tLXwKfCBg5YiH5YiwTTIuN2AgYOeUqE0yLjdgIGDmjaJNMi43YCBgbTIuN2AgfCBNaW5pTWF4LU0yLjfvvIjlrpjmlrnkuLvmqKHlnovvvIkgfAp8IGDliIfliLB3aXNlbW9kZWxgIGDnlKh3aXNlbW9kZWxgIGDlp4vmmbpBSWAgfCB3aXNlbW9kZWwgKyBNaW5pTWF4LU0yLjcgfAp8IGDliIfliLDnoYXln7pgIGDnoYXln7rmtYHliqhgIGBzaWxpY29uZmxvd2AgYFNGYCB8IHNpbGljb25mbG93ICsgUXdlbi9Rd2VuMy04QiB8CnwgYOWIh+WIsG1pbmltYXhgIGDlrpjmlrnmqKHlnotgIHwgbWluaW1heCArIE1pbmlNYXgtTTIuNyB8CgojIyDmiafooYzmtYHnqIsKCjEuIOino+aekOaooeWei+WQjeensO+8iOaUr+aMgeWkmuenjeihqOi+vu+8iQoyLiDmm7TmlrAgY29uZmlnLnlhbWzvvIhgaGVybWVzIGNvbmZpZyBzZXRg77yJCjMuIOWPkemAgSBTSUdVU1IxIOinpuWPkSBHYXRld2F5IOS8mOmbhemHjeWQrwo0LiDlkYrnn6XnlKjmiLfliIfmjaLlrozmiJAKCiMjIOWujOaVtOS7o+eggQoKYGBgcHl0aG9uCmltcG9ydCBzdWJwcm9jZXNzLCByZSwgb3MsIHNpZ25hbCwgc3lzCgojIOaooeWei+WQjeaYoOWwhApNT0RFTF9NQVAgPSB7CiAgICAibTIuNyI6ICAgICAgICAgeyJwcm92aWRlciI6ICJtaW5pbWF4IiwgICAgICAgIm1vZGVsIjogIk1pbmlNYXgtTTIuNyJ9LAogICAgIm1pbmltYXgtbTIuNyI6IHsicHJvdmlkZXIiOiAibWluaW1heCIsICAgICAgICJtb2RlbCI6ICJNaW5pTWF4LU0yLjcifSwKICAgICJ3aXNlbW9kZWwiOiAgICB7InByb3ZpZGVyIjogIndpc2Vtb2RlbCIsICAgICAgIm1vZGVsIjogIk1pbmlNYXgtTTIuNyJ9LAogICAgIuWni+aZumFpIjogICAgICAgIHsicHJvdmlkZXIiOiAid2lzZW1vZGVsIiwgICAgICAibW9kZWwiOiAiTWluaU1heC1NMi43In0sCiAgICAi56GF5Z+6IjogICAgICAgICB7InByb3ZpZGVyIjogInNpbGljb25mbG93IiwgICAgIm1vZGVsIjogIlF3ZW4vUXdlbjMtOEIifSwKICAgICJzaWxpY29uZmxvdyI6ICB7InByb3ZpZGVyIjogInNpbGljb25mbG93IiwgICAgIm1vZGVsIjogIlF3ZW4vUXdlbjMtOEIifSwKICAgICJzZiI6ICAgICAgICAgICB7InByb3ZpZGVyIjogInNpbGljb25mbG93IiwgICAgIm1vZGVsIjogIlF3ZW4vUXdlbjMtOEIifSwKICAgICJtaW5pbWF4IjogICAgICB7InByb3ZpZGVyIjogIm1pbmltYXgiLCAgICAgICAgIm1vZGVsIjogIk1pbmlNYXgtTTIuNyJ9LAp9CgpkZWYgcGFyc2VfaW50ZW50KHRleHQ6IHN0cikgLT4gZGljdCB8IE5vbmU6CiAgICAiIiLku47nlKjmiLfovpPlhaXmj5Dlj5bmqKHlnovliIfmjaLmhI/lm74iIiIKICAgIHRleHQgPSB0ZXh0Lmxvd2VyKCkuc3RyaXAoKQogICAgZm9yIGtleXdvcmQsIGNvbmZpZyBpbiBNT0RFTF9NQVAuaXRlbXMoKToKICAgICAgICBpZiBrZXl3b3JkIGluIHRleHQ6CiAgICAgICAgICAgIHJldHVybiB7ImtleXdvcmQiOiBrZXl3b3JkLCAqKmNvbmZpZ30KICAgIHJldHVybiBOb25lCgpkZWYgc3dpdGNoX21vZGVsKHByb3ZpZGVyOiBzdHIsIG1vZGVsOiBzdHIsIGNvbmZpZ19wYXRoOiBzdHIpIC0+IHR1cGxlW2Jvb2wsIHN0cl06CiAgICAiIiLnlKggaGVybWVzIGNvbmZpZyBzZXQg5pu05paw5qih5Z6L6YWN572uIiIiCiAgICB0cnk6CiAgICAgICAgIyAxLiDlhpkgbW9kZWwuZGVmYXVsdAogICAgICAgIHIgPSBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgWyIvb3B0L2hlcm1lcy8udmVudi9iaW4vaGVybWVzIiwgImNvbmZpZyIsICJzZXQiLAogICAgICAgICAgICAgZiJtb2RlbC5wcm92aWRlciIsIHByb3ZpZGVyXSwKICAgICAgICAgICAgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGV4dD1UcnVlLCB0aW1lb3V0PTEwCiAgICAgICAgKQogICAgICAgICMgMi4g5YaZIG1vZGVsLmRlZmF1bHQKICAgICAgICByMiA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgICAgICBbIi9vcHQvaGVybWVzLy52ZW52L2Jpbi9oZXJtZXMiLCAiY29uZmlnIiwgInNldCIsCiAgICAgICAgICAgICBmIm1vZGVsLmRlZmF1bHQiLCBtb2RlbF0sCiAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsIHRleHQ9VHJ1ZSwgdGltZW91dD0xMAogICAgICAgICkKICAgICAgICByZXR1cm4gVHJ1ZSwgZiLinIUg6YWN572u5bey5pu05pawOiB7cHJvdmlkZXJ9IC8ge21vZGVsfSIKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICByZXR1cm4gRmFsc2UsIGYi6YWN572u5pu05paw5aSx6LSlOiB7ZX0iCgpkZWYgcmVzdGFydF9nYXRld2F5KCkgLT4gdHVwbGVbYm9vbCwgc3RyXToKICAgICIiIuWPkemAgSBTSUdVU1IxIOinpuWPkSBHYXRld2F5IOS8mOmbhemHjeWQryIiIgogICAgcGlkID0gMSAgIyBHYXRld2F5IOWbuuWumiBQSUQgMQogICAgdHJ5OgogICAgICAgIG9zLmtpbGwocGlkLCBzaWduYWwuU0lHVVNSMSkKICAgICAgICByZXR1cm4gVHJ1ZSwgIuKchSBHYXRld2F5IOato+WcqOS8mOmbhemHjeWQr++8iOmihOiuoSAzMHMg5YaF5a6M5oiQ77yJIgogICAgZXhjZXB0IFByb2Nlc3NMb29rdXBFcnJvcjoKICAgICAgICByZXR1cm4gRmFsc2UsICJHYXRld2F5IOi/m+eoi+S4jeWtmOWcqCIKICAgIGV4Y2VwdCBQZXJtaXNzaW9uRXJyb3I6CiAgICAgICAgcmV0dXJuIEZhbHNlLCAi5peg5p2D6ZmQ5Y+R6YCB5L+h5Y+3IgogICAgZXhjZXB0IE9TRXJyb3IgYXMgZToKICAgICAgICByZXR1cm4gRmFsc2UsIGYi5L+h5Y+35Y+R6YCB5aSx6LSlOiB7ZX0iCgojIOS4u+a1geeoiwpkZWYgaGFuZGxlX21vZGVsX3N3aXRjaCh1c2VyX3RleHQ6IHN0cikgLT4gc3RyOgogICAgaW50ZW50ID0gcGFyc2VfaW50ZW50KHVzZXJfdGV4dCkKICAgIGlmIG5vdCBpbnRlbnQ6CiAgICAgICAgcmV0dXJuIE5vbmUgICMg5LiN5Yy56YWN77yM6L+U5ZueTm9uZeiuqeiwg+eUqOaWueWkhOeQhgoKICAgIHByb3ZpZGVyID0gaW50ZW50WyJwcm92aWRlciJdCiAgICBtb2RlbCA9IGludGVudFsibW9kZWwiXQoKICAgIG9rLCBtc2cgPSBzd2l0Y2hfbW9kZWwocHJvdmlkZXIsIG1vZGVsLCAiIikKICAgIGlmIG5vdCBvazoKICAgICAgICByZXR1cm4gZiLinYwge21zZ30iCgogICAgb2syLCBtc2cyID0gcmVzdGFydF9nYXRld2F5KCkKICAgIHJldHVybiBmInttc2d9XG57bXNnMn0iCmBgYAoKIyMg5rOo5oSP5LqL6aG5CgotIEdhdGV3YXkg6L+Q6KGM5Zyo5a655ZmoIFBJRCAx77yM5pmu6YCaIGtpbGwg5peg5rOV6YeN5ZCv77yM5b+F6aG755SoIFNJR1VTUjEKLSBTSUdVU1IxIOinpuWPkeS8mOmbhemHjeWQr++8muWFiOaOkuepuuW9k+WJjeWvueivne+8jOWGjemHjeWQr++8jDDkuKLlpLEKLSB3aXNlbW9kZWwg6ZyA6KaB56Gu6K6kIGFwaV9rZXkg5bey6YWN572u5ZyoIGNvbmZpZy55YW1sIGN1c3RvbV9wcm92aWRlcnMg6YeMCi0gc2lsaWNvbmZsb3cga2V5IOW3suWcqCBzbWFydF9tb2RlbF9yb3V0aW5nLmNoZWFwX21vZGVsLmFwaV9rZXkg6YWN572u
+# 模型切换器
+
+在微信/飞书对话中直接输入模型切换指令，识别 → 配置 → 重启全自动完成。
+
+## 触发关键词
+
+| 用户输入 | 切换到 |
+|---------|--------|
+| `切到M2.7` `用M2.7` `换M2.7` `m2.7` | MiniMax-M2.7（官方主模型） |
+| `切到wisemodel` `用wisemodel` `始智AI` | wisemodel + MiniMax-M2.7 |
+| `切到硅基` `硅基流动` `siliconflow` `SF` | siliconflow + Qwen/Qwen3-8B |
+| `切到minimax` `官方模型` | minimax + MiniMax-M2.7 |
+
+## 执行流程
+
+1. 解析模型名称（支持多种表达）
+2. 更新 config.yaml（`hermes config set`）
+3. 发送 SIGUSR1 触发 Gateway 优雅重启
+4. 告知用户切换完成
+
+## 完整代码
+
+```python
+import subprocess, re, os, signal, sys
+
+# 模型名映射
+MODEL_MAP = {
+    "m2.7":         {"provider": "minimax",       "model": "MiniMax-M2.7"},
+    "minimax-m2.7": {"provider": "minimax",       "model": "MiniMax-M2.7"},
+    "wisemodel":    {"provider": "wisemodel",      "model": "MiniMax-M2.7"},
+    "始智ai":        {"provider": "wisemodel",      "model": "MiniMax-M2.7"},
+    "硅基":         {"provider": "siliconflow",    "model": "Qwen/Qwen3-8B"},
+    "siliconflow":  {"provider": "siliconflow",    "model": "Qwen/Qwen3-8B"},
+    "sf":           {"provider": "siliconflow",    "model": "Qwen/Qwen3-8B"},
+    "minimax":      {"provider": "minimax",        "model": "MiniMax-M2.7"},
+}
+
+def parse_intent(text: str) -> dict | None:
+    """从用户输入提取模型切换意图"""
+    text = text.lower().strip()
+    for keyword, config in MODEL_MAP.items():
+        if keyword in text:
+            return {"keyword": keyword, **config}
+    return None
+
+def switch_model(provider: str, model: str, config_path: str) -> tuple[bool, str]:
+    """用 hermes config set 更新模型配置"""
+    try:
+        # 1. 写 model.default
+        r = subprocess.run(
+            ["/opt/hermes/.venv/bin/hermes", "config", "set",
+             f"model.provider", provider],
+            capture_output=True, text=True, timeout=10
+        )
+        # 2. 写 model.default
+        r2 = subprocess.run(
+            ["/opt/hermes/.venv/bin/hermes", "config", "set",
+             f"model.default", model],
+            capture_output=True, text=True, timeout=10
+        )
+        return True, f"✅ 配置已更新: {provider} / {model}"
+    except Exception as e:
+        return False, f"配置更新失败: {e}"
+
+def restart_gateway() -> tuple[bool, str]:
+    """发送 SIGUSR1 触发 Gateway 优雅重启"""
+    pid = 1  # Gateway 固定 PID 1
+    try:
+        os.kill(pid, signal.SIGUSR1)
+        return True, "✅ Gateway 正在优雅重启（预计 30s 内完成）"
+    except ProcessLookupError:
+        return False, "Gateway 进程不存在"
+    except PermissionError:
+        return False, "无权限发送信号"
+    except OSError as e:
+        return False, f"信号发送失败: {e}"
+
+# 主流程
+def handle_model_switch(user_text: str) -> str:
+    intent = parse_intent(user_text)
+    if not intent:
+        return None  # 不匹配，返回None让调用方处理
+
+    provider = intent["provider"]
+    model = intent["model"]
+
+    ok, msg = switch_model(provider, model, "")
+    if not ok:
+        return f"❌ {msg}"
+
+    ok2, msg2 = restart_gateway()
+    return f"{msg}\n{msg2}"
+```
+
+## 注意事项
+
+- Gateway 运行在容器 PID 1，普通 kill 无法重启，必须用 SIGUSR1
+- SIGUSR1 触发优雅重启：先排空当前对话，再重启，0丢失
+- wisemodel 需要确认 api_key 已配置在 config.yaml custom_providers 里
+- siliconflow key 已在 smart_model_routing.cheap_model.api_key 配置

@@ -1,1 +1,73 @@
-LS0tCm5hbWU6IHlvdXR1YmUtY29udGVudApkZXNjcmlwdGlvbjogPgogIEZldGNoIFlvdVR1YmUgdmlkZW8gdHJhbnNjcmlwdHMgYW5kIHRyYW5zZm9ybSB0aGVtIGludG8gc3RydWN0dXJlZCBjb250ZW50CiAgKGNoYXB0ZXJzLCBzdW1tYXJpZXMsIHRocmVhZHMsIGJsb2cgcG9zdHMpLiBVc2Ugd2hlbiB0aGUgdXNlciBzaGFyZXMgYSBZb3VUdWJlCiAgVVJMIG9yIHZpZGVvIGxpbmssIGFza3MgdG8gc3VtbWFyaXplIGEgdmlkZW8sIHJlcXVlc3RzIGEgdHJhbnNjcmlwdCwgb3Igd2FudHMKICB0byBleHRyYWN0IGFuZCByZWZvcm1hdCBjb250ZW50IGZyb20gYW55IFlvdVR1YmUgdmlkZW8uCnZlcnNpb246IDEuMAotLS0KCiMgWW91VHViZSBDb250ZW50IFRvb2wKCkV4dHJhY3QgdHJhbnNjcmlwdHMgZnJvbSBZb3VUdWJlIHZpZGVvcyBhbmQgY29udmVydCB0aGVtIGludG8gdXNlZnVsIGZvcm1hdHMuCgojIyBTZXR1cAoKYGBgYmFzaApwaXAgaW5zdGFsbCB5b3V0dWJlLXRyYW5zY3JpcHQtYXBpCmBgYAoKIyMgSGVscGVyIFNjcmlwdAoKYFNLSUxMX0RJUmAgaXMgdGhlIGRpcmVjdG9yeSBjb250YWluaW5nIHRoaXMgU0tJTEwubWQgZmlsZS4gVGhlIHNjcmlwdCBhY2NlcHRzIGFueSBzdGFuZGFyZCBZb3VUdWJlIFVSTCBmb3JtYXQsIHNob3J0IGxpbmtzICh5b3V0dS5iZSksIHNob3J0cywgZW1iZWRzLCBsaXZlIGxpbmtzLCBvciBhIHJhdyAxMS1jaGFyYWN0ZXIgdmlkZW8gSUQuCgpgYGBiYXNoCiMgSlNPTiBvdXRwdXQgd2l0aCBtZXRhZGF0YQpweXRob24zIFNLSUxMX0RJUi9zY3JpcHRzL2ZldGNoX3RyYW5zY3JpcHQucHkgImh0dHBzOi8veW91dHViZS5jb20vd2F0Y2g/dj1WSURFT19JRCIKCiMgUGxhaW4gdGV4dCAoZ29vZCBmb3IgcGlwaW5nIGludG8gZnVydGhlciBwcm9jZXNzaW5nKQpweXRob24zIFNLSUxMX0RJUi9zY3JpcHRzL2ZldGNoX3RyYW5zY3JpcHQucHkgIlVSTCIgLS10ZXh0LW9ubHkKCiMgV2l0aCB0aW1lc3RhbXBzCnB5dGhvbjMgU0tJTExfRElSL3NjcmlwdHMvZmV0Y2hfdHJhbnNjcmlwdC5weSAiVVJMIiAtLXRpbWVzdGFtcHMKCiMgU3BlY2lmaWMgbGFuZ3VhZ2Ugd2l0aCBmYWxsYmFjayBjaGFpbgpweXRob24zIFNLSUxMX0RJUi9zY3JpcHRzL2ZldGNoX3RyYW5zY3JpcHQucHkgIlVSTCIgLS1sYW5ndWFnZSB0cixlbgpgYGAKCiMjIE91dHB1dCBGb3JtYXRzCgpBZnRlciBmZXRjaGluZyB0aGUgdHJhbnNjcmlwdCwgZm9ybWF0IGl0IGJhc2VkIG9uIHdoYXQgdGhlIHVzZXIgYXNrcyBmb3I6CgotICoqQ2hhcHRlcnMqKjogR3JvdXAgYnkgdG9waWMgc2hpZnRzLCBvdXRwdXQgdGltZXN0YW1wZWQgY2hhcHRlciBsaXN0Ci0gKipTdW1tYXJ5Kio6IENvbmNpc2UgNS0xMCBzZW50ZW5jZSBvdmVydmlldyBvZiB0aGUgZW50aXJlIHZpZGVvCi0gKipDaGFwdGVyIHN1bW1hcmllcyoqOiBDaGFwdGVycyB3aXRoIGEgc2hvcnQgcGFyYWdyYXBoIHN1bW1hcnkgZm9yIGVhY2gKLSAqKlRocmVhZCoqOiBUd2l0dGVyL1ggdGhyZWFkIGZvcm1hdCDigJQgbnVtYmVyZWQgcG9zdHMsIGVhY2ggdW5kZXIgMjgwIGNoYXJzCi0gKipCbG9nIHBvc3QqKjogRnVsbCBhcnRpY2xlIHdpdGggdGl0bGUsIHNlY3Rpb25zLCBhbmQga2V5IHRha2Vhd2F5cwotICoqUXVvdGVzKio6IE5vdGFibGUgcXVvdGVzIHdpdGggdGltZXN0YW1wcwoKIyMjIEV4YW1wbGUg4oCUIENoYXB0ZXJzIE91dHB1dAoKYGBgCjAwOjAwIEludHJvZHVjdGlvbiDigJQgaG9zdCBvcGVucyB3aXRoIHRoZSBwcm9ibGVtIHN0YXRlbWVudAowMzo0NSBCYWNrZ3JvdW5kIOKAlCBwcmlvciB3b3JrIGFuZCB3aHkgZXhpc3Rpbmcgc29sdXRpb25zIGZhbGwgc2hvcnQKMTI6MjAgQ29yZSBtZXRob2Qg4oCUIHdhbGt0aHJvdWdoIG9mIHRoZSBwcm9wb3NlZCBhcHByb2FjaAoyNDoxMCBSZXN1bHRzIOKAlCBiZW5jaG1hcmsgY29tcGFyaXNvbnMgYW5kIGtleSB0YWtlYXdheXMKMzE6NTUgUSZBIOKAlCBhdWRpZW5jZSBxdWVzdGlvbnMgb24gc2NhbGFiaWxpdHkgYW5kIG5leHQgc3RlcHMKYGBgCgojIyBXb3JrZmxvdwoKMS4gKipGZXRjaCoqIHRoZSB0cmFuc2NyaXB0IHVzaW5nIHRoZSBoZWxwZXIgc2NyaXB0IHdpdGggYC0tdGV4dC1vbmx5IC0tdGltZXN0YW1wc2AuCjIuICoqVmFsaWRhdGUqKjogY29uZmlybSB0aGUgb3V0cHV0IGlzIG5vbi1lbXB0eSBhbmQgaW4gdGhlIGV4cGVjdGVkIGxhbmd1YWdlLiBJZiBlbXB0eSwgcmV0cnkgd2l0aG91dCBgLS1sYW5ndWFnZWAgdG8gZ2V0IGFueSBhdmFpbGFibGUgdHJhbnNjcmlwdC4gSWYgc3RpbGwgZW1wdHksIHRlbGwgdGhlIHVzZXIgdGhlIHZpZGVvIGxpa2VseSBoYXMgdHJhbnNjcmlwdHMgZGlzYWJsZWQuCjMuICoqQ2h1bmsgaWYgbmVlZGVkKio6IGlmIHRoZSB0cmFuc2NyaXB0IGV4Y2VlZHMgfjUwSyBjaGFyYWN0ZXJzLCBzcGxpdCBpbnRvIG92ZXJsYXBwaW5nIGNodW5rcyAofjQwSyB3aXRoIDJLIG92ZXJsYXApIGFuZCBzdW1tYXJpemUgZWFjaCBjaHVuayBiZWZvcmUgbWVyZ2luZy4KNC4gKipUcmFuc2Zvcm0qKiBpbnRvIHRoZSByZXF1ZXN0ZWQgb3V0cHV0IGZvcm1hdC4gSWYgdGhlIHVzZXIgZGlkIG5vdCBzcGVjaWZ5IGEgZm9ybWF0LCBkZWZhdWx0IHRvIGEgc3VtbWFyeS4KNS4gKipWZXJpZnkqKjogcmUtcmVhZCB0aGUgdHJhbnNmb3JtZWQgb3V0cHV0IHRvIGNoZWNrIGZvciBjb2hlcmVuY2UsIGNvcnJlY3QgdGltZXN0YW1wcywgYW5kIGNvbXBsZXRlbmVzcyBiZWZvcmUgcHJlc2VudGluZy4KCiMjIEVycm9yIEhhbmRsaW5nCgotICoqVHJhbnNjcmlwdCBkaXNhYmxlZCoqOiB0ZWxsIHRoZSB1c2VyOyBzdWdnZXN0IHRoZXkgY2hlY2sgaWYgc3VidGl0bGVzIGFyZSBhdmFpbGFibGUgb24gdGhlIHZpZGVvIHBhZ2UuCi0gKipQcml2YXRlL3VuYXZhaWxhYmxlIHZpZGVvKio6IHJlbGF5IHRoZSBlcnJvciBhbmQgYXNrIHRoZSB1c2VyIHRvIHZlcmlmeSB0aGUgVVJMLgotICoqTm8gbWF0Y2hpbmcgbGFuZ3VhZ2UqKjogcmV0cnkgd2l0aG91dCBgLS1sYW5ndWFnZWAgdG8gZmV0Y2ggYW55IGF2YWlsYWJsZSB0cmFuc2NyaXB0LCB0aGVuIG5vdGUgdGhlIGFjdHVhbCBsYW5ndWFnZSB0byB0aGUgdXNlci4KLSAqKkRlcGVuZGVuY3kgbWlzc2luZyoqOiBydW4gYHBpcCBpbnN0YWxsIHlvdXR1YmUtdHJhbnNjcmlwdC1hcGlgIGFuZCByZXRyeS4K
+---
+name: youtube-content
+description: >
+  Fetch YouTube video transcripts and transform them into structured content
+  (chapters, summaries, threads, blog posts). Use when the user shares a YouTube
+  URL or video link, asks to summarize a video, requests a transcript, or wants
+  to extract and reformat content from any YouTube video.
+version: 1.0
+---
+
+# YouTube Content Tool
+
+Extract transcripts from YouTube videos and convert them into useful formats.
+
+## Setup
+
+```bash
+pip install youtube-transcript-api
+```
+
+## Helper Script
+
+`SKILL_DIR` is the directory containing this SKILL.md file. The script accepts any standard YouTube URL format, short links (youtu.be), shorts, embeds, live links, or a raw 11-character video ID.
+
+```bash
+# JSON output with metadata
+python3 SKILL_DIR/scripts/fetch_transcript.py "https://youtube.com/watch?v=VIDEO_ID"
+
+# Plain text (good for piping into further processing)
+python3 SKILL_DIR/scripts/fetch_transcript.py "URL" --text-only
+
+# With timestamps
+python3 SKILL_DIR/scripts/fetch_transcript.py "URL" --timestamps
+
+# Specific language with fallback chain
+python3 SKILL_DIR/scripts/fetch_transcript.py "URL" --language tr,en
+```
+
+## Output Formats
+
+After fetching the transcript, format it based on what the user asks for:
+
+- **Chapters**: Group by topic shifts, output timestamped chapter list
+- **Summary**: Concise 5-10 sentence overview of the entire video
+- **Chapter summaries**: Chapters with a short paragraph summary for each
+- **Thread**: Twitter/X thread format — numbered posts, each under 280 chars
+- **Blog post**: Full article with title, sections, and key takeaways
+- **Quotes**: Notable quotes with timestamps
+
+### Example — Chapters Output
+
+```
+00:00 Introduction — host opens with the problem statement
+03:45 Background — prior work and why existing solutions fall short
+12:20 Core method — walkthrough of the proposed approach
+24:10 Results — benchmark comparisons and key takeaways
+31:55 Q&A — audience questions on scalability and next steps
+```
+
+## Workflow
+
+1. **Fetch** the transcript using the helper script with `--text-only --timestamps`.
+2. **Validate**: confirm the output is non-empty and in the expected language. If empty, retry without `--language` to get any available transcript. If still empty, tell the user the video likely has transcripts disabled.
+3. **Chunk if needed**: if the transcript exceeds ~50K characters, split into overlapping chunks (~40K with 2K overlap) and summarize each chunk before merging.
+4. **Transform** into the requested output format. If the user did not specify a format, default to a summary.
+5. **Verify**: re-read the transformed output to check for coherence, correct timestamps, and completeness before presenting.
+
+## Error Handling
+
+- **Transcript disabled**: tell the user; suggest they check if subtitles are available on the video page.
+- **Private/unavailable video**: relay the error and ask the user to verify the URL.
+- **No matching language**: retry without `--language` to fetch any available transcript, then note the actual language to the user.
+- **Dependency missing**: run `pip install youtube-transcript-api` and retry.

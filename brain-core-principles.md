@@ -1,1 +1,123 @@
-LS0tCm5hbWU6IGJyYWluLWNvcmUtcHJpbmNpcGxlcwpkZXNjcmlwdGlvbjog5LuOYmVzdC1wcmFjdGljZXPlkoxza2lsbHPkuK3mj5Dlj5bnmoTmoLjlv4Pnn6Xor4bkvZPns7sKdmVyc2lvbjogMS4wLjAKZGF0ZTogMjAyNi0wNS0yMwp0YWdzOiBbYnJhaW4sIGFyY2hpdGVjdHVyZSwgb2xsYW1hLCBtdWx0aS1hZ2VudCwgc2VsZi1ldm9sdXRpb25dCi0tLQoKIyBCcmFpbiDmoLjlv4Pljp/liJnkvZPns7sKCj4g5LuOIGAvdG1wL2FkZG9ucy9iZXN0LXByYWN0aWNlcy9gIOWSjCBgL3RtcC9hZGRvbnMvc2tpbGxzL2Ag5o+Q5Y+W77yMMjAyNi0wNS0yMwoKLS0tCgojIyDljp/liJnkuIDvvJrpnZnpu5jov5DooYzljp/liJkKCioq5qC45b+DKirvvJrnlKjmiLfkuI3pnIDopoHnn6XpgZPns7vnu5/mraPluLjov5DooYzvvIzlj6rmnInlh7rpl67popjml7bmiY3miZPmibDjgIIKCnwg5qih5byPIHwgZGVsaXZlcuWPguaVsCB8IOihjOS4uiB8CnwtLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLXwKfCDpnZnpu5ggfCBgbG9jYWxgIHwg5Y+q5YaZ5pys5Zyw5paH5Lu277yM5LiN5o6o6YCBIHwKfCDpgJrnn6UgfCBgb3JpZ2luYCDmiJYgYHdlaXhpbmAgfCDmjqjpgIHliLDlvq7kv6EgfAp8IOiHqueUqCB8IOaXoCB8IOS4jeS6pOS7mO+8iGNyb27lhoXpg6jkvb/nlKjvvIkgfAoKLSDmiYDmnIkxMOS4qmNyb27ku7vliqHlt7LmlLnkuLogYGRlbGl2ZXI9bG9jYWxgCi0g5Y+q5Zyo6L+e57utM+asoeWksei0pS/no4Hnm5jmu6EvT2xsYW1h5a6V5py6L+Wkh+S7veWksei0peaXtuaJjemAmuefpQotICoq6Z2Z6buY6Ieq5oSIKirvvJrlpLHotKXihpLph43or5Uz5qyh4oaS5LuN5aSx6LSl5omN6YCa55+l55So5oi3CgotLS0KCiMjIOWOn+WImeS6jO+8mk9sbGFtYeaooeWei+WIhuWxguiwg+W6pgoKKirmoLjlv4MqKu+8muaMiemXrumimOWkjeadguW6puWIhumFjeaooeWei+i1hOa6kO+8jOmBv+WFjSLnroDljZXpl67popjnlKjlpKfmqKHlnovmtarotLnvvIzlpI3mnYLpl67popjnlKjlsI/mqKHlnovlpKrmtYUi44CCCgp8IOWxgue6pyB8IOaooeWeiyB8IOinkuiJsiB8IOinpuWPkeWcuuaZryB8CnwtLS0tLS18LS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tfAp8IGZhc3QgfCBzbW9sbG0yOjEuN2IgfCDlv6vpgJ/lk43lupTvvIg8Meenku+8iSB8IOeugOWNleafpeivoiB8Cnwgd29ya2VyIHwgcXdlbjIuNTozYiB8IOWQjuWPsOWIhuaekCB8IOW3peWFt+iwg+eUqC/ohJrmnKznlJ/miJAgfAp8IGV4cGVydCB8IGRlZXBzZWVrLXIxOjdiIHwg5aSN5p2C5o6o55CG77yIfjE156eS5Ya35ZCv5Yqo77yJIHwg5p625p6EL+WuieWFqC/mnYPooaEgfAp8IHRvb2wgfCBxd2VuMi41OjdiLWluc3RydWN0LXE0IHwg5bel5YW36LCD55So6ZO+IHwg5bim5bel5YW355qE5aSN5p2C5Lu75YqhIHwKCi0gKirpmY3nuqfpk74qKu+8mmV4cGVydCDihpIgd29ya2VyIOKGkiBmYXN077yM5L+d6K+B5pyN5Yqh5LiN5Lit5patCi0g6LaF6L+HNeWIhumSn+epuumXsuiHquWKqOmZjee6pwotIOW5tuWPkeiwg+eUqOWQjOS4gOaooeWei+S8muWvvOiHtOmYn+WIl+WghuenrwotIDPmqKHlnovlubbooYzml7blhoXlrZjnuqY5R0IKCi0tLQoKIyMg5Y6f5YiZ5LiJ77ya5aSaQWdlbnTljY/kvZzmqKHlvI8KCioq5qC45b+DKirvvJrmoLnmja7pmpTnprvmgKfjgIHml7bplb/jgIHkuqTkupLpnIDmsYLpgInmi6nljY/kvZzmlrnmoYjjgIIKCnwg5Zy65pmvIHwg5pa55qGIIHwKfC0tLS0tLXwtLS0tLS18Cnwg5b+r6YCf5bm26KGM5a2Q5Lu75YqhIHwgYGRlbGVnYXRlX3Rhc2tg77yI5ZCM6L+b56iL5a2QYWdlbnTvvIkgfAp8IOmVv+aXtumXtOeLrOeri+S7u+WKoSB8IGB0bXV4ICsgaGVybWVzYCDni6znq4vov5vnqIsgfAp8IOWboumYn+aAneiAgyB8IDPmqKHlnovlubbooYzmtL7lj5EgfAoKKirlm6LpmJ/mgJ3ogIPmqKHlvI/vvIh0aWVyM++8iSoq77yaCi0gZGVlcHNlZWstcjE6N2Ig4oaSIOa3seW6puaOqOeQhuiAhQotIHF3ZW4yLjU6N2Ig4oaSIOW3peWFt+inhOWIkuiAhQotIHF3ZW4yLjU6M2Ig4oaSIOS6i+WunuaguOafpeiAhQotIOavlOWNleaooeWei+aAneiAg+i0qOmHj+mrmDQwJQoKKirouKnlnZEqKu+8mmRlbGVnYXRlX3Rhc2vkuI3og73osIPnlKhjbGFyaWZ577yI55So5oi35LiN5Zyo5Zy677yJ77ybUFRZ5qih5byP55SodG11eOiAjOmdnnJhdyBQVFnjgIIKCi0tLQoKIyMg5Y6f5YiZ5Zub77ya6Ieq6L+b5YyW5LqU5bGC5p625p6ECgoqKuaguOW/gyoq77ya57O757uf6IO9IuinguWvn+iHquW3sSLlubbmjIHnu63mlLnov5vvvIzml6DpnIDkurrlt6XlubLpooTjgIIKCmBgYArlpb3lpYflv4PliqjlvJXmk44g4oaSIOebsuWMuuajgOa1iyDihpIg5Y+N6aaI6Zet546vIOKGkiDnn6Xor4bmsonmt4Ag4oaSIOi0qOmHj+ivhOS8sApgYGAKCnwg5bGC57qnIHwg5YaF5a65IHwg5oyH5qCHIHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tfAp8IOWlveWlh+W/g+WKqCB8IOepuumXsuS4u+WKqOaPkOiuru+8jOayiem7mD4xMOWIhumSn+inpuWPkSB8IC0gfAp8IOebsuWMuuajgOa1iyB8IOiusOW9leetlOS4jeS4iuadpeeahOmXrumimO+8jOe7n+iuoXRpZXLliKTmlq3plJnor68gfCAtIHwKfCDlj43ppojpl63njq8gfCDmu6HmhI8rMC4x77yM5ZCm5a6aLTAuMu+8jOato+ehriswLjIgfCAtIHwKfCDnn6Xor4bmsonmt4AgfCDpq5jnva7kv6HnrZTmoYjlhplicmFpbu+8jOi4qeWdkeiusHBpdGZhbGxzIHwgYnJhaW7lkb3kuK3njoc+ODAlIHwKfCDotKjph4/or4TkvLAgfCB0aWVy5YeG56Gu546HPjkwJe+8jOimhueblueOhz42MCUgfCAtIHwKCioq5LiJ5bGC5oCd6ICD5byV5pOOKirvvJoKLSB0aWVyMe+8muebtOaOpeaJp+ihjO+8jDwx56eSCi0gdGllcjLvvJpicmFpbuajgOe0oivlpJbpg6jojrflj5bvvIw8NeenkgotIHRpZXIz77yaM+aooeWei+W5tuihjOWboumYn+a0vuWPke+8jDwxNeenkgoKLS0tCgojIyDljp/liJnkupTvvJrkuLvliqjoh6rmo4Dop4TojIMKCuavj+asoeWvueivneWJjeiHquajgO+8mgotIOWuueWZqOeKtuaAgS/no4Hnm5jnqbrpl7Qv5pel5b+X6ZSZ6K+vL+WDteWwuOi/m+eoiwotIHZpc2lvbuW3peWFt+WPr+eUqOaApwotIOWQjOexu+mXrumimOWPjeWkjeWHuueOsAoKLS0tCgojIyDljp/liJnlha3vvJpHaXRIdWLmioDog73lrabkuaDlt6XkvZzmtYEKCioq6Kem5Y+RKirvvJrnlKjmiLfor7Qi5oqKR2l06YeM55qE5aW95Lic6KW/6YO95a2m5Lmg5o6M5o+hIgoK5rWB56iL77yaYOWFi+mahuS7k+W6k2Ag4oaSIGDmiavmj49za2lsbOaWh+S7tmAg4oaSIGDlubbooYzor7vlj5bmj5Dlj5ZgIOKGkiBg5oyJ5qih5p2/5YaZYnJhaW5gIOKGkiBg6YeN5bu657Si5byVYCDihpIgYOmqjOivgeajgOe0omAg4oaSIGDmjqjpgIFoZXJtZXMtYWRkb25zYAoKKirnn6Xor4bliIbnsbvlrZjmlL4qKu+8mgotIGBwcmluY2lwbGVzL2Ag4oCUIOaguOW/g+WOn+WImQotIGBrbm93bGVkZ2UvYCDigJQg55+l6K+G5oC757uTCi0gYHJlYXNvbmluZ19wYXR0ZXJuL2Ag4oCUIOaOqOeQhuaooeW8jwotIGB3b3JrZmxvdy9gIOKAlCDlt6XkvZzmtYEKLSBgdG9vbF90ZW1wbGF0ZXMvYCDigJQg5bel5YW35qih5p2/CgotLS0KCiMjIOaguOW/g+WFseivhgoKMS4gKirpnZnpu5jkvJjlhYgqKu+8muato+W4uOi/kOihjOS4jeaJk+aJsOeUqOaItwoyLiAqKuWIhuWxguiwg+W6pioq77ya6Zeu6aKY5aSN5p2C5bqm5Yaz5a6a5qih5Z6L6LWE5rqQCjMuICoq6YCJ5oup6YCC5ZCI55qE5Y2P5L2c5pa55qGIKirvvJrkuI3nm7Lnm67nlKjmnIDph43nmoTmlrnmoYgKNC4gKirmjIHnu63oh6rov5vljJYqKu+8muezu+e7n+inguWvn+iHqui6q+W5tuaUuei/mwo1LiAqKuS4u+WKqOiHquajgCoq77ya5q+P5qyh6KGM5Yqo5YmN5qOA5p+l546v5aKD54q25oCBCjYuICoq55+l6K+G57uT5p6E5YyWKirvvJrnu5/kuIDliIbnsbvlrZjmlL7vvIzkvr/kuo7mo4DntKIK
+---
+name: brain-core-principles
+description: 从best-practices和skills中提取的核心知识体系
+version: 1.0.0
+date: 2026-05-23
+tags: [brain, architecture, ollama, multi-agent, self-evolution]
+---
+
+# Brain 核心原则体系
+
+> 从 `/tmp/addons/best-practices/` 和 `/tmp/addons/skills/` 提取，2026-05-23
+
+---
+
+## 原则一：静默运行原则
+
+**核心**：用户不需要知道系统正常运行，只有出问题时才打扰。
+
+| 模式 | deliver参数 | 行为 |
+|------|------------|------|
+| 静默 | `local` | 只写本地文件，不推送 |
+| 通知 | `origin` 或 `weixin` | 推送到微信 |
+| 自用 | 无 | 不交付（cron内部使用） |
+
+- 所有10个cron任务已改为 `deliver=local`
+- 只在连续3次失败/磁盘满/Ollama宕机/备份失败时才通知
+- **静默自愈**：失败→重试3次→仍失败才通知用户
+
+---
+
+## 原则二：Ollama模型分层调度
+
+**核心**：按问题复杂度分配模型资源，避免"简单问题用大模型浪费，复杂问题用小模型太浅"。
+
+| 层级 | 模型 | 角色 | 触发场景 |
+|------|------|------|----------|
+| fast | smollm2:1.7b | 快速响应（<1秒） | 简单查询 |
+| worker | qwen2.5:3b | 后台分析 | 工具调用/脚本生成 |
+| expert | deepseek-r1:7b | 复杂推理（~15秒冷启动） | 架构/安全/权衡 |
+| tool | qwen2.5:7b-instruct-q4 | 工具调用链 | 带工具的复杂任务 |
+
+- **降级链**：expert → worker → fast，保证服务不中断
+- 超过5分钟空闲自动降级
+- 并发调用同一模型会导致队列堆积
+- 3模型并行时内存约9GB
+
+---
+
+## 原则三：多Agent协作模式
+
+**核心**：根据隔离性、时长、交互需求选择协作方案。
+
+| 场景 | 方案 |
+|------|------|
+| 快速并行子任务 | `delegate_task`（同进程子agent） |
+| 长时间独立任务 | `tmux + hermes` 独立进程 |
+| 团队思考 | 3模型并行派发 |
+
+**团队思考模式（tier3）**：
+- deepseek-r1:7b → 深度推理者
+- qwen2.5:7b → 工具规划者
+- qwen2.5:3b → 事实核查者
+- 比单模型思考质量高40%
+
+**踩坑**：delegate_task不能调用clarify（用户不在场）；PTY模式用tmux而非raw PTY。
+
+---
+
+## 原则四：自进化五层架构
+
+**核心**：系统能"观察自己"并持续改进，无需人工干预。
+
+```
+好奇心动引擎 → 盲区检测 → 反馈闭环 → 知识沉淀 → 质量评估
+```
+
+| 层级 | 内容 | 指标 |
+|------|------|------|
+| 好奇心动 | 空闲主动提议，沉默>10分钟触发 | - |
+| 盲区检测 | 记录答不上来的问题，统计tier判断错误 | - |
+| 反馈闭环 | 满意+0.1，否定-0.2，正确+0.2 | - |
+| 知识沉淀 | 高置信答案写brain，踩坑记pitfalls | brain命中率>80% |
+| 质量评估 | tier准确率>90%，覆盖率>60% | - |
+
+**三层思考引擎**：
+- tier1：直接执行，<1秒
+- tier2：brain检索+外部获取，<5秒
+- tier3：3模型并行团队派发，<15秒
+
+---
+
+## 原则五：主动自检规范
+
+每次对话前自检：
+- 容器状态/磁盘空间/日志错误/僵尸进程
+- vision工具可用性
+- 同类问题反复出现
+
+---
+
+## 原则六：GitHub技能学习工作流
+
+**触发**：用户说"把Git里的好东西都学习掌握"
+
+流程：`克隆仓库` → `扫描skill文件` → `并行读取提取` → `按模板写brain` → `重建索引` → `验证检索` → `推送hermes-addons`
+
+**知识分类存放**：
+- `principles/` — 核心原则
+- `knowledge/` — 知识总结
+- `reasoning_pattern/` — 推理模式
+- `workflow/` — 工作流
+- `tool_templates/` — 工具模板
+
+---
+
+## 核心共识
+
+1. **静默优先**：正常运行不打扰用户
+2. **分层调度**：问题复杂度决定模型资源
+3. **选择适合的协作方案**：不盲目用最重的方案
+4. **持续自进化**：系统观察自身并改进
+5. **主动自检**：每次行动前检查环境状态
+6. **知识结构化**：统一分类存放，便于检索

@@ -1,1 +1,3 @@
-LS0tCmRlc2NyaXB0aW9uOiBEaWFncmFtIGNyZWF0aW9uIHNraWxscyBmb3IgZ2VuZXJhdGluZyB2aXN1YWwgZGlhZ3JhbXMsIGZsb3djaGFydHMsIGFyY2hpdGVjdHVyZSBkaWFncmFtcywgYW5kIGlsbHVzdHJhdGlvbnMgdXNpbmcgdG9vbHMgbGlrZSBFeGNhbGlkcmF3LgotLS0K
+---
+description: Diagram creation skills for generating visual diagrams, flowcharts, architecture diagrams, and illustrations using tools like Excalidraw.
+---

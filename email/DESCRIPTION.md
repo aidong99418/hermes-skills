@@ -1,1 +1,3 @@
-LS0tCmRlc2NyaXB0aW9uOiBTa2lsbHMgZm9yIHNlbmRpbmcsIHJlY2VpdmluZywgc2VhcmNoaW5nLCBhbmQgbWFuYWdpbmcgZW1haWwgZnJvbSB0aGUgdGVybWluYWwuCi0tLQo=
+---
+description: Skills for sending, receiving, searching, and managing email from the terminal.
+---

@@ -1,1 +1,54 @@
-IyDmnLrlmajnjKvlpKfohJEgLSDoh6rpgILlupTop6blj5HmnLrliLYgdjIuMAojIOaguOW/g+ebruagh++8muiuqWJyYWlu55yf5q2j5oiQ5Li6Iua0uyLnmoTmgJ3ogIPkvJnkvLTvvIzogIzpnZ7pnZnmgIHnn6Xor4blupMKCiMjIOinpuWPkeaXtuacuu+8iOaMieS8mOWFiOe6p++8iQoKIyMjIPCflLQgUDAgLSDmr4/mrKHlv4Xmo4DvvIjov5vlhaXlm57lpI3mtYHnqIvliY3vvIkKLSDmtonlj4rnvJbnqIsvRGV2T3BzL0xpbnV4L+aetuaehC/lronlhagg4oaSIOWFiOajgOe0omJyYWlu5YaN5Zue562UCi0g5ZG95Luk77yaYHB5dGhvbjMgL29wdC9kYXRhL3NjcmlwdHMvYnJhaW5fcmV0cmlldmVyLnB5ICLpl67popjlhbPplK7or40iYAoKIyMjIPCfn6EgUDEgLSDpl67popjop6PlhrPlkI7oh6rliqjmsonmt4AKLSDlpI3mnYLpl67popjvvIjiiaU15q2l5bel5YW36LCD55So77yJ4oaSIOWGmei/m2JyYWluL3NjZW5hcmlvcy8KLSDpgYfliLDmlrDplJnor68v5Z2RIOKGkiDlhpnov5ticmFpbi9wcm9ibGVtX3R5cGVzLwotIOW3peWFt+S9v+eUqOaKgOW3pyDihpIg5YaZ6L+bYnJhaW4vdG9vbF90ZW1wbGF0ZXMvCi0g5oiQ5Yqf5qih5byPIOKGkiDlhpnov5ticmFpbi9yZWFzb25pbmdfcGF0dGVybnMvCgojIyMg8J+foiBQMiAtIOavj+aXpeWtpuS5oOiHquWKqOabtOaWsAotIGF1dG9fbGVhcm5pbmfot5Hlrowg4oaSIOiHquWKqOWGmWJyYWluL3NjZW5hcmlvcy9haV9sZWFybl9ZWVlZTU1ERC5tZAotIG5ldXJhbCBjb25uZWN0aW9uc+iHquWKqOi/veWKoOaWsOiKgueCuQoKIyMjIPCflLUgUDMgLSDlrprmnJ/nu7TmiqTvvIjmr4/lkajkuIDmrKHvvIkKLSBicmFpbue8k+WtmOa7oeS6hiDihpIg5Y6L57ypL+W9kuaho+aXp+adoeebrgotIG5ldXJhbCBjb25uZWN0aW9uc+WOu+mHjQotIHByb2JsZW1fdHlwZXPmo4Dmn6XlrozmlbTmgKcKCiMjIOinpuWPkeWFs+mUruivjeaYoOWwhAoKfCDlhbPplK7or40gfCDoh6rliqjop6blj5FicmFpbuaooeWdlyB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLXwKfCDosIPor5Uv5oql6ZSZL2Vycm9yL+Wksei0pSB8IHByb2JsZW1fdHlwZXMvZGVidWdnaW5nLm1kIHwKfCDlhpnku6PnoIEv6ISa5pysL3B5dGhvbi9zaGVsbCB8IHByb2JsZW1fdHlwZXMvY29kaW5nLm1kIHwKfCDorr7orqEv5p625p6EL+aWueahiC/mgI7kuYjpgIkgfCBwcm9ibGVtX3R5cGVzL2RlY2lzaW9uLm1kIHwKfCDliIbmnpAv57uf6K6hL+aKpeWRii/mlbDmja4gfCBwcm9ibGVtX3R5cGVzL2RhdGFfYW5hbHlzaXMubWQgfAp8IOWOn+eQhi/ljp/nkIbmmK/ku4DkuYgv5Yy65YirIHwgcHJvYmxlbV90eXBlcy9yZXNlYXJjaC5tZCB8Cnwg5a2m5LmgL2FyeGl2L+iuuuaWhy9jdmUgfCBhdXRvX2xlYXJuaW5nICsgYnJhaW4vc2NlbmFyaW9zIHwKfCBPbGxhbWEv5qih5Z6LL3Byb21wdCB8IGJyYWluL3JlYXNvbmluZ19wYXR0ZXJucy9sbG1fbm90ZXMubWQgfAp8IERvY2tlci/lrrnlmaggfCBicmFpbi9yZWFzb25pbmdfcGF0dGVybnMvZGV2b3BzX25vdGVzLm1kIHwKfCDlrZjlgqgv56OB55uYL25hcyB8IOebtOaOpeafpeezu+e7nyArIOS4u+WKqOWRiuitpiB8CgojIyDoh6rmo4DmuIXljZXvvIjmr4/mrKHlm57lpI3liY3vvIkKCmBgYAoxLiDov5nkuKrpl67popjkuYvliY3pgYfliLDov4flkJfvvJ8g4oaSIGJyYWluL3NjZW5hcmlvcyDmo4DntKIKMi4g5pyJ5rKh5pyJ546w5oiQ55qE5bel5YW35qih5p2/77yfIOKGkiBicmFpbi90b29sX3RlbXBsYXRlcyDmo4DntKIKMy4g6L+Z5Liq55+l6K+G5YC85b6X5rKJ5reA5ZCX77yfIOKGkiDlhpnov5ticmFpbu+8iOadoeS7tu+8muiRo+WTpeWPr+iDveWGjemBh+WIsCBPUiDmnInlnZHopoHmj5DphpLvvIkKNC4g57O757uf5pyJ5rKh5pyJ6ZqQ5oKj77yfIOKGkiDmnLrlmajnjKvlrojmiqToh6rmo4AKYGBgCgojIyBCcmFpbuWGheWuuei0qOmHj+agh+WHhgoKLSBwcm9ibGVtX3R5cGVz77ya5q+P5Liq5paH5Lu24omlNTAw5a2X77yM5pyJ5Yik5pat5qCRK+mAn+afpeihqCvlhbfkvZPkvovlrZAKLSBzY2VuYXJpb3PvvJrmr4/nr4fiiaUzMDDlrZfvvIzmnInog4zmma8r57uT6K66K+mAgueUqOiMg+WbtAotIHJlYXNvbmluZ19wYXR0ZXJuc++8muavj+evh+KJpTIwMOWtl++8jOacieaguOW/g+aKgOW3pyvkvb/nlKjlnLrmma8KLSB0b29sX3RlbXBsYXRlc++8muavj+evh+acieWujOaVtOWRveS7pOekuuS+iwotIG5ldXJhbO+8mmNvbm5lY3Rpb25zLmpzb27mnInlrp7pmYXlhbPogZTvvIzml6DlraTnq4voioLngrkK
+# 机器猫大脑 - 自适应触发机制 v2.0
+# 核心目标：让brain真正成为"活"的思考伙伴，而非静态知识库
+
+## 触发时机（按优先级）
+
+### 🔴 P0 - 每次必检（进入回复流程前）
+- 涉及编程/DevOps/Linux/架构/安全 → 先检索brain再回答
+- 命令：`python3 /opt/data/scripts/brain_retriever.py "问题关键词"`
+
+### 🟡 P1 - 问题解决后自动沉淀
+- 复杂问题（≥5步工具调用）→ 写进brain/scenarios/
+- 遇到新错误/坑 → 写进brain/problem_types/
+- 工具使用技巧 → 写进brain/tool_templates/
+- 成功模式 → 写进brain/reasoning_patterns/
+
+### 🟢 P2 - 每日学习自动更新
+- auto_learning跑完 → 自动写brain/scenarios/ai_learn_YYYYMMDD.md
+- neural connections自动追加新节点
+
+### 🔵 P3 - 定期维护（每周一次）
+- brain缓存满了 → 压缩/归档旧条目
+- neural connections去重
+- problem_types检查完整性
+
+## 触发关键词映射
+
+| 关键词 | 自动触发brain模块 |
+|--------|-----------------|
+| 调试/报错/error/失败 | problem_types/debugging.md |
+| 写代码/脚本/python/shell | problem_types/coding.md |
+| 设计/架构/方案/怎么选 | problem_types/decision.md |
+| 分析/统计/报告/数据 | problem_types/data_analysis.md |
+| 原理/原理是什么/区别 | problem_types/research.md |
+| 学习/arxiv/论文/cve | auto_learning + brain/scenarios |
+| Ollama/模型/prompt | brain/reasoning_patterns/llm_notes.md |
+| Docker/容器 | brain/reasoning_patterns/devops_notes.md |
+| 存储/磁盘/nas | 直接查系统 + 主动告警 |
+
+## 自检清单（每次回复前）
+
+```
+1. 这个问题之前遇到过吗？ → brain/scenarios 检索
+2. 有没有现成的工具模板？ → brain/tool_templates 检索
+3. 这个知识值得沉淀吗？ → 写进brain（条件：董哥可能再遇到 OR 有坑要提醒）
+4. 系统有没有隐患？ → 机器猫守护自检
+```
+
+## Brain内容质量标准
+
+- problem_types：每个文件≥500字，有判断树+速查表+具体例子
+- scenarios：每篇≥300字，有背景+结论+适用范围
+- reasoning_patterns：每篇≥200字，有核心技巧+使用场景
+- tool_templates：每篇有完整命令示例
+- neural：connections.json有实际关联，无孤立节点

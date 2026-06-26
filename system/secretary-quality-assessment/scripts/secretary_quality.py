@@ -1,1 +1,101 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIK56eY5Lmm5aSE5pWI5p6c6Ieq6K+E5Lyw5Zmo4oCU4oCU5a+5cmVzdWx0X2JvYXJk5Lu75Yqh6K+E5YiG77yM6amx5Yqo5rS+5bel5Yaz562W5a2m5LmgCuinpuWPke+8muivhOS8sOenmOS5puWkhOS7u+WKoei0qOmHjy/lj5HnjrAw5a2X57uT5p6cL+S8mOWMlua0vuW3peaooeWei+WIhumFjQoiIiIKaW1wb3J0IGpzb24sIHN5cywgb3MKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKClJFU1VMVFNfUEFUSCA9ICIvb3B0L2RhdGEvc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uIgoKZGVmIOivhOWIhuWNleS4quS7u+WKoSh0YXNrKToKICAgICIiIjXnu7TluqbDl+adg+mHjeivhOWIhiIiIgogICAgc2NvcmUgPSA1MCAgIyDln7rnoYDliIYKICAgIHJlc3VsdCA9IHRhc2suZ2V0KCJyZXN1bHQiLCB7fSkKICAgIG1ldGFkYXRhID0gdGFzay5nZXQoIm1ldGFkYXRhIiwge30pCiAgICAKICAgICMg57u05bqmMTog57uT5p6c5a6M5pW05oCnKDMwJSkKICAgIHJlc3VsdF9sZW4gPSBsZW4oc3RyKHJlc3VsdC5nZXQoImNvbnRlbnQiLCAiIikpKQogICAgaWYgcmVzdWx0X2xlbiA9PSAwOgogICAgICAgIHNjb3JlIC09IDMwCiAgICBlbGlmIHJlc3VsdF9sZW4gPCA1MDoKICAgICAgICBzY29yZSAtPSAxMAogICAgZWxpZiByZXN1bHRfbGVuID4gMjAwOgogICAgICAgIHNjb3JlICs9IDEwCgogICAgIyDnu7TluqYyOiDmjqjpgIHnirbmgIEoMjUlKQogICAgc3RhdHVzID0gdGFzay5nZXQoInN0YXR1cyIsICIiKQogICAgaWYgc3RhdHVzID09ICJwdXNoZWQiOgogICAgICAgIHNjb3JlICs9IDI1CiAgICBlbGlmIHN0YXR1cyA9PSAicGVuZGluZ19wdXNoIjoKICAgICAgICBzY29yZSAtPSAxNQoKICAgICMg57u05bqmMzog5omn6KGM5pWI546HKDIwJSkKICAgIHRpbWVvdXQgPSB0YXNrLmdldCgidGltZW91dCIsIDApCiAgICBhY3R1YWwgPSB0YXNrLmdldCgiZXhlY3V0aW9uX3RpbWUiLCAwKQogICAgaWYgdGltZW91dCA+IDAgYW5kIGFjdHVhbCA+IDA6CiAgICAgICAgcmF0aW8gPSBhY3R1YWwgLyB0aW1lb3V0CiAgICAgICAgaWYgcmF0aW8gPCAwLjM6CiAgICAgICAgICAgIHNjb3JlICs9IDUKICAgICAgICBlbGlmIHJhdGlvID4gMC45OgogICAgICAgICAgICBzY29yZSAtPSA1CgogICAgIyDnu7TluqY0OiDmjIfku6TpgbXlvqooMTUlKeKAlOKAlOS7o+eQhuWIhgogICAgYWdlbnRfc2NvcmUgPSByZXN1bHQuZ2V0KCJhZ2VudF9zY29yZSIsIDAuNSkKICAgIHNjb3JlICs9IChhZ2VudF9zY29yZSAtIDAuNSkgKiA0MAoKICAgICMg57u05bqmNTog56eY5Lmm6Lqr5Lu9KDEwJSkKICAgIGNsYWltZWQgPSB0YXNrLmdldCgiY2xhaW1lZF9ieSIsICIiKQogICAgaWYgY2xhaW1lZCBpbiBbIua3seW6puWIhuaekCIsICLnn6Xor4bpl67nrZQiLCAi5Luj56CB55Sf5oiQIiwgIuaDheaKpeenmOS5piJdOgogICAgICAgIHNjb3JlICs9IDEwCiAgICBlbGlmIG5vdCBjbGFpbWVkIG9yIGNsYWltZWQgaW4gWyJxd2VuMi41OjNiIiwgInVua25vd24iXToKICAgICAgICBzY29yZSAtPSAxMAoKICAgIHJldHVybiBtYXgoMCwgbWluKDEwMCwgcm91bmQoc2NvcmUpKSkKCmRlZiDor4TkvLDmiYDmnInnu5PmnpwoKToKICAgICIiIuaJuemHj+ivhOS8sOW5tui+k+WHuuaKpeWRiiIiIgogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKFJFU1VMVFNfUEFUSCk6CiAgICAgICAgcHJpbnQoIue7k+aenOadv+S4jeWtmOWcqCIpCiAgICAgICAgcmV0dXJuIHt9CgogICAgd2l0aCBvcGVuKFJFU1VMVFNfUEFUSCkgYXMgZjoKICAgICAgICBkYXRhID0ganNvbi5sb2FkKGYpCgogICAgcmVzdWx0cyA9IGRhdGEuZ2V0KCJyZXN1bHRzIiwgW10pCiAgICBub3cgPSBkYXRldGltZS5ub3coKS5zdHJmdGltZSgiJVktJW0tJWQgJUg6JU06JVMiKQoKICAgIHNjb3JlZCA9IDAKICAgIHRvdGFsX3Njb3JlID0gMAogICAgdHlwZV9zY29yZXMgPSB7fQoKICAgIGZvciByIGluIHJlc3VsdHM6CiAgICAgICAgcyA9IOivhOWIhuWNleS4quS7u+WKoShyKQogICAgICAgIHJbInF1YWxpdHlfc2NvcmUiXSA9IHMKICAgICAgICBzY29yZWQgKz0gMQogICAgICAgIHRvdGFsX3Njb3JlICs9IHMKCiAgICAgICAgdGFza190eXBlID0gci5nZXQoIm1ldGFkYXRhIiwge30pLmdldCgidGFza190eXBlIiwgInVua25vd24iKQogICAgICAgIGlmIHRhc2tfdHlwZSBub3QgaW4gdHlwZV9zY29yZXM6CiAgICAgICAgICAgIHR5cGVfc2NvcmVzW3Rhc2tfdHlwZV0gPSB7InN1bSI6IDAsICJjb3VudCI6IDB9CiAgICAgICAgdHlwZV9zY29yZXNbdGFza190eXBlXVsic3VtIl0gKz0gcwogICAgICAgIHR5cGVfc2NvcmVzW3Rhc2tfdHlwZV1bImNvdW50Il0gKz0gMQoKICAgIGF2ZyA9IHJvdW5kKHRvdGFsX3Njb3JlIC8gc2NvcmVkKSBpZiBzY29yZWQgPiAwIGVsc2UgMAoKICAgICMg5YaZ5Zue57uT5p6c5p2/77yI5YqgcXVhbGl0eV9zY29yZeWtl+aute+8iQogICAgd2l0aCBvcGVuKFJFU1VMVFNfUEFUSCwgInciKSBhcyBmOgogICAgICAgIGpzb24uZHVtcChkYXRhLCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQoKICAgICMg5omT5Y2w5oql5ZGKCiAgICBwcmludChmIlt7bm93fV0g6LSo6YeP6K+E5Lyw5a6M5oiQOiB7c2NvcmVkfeadoSwg5Z2H5YiGe2F2Z30iKQogICAgZm9yIHQsIHYgaW4gc29ydGVkKHR5cGVfc2NvcmVzLml0ZW1zKCksIAogICAgICAgICAgICAgICAgICAgICAgIGtleT1sYW1iZGEgeDogeFsxXVsic3VtIl0gLyBtYXgoMSwgeFsxXVsiY291bnQiXSkpOgogICAgICAgIGF2Z190ID0gcm91bmQodlsic3VtIl0gLyB2WyJjb3VudCJdKQogICAgICAgIGJhciA9ICLilogiICogKGF2Z190IC8vIDEwKSArICLilpEiICogKDEwIC0gYXZnX3QgLy8gMTApCiAgICAgICAgcHJpbnQoZiIgIHt0fTogW3tiYXJ9XSB7YXZnX3R95YiGICh7dlsnY291bnQnXX3mnaEpIikKCiAgICByZXR1cm4geyJhdmciOiBhdmcsICJzY29yZWQiOiBzY29yZWQsICJ0eXBlX3Njb3JlcyI6IHR5cGVfc2NvcmVzfQoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIOivhOS8sOaJgOaciee7k+aenCgpCg==
+#!/usr/bin/env python3
+"""
+秘书处效果自评估器——对result_board任务评分，驱动派工决策学习
+触发：评估秘书处任务质量/发现0字结果/优化派工模型分配
+"""
+import json, sys, os
+from datetime import datetime
+
+RESULTS_PATH = "/opt/data/secretary/result_board.json"
+
+def 评分单个任务(task):
+    """5维度×权重评分"""
+    score = 50  # 基础分
+    result = task.get("result", {})
+    metadata = task.get("metadata", {})
+    
+    # 维度1: 结果完整性(30%)
+    result_len = len(str(result.get("content", "")))
+    if result_len == 0:
+        score -= 30
+    elif result_len < 50:
+        score -= 10
+    elif result_len > 200:
+        score += 10
+
+    # 维度2: 推送状态(25%)
+    status = task.get("status", "")
+    if status == "pushed":
+        score += 25
+    elif status == "pending_push":
+        score -= 15
+
+    # 维度3: 执行效率(20%)
+    timeout = task.get("timeout", 0)
+    actual = task.get("execution_time", 0)
+    if timeout > 0 and actual > 0:
+        ratio = actual / timeout
+        if ratio < 0.3:
+            score += 5
+        elif ratio > 0.9:
+            score -= 5
+
+    # 维度4: 指令遵循(15%)——代理分
+    agent_score = result.get("agent_score", 0.5)
+    score += (agent_score - 0.5) * 40
+
+    # 维度5: 秘书身份(10%)
+    claimed = task.get("claimed_by", "")
+    if claimed in ["深度分析", "知识问答", "代码生成", "情报秘书"]:
+        score += 10
+    elif not claimed or claimed in ["qwen2.5:3b", "unknown"]:
+        score -= 10
+
+    return max(0, min(100, round(score)))
+
+def 评估所有结果():
+    """批量评估并输出报告"""
+    if not os.path.exists(RESULTS_PATH):
+        print("结果板不存在")
+        return {}
+
+    with open(RESULTS_PATH) as f:
+        data = json.load(f)
+
+    results = data.get("results", [])
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    scored = 0
+    total_score = 0
+    type_scores = {}
+
+    for r in results:
+        s = 评分单个任务(r)
+        r["quality_score"] = s
+        scored += 1
+        total_score += s
+
+        task_type = r.get("metadata", {}).get("task_type", "unknown")
+        if task_type not in type_scores:
+            type_scores[task_type] = {"sum": 0, "count": 0}
+        type_scores[task_type]["sum"] += s
+        type_scores[task_type]["count"] += 1
+
+    avg = round(total_score / scored) if scored > 0 else 0
+
+    # 写回结果板（加quality_score字段）
+    with open(RESULTS_PATH, "w") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # 打印报告
+    print(f"[{now}] 质量评估完成: {scored}条, 均分{avg}")
+    for t, v in sorted(type_scores.items(), 
+                       key=lambda x: x[1]["sum"] / max(1, x[1]["count"])):
+        avg_t = round(v["sum"] / v["count"])
+        bar = "█" * (avg_t // 10) + "░" * (10 - avg_t // 10)
+        print(f"  {t}: [{bar}] {avg_t}分 ({v['count']}条)")
+
+    return {"avg": avg, "scored": scored, "type_scores": type_scores}
+
+if __name__ == "__main__":
+    评估所有结果()

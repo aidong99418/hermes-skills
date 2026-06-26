@@ -1,1 +1,9 @@
-ewogICJsYXN0X3JlcG9ydF9wYXRoIjogbnVsbCwKICAibGFzdF9ydW5fYXQiOiAiMjAyNi0wNi0xN1QwMzo1NDozNy44NTgzMTkrMDA6MDAiLAogICJsYXN0X3J1bl9kdXJhdGlvbl9zZWNvbmRzIjogbnVsbCwKICAibGFzdF9ydW5fc3VtbWFyeSI6ICJkZWZlcnJlZCBmaXJzdCBydW4g4oCUIGN1cmF0b3Igc2VlZGVkLCB3aWxsIHJ1biBhZnRlciBvbmUgaW50ZXJ2YWw7IHVzZSBgaGVybWVzIGN1cmF0b3IgcnVuIC0tZHJ5LXJ1bmAgdG8gcHJldmlldyBub3ciLAogICJsYXN0X3J1bl9zdW1tYXJ5X3Nob3duX2F0IjogbnVsbCwKICAicGF1c2VkIjogZmFsc2UsCiAgInJ1bl9jb3VudCI6IDAKfQ==
+{
+  "last_report_path": null,
+  "last_run_at": "2026-06-17T03:54:37.858319+00:00",
+  "last_run_duration_seconds": null,
+  "last_run_summary": "deferred first run — curator seeded, will run after one interval; use `hermes curator run --dry-run` to preview now",
+  "last_run_summary_shown_at": null,
+  "paused": false,
+  "run_count": 0
+}

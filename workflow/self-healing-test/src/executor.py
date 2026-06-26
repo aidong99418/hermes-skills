@@ -1,1 +1,112 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIK6Ieq5Yqo55Sf5oiQ55qE5omn6KGM5ZmoIHNraWxsCkdlbmVyYXRlZCBieSBTa2lsbHMgRmFjdG9yeSDigJQg5Z+65LqO55yf5a6e5omn6KGM6K6w5b2VCuebruaghzog57O757uf6Ieq5oSI6IO95Yqb5rWL6K+V5bel5L2c5rWBCiIiIgppbXBvcnQgc3lzCmltcG9ydCBqc29uCmltcG9ydCB0aW1lCgpzeXMucGF0aC5pbnNlcnQoMCwgJy9vcHQvZGF0YScpCgpmcm9tIG9yZ2Fucy5hdXRvX2hlYWxpbmcgaW1wb3J0IGNoZWNrX2FsbCwgYXV0b19maXgsIHZlcmlmeV9maXgKZnJvbSBvcmdhbnMudW5pZmllZF9wdXNoIGltcG9ydCBwdXNoX2Vycm9yLCBwdXNoX3dhcm5pbmcKZnJvbSBvcmdhbnMuaW50ZW50X2VuZ2luZSBpbXBvcnQgcGFyc2VfaW50ZW50LCBleGVjdXRlX2ludGVudAoKU0tJTExfTUVUQSA9IHsKICAgICJnb2FsIjogIuezu+e7n+iHquaEiOiDveWKm+a1i+ivleW3peS9nOa1gSIsCiAgICAidGFza190eXBlcyI6IFsiYW5hbHlzaXMiLCAiaGVhbGluZyIsICJwdXNoIl0sCiAgICAidGFza19jb3VudCI6IDMsCiAgICAiZGVzY3JpcHRpb25zIjogWyLliIbmnpDns7vnu5/lgaXlurfnirbmgIEiLCAi5omn6KGM6Ieq5oSI5qOA5p+lIiwgIuaOqOmAgee7k+aenOmAmuefpSJdLAp9CgpkZWYgZXhlY3V0ZShwYXJhbXM6IGRpY3QgPSBOb25lKSAtPiBkaWN0OgogICAgIiIiCiAgICDmiafooYzmraRza2lsbOeahOS4u+WHveaVsAogICAgCiAgICDlj4LmlbA6CiAgICAgICAgcGFyYW1zOiDmiafooYzlj4LmlbDvvIjku47lt6XkvZzmtYHkvKDlhaXvvIkKICAgIAogICAg6L+U5ZueOgogICAgICAgIOe7k+aenOWtl+WFuAogICAgIiIiCiAgICBwYXJhbXMgPSBwYXJhbXMgb3Ige30KICAgIHJlc3VsdHMgPSBbXQogICAgCiAgICAjID09PSDmiafooYzmraXpqqQgPT09CiAgICAjIOS7peS4i+S7o+eggeWfuuS6juecn+WunuaJp+ihjOiusOW9leiHquWKqOeUn+aIkAogICAgIyDmr4/kuKrmraXpqqTlr7nlupTkuIDmrKHnnJ/lrp7nmoTku7vliqHmiafooYwKICAgIAogICAgZm9yIGksIGFuYWx5c2lzIGluIGVudW1lcmF0ZShbImFuYWx5c2lzIiwgImhlYWxpbmciLCAicHVzaCJdKToKICAgICAgICBzdGVwX3Jlc3VsdCA9IHsKICAgICAgICAgICAgInN0ZXAiOiBpICsgMSwKICAgICAgICAgICAgInRhc2tfdHlwZSI6IGFuYWx5c2lzLAogICAgICAgICAgICAic3RhdHVzIjogInBlbmRpbmciLAogICAgICAgICAgICAic3RhcnRlZF9hdCI6IHRpbWUudGltZSgpLAogICAgICAgIH0KICAgICAgICAKICAgICAgICAjIOagueaNruS7u+WKoeexu+Wei+iwg+eUqOWvueW6lOWZqOWumAogICAgICAgIGlmIGFuYWx5c2lzID09ICJhbmFseXNpcyI6CiAgICAgICAgICAgICMg5YiG5p6Q5Lu75Yqh77ya5L2/55SoaW50ZW50X2VuZ2luZQogICAgICAgICAgICBmcm9tIG9yZ2Fucy5pbnRlbnRfZW5naW5lIGltcG9ydCBwYXJzZV9pbnRlbnQKICAgICAgICAgICAgcmVzdWx0ID0gcGFyc2VfaW50ZW50KHBhcmFtcy5nZXQoInF1ZXJ5IiwgIuezu+e7n+iHquaEiOiDveWKm+a1i+ivleW3peS9nOa1gSIpKQogICAgICAgICAgICBzdGVwX3Jlc3VsdFsicmVzdWx0Il0gPSByZXN1bHQKICAgICAgICAgICAgc3RlcF9yZXN1bHRbInN0YXR1cyJdID0gImNvbXBsZXRlZCIKICAgICAgICAgICAgCiAgICAgICAgZWxpZiBhbmFseXNpcyA9PSAiZXhlY3V0aW9uIjoKICAgICAgICAgICAgIyDmiafooYzku7vliqHvvJrkvb/nlKh3b3JrZmxvd19lbmdpbmUKICAgICAgICAgICAgZnJvbSBvcmdhbnMud29ya2Zsb3dfZW5naW5lIGltcG9ydCBjcmVhdGVfd29ya2Zsb3csIGRpc3BhdGNoX25leHQsIHVwZGF0ZV90YXNrX3Jlc3VsdAogICAgICAgICAgICB0YXNrcyA9IHBhcmFtcy5nZXQoInRhc2tzIiwgW10pCiAgICAgICAgICAgIHdmX2lkID0gY3JlYXRlX3dvcmtmbG93KCLns7vnu5/oh6rmhIjog73lipvmtYvor5Xlt6XkvZzmtYEiLCB0YXNrcykKICAgICAgICAgICAgc3RlcF9yZXN1bHRbIndvcmtmbG93X2lkIl0gPSB3Zl9pZAogICAgICAgICAgICBzdGVwX3Jlc3VsdFsic3RhdHVzIl0gPSAiY29tcGxldGVkIgogICAgICAgICAgICAKICAgICAgICBlbGlmIGFuYWx5c2lzID09ICJoZWFsaW5nIjoKICAgICAgICAgICAgIyDoh6rmhIjku7vliqHvvJrkvb/nlKhhdXRvX2hlYWxpbmcKICAgICAgICAgICAgZnJvbSBvcmdhbnMuYXV0b19oZWFsaW5nIGltcG9ydCBjaGVja19hbGwsIGF1dG9fZml4LCB2ZXJpZnlfZml4CiAgICAgICAgICAgIGhlYWx0aCA9IGNoZWNrX2FsbCgpCiAgICAgICAgICAgIGZhaWxlZCA9IFtoIGZvciBoIGluIGhlYWx0aCBpZiBub3QgaFsiaGVhbHRoeSJdXQogICAgICAgICAgICBpZiBmYWlsZWQ6CiAgICAgICAgICAgICAgICBmb3IgaCBpbiBmYWlsZWQ6CiAgICAgICAgICAgICAgICAgICAgZml4ID0gYXV0b19maXgoaFsicnVsZV9pZCJdKQogICAgICAgICAgICAgICAgdGltZS5zbGVlcCgyKQogICAgICAgICAgICAgICAgaGVhbHRoMiA9IGNoZWNrX2FsbCgpCiAgICAgICAgICAgICAgICBzdGVwX3Jlc3VsdFsic3RpbGxfZmFpbGVkIl0gPSBbaFsicnVsZV9pZCJdIGZvciBoIGluIGhlYWx0aDIgaWYgbm90IGhbImhlYWx0aHkiXV0KICAgICAgICAgICAgc3RlcF9yZXN1bHRbInN0YXR1cyJdID0gImNvbXBsZXRlZCIKICAgICAgICAgICAgc3RlcF9yZXN1bHRbImhlYWx0aCJdID0gaGVhbHRoCiAgICAgICAgICAgIAogICAgICAgIGVsaWYgYW5hbHlzaXMgPT0gInB1c2giOgogICAgICAgICAgICAjIOaOqOmAgeS7u+WKoe+8muS9v+eUqHVuaWZpZWRfcHVzaAogICAgICAgICAgICBmcm9tIG9yZ2Fucy51bmlmaWVkX3B1c2ggaW1wb3J0IHB1c2hfc3VjY2VzcywgcHVzaF9lcnJvcgogICAgICAgICAgICBwdXNoX3N1Y2Nlc3MoIlNraWxs5omn6KGM5a6M5oiQIiwgIntnb2FsX2VzY2FwZWR9IikKICAgICAgICAgICAgc3RlcF9yZXN1bHRbInN0YXR1cyJdID0gImNvbXBsZXRlZCIKICAgICAgICAgICAgCiAgICAgICAgZWxpZiBhbmFseXNpcyA9PSAibGVhcm5pbmciOgogICAgICAgICAgICBmcm9tIG9yZ2Fucy5sZWFybmluZ19sb29wIGltcG9ydCBvbl93b3JrZmxvd19jb21wbGV0ZQogICAgICAgICAgICB3Zl9pZCA9IHN0ZXBfcmVzdWx0LmdldCgid29ya2Zsb3dfaWQiKQogICAgICAgICAgICBpZiB3Zl9pZDoKICAgICAgICAgICAgICAgIHJlcG9ydCA9IG9uX3dvcmtmbG93X2NvbXBsZXRlKHdmX2lkKQogICAgICAgICAgICAgICAgc3RlcF9yZXN1bHRbImxlYXJuaW5nX3JlcG9ydCJdID0gcmVwb3J0CiAgICAgICAgICAgIHN0ZXBfcmVzdWx0WyJzdGF0dXMiXSA9ICJjb21wbGV0ZWQiCiAgICAgICAgICAgIAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHN0ZXBfcmVzdWx0WyJzdGF0dXMiXSA9ICJza2lwcGVkIgogICAgICAgICAgICBzdGVwX3Jlc3VsdFsibm90ZSJdID0gZiLmnKror4bliKvku7vliqHnsbvlnos6IHthbmFseXNpc30iCiAgICAgICAgCiAgICAgICAgc3RlcF9yZXN1bHRbImVsYXBzZWQiXSA9IHRpbWUudGltZSgpIC0gc3RlcF9yZXN1bHRbInN0YXJ0ZWRfYXQiXQogICAgICAgIHJlc3VsdHMuYXBwZW5kKHN0ZXBfcmVzdWx0KQogICAgCiAgICByZXR1cm4gewogICAgICAgICJza2lsbF9uYW1lIjogIuezu+e7n+iHquaEiOiDveWKm+a1i+ivleW3peS9nOa1gSIsCiAgICAgICAgIm1ldGEiOiBTS0lMTF9NRVRBLAogICAgICAgICJzdGVwcyI6IHJlc3VsdHMsCiAgICAgICAgInRvdGFsX3N0ZXBzIjogbGVuKHJlc3VsdHMpLAogICAgICAgICJjb21wbGV0ZWQiOiBzdW0oMSBmb3IgciBpbiByZXN1bHRzIGlmIHJbInN0YXR1cyJdID09ICJjb21wbGV0ZWQiKSwKICAgIH0KCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgIyBDTEnmtYvor5XlhaXlj6MKICAgIHJlc3VsdCA9IGV4ZWN1dGUoKQogICAgcHJpbnQoanNvbi5kdW1wcyhyZXN1bHQsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpKQo=
+#!/usr/bin/env python3
+"""
+自动生成的执行器 skill
+Generated by Skills Factory — 基于真实执行记录
+目标: 系统自愈能力测试工作流
+"""
+import sys
+import json
+import time
+
+sys.path.insert(0, '/opt/data')
+
+from organs.auto_healing import check_all, auto_fix, verify_fix
+from organs.unified_push import push_error, push_warning
+from organs.intent_engine import parse_intent, execute_intent
+
+SKILL_META = {
+    "goal": "系统自愈能力测试工作流",
+    "task_types": ["analysis", "healing", "push"],
+    "task_count": 3,
+    "descriptions": ["分析系统健康状态", "执行自愈检查", "推送结果通知"],
+}
+
+def execute(params: dict = None) -> dict:
+    """
+    执行此skill的主函数
+    
+    参数:
+        params: 执行参数（从工作流传入）
+    
+    返回:
+        结果字典
+    """
+    params = params or {}
+    results = []
+    
+    # === 执行步骤 ===
+    # 以下代码基于真实执行记录自动生成
+    # 每个步骤对应一次真实的任务执行
+    
+    for i, analysis in enumerate(["analysis", "healing", "push"]):
+        step_result = {
+            "step": i + 1,
+            "task_type": analysis,
+            "status": "pending",
+            "started_at": time.time(),
+        }
+        
+        # 根据任务类型调用对应器官
+        if analysis == "analysis":
+            # 分析任务：使用intent_engine
+            from organs.intent_engine import parse_intent
+            result = parse_intent(params.get("query", "系统自愈能力测试工作流"))
+            step_result["result"] = result
+            step_result["status"] = "completed"
+            
+        elif analysis == "execution":
+            # 执行任务：使用workflow_engine
+            from organs.workflow_engine import create_workflow, dispatch_next, update_task_result
+            tasks = params.get("tasks", [])
+            wf_id = create_workflow("系统自愈能力测试工作流", tasks)
+            step_result["workflow_id"] = wf_id
+            step_result["status"] = "completed"
+            
+        elif analysis == "healing":
+            # 自愈任务：使用auto_healing
+            from organs.auto_healing import check_all, auto_fix, verify_fix
+            health = check_all()
+            failed = [h for h in health if not h["healthy"]]
+            if failed:
+                for h in failed:
+                    fix = auto_fix(h["rule_id"])
+                time.sleep(2)
+                health2 = check_all()
+                step_result["still_failed"] = [h["rule_id"] for h in health2 if not h["healthy"]]
+            step_result["status"] = "completed"
+            step_result["health"] = health
+            
+        elif analysis == "push":
+            # 推送任务：使用unified_push
+            from organs.unified_push import push_success, push_error
+            push_success("Skill执行完成", "{goal_escaped}")
+            step_result["status"] = "completed"
+            
+        elif analysis == "learning":
+            from organs.learning_loop import on_workflow_complete
+            wf_id = step_result.get("workflow_id")
+            if wf_id:
+                report = on_workflow_complete(wf_id)
+                step_result["learning_report"] = report
+            step_result["status"] = "completed"
+            
+        else:
+            step_result["status"] = "skipped"
+            step_result["note"] = f"未识别任务类型: {analysis}"
+        
+        step_result["elapsed"] = time.time() - step_result["started_at"]
+        results.append(step_result)
+    
+    return {
+        "skill_name": "系统自愈能力测试工作流",
+        "meta": SKILL_META,
+        "steps": results,
+        "total_steps": len(results),
+        "completed": sum(1 for r in results if r["status"] == "completed"),
+    }
+
+
+if __name__ == "__main__":
+    # CLI测试入口
+    result = execute()
+    print(json.dumps(result, ensure_ascii=False, indent=2))

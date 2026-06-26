@@ -1,1 +1,21 @@
-IyDmlbDlrabln7rnoYDnn6Xor4blupMKPiDmsLjliqjmnLp2MS4wIHwg5pu05pawOiAyMDI2LTA2LTI2CgotIC9vcHQvZGF0YS/mlbDlrabnn6Xor4blupMv57K+6YCa5oyH5Y2XL0dpdEh1Yi3nur/mgKfku6PmlbBfMjAyNjA2MjYubWQg4oCUIDIwMjYtMDYtMjYKCi0gL29wdC9kYXRhL+aVsOWtpuefpeivhuW6ky/nsr7pgJrmjIfljZcvR2l0SHViLeamgueOh+e7n+iuoV8yMDI2MDYyNi5tZCDigJQgMjAyNi0wNi0yNgoKLSAvb3B0L2RhdGEv5pWw5a2m55+l6K+G5bqTL+eyvumAmuaMh+WNly9HaXRIdWIt5pWw5a2m5YiG5p6QXzIwMjYwNjI2Lm1kIOKAlCAyMDI2LTA2LTI2CgotIC9vcHQvZGF0YS/mlbDlrabnn6Xor4blupMv57K+6YCa5oyH5Y2XL2FyWGl2LeacuuWZqOWtpuS5oOaVsOWtpl8yMDI2MDYyNi5tZCDigJQgMjAyNi0wNi0yNgoKLSAvb3B0L2RhdGEv5pWw5a2m55+l6K+G5bqTL+eyvumAmuaMh+WNly9LaGFuLeS7o+aVsF8yMDI2MDYyNi5tZCDigJQgMjAyNi0wNi0yNgoKLSAvb3B0L2RhdGEv5pWw5a2m55+l6K+G5bqTL+eyvumAmuaMh+WNly9LaGFuLeWHoOS9lV8yMDI2MDYyNi5tZCDigJQgMjAyNi0wNi0yNgoKLSAvb3B0L2RhdGEv5pWw5a2m55+l6K+G5bqTL+eyvumAmuaMh+WNly9LaGFuLeamgueOh+e7n+iuoV8yMDI2MDYyNi5tZCDigJQgMjAyNi0wNi0yNgoKLSAvb3B0L2RhdGEv5pWw5a2m55+l6K+G5bqTL+eyvumAmuaMh+WNly9hclhpdi3lupTnlKjmlbDlraZfMjAyNjA2MjYubWQg4oCUIDIwMjYtMDYtMjYKCiMjIOeyvumAmuaMh+WNl+e0ouW8lQotIC9vcHQvZGF0YS/mlbDlrabnn6Xor4blupMv57K+6YCa5oyH5Y2XL0dpdEh1Yi3nroDmmI7lvq7np6/liIZfMjAyNjA2MjYubWQg4oCUIDIwMjYtMDYtMjYK
+# 数学基础知识库
+> 永动机v1.0 | 更新: 2026-06-26
+
+- /opt/data/数学知识库/精通指南/GitHub-线性代数_20260626.md — 2026-06-26
+
+- /opt/data/数学知识库/精通指南/GitHub-概率统计_20260626.md — 2026-06-26
+
+- /opt/data/数学知识库/精通指南/GitHub-数学分析_20260626.md — 2026-06-26
+
+- /opt/data/数学知识库/精通指南/arXiv-机器学习数学_20260626.md — 2026-06-26
+
+- /opt/data/数学知识库/精通指南/Khan-代数_20260626.md — 2026-06-26
+
+- /opt/data/数学知识库/精通指南/Khan-几何_20260626.md — 2026-06-26
+
+- /opt/data/数学知识库/精通指南/Khan-概率统计_20260626.md — 2026-06-26
+
+- /opt/data/数学知识库/精通指南/arXiv-应用数学_20260626.md — 2026-06-26
+
+## 精通指南索引
+- /opt/data/数学知识库/精通指南/GitHub-简明微积分_20260626.md — 2026-06-26

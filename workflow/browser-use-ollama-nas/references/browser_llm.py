@@ -1,1 +1,43 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKYnJvd3Nlci11c2UgT2xsYW1hIOmAgumFjeWZqApjcmVhdGVfYnJvd3Nlcl9sbG0oKSDigJQg57uZQ2hhdE9sbGFtYeazqOWFpWJyb3dzZXItdXNl6ZyA6KaB55qEcHJvdmlkZXIvbW9kZWxfbmFtZeWxnuaApwpydW5fYnJvd3Nlcl90YXNrKCkg4oCUIOWQjOatpeWFpeWPo++8jOS4gOihjOaJp+ihjOa1j+iniOWZqOS7u+WKoQoiIiIKaW1wb3J0IGFzeW5jaW8sIG9zCmZyb20gbGFuZ2NoYWluX29sbGFtYSBpbXBvcnQgQ2hhdE9sbGFtYQoKCmRlZiBjcmVhdGVfYnJvd3Nlcl9sbG0obW9kZWw9Tm9uZSwgYmFzZV91cmw9Imh0dHA6Ly9sb2NhbGhvc3Q6MTE0MzQiLCBudW1fY3R4PTgxOTIpOgogICAgIiIi5YW85a65YnJvd3Nlci11c2XnmoRPbGxhbWHlrp7kvovvvIjlsZ7mgKfms6jlhaXvvIkiIiIKICAgIG1vZGVsID0gbW9kZWwgb3Igb3MuZW52aXJvbi5nZXQoIkJST1dTRVJfTU9ERUwiLCAicXdlbjIuNTozYiIpCiAgICBsbG0gPSBDaGF0T2xsYW1hKG1vZGVsPW1vZGVsLCBiYXNlX3VybD1iYXNlX3VybCwgbnVtX2N0eD1udW1fY3R4KQogICAgb2JqZWN0Ll9fc2V0YXR0cl9fKGxsbSwgJ3Byb3ZpZGVyJywgJ29sbGFtYScpCiAgICBvYmplY3QuX19zZXRhdHRyX18obGxtLCAnbW9kZWxfbmFtZScsIG1vZGVsKQogICAgcmV0dXJuIGxsbQoKCmRlZiBydW5fYnJvd3Nlcl90YXNrKHRhc2ssIG1vZGVsPU5vbmUsIG1heF9zdGVwcz0xMCwgKiprd2FyZ3MpOgogICAgIiIi5ZCM5q2l5omn6KGMYnJvd3Nlci11c2Xku7vliqEiIiIKICAgIGZyb20gYnJvd3Nlcl91c2UgaW1wb3J0IEFnZW50CiAgICBmcm9tIGJyb3dzZXJfdXNlLmJyb3dzZXIuc2Vzc2lvbiBpbXBvcnQgQnJvd3NlclNlc3Npb24KICAgIGxsbSA9IGNyZWF0ZV9icm93c2VyX2xsbShtb2RlbD1tb2RlbCkKICAgIHNlc3Npb24gPSBCcm93c2VyU2Vzc2lvbihlbmFibGVfZGVmYXVsdF9leHRlbnNpb25zPUZhbHNlKQoKICAgIGFzeW5jIGRlZiBfcnVuKCk6CiAgICAgICAgcmV0dXJuIGF3YWl0IEFnZW50KAogICAgICAgICAgICB0YXNrPXRhc2ssIGxsbT1sbG0sIGJyb3dzZXJfc2Vzc2lvbj1zZXNzaW9uLAogICAgICAgICAgICBtYXhfc3RlcHM9bWF4X3N0ZXBzLCB1c2VfdmlzaW9uPUZhbHNlLAogICAgICAgICAgICBtYXhfYWN0aW9uc19wZXJfc3RlcD0zLCBlbmFibGVfcGxhbm5pbmc9RmFsc2UsICoqa3dhcmdzCiAgICAgICAgKS5ydW4oKQoKICAgIHJldHVybiBhc3luY2lvLnJ1bihfcnVuKCkpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGltcG9ydCBzeXMKICAgIGlmIGxlbihzeXMuYXJndikgPCAyOgogICAgICAgIHByaW50KCLnlKjms5U6IHB5dGhvbiBicm93c2VyX2xsbS5weSBcIuS7u+WKoeaPj+i/sFwiIikKICAgICAgICBzeXMuZXhpdCgxKQogICAgcHJpbnQoZiLwn5qAIHtzeXMuYXJndlsxXX0iKQogICAgcHJpbnQocnVuX2Jyb3dzZXJfdGFzayhzeXMuYXJndlsxXSkpCg==
+#!/usr/bin/env python3
+"""
+browser-use Ollama 适配器
+create_browser_llm() — 给ChatOllama注入browser-use需要的provider/model_name属性
+run_browser_task() — 同步入口，一行执行浏览器任务
+"""
+import asyncio, os
+from langchain_ollama import ChatOllama
+
+
+def create_browser_llm(model=None, base_url="http://localhost:11434", num_ctx=8192):
+    """兼容browser-use的Ollama实例（属性注入）"""
+    model = model or os.environ.get("BROWSER_MODEL", "qwen2.5:3b")
+    llm = ChatOllama(model=model, base_url=base_url, num_ctx=num_ctx)
+    object.__setattr__(llm, 'provider', 'ollama')
+    object.__setattr__(llm, 'model_name', model)
+    return llm
+
+
+def run_browser_task(task, model=None, max_steps=10, **kwargs):
+    """同步执行browser-use任务"""
+    from browser_use import Agent
+    from browser_use.browser.session import BrowserSession
+    llm = create_browser_llm(model=model)
+    session = BrowserSession(enable_default_extensions=False)
+
+    async def _run():
+        return await Agent(
+            task=task, llm=llm, browser_session=session,
+            max_steps=max_steps, use_vision=False,
+            max_actions_per_step=3, enable_planning=False, **kwargs
+        ).run()
+
+    return asyncio.run(_run())
+
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) < 2:
+        print("用法: python browser_llm.py \"任务描述\"")
+        sys.exit(1)
+    print(f"🚀 {sys.argv[1]}")
+    print(run_browser_task(sys.argv[1]))

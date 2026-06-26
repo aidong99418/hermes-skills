@@ -1,1 +1,100 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIK56eY5Lmm5aSE5pWI5p6c6Ieq6K+E5Lyw5Zmo4oCU4oCU5a+5cmVzdWx0X2JvYXJk5Lu75Yqh6K+E5YiG77yM6amx5Yqo5rS+5bel5Yaz562W5a2m5LmgCiIiIgppbXBvcnQganNvbiwgc3lzLCBvcwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQoKUkVTVUxUU19QQVRIID0gIi9vcHQvZGF0YS9zZWNyZXRhcnkvcmVzdWx0X2JvYXJkLmpzb24iCgpkZWYg6K+E5YiG5Y2V5Liq5Lu75YqhKHRhc2spOgogICAgIiIiNee7tOW6psOX5p2D6YeN6K+E5YiGIiIiCiAgICBzY29yZSA9IDUwICAjIOWfuuehgOWIhgogICAgcmVzdWx0ID0gdGFzay5nZXQoInJlc3VsdCIsIHt9KQogICAgbWV0YWRhdGEgPSB0YXNrLmdldCgibWV0YWRhdGEiLCB7fSkKICAgIAogICAgIyDnu7TluqYxOiDnu5PmnpzlrozmlbTmgKcoMzAlKQogICAgcmVzdWx0X2xlbiA9IGxlbihzdHIocmVzdWx0LmdldCgiY29udGVudCIsICIiKSkpCiAgICBpZiByZXN1bHRfbGVuID09IDA6CiAgICAgICAgc2NvcmUgLT0gMzAKICAgIGVsaWYgcmVzdWx0X2xlbiA8IDUwOgogICAgICAgIHNjb3JlIC09IDEwCiAgICBlbGlmIHJlc3VsdF9sZW4gPiAyMDA6CiAgICAgICAgc2NvcmUgKz0gMTAKCiAgICAjIOe7tOW6pjI6IOaOqOmAgeeKtuaAgSgyNSUpCiAgICBzdGF0dXMgPSB0YXNrLmdldCgic3RhdHVzIiwgIiIpCiAgICBpZiBzdGF0dXMgPT0gInB1c2hlZCI6CiAgICAgICAgc2NvcmUgKz0gMjUKICAgIGVsaWYgc3RhdHVzID09ICJwZW5kaW5nX3B1c2giOgogICAgICAgIHNjb3JlIC09IDE1CgogICAgIyDnu7TluqYzOiDmiafooYzmlYjnjocoMjAlKQogICAgdGltZW91dCA9IHRhc2suZ2V0KCJ0aW1lb3V0IiwgMCkKICAgIGFjdHVhbCA9IHRhc2suZ2V0KCJleGVjdXRpb25fdGltZSIsIDApCiAgICBpZiB0aW1lb3V0ID4gMCBhbmQgYWN0dWFsID4gMDoKICAgICAgICByYXRpbyA9IGFjdHVhbCAvIHRpbWVvdXQKICAgICAgICBpZiByYXRpbyA8IDAuMzoKICAgICAgICAgICAgc2NvcmUgKz0gNQogICAgICAgIGVsaWYgcmF0aW8gPiAwLjk6CiAgICAgICAgICAgIHNjb3JlIC09IDUKCiAgICAjIOe7tOW6pjQ6IOaMh+S7pOmBteW+qigxNSUp4oCU4oCU5Luj55CG5YiGCiAgICBhZ2VudF9zY29yZSA9IHJlc3VsdC5nZXQoImFnZW50X3Njb3JlIiwgMC41KQogICAgc2NvcmUgKz0gKGFnZW50X3Njb3JlIC0gMC41KSAqIDQwCgogICAgIyDnu7TluqY1OiDnp5jkuabouqvku70oMTAlKQogICAgY2xhaW1lZCA9IHRhc2suZ2V0KCJjbGFpbWVkX2J5IiwgIiIpCiAgICBpZiBjbGFpbWVkIGluIFsi5rex5bqm5YiG5p6QIiwgIuefpeivhumXruetlCIsICLku6PnoIHnlJ/miJAiLCAi5oOF5oql56eY5LmmIl06CiAgICAgICAgc2NvcmUgKz0gMTAKICAgIGVsaWYgbm90IGNsYWltZWQgb3IgY2xhaW1lZCBpbiBbInF3ZW4yLjU6M2IiLCAidW5rbm93biJdOgogICAgICAgIHNjb3JlIC09IDEwCgogICAgcmV0dXJuIG1heCgwLCBtaW4oMTAwLCByb3VuZChzY29yZSkpKQoKZGVmIOivhOS8sOaJgOaciee7k+aenCgpOgogICAgIiIi5om56YeP6K+E5Lyw5bm26L6T5Ye65oql5ZGKIiIiCiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoUkVTVUxUU19QQVRIKToKICAgICAgICBwcmludCgi57uT5p6c5p2/5LiN5a2Y5ZyoIikKICAgICAgICByZXR1cm4ge30KCiAgICB3aXRoIG9wZW4oUkVTVUxUU19QQVRIKSBhcyBmOgogICAgICAgIGRhdGEgPSBqc29uLmxvYWQoZikKCiAgICByZXN1bHRzID0gZGF0YS5nZXQoInJlc3VsdHMiLCBbXSkKICAgIG5vdyA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWS0lbS0lZCAlSDolTTolUyIpCgogICAgc2NvcmVkID0gMAogICAgdG90YWxfc2NvcmUgPSAwCiAgICB0eXBlX3Njb3JlcyA9IHt9CgogICAgZm9yIHIgaW4gcmVzdWx0czoKICAgICAgICBzID0g6K+E5YiG5Y2V5Liq5Lu75YqhKHIpCiAgICAgICAgclsicXVhbGl0eV9zY29yZSJdID0gcwogICAgICAgIHNjb3JlZCArPSAxCiAgICAgICAgdG90YWxfc2NvcmUgKz0gcwoKICAgICAgICB0YXNrX3R5cGUgPSByLmdldCgibWV0YWRhdGEiLCB7fSkuZ2V0KCJ0YXNrX3R5cGUiLCAidW5rbm93biIpCiAgICAgICAgaWYgdGFza190eXBlIG5vdCBpbiB0eXBlX3Njb3JlczoKICAgICAgICAgICAgdHlwZV9zY29yZXNbdGFza190eXBlXSA9IHsic3VtIjogMCwgImNvdW50IjogMH0KICAgICAgICB0eXBlX3Njb3Jlc1t0YXNrX3R5cGVdWyJzdW0iXSArPSBzCiAgICAgICAgdHlwZV9zY29yZXNbdGFza190eXBlXVsiY291bnQiXSArPSAxCgogICAgYXZnID0gcm91bmQodG90YWxfc2NvcmUgLyBzY29yZWQpIGlmIHNjb3JlZCA+IDAgZWxzZSAwCgogICAgIyDlhpnlm57nu5Pmnpzmnb/vvIjliqBxdWFsaXR5X3Njb3Jl5a2X5q6177yJCiAgICB3aXRoIG9wZW4oUkVTVUxUU19QQVRILCAidyIpIGFzIGY6CiAgICAgICAganNvbi5kdW1wKGRhdGEsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCgogICAgIyDmiZPljbDmiqXlkYoKICAgIHByaW50KGYiW3tub3d9XSDotKjph4/or4TkvLDlrozmiJA6IHtzY29yZWR95p2hLCDlnYfliIZ7YXZnfSIpCiAgICBmb3IgdCwgdiBpbiBzb3J0ZWQodHlwZV9zY29yZXMuaXRlbXMoKSwgCiAgICAgICAgICAgICAgICAgICAgICAga2V5PWxhbWJkYSB4OiB4WzFdWyJzdW0iXSAvIG1heCgxLCB4WzFdWyJjb3VudCJdKSk6CiAgICAgICAgYXZnX3QgPSByb3VuZCh2WyJzdW0iXSAvIHZbImNvdW50Il0pCiAgICAgICAgYmFyID0gIuKWiCIgKiAoYXZnX3QgLy8gMTApICsgIuKWkSIgKiAoMTAgLSBhdmdfdCAvLyAxMCkKICAgICAgICBwcmludChmIiAge3R9OiBbe2Jhcn1dIHthdmdfdH3liIYgKHt2Wydjb3VudCddfeadoSkiKQoKICAgIHJldHVybiB7ImF2ZyI6IGF2ZywgInNjb3JlZCI6IHNjb3JlZCwgInR5cGVfc2NvcmVzIjogdHlwZV9zY29yZXN9CgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAg6K+E5Lyw5omA5pyJ57uT5p6cKCkK
+#!/usr/bin/env python3
+"""
+秘书处效果自评估器——对result_board任务评分，驱动派工决策学习
+"""
+import json, sys, os
+from datetime import datetime
+
+RESULTS_PATH = "/opt/data/secretary/result_board.json"
+
+def 评分单个任务(task):
+    """5维度×权重评分"""
+    score = 50  # 基础分
+    result = task.get("result", {})
+    metadata = task.get("metadata", {})
+    
+    # 维度1: 结果完整性(30%)
+    result_len = len(str(result.get("content", "")))
+    if result_len == 0:
+        score -= 30
+    elif result_len < 50:
+        score -= 10
+    elif result_len > 200:
+        score += 10
+
+    # 维度2: 推送状态(25%)
+    status = task.get("status", "")
+    if status == "pushed":
+        score += 25
+    elif status == "pending_push":
+        score -= 15
+
+    # 维度3: 执行效率(20%)
+    timeout = task.get("timeout", 0)
+    actual = task.get("execution_time", 0)
+    if timeout > 0 and actual > 0:
+        ratio = actual / timeout
+        if ratio < 0.3:
+            score += 5
+        elif ratio > 0.9:
+            score -= 5
+
+    # 维度4: 指令遵循(15%)——代理分
+    agent_score = result.get("agent_score", 0.5)
+    score += (agent_score - 0.5) * 40
+
+    # 维度5: 秘书身份(10%)
+    claimed = task.get("claimed_by", "")
+    if claimed in ["深度分析", "知识问答", "代码生成", "情报秘书"]:
+        score += 10
+    elif not claimed or claimed in ["qwen2.5:3b", "unknown"]:
+        score -= 10
+
+    return max(0, min(100, round(score)))
+
+def 评估所有结果():
+    """批量评估并输出报告"""
+    if not os.path.exists(RESULTS_PATH):
+        print("结果板不存在")
+        return {}
+
+    with open(RESULTS_PATH) as f:
+        data = json.load(f)
+
+    results = data.get("results", [])
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    scored = 0
+    total_score = 0
+    type_scores = {}
+
+    for r in results:
+        s = 评分单个任务(r)
+        r["quality_score"] = s
+        scored += 1
+        total_score += s
+
+        task_type = r.get("metadata", {}).get("task_type", "unknown")
+        if task_type not in type_scores:
+            type_scores[task_type] = {"sum": 0, "count": 0}
+        type_scores[task_type]["sum"] += s
+        type_scores[task_type]["count"] += 1
+
+    avg = round(total_score / scored) if scored > 0 else 0
+
+    # 写回结果板（加quality_score字段）
+    with open(RESULTS_PATH, "w") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # 打印报告
+    print(f"[{now}] 质量评估完成: {scored}条, 均分{avg}")
+    for t, v in sorted(type_scores.items(), 
+                       key=lambda x: x[1]["sum"] / max(1, x[1]["count"])):
+        avg_t = round(v["sum"] / v["count"])
+        bar = "█" * (avg_t // 10) + "░" * (10 - avg_t // 10)
+        print(f"  {t}: [{bar}] {avg_t}分 ({v['count']}条)")
+
+    return {"avg": avg, "scored": scored, "type_scores": type_scores}
+
+if __name__ == "__main__":
+    评估所有结果()

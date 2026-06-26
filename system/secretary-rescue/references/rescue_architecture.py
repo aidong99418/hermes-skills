@@ -1,1 +1,136 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIK56eY5Lmm5aSE5oCl5pWR6ISa5pysIC0g5LiA5qyh5oCn6Kej5Yaz5p625p6E5pat54K5CuinpuWPke+8mua0vuW3peadv+S4jeWTjeW6lC/np6/ljosvZGFlbW9u5q275py6L+WFqOmTvui3r+S4reaWrQrmiafooYzvvJrlkK/liqhkYWVtb24gKyDmuIXnkIbmrbvmlbDmja4gKyDpqozor4Hlhajpk77ot68KIiIiCmltcG9ydCBqc29uLCBzdWJwcm9jZXNzLCB0aW1lLCBzeXMsIHNpZ25hbCwgb3MKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgpTRUNSRVRBUlkgPSBQYXRoKCIvb3B0L2RhdGEvc2VjcmV0YXJ5IikKRElTUEFUQ0ggPSBTRUNSRVRBUlkgLyAiZGlzcGF0Y2hfYm9hcmQuanNvbiIKUkVTVUxUID0gU0VDUkVUQVJZIC8gInJlc3VsdF9ib2FyZC5qc29uIgpMT0cgPSBTRUNSRVRBUlkgLyAibG9ncy9yZXNjdWUubG9nIgoKZGVmIGxvZyhtc2cpOgogICAgdHMgPSBkYXRldGltZS5ub3coKS5zdHJmdGltZSgiJW0tJWQgJUg6JU0iKQogICAgbGluZSA9IGYiW3t0c31dIHttc2d9IgogICAgcHJpbnQobGluZSkKICAgIExPRy5wYXJlbnQubWtkaXIoZXhpc3Rfb2s9VHJ1ZSkKICAgIExPRy5vcGVuKCJhIikud3JpdGUobGluZSArICJcbiIpCgpkZWYgcmVhZF9qc29uKGZwLCBkZWZhdWx0KToKICAgIGlmIGZwLmV4aXN0cygpOgogICAgICAgIHRyeTogcmV0dXJuIGpzb24ubG9hZHMoZnAucmVhZF90ZXh0KCkpCiAgICAgICAgZXhjZXB0OiBwYXNzCiAgICByZXR1cm4gZGVmYXVsdAoKZGVmIHdyaXRlX2pzb24oZnAsIGRhdGEpOgogICAgdG1wID0gc3RyKGZwKSArICIudG1wIgogICAgUGF0aCh0bXApLndyaXRlX3RleHQoanNvbi5kdW1wcyhkYXRhLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKSkKICAgIFBhdGgodG1wKS5yZW5hbWUoZnApCgojIOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkAojIDEuIOS/ruWkjSBkaXNwYXRjaF9ib2FyZC5qc29uIOagvOW8jwojIOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkApsb2coIuKVkCIgKiA1MCkKbG9nKCLwn5SnIOS/ruWkjTE6IGRpc3BhdGNoX2JvYXJkLmpzb24g5qC85byP57uf5LiAIikKYm9hcmQgPSByZWFkX2pzb24oRElTUEFUQ0gsIHsidGFza3MiOiBbXSwgInBlbmRpbmdfdGFza3MiOiBbXSwgImNvbXBsZXRlZF90YXNrcyI6IFtdfSkKCiMgcGVuZGluZ190YXNrc1tdIOKGkiB0YXNrc1tdICjmiormrbvmlbDmja7mlZHmtLspCmlmIGJvYXJkLmdldCgicGVuZGluZ190YXNrcyIpOgogICAgbW92ZWQgPSAwCiAgICBmb3IgdCBpbiBib2FyZFsicGVuZGluZ190YXNrcyJdOgogICAgICAgIGlmIHQuZ2V0KCJzdGF0dXMiKSAhPSAiY29tcGxldGVkIjoKICAgICAgICAgICAgdC5zZXRkZWZhdWx0KCJzdGF0dXMiLCAicGVuZGluZyIpCiAgICAgICAgICAgIHQuc2V0ZGVmYXVsdCgicHJvY2Vzc2luZ19hdCIsIE5vbmUpCiAgICAgICAgICAgIGJvYXJkWyJ0YXNrcyJdLmFwcGVuZCh0KQogICAgICAgICAgICBtb3ZlZCArPSAxCiAgICBsb2coZiIgIOKchSDku45wZW5kaW5nX3Rhc2tz6L+B56e7e21vdmVkfeadoeWIsHRhc2tzW10iKQogICAgYm9hcmRbInBlbmRpbmdfdGFza3MiXSA9IFtdCgojIOehruS/neaJgOaciXRhc2vpg73mnIlzdGF0dXPlrZfmrrUKZm9yIHQgaW4gYm9hcmRbInRhc2tzIl06CiAgICB0LnNldGRlZmF1bHQoInN0YXR1cyIsICJwZW5kaW5nIikKICAgIHQuc2V0ZGVmYXVsdCgicHJvY2Vzc2luZ19hdCIsIE5vbmUpCgp3cml0ZV9qc29uKERJU1BBVENILCBib2FyZCkKbG9nKGYiICDwn5OLIHRhc2tzOntsZW4oYm9hcmRbJ3Rhc2tzJ10pfSB8IGNvbXBsZXRlZDp7bGVuKGJvYXJkWydjb21wbGV0ZWRfdGFza3MnXSl9IikKCiMg4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQCiMgMi4g5riF55CGIHJlc3VsdF9ib2FyZC5qc29uIOenr+WOiwojIOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkApsb2coIvCflKcg5L+u5aSNMjog5riF55CGdW5yZWFk56ev5Y6LIikKcmIgPSByZWFkX2pzb24oUkVTVUxULCB7InJlc3VsdHMiOiBbXSwgInVucmVhZCI6IFtdLCAicmVzdWx0X2NvdW50ZXIiOiAwfSkKCmlmIHJiLmdldCgidW5yZWFkIik6CiAgICBsb2coZiIgIOKaoO+4jyAg5riF56m6e2xlbihyYlsndW5yZWFkJ10pfeadoXVucmVhZOenr+WOiyIpCiAgICByYlsidW5yZWFkIl0gPSBbXQoKaWYgcmIuZ2V0KCJyZXN1bHRzIik6CiAgICBsYXRlc3QgPSByYlsicmVzdWx0cyJdWy0xXQogICAgbG9nKGYiICDwn5OsIOacgOaWsOaIkOaenDogW3tsYXRlc3QuZ2V0KCdmcm9tX3NlY3JldGFyeScsJz8nKX1dIHtsYXRlc3QuZ2V0KCdpbnN0cnVjdGlvbicsJycpWzo2MF19IikKCndyaXRlX2pzb24oUkVTVUxULCByYikKCiMg4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQCiMgMy4g5ZCv5YqoIGRlcHV0eV93b3JrZXIg5a6I5oqk6L+b56iLCiMg4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQCmxvZygi8J+UpyDkv67lpI0zOiDlkK/liqggZGVwdXR5X3dvcmtlciDlrojmiqTov5vnqIsiKQpydW5uaW5nID0gc3VicHJvY2Vzcy5ydW4oWyJwZ3JlcCIsICItZiIsICJkZXB1dHlfd29ya2VyLnB5Il0sIGNhcHR1cmVfb3V0cHV0PVRydWUpLnJldHVybmNvZGUgPT0gMAppZiBydW5uaW5nOgogICAgbG9nKCIgIOKPre+4jyAgZGVwdXR5X3dvcmtlciDlt7LlnKjov5DooYzvvIzot7Pov4ciKQplbHNlOgogICAgc3VicHJvY2Vzcy5Qb3BlbigKICAgICAgICBbc3lzLmV4ZWN1dGFibGUsIHN0cihTRUNSRVRBUlkgLyAiZGVwdXR5X3dvcmtlci5weSIpXSwKICAgICAgICBzdGRvdXQ9b3BlbihTRUNSRVRBUlkgLyAibG9ncy9kZXB1dHlfd29ya2VyX291dC5sb2ciLCAiYSIpLAogICAgICAgIHN0ZGVycj1zdWJwcm9jZXNzLlNURE9VVCwKICAgICAgICBzdGFydF9uZXdfc2Vzc2lvbj1UcnVlCiAgICApCiAgICBsb2coIiAg4pyFIGRlcHV0eV93b3JrZXIg5bey5ZCO5Y+w5ZCv5YqoIikKCiMg4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQCiMgNC4g5ZCv5YqoIGRlcHV0eV9yZXN1bHQg5a6I5oqk6L+b56iLCiMg4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQCmxvZygi8J+UpyDkv67lpI00OiDlkK/liqggZGVwdXR5X3Jlc3VsdCDlrojmiqTov5vnqIsiKQpydW5uaW5nMiA9IHN1YnByb2Nlc3MucnVuKFsicGdyZXAiLCAiLWYiLCAiZGVwdXR5X3Jlc3VsdC5weSJdLCBjYXB0dXJlX291dHB1dD1UcnVlKS5yZXR1cm5jb2RlID09IDAKaWYgcnVubmluZzI6CiAgICBsb2coIiAg4o+t77iPICBkZXB1dHlfcmVzdWx0IOW3suWcqOi/kOihjO+8jOi3s+i/hyIpCmVsc2U6CiAgICBzdWJwcm9jZXNzLlBvcGVuKAogICAgICAgIFtzeXMuZXhlY3V0YWJsZSwgc3RyKFNFQ1JFVEFSWSAvICJkZXB1dHlfcmVzdWx0LnB5IildLAogICAgICAgIHN0ZG91dD1vcGVuKFNFQ1JFVEFSWSAvICJsb2dzL2RlcHV0eV9yZXN1bHRfb3V0LmxvZyIsICJhIiksCiAgICAgICAgc3RkZXJyPXN1YnByb2Nlc3MuU1RET1VULAogICAgICAgIHN0YXJ0X25ld19zZXNzaW9uPVRydWUKICAgICkKICAgIGxvZygiICDinIUgZGVwdXR5X3Jlc3VsdCDlt7LlkI7lj7DlkK/liqgiKQoKIyDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZAKIyA1LiDnu5nmtL7lt6Xmnb/lhpnkuIDkuKrmtYvor5Xku7vliqHpqozor4HmtYHnqIsKIyDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZAKbG9nKCLwn5SnIOS/ruWkjTU6IOWGmeWFpea1i+ivleS7u+WKoemqjOivgea1geeoiyIpCmJvYXJkID0gcmVhZF9qc29uKERJU1BBVENILCB7InRhc2tzIjogW10sICJwZW5kaW5nX3Rhc2tzIjogW10sICJjb21wbGV0ZWRfdGFza3MiOiBbXX0pCmJvYXJkWyJkaXNwYXRjaF9jb3VudGVyIl0gPSBib2FyZC5nZXQoImRpc3BhdGNoX2NvdW50ZXIiLCAwKSArIDEKdGVzdF90YXNrID0gewogICAgImlkIjogZiJkaXNwYXRjaF97Ym9hcmRbJ2Rpc3BhdGNoX2NvdW50ZXInXTowNGR9IiwKICAgICJzb3VyY2UiOiAicmVzY3VlX3NjcmlwdCIsCiAgICAiaW5zdHJ1Y3Rpb24iOiAi57O757uf5p625p6E5oCl5pWR6aqM6K+B5Lu75YqhIC0g6aqM6K+B5YWo6ZO+6LevIiwKICAgICJmcm9tIjogIuaApeaVkeiEmuacrCIsCiAgICAidG8iOiAi5oqA5pyv56eY5LmmIiwKICAgICJwcmlvcml0eSI6IDcsCiAgICAic3RhdHVzIjogInBlbmRpbmciLAogICAgImNyZWF0ZWRfYXQiOiBkYXRldGltZS5ub3coKS5pc29mb3JtYXQoKSwKICAgICJwcm9jZXNzaW5nX2F0IjogTm9uZSwKICAgICJjb21wbGV0ZWRfYXQiOiBOb25lLAogICAgImNsYWltZWRfYnkiOiBOb25lLAogICAgInJhd19yZXN1bHQiOiBOb25lLAogICAgImNvbGxlY3RlZCI6IEZhbHNlCn0KYm9hcmRbInRhc2tzIl0uYXBwZW5kKHRlc3RfdGFzaykKYm9hcmRbImxhc3RfdXBkYXRlZCJdID0gZGF0ZXRpbWUubm93KCkuaXNvZm9ybWF0KCkKd3JpdGVfanNvbihESVNQQVRDSCwgYm9hcmQpCmxvZyhmIiAg4pyFIOa1i+ivleS7u+WKoeW3suWGmeWFpToge3Rlc3RfdGFza1snaWQnXX0iKQoKbG9nKCLilZAiICogNTApCmxvZygi8J+OiSDmgKXmlZHlrozmiJDvvIEiKQo=
+#!/usr/bin/env python3
+"""
+秘书处急救脚本 - 一次性解决架构断点
+触发：派工板不响应/积压/daemon死机/全链路中断
+执行：启动daemon + 清理死数据 + 验证全链路
+"""
+import json, subprocess, time, sys, signal, os
+from pathlib import Path
+from datetime import datetime
+
+SECRETARY = Path("/opt/data/secretary")
+DISPATCH = SECRETARY / "dispatch_board.json"
+RESULT = SECRETARY / "result_board.json"
+LOG = SECRETARY / "logs/rescue.log"
+
+def log(msg):
+    ts = datetime.now().strftime("%m-%d %H:%M")
+    line = f"[{ts}] {msg}"
+    print(line)
+    LOG.parent.mkdir(exist_ok=True)
+    LOG.open("a").write(line + "\n")
+
+def read_json(fp, default):
+    if fp.exists():
+        try: return json.loads(fp.read_text())
+        except: pass
+    return default
+
+def write_json(fp, data):
+    tmp = str(fp) + ".tmp"
+    Path(tmp).write_text(json.dumps(data, ensure_ascii=False, indent=2))
+    Path(tmp).rename(fp)
+
+# ════════════════════════════════════════
+# 1. 修复 dispatch_board.json 格式
+# ════════════════════════════════════════
+log("═" * 50)
+log("🔧 修复1: dispatch_board.json 格式统一")
+board = read_json(DISPATCH, {"tasks": [], "pending_tasks": [], "completed_tasks": []})
+
+# pending_tasks[] → tasks[] (把死数据救活)
+if board.get("pending_tasks"):
+    moved = 0
+    for t in board["pending_tasks"]:
+        if t.get("status") != "completed":
+            t.setdefault("status", "pending")
+            t.setdefault("processing_at", None)
+            board["tasks"].append(t)
+            moved += 1
+    log(f"  ✅ 从pending_tasks迁移{moved}条到tasks[]")
+    board["pending_tasks"] = []
+
+# 确保所有task都有status字段
+for t in board["tasks"]:
+    t.setdefault("status", "pending")
+    t.setdefault("processing_at", None)
+
+write_json(DISPATCH, board)
+log(f"  📋 tasks:{len(board['tasks'])} | completed:{len(board['completed_tasks'])}")
+
+# ════════════════════════════════════════
+# 2. 清理 result_board.json 积压
+# ════════════════════════════════════════
+log("🔧 修复2: 清理unread积压")
+rb = read_json(RESULT, {"results": [], "unread": [], "result_counter": 0})
+
+if rb.get("unread"):
+    log(f"  ⚠️  清空{len(rb['unread'])}条unread积压")
+    rb["unread"] = []
+
+if rb.get("results"):
+    latest = rb["results"][-1]
+    log(f"  📬 最新成果: [{latest.get('from_secretary','?')}] {latest.get('instruction','')[:60]}")
+
+write_json(RESULT, rb)
+
+# ════════════════════════════════════════
+# 3. 启动 deputy_worker 守护进程
+# ════════════════════════════════════════
+log("🔧 修复3: 启动 deputy_worker 守护进程")
+running = subprocess.run(["pgrep", "-f", "deputy_worker.py"], capture_output=True).returncode == 0
+if running:
+    log("  ⏭️  deputy_worker 已在运行，跳过")
+else:
+    subprocess.Popen(
+        [sys.executable, str(SECRETARY / "deputy_worker.py")],
+        stdout=open(SECRETARY / "logs/deputy_worker_out.log", "a"),
+        stderr=subprocess.STDOUT,
+        start_new_session=True
+    )
+    log("  ✅ deputy_worker 已后台启动")
+
+# ════════════════════════════════════════
+# 4. 启动 deputy_result 守护进程
+# ════════════════════════════════════════
+log("🔧 修复4: 启动 deputy_result 守护进程")
+running2 = subprocess.run(["pgrep", "-f", "deputy_result.py"], capture_output=True).returncode == 0
+if running2:
+    log("  ⏭️  deputy_result 已在运行，跳过")
+else:
+    subprocess.Popen(
+        [sys.executable, str(SECRETARY / "deputy_result.py")],
+        stdout=open(SECRETARY / "logs/deputy_result_out.log", "a"),
+        stderr=subprocess.STDOUT,
+        start_new_session=True
+    )
+    log("  ✅ deputy_result 已后台启动")
+
+# ════════════════════════════════════════
+# 5. 给派工板写一个测试任务验证流程
+# ════════════════════════════════════════
+log("🔧 修复5: 写入测试任务验证流程")
+board = read_json(DISPATCH, {"tasks": [], "pending_tasks": [], "completed_tasks": []})
+board["dispatch_counter"] = board.get("dispatch_counter", 0) + 1
+test_task = {
+    "id": f"dispatch_{board['dispatch_counter']:04d}",
+    "source": "rescue_script",
+    "instruction": "系统架构急救验证任务 - 验证全链路",
+    "from": "急救脚本",
+    "to": "技术秘书",
+    "priority": 7,
+    "status": "pending",
+    "created_at": datetime.now().isoformat(),
+    "processing_at": None,
+    "completed_at": None,
+    "claimed_by": None,
+    "raw_result": None,
+    "collected": False
+}
+board["tasks"].append(test_task)
+board["last_updated"] = datetime.now().isoformat()
+write_json(DISPATCH, board)
+log(f"  ✅ 测试任务已写入: {test_task['id']}")
+
+log("═" * 50)
+log("🎉 急救完成！")

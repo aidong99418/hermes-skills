@@ -1,1 +1,117 @@
-IyBOQVPns7vnu5/lhajpnaLlgaXlurfmo4Dmn6Xlt6XkvZzmtYEKCiMjIOinpuWPkeWcuuaZrwrns7vnu5/lhajouqvmo4Dmn6Uv6K+K5patL+mqjOivgeWQhOWtkOezu+e7n+aYr+WQpuato+W4uOi/kOi9rOaXtua/gOa0u+OAguWFqOiHquWKqOaJp+ihjO+8jOS4jeetieaMh+S7pOOAggoKIyMg6K+K5pat5ZG95Luk5bqT77yI5oyJ6aG65bqP5omn6KGM77yJCgojIyMgMS4gR2F0ZXdheeWBpeW6twpgYGBiYXNoCiMgR2F0ZXdheei/m+eoi+WSjOerr+WPowpwcyBhdXggfCBncmVwIGhlcm1lcyB8IGdyZXAgLXYgZ3JlcApjdXJsIC1zIC0tbWF4LXRpbWUgMyBodHRwOi8vMTI3LjAuMC4xOjE4NjQzL2FwaS9zdGF0dXMKCiMg5pel5b+X5L2N572u77yI6YeN5ZCv5ZCO5LuOZ2F0ZXdheS5sb2fliIfliLBhZ2VudC5sb2fvvIzmmK/mraPluLjooYzkuLrvvIkKdGFpbCAtNSAvb3B0L2RhdGEvbG9ncy9hZ2VudC5sb2cgMj4vZGV2L251bGwKdGFpbCAtNSAvb3B0L2RhdGEvbG9ncy9nYXRld2F5LmxvZyAyPi9kZXYvbnVsbApgYGAKCiMjIyAyLiDmtL7lt6Xmnb8gKyDnu5Pmnpzmnb8KYGBgcHl0aG9uCiMg5riF55CGZmFpbGVkL3N0YWxl5Lu75Yqh77yM5L+u5aSN57uT5p6c5p2/CnB5dGhvbjMgLWMgIgppbXBvcnQganNvbgpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZXpvbmUKd2l0aCBvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L2Rpc3BhdGNoX2JvYXJkLmpzb24nKSBhcyBmOgogICAgZCA9IGpzb24ubG9hZChmKQp0YXNrcyA9IGQuZ2V0KCd0YXNrcycsIFtdKQpwcmludChmJ+S7u+WKoToge2xlbih0YXNrcyl95LiqJykKZm9yIHQgaW4gdGFza3M6CiAgICBzID0gdC5nZXQoJ3N0YXR1cycsJz8nKQogICAgY3QgPSB0LmdldCgnY3JlYXRlZF9hdCcsJz8nKVs6MTldCiAgICBwcmludChmJyAge3QuZ2V0KFwidGFza19pZFwiLFwiP1wiKVs6MzBdfSB8IHtzfSB8IHtjdH0nKQogICAgIyDliKDpmaRmYWlsZWQgKyDotoUxNW1pbueahHByb2Nlc3NpbmcgKyDotoUyaOeahHBlbmRpbmcKICAgIGlmIHMgPT0gJ2ZhaWxlZCc6IHRhc2tzLnJlbW92ZSh0KQogICAgIyAuLi4g5riF55CG6YC76L6RCiIKYGBgCgojIyMgMy4gQ3Jvbuiwg+W6pgpgYGBiYXNoCiMg55yLY3JvbiBvdXRwdXTmlofku7bml7bpl7TmiLPvvIjnnJ/lrp7miafooYzor4HmmI7vvIzkuI3mmK9sYXN0X3J1buWtl+aute+8iQpscyAtbHQgL29wdC9kYXRhL2Nyb24vb3V0cHV0LyB8IGhlYWQgLTIwCiMg5om+aXJvbu+8iOmTgeW+i+iEiee7nO+8ieebuOWFs+i+k+WHugpscyAvb3B0L2RhdGEvY3Jvbi9vdXRwdXQvIHwgZ3JlcCAtRSAiYjdiNTF8OWM4NGJ8YWMwODciCmBgYAoKIyMjIDQuIOWZqOWumOWBpeW6twpgYGBiYXNoCnRhaWwgLTEwIC9vcHQvZGF0YS9jcm9uL291dHB1dC9vcmdhbl9oZWFsdGgubG9nIDI+L2Rldi9udWxsCmBgYAoKIyMjIDUuIE9sbGFtYQpgYGBiYXNoCmN1cmwgLXMgLS1tYXgtdGltZSA1IGh0dHA6Ly8xMjcuMC4wLjE6MTE0MzQvYXBpL3RhZ3MgfCBweXRob24zIC1jICJpbXBvcnQganNvbixzeXM7IGQ9anNvbi5sb2FkKHN5cy5zdGRpbik7IFtwcmludChtWyduYW1lJ10pIGZvciBtIGluIGQuZ2V0KCdtb2RlbHMnLFtdKV0iCmBgYAoKIyMjIDYuIOelnue7j+iEiee7nO+8iOeureWktGtleeeJueauiuWkhOeQhu+8iQpgYGBweXRob24KIyDph43opoHvvJpzeW5hcHNlLmpzb27nmoRrZXnlkKvnrq3lpLTlrZfnrKbihpLvvIzkuI3og73nlKhnZXQoKemBjeWOhgpweXRob24zIC1jICIKaW1wb3J0IGpzb24KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCnN5biA9IFBhdGgoJy9vcHQvZGF0YS9uZXVyYWxfbmV0d29yay9zeW5hcHNlLmpzb24nKQpkID0ganNvbi5sb2FkcyhzeW4ucmVhZF90ZXh0KCkpCnByaW50KGYn56qB6Kem6IqC54K5OiB7bGVuKGQpfeS4qicpCmFjdGl2ZSA9IFsoayx2KSBmb3Igayx2IGluIGQuaXRlbXMoKSBpZiB2LmdldCgnd2VpZ2h0JywwKSA+IDAuNV0KcHJpbnQoZifmtLvot4M6IHtsZW4oYWN0aXZlKX3kuKonKQoiCmBgYAoKIyMjIDcuIEdhdGV3YXkgSG9va++8iDTkuKrmtLvot4NIb29r77yJCmBgYGJhc2gKbHMgL29wdC9kYXRhL2hvb2tzLyAgIyDlupTor6XlnKg6IGJyYWluX2Nvb3JkaW5hdG9yIGVtb3Rpb25fc2Vuc2Ugcm91dGVyX2Nvb3JkaW5hdG9yIHN5bmFwc2VfcmVjb3JkZXIKY2F0IC9vcHQvZGF0YS9ob29rcy9icmFpbl9jb29yZGluYXRvci9IT09LLnlhbWwgICMg6aqM6K+B5qCH5YeG5qC85byPCmBgYAoKIyMjIDguIEZlaXNodeWOu+mHjQpgYGBweXRob24KcHl0aG9uMyAtYyAiCmltcG9ydCBqc29uCndpdGggb3BlbignL29wdC9kYXRhL2ZlaXNodV9zZWVuX21lc3NhZ2VfaWRzLmpzb24nKSBhcyBmOgogICAgZCA9IGpzb24ubG9hZChmKQppZHMgPSBkIGlmIGlzaW5zdGFuY2UoZCwgbGlzdCkgZWxzZSBkLmdldCgnaWRzJywgW10pCnByaW50KGYn5Y676YeNSUQ6IHtsZW4oaWRzKX3kuKonKQoiCmBgYAoKIyMg5bey55+lQ29zbWV0aWMgQnVn77yI5LiN5piv55yf5pWF6Zqc77yJCgp8IOeOsOixoSB8IOecn+ebuCB8IOe7k+iuuiB8CnwtLS0tLS18LS0tLS0tfC0tLS0tLXwKfCBgam9icy5qc29uYCBsYXN0X3J1bj0i5LuO5pyqIiB8IOWtl+auteS4jeaMgeS5heWMlu+8jOmHjeWQr+WQjuS4ouWksSB8IOKchSDmraPluLjvvIzmlofku7bml7bpl7TmiLPmiY3mmK/nnJ/mja4gfAp8IGBnYXRld2F5LmxvZ2Dph43lkK/lkI7nqbrnmb0gfCDml6Xlv5foh6rliqjliIfmjaLliLBgYWdlbnQubG9nYCB8IOKchSDmraPluLjooYzkuLogfAp8IGd1YXJkaWFu5Y+N5aSNIumFjee9ruaNn+WdjyIgfCBwcm92aWRlcnPmm7/mjaJjdXN0b21fcHJvdmlkZXJz5ZCO5Z+65YeG57q/5Y+Y5YyWIHwg4pyFIOato+W4uO+8jGd1YXJkaWFu5Zyo5bu656uL5paw5Z+65YeGIHwKCiMjIOa4heeQhuWRveS7pOaooeadvwpgYGBweXRob24KIyDmuIXnkIZmYWlsZWTku7vliqEKZm9yIHQgaW4gdGFza3NbOl06CiAgICBpZiB0LmdldCgnc3RhdHVzJykgPT0gJ2ZhaWxlZCc6CiAgICAgICAgdGFza3MucmVtb3ZlKHQpOyByZW1vdmVkICs9IDEKCiMg5riF55CGcHJvY2Vzc2luZz4xNW1pbu+8iHdhdGNoZXLlt7LlpITnkIbkvYbmnKrmuIXnkIbvvIkKaWYgdC5nZXQoJ3N0YXR1cycpID09ICdwcm9jZXNzaW5nJzoKICAgIHRyeToKICAgICAgICBhZ2VfbSA9IChub3cgLSBkYXRldGltZS5mcm9taXNvZm9ybWF0KHRbJ2NyZWF0ZWRfYXQnXS5yZXBsYWNlKCdaJywnKzAwOjAwJykpKS50b3RhbF9zZWNvbmRzKCkvNjAKICAgICAgICBpZiBhZ2VfbSA+IDE1OiB0YXNrcy5yZW1vdmUodCkKICAgIGV4Y2VwdDogcGFzcwoKIyDmuIXnkIbnu5Pmnpzmnb/ml6B0YXNrX2lk55qE5Y2g5L2N5pWw5o2uICsgPjI0aOeahGRvbmXmlbDmja4KZm9yIHIgaW4gcmVzdWx0c1s6XToKICAgIGlmIG5vdCByLmdldCgndGFza19pZCcpIG9yIChyLmdldCgnc3RhdHVzJyk9PSdkb25lJyBhbmQgYWdlPjg2NDAwKToKICAgICAgICByZXN1bHRzLnJlbW92ZShyKQpgYGAKCiMjIOWbuuWMluaXtuacugrmr4/mrKHlgZrlrozmlofku7bkv67mlLkv6YWN572u5Y+Y5pu05ZCO56uL5Y2z5Zu65YyW77yM5LiN6KaB562J5o+Q6YaS44CCTUVNT1JZ5Y+q5a2Y6ZOB5b6L6aqo5p6277yM57uG6IqC5a2Yc2tpbGzjgIIK
+# NAS系统全面健康检查工作流
+
+## 触发场景
+系统全身检查/诊断/验证各子系统是否正常运转时激活。全自动执行，不等指令。
+
+## 诊断命令库（按顺序执行）
+
+### 1. Gateway健康
+```bash
+# Gateway进程和端口
+ps aux | grep hermes | grep -v grep
+curl -s --max-time 3 http://127.0.0.1:18643/api/status
+
+# 日志位置（重启后从gateway.log切到agent.log，是正常行为）
+tail -5 /opt/data/logs/agent.log 2>/dev/null
+tail -5 /opt/data/logs/gateway.log 2>/dev/null
+```
+
+### 2. 派工板 + 结果板
+```python
+# 清理failed/stale任务，修复结果板
+python3 -c "
+import json
+from datetime import datetime, timezone
+with open('/opt/data/secretary/dispatch_board.json') as f:
+    d = json.load(f)
+tasks = d.get('tasks', [])
+print(f'任务: {len(tasks)}个')
+for t in tasks:
+    s = t.get('status','?')
+    ct = t.get('created_at','?')[:19]
+    print(f'  {t.get(\"task_id\",\"?\")[:30]} | {s} | {ct}')
+    # 删除failed + 超15min的processing + 超2h的pending
+    if s == 'failed': tasks.remove(t)
+    # ... 清理逻辑
+"
+```
+
+### 3. Cron调度
+```bash
+# 看cron output文件时间戳（真实执行证明，不是last_run字段）
+ls -lt /opt/data/cron/output/ | head -20
+# 找iron（铁律脉络）相关输出
+ls /opt/data/cron/output/ | grep -E "b7b51|9c84b|ac087"
+```
+
+### 4. 器官健康
+```bash
+tail -10 /opt/data/cron/output/organ_health.log 2>/dev/null
+```
+
+### 5. Ollama
+```bash
+curl -s --max-time 5 http://127.0.0.1:11434/api/tags | python3 -c "import json,sys; d=json.load(sys.stdin); [print(m['name']) for m in d.get('models',[])]"
+```
+
+### 6. 神经脉络（箭头key特殊处理）
+```python
+# 重要：synapse.json的key含箭头字符→，不能用get()遍历
+python3 -c "
+import json
+from pathlib import Path
+syn = Path('/opt/data/neural_network/synapse.json')
+d = json.loads(syn.read_text())
+print(f'突触节点: {len(d)}个')
+active = [(k,v) for k,v in d.items() if v.get('weight',0) > 0.5]
+print(f'活跃: {len(active)}个')
+"
+```
+
+### 7. Gateway Hook（4个活跃Hook）
+```bash
+ls /opt/data/hooks/  # 应该在: brain_coordinator emotion_sense router_coordinator synapse_recorder
+cat /opt/data/hooks/brain_coordinator/HOOK.yaml  # 验证标准格式
+```
+
+### 8. Feishu去重
+```python
+python3 -c "
+import json
+with open('/opt/data/feishu_seen_message_ids.json') as f:
+    d = json.load(f)
+ids = d if isinstance(d, list) else d.get('ids', [])
+print(f'去重ID: {len(ids)}个')
+"
+```
+
+## 已知Cosmetic Bug（不是真故障）
+
+| 现象 | 真相 | 结论 |
+|------|------|------|
+| `jobs.json` last_run="从未" | 字段不持久化，重启后丢失 | ✅ 正常，文件时间戳才是真据 |
+| `gateway.log`重启后空白 | 日志自动切换到`agent.log` | ✅ 正常行为 |
+| guardian反复"配置损坏" | providers替换custom_providers后基准线变化 | ✅ 正常，guardian在建立新基准 |
+
+## 清理命令模板
+```python
+# 清理failed任务
+for t in tasks[:]:
+    if t.get('status') == 'failed':
+        tasks.remove(t); removed += 1
+
+# 清理processing>15min（watcher已处理但未清理）
+if t.get('status') == 'processing':
+    try:
+        age_m = (now - datetime.fromisoformat(t['created_at'].replace('Z','+00:00'))).total_seconds()/60
+        if age_m > 15: tasks.remove(t)
+    except: pass
+
+# 清理结果板无task_id的占位数据 + >24h的done数据
+for r in results[:]:
+    if not r.get('task_id') or (r.get('status')=='done' and age>86400):
+        results.remove(r)
+```
+
+## 固化时机
+每次做完文件修改/配置变更后立即固化，不要等提醒。MEMORY只存铁律骨架，细节存skill。

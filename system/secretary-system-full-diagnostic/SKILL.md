@@ -1,1 +1,146 @@
-LS0tCm5hbWU6IHNlY3JldGFyeS1zeXN0ZW0tZnVsbC1kaWFnbm9zdGljCmRlc2NyaXB0aW9uOiBWMeenmOS5puWkhOezu+e7n+WFqOmdouiviuaWreS4juS/ruWkjeKAlOKAlOa0vuW3peadv+agvOW8jy/nu5Pmnpzmnb8vRGFlbW9u6L+b56iLL+elnue7j+e9kee7nC/lmajlrpjns7vnu5/nq6/liLDnq6/mjpLmn6XvvIwyMDI2LTA2LTIx5a6e5pON5Zu65YyW44CCCnRhZ3M6IFtzZWNyZXRhcnksIFYxLCBkYWVtb24sIGRpc3BhdGNoLWJvYXJkLCBicmFpbl0KY3JlYXRlZDogMjAyNi0wNi0yMQotLS0KCiMgVjHnp5jkuablpITns7vnu5/lhajpnaLor4rmlq3lt6XkvZzmtYEKCiMjIOinpuWPkeWcuuaZrwotIOa0vuW3peS7u+WKoeWGmei/m+WOu+S9huayoeS6uuWkhOeQhgotIHJlc3VsdF9ib2FyZOawuOi/nOaYr+epuueahAotIERhZW1vbui/m+eoi+eKtuaAgeS4jeaYjgotIOelnue7j+e9kee7nDE25aSp5rKh5pu05pawCi0g57O757uf5YWo6Z2i5L2T5qOACgojIyDor4rmlq3ojIPlm7TvvIjmjInkvJjlhYjnuqfvvIkKCiMjIyBQMCDlv4Xpobvmn6UKMS4gKirmtL7lt6Xmnb/moLzlvI8qKiDigJQgYGRpc3BhdGNoX2JvYXJkLmpzb25gIOeahCBgdGFza3NbXWAgdnMgYHBlbmRpbmdbXWAg5Ymy6KOC6Zeu6aKYCjIuICoqRGFlbW9u6L+b56iLKiog4oCUIGBwcyBhdXggfCBncmVwIGRlcHV0eWAg5piv5ZCm5a2Y5rS7CjMuICoqcmVzdWx0X2JvYXJkKiog4oCUIOaYr+WQpuacieecn+WunuWGheWuueWGmeWFpQo0LiAqKua0vuW3pemTvui3r+err+WIsOerryoqIOKAlCDlhpnlhaXihpLorqTpoobihpLmiafooYzihpLnu5Pmnpzlhpnlm57ihpLmjqjpgIEKCiMjIyBQMSDkvovooYzmn6UKNS4gKirnpZ7nu4/nvZHnu5wqKiDigJQgYGxhc3RfZ3Jvd2Ag5pe26Ze05oiz5piv5ZCm5paw6bKcCjYuICoqbGF1bmNoX2RhZW1vbnMuc2gqKiDigJQg5piv5ZCm6L+Y5Zyo5ZCv5Yqo5bqf5byD55qEIGBkZXB1dHlfcmVzdWx0LnB5YAo3LiAqKjbkuKrnp5jkuablrZDnm67lvZUqKiDigJQg5piv5ZCm5Y+q5pyJ56m65aOzcnVuLnB5CgojIyDlhbPplK7mlofku7bot6/lvoQKYGBgCi9vcHQvZGF0YS9zZWNyZXRhcnkvCuKUnOKUgOKUgCBkaXNwYXRjaF9ib2FyZC5qc29uICAgICAgIyDmtL7lt6Xmnb/vvIjlhpnlhaXmlrnvvIkK4pSc4pSA4pSAIHJlc3VsdF9ib2FyZC5qc29uICAgICAgICMg57uT5p6c5p2/77yI5omn6KGM5Zmo5YaZ5Zue77yJCuKUnOKUgOKUgCBkZXB1dHlfZGlzcGF0Y2gucHkgICAgICAjIOa0vuW3peiwg+W6pkRhZW1vbgrilJzilIDilIAgZGVwdXR5X3dvcmtlci5weSAgICAgICAgIyDku7vliqHmiafooYxEYWVtb24K4pSc4pSA4pSAIGFjdGl2ZV9wdXNoZXIucHkgICAgICAgICMg57uT5p6c5o6o6YCBRGFlbW9u77yI5pu/5o2i5bqf5byD55qEZGVwdXR5X3Jlc3VsdC5wee+8iQrilJTilIDilIAgbGF1bmNoX2RhZW1vbnMuc2ggICAgICAgIyDlkK/liqjohJrmnKwKYGBgCgojIyDlt7Lnn6VCdWfmqKHlvI/vvIjorrDkvY/vvIkKCiMjIyBCdWcxOiDmtL7lt6Xmnb/moLzlvI/libLoo4LvvIjmnIDpq5jpopHvvIkKKirnjrDosaEqKu+8muS7u+WKoeWGmei/m2Rpc3BhdGNoX2JvYXJk5L2G5rC46L+ccGVuZGluZ+aXoOS6uuWkhOeQhgoqKuagueWboCoq77yaYGRpc3BhdGNoX2JvYXJkLmpzb25gIOacieS4pOWll+aVsOaNrue7k+aehOWFseWtmAotIGB0YXNrc1tdYCDigJQg5a6e6ZmF5pyJ5Lu75Yqh77yMYHN0YXR1cz0icGVuZGluZyJgCi0gYHBlbmRpbmdbXWAg4oCUIOawuOi/nOaYr+epuueahAotIGBkZXB1dHlfZGlzcGF0Y2gucHlgIOWGmeWFpSBgdGFza3NbXWDvvIzkvYYgYGRlcHV0eV93b3JrZXIucHlgIOi9ruivoiBgcGVuZGluZ1tdYO+8jOawuOi/nOWMuemFjeS4jeWIsAoKKiror4rmlq3lkb3ku6QqKu+8mgpgYGBiYXNoCnB5dGhvbjMgLWMgIgppbXBvcnQganNvbgp3aXRoIG9wZW4oJy9vcHQvZGF0YS9zZWNyZXRhcnkvZGlzcGF0Y2hfYm9hcmQuanNvbicpIGFzIGY6CiAgICBkID0ganNvbi5sb2FkKGYpCnRhc2tzID0gZC5nZXQoJ3Rhc2tzJywgW10pCnBlbmRpbmcgPSBkLmdldCgncGVuZGluZycsIFtdKQpwcmludChmJ3Rhc2tzOiB7bGVuKHRhc2tzKX0sIHBlbmRpbmc6IHtsZW4ocGVuZGluZyl9JykKZm9yIHQgaW4gdGFza3M6CiAgICBpZiB0LmdldCgnc3RhdHVzJykgPT0gJ3BlbmRpbmcnOgogICAgICAgIHByaW50KGYnICB0YXNrIHt0LmdldChcImlkXCIpfSDlnKh0YXNrc+mHjOS9hnN0YXR1cz1wZW5kaW5nJykKIgpgYGAKCioq5L+u5aSNKirvvJrmlLkgYGRlcHV0eV93b3JrZXIucHlgIOeahOWMuemFjemAu+i+ke+8jOS7jiBgcGVuZGluZ1tdYCDmlLnkuLogYHRhc2tzW11gIOS4rSBgc3RhdHVzPSJwZW5kaW5nIiBBTkQgY2xhaW1lZF9ieSBpcyBOb25lYAoKIyMjIEJ1ZzI6IERhZW1vbuWFqOatuwoqKueOsOixoSoq77yacHPmsqHov5vnqIvkvYZQSUTmlofku7bov5jlnKgKKiror4rmlq0qKu+8mgpgYGBiYXNoCnBzIGF1eCB8IGdyZXAgLUUgImRlcHV0eV9kaXNwYXRjaHxkZXB1dHlfd29ya2VyfGFjdGl2ZV9wdXNoZXIiIHwgZ3JlcCAtdiBncmVwCmBgYAoqKuS/ruWkjSoq77yaYGJhc2ggL29wdC9kYXRhL3NlY3JldGFyeS9sYXVuY2hfZGFlbW9ucy5zaCBzdGFydGAKCiMjIyBCdWczOiByZXN1bHRfYm9hcmTmrbvoioLngrkKKirnjrDosaEqKu+8mmB7InJlc3VsdHMiOltdLCJsYXN0X3VwZGF0ZWQiOiIifWAg5LuO5pyq6KKr5YaZ5YWlCioq6K+K5patKirvvJrnm7TmjqXor7vmlofku7bnnIvmnaHmlbAKYGBgYmFzaApweXRob24zIC1jICIKaW1wb3J0IGpzb24Kd2l0aCBvcGVuKCcvb3B0L2RhdGEvc2VjcmV0YXJ5L3Jlc3VsdF9ib2FyZC5qc29uJykgYXMgZjoKICAgIGQgPSBqc29uLmxvYWQoZikKcHJpbnQoZifnu5PmnpzmlbA6IHtsZW4oZC5nZXQoXCJyZXN1bHRzXCIsW10pKX0nKQoiCmBgYAoqKuS/ruWkjSoq77ya5ZyoIGBkZXB1dHlfd29ya2VyLnB5YCDnmoTku7vliqHlrozmiJDpgLvovpHph4zvvIzliqDkuIrlhplyZXN1bHRfYm9hcmTnmoTku6PnoIEKCiMjIyBCdWc0OiBsYXVuY2hfZGFlbW9ucy5zaOWQr+WKqOW6n+W8g+i/m+eoiwoqKueOsOixoSoq77yaYGRlcHV0eV9yZXN1bHQucHlgIOW3suagh+azqOW6n+W8g++8jOS7jeWcqOWQr+WKqOWIl+ihqAoqKuiviuaWrSoq77ya55yLbGF1bmNoZXLml6Xlv5fph4xkZXB1dHlfcmVzdWx05piv5ZCm5ZCv5Yqo5aSx6LSlCioq5L+u5aSNKirvvJrmioogYERBRU1PTlNgIOaVsOe7hOmHjOeahCBgZGVwdXR5X3Jlc3VsdC5weWAg5o2i5oiQIGBhY3RpdmVfcHVzaGVyLnB5YAoKIyMjIEJ1ZzU6IOelnue7j+e9kee7nGxhc3RfZ3Jvd+S4jeabtOaWsAoqKueOsOixoSoq77yaYGxhc3RfZ3Jvd2Ag5pe26Ze05oiz5YGc5Zyo5Y2B5Yeg5aSp5YmNCioq5qC55ZugKirvvJpgZ3Jvd19uZXR3b3JrKClgIOWcqCBgdG90YWxfYWN0aXZhdGlvbnMgPT0gMGAg5pe25pep6YCA77yI56ysMTA3MuihjO+8ie+8jOi3s+i/h+esrDXmraXlhYPmlbDmja7mm7TmlrAKKiror4rmlq0qKu+8mgpgYGBiYXNoCnB5dGhvbjMgLWMgIgppbXBvcnQganNvbgp3aXRoIG9wZW4oJy9vcHQvZGF0YS9icmFpbi9uZXVyYWwvY29ubmVjdGlvbnMuanNvbicpIGFzIGY6CiAgICBkID0ganNvbi5sb2FkKGYpCm1ldGEgPSBkLmdldCgnX21ldGEnLCB7fSkKcHJpbnQoZidsYXN0X2dyb3c6IHttZXRhLmdldChcImxhc3RfZ3Jvd1wiLFwi5pegXCIpfScpCiIKYGBgCioq5L+u5aSNKirvvJrlnKjml6npgIDliIbmlK/ph4zkuZ/lhpnlhaXlhYPmlbDmja7vvIjnrKw15q2l77yJ77yM5L+d5oyBbGFzdF9ncm936bKc5rS7CgojIyDlv6vpgJ/pqozor4Hlkb3ku6TvvIg25Liq77yJCmBgYGJhc2gKIyAxLiBEYWVtb27ov5vnqIsKcHMgYXV4IHwgZ3JlcCAtRSAiZGVwdXR5X2Rpc3BhdGNofGRlcHV0eV93b3JrZXJ8YWN0aXZlX3B1c2hlciIgfCBncmVwIC12IGdyZXAKCiMgMi4g5rS+5bel5p2/54q25oCBCnB5dGhvbjMgLWMgIgppbXBvcnQganNvbjsgZD1qc29uLmxvYWQob3BlbignL29wdC9kYXRhL3NlY3JldGFyeS9kaXNwYXRjaF9ib2FyZC5qc29uJykpCnQ9W3ggZm9yIHggaW4gZC5nZXQoJ3Rhc2tzJyxbXSkgaWYgeC5nZXQoJ3N0YXR1cycpPT0ncGVuZGluZyddCnByaW50KGYncGVuZGluZ+S7u+WKoToge2xlbih0KX0nKQoiCgojIDMuIHJlc3VsdF9ib2FyZApweXRob24zIC1jICIKaW1wb3J0IGpzb247IGQ9anNvbi5sb2FkKG9wZW4oJy9vcHQvZGF0YS9zZWNyZXRhcnkvcmVzdWx0X2JvYXJkLmpzb24nKSkKcHJpbnQoZifnu5PmnpzmlbA6IHtsZW4oZC5nZXQoXCJyZXN1bHRzXCIsW10pKX0sIOabtOaWsDoge2QuZ2V0KFwibGFzdF91cGRhdGVkXCIsXCLml6BcIil9JykKIgoKIyA0LiDnpZ7nu4/nvZHnu5wKcHl0aG9uMyAtYyAiCmltcG9ydCBqc29uOyBkPWpzb24ubG9hZChvcGVuKCcvb3B0L2RhdGEvYnJhaW4vbmV1cmFsL2Nvbm5lY3Rpb25zLmpzb24nKSkKbT1kLmdldCgnX21ldGEnLHt9KTsgcHJpbnQoZidsYXN0X2dyb3c6IHttLmdldChcImxhc3RfZ3Jvd1wiLFwi5pegXCIpfScpCiIKCiMgNS4gY29ubmVjdGlvbnPovrnmlbAKcHl0aG9uMyAtYyAiCmltcG9ydCBqc29uOyBkPWpzb24ubG9hZChvcGVuKCcvb3B0L2RhdGEvYnJhaW4vbmV1cmFsL2Nvbm5lY3Rpb25zLmpzb24nKSkKcHJpbnQoZifovrnmlbA6IHtzdW0obGVuKHYpIGZvciB2IGluIGQuZ2V0KFwiY29ubmVjdGlvbnNcIix7fSkudmFsdWVzKCkpfScpCiIKCiMgNi4gY3JvbuS7u+WKoQpiYXNoIC9vcHQvZGF0YS9zZWNyZXRhcnkvbGF1bmNoX2RhZW1vbnMuc2ggc3RhdHVzCmBgYAoKIyMg5p625p6E5pWZ6K6tCi0gZGlzcGF0Y2hfYm9hcmTnmoTlhpnlhaXmlrkoZGVwdXR5X2Rpc3BhdGNoKeWSjOivu+WPluaWuShkZXB1dHlfd29ya2VyKeW/hemhu+eUqOWQjOS4gOWll+aVsOaNruaooeWeiwotIERhZW1vbui/m+eoi+W/hemhu+aciei/m+eoi+ebkeaOpyvoh6rliqjph43lkK8KLSByZXN1bHRfYm9hcmTmmK/lv4XpobvmiZPpgJrnmoToioLngrnvvIzkuI3og73mmK/mrbvmlbDmja4KLSDlup/lvIPov5vnqIvopoHlj4rml7bku47lkK/liqjohJrmnKznp7vpmaQK
+---
+name: secretary-system-full-diagnostic
+description: V1秘书处系统全面诊断与修复——派工板格式/结果板/Daemon进程/神经网络/器官系统端到端排查，2026-06-21实操固化。
+tags: [secretary, V1, daemon, dispatch-board, brain]
+created: 2026-06-21
+---
+
+# V1秘书处系统全面诊断工作流
+
+## 触发场景
+- 派工任务写进去但没人处理
+- result_board永远是空的
+- Daemon进程状态不明
+- 神经网络16天没更新
+- 系统全面体检
+
+## 诊断范围（按优先级）
+
+### P0 必须查
+1. **派工板格式** — `dispatch_board.json` 的 `tasks[]` vs `pending[]` 割裂问题
+2. **Daemon进程** — `ps aux | grep deputy` 是否存活
+3. **result_board** — 是否有真实内容写入
+4. **派工链路端到端** — 写入→认领→执行→结果写回→推送
+
+### P1 例行查
+5. **神经网络** — `last_grow` 时间戳是否新鲜
+6. **launch_daemons.sh** — 是否还在启动废弃的 `deputy_result.py`
+7. **6个秘书子目录** — 是否只有空壳run.py
+
+## 关键文件路径
+```
+/opt/data/secretary/
+├── dispatch_board.json      # 派工板（写入方）
+├── result_board.json       # 结果板（执行器写回）
+├── deputy_dispatch.py      # 派工调度Daemon
+├── deputy_worker.py        # 任务执行Daemon
+├── active_pusher.py        # 结果推送Daemon（替换废弃的deputy_result.py）
+└── launch_daemons.sh       # 启动脚本
+```
+
+## 已知Bug模式（记住）
+
+### Bug1: 派工板格式割裂（最高频）
+**现象**：任务写进dispatch_board但永远pending无人处理
+**根因**：`dispatch_board.json` 有两套数据结构共存
+- `tasks[]` — 实际有任务，`status="pending"`
+- `pending[]` — 永远是空的
+- `deputy_dispatch.py` 写入 `tasks[]`，但 `deputy_worker.py` 轮询 `pending[]`，永远匹配不到
+
+**诊断命令**：
+```bash
+python3 -c "
+import json
+with open('/opt/data/secretary/dispatch_board.json') as f:
+    d = json.load(f)
+tasks = d.get('tasks', [])
+pending = d.get('pending', [])
+print(f'tasks: {len(tasks)}, pending: {len(pending)}')
+for t in tasks:
+    if t.get('status') == 'pending':
+        print(f'  task {t.get(\"id\")} 在tasks里但status=pending')
+"
+```
+
+**修复**：改 `deputy_worker.py` 的匹配逻辑，从 `pending[]` 改为 `tasks[]` 中 `status="pending" AND claimed_by is None`
+
+### Bug2: Daemon全死
+**现象**：ps没进程但PID文件还在
+**诊断**：
+```bash
+ps aux | grep -E "deputy_dispatch|deputy_worker|active_pusher" | grep -v grep
+```
+**修复**：`bash /opt/data/secretary/launch_daemons.sh start`
+
+### Bug3: result_board死节点
+**现象**：`{"results":[],"last_updated":""}` 从未被写入
+**诊断**：直接读文件看条数
+```bash
+python3 -c "
+import json
+with open('/opt/data/secretary/result_board.json') as f:
+    d = json.load(f)
+print(f'结果数: {len(d.get(\"results\",[]))}')
+"
+```
+**修复**：在 `deputy_worker.py` 的任务完成逻辑里，加上写result_board的代码
+
+### Bug4: launch_daemons.sh启动废弃进程
+**现象**：`deputy_result.py` 已标注废弃，仍在启动列表
+**诊断**：看launcher日志里deputy_result是否启动失败
+**修复**：把 `DAEMONS` 数组里的 `deputy_result.py` 换成 `active_pusher.py`
+
+### Bug5: 神经网络last_grow不更新
+**现象**：`last_grow` 时间戳停在十几天前
+**根因**：`grow_network()` 在 `total_activations == 0` 时早退（第1072行），跳过第5步元数据更新
+**诊断**：
+```bash
+python3 -c "
+import json
+with open('/opt/data/brain/neural/connections.json') as f:
+    d = json.load(f)
+meta = d.get('_meta', {})
+print(f'last_grow: {meta.get(\"last_grow\",\"无\")}')
+"
+```
+**修复**：在早退分支里也写入元数据（第5步），保持last_grow鲜活
+
+## 快速验证命令（6个）
+```bash
+# 1. Daemon进程
+ps aux | grep -E "deputy_dispatch|deputy_worker|active_pusher" | grep -v grep
+
+# 2. 派工板状态
+python3 -c "
+import json; d=json.load(open('/opt/data/secretary/dispatch_board.json'))
+t=[x for x in d.get('tasks',[]) if x.get('status')=='pending']
+print(f'pending任务: {len(t)}')
+"
+
+# 3. result_board
+python3 -c "
+import json; d=json.load(open('/opt/data/secretary/result_board.json'))
+print(f'结果数: {len(d.get(\"results\",[]))}, 更新: {d.get(\"last_updated\",\"无\")}')
+"
+
+# 4. 神经网络
+python3 -c "
+import json; d=json.load(open('/opt/data/brain/neural/connections.json'))
+m=d.get('_meta',{}); print(f'last_grow: {m.get(\"last_grow\",\"无\")}')
+"
+
+# 5. connections边数
+python3 -c "
+import json; d=json.load(open('/opt/data/brain/neural/connections.json'))
+print(f'边数: {sum(len(v) for v in d.get(\"connections\",{}).values())}')
+"
+
+# 6. cron任务
+bash /opt/data/secretary/launch_daemons.sh status
+```
+
+## 架构教训
+- dispatch_board的写入方(deputy_dispatch)和读取方(deputy_worker)必须用同一套数据模型
+- Daemon进程必须有进程监控+自动重启
+- result_board是必须打通的节点，不能是死数据
+- 废弃进程要及时从启动脚本移除

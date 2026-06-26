@@ -1,1 +1,47 @@
-LS0tCm5hbWU6IHYwMTYtYXV0by1yZXN0YXJ0LWZpeApkZXNjcmlwdGlvbjogVjAxNiBHYXRld2F56Ieq5Yqo6YeN5ZCv6Zeu6aKY55qE5qC55Zug6K+K5pat5LiO5L+u5aSNCnRyaWdnZXJzOgogIC0gVjAxNuiHquWKqOmHjeWQrwogIC0gVjE25LiA55u06YeN5ZCvCiAgLSBnYXRld2F55LiN5pat6YeN5ZCvCiAgLSBoZXJtZXMtdjAxNiByZXN0YXJ0IGxvb3AKLS0tCgojIFYwMTYg6Ieq5Yqo6YeN5ZCv5L+u5aSNCgojIyDnl4fnirYKVjAxNiBHYXRld2F5IOS4jeaWreaUtuWIsCBTSUdURVJNIOeEtuWQjuiiqyBTeXN0ZW1kL0RvY2tlciDoh6rliqjmi4notbfvvIzml6Xlv5fmmL7npLrvvJoKYGBgClJlY2VpdmVkIFNJR1RFUk0g4oCUIGluaXRpYXRpbmcgc2h1dGRvd24KRXhpdGluZyB3aXRoIGNvZGUgMSAoc2lnbmFsLWluaXRpYXRlZCBzaHV0ZG93biB3aXRob3V0IHJlc3RhcnQgcmVxdWVzdCkKc28gc3lzdGVtZCBSZXN0YXJ0PW9uLWZhaWx1cmUgY2FuIHJldml2ZSB0aGUgZ2F0ZXdheS4KYGBgCgojIyDmoLnlm6AKYGRvY2tlci1jb21wb3NlLnlhbWxgIOmHjOmFjee9ruS6hiBgcmVzdGFydDogdW5sZXNzLXN0b3BwZWRg77yMTkFTIERvY2tlciDlrojmiqTnrZbnlaXkvJroh6rliqjmi4notbflrrnlmajjgIIKCiMjIOS/ruWkjQoK5om+5YiwIGRvY2tlci1jb21wb3NlLnlhbWzvvJoKYGBgYmFzaApmaW5kIC92b2x1bWUxL2RvY2tlciAtbmFtZSAiZG9ja2VyLWNvbXBvc2UqLnltbCIKYGBgCgrmioogYHJlc3RhcnQ6IHVubGVzcy1zdG9wcGVkYCDmlLnmiJAgYHJlc3RhcnQ6ICJubyJg77yIZ2F0ZXdheSDlkowgZGFzaGJvYXJkIOS4pOS4quacjeWKoemDveimgeaUue+8iQoK54S25ZCO6K6p5a655Zmo5b275bqV5YGc5LiL77yaCmBgYGJhc2gKY2QgL3ZvbHVtZTEvZG9ja2VyL2hlcm1lcy3mlofku7bot6/lvoQvaGVybWVzMDE2ICYmIGRvY2tlciBjb21wb3NlIGRvd24KYGBgCgojIyDlhbPplK7mlofku7YKLSBgL3ZvbHVtZTEvZG9ja2VyL2hlcm1lcy3mlofku7bot6/lvoQvaGVybWVzMDE2L2RvY2tlci1jb21wb3NlLnlhbWxgCgojIyDpqozor4EKLSBgZG9ja2VyIHBzYCDnoa7orqTmsqHmnIkgaGVybWVzLXYwMTYg5a655Zmo5Zyo6LeRCi0g5pel5b+X5LiN5YaN5pyJ5paw5p2h55uuCgojIyDms6jmhI8KLSDlgZzlrrnlmajlkI7kuI3kvJroh6rliqjmi4notbcKLSDpnIDopoHmiYvliqggYGRvY2tlciBjb21wb3NlIHVwIC1kYCDlkK/liqgK
+---
+name: v016-auto-restart-fix
+description: V016 Gateway自动重启问题的根因诊断与修复
+triggers:
+  - V016自动重启
+  - V16一直重启
+  - gateway不断重启
+  - hermes-v016 restart loop
+---
+
+# V016 自动重启修复
+
+## 症状
+V016 Gateway 不断收到 SIGTERM 然后被 Systemd/Docker 自动拉起，日志显示：
+```
+Received SIGTERM — initiating shutdown
+Exiting with code 1 (signal-initiated shutdown without restart request)
+so systemd Restart=on-failure can revive the gateway.
+```
+
+## 根因
+`docker-compose.yaml` 里配置了 `restart: unless-stopped`，NAS Docker 守护策略会自动拉起容器。
+
+## 修复
+
+找到 docker-compose.yaml：
+```bash
+find /volume1/docker -name "docker-compose*.yml"
+```
+
+把 `restart: unless-stopped` 改成 `restart: "no"`（gateway 和 dashboard 两个服务都要改）
+
+然后让容器彻底停下：
+```bash
+cd /volume1/docker/hermes-文件路径/hermes016 && docker compose down
+```
+
+## 关键文件
+- `/volume1/docker/hermes-文件路径/hermes016/docker-compose.yaml`
+
+## 验证
+- `docker ps` 确认没有 hermes-v016 容器在跑
+- 日志不再有新条目
+
+## 注意
+- 停容器后不会自动拉起
+- 需要手动 `docker compose up -d` 启动

@@ -1,1 +1,86 @@
-LS0tCm5hbWU6IHBncmVwLWNyb24tZmFsc2UtcG9zaXRpdmUtZml4CnZlcnNpb246ICIyMDI2LTA2LTAzIgp0YWdzOiBbY3JvbiwgcGdyZXAsIHByb2Nlc3MtZGV0ZWN0aW9uLCB3YXRjaGRvZywgZGVidWdnaW5nXQp0cmlnZ2VyOiBjcm9uL3dhdGNoZXLohJrmnKzor6/miqXov5vnqIvlrZjmtLvvvIzmiJZwZ3JlcOe7k+aenOS4jnBzIGF1eOS4jeS4gOiHtAotLS0KCiMgcGdyZXAg5ZyoIENyb24g546v5aKD5LiL55qE6K+v5oql6Zm36Zix5LiO5L+u5aSNCgojIyDmoLjlv4Ppl67popgKCuWcqCBjcm9uIOiwg+W6pueOr+Wig+S4re+8jGBwZ3JlcCAtZiAicHJvY2Vzc19uYW1lLnB5ImAg5LyaKirljLnphY0gY3JvbiBzaGVsbCDlkb3ku6TmnKzouqsqKu+8jOWboOS4uiBjcm9uIHdyYXBwZXIg55qE5ZG95Luk5YyF5ZCr6ISa5pys6Lev5b6E5a2X56ym5Liy77yaCgpgYGBiYXNoCiMgY3JvbiDlrp7pmYXmiafooYznmoQgc2hlbGwg5ZG95Luk77yaCmJhc2ggLWMgJy4uLiBwZ3JlcCAtZiAiZGVwdXR5X2Rpc3BhdGNoLnB5IiAuLi4nCgojIHBncmVwIC1mIOS8muWMuemFjeWIsOS4iumdoui/meaVtOihjCBiYXNoIC1jIOWRveS7pO+8iOWug+WMheWQqyAiZGVwdXR5X2Rpc3BhdGNoLnB5IiDlrZfnrKbkuLLvvIkKYGBgCgrov5nlr7zoh7TvvJoKLSAqKuivr+aKpeS4uuWtmOa0uyoq77yac2hlbGwg5ZG95Luk5a2X6Z2i6YeP6KKr5b2T5L2c6L+b56iLCi0gKirmo4DmtYvlpLHmlYgqKu+8muWmguaenOiEmuacrOWQjeaBsOWlveiiq+aOkumZpO+8jOWPjeiAjOa8j+aKpQoKIyMg5L+u5aSN5pa55qGI77yIM+Wxgui/h+a7pO+8iQoKYGBgcHl0aG9uCmltcG9ydCBzdWJwcm9jZXNzLCBvcwoKZGVmIGlzX3J1bm5pbmcobmFtZTogc3RyKSAtPiBib29sOgogICAgcGF0dGVybiA9IGYie25hbWV9LnB5IgogICAgciA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgIFsicGdyZXAiLCAiLWEiLCAiLWYiLCBwYXR0ZXJuXSwKICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUKICAgICkKICAgIGZvciBsaW5lIGluIHIuc3Rkb3V0LnN0cmlwKCkuc3BsaXQoIlxuIik6CiAgICAgICAgaWYgbm90IGxpbmUuc3RyaXAoKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBwaWRfc3RyID0gbGluZS5zcGxpdCgpWzBdCiAgICAgICAgdHJ5OgogICAgICAgICAgICBwaWQgPSBpbnQocGlkX3N0cikKICAgICAgICBleGNlcHQgKFZhbHVlRXJyb3IsIEluZGV4RXJyb3IpOgogICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAjIOaOkumZpDHvvJroh6rouqtQSUTvvIh3YXRjaGRvZyDoh6rouqvvvIkKICAgICAgICBpZiBwaWQgPT0gb3MuZ2V0cGlkKCk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgIyDmjpLpmaQy77ya54i2c2hlbGzov5vnqIvvvIhjcm9uIHdyYXBwZXIgYmFzaO+8iQogICAgICAgIGlmIHBpZCA9PSBvcy5nZXRwcGlkKCk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgIyDmjpLpmaQz77ya5YyF5ZCrIC1jIOaIliBzb3VyY2Ug55qEIGNyb24gc2hlbGwg5ZG95Luk6KGMCiAgICAgICAgaWYgIiAtYyAiIGluIGxpbmUgb3IgbGluZS5zdGFydHN3aXRoKCJiYXNoIikgb3IgInNvdXJjZSAiIGluIGxpbmU6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgIyDnoa7orqTlv4XpobvmmK8gcHl0aG9uIOi/m+eoiwogICAgICAgIGlmICJweXRob24iIGluIGxpbmUubG93ZXIoKSBhbmQgcGF0dGVybiBpbiBsaW5lOgogICAgICAgICAgICByZXR1cm4gVHJ1ZQogICAgcmV0dXJuIEZhbHNlCmBgYAoKIyMg6aqM6K+B5ZG95LukCgpgYGBiYXNoCiMg5a+55q+U5rWL6K+V77yacGdyZXAgdnMg55yf5a6e6L+b56iLCnBncmVwIC1hIC1mICJkZXB1dHlfd29ya2VyLnB5IiB8IGdyZXAgLXYgZ3JlcAoKIyDlupTor6Xlj6rnnIvliLAgcHl0aG9uIOi/m+eoi++8jOS4jeW6lOaciSBiYXNoIC1jIOihjApgYGAKCiMjIOWFs+mUruaVmeiurQoKfCDplJnor6/mlrnms5UgfCDpl67popggfAp8LS0tLS0tLS0tfC0tLS0tLXwKfCBgcGdyZXAgLWYgcGF0dGVybmAg55u05o6l55SoIHwg5Yy56YWNIGNyb24gc2hlbGwg5ZG95Luk5pys6Lqr77yI5ZG95Luk6YeM5YyF5ZCrIHBhdHRlcm4g5a2X56ym5Liy77yJfAp8IGBwcyBhdXggXHwgZ3JlcCBwYXR0ZXJuIFx8IGdyZXAgLXYgZ3JlcGAgfCDlkIzmoLfkvJrljLnphY0gc2hlbGwg5ZG95Luk5Lit55qE5a2X6Z2i6YePIHwKfCDor7vplIHmlofku7YgYC90bXAvKi5sb2NrYCB8IGRhZW1vbiDmnKrmraPnoa7lhpnplIHml7blrozlhajlpLHmlYggfAoKfCDmraPnoa7mlrnms5UgfCDor7TmmI4gfAp8LS0tLS0tLS0tfC0tLS0tLXwKfCBgcGdyZXAgLWEgLWYgcGF0dGVybmAgKyBQSUTov4fmu6QgfCDmnIDlj6/pnaDvvIzmjpLpmaToh6rouqvlkozniLbov5vnqIsgfAp8IGBwcyBhdXh3dyBcfCBncmVwICJbeF1wYXR0ZXJuImAgfCBbeF0g5oqA5ben5Zyo566h6YGT5qih5byP5LiL5pyJ5pWIIHwKCiMjIOW6lOeUqOWcuuaZrwoKLSDnp5jkuablpIQgd2F0Y2hkb2cg6ISa5pys77yI5q+PNeWIhumSn+ajgOafpSBkYWVtb24g5a2Y5rS777yJCi0gY3JvbiDosIPnlKjnmoTov5vnqIvoh6rmhIjohJrmnKwKLSDku7vkvZXpgJrov4cgY3Jvbi9hZ2VudCDosIPluqbmo4DmtYvlhbbku5bov5vnqIvmmK/lkKblrZjmtLvnmoTlnLrmma8K
+---
+name: pgrep-cron-false-positive-fix
+version: "2026-06-03"
+tags: [cron, pgrep, process-detection, watchdog, debugging]
+trigger: cron/watcher脚本误报进程存活，或pgrep结果与ps aux不一致
+---
+
+# pgrep 在 Cron 环境下的误报陷阱与修复
+
+## 核心问题
+
+在 cron 调度环境中，`pgrep -f "process_name.py"` 会**匹配 cron shell 命令本身**，因为 cron wrapper 的命令包含脚本路径字符串：
+
+```bash
+# cron 实际执行的 shell 命令：
+bash -c '... pgrep -f "deputy_dispatch.py" ...'
+
+# pgrep -f 会匹配到上面这整行 bash -c 命令（它包含 "deputy_dispatch.py" 字符串）
+```
+
+这导致：
+- **误报为存活**：shell 命令字面量被当作进程
+- **检测失效**：如果脚本名恰好被排除，反而漏报
+
+## 修复方案（3层过滤）
+
+```python
+import subprocess, os
+
+def is_running(name: str) -> bool:
+    pattern = f"{name}.py"
+    r = subprocess.run(
+        ["pgrep", "-a", "-f", pattern],
+        capture_output=True, text=True
+    )
+    for line in r.stdout.strip().split("\n"):
+        if not line.strip():
+            continue
+        pid_str = line.split()[0]
+        try:
+            pid = int(pid_str)
+        except (ValueError, IndexError):
+            continue
+
+        # 排除1：自身PID（watchdog 自身）
+        if pid == os.getpid():
+            continue
+        # 排除2：父shell进程（cron wrapper bash）
+        if pid == os.getppid():
+            continue
+        # 排除3：包含 -c 或 source 的 cron shell 命令行
+        if " -c " in line or line.startswith("bash") or "source " in line:
+            continue
+        # 确认必须是 python 进程
+        if "python" in line.lower() and pattern in line:
+            return True
+    return False
+```
+
+## 验证命令
+
+```bash
+# 对比测试：pgrep vs 真实进程
+pgrep -a -f "deputy_worker.py" | grep -v grep
+
+# 应该只看到 python 进程，不应有 bash -c 行
+```
+
+## 关键教训
+
+| 错误方法 | 问题 |
+|---------|------|
+| `pgrep -f pattern` 直接用 | 匹配 cron shell 命令本身（命令里包含 pattern 字符串）|
+| `ps aux \| grep pattern \| grep -v grep` | 同样会匹配 shell 命令中的字面量 |
+| 读锁文件 `/tmp/*.lock` | daemon 未正确写锁时完全失效 |
+
+| 正确方法 | 说明 |
+|---------|------|
+| `pgrep -a -f pattern` + PID过滤 | 最可靠，排除自身和父进程 |
+| `ps auxww \| grep "[x]pattern"` | [x] 技巧在管道模式下有效 |
+
+## 应用场景
+
+- 秘书处 watchdog 脚本（每5分钟检查 daemon 存活）
+- cron 调用的进程自愈脚本
+- 任何通过 cron/agent 调度检测其他进程是否存活的场景

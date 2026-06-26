@@ -1,1 +1,95 @@
-IyDmioDog73lkI3np7AKbXVsdGktaW5zdGFuY2Utc2tpbGxzLXNoYXJlCgojIOinpuWPkeWcuuaZrwrku7vkvZXmtonlj4rlpJpBZ2VudOWunuS+iy/lrZDku6PnkIYv5YiG6Lqr5YWx5Lqrc2tpbGxz5bqT55qE5Zy65pmv77yaCi0g5ZCv5Yqo5paw5a2Q5Luj55CGL+WIhui6q+S7u+WKoQotIOivhOS8sOWIhui6q+mXtHNraWxsc+S4gOiHtOaApwotIOS8mOWMlnNraWxsc+WQjOatpeacuuWItgotIOiuvuiuoeaWsOeahOWIhui6q+aetuaehAoKIyDmoLjlv4PmnrbmnoQKCiMjIOW9k+WJjemXrumimArlrZDku6PnkIYoc3ViYWdlbnQp6ZqU56a75LiK5LiL5paH77yM5LiN55+l6YGT5Y675ZOq6K+7c2tpbGxz5bqT77yM5a+86Ie05q+P5Liq5a2Q5Luj55CG5ZCE6Ieq5Li65oiY77yM5peg5rOV5aSN55So5bey5pyJc2tpbGzjgIIKCiMjIOino+WGs+aWueahiO+8muWFseS6q3NraWxsc+W6kwrmiYDmnInlrp7kvovlhbHnlKjlkIzkuIDkuKrniannkIbnm67lvZUgYC9vcHQvZGF0YS9za2lsbHMvYO+8mgoKYGBgCi9vcHQvZGF0YS9za2lsbHMvICAgICAgICAgICDihpAg5YWx5Lqrc2tpbGxz5bqT77yI5omA5pyJ5a6e5L6L5ZCM5LiA54mp55CG6Lev5b6E77yJCiAg4pSc4pSA4pSAIGtub3dsZWRnZS8gICAgICAgICAgICDihpAg55+l6K+G57G7c2tpbGxz77yIOTXkuKrvvIkKICDilJzilIDilIAgc3lzdGVtLyAgICAgICAgICAgICAgIOKGkCDns7vnu5/nsbtza2lsbHPvvIgxMTHkuKrvvIkKICDilJzilIDilIAgd29ya2Zsb3cvICAgICAgICAgICAgIOKGkCDlt6XkvZzmtYFza2lsbHPvvIgzMOS4qu+8iQogIOKUnOKUgOKUgCBicmFpbi8gICAgICAgICAgICAgICAg4oaQIOWkp+iEkeexu3NraWxsc++8iDIz5Liq77yJCiAg4pSU4pSA4pSAIC4uLiAgICAgICAgICAgICAgICAgICDihpAg5YW25LuW5YiG57G7CgrkuLvlrp7kvovvvIhQSUQgMe+8iSAgICAgICAgICAgICDlrZDku6PnkIbvvIhkZWxlZ2F0ZV90YXNr77yJICAgICAgICAg56eY5Lmm5aSE5a6I5oqk6L+b56iLCi9oZXJtZXMvZ2F0ZXdheS9ydW4ucHkgICAgICAvaGVybWVzL3Rvb2xzL2RlbGVnYXRlX3Rvb2wucHkgIC9vcHQvZGF0YS9zY3JpcHRzL3NlY3JldGFyeV9kYWVtb24ucHkKICAgIOKGkyAgICAgICAgICAgICAgICAgICAgICAgICAgICDihpMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDihpMKZ2V0X3NraWxsc19kaXIoKSDihpIgL29wdC9kYXRhL3NraWxscy8g4oaQIOKGkCDihpAg4oaQIOKGkCDihpAg4oaQIOKGkCDihpAg4oaQIOKGkAogICAg5omA5pyJ6L+b56iL6K+75ZCM5LiA55uu5b2V77yM5aSp54S25YWx5LqrCmBgYAoKIyMg5YWz6ZSu5pS55Yqo6K6w5b2V77yIMjAyNi0wNi0wOe+8iQoKIyMjIDEuIOWtkOS7o+eQhnN5c3RlbSBwcm9tcHTms6jlhaUK5paH5Lu277yaYC9vcHQvaGVybWVzL3Rvb2xzL2RlbGVnYXRlX3Rvb2wucHlgCgrmlLnliqjvvJrlnKggYF9idWlsZF9jaGlsZF9zeXN0ZW1fcHJvbXB0KClgIOWHveaVsOmHjOazqOWFpXNraWxsc+i3r+W+hOS/oeaBr+OAggoK5a2Q5Luj55CG546w5Zyo5pS25Yiw55qEc3lzdGVtIHByb21wdOacq+WwvuWMheWQq++8mgpgYGAKU0tJTExTIExJQlJBUlkgUEFUSDoKL29wdC9kYXRhL3NraWxscwpZb3VyIHN5c3RlbSBoYXMgYSBzaGFyZWQgc2tpbGxzIGxpYnJhcnkgYXQgdGhpcyBwYXRoLiBCZWZvcmUgc3RhcnRpbmcsIGNoZWNrIGlmIHRoZXJlJ3MgYSByZWxldmFudCBza2lsbCBmb3IgeW91ciB0YXNrOgogIDEuIFVzZSBza2lsbHNfbGlzdCgpIHRvIGJyb3dzZSBhdmFpbGFibGUgc2tpbGxzCiAgMi4gVXNlIHNraWxsX3ZpZXcobmFtZT0neHh4JykgdG8gbG9hZCBhIHNwZWNpZmljIHNraWxsIGFuZCBmb2xsb3cgaXRzIGluc3RydWN0aW9ucwogIDMuIFNraWxscyBhcmUgb3JnYW5pemVkIGJ5IGNhdGVnb3J5IChrbm93bGVkZ2UvLCBzeXN0ZW0vLCB3b3JrZmxvdy8sIGV0Yy4pCiAgNC4gUHJlZmVyIHVzaW5nIGV4aXN0aW5nIHNraWxscyBvdmVyIGltcHJvdmlzaW5nIC0tIHRoZXkgZW5jb2RlIHByb3ZlbiB3b3JrZmxvd3MKYGBgCgrmlYjmnpzvvJrlrZDku6PnkIbnn6XpgZPljrvlk6ror7tza2lsbO+8jOiDveS4u+WKqOiwg+eUqCBgc2tpbGxfdmlldygpYCDliqDovb3nibnlrppza2lsbOaJp+ihjOS7u+WKoeOAggoKIyMjIDIuIOS4u+WunuS+i3NraWxsc+i3r+W+hArot6/lvoTvvJpgL29wdC9kYXRhL3NraWxscy9g77yI55SxIGBoZXJtZXNfY29uc3RhbnRzLmdldF9za2lsbHNfZGlyKClgIOi/lOWbnu+8iQrphY3nva7vvJpgY29uZmlnLnlhbWxgIOmHjCBgc2tpbGxzLmV4dGVybmFsX2RpcnM6IFtdYO+8iOepuiA9IOWPquivu+WGhee9ruebruW9le+8iQoKIyMg5a6e5L6L57G75Z6L5LiOc2tpbGxz6K6/6ZeuCgp8IOWunuS+i+exu+WeiyB8IOWQr+WKqOaWueW8jyB8IHNraWxsc+iuv+mXruaWueW8jyB8IOWkh+azqCB8CnwtLS0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLXwtLS0tLS18Cnwg5Li75a6e5L6L77yIZ2F0ZXdhee+8iSB8IGhlcm1lcyBnYXRld2F5IHJ1biB8IGdldF9za2lsbHNfZGlyKCkg4oaSIC9vcHQvZGF0YS9za2lsbHMvIHwg55u05o6l6K+7IHwKfCDlrZDku6PnkIbvvIhkZWxlZ2F0Ze+8iSB8IGRlbGVnYXRlX3Rhc2sgdG9vbCB8IHN5c3RlbSBwcm9tcHTms6jlhaXot6/lvoQgKyBza2lsbF92aWV3KCkgfCAyMDI2LTA2LTA55L+u5aSNIHwKfCDnp5jkuablpITlrojmiqTov5vnqIsgfCBQeXRob24gZGFlbW9uIHwg6K+7IC9vcHQvZGF0YS9za2lsbHMvIHwg6ZyA6aqM6K+B5piv5ZCm5Li75Yqo55Soc2tpbGxzIHwKfCBPbGxhbWHmnKzlnLDmqKHlnosgfCBBUEnosIPnlKggfCDkuI3nm7TmjqXor7tza2lsbHMgfCDpgJrov4fmiJHvvIjkuLvlrp7kvovvvInpl7TmjqXosIPnlKhza2lsbCB8CgojIyDlhbHkuqvmnLrliLbljp/nkIYKTkFT5LiK5omA5pyJ6L+b56iL5YWx55So5ZCM5LiA5Liq5paH5Lu257O757uf5ZG95ZCN56m66Ze077yaCi0gYC9vcHQvZGF0YS9gIOaYr05BU+aMgeS5heWMluWtmOWCqOi3r+W+hAotIOaXoOiuuuWTquS4qui/m+eoi++8iOS4u+WunuS+iy/lrZDku6PnkIYv5a6I5oqk6L+b56iL77yJ77yM6K6/6ZeuIGAvb3B0L2RhdGEvc2tpbGxzL2Ag55yL5Yiw5ZCM5LiA5aWX5paH5Lu2Ci0g5peg6ZyA6aKd5aSW5ZCM5q2l5py65Yi277yM5aSp54S25YWx5LqrCgojIyDpqozor4Hmlrnms5UKYGBgYmFzaAojIDEuIOmqjOivgeS4u+WunuS+i+iDveivu3NraWxscwpoZXJtZXMgc2tpbGxzIGxpc3QKCiMgMi4g6aqM6K+B5a2Q5Luj55CGc3lzdGVtIHByb21wdOWMheWQq3NraWxsc+i3r+W+hApncmVwIC1uICJTS0lMTFMgTElCUkFSWSBQQVRIIiAvb3B0L2hlcm1lcy90b29scy9kZWxlZ2F0ZV90b29sLnB5CgojIDMuIOmqjOivgeivreazleato+ehrgovb3B0L2hlcm1lcy8udmVudi9iaW4vcHl0aG9uIC1jICJmcm9tIHRvb2xzLmRlbGVnYXRlX3Rvb2wgaW1wb3J0IF9idWlsZF9jaGlsZF9zeXN0ZW1fcHJvbXB0OyBwcmludCgnT0snKSIKYGBgCgojIyDmnrbmnoTooaXlhYXvvJrlrZDku6PnkIbnpoHmraLlhplOQVMK5a2Q5Luj55CG55qEIGBleGVjdXRlX2NvZGVgIOW3peWFt+iiq2Jsb2NrZWTvvIhERUxFR0FURV9CTE9DS0VEX1RPT0xT77yJ77yM5Y+q6IO96K+7c2tpbGxz44CB6K+75paH5Lu244CB5omn6KGM5ZG95Luk77yM5L2G56aB5q2i5YaZTkFT5paH5Lu244CC6L+Z5piv5pyJ5oSP6K6+6K6h77yM6Ziy5q2i5a2Q5Luj55CG5rGh5p+T5YWx5Lqrc2tpbGxz5bqT44CCCgrlhpnlhaVza2lsbHPnmoTmraPnoa7mlrnlvI/vvJoKMS4g5oiR77yI5Li75a6e5L6L77yJ5pS25Yiw6JGj5ZOl5oyH5LukIOKGkiDlhplza2lsbOWIsCAvb3B0L2RhdGEvc2tpbGxzL1hYWC8KMi4g5omA5pyJ5YiG6LqrL+WtkOS7o+eQhiDkuIvmrKHor7vliLDlkIzkuIDku73mlofku7YKCiMjIOacquadpeaJqeWxleaWueWQkQoxLiAqKnNraWxsc+eJiOacrOeuoeeQhioq77ya5q+P5Liqc2tpbGzliqDniYjmnKzlj7fvvIzpgb/lhY3kuI3lkIzliIbouqvor7vliLDkuI3lkIzniYjmnKwKMi4gKipza2lsbHPlop7ph4/lkIzmraUqKu+8muenmOS5puWkhC/lrZDku6PnkIbmlrDlop5za2lsbOWQjuiHquWKqOWQjOatpeWIsOWFseS6q+ebruW9lQozLiAqKnNraWxsc+eDreWKoOi9vSoq77ya5L+u5pS5c2tpbGzlkI7ml6DpnIDph43lkK9nYXRld2F556uL5Y2z55Sf5pWICg==
+# 技能名称
+multi-instance-skills-share
+
+# 触发场景
+任何涉及多Agent实例/子代理/分身共享skills库的场景：
+- 启动新子代理/分身任务
+- 评估分身间skills一致性
+- 优化skills同步机制
+- 设计新的分身架构
+
+# 核心架构
+
+## 当前问题
+子代理(subagent)隔离上下文，不知道去哪读skills库，导致每个子代理各自为战，无法复用已有skill。
+
+## 解决方案：共享skills库
+所有实例共用同一个物理目录 `/opt/data/skills/`：
+
+```
+/opt/data/skills/           ← 共享skills库（所有实例同一物理路径）
+  ├── knowledge/            ← 知识类skills（95个）
+  ├── system/               ← 系统类skills（111个）
+  ├── workflow/             ← 工作流skills（30个）
+  ├── brain/                ← 大脑类skills（23个）
+  └── ...                   ← 其他分类
+
+主实例（PID 1）             子代理（delegate_task）         秘书处守护进程
+/hermes/gateway/run.py      /hermes/tools/delegate_tool.py  /opt/data/scripts/secretary_daemon.py
+    ↓                            ↓                              ↓
+get_skills_dir() → /opt/data/skills/ ← ← ← ← ← ← ← ← ← ← ←
+    所有进程读同一目录，天然共享
+```
+
+## 关键改动记录（2026-06-09）
+
+### 1. 子代理system prompt注入
+文件：`/opt/hermes/tools/delegate_tool.py`
+
+改动：在 `_build_child_system_prompt()` 函数里注入skills路径信息。
+
+子代理现在收到的system prompt末尾包含：
+```
+SKILLS LIBRARY PATH:
+/opt/data/skills
+Your system has a shared skills library at this path. Before starting, check if there's a relevant skill for your task:
+  1. Use skills_list() to browse available skills
+  2. Use skill_view(name='xxx') to load a specific skill and follow its instructions
+  3. Skills are organized by category (knowledge/, system/, workflow/, etc.)
+  4. Prefer using existing skills over improvising -- they encode proven workflows
+```
+
+效果：子代理知道去哪读skill，能主动调用 `skill_view()` 加载特定skill执行任务。
+
+### 2. 主实例skills路径
+路径：`/opt/data/skills/`（由 `hermes_constants.get_skills_dir()` 返回）
+配置：`config.yaml` 里 `skills.external_dirs: []`（空 = 只读内置目录）
+
+## 实例类型与skills访问
+
+| 实例类型 | 启动方式 | skills访问方式 | 备注 |
+|---------|---------|---------------|------|
+| 主实例（gateway） | hermes gateway run | get_skills_dir() → /opt/data/skills/ | 直接读 |
+| 子代理（delegate） | delegate_task tool | system prompt注入路径 + skill_view() | 2026-06-09修复 |
+| 秘书处守护进程 | Python daemon | 读 /opt/data/skills/ | 需验证是否主动用skills |
+| Ollama本地模型 | API调用 | 不直接读skills | 通过我（主实例）间接调用skill |
+
+## 共享机制原理
+NAS上所有进程共用同一个文件系统命名空间：
+- `/opt/data/` 是NAS持久化存储路径
+- 无论哪个进程（主实例/子代理/守护进程），访问 `/opt/data/skills/` 看到同一套文件
+- 无需额外同步机制，天然共享
+
+## 验证方法
+```bash
+# 1. 验证主实例能读skills
+hermes skills list
+
+# 2. 验证子代理system prompt包含skills路径
+grep -n "SKILLS LIBRARY PATH" /opt/hermes/tools/delegate_tool.py
+
+# 3. 验证语法正确
+/opt/hermes/.venv/bin/python -c "from tools.delegate_tool import _build_child_system_prompt; print('OK')"
+```
+
+## 架构补充：子代理禁止写NAS
+子代理的 `execute_code` 工具被blocked（DELEGATE_BLOCKED_TOOLS），只能读skills、读文件、执行命令，但禁止写NAS文件。这是有意设计，防止子代理污染共享skills库。
+
+写入skills的正确方式：
+1. 我（主实例）收到董哥指令 → 写skill到 /opt/data/skills/XXX/
+2. 所有分身/子代理 下次读到同一份文件
+
+## 未来扩展方向
+1. **skills版本管理**：每个skill加版本号，避免不同分身读到不同版本
+2. **skills增量同步**：秘书处/子代理新增skill后自动同步到共享目录
+3. **skills热加载**：修改skill后无需重启gateway立即生效

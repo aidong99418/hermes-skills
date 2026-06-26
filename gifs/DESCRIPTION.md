@@ -1,1 +1,3 @@
-LS0tCmRlc2NyaXB0aW9uOiBTa2lsbHMgZm9yIHNlYXJjaGluZywgZG93bmxvYWRpbmcsIGFuZCB3b3JraW5nIHdpdGggR0lGcyBhbmQgc2hvcnQtZm9ybSBhbmltYXRlZCBtZWRpYS4KLS0tCg==
+---
+description: Skills for searching, downloading, and working with GIFs and short-form animated media.
+---

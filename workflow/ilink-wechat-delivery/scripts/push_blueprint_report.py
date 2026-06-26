@@ -1,1 +1,69 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKQmx1ZXByaW50IHJlcG9ydCBwdXNoZXIg4oCUIHNlbmRzIHJlcG9ydCB0byDokaPlk6UgdmlhIGdhdGV3YXkgd2VpeGluIHBsYXRmb3JtLgrlt7Lpqozor4Hlj6/nlKjvvJoyMDI2LTA2LTExCiIiIgppbXBvcnQgYXN5bmNpbwppbXBvcnQganNvbgppbXBvcnQgc3lzCmltcG9ydCBvcwoKIyBBZGQgaGVybWVzIHRvIHBhdGggKGNyb24gZW52IGhhcyBubyBoZXJtZXNfdG9vbHMpCnN5cy5wYXRoLmluc2VydCgwLCAiL29wdC9oZXJtZXMiKQpvcy5jaGRpcigiL29wdC9oZXJtZXMiKQoKYXN5bmMgZGVmIHB1c2hfcmVwb3J0KCk6CiAgICBmcm9tIGdhdGV3YXkucGxhdGZvcm1zLndlaXhpbiBpbXBvcnQgc2VuZF93ZWl4aW5fZGlyZWN0CgogICAgIyBSZWFkIHRoZSByZXBvcnQKICAgIHJlcG9ydF9wYXRoID0gIi9vcHQvZGF0YS9jcm9uL291dHB1dC9ibHVlcHJpbnRfcmVwb3J0Lmpzb24iCiAgICB0cnk6CiAgICAgICAgd2l0aCBvcGVuKHJlcG9ydF9wYXRoKSBhcyBmOgogICAgICAgICAgICBkYXRhID0ganNvbi5sb2FkKGYpCiAgICAgICAgcmVwb3J0X3RleHQgPSBkYXRhLmdldCgicmVwb3J0IiwgIuaXoOaKpeWRiuWGheWuuSIpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcmVwb3J0X3RleHQgPSBmIuivu+WPluaKpeWRiuWksei0pToge2V9IgoKICAgICMgUmVzb2x2ZSBjaGF0X2lkCiAgICBleHRyYSwgdG9rZW4sIGNoYXRfaWQgPSB7fSwgTm9uZSwgTm9uZQoKICAgICMgUHJpb3JpdHkgMTogY2hhbm5lbF9kaXJlY3RvcnkuanNvbgogICAgdHJ5OgogICAgICAgIGNoX2RpciA9IG9zLnBhdGguZXhwYW5kdXNlcigifi8uaGVybWVzL2NoYW5uZWxfZGlyZWN0b3J5Lmpzb24iKQogICAgICAgIHdpdGggb3BlbihjaF9kaXIpIGFzIGY6CiAgICAgICAgICAgIGNkID0ganNvbi5sb2FkKGYpCiAgICAgICAgZm9yIG5hbWUsIGluZm8gaW4gY2QuaXRlbXMoKToKICAgICAgICAgICAgaWYgIndlaXhpbiIgaW4gbmFtZS5sb3dlcigpIG9yICJ3ZWNoYXQiIGluIG5hbWUubG93ZXIoKToKICAgICAgICAgICAgICAgIGNoYXRfaWQgPSBpbmZvLmdldCgiY2hhdF9pZCIpIG9yIGluZm8uZ2V0KCJpZCIpCiAgICAgICAgICAgICAgICBpZiBjaGF0X2lkOgogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHBhc3MKCiAgICAjIFByaW9yaXR5IDI6IGJvdC5qc29uIGdsb2IKICAgIGlmIG5vdCBjaGF0X2lkOgogICAgICAgIGltcG9ydCBnbG9iCiAgICAgICAgZm9yIGJvdF9jZmcgaW4gZ2xvYi5nbG9iKCIvb3B0L2RhdGEvd2VpeGluL2FjY291bnRzLypAaW0uYm90Lmpzb24iKToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMob3Blbihib3RfY2ZnKS5yZWFkKCkpCiAgICAgICAgICAgICAgICB0b2tlbiA9IGRhdGEuZ2V0KCJ0b2tlbiIpCiAgICAgICAgICAgICAgICBjaGF0X2lkID0gZGF0YS5nZXQoInVzZXJfaWQiLCAiIikuc3BsaXQoIkAiKVswXQogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgIyBQcmlvcml0eSAzOiBmaWxlaGVscGVyIChhbHdheXMgd29ya3MpCiAgICBpZiBub3QgY2hhdF9pZDoKICAgICAgICBjaGF0X2lkID0gImZpbGVoZWxwZXIiCgogICAgcmVzdWx0ID0gYXdhaXQgc2VuZF93ZWl4aW5fZGlyZWN0KAogICAgICAgIGV4dHJhPWV4dHJhLAogICAgICAgIHRva2VuPXRva2VuLAogICAgICAgIGNoYXRfaWQ9Y2hhdF9pZCwKICAgICAgICBtZXNzYWdlPXJlcG9ydF90ZXh0LAogICAgKQogICAgcHJpbnQoZiJSZXN1bHQ6IHtyZXN1bHR9IikKICAgIHJldHVybiByZXN1bHQKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBhc3luY2lvLnJ1bihwdXNoX3JlcG9ydCgpKQo=
+#!/usr/bin/env python3
+"""
+Blueprint report pusher — sends report to 董哥 via gateway weixin platform.
+已验证可用：2026-06-11
+"""
+import asyncio
+import json
+import sys
+import os
+
+# Add hermes to path (cron env has no hermes_tools)
+sys.path.insert(0, "/opt/hermes")
+os.chdir("/opt/hermes")
+
+async def push_report():
+    from gateway.platforms.weixin import send_weixin_direct
+
+    # Read the report
+    report_path = "/opt/data/cron/output/blueprint_report.json"
+    try:
+        with open(report_path) as f:
+            data = json.load(f)
+        report_text = data.get("report", "无报告内容")
+    except Exception as e:
+        report_text = f"读取报告失败: {e}"
+
+    # Resolve chat_id
+    extra, token, chat_id = {}, None, None
+
+    # Priority 1: channel_directory.json
+    try:
+        ch_dir = os.path.expanduser("~/.hermes/channel_directory.json")
+        with open(ch_dir) as f:
+            cd = json.load(f)
+        for name, info in cd.items():
+            if "weixin" in name.lower() or "wechat" in name.lower():
+                chat_id = info.get("chat_id") or info.get("id")
+                if chat_id:
+                    break
+    except Exception:
+        pass
+
+    # Priority 2: bot.json glob
+    if not chat_id:
+        import glob
+        for bot_cfg in glob.glob("/opt/data/weixin/accounts/*@im.bot.json"):
+            try:
+                data = json.loads(open(bot_cfg).read())
+                token = data.get("token")
+                chat_id = data.get("user_id", "").split("@")[0]
+                break
+            except Exception:
+                continue
+
+    # Priority 3: filehelper (always works)
+    if not chat_id:
+        chat_id = "filehelper"
+
+    result = await send_weixin_direct(
+        extra=extra,
+        token=token,
+        chat_id=chat_id,
+        message=report_text,
+    )
+    print(f"Result: {result}")
+    return result
+
+if __name__ == "__main__":
+    asyncio.run(push_report())

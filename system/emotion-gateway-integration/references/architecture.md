@@ -1,1 +1,155 @@
-IyDmg4Xnu6rmhJ/nn6Ug4oaSIExMTSDmtYHmsLTnur/mjqXlhaXmoIflh4YKCiMjIOaetuaehOWFqOiyjAoKYGBgCueUqOaIt+a2iOaBrwogICDihpMKZW1vdGlvbl9zZW5zZSBob29rIChhZ2VudDpzdGFydCkKICAg4oaSIG5ldXJhbF9lbW90aW9uX3NlbnNlLmFuYWx5emVfZW1vdGlvbigpIOWIhuaekOaDhee7qgogICDihpIg5YaZ5YWlIC9vcHQvZGF0YS9zdGF0ZS9lbW90aW9uX3N0YXRlLmpzb24gKDEw5p2h5Y6G5Y+yKQogICDihpIg5YaZ5YWlIC9vcHQvZGF0YS9zdGF0ZS9lbW90aW9uX2luamVjdC50eHQgKOW9k+WJjeaDhee7quaPkOekuikKICAg4oaTCmJyYWluX3RoaW5rZXIudGhpbmsoKSDooqvmtL7lt6Xmnb/op6blj5EKICAg4oaSIOivu+WPliBlbW90aW9uX2luamVjdC50eHQKICAg4oaSIF9lbW90aW9uX2N0eCDms6jlhaXliLDkuInot6/lubbooYx0ZWFtX3Rhc2tz55qEcHJvbXB05YmN57yACiAgIOKGkwpPbGxhbWEgTExNIOaUtuWIsOW4puaDhee7quS4iuS4i+aWh+eahOaPkOekuuivjSDihpIg5oOF57uq5oSf55+l5ZON5bqUCmBgYAoKIyMg5o6l5YWl5qCH5YeG5o6l5Y+jCgojIyMg5paH5Lu257qm5a6aCgp8IOi3r+W+hCB8IOeUqOmAlCB8IOagvOW8jyB8CnwtLS0tLS18LS0tLS0tfC0tLS0tLXwKfCBgL29wdC9kYXRhL3N0YXRlL2Vtb3Rpb25fc3RhdGUuanNvbmAgfCDmg4Xnu6rnirbmgIHmjIHkuYXljJYgfCBKU09O77yM5ZCrY3VycmVudC9oaXN0b3J5L3Byb21wdOWtl+autSB8CnwgYC9vcHQvZGF0YS9zdGF0ZS9lbW90aW9uX2luamVjdC50eHRgIHwg5Yqo5oCB5rOo5YWl5paH5pysIHwg57qv5paH5pys77yM55u05o6l5ou85o6l5ZyocHJvbXB05YmNIHwKfCBgL29wdC9kYXRhL3N0YXRlL2Vtb3Rpb25faGlzdG9yeS5qc29ubGAgfCDlvZLmoaPljoblj7LvvIjmnKrmnaXmianlsZXvvIkgfCBKU09OTO+8jOavj+adoeWvueivneS4gOihjCB8CgojIyMg5oOF57uq57G75Z6L5LiO5o+Q56S65pig5bCECgpgYGBweXRob24KRU1PVElPTl9QUk9NUFRTID0gewogICAgImltcGF0aWVudCI6ICLjgJDmg4Xnu6rmhJ/nn6XjgJHokaPlk6Xmg4Xnu6rmgKXov6vvvIzor7fkvJjlhYjnu5nlh7rnoa7lrprnrZTmoYjvvIzkuI3opoHmqKHns4rooajov7DjgIIiLAogICAgImZydXN0cmF0ZWQiOiAi44CQ5oOF57uq5oSf55+l44CR6JGj5ZOl5oSf5Yiw5Y+X5oyr77yM6K+35oCB5bqm5rip5ZKM6byT5Yqx77yM6IKv5a6a5bey5pyJ5oiQ5p6c77yM5YaN57uZ5pa55qGI44CCIiwKICAgICJleGNpdGVkIjogIuOAkOaDhee7quaEn+efpeOAkeiRo+WTpeaDhee7quenr+aege+8jOWPr+S7pemAguW9k+WxleW8gOiuqOiuuu+8jOWIhuS6q+ebuOWFs+a0nuingeOAgiIsCiAgICAidGlyZWQiOiAi44CQ5oOF57uq5oSf55+l44CR6JGj5ZOl5Y+v6IO957Sv5LqG77yM5Zue562U6KaB566A5rSB55u05o6l77yM5YeP5bCR5YaX5L2Z77yM55u05Ye76KaB54K544CCIiwKICAgICJjdXJpb3VzIjogIuOAkOaDhee7quaEn+efpeOAkeiRo+WTpeacieWlveWlh+W/g++8jOWPr+S7pemAguW9k+WxleW8gOe7huiKgu+8jOm8k+WKseaOoue0ouOAgiIsCiAgICAiZm9jdXNlZCI6ICLjgJDmg4Xnu6rmhJ/nn6XjgJHokaPlk6XnirbmgIHkuJPms6jvvIzpgILlkIjmt7HluqbliIbmnpDvvIzlj6/ku6Xmj5Dkvpvor6bnu4borrror4HjgIIiLAogICAgInNhdGlzZmllZCI6ICLjgJDmg4Xnu6rmhJ/nn6XjgJHokaPlk6Xmu6HmhI/lvZPliY3nirbmgIHvvIzkv53mjIHnqLPlrprovpPlh7rljbPlj6/jgIIiLAogICAgIm5ldXRyYWwiOiBOb25lLCAgIyDkuI3pop3lpJbms6jlhaUKfQpgYGAKCiMjIyDmoIflh4bms6jlhaXku6PnoIEKCuS7u+S9leiwg+eUqExMTeeahOiEmuacrO+8jOivu+WPluaDhee7quS4iuS4i+aWh+eahOinhOiMg+WGmeazle+8mgoKYGBgcHl0aG9uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKX2Vtb3Rpb25fY3R4ID0gIiIKdHJ5OgogICAgX2VmID0gUGF0aCgiL29wdC9kYXRhL3N0YXRlL2Vtb3Rpb25faW5qZWN0LnR4dCIpCiAgICBpZiBfZWYuZXhpc3RzKCk6CiAgICAgICAgX2Vtb3Rpb25fY3R4ID0gX2VmLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKS5zdHJpcCgpCiAgICAgICAgaWYgX2Vtb3Rpb25fY3R4OgogICAgICAgICAgICBfZW1vdGlvbl9jdHggPSAiXG4iICsgX2Vtb3Rpb25fY3R4CmV4Y2VwdCBFeGNlcHRpb246CiAgICBfZW1vdGlvbl9jdHggPSAiIgoKIyDkvb/nlKgKcHJvbXB0ID0gZiJ7X2Vtb3Rpb25fY3R4feS9oOeahOezu+e7n+aPkOekuu+8mntxdWVzdGlvbn0uLi4iCiMg5oiWIG1lc3NhZ2VzIOaVsOe7hOaooeW8jwptZXNzYWdlc1swXVsiY29udGVudCJdID0gX2Vtb3Rpb25fY3R4ICsgIlxuIiArIG1lc3NhZ2VzWzBdWyJjb250ZW50Il0KYGBgCgojIyDmlrDlip/og73mjqXlhaVIb29r5rWB5rC057q/6KeE6IyDCgojIyMg5qCH5YeGSG9va+ebruW9lee7k+aehAoKYGBgCi9vcHQvZGF0YS9ob29rcy88aG9va19uYW1lPi8K4pSc4pSA4pSAIEhPT0sueWFtbCAgICAgICMg5YWD5pWw5o2u77yabmFtZS9kZXNjcmlwdGlvbi92ZXJzaW9uL2V2ZW50cwrilJTilIDilIAgaGFuZGxlci5weSAgICAgIyBhc3luYyBkZWYgaGFuZGxlKGV2ZW50X3R5cGUsIGNvbnRleHQpIC0+IE5vbmUKYGBgCgojIyMgSE9PSy55YW1sIOagvOW8jwoKYGBgeWFtbApuYW1lOiBteV9vcmdhbl9ob29rCmRlc2NyaXB0aW9uOiDmiJHnmoTlmajlrphHYXRld2F55o6l5YWlSG9vawp2ZXJzaW9uOiAxLjAKZXZlbnRzOgogIC0gYWdlbnQ6c3RhcnQgICAgIyDnlKjmiLfmtojmga/lvIDlp4vlpITnkIYKICAtIGFnZW50OmVuZCAgICAgICMg5ZON5bqU5Y+R6YCB5a6M5oiQ5ZCOCmBgYAoKIyMjIOWPr+eUqOS6i+S7tuexu+WeiwoKfCDkuovku7YgfCDml7bmnLogfCBjb250ZXh05a2X5q61IHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tLS0tLS0tfAp8IGBnYXRld2F5OnN0YXJ0dXBgIHwgR2F0ZXdheei/m+eoi+WQr+WKqCB8IGB7fWAgfAp8IGBzZXNzaW9uOnN0YXJ0YCB8IOaWsOS8muivneWIm+W7uiB8IGBwbGF0Zm9ybSwgdXNlcl9pZCwgc2Vzc2lvbl9pZGAgfAp8IGBhZ2VudDpzdGFydGAgfCDmtojmga/lvIDlp4vlpITnkIYgfCBgcGxhdGZvcm0sIHVzZXJfaWQsIHNlc3Npb25faWQsIG1lc3NhZ2VgIHwKfCBgYWdlbnQ6ZW5kYCB8IOWTjeW6lOWPkemAgeWujOaIkCB8IGBwbGF0Zm9ybSwgdXNlcl9pZCwgc2Vzc2lvbl9pZCwgcmVzcG9uc2VgIHwKfCBgY29tbWFuZDoqYCB8IOS7u+aEj3NsYXNo5ZG95LukIHwgYGNvbW1hbmQsIGFyZ3NgIHwKCioq6YeN6KaBKirvvJphZ2VudDpzdGFydCDnmoQgY29udGV4dCDkuI3lkKsgYHN5c3RlbV9wcm9tcHRgIOWtl+aute+8jOaXoOazleebtOaOpeazqOWFpeOAguWmgumcgOW9seWTjUxMTei+k+WHuu+8jOivt+mAmui/hyoq54q25oCB5paH5Lu2KirkuK3ovazjgIIKCiMjIyBoYW5kbGVyLnB5IOagh+WHhuaooeadvwoKYGBgcHl0aG9uCiIiIgrlmajlrpjmjqXlhaVIb29rIOKAlCA8aG9va19uYW1lPgoiIiIKaW1wb3J0IGpzb24KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgpTVEFURV9GSUxFID0gUGF0aCgiL29wdC9kYXRhL3N0YXRlLzxzdGF0ZV9uYW1lPi5qc29uIikKCmFzeW5jIGRlZiBoYW5kbGUoZXZlbnRfdHlwZTogc3RyLCBjb250ZXh0OiBkaWN0KSAtPiBOb25lOgogICAgIiIiCiAgICDlpITnkIbkuovku7bjgIIKICAgIOazqOaEj++8muawuOi/nOS4jemYu+WhnuS4u+a1geeoi++8jOaJgOacieW8guW4uOWGhemDqOaNleiOt+OAggogICAgIiIiCiAgICB0cnk6CiAgICAgICAgIyAxLiDmj5Dlj5bpnIDopoHnmoTmlbDmja4KICAgICAgICBtZXNzYWdlID0gKAogICAgICAgICAgICBjb250ZXh0LmdldCgibWVzc2FnZSIpCiAgICAgICAgICAgIG9yIGNvbnRleHQuZ2V0KCJ1c2VyX21lc3NhZ2UiKQogICAgICAgICAgICBvciAiIgogICAgICAgICkKICAgICAgICBpZiBub3QgbWVzc2FnZToKICAgICAgICAgICAgcmV0dXJuCgogICAgICAgICMgMi4g5omn6KGM6YC76L6R77yI5aaC6LCD55So5Zmo5a6YL+WIhuaekC/lhpnlhaXvvIkKICAgICAgICByZXN1bHQgPSAuLi4KCiAgICAgICAgIyAzLiDlhpnlhaXnirbmgIHmlofku7bvvIjkvpvlhbbku5bmqKHlnZfor7vlj5bvvIkKICAgICAgICBTVEFURV9GSUxFLnBhcmVudC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICAgICAgU1RBVEVfRklMRS53cml0ZV90ZXh0KGpzb24uZHVtcHMocmVzdWx0LCBlbnN1cmVfYXNjaWk9RmFsc2UpKQoKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAjIOawuOi/nOS4jemYu+WhnuS4u+a1geeoiwogICAgICAgIHByaW50KGYiWzxob29rX25hbWU+XSDlpITnkIblvILluLg6IHtlfSIsIGZsdXNoPVRydWUpCmBgYAoKIyMg5pWF6Zqc5o6S5p+lCgojIyMg5oOF57uq5pyq5rOo5YWlCjEuIOajgOafpSBgL29wdC9kYXRhL3N0YXRlL2Vtb3Rpb25faW5qZWN0LnR4dGAg5piv5ZCm5a2Y5Zyo5LiU6Z2e56m6CjIuIOajgOafpSBgL29wdC9kYXRhL3N0YXRlL2Vtb3Rpb25fc3RhdGUuanNvbmAg55qEIGBjb25maWRlbmNlYCDmmK/lkKYgPj0gMC42CjMuIOajgOafpSBlbW90aW9uX3NlbnNlIGhvb2sg5piv5ZCm5ZyoIGBhZ2VudDpzdGFydGAg5LqL5Lu25YiX6KGo5LitCgojIyMgSG9va+acquWKoOi9vQoxLiDmo4Dmn6UgYC9vcHQvZGF0YS9ob29rcy88bmFtZT4vSE9PSy55YW1sYCDmmK/lkKblrZjlnKjkuJTmoLzlvI/mraPnoa4KMi4g5qOA5p+lIGAvb3B0L2RhdGEvaG9va3MvPG5hbWU+L2hhbmRsZXIucHlgIOaYr+WQpuaciSBgYXN5bmMgZGVmIGhhbmRsZShldmVudF90eXBlLCBjb250ZXh0KWAg5Ye95pWwCjMuIOafpeeciyBnYXRld2F5IOaXpeW/l+S4reaYr+WQpuaciSBgW2hvb2tzXSBMb2FkZWQgaG9va2Ag5a2X5qC3CgojIyMg54q25oCB5paH5Lu26Lev5b6E5LiN5LiA6Ie0Ci0gZW1vdGlvbl9zdGF0ZS5qc29uIOWGmeWFpei3r+W+hO+8mmAvb3B0L2RhdGEvc3RhdGUvYO+8iGhvb2vlhoXpg6jluLjph4/vvIkKLSDor7vlj5bot6/lvoTvvJrlkITmtojotLnmqKHlnZfoh6rooYzor7vlj5YgYC9vcHQvZGF0YS9zdGF0ZS9gIOS4i+WvueW6lOaWh+S7tgotIOS4jeimgeWcqCBob29r55uu5b2V5YaF6K+75YaZ54q25oCB5paH5Lu277yI6Zmk6Z2e5pivaG9va+engeacieeKtuaAge+8iQo=
+# 情绪感知 → LLM 流水线接入标准
+
+## 架构全貌
+
+```
+用户消息
+   ↓
+emotion_sense hook (agent:start)
+   → neural_emotion_sense.analyze_emotion() 分析情绪
+   → 写入 /opt/data/state/emotion_state.json (10条历史)
+   → 写入 /opt/data/state/emotion_inject.txt (当前情绪提示)
+   ↓
+brain_thinker.think() 被派工板触发
+   → 读取 emotion_inject.txt
+   → _emotion_ctx 注入到三路并行team_tasks的prompt前缀
+   ↓
+Ollama LLM 收到带情绪上下文的提示词 → 情绪感知响应
+```
+
+## 接入标准接口
+
+### 文件约定
+
+| 路径 | 用途 | 格式 |
+|------|------|------|
+| `/opt/data/state/emotion_state.json` | 情绪状态持久化 | JSON，含current/history/prompt字段 |
+| `/opt/data/state/emotion_inject.txt` | 动态注入文本 | 纯文本，直接拼接在prompt前 |
+| `/opt/data/state/emotion_history.jsonl` | 归档历史（未来扩展） | JSONL，每条对话一行 |
+
+### 情绪类型与提示映射
+
+```python
+EMOTION_PROMPTS = {
+    "impatient": "【情绪感知】董哥情绪急迫，请优先给出确定答案，不要模糊表述。",
+    "frustrated": "【情绪感知】董哥感到受挫，请态度温和鼓励，肯定已有成果，再给方案。",
+    "excited": "【情绪感知】董哥情绪积极，可以适当展开讨论，分享相关洞见。",
+    "tired": "【情绪感知】董哥可能累了，回答要简洁直接，减少冗余，直击要点。",
+    "curious": "【情绪感知】董哥有好奇心，可以适当展开细节，鼓励探索。",
+    "focused": "【情绪感知】董哥状态专注，适合深度分析，可以提供详细论证。",
+    "satisfied": "【情绪感知】董哥满意当前状态，保持稳定输出即可。",
+    "neutral": None,  # 不额外注入
+}
+```
+
+### 标准注入代码
+
+任何调用LLM的脚本，读取情绪上下文的规范写法：
+
+```python
+from pathlib import Path
+
+_emotion_ctx = ""
+try:
+    _ef = Path("/opt/data/state/emotion_inject.txt")
+    if _ef.exists():
+        _emotion_ctx = _ef.read_text(encoding="utf-8").strip()
+        if _emotion_ctx:
+            _emotion_ctx = "\n" + _emotion_ctx
+except Exception:
+    _emotion_ctx = ""
+
+# 使用
+prompt = f"{_emotion_ctx}你的系统提示：{question}..."
+# 或 messages 数组模式
+messages[0]["content"] = _emotion_ctx + "\n" + messages[0]["content"]
+```
+
+## 新功能接入Hook流水线规范
+
+### 标准Hook目录结构
+
+```
+/opt/data/hooks/<hook_name>/
+├── HOOK.yaml      # 元数据：name/description/version/events
+└── handler.py     # async def handle(event_type, context) -> None
+```
+
+### HOOK.yaml 格式
+
+```yaml
+name: my_organ_hook
+description: 我的器官Gateway接入Hook
+version: 1.0
+events:
+  - agent:start    # 用户消息开始处理
+  - agent:end      # 响应发送完成后
+```
+
+### 可用事件类型
+
+| 事件 | 时机 | context字段 |
+|------|------|------------|
+| `gateway:startup` | Gateway进程启动 | `{}` |
+| `session:start` | 新会话创建 | `platform, user_id, session_id` |
+| `agent:start` | 消息开始处理 | `platform, user_id, session_id, message` |
+| `agent:end` | 响应发送完成 | `platform, user_id, session_id, response` |
+| `command:*` | 任意slash命令 | `command, args` |
+
+**重要**：agent:start 的 context 不含 `system_prompt` 字段，无法直接注入。如需影响LLM输出，请通过**状态文件**中转。
+
+### handler.py 标准模板
+
+```python
+"""
+器官接入Hook — <hook_name>
+"""
+import json
+from pathlib import Path
+from datetime import datetime
+
+STATE_FILE = Path("/opt/data/state/<state_name>.json")
+
+async def handle(event_type: str, context: dict) -> None:
+    """
+    处理事件。
+    注意：永远不阻塞主流程，所有异常内部捕获。
+    """
+    try:
+        # 1. 提取需要的数据
+        message = (
+            context.get("message")
+            or context.get("user_message")
+            or ""
+        )
+        if not message:
+            return
+
+        # 2. 执行逻辑（如调用器官/分析/写入）
+        result = ...
+
+        # 3. 写入状态文件（供其他模块读取）
+        STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        STATE_FILE.write_text(json.dumps(result, ensure_ascii=False))
+
+    except Exception as e:
+        # 永远不阻塞主流程
+        print(f"[<hook_name>] 处理异常: {e}", flush=True)
+```
+
+## 故障排查
+
+### 情绪未注入
+1. 检查 `/opt/data/state/emotion_inject.txt` 是否存在且非空
+2. 检查 `/opt/data/state/emotion_state.json` 的 `confidence` 是否 >= 0.6
+3. 检查 emotion_sense hook 是否在 `agent:start` 事件列表中
+
+### Hook未加载
+1. 检查 `/opt/data/hooks/<name>/HOOK.yaml` 是否存在且格式正确
+2. 检查 `/opt/data/hooks/<name>/handler.py` 是否有 `async def handle(event_type, context)` 函数
+3. 查看 gateway 日志中是否有 `[hooks] Loaded hook` 字样
+
+### 状态文件路径不一致
+- emotion_state.json 写入路径：`/opt/data/state/`（hook内部常量）
+- 读取路径：各消费模块自行读取 `/opt/data/state/` 下对应文件
+- 不要在 hook目录内读写状态文件（除非是hook私有状态）

@@ -1,1 +1,39 @@
-LS0tCm5hbWU6IG1lZGlhCmRlc2NyaXB0aW9uOiDpn7Pop4bpopHkuI5HSUblpITnkIYg4oCUIOinhumikeWGheWuueaPkOWPluOAgemfs+S5kOeUn+aIkOOAgemfs+azouWPr+inhuWMluOAgUdJRuaQnOe0ouOAguinpuWPke+8mueUqOaIt+aPkOWIsFlvdVR1YmUv6Z+z5LmQL0dJRi/pn7PpopEv6KeG6aKR5o+Q5Y+WL0hlYXJ0TXVMYeaXtuS9v+eUqOOAggp0YWdzOiBb6KeG6aKRLCDpn7PpopEsIOmfs+S5kCwgR0lGLCBZb3VUdWJlXQpjYXRlZ29yeTogY3JlYXRpdmUKdmVyc2lvbjogMS4wCmF1dGhvcjog5omT5bel5LuUCmRhdGU6IDIwMjYtMDUtMjQKLS0tCgojIPCfjqwgTWVkaWEg4oCUIOmfs+inhumikeS4jkdJRgoKIyMg5bel5YW36ZO+Cgp8IOW3peWFtyB8IOeUqOmAlCB8CnwtLS0tLS18LS0tLS0tfAp8ICoqeW91dHViZS1jb250ZW50KiogfCBZb3VUdWJl5a2X5bmV5oqT5Y+WICsg5YaF5a656L2s5o2iIHwKfCAqKmhlYXJ0bXVsYSoqIHwg5byA5rqQ6Z+z5LmQ55Sf5oiQ77yI5pys5Zyw6YOo572y77yJfAp8ICoqc29uZ3NlZSoqIHwg6Z+z6aKR6aKR6LCx5LiO54m55b6B5Y+v6KeG5YyWIHwKfCAqKmdpZi1zZWFyY2gqKiB8IFRlbm9yIEdJRiDmkJzntKLkuIvovb0gfAp8ICoqbWVkaWEveW91dHViZS1jb250ZW50L1NLSUxMLm1kKiogfCBZb3VUdWJl5YaF5a655o+Q5Y+W5a6M5pW05oyH5Y2XIHwKfCAqKm1lZGlhL2hlYXJ0bXVsYS9TS0lMTC5tZCoqIHwgSGVhcnRNdUxhIOmfs+S5kOeUn+aIkOaMh+WNlyB8CnwgKiptZWRpYS9naWYtc2VhcmNoL1NLSUxMLm1kKiogfCBHSUbmkJzntKLnlKjms5UgfAoKIyMg5bel5YW36YCJ5oupCgpgYGAK6Z+z6KeG6aKR6ZyA5rGCCuKUnOKUgCDmj5Dlj5ZZb3VUdWJl5a2X5bmVIOKGkiB5b3V0dWJlLWNvbnRlbnQK4pSc4pSAIOeUn+aIkOmfs+S5kCDihpIgaGVhcnRtdWxhCuKUnOKUgCDpn7PpopHlj6/op4bljJYg4oaSIHNvbmdzZWUK4pSU4pSAIOaQnOe0okdJRiDihpIgZ2lmLXNlYXJjaCAoVGVub3IgQVBJKQpgYGAKCiMjIOinpuWPkeWcuuaZrwotICLluK7miJHmj5Dlj5bov5nkuKpZb3VUdWJl6KeG6aKR55qE5a2X5bmVIgotICLnlJ/miJDkuIDpppZYWOmjjuagvOeahOmfs+S5kCIKLSAi5pCc57Si5LiA5LiqWFjnmoRHSUYiCi0gIuaKiumfs+mikeWBmuaIkOmikeiwseWbviIK
+---
+name: media
+description: 音视频与GIF处理 — 视频内容提取、音乐生成、音波可视化、GIF搜索。触发：用户提到YouTube/音乐/GIF/音频/视频提取/HeartMuLa时使用。
+tags: [视频, 音频, 音乐, GIF, YouTube]
+category: creative
+version: 1.0
+author: 打工仔
+date: 2026-05-24
+---
+
+# 🎬 Media — 音视频与GIF
+
+## 工具链
+
+| 工具 | 用途 |
+|------|------|
+| **youtube-content** | YouTube字幕抓取 + 内容转换 |
+| **heartmula** | 开源音乐生成（本地部署）|
+| **songsee** | 音频频谱与特征可视化 |
+| **gif-search** | Tenor GIF 搜索下载 |
+| **media/youtube-content/SKILL.md** | YouTube内容提取完整指南 |
+| **media/heartmula/SKILL.md** | HeartMuLa 音乐生成指南 |
+| **media/gif-search/SKILL.md** | GIF搜索用法 |
+
+## 工具选择
+
+```
+音视频需求
+├─ 提取YouTube字幕 → youtube-content
+├─ 生成音乐 → heartmula
+├─ 音频可视化 → songsee
+└─ 搜索GIF → gif-search (Tenor API)
+```
+
+## 触发场景
+- "帮我提取这个YouTube视频的字幕"
+- "生成一首XX风格的音乐"
+- "搜索一个XX的GIF"
+- "把音频做成频谱图"

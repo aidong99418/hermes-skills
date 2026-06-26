@@ -1,1 +1,7 @@
-Lmh1Yi8KLnVzYWdlLmpzb24KLnVzYWdlLmpzb24ubG9jawouYnVuZGxlZF9tYW5pZmVzdAouY3VyYXRvcl9zdGF0ZQoqLnB5YwpfX3B5Y2FjaGVfXy8K
+.hub/
+.usage.json
+.usage.json.lock
+.bundled_manifest
+.curator_state
+*.pyc
+__pycache__/
